@@ -1,0 +1,31 @@
+{
+	"name": "@diegofrayo/bets",
+	"version": "1.0.0",
+	"private": true,
+	"author": "@diegofrayo",
+	"license": "ISC",
+	"scripts": {
+		"script:browser-extension": "ts-node src/scripts/browser-extension/index.ts",
+		"script:browser-extension:bundler": "node ./src/scripts/browser-extension/config/esbuild.mjs",
+		"script:browser-extension:bundler:watch": "node --watch ./src/scripts/browser-extension/config/esbuild.mjs",
+		"script:predictions": "ts-node src/scripts/predictions/index.ts",
+		"minify": "minify-all-js src/scripts/predictions/data/raw -j",
+		"docs:avoid-type-checking": "ts-node src/scripts/bets/index.ts --transpileOnly"
+	},
+	"dependencies": {
+		"axios": "^1.6.8",
+		"dayjs": "^1.11.11",
+		"js-convert-case": "^4.2.0",
+		"jsdom": "^24.0.0",
+		"prettier": "^3.2.5"
+	},
+	"devDependencies": {
+		"@types/jsdom": "^21.1.6",
+		"@types/node": "^20.5.6",
+		"esbuild": "^0.20.1",
+		"esbuild-plugin-tsc": "^0.4.0",
+		"minify-all-js": "^0.1.9",
+		"ts-node": "^10.9.1",
+		"typescript": "^5.2.2"
+	}
+}

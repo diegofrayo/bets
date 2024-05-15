@@ -1,0 +1,50 @@
+{
+	"ts-node": {
+		"esm": true,
+		"experimentalResolver": true,
+		"experimentalSpecifierResolution": "node"
+	},
+	"compilerOptions": {
+		// Type-checking
+		"alwaysStrict": true,
+		"strict": true,
+		"strictNullChecks": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"useUnknownInCatchVariables": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
+		"exactOptionalPropertyTypes": true,
+		"noFallthroughCasesInSwitch": true,
+		"noImplicitReturns": false,
+		"noPropertyAccessFromIndexSignature": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+
+		// Modules
+		"module": "commonjs",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+
+		// JavaScript support
+		"allowJs": true,
+		"checkJs": true,
+
+		// Language and Environment
+		"target": "es2017",
+
+		// Completeness
+		"skipLibCheck": true,
+
+		// Emit
+		"noEmit": true,
+
+		// Interop Constraints
+		"esModuleInterop": true,
+		"forceConsistentCasingInFileNames": true,
+		"isolatedModules": true,
+		"incremental": true
+	},
+	"include": ["src/**/*.ts"],
+	"exclude": ["node_modules"]
+}
