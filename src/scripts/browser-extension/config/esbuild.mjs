@@ -2,7 +2,7 @@ import * as esbuild from "esbuild";
 import esbuildPluginTsc from "esbuild-plugin-tsc";
 
 esbuild.build({
-	entryPoints: ["src/scripts/bets/index.ts"],
+	entryPoints: ["src/scripts/browser-extension/index.ts"],
 	outfile: "../diegofrayo-chrome-extension/src/lib/bets.js",
 	bundle: true,
 	target: "esnext",

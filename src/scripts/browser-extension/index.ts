@@ -10,8 +10,8 @@ export const BetsService = {
 			config.betHouseName === "rushbet"
 				? new Rushbet()
 				: config.betHouseName === "wplay"
-				? new WPlay()
-				: new Betplay(),
+					? new WPlay()
+					: new Betplay(),
 		);
 		const bets = BetHouse.extractBetsData(BetHouse.parseHTML(domHTML), config);
 
@@ -20,11 +20,11 @@ export const BetsService = {
 };
 
 /*
-// npm run script:bets
+// npm run script:browser-extension
 function main() {
 	try {
 		const BetHouse = new BetHouseClass(new Betplay());
-		const htmlTemplate = readFile("./src/scripts/bets/templates/betplay.html");
+		const htmlTemplate = readFile("./src/scripts/browser-extension/templates/betplay.html");
 
 		const bets = BetHouse.extractBetsData(BetHouse.parseHTML(htmlTemplate), {
 			betHouseName: "betplay",

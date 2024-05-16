@@ -22,8 +22,8 @@ async function main() {
 
 	let requestsCounter = 0;
 	const dates = generateDates(
-		// { date: "2024-05-17T00:00:00", exact: true },
-		"today",
+		// { date: "2024-05-20T00:00:00", exact: true },
+		"yesterday",
 	);
 
 	for (const date of dates) {
