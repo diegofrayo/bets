@@ -3,54 +3,114 @@ import path from "path";
 
 import v from "../v";
 
-export function writeFile(filePath: string, data: unknown) {
-	prepareFilePathFolder(filePath);
-	fs.writeFileSync(filePath, typeof data === "string" ? data : JSON.stringify(data));
+export function writeFile(path: string, content: unknown) {
+	createOutputFolder(path);
+	fs.writeFileSync(path, typeof content === "string" ? content : JSON.stringify(content));
 }
 
-export function readFile(filePath: string) {
-	return fs.readFileSync(filePath).toString().trimEnd();
+export function readFile(path: string) {
+	return fs.readFileSync(path).toString().trimEnd();
 }
 
 export function copyFolder(sourcePath: string, targetPath: string) {
-	const targetFolder = path.resolve(targetPath, path.basename(sourcePath));
+	if (!isDirectory(sourcePath)) return;
 
-	if (!fs.existsSync(targetFolder)) {
-		fs.mkdirSync(targetFolder, { recursive: true });
-	}
+	const targetFolderPath = path.resolve(targetPath, path.basename(sourcePath));
+	createOutputFolder(targetFolderPath);
 
-	if (fs.lstatSync(sourcePath).isDirectory()) {
-		const files = fs.readdirSync(sourcePath);
-		files.forEach((fileName) => {
-			const filePath = path.resolve(sourcePath, fileName);
+	fs.readdirSync(sourcePath).forEach((fileName) => {
+		const filePath = path.resolve(sourcePath, fileName);
 
-			if (fs.lstatSync(filePath).isDirectory()) {
-				copyFolder(filePath, targetFolder);
-			} else {
-				copyFile(filePath, { outputFolderPath: targetFolder });
-			}
-		});
-	}
+		if (isDirectory(filePath)) {
+			copyFolder(filePath, targetPath);
+		} else {
+			copyFile(filePath, { outputFolderPath: targetFolderPath });
+		}
+	});
 }
 
 export function copyFile(
-	filePath: string,
+	sourcePath: string,
 	opts: { outputFolderPath: string; outputFileName?: string },
 ) {
-	prepareFilePathFolder(opts.outputFolderPath, true);
+	createOutputFolder(opts.outputFolderPath, { isDirectory: true });
 
 	fs.copyFileSync(
-		filePath,
-		path.resolve(opts.outputFolderPath, opts.outputFileName || path.basename(filePath)),
+		sourcePath,
+		path.resolve(opts.outputFolderPath, opts.outputFileName || path.basename(sourcePath)),
 	);
 }
 
+export function createFolder(outputFolderPath: string) {
+	fs.mkdirSync(outputFolderPath, { recursive: true });
+}
+
+export function fileExists(sourcePath: string) {
+	return fs.existsSync(sourcePath);
+}
+
+export function renameFile(
+	currentFilePath: string,
+	opts: { newFilePath?: string; newFileName: string },
+) {
+	if (opts.newFilePath) {
+		createOutputFolder(opts.newFilePath, { isDirectory: true });
+		fs.renameSync(currentFilePath, path.resolve(opts.newFilePath, opts.newFileName));
+	} else {
+		fs.renameSync(currentFilePath, path.resolve(path.dirname(currentFilePath), opts.newFileName));
+	}
+}
+
+export function isMediaFile(extension: string) {
+	return isImageFile(extension) || ["heic", "mp4", "mov"].includes(extension.toLowerCase());
+}
+
+export function isImageFile(extension: string) {
+	return ["jpg", "jpeg", "png", "gif", "webp", "avif"].includes(extension.toLowerCase());
+}
+
+export function isDirectory(sourcePath: string) {
+	return fs.lstatSync(sourcePath).isDirectory();
+}
+
+export function createOutputFolder(outputPath: string, opts?: { isDirectory?: boolean }) {
+	const folderPath = opts?.isDirectory ? outputPath : getParentFolderPath(outputPath);
+
+	if (!fileExists(folderPath)) {
+		createFolder(folderPath);
+	}
+}
+
+export function deleteFolder(folderPath: string) {
+	fs.rmSync(folderPath, { recursive: true, force: true });
+}
+
+export function getRelativeOutputPath({
+	sourcePath,
+	sourcePathRootFolder,
+	outputFolderPath,
+}: {
+	sourcePath: string;
+	sourcePathRootFolder: string;
+	outputFolderPath: string;
+}) {
+	const result = getParentFolderPath(
+		path.join(outputFolderPath, sourcePath.replace(sourcePathRootFolder, "")),
+	);
+
+	return result;
+}
+
+export function getParentFolderPath(sourcePath: string) {
+	return path.dirname(sourcePath);
+}
+
 export type T_CustomFile = {
-	filePath: string;
-	fileName: string;
+	path: string;
+	name: string;
 	baseName: string;
-	stats: fs.Stats;
 	ext: string;
+	stats: fs.Stats;
 	isDirectory: boolean;
 	parentFolderPath: string;
 	parentFolderName: string;
@@ -90,22 +150,22 @@ export function readFolderFiles(
 	opts?: T_ReadFolderFilesOpts,
 ): T_CustomFile[] {
 	return fs.readdirSync(sourceFolderPath).reduce((result: T_CustomFile[], fileName) => {
-		const filePath = path.resolve(sourceFolderPath, fileName);
-		const stats = fs.statSync(filePath);
-		const { ext, name } = path.parse(filePath);
+		const sourcePath = path.resolve(sourceFolderPath, fileName);
+		const stats = fs.statSync(sourcePath);
+		const { ext, name } = path.parse(sourcePath);
 		const file = {
-			filePath,
-			fileName,
+			path: sourcePath,
+			name: fileName,
 			baseName: name,
-			stats,
 			ext: ext.toLowerCase().slice(1),
+			stats,
 			isDirectory: stats.isDirectory(),
-			parentFolderPath: path.dirname(filePath),
-			parentFolderName: path.basename(path.dirname(filePath)),
+			parentFolderPath: getParentFolderPath(sourcePath),
+			parentFolderName: path.basename(getParentFolderPath(sourcePath)),
 		};
 
 		if (opts?.recursive && file.isDirectory) {
-			return [...result, ...readFolderFiles(file.filePath, opts)];
+			return [...result, ...readFolderFiles(file.path, opts)];
 		}
 
 		if (
@@ -120,46 +180,4 @@ export function readFolderFiles(
 
 		return result;
 	}, []);
-}
-
-export function createFolder(outputFolderPath: string) {
-	fs.mkdirSync(outputFolderPath, { recursive: true });
-}
-
-export function fileExists(filePath: string) {
-	return fs.existsSync(filePath);
-}
-
-export function renameFile(
-	currentFilePath: string,
-	opts: { newFilePath?: string; newFileName: string },
-) {
-	if (opts.newFilePath) {
-		prepareFilePathFolder(opts.newFilePath, true);
-		fs.renameSync(currentFilePath, path.resolve(opts.newFilePath, opts.newFileName));
-	} else if (opts.newFileName) {
-		fs.renameSync(currentFilePath, path.resolve(path.dirname(currentFilePath), opts.newFileName));
-	} else {
-		throw new Error("Wrong 'opts' param passed in 'renameFile' function");
-	}
-}
-
-export function isMediaFile(extension: string) {
-	return isImageFile(extension) || ["heic", "mp4", "mov"].includes(extension.toLowerCase());
-}
-
-export function isImageFile(extension: string) {
-	return ["jpg", "jpeg", "png", "gif", "webp", "avif"].includes(extension.toLowerCase());
-}
-
-export function prepareFilePathFolder(filePath: string, isDirectory?: boolean) {
-	const folderPath = isDirectory ? filePath : path.dirname(filePath);
-
-	if (!fs.existsSync(folderPath)) {
-		fs.mkdirSync(folderPath, { recursive: true });
-	}
-}
-
-export function deleteFolder(folderPath: string) {
-	fs.rmSync(folderPath, { recursive: true, force: true });
 }
