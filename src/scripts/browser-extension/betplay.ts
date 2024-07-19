@@ -35,11 +35,11 @@ class Betplay implements I_BetHouse {
 	}
 
 	getBetStatus(betElement: Element) {
-		const betStatus = getTextContent(
-			betElement.querySelector(this.COMMON_SELECTORS.BET_STATUS),
-		).toUpperCase();
+		const betStatus = getTextContent(betElement.querySelector(this.COMMON_SELECTORS.BET_STATUS))
+			.toUpperCase()
+			.replace("GANADAS", "GANADA");
 
-		if (betStatus === "GANADA" || betStatus === "PERDIDA") {
+		if (betStatus === "GANADA" || betStatus === "PERDIDA" || betStatus === "NULA") {
 			return betStatus;
 		}
 
@@ -113,8 +113,6 @@ class Betplay implements I_BetHouse {
 	}
 
 	getBetQuota(betType: T_Bet["type"], betElement: Element) {
-		// TODO: Refactor getTextContent uses
-		// TODO: Issue getting Doble bets quota
 		return Number(
 			getTextContent(
 				betElement.querySelector(
@@ -122,7 +120,9 @@ class Betplay implements I_BetHouse {
 						? this.MULTIPLE_BETS_SELECTORS.BET_QUOTA
 						: this.SIMPLE_BETS_SELECTORS.BET_QUOTA,
 				),
-			),
+			)
+				.replace("(", "")
+				.replace(")", ""),
 		);
 	}
 

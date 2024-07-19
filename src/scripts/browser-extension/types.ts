@@ -1,6 +1,6 @@
 export type T_SimpleBet = {
 	type: "Sencilla";
-	status: "PERDIDA" | "GANADA" | "EN_PROGRESO";
+	status: "PERDIDA" | "GANADA" | "EN_PROGRESO" | "NULA";
 	date: string;
 	name: string;
 	details: string;

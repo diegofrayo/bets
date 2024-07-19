@@ -3,13 +3,13 @@ import path from "path";
 
 import v from "../v";
 
-export function writeFile(path: string, content: unknown) {
-	createOutputFolder(path);
-	fs.writeFileSync(path, typeof content === "string" ? content : JSON.stringify(content));
+export function writeFile(filePath: string, content: unknown) {
+	createOutputFolder(filePath);
+	fs.writeFileSync(filePath, typeof content === "string" ? content : JSON.stringify(content));
 }
 
-export function readFile(path: string) {
-	return fs.readFileSync(path).toString().trimEnd();
+export function readFile(filePath: string) {
+	return fs.readFileSync(filePath).toString().trimEnd();
 }
 
 export function copyFolder(sourcePath: string, targetPath: string) {

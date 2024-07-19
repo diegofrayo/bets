@@ -8,7 +8,7 @@ import { addLeftPadding } from "../../@diegofrayo/utils/strings";
 import { formatCode, formatDate } from "./utils";
 
 const TIME_LIMIT = "10:30";
-const RATE_LIMIT_PER_DAY = 300;
+const RATE_LIMIT_PER_DAY = 100;
 const instance = axios.create({
 	baseURL: "https://api-football-v1.p.rapidapi.com/v3",
 	headers: {
@@ -59,7 +59,7 @@ export async function calculateAPIUsageStats() {
 		0,
 	);
 
-	API_USAGE_STATS["bills"][monthDate] = {
+	API_USAGE_STATS.bills[monthDate] = {
 		requests: monthRequests,
 		paymentUSD: monthRequests * VALUES.AMOUNT_PER_REQUEST,
 		paymentCOP: monthRequests * VALUES.AMOUNT_PER_REQUEST * VALUES.COP,
