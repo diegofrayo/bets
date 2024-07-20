@@ -1,16 +1,16 @@
-export type T_DayOfMatches = Array<{
-	name: string;
-	country: string;
-	flag: string;
-	standings: T_LeagueStandings;
-	matches: T_FixtureMatch[];
-}>;
+export type T_DayOfMatches = Array<
+	Omit<T_League, "enabled" | "season" | "order"> & {
+		standings: T_LeagueStandings;
+		matches: T_FixtureMatch[];
+	}
+>;
 
 export type T_League = {
 	id: number;
 	enabled: boolean;
 	name: string;
 	type: string; // "League" | "Cup"
+	order: number;
 	country: string;
 	flag: string;
 	season: number;

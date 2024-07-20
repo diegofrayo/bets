@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 
+import { omit } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { copyFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop } from "../../../@diegofrayo/utils/misc";
 
@@ -39,9 +40,7 @@ export default async function main(config: T_AnalysisConfig) {
 					leagueStandings,
 				});
 				const leagueData: T_DayOfMatches[number] = {
-					name: league.name,
-					country: league.country,
-					flag: league.flag,
+					...omit(league, ["enabled", "season", "order"]),
 					standings: leagueStandings,
 					matches: [],
 				};

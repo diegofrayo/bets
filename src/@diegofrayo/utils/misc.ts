@@ -61,7 +61,7 @@ export async function asyncLoop<T>(
 	array: Array<T>,
 	callback: (arg: T) => Promise<void>,
 ): Promise<void> {
-	// eslint-disable-next-line  no-restricted-syntax
+	// eslint-disable-next-line no-restricted-syntax
 	for (const item of array) {
 		// eslint-disable-next-line no-await-in-loop
 		await callback(item);
@@ -90,5 +90,5 @@ export function getImageOrientation(source: string): Promise<"portrait" | "lands
 type T_HttpError = { response: { data: { message: string } } };
 
 function isHttpError(error: unknown): error is T_HttpError {
-	return v.isString((error as T_HttpError).response?.data?.message);
+	return v.isString((error as T_HttpError)?.response?.data?.message);
 }
