@@ -21,6 +21,7 @@
 	"dependencies": {
 		"axios": "^1.6.8",
 		"dayjs": "^1.11.11",
+		"dotenv": "^16.4.5",
 		"js-convert-case": "^4.2.0",
 		"jsdom": "^24.0.0",
 		"prettier": "^3.2.5"
@@ -38,7 +39,6 @@
 		"eslint-config-airbnb-typescript": "^18.0.0",
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-import": "^2.29.1",
-		"eslint-plugin-no-loops": "^0.4.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"eslint-plugin-unicorn": "^54.0.0",
 		"minify-all-js": "^0.1.9",

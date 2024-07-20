@@ -1,49 +1,28 @@
 import dayjs from "dayjs";
 
 import { copyFile, writeFile } from "../../../@diegofrayo/utils/files";
-import { delay } from "../../../@diegofrayo/utils/misc";
+import { asyncLoop } from "../../../@diegofrayo/utils/misc";
 
-import { calculateAPIUsageStats } from "../api-client";
+import APIClient from "./api-client";
 import DataClient from "./data-client";
-import { formatCode, formatDate } from "../utils";
-import type {
-	// T_NextMatchPrediction,
-	T_NextMatchTeam,
-	T_Output,
-	// T_PlayedMatchPrediction,
-	T_PlayedMatchTeam,
-	T_RequestConfig,
-} from "./types";
-import { asyncLoop } from "./utils";
+import { formatCode, formatDate } from "./utils";
+import type { T_DayOfMatches, T_NextMatchTeam, T_PlayedMatchTeam } from "./types";
 
-export default async function main(
-	config: Parameters<typeof generateDates>[0] & {
-		enableRemoteAPI: boolean;
-		leaguesFixturesDates?: { from: string; to: string };
-	},
-) {
-	await calculateAPIUsageStats();
+export default async function main(config: T_AnalysisConfig) {
+	await APIClient.config(config);
+	await APIClient.calculateUsageStats();
 
 	if (config.leaguesFixturesDates) {
 		await DataClient.updateLeaguesFixtures(config.leaguesFixturesDates);
 		return;
 	}
 
-	let requestsCounter = 0;
-	const dates = generateDates(config);
-
-	await asyncLoop(dates, async (date) => {
+	await asyncLoop(generateDates(config), async (date) => {
 		console.log(`Executing script for ${date}`);
 
-		const output = [] as T_Output;
+		const output: T_DayOfMatches = [];
 		const leaguesByDate = DataClient.getLeaguesByDate(date);
-		const requestConfig = createRequestConfig(
-			{ date },
-			{
-				enableRemoteAPI: config.enableRemoteAPI,
-			},
-		);
-		let leagueIndex = 0;
+		const requestConfig = createRequestConfig(config);
 
 		await asyncLoop(leaguesByDate, async (leagueId) => {
 			const league = DataClient.getLeagueById(leagueId);
@@ -51,15 +30,7 @@ export default async function main(
 			if (!league.enabled) return;
 
 			try {
-				console.log(
-					`  Fetching "${league.name} (${league.id}|${league.country})" matches... | Requests counter: ${requestsCounter}`,
-				);
-
-				requestsCounter = await checkForAPILimits({
-					requestsCounter,
-					nextRequests: 1 + 1,
-					requestConfig,
-				});
+				console.log(`  Fetching "${league.name} (${league.id}|${league.country})" matches...`);
 
 				const leagueStandings = await DataClient.fetchLeagueStandings(league, requestConfig);
 				const fixtureMatches = await DataClient.fetchFixtureMatches({
@@ -67,21 +38,14 @@ export default async function main(
 					requestConfig,
 					leagueStandings,
 				});
-				await DataClient.updateTeamsFile(fixtureMatches);
-
-				output.push({
+				const leagueData: T_DayOfMatches[number] = {
 					name: league.name,
 					country: league.country,
 					flag: league.flag,
 					standings: leagueStandings,
 					matches: [],
-				});
-
-				requestsCounter = await checkForAPILimits({
-					requestsCounter,
-					nextRequests: fixtureMatches.length * 2,
-					requestConfig,
-				});
+				};
+				await DataClient.updateTeamsFile(fixtureMatches);
 
 				await asyncLoop(fixtureMatches, async (fixtureMatch) => {
 					try {
@@ -118,42 +82,47 @@ export default async function main(
 						// 	awayTeamStats,
 						// 	leagueStandings,
 						// });
-						const fixtureMatchTeams = {
-							home: {
-								...homeTeam,
-								stats: homeTeamStats,
-								matches: homeTeamPlayedMatches,
-							},
-							away: {
-								...awayTeam,
-								stats: awayTeamStats,
-								matches: awayTeamPlayedMatches,
-							},
-						};
 
+						// TODO: Try to improve this types definitions, avoid use as
 						if (fixtureMatch.played) {
-							output[leagueIndex].matches.push({
+							leagueData.matches.push({
 								id: fixtureMatch.id,
 								fullDate: fixtureMatch.fullDate,
 								date: fixtureMatch.date,
 								hour: fixtureMatch.hour,
 								played: fixtureMatch.played,
 								teams: {
-									home: fixtureMatchTeams.home as T_PlayedMatchTeam,
-									away: fixtureMatchTeams.away as T_PlayedMatchTeam,
+									home: {
+										...(homeTeam as T_PlayedMatchTeam),
+										stats: homeTeamStats,
+										matches: homeTeamPlayedMatches,
+									},
+									away: {
+										...(awayTeam as T_PlayedMatchTeam),
+										stats: awayTeamStats,
+										matches: awayTeamPlayedMatches,
+									},
 								},
 								// predictions: predictions as T_PlayedMatchPrediction[],
 							});
 						} else {
-							output[leagueIndex].matches.push({
+							leagueData.matches.push({
 								id: fixtureMatch.id,
 								fullDate: fixtureMatch.fullDate,
 								date: fixtureMatch.date,
 								hour: fixtureMatch.hour,
 								played: fixtureMatch.played,
 								teams: {
-									home: fixtureMatchTeams.home as T_NextMatchTeam,
-									away: fixtureMatchTeams.away as T_NextMatchTeam,
+									home: {
+										...(homeTeam as T_NextMatchTeam),
+										stats: homeTeamStats,
+										matches: homeTeamPlayedMatches,
+									},
+									away: {
+										...(awayTeam as T_NextMatchTeam),
+										stats: awayTeamStats,
+										matches: awayTeamPlayedMatches,
+									},
 								},
 								// predictions: predictions as T_NextMatchPrediction[],
 							});
@@ -162,11 +131,11 @@ export default async function main(
 						console.log(error);
 					}
 				});
+
+				output.push(leagueData);
 			} catch (error) {
 				console.log(error);
 			}
-
-			leagueIndex += 1;
 		});
 
 		writeFile(
@@ -178,23 +147,33 @@ export default async function main(
 			outputFileName: "data.json",
 		});
 		copyFile(`src/scripts/predictions/data/output/reports/${requestConfig.date}.json`, {
-			outputFolderPath: "../website/diegofrayo-frontend/src/data/apps/bets",
+			outputFolderPath: "../website/diegofrayo-frontend/public/data/apps/bets",
 			outputFileName: `${requestConfig.date}.json`,
+		});
+		copyFile(`src/scripts/predictions/analysis/types/shared.ts`, {
+			outputFolderPath: "../website/diegofrayo-frontend/src/modules/pages/apps/pages/BetsPage",
+			outputFileName: "types.ts",
 		});
 	});
 }
 
+// --- TYPES ---
+
+type T_AnalysisConfig = {
+	date: "today" | "tomorrow" | "yesterday" | string;
+	exact: boolean;
+	enableRemoteAPI: boolean;
+	leaguesFixturesDates?: { from: string; to: string };
+};
+
 // --- UTILS ---
 
-function createRequestConfig(
-	requestConfig: "today" | "tomorrow" | "yesterday" | { date: string },
-	{ enableRemoteAPI }: { enableRemoteAPI: boolean },
-) {
-	if (requestConfig === "yesterday") {
+function createRequestConfig(requestConfig: Pick<T_AnalysisConfig, "date" | "enableRemoteAPI">) {
+	if (requestConfig.date === "yesterday") {
 		return {
 			date: formatDate(dayjs().subtract(1, "day").toDate()),
-			enableRemoteAPI,
-			fetchFromAPI: enableRemoteAPI
+			enableRemoteAPI: requestConfig.enableRemoteAPI,
+			fetchFromAPI: requestConfig.enableRemoteAPI
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: false,
@@ -208,11 +187,11 @@ function createRequestConfig(
 		};
 	}
 
-	if (requestConfig === "today") {
+	if (requestConfig.date === "today") {
 		return {
 			date: formatDate(dayjs().toDate()),
-			enableRemoteAPI,
-			fetchFromAPI: enableRemoteAPI
+			enableRemoteAPI: requestConfig.enableRemoteAPI,
+			fetchFromAPI: requestConfig.enableRemoteAPI
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: true,
@@ -226,11 +205,11 @@ function createRequestConfig(
 		};
 	}
 
-	if (requestConfig === "tomorrow") {
+	if (requestConfig.date === "tomorrow") {
 		return {
 			date: formatDate(dayjs().add(1, "day").toDate()),
-			enableRemoteAPI,
-			fetchFromAPI: enableRemoteAPI
+			enableRemoteAPI: requestConfig.enableRemoteAPI,
+			fetchFromAPI: requestConfig.enableRemoteAPI
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: true,
@@ -246,8 +225,8 @@ function createRequestConfig(
 
 	return {
 		date: requestConfig.date,
-		enableRemoteAPI,
-		fetchFromAPI: enableRemoteAPI
+		enableRemoteAPI: requestConfig.enableRemoteAPI,
+		fetchFromAPI: requestConfig.enableRemoteAPI
 			? {
 					FIXTURE_MATCHES: true,
 					PLAYED_MATCHES: true,
@@ -297,40 +276,4 @@ function generateDates(
 					baseDate.add(6, "day"),
 				]
 	).map((date) => formatDate(date.toDate()));
-}
-
-async function checkForAPILimits({
-	requestsCounter,
-	nextRequests,
-	requestConfig,
-}: {
-	requestsCounter: number;
-	nextRequests: number;
-	requestConfig: T_RequestConfig;
-}) {
-	const REQUESTS_LIMIT = 25;
-
-	if (requestsCounter + nextRequests >= REQUESTS_LIMIT && requestConfig.enableRemoteAPI) {
-		console.log(
-			"    .....",
-			"Delay for 1 minute |",
-			`Requests counter: ${requestsCounter + nextRequests} |`,
-			new Date().toISOString(),
-			".....",
-		);
-
-		await delay(1000 * 60); // 1 minute
-
-		console.log(
-			"    .....",
-			"Script execution continues again |",
-			`Requests counter: ${nextRequests} |`,
-			new Date().toISOString(),
-			".....",
-		);
-
-		return nextRequests;
-	}
-
-	return requestsCounter + nextRequests;
 }
