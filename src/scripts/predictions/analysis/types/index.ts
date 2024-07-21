@@ -16,6 +16,10 @@ export type T_RawMatchesResponse = {
 			home: { id: number; name: string; winner: boolean | null };
 			away: { id: number; name: string; winner: boolean | null };
 		};
+		league: {
+			id: number;
+			name: string;
+		};
 		fixture: {
 			date: string;
 		};
@@ -29,6 +33,7 @@ export type T_RawMatchesResponse = {
 export type T_RawLeagueStandingsResponse = {
 	response: Array<{
 		league: {
+			id: number;
 			standings: Array<
 				Array<{
 					team: {

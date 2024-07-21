@@ -23,7 +23,7 @@ export default async function main(config: T_AnalysisConfig) {
 
 		const output: T_DayOfMatches = [];
 		const leaguesByDate = DataClient.getLeaguesByDate(date);
-		const requestConfig = createRequestConfig(config);
+		const requestConfig = createRequestConfig(config, date);
 
 		await asyncLoop(leaguesByDate, async (leagueId) => {
 			const league = DataClient.getLeagueById(leagueId);
@@ -40,7 +40,7 @@ export default async function main(config: T_AnalysisConfig) {
 					leagueStandings,
 				});
 				const leagueData: T_DayOfMatches[number] = {
-					...omit(league, ["enabled", "season", "order"]),
+					...omit(league, ["enabled", "season"]),
 					standings: leagueStandings,
 					matches: [],
 				};
@@ -62,16 +62,8 @@ export default async function main(config: T_AnalysisConfig) {
 							league,
 							leagueStandings,
 						});
-						const homeTeamStats = DataClient.getTeamStats(
-							homeTeam.id,
-							homeTeamPlayedMatches,
-							leagueStandings,
-						);
-						const awayTeamStats = DataClient.getTeamStats(
-							awayTeam.id,
-							awayTeamPlayedMatches,
-							leagueStandings,
-						);
+						const homeTeamStats = DataClient.getTeamStats(homeTeam.id, homeTeamPlayedMatches);
+						const awayTeamStats = DataClient.getTeamStats(awayTeam.id, awayTeamPlayedMatches);
 						// const predictions = DataClient.getMatchPredictions({
 						// 	match: fixtureMatch,
 						// 	homeTeam,
@@ -167,10 +159,13 @@ type T_AnalysisConfig = {
 
 // --- UTILS ---
 
-function createRequestConfig(requestConfig: Pick<T_AnalysisConfig, "date" | "enableRemoteAPI">) {
+function createRequestConfig(
+	requestConfig: Pick<T_AnalysisConfig, "date" | "enableRemoteAPI">,
+	formattedDate: string,
+) {
 	if (requestConfig.date === "yesterday") {
 		return {
-			date: formatDate(dayjs().subtract(1, "day").toDate()),
+			date: formattedDate,
 			enableRemoteAPI: requestConfig.enableRemoteAPI,
 			fetchFromAPI: requestConfig.enableRemoteAPI
 				? {
@@ -188,7 +183,7 @@ function createRequestConfig(requestConfig: Pick<T_AnalysisConfig, "date" | "ena
 
 	if (requestConfig.date === "today") {
 		return {
-			date: formatDate(dayjs().toDate()),
+			date: formattedDate,
 			enableRemoteAPI: requestConfig.enableRemoteAPI,
 			fetchFromAPI: requestConfig.enableRemoteAPI
 				? {
@@ -206,13 +201,13 @@ function createRequestConfig(requestConfig: Pick<T_AnalysisConfig, "date" | "ena
 
 	if (requestConfig.date === "tomorrow") {
 		return {
-			date: formatDate(dayjs().add(1, "day").toDate()),
+			date: formattedDate,
 			enableRemoteAPI: requestConfig.enableRemoteAPI,
 			fetchFromAPI: requestConfig.enableRemoteAPI
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: true,
-						LEAGUE_STANDINGS: true,
+						LEAGUE_STANDINGS: false,
 					}
 				: {
 						FIXTURE_MATCHES: false,
@@ -223,7 +218,7 @@ function createRequestConfig(requestConfig: Pick<T_AnalysisConfig, "date" | "ena
 	}
 
 	return {
-		date: requestConfig.date,
+		date: formattedDate,
 		enableRemoteAPI: requestConfig.enableRemoteAPI,
 		fetchFromAPI: requestConfig.enableRemoteAPI
 			? {

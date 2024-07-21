@@ -1,9 +1,257 @@
 [
 	{
+		"id": 262,
+		"name": "Liga MX",
+		"type": "League",
+		"country": "Mexico",
+		"priority": 3,
+		"flag": "🇲🇽",
+		"standings": [
+			[
+				{
+					"teamId": 2279,
+					"teamName": "Tigres UANL",
+					"points": 10,
+					"stats": {
+						"goalsDiff": 5,
+						"played": 4,
+						"win": 3,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 6, "against": 1 }
+					}
+				},
+				{
+					"teamId": 2295,
+					"teamName": "Cruz Azul",
+					"points": 9,
+					"stats": {
+						"goalsDiff": 8,
+						"played": 3,
+						"win": 3,
+						"draw": 0,
+						"lose": 0,
+						"goals": { "for": 8, "against": 0 }
+					}
+				},
+				{
+					"teamId": 2282,
+					"teamName": "Monterrey",
+					"points": 9,
+					"stats": {
+						"goalsDiff": -1,
+						"played": 4,
+						"win": 3,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 4, "against": 5 }
+					}
+				},
+				{
+					"teamId": 2283,
+					"teamName": "Atlas",
+					"points": 8,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 4,
+						"win": 2,
+						"draw": 2,
+						"lose": 0,
+						"goals": { "for": 6, "against": 4 }
+					}
+				},
+				{
+					"teamId": 2286,
+					"teamName": "U.N.A.M. - Pumas",
+					"points": 7,
+					"stats": {
+						"goalsDiff": 4,
+						"played": 3,
+						"win": 2,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 7, "against": 3 }
+					}
+				},
+				{
+					"teamId": 2281,
+					"teamName": "Toluca",
+					"points": 7,
+					"stats": {
+						"goalsDiff": 4,
+						"played": 3,
+						"win": 2,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 6, "against": 2 }
+					}
+				},
+				{
+					"teamId": 2278,
+					"teamName": "Guadalajara Chivas",
+					"points": 7,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 4,
+						"win": 2,
+						"draw": 1,
+						"lose": 1,
+						"goals": { "for": 6, "against": 4 }
+					}
+				},
+				{
+					"teamId": 2280,
+					"teamName": "Club Tijuana",
+					"points": 7,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 4,
+						"win": 2,
+						"draw": 1,
+						"lose": 1,
+						"goals": { "for": 7, "against": 7 }
+					}
+				},
+				{
+					"teamId": 2314,
+					"teamName": "Atletico San Luis",
+					"points": 5,
+					"stats": {
+						"goalsDiff": -1,
+						"played": 4,
+						"win": 1,
+						"draw": 2,
+						"lose": 1,
+						"goals": { "for": 5, "against": 6 }
+					}
+				},
+				{
+					"teamId": 2292,
+					"teamName": "Pachuca",
+					"points": 4,
+					"stats": {
+						"goalsDiff": 1,
+						"played": 3,
+						"win": 1,
+						"draw": 1,
+						"lose": 1,
+						"goals": { "for": 2, "against": 1 }
+					}
+				},
+				{
+					"teamId": 2291,
+					"teamName": "Puebla",
+					"points": 4,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 4,
+						"win": 1,
+						"draw": 1,
+						"lose": 2,
+						"goals": { "for": 5, "against": 8 }
+					}
+				},
+				{
+					"teamId": 2288,
+					"teamName": "Necaxa",
+					"points": 3,
+					"stats": {
+						"goalsDiff": 1,
+						"played": 3,
+						"win": 1,
+						"draw": 0,
+						"lose": 2,
+						"goals": { "for": 4, "against": 3 }
+					}
+				},
+				{
+					"teamId": 2287,
+					"teamName": "Club America",
+					"points": 3,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 3,
+						"win": 1,
+						"draw": 0,
+						"lose": 2,
+						"goals": { "for": 4, "against": 4 }
+					}
+				},
+				{
+					"teamId": 2289,
+					"teamName": "Leon",
+					"points": 2,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 3,
+						"win": 0,
+						"draw": 2,
+						"lose": 1,
+						"goals": { "for": 3, "against": 6 }
+					}
+				},
+				{
+					"teamId": 2298,
+					"teamName": "FC Juarez",
+					"points": 1,
+					"stats": {
+						"goalsDiff": -2,
+						"played": 3,
+						"win": 0,
+						"draw": 1,
+						"lose": 2,
+						"goals": { "for": 5, "against": 7 }
+					}
+				},
+				{
+					"teamId": 2285,
+					"teamName": "Santos Laguna",
+					"points": 1,
+					"stats": {
+						"goalsDiff": -5,
+						"played": 4,
+						"win": 0,
+						"draw": 1,
+						"lose": 3,
+						"goals": { "for": 1, "against": 6 }
+					}
+				},
+				{
+					"teamId": 14002,
+					"teamName": "Mazatlán",
+					"points": 1,
+					"stats": {
+						"goalsDiff": -6,
+						"played": 4,
+						"win": 0,
+						"draw": 1,
+						"lose": 3,
+						"goals": { "for": 2, "against": 8 }
+					}
+				},
+				{
+					"teamId": 2290,
+					"teamName": "Club Queretaro",
+					"points": 0,
+					"stats": {
+						"goalsDiff": -6,
+						"played": 4,
+						"win": 0,
+						"draw": 0,
+						"lose": 4,
+						"goals": { "for": 3, "against": 9 }
+					}
+				}
+			]
+		],
+		"matches": []
+	},
+	{
 		"id": 128,
 		"name": "Liga Profesional Argentina",
 		"type": "League",
 		"country": "Argentina",
+		"priority": 3,
 		"flag": "🇦🇷",
 		"standings": [
 			[
@@ -375,7 +623,7 @@
 		],
 		"matches": [
 			{
-				"id": "2024-07-19-Barracas Central-Newells Old Boys",
+				"id": "2024-07-19-barracas-central-newells-old-boys",
 				"fullDate": "2024-07-19T13:00",
 				"date": "2024-07-19",
 				"hour": "13:00",
@@ -389,62 +637,83 @@
 						"featured": false,
 						"score": 0,
 						"winner": false,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 18,
-							"promedio_de_goles": 1.2,
-							"total_de_goles_recibidos": 8,
-							"promedio_de_goles_recibidos": 1.3,
-							"---|---": 0,
-							"goles_de_local": 7,
-							"promedio_de_goles_de_local": 1.2,
-							"partidos_de_local": 6,
-							"partidos_ganados_de_local": 3,
-							"partidos_perdidos_de_local": 1,
-							"partidos_empatados_de_local": 2,
-							"partidos_con_goles_de_local": 4,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 83.3,
-							"---||---": 0,
-							"goles_de_visitante": 11,
-							"promedio_de_goles_de_visitante": 1.2,
-							"partidos_de_visitante": 9,
-							"partidos_ganados_de_visitante": 4,
-							"partidos_perdidos_de_visitante": 4,
-							"partidos_empatados_de_visitante": 1,
-							"partidos_con_goles_de_visitante": 6,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 55.6,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 2,
-							"ultimos_promedio_de_goles": 0.5,
-							"ultimos_total_de_goles_recibidos": 8,
-							"ultimos_promedio_de_goles_recibidos": 1.3,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 4,
-							"ultimos_promedio_de_goles_de_local": 1,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 2,
-							"ultimos_partidos_perdidos_de_local": 1,
-							"ultimos_partidos_empatados_de_local": 1,
-							"ultimos_partidos_con_goles_de_local": 2,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 75,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 3,
-							"ultimos_promedio_de_goles_de_visitante": 0.8,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 2,
-							"ultimos_partidos_perdidos_de_visitante": 2,
-							"ultimos_partidos_empatados_de_visitante": 0,
-							"ultimos_partidos_con_goles_de_visitante": 3,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 50
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 18,
+									"total_de_goles_recibidos": 21,
+									"promedio_de_goles_anotados": 1.2,
+									"promedio_de_goles_recibidos": 1.4
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 6,
+									"goles_anotados_de_local": 7,
+									"promedio_de_goles_anotados_de_local": 1.2,
+									"partidos_ganados_de_local": 3,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 2,
+									"partidos_con_goles_de_local": 4,
+									"porcentaje_de_puntos_ganados_de_local": "61.1%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 9,
+									"goles_anotados_de_visitante": 11,
+									"promedio_de_goles_anotados_de_visitante": 1.2,
+									"partidos_ganados_de_visitante": 4,
+									"partidos_perdidos_de_visitante": 4,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 6,
+									"porcentaje_de_puntos_ganados_de_visitante": "48.1%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 2,
+									"total_de_goles_recibidos": 6,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 1.5
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 1,
+									"goles_anotados_de_local": 0,
+									"promedio_de_goles_anotados_de_local": 0,
+									"partidos_ganados_de_local": 0,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 0,
+									"porcentaje_de_puntos_ganados_de_local": "0%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 3,
+									"goles_anotados_de_visitante": 2,
+									"promedio_de_goles_anotados_de_visitante": 0.7,
+									"partidos_ganados_de_visitante": 1,
+									"partidos_perdidos_de_visitante": 2,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 2,
+									"porcentaje_de_puntos_ganados_de_visitante": "33.3%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-07-08-Rosario Central-Barracas Central",
+								"id": "2024-07-08-rosario-central-barracas-central",
 								"fullDate": "2024-07-08T14:00",
 								"date": "2024-07-08",
 								"hour": "14:00",
@@ -468,10 +737,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-06-12-Gimnasia L.P.-Barracas Central",
+								"id": "2024-06-12-gimnasia-lp-barracas-central",
 								"fullDate": "2024-06-12T19:15",
 								"date": "2024-06-12",
 								"hour": "19:15",
@@ -495,10 +765,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-04-Barracas Central-Huracan",
+								"id": "2024-06-04-barracas-central-huracan",
 								"fullDate": "2024-06-04T13:00",
 								"date": "2024-06-04",
 								"hour": "13:00",
@@ -522,10 +793,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-27-Union Santa Fe-Barracas Central",
+								"id": "2024-05-27-union-santa-fe-barracas-central",
 								"fullDate": "2024-05-27T17:00",
 								"date": "2024-05-27",
 								"hour": "17:00",
@@ -549,10 +821,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-19-Barracas Central-Sarmiento Junin",
+								"id": "2024-05-19-barracas-central-sarmiento-junin",
 								"fullDate": "2024-05-19T13:00",
 								"date": "2024-05-19",
 								"hour": "13:00",
@@ -576,10 +849,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-11-Godoy Cruz-Barracas Central",
+								"id": "2024-05-11-godoy-cruz-barracas-central",
 								"fullDate": "2024-05-11T13:30",
 								"date": "2024-05-11",
 								"hour": "13:30",
@@ -603,10 +877,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-20-Estudiantes L.P.-Barracas Central",
+								"id": "2024-04-20-estudiantes-lp-barracas-central",
 								"fullDate": "2024-04-20T16:30",
 								"date": "2024-04-20",
 								"hour": "16:30",
@@ -630,10 +905,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-15-Argentinos JRS-Barracas Central",
+								"id": "2024-04-15-argentinos-jrs-barracas-central",
 								"fullDate": "2024-04-15T18:00",
 								"date": "2024-04-15",
 								"hour": "18:00",
@@ -657,10 +933,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-10-Barracas Central-San Miguel",
+								"id": "2024-04-10-barracas-central-san-miguel",
 								"fullDate": "2024-04-10T15:00",
 								"date": "2024-04-10",
 								"hour": "15:00",
@@ -684,10 +961,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-04-07-Barracas Central-Instituto Cordoba",
+								"id": "2024-04-07-barracas-central-instituto-cordoba",
 								"fullDate": "2024-04-07T14:00",
 								"date": "2024-04-07",
 								"hour": "14:00",
@@ -711,10 +989,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-28-Rosario Central-Barracas Central",
+								"id": "2024-03-28-rosario-central-barracas-central",
 								"fullDate": "2024-03-28T18:00",
 								"date": "2024-03-28",
 								"hour": "18:00",
@@ -738,10 +1017,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-17-Barracas Central-Huracan",
+								"id": "2024-03-17-barracas-central-huracan",
 								"fullDate": "2024-03-17T14:00",
 								"date": "2024-03-17",
 								"hour": "14:00",
@@ -765,10 +1045,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-09-Gimnasia L.P.-Barracas Central",
+								"id": "2024-03-09-gimnasia-lp-barracas-central",
 								"fullDate": "2024-03-09T15:00",
 								"date": "2024-03-09",
 								"hour": "15:00",
@@ -792,10 +1073,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-05-Barracas Central-Independiente",
+								"id": "2024-03-05-barracas-central-independiente",
 								"fullDate": "2024-03-05T17:00",
 								"date": "2024-03-05",
 								"hour": "17:00",
@@ -819,10 +1101,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-29-Independ. Rivadavia-Barracas Central",
+								"id": "2024-02-29-independ-rivadavia-barracas-central",
 								"fullDate": "2024-02-29T19:15",
 								"date": "2024-02-29",
 								"hour": "19:15",
@@ -846,7 +1129,8 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							}
 						]
 					},
@@ -858,62 +1142,83 @@
 						"featured": false,
 						"score": 1,
 						"winner": true,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 12,
-							"promedio_de_goles": 0.8,
-							"total_de_goles_recibidos": 5,
-							"promedio_de_goles_recibidos": 0.8,
-							"---|---": 0,
-							"goles_de_local": 9,
-							"promedio_de_goles_de_local": 1,
-							"partidos_de_local": 9,
-							"partidos_ganados_de_local": 4,
-							"partidos_perdidos_de_local": 3,
-							"partidos_empatados_de_local": 2,
-							"partidos_con_goles_de_local": 6,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 66.7,
-							"---||---": 0,
-							"goles_de_visitante": 3,
-							"promedio_de_goles_de_visitante": 0.5,
-							"partidos_de_visitante": 6,
-							"partidos_ganados_de_visitante": 2,
-							"partidos_perdidos_de_visitante": 3,
-							"partidos_empatados_de_visitante": 1,
-							"partidos_con_goles_de_visitante": 3,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 50,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 1,
-							"ultimos_promedio_de_goles": 0.3,
-							"ultimos_total_de_goles_recibidos": 5,
-							"ultimos_promedio_de_goles_recibidos": 0.8,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 4,
-							"ultimos_promedio_de_goles_de_local": 1,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 2,
-							"ultimos_partidos_perdidos_de_local": 2,
-							"ultimos_partidos_empatados_de_local": 0,
-							"ultimos_partidos_con_goles_de_local": 3,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 50,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 1,
-							"ultimos_promedio_de_goles_de_visitante": 0.3,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 1,
-							"ultimos_partidos_perdidos_de_visitante": 3,
-							"ultimos_partidos_empatados_de_visitante": 0,
-							"ultimos_partidos_con_goles_de_visitante": 1,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 25
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 12,
+									"total_de_goles_recibidos": 13,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 0.9
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 9,
+									"goles_anotados_de_local": 9,
+									"promedio_de_goles_anotados_de_local": 1,
+									"partidos_ganados_de_local": 4,
+									"partidos_perdidos_de_local": 3,
+									"partidos_empatados_de_local": 2,
+									"partidos_con_goles_de_local": 6,
+									"porcentaje_de_puntos_ganados_de_local": "51.9%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 6,
+									"goles_anotados_de_visitante": 3,
+									"promedio_de_goles_anotados_de_visitante": 0.5,
+									"partidos_ganados_de_visitante": 2,
+									"partidos_perdidos_de_visitante": 3,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 3,
+									"porcentaje_de_puntos_ganados_de_visitante": "38.9%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 0.3,
+									"promedio_de_goles_recibidos": 1.3
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 2,
+									"goles_anotados_de_local": 1,
+									"promedio_de_goles_anotados_de_local": 0.5,
+									"partidos_ganados_de_local": 1,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 1,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 2,
+									"goles_anotados_de_visitante": 0,
+									"promedio_de_goles_anotados_de_visitante": 0,
+									"partidos_ganados_de_visitante": 0,
+									"partidos_perdidos_de_visitante": 2,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 0,
+									"porcentaje_de_puntos_ganados_de_visitante": "0%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-13-Newells Old Boys-Instituto Cordoba",
+								"id": "2024-06-13-newells-old-boys-instituto-cordoba",
 								"fullDate": "2024-06-13T19:15",
 								"date": "2024-06-13",
 								"hour": "19:15",
@@ -937,10 +1242,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-04-Banfield-Newells Old Boys",
+								"id": "2024-06-04-banfield-newells-old-boys",
 								"fullDate": "2024-06-04T18:00",
 								"date": "2024-06-04",
 								"hour": "18:00",
@@ -964,10 +1270,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-25-Newells Old Boys-Defensa Y Justicia",
+								"id": "2024-05-25-newells-old-boys-defensa-y-justicia",
 								"fullDate": "2024-05-25T15:30",
 								"date": "2024-05-25",
 								"hour": "15:30",
@@ -991,10 +1298,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-21-Velez Sarsfield-Newells Old Boys",
+								"id": "2024-05-21-velez-sarsfield-newells-old-boys",
 								"fullDate": "2024-05-21T18:00",
 								"date": "2024-05-21",
 								"hour": "18:00",
@@ -1018,10 +1326,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-16-Deportivo Riestra-Newells Old Boys",
+								"id": "2024-05-16-deportivo-riestra-newells-old-boys",
 								"fullDate": "2024-05-16T15:10",
 								"date": "2024-05-16",
 								"hour": "15:10",
@@ -1045,10 +1354,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-05-10-Newells Old Boys-Platense",
+								"id": "2024-05-10-newells-old-boys-platense",
 								"fullDate": "2024-05-10T19:15",
 								"date": "2024-05-10",
 								"hour": "19:15",
@@ -1072,10 +1382,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-17-Defensa Y Justicia-Newells Old Boys",
+								"id": "2024-04-17-defensa-y-justicia-newells-old-boys",
 								"fullDate": "2024-04-17T17:30",
 								"date": "2024-04-17",
 								"hour": "17:30",
@@ -1099,10 +1410,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-06-Newells Old Boys-Boca Juniors",
+								"id": "2024-04-06-newells-old-boys-boca-juniors",
 								"fullDate": "2024-04-06T15:00",
 								"date": "2024-04-06",
 								"hour": "15:00",
@@ -1126,10 +1438,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-31-Sarmiento Junin-Newells Old Boys",
+								"id": "2024-03-31-sarmiento-junin-newells-old-boys",
 								"fullDate": "2024-03-31T14:00",
 								"date": "2024-03-31",
 								"hour": "14:00",
@@ -1153,10 +1466,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-22-Newells Old Boys-Midland",
+								"id": "2024-03-22-newells-old-boys-midland",
 								"fullDate": "2024-03-22T13:00",
 								"date": "2024-03-22",
 								"hour": "13:00",
@@ -1180,10 +1494,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-03-15-Newells Old Boys-Platense",
+								"id": "2024-03-15-newells-old-boys-platense",
 								"fullDate": "2024-03-15T19:00",
 								"date": "2024-03-15",
 								"hour": "19:00",
@@ -1207,10 +1522,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-10-Godoy Cruz-Newells Old Boys",
+								"id": "2024-03-10-godoy-cruz-newells-old-boys",
 								"fullDate": "2024-03-10T15:00",
 								"date": "2024-03-10",
 								"hour": "15:00",
@@ -1234,10 +1550,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-07-Newells Old Boys-Tigre",
+								"id": "2024-03-07-newells-old-boys-tigre",
 								"fullDate": "2024-03-07T19:15",
 								"date": "2024-03-07",
 								"hour": "19:15",
@@ -1261,10 +1578,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-03-Newells Old Boys-San Lorenzo",
+								"id": "2024-03-03-newells-old-boys-san-lorenzo",
 								"fullDate": "2024-03-03T19:30",
 								"date": "2024-03-03",
 								"hour": "19:30",
@@ -1288,10 +1606,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-25-Newells Old Boys-Rosario Central",
+								"id": "2024-02-25-newells-old-boys-rosario-central",
 								"fullDate": "2024-02-25T17:45",
 								"date": "2024-02-25",
 								"hour": "17:45",
@@ -1315,14 +1634,15 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							}
 						]
 					}
 				}
 			},
 			{
-				"id": "2024-07-19-Belgrano Cordoba-Deportivo Riestra",
+				"id": "2024-07-19-belgrano-cordoba-deportivo-riestra",
 				"fullDate": "2024-07-19T17:00",
 				"date": "2024-07-19",
 				"hour": "17:00",
@@ -1336,62 +1656,83 @@
 						"featured": true,
 						"score": 2,
 						"winner": true,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 21,
-							"promedio_de_goles": 1.4,
-							"total_de_goles_recibidos": 10,
-							"promedio_de_goles_recibidos": 1.7,
-							"---|---": 0,
-							"goles_de_local": 9,
-							"promedio_de_goles_de_local": 1.1,
-							"partidos_de_local": 8,
-							"partidos_ganados_de_local": 3,
-							"partidos_perdidos_de_local": 2,
-							"partidos_empatados_de_local": 3,
-							"partidos_con_goles_de_local": 5,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 75,
-							"---||---": 0,
-							"goles_de_visitante": 12,
-							"promedio_de_goles_de_visitante": 1.7,
-							"partidos_de_visitante": 7,
-							"partidos_ganados_de_visitante": 4,
-							"partidos_perdidos_de_visitante": 1,
-							"partidos_empatados_de_visitante": 2,
-							"partidos_con_goles_de_visitante": 6,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 85.7,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 6,
-							"ultimos_promedio_de_goles": 1.5,
-							"ultimos_total_de_goles_recibidos": 10,
-							"ultimos_promedio_de_goles_recibidos": 1.7,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 8,
-							"ultimos_promedio_de_goles_de_local": 2,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 3,
-							"ultimos_partidos_perdidos_de_local": 0,
-							"ultimos_partidos_empatados_de_local": 1,
-							"ultimos_partidos_con_goles_de_local": 4,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 100,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 5,
-							"ultimos_promedio_de_goles_de_visitante": 1.3,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 2,
-							"ultimos_partidos_perdidos_de_visitante": 1,
-							"ultimos_partidos_empatados_de_visitante": 1,
-							"ultimos_partidos_con_goles_de_visitante": 3,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 75
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 21,
+									"total_de_goles_recibidos": 19,
+									"promedio_de_goles_anotados": 1.4,
+									"promedio_de_goles_recibidos": 1.3
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 8,
+									"goles_anotados_de_local": 9,
+									"promedio_de_goles_anotados_de_local": 1.1,
+									"partidos_ganados_de_local": 3,
+									"partidos_perdidos_de_local": 2,
+									"partidos_empatados_de_local": 3,
+									"partidos_con_goles_de_local": 5,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 7,
+									"goles_anotados_de_visitante": 12,
+									"promedio_de_goles_anotados_de_visitante": 1.7,
+									"partidos_ganados_de_visitante": 4,
+									"partidos_perdidos_de_visitante": 1,
+									"partidos_empatados_de_visitante": 2,
+									"partidos_con_goles_de_visitante": 6,
+									"porcentaje_de_puntos_ganados_de_visitante": "66.7%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 0.8
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 2,
+									"goles_anotados_de_local": 3,
+									"promedio_de_goles_anotados_de_local": 1.5,
+									"partidos_ganados_de_local": 2,
+									"partidos_perdidos_de_local": 0,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 2,
+									"porcentaje_de_puntos_ganados_de_local": "100%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 2,
+									"goles_anotados_de_visitante": 3,
+									"promedio_de_goles_anotados_de_visitante": 1.5,
+									"partidos_ganados_de_visitante": 1,
+									"partidos_perdidos_de_visitante": 0,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 2,
+									"porcentaje_de_puntos_ganados_de_visitante": "66.7%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-13-Tigre-Belgrano Cordoba",
+								"id": "2024-06-13-tigre-belgrano-cordoba",
 								"fullDate": "2024-06-13T17:00",
 								"date": "2024-06-13",
 								"hour": "17:00",
@@ -1415,10 +1756,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-01-Belgrano Cordoba-Argentinos JRS",
+								"id": "2024-06-01-belgrano-cordoba-argentinos-jrs",
 								"fullDate": "2024-06-01T18:15",
 								"date": "2024-06-01",
 								"hour": "18:15",
@@ -1442,10 +1784,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-28-Internacional-Belgrano Cordoba",
+								"id": "2024-05-28-internacional-belgrano-cordoba",
 								"fullDate": "2024-05-28T19:30",
 								"date": "2024-05-28",
 								"hour": "19:30",
@@ -1469,10 +1812,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-24-Belgrano Cordoba-Central Cordoba de Santiago",
+								"id": "2024-05-24-belgrano-cordoba-central-cordoba-de-santiago",
 								"fullDate": "2024-05-24T19:15",
 								"date": "2024-05-24",
 								"hour": "19:15",
@@ -1496,10 +1840,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-18-River Plate-Belgrano Cordoba",
+								"id": "2024-05-18-river-plate-belgrano-cordoba",
 								"fullDate": "2024-05-18T16:00",
 								"date": "2024-05-18",
 								"hour": "16:00",
@@ -1523,10 +1868,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-15-Belgrano Cordoba-Real Tomayapo",
+								"id": "2024-05-15-belgrano-cordoba-real-tomayapo",
 								"fullDate": "2024-05-15T17:00",
 								"date": "2024-05-15",
 								"hour": "17:00",
@@ -1550,10 +1896,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-12-Belgrano Cordoba-Racing Club",
+								"id": "2024-05-12-belgrano-cordoba-racing-club",
 								"fullDate": "2024-05-12T15:45",
 								"date": "2024-05-12",
 								"hour": "15:45",
@@ -1577,10 +1924,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-09-Belgrano Cordoba-Delfin SC",
+								"id": "2024-05-09-belgrano-cordoba-delfin-sc",
 								"fullDate": "2024-05-09T17:00",
 								"date": "2024-05-09",
 								"hour": "17:00",
@@ -1604,10 +1952,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-24-Real Tomayapo-Belgrano Cordoba",
+								"id": "2024-04-24-real-tomayapo-belgrano-cordoba",
 								"fullDate": "2024-04-24T19:30",
 								"date": "2024-04-24",
 								"hour": "19:30",
@@ -1631,10 +1980,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-17-Belgrano Cordoba-Racing Club",
+								"id": "2024-04-17-belgrano-cordoba-racing-club",
 								"fullDate": "2024-04-17T17:30",
 								"date": "2024-04-17",
 								"hour": "17:30",
@@ -1658,10 +2008,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-11-Delfin SC-Belgrano Cordoba",
+								"id": "2024-04-11-delfin-sc-belgrano-cordoba",
 								"fullDate": "2024-04-11T21:00",
 								"date": "2024-04-11",
 								"hour": "21:00",
@@ -1685,10 +2036,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-06-Union Santa Fe-Belgrano Cordoba",
+								"id": "2024-04-06-union-santa-fe-belgrano-cordoba",
 								"fullDate": "2024-04-06T19:30",
 								"date": "2024-04-06",
 								"hour": "19:30",
@@ -1712,10 +2064,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-02-Belgrano Cordoba-Internacional",
+								"id": "2024-04-02-belgrano-cordoba-internacional",
 								"fullDate": "2024-04-02T17:00",
 								"date": "2024-04-02",
 								"hour": "17:00",
@@ -1739,10 +2092,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-03-29-Tigre-Belgrano Cordoba",
+								"id": "2024-03-29-tigre-belgrano-cordoba",
 								"fullDate": "2024-03-29T16:00",
 								"date": "2024-03-29",
 								"hour": "16:00",
@@ -1766,10 +2120,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-20-Belgrano Cordoba-Lanus",
+								"id": "2024-03-20-belgrano-cordoba-lanus",
 								"fullDate": "2024-03-20T19:15",
 								"date": "2024-03-20",
 								"hour": "19:15",
@@ -1793,7 +2148,8 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							}
 						]
 					},
@@ -1805,62 +2161,83 @@
 						"featured": false,
 						"score": 1,
 						"winner": false,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 10,
-							"promedio_de_goles": 0.7,
-							"total_de_goles_recibidos": 7,
-							"promedio_de_goles_recibidos": 1.2,
-							"---|---": 0,
-							"goles_de_local": 5,
-							"promedio_de_goles_de_local": 0.6,
-							"partidos_de_local": 8,
-							"partidos_ganados_de_local": 4,
-							"partidos_perdidos_de_local": 3,
-							"partidos_empatados_de_local": 1,
-							"partidos_con_goles_de_local": 4,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 62.5,
-							"---||---": 0,
-							"goles_de_visitante": 5,
-							"promedio_de_goles_de_visitante": 0.7,
-							"partidos_de_visitante": 7,
-							"partidos_ganados_de_visitante": 1,
-							"partidos_perdidos_de_visitante": 4,
-							"partidos_empatados_de_visitante": 2,
-							"partidos_con_goles_de_visitante": 4,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 42.9,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 2,
-							"ultimos_promedio_de_goles": 0.5,
-							"ultimos_total_de_goles_recibidos": 7,
-							"ultimos_promedio_de_goles_recibidos": 1.2,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 3,
-							"ultimos_promedio_de_goles_de_local": 0.8,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 2,
-							"ultimos_partidos_perdidos_de_local": 2,
-							"ultimos_partidos_empatados_de_local": 0,
-							"ultimos_partidos_con_goles_de_local": 2,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 50,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 2,
-							"ultimos_promedio_de_goles_de_visitante": 0.5,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 0,
-							"ultimos_partidos_perdidos_de_visitante": 3,
-							"ultimos_partidos_empatados_de_visitante": 1,
-							"ultimos_partidos_con_goles_de_visitante": 2,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 25
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 14,
+									"promedio_de_goles_anotados": 0.7,
+									"promedio_de_goles_recibidos": 0.9
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 8,
+									"goles_anotados_de_local": 5,
+									"promedio_de_goles_anotados_de_local": 0.6,
+									"partidos_ganados_de_local": 4,
+									"partidos_perdidos_de_local": 3,
+									"partidos_empatados_de_local": 1,
+									"partidos_con_goles_de_local": 4,
+									"porcentaje_de_puntos_ganados_de_local": "54.2%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 7,
+									"goles_anotados_de_visitante": 5,
+									"promedio_de_goles_anotados_de_visitante": 0.7,
+									"partidos_ganados_de_visitante": 1,
+									"partidos_perdidos_de_visitante": 4,
+									"partidos_empatados_de_visitante": 2,
+									"partidos_con_goles_de_visitante": 4,
+									"porcentaje_de_puntos_ganados_de_visitante": "23.8%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 2,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 1.3
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 2,
+									"goles_anotados_de_local": 2,
+									"promedio_de_goles_anotados_de_local": 1,
+									"partidos_ganados_de_local": 1,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 1,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 2,
+									"goles_anotados_de_visitante": 0,
+									"promedio_de_goles_anotados_de_visitante": 0,
+									"partidos_ganados_de_visitante": 0,
+									"partidos_perdidos_de_visitante": 2,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 0,
+									"porcentaje_de_puntos_ganados_de_visitante": "0%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-13-Deportivo Riestra-River Plate",
+								"id": "2024-06-13-deportivo-riestra-river-plate",
 								"fullDate": "2024-06-13T13:00",
 								"date": "2024-06-13",
 								"hour": "13:00",
@@ -1884,10 +2261,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-01-Racing Club-Deportivo Riestra",
+								"id": "2024-06-01-racing-club-deportivo-riestra",
 								"fullDate": "2024-06-01T16:00",
 								"date": "2024-06-01",
 								"hour": "16:00",
@@ -1911,10 +2289,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-24-Deportivo Riestra-Rosario Central",
+								"id": "2024-05-24-deportivo-riestra-rosario-central",
 								"fullDate": "2024-05-24T13:30",
 								"date": "2024-05-24",
 								"hour": "13:30",
@@ -1938,10 +2317,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-20-Estudiantes L.P.-Deportivo Riestra",
+								"id": "2024-05-20-estudiantes-lp-deportivo-riestra",
 								"fullDate": "2024-05-20T17:00",
 								"date": "2024-05-20",
 								"hour": "17:00",
@@ -1965,10 +2345,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-16-Deportivo Riestra-Newells Old Boys",
+								"id": "2024-05-16-deportivo-riestra-newells-old-boys",
 								"fullDate": "2024-05-16T15:10",
 								"date": "2024-05-16",
 								"hour": "15:10",
@@ -1992,10 +2373,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-05-12-Deportivo Riestra-San Lorenzo",
+								"id": "2024-05-12-deportivo-riestra-san-lorenzo",
 								"fullDate": "2024-05-12T13:30",
 								"date": "2024-05-12",
 								"hour": "13:30",
@@ -2019,10 +2401,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-18-Rosario Central-Deportivo Riestra",
+								"id": "2024-04-18-rosario-central-deportivo-riestra",
 								"fullDate": "2024-04-18T17:30",
 								"date": "2024-04-18",
 								"hour": "17:30",
@@ -2046,10 +2429,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-08-Deportivo Riestra-Huracan",
+								"id": "2024-04-08-deportivo-riestra-huracan",
 								"fullDate": "2024-04-08T13:30",
 								"date": "2024-04-08",
 								"hour": "13:30",
@@ -2073,10 +2457,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-31-Gimnasia L.P.-Deportivo Riestra",
+								"id": "2024-03-31-gimnasia-lp-deportivo-riestra",
 								"fullDate": "2024-03-31T14:00",
 								"date": "2024-03-31",
 								"hour": "14:00",
@@ -2100,10 +2485,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-15-Deportivo Riestra-Independiente",
+								"id": "2024-03-15-deportivo-riestra-independiente",
 								"fullDate": "2024-03-15T14:30",
 								"date": "2024-03-15",
 								"hour": "14:30",
@@ -2127,10 +2513,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-11-Independ. Rivadavia-Deportivo Riestra",
+								"id": "2024-03-11-independ-rivadavia-deportivo-riestra",
 								"fullDate": "2024-03-11T19:15",
 								"date": "2024-03-11",
 								"hour": "19:15",
@@ -2154,10 +2541,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-07-Deportivo Riestra-Talleres Cordoba",
+								"id": "2024-03-07-deportivo-riestra-talleres-cordoba",
 								"fullDate": "2024-03-07T15:00",
 								"date": "2024-03-07",
 								"hour": "15:00",
@@ -2181,10 +2569,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-01-Banfield-Deportivo Riestra",
+								"id": "2024-03-01-banfield-deportivo-riestra",
 								"fullDate": "2024-03-01T19:15",
 								"date": "2024-03-01",
 								"hour": "19:15",
@@ -2208,10 +2597,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-26-Defensa Y Justicia-Deportivo Riestra",
+								"id": "2024-02-26-defensa-y-justicia-deportivo-riestra",
 								"fullDate": "2024-02-26T17:00",
 								"date": "2024-02-26",
 								"hour": "17:00",
@@ -2235,10 +2625,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-19-Deportivo Riestra-Atletico Tucuman",
+								"id": "2024-02-19-deportivo-riestra-atletico-tucuman",
 								"fullDate": "2024-02-19T15:00",
 								"date": "2024-02-19",
 								"hour": "15:00",
@@ -2262,14 +2653,15 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							}
 						]
 					}
 				}
 			},
 			{
-				"id": "2024-07-19-Rosario Central-Sarmiento Junin",
+				"id": "2024-07-19-rosario-central-sarmiento-junin",
 				"fullDate": "2024-07-19T19:00",
 				"date": "2024-07-19",
 				"hour": "19:00",
@@ -2283,62 +2675,83 @@
 						"featured": false,
 						"score": 4,
 						"winner": true,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 18,
-							"promedio_de_goles": 1.2,
-							"total_de_goles_recibidos": 6,
-							"promedio_de_goles_recibidos": 1.2,
-							"---|---": 0,
-							"goles_de_local": 9,
-							"promedio_de_goles_de_local": 1.1,
-							"partidos_de_local": 8,
-							"partidos_ganados_de_local": 3,
-							"partidos_perdidos_de_local": 2,
-							"partidos_empatados_de_local": 3,
-							"partidos_con_goles_de_local": 6,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 75,
-							"---||---": 0,
-							"goles_de_visitante": 9,
-							"promedio_de_goles_de_visitante": 1.3,
-							"partidos_de_visitante": 7,
-							"partidos_ganados_de_visitante": 1,
-							"partidos_perdidos_de_visitante": 4,
-							"partidos_empatados_de_visitante": 2,
-							"partidos_con_goles_de_visitante": 7,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 42.9,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 3,
-							"ultimos_promedio_de_goles": 0.8,
-							"ultimos_total_de_goles_recibidos": 6,
-							"ultimos_promedio_de_goles_recibidos": 1.2,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 3,
-							"ultimos_promedio_de_goles_de_local": 0.8,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 1,
-							"ultimos_partidos_perdidos_de_local": 1,
-							"ultimos_partidos_empatados_de_local": 2,
-							"ultimos_partidos_con_goles_de_local": 3,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 75,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 6,
-							"ultimos_promedio_de_goles_de_visitante": 1.5,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 1,
-							"ultimos_partidos_perdidos_de_visitante": 2,
-							"ultimos_partidos_empatados_de_visitante": 1,
-							"ultimos_partidos_con_goles_de_visitante": 4,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 50
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 18,
+									"total_de_goles_recibidos": 17,
+									"promedio_de_goles_anotados": 1.2,
+									"promedio_de_goles_recibidos": 1.1
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 8,
+									"goles_anotados_de_local": 9,
+									"promedio_de_goles_anotados_de_local": 1.1,
+									"partidos_ganados_de_local": 3,
+									"partidos_perdidos_de_local": 2,
+									"partidos_empatados_de_local": 3,
+									"partidos_con_goles_de_local": 6,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 7,
+									"goles_anotados_de_visitante": 9,
+									"promedio_de_goles_anotados_de_visitante": 1.3,
+									"partidos_ganados_de_visitante": 1,
+									"partidos_perdidos_de_visitante": 4,
+									"partidos_empatados_de_visitante": 2,
+									"partidos_con_goles_de_visitante": 7,
+									"porcentaje_de_puntos_ganados_de_visitante": "23.8%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 0.8
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 3,
+									"goles_anotados_de_local": 2,
+									"promedio_de_goles_anotados_de_local": 0.7,
+									"partidos_ganados_de_local": 1,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 1,
+									"partidos_con_goles_de_local": 2,
+									"porcentaje_de_puntos_ganados_de_local": "44.4%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 1,
+									"goles_anotados_de_visitante": 1,
+									"promedio_de_goles_anotados_de_visitante": 1,
+									"partidos_ganados_de_visitante": 0,
+									"partidos_perdidos_de_visitante": 0,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 1,
+									"porcentaje_de_puntos_ganados_de_visitante": "33.3%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-07-16-Rosario Central-Internacional",
+								"id": "2024-07-16-rosario-central-internacional",
 								"fullDate": "2024-07-16T19:30",
 								"date": "2024-07-16",
 								"hour": "19:30",
@@ -2362,10 +2775,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-07-08-Rosario Central-Barracas Central",
+								"id": "2024-07-08-rosario-central-barracas-central",
 								"fullDate": "2024-07-08T14:00",
 								"date": "2024-07-08",
 								"hour": "14:00",
@@ -2389,10 +2803,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-06-12-Godoy Cruz-Rosario Central",
+								"id": "2024-06-12-godoy-cruz-rosario-central",
 								"fullDate": "2024-06-12T15:00",
 								"date": "2024-06-12",
 								"hour": "15:00",
@@ -2416,10 +2831,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-02-Rosario Central-Lanus",
+								"id": "2024-06-02-rosario-central-lanus",
 								"fullDate": "2024-06-02T16:00",
 								"date": "2024-06-02",
 								"hour": "16:00",
@@ -2443,10 +2859,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-28-Penarol-Rosario Central",
+								"id": "2024-05-28-penarol-rosario-central",
 								"fullDate": "2024-05-28T17:00",
 								"date": "2024-05-28",
 								"hour": "17:00",
@@ -2470,10 +2887,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-24-Deportivo Riestra-Rosario Central",
+								"id": "2024-05-24-deportivo-riestra-rosario-central",
 								"fullDate": "2024-05-24T13:30",
 								"date": "2024-05-24",
 								"hour": "13:30",
@@ -2497,10 +2915,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-20-Rosario Central-Tigre",
+								"id": "2024-05-20-rosario-central-tigre",
 								"fullDate": "2024-05-20T19:15",
 								"date": "2024-05-20",
 								"hour": "19:15",
@@ -2524,10 +2943,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-16-Rosario Central-Caracas FC",
+								"id": "2024-05-16-rosario-central-caracas-fc",
 								"fullDate": "2024-05-16T17:00",
 								"date": "2024-05-16",
 								"hour": "17:00",
@@ -2551,10 +2971,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-10-Argentinos JRS-Rosario Central",
+								"id": "2024-05-10-argentinos-jrs-rosario-central",
 								"fullDate": "2024-05-10T19:15",
 								"date": "2024-05-10",
 								"hour": "19:15",
@@ -2578,10 +2999,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-07-Rosario Central-Atletico-MG",
+								"id": "2024-05-07-rosario-central-atletico-mg",
 								"fullDate": "2024-05-07T17:00",
 								"date": "2024-05-07",
 								"hour": "17:00",
@@ -2605,10 +3027,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-04-23-Caracas FC-Rosario Central",
+								"id": "2024-04-23-caracas-fc-rosario-central",
 								"fullDate": "2024-04-23T17:00",
 								"date": "2024-04-23",
 								"hour": "17:00",
@@ -2632,10 +3055,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-04-18-Rosario Central-Deportivo Riestra",
+								"id": "2024-04-18-rosario-central-deportivo-riestra",
 								"fullDate": "2024-04-18T17:30",
 								"date": "2024-04-18",
 								"hour": "17:30",
@@ -2659,10 +3083,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-10-Atletico-MG-Rosario Central",
+								"id": "2024-04-10-atletico-mg-rosario-central",
 								"fullDate": "2024-04-10T17:00",
 								"date": "2024-04-10",
 								"hour": "17:00",
@@ -2686,10 +3111,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-04-07-River Plate-Rosario Central",
+								"id": "2024-04-07-river-plate-rosario-central",
 								"fullDate": "2024-04-07T19:00",
 								"date": "2024-04-07",
 								"hour": "19:00",
@@ -2713,10 +3139,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-04-Rosario Central-Penarol",
+								"id": "2024-04-04-rosario-central-penarol",
 								"fullDate": "2024-04-04T17:00",
 								"date": "2024-04-04",
 								"hour": "17:00",
@@ -2740,7 +3167,8 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							}
 						]
 					},
@@ -2752,62 +3180,83 @@
 						"featured": false,
 						"score": 2,
 						"winner": false,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 12,
-							"promedio_de_goles": 0.8,
-							"total_de_goles_recibidos": 4,
-							"promedio_de_goles_recibidos": 0.8,
-							"---|---": 0,
-							"goles_de_local": 8,
-							"promedio_de_goles_de_local": 0.9,
-							"partidos_de_local": 9,
-							"partidos_ganados_de_local": 2,
-							"partidos_perdidos_de_local": 5,
-							"partidos_empatados_de_local": 2,
-							"partidos_con_goles_de_local": 5,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 44.4,
-							"---||---": 0,
-							"goles_de_visitante": 4,
-							"promedio_de_goles_de_visitante": 0.7,
-							"partidos_de_visitante": 6,
-							"partidos_ganados_de_visitante": 2,
-							"partidos_perdidos_de_visitante": 3,
-							"partidos_empatados_de_visitante": 1,
-							"partidos_con_goles_de_visitante": 4,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 50,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 4,
-							"ultimos_promedio_de_goles": 1,
-							"ultimos_total_de_goles_recibidos": 4,
-							"ultimos_promedio_de_goles_recibidos": 0.8,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 3,
-							"ultimos_promedio_de_goles_de_local": 0.8,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 1,
-							"ultimos_partidos_perdidos_de_local": 3,
-							"ultimos_partidos_empatados_de_local": 0,
-							"ultimos_partidos_con_goles_de_local": 2,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 25,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 2,
-							"ultimos_promedio_de_goles_de_visitante": 0.5,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 1,
-							"ultimos_partidos_perdidos_de_visitante": 2,
-							"ultimos_partidos_empatados_de_visitante": 1,
-							"ultimos_partidos_con_goles_de_visitante": 2,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 50
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 12,
+									"total_de_goles_recibidos": 16,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 1.1
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 9,
+									"goles_anotados_de_local": 8,
+									"promedio_de_goles_anotados_de_local": 0.9,
+									"partidos_ganados_de_local": 2,
+									"partidos_perdidos_de_local": 5,
+									"partidos_empatados_de_local": 2,
+									"partidos_con_goles_de_local": 5,
+									"porcentaje_de_puntos_ganados_de_local": "29.6%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 6,
+									"goles_anotados_de_visitante": 4,
+									"promedio_de_goles_anotados_de_visitante": 0.7,
+									"partidos_ganados_de_visitante": 2,
+									"partidos_perdidos_de_visitante": 3,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 4,
+									"porcentaje_de_puntos_ganados_de_visitante": "38.9%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0.5
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 2,
+									"goles_anotados_de_local": 2,
+									"promedio_de_goles_anotados_de_local": 1,
+									"partidos_ganados_de_local": 1,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 1,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 2,
+									"goles_anotados_de_visitante": 2,
+									"promedio_de_goles_anotados_de_visitante": 1,
+									"partidos_ganados_de_visitante": 1,
+									"partidos_perdidos_de_visitante": 0,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 2,
+									"porcentaje_de_puntos_ganados_de_visitante": "66.7%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-13-Sarmiento Junin-Estudiantes L.P.",
+								"id": "2024-06-13-sarmiento-junin-estudiantes-lp",
 								"fullDate": "2024-06-13T17:00",
 								"date": "2024-06-13",
 								"hour": "17:00",
@@ -2831,10 +3280,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-03-San Lorenzo-Sarmiento Junin",
+								"id": "2024-06-03-san-lorenzo-sarmiento-junin",
 								"fullDate": "2024-06-03T17:00",
 								"date": "2024-06-03",
 								"hour": "17:00",
@@ -2858,10 +3308,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-26-Sarmiento Junin-Independ. Rivadavia",
+								"id": "2024-05-26-sarmiento-junin-independ-rivadavia",
 								"fullDate": "2024-05-26T15:30",
 								"date": "2024-05-26",
 								"hour": "15:30",
@@ -2885,10 +3336,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-19-Barracas Central-Sarmiento Junin",
+								"id": "2024-05-19-barracas-central-sarmiento-junin",
 								"fullDate": "2024-05-19T13:00",
 								"date": "2024-05-19",
 								"hour": "13:00",
@@ -2912,10 +3364,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-10-Sarmiento Junin-Instituto Cordoba",
+								"id": "2024-05-10-sarmiento-junin-instituto-cordoba",
 								"fullDate": "2024-05-10T17:00",
 								"date": "2024-05-10",
 								"hour": "17:00",
@@ -2939,10 +3392,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-14-Sarmiento Junin-Platense",
+								"id": "2024-04-14-sarmiento-junin-platense",
 								"fullDate": "2024-04-14T14:00",
 								"date": "2024-04-14",
 								"hour": "14:00",
@@ -2966,10 +3420,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-08-Godoy Cruz-Sarmiento Junin",
+								"id": "2024-04-08-godoy-cruz-sarmiento-junin",
 								"fullDate": "2024-04-08T18:00",
 								"date": "2024-04-08",
 								"hour": "18:00",
@@ -2993,10 +3448,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-31-Sarmiento Junin-Newells Old Boys",
+								"id": "2024-03-31-sarmiento-junin-newells-old-boys",
 								"fullDate": "2024-03-31T14:00",
 								"date": "2024-03-31",
 								"hour": "14:00",
@@ -3020,10 +3476,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-16-San Lorenzo-Sarmiento Junin",
+								"id": "2024-03-16-san-lorenzo-sarmiento-junin",
 								"fullDate": "2024-03-16T15:00",
 								"date": "2024-03-16",
 								"hour": "15:00",
@@ -3047,10 +3504,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-09-Sarmiento Junin-Estudiantes L.P.",
+								"id": "2024-03-09-sarmiento-junin-estudiantes-lp",
 								"fullDate": "2024-03-09T15:00",
 								"date": "2024-03-09",
 								"hour": "15:00",
@@ -3074,10 +3532,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-05-Racing Club-Sarmiento Junin",
+								"id": "2024-03-05-racing-club-sarmiento-junin",
 								"fullDate": "2024-03-05T18:00",
 								"date": "2024-03-05",
 								"hour": "18:00",
@@ -3101,10 +3560,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-02-Sarmiento Junin-Union Santa Fe",
+								"id": "2024-03-02-sarmiento-junin-union-santa-fe",
 								"fullDate": "2024-03-02T15:00",
 								"date": "2024-03-02",
 								"hour": "15:00",
@@ -3128,10 +3588,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-27-Sarmiento Junin-Temperley",
+								"id": "2024-02-27-sarmiento-junin-temperley",
 								"fullDate": "2024-02-27T15:10",
 								"date": "2024-02-27",
 								"hour": "15:10",
@@ -3155,10 +3616,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-02-24-Sarmiento Junin-Barracas Central",
+								"id": "2024-02-24-sarmiento-junin-barracas-central",
 								"fullDate": "2024-02-24T20:00",
 								"date": "2024-02-24",
 								"hour": "20:00",
@@ -3182,10 +3644,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-19-Belgrano Cordoba-Sarmiento Junin",
+								"id": "2024-02-19-belgrano-cordoba-sarmiento-junin",
 								"fullDate": "2024-02-19T19:30",
 								"date": "2024-02-19",
 								"hour": "19:30",
@@ -3209,7 +3672,8 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							}
 						]
 					}
@@ -3222,100 +3686,190 @@
 		"name": "Primera A",
 		"type": "League",
 		"country": "Colombia",
+		"priority": 3,
 		"flag": "🇨🇴",
 		"standings": [
 			[
 				{
-					"teamId": 1131,
-					"teamName": "Bucaramanga",
-					"points": 8,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 4, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1125,
-					"teamName": "Millonarios",
-					"points": 8,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 6, "against": 5 }
-					}
-				},
-				{
-					"teamId": 1462,
-					"teamName": "Deportivo Pereira",
-					"points": 8,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 7, "against": 8 }
-					}
-				},
-				{
-					"teamId": 1135,
-					"teamName": "Junior",
-					"points": 8,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 5, "against": 6 }
-					}
-				}
-			],
-			[
-				{
 					"teamId": 1139,
 					"teamName": "Santa Fe",
-					"points": 16,
+					"points": 6,
 					"stats": {
-						"goalsDiff": 7,
-						"played": 6,
-						"win": 5,
-						"draw": 1,
+						"goalsDiff": 2,
+						"played": 2,
+						"win": 2,
+						"draw": 0,
 						"lose": 0,
-						"goals": { "for": 8, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1142,
-					"teamName": "Deportes Tolima",
-					"points": 10,
-					"stats": {
-						"goalsDiff": 3,
-						"played": 6,
-						"win": 3,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 9, "against": 6 }
+						"goals": { "for": 3, "against": 1 }
 					}
 				},
 				{
 					"teamId": 1136,
 					"teamName": "Once Caldas",
-					"points": 8,
+					"points": 6,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 2,
+						"win": 2,
+						"draw": 0,
+						"lose": 0,
+						"goals": { "for": 2, "against": 0 }
+					}
+				},
+				{
+					"teamId": 1137,
+					"teamName": "Atletico Nacional",
+					"points": 3,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 1,
+						"win": 1,
+						"draw": 0,
+						"lose": 0,
+						"goals": { "for": 2, "against": 0 }
+					}
+				},
+				{
+					"teamId": 1462,
+					"teamName": "Deportivo Pereira",
+					"points": 3,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 1,
+						"win": 1,
+						"draw": 0,
+						"lose": 0,
+						"goals": { "for": 2, "against": 0 }
+					}
+				},
+				{
+					"teamId": 1138,
+					"teamName": "America de Cali",
+					"points": 3,
 					"stats": {
 						"goalsDiff": 1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 5, "against": 4 }
+						"played": 1,
+						"win": 1,
+						"draw": 0,
+						"lose": 0,
+						"goals": { "for": 2, "against": 1 }
+					}
+				},
+				{
+					"teamId": 1131,
+					"teamName": "Bucaramanga",
+					"points": 3,
+					"stats": {
+						"goalsDiff": 1,
+						"played": 1,
+						"win": 1,
+						"draw": 0,
+						"lose": 0,
+						"goals": { "for": 1, "against": 0 }
+					}
+				},
+				{
+					"teamId": 1129,
+					"teamName": "Envigado",
+					"points": 3,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 2,
+						"win": 1,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 2, "against": 2 }
+					}
+				},
+				{
+					"teamId": 1142,
+					"teamName": "Deportes Tolima",
+					"points": 1,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 1,
+						"win": 0,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 1, "against": 1 }
+					}
+				},
+				{
+					"teamId": 1125,
+					"teamName": "Millonarios",
+					"points": 1,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 1,
+						"win": 0,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 1, "against": 1 }
+					}
+				},
+				{
+					"teamId": 1147,
+					"teamName": "Fortaleza FC",
+					"points": 1,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 1,
+						"win": 0,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 1, "against": 1 }
+					}
+				},
+				{
+					"teamId": 1128,
+					"teamName": "Independiente Medellin",
+					"points": 1,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 1,
+						"win": 0,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 1, "against": 1 }
+					}
+				},
+				{
+					"teamId": 1133,
+					"teamName": "Jaguares",
+					"points": 1,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 1,
+						"win": 0,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 0, "against": 0 }
+					}
+				},
+				{
+					"teamId": 1140,
+					"teamName": "Patriotas",
+					"points": 1,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 1,
+						"win": 0,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 0, "against": 0 }
+					}
+				},
+				{
+					"teamId": 1126,
+					"teamName": "Deportivo Pasto",
+					"points": 0,
+					"stats": {
+						"goalsDiff": -1,
+						"played": 1,
+						"win": 0,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 1, "against": 2 }
 					}
 				},
 				{
@@ -3323,281 +3877,84 @@
 					"teamName": "La Equidad",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -11,
-						"played": 6,
+						"goalsDiff": -1,
+						"played": 1,
 						"win": 0,
 						"draw": 0,
-						"lose": 6,
-						"goals": { "for": 3, "against": 14 }
-					}
-				}
-			],
-			[
-				{
-					"teamId": 1131,
-					"teamName": "Bucaramanga",
-					"points": 38,
-					"stats": {
-						"goalsDiff": 14,
-						"played": 19,
-						"win": 11,
-						"draw": 5,
-						"lose": 3,
-						"goals": { "for": 24, "against": 10 }
-					}
-				},
-				{
-					"teamId": 1142,
-					"teamName": "Deportes Tolima",
-					"points": 38,
-					"stats": {
-						"goalsDiff": 13,
-						"played": 19,
-						"win": 11,
-						"draw": 5,
-						"lose": 3,
-						"goals": { "for": 31, "against": 18 }
-					}
-				},
-				{
-					"teamId": 1462,
-					"teamName": "Deportivo Pereira",
-					"points": 34,
-					"stats": {
-						"goalsDiff": 9,
-						"played": 19,
-						"win": 10,
-						"draw": 4,
-						"lose": 5,
-						"goals": { "for": 27, "against": 18 }
-					}
-				},
-				{
-					"teamId": 1139,
-					"teamName": "Santa Fe",
-					"points": 34,
-					"stats": {
-						"goalsDiff": 10,
-						"played": 19,
-						"win": 10,
-						"draw": 4,
-						"lose": 5,
-						"goals": { "for": 22, "against": 12 }
-					}
-				},
-				{
-					"teamId": 1134,
-					"teamName": "La Equidad",
-					"points": 33,
-					"stats": {
-						"goalsDiff": 8,
-						"played": 19,
-						"win": 9,
-						"draw": 6,
-						"lose": 4,
-						"goals": { "for": 22, "against": 14 }
-					}
-				},
-				{
-					"teamId": 1125,
-					"teamName": "Millonarios",
-					"points": 31,
-					"stats": {
-						"goalsDiff": 8,
-						"played": 19,
-						"win": 9,
-						"draw": 4,
-						"lose": 6,
-						"goals": { "for": 28, "against": 20 }
-					}
-				},
-				{
-					"teamId": 1135,
-					"teamName": "Junior",
-					"points": 29,
-					"stats": {
-						"goalsDiff": 3,
-						"played": 19,
-						"win": 8,
-						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 24, "against": 21 }
-					}
-				},
-				{
-					"teamId": 1136,
-					"teamName": "Once Caldas",
-					"points": 29,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 19,
-						"win": 8,
-						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 16, "against": 16 }
-					}
-				},
-				{
-					"teamId": 1128,
-					"teamName": "Independiente Medellin",
-					"points": 29,
-					"stats": {
-						"goalsDiff": -9,
-						"played": 19,
-						"win": 8,
-						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 22, "against": 31 }
-					}
-				},
-				{
-					"teamId": 1138,
-					"teamName": "America de Cali",
-					"points": 25,
-					"stats": {
-						"goalsDiff": 6,
-						"played": 19,
-						"win": 6,
-						"draw": 7,
-						"lose": 6,
-						"goals": { "for": 22, "against": 16 }
-					}
-				},
-				{
-					"teamId": 1144,
-					"teamName": "Rionegro Aguilas",
-					"points": 25,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 19,
-						"win": 7,
-						"draw": 4,
-						"lose": 8,
-						"goals": { "for": 20, "against": 19 }
-					}
-				},
-				{
-					"teamId": 1137,
-					"teamName": "Atletico Nacional",
-					"points": 24,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 19,
-						"win": 6,
-						"draw": 6,
-						"lose": 7,
-						"goals": { "for": 21, "against": 20 }
-					}
-				},
-				{
-					"teamId": 154,
-					"teamName": "Fortaleza EC",
-					"points": 24,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 19,
-						"win": 6,
-						"draw": 6,
-						"lose": 7,
-						"goals": { "for": 18, "against": 20 }
-					}
-				},
-				{
-					"teamId": 1133,
-					"teamName": "Jaguares",
-					"points": 22,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 19,
-						"win": 5,
-						"draw": 7,
-						"lose": 7,
-						"goals": { "for": 17, "against": 20 }
-					}
-				},
-				{
-					"teamId": 1127,
-					"teamName": "Deportivo Cali",
-					"points": 21,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 19,
-						"win": 5,
-						"draw": 6,
-						"lose": 8,
-						"goals": { "for": 24, "against": 24 }
-					}
-				},
-				{
-					"teamId": 1126,
-					"teamName": "Deportivo Pasto",
-					"points": 19,
-					"stats": {
-						"goalsDiff": -6,
-						"played": 19,
-						"win": 5,
-						"draw": 4,
-						"lose": 10,
-						"goals": { "for": 15, "against": 21 }
+						"lose": 1,
+						"goals": { "for": 1, "against": 2 }
 					}
 				},
 				{
 					"teamId": 1132,
 					"teamName": "Chico",
-					"points": 18,
+					"points": 0,
 					"stats": {
-						"goalsDiff": -13,
-						"played": 19,
-						"win": 5,
-						"draw": 3,
-						"lose": 11,
-						"goals": { "for": 22, "against": 35 }
+						"goalsDiff": -1,
+						"played": 1,
+						"win": 0,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 0, "against": 1 }
 					}
 				},
 				{
-					"teamId": 1129,
-					"teamName": "Envigado",
-					"points": 16,
+					"teamId": 1135,
+					"teamName": "Junior",
+					"points": 0,
 					"stats": {
-						"goalsDiff": -10,
-						"played": 19,
-						"win": 3,
-						"draw": 7,
-						"lose": 9,
-						"goals": { "for": 15, "against": 25 }
+						"goalsDiff": -1,
+						"played": 1,
+						"win": 0,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 0, "against": 1 }
 					}
 				},
 				{
-					"teamId": 2881,
-					"teamName": "Alianza FC",
-					"points": 16,
+					"teamId": 1144,
+					"teamName": "Rionegro Aguilas",
+					"points": 0,
 					"stats": {
-						"goalsDiff": -14,
-						"played": 19,
-						"win": 4,
-						"draw": 4,
-						"lose": 11,
-						"goals": { "for": 15, "against": 29 }
+						"goalsDiff": -2,
+						"played": 2,
+						"win": 0,
+						"draw": 0,
+						"lose": 2,
+						"goals": { "for": 1, "against": 3 }
 					}
 				},
 				{
-					"teamId": 1140,
-					"teamName": "Patriotas",
-					"points": 15,
+					"teamId": 1141,
+					"teamName": "Alianza Petrolera",
+					"points": 0,
 					"stats": {
-						"goalsDiff": -16,
-						"played": 19,
-						"win": 4,
-						"draw": 3,
-						"lose": 12,
-						"goals": { "for": 8, "against": 24 }
+						"goalsDiff": -2,
+						"played": 1,
+						"win": 0,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 0, "against": 2 }
+					}
+				},
+				{
+					"teamId": 1127,
+					"teamName": "Deportivo Cali",
+					"points": 0,
+					"stats": {
+						"goalsDiff": -2,
+						"played": 1,
+						"win": 0,
+						"draw": 0,
+						"lose": 1,
+						"goals": { "for": 0, "against": 2 }
 					}
 				}
 			]
 		],
 		"matches": [
 			{
-				"id": "2024-07-19-Jaguares-Patriotas",
+				"id": "2024-07-19-jaguares-patriotas",
 				"fullDate": "2024-07-19T17:00",
 				"date": "2024-07-19",
 				"hour": "17:00",
@@ -3607,66 +3964,87 @@
 						"id": 1133,
 						"name": "Jaguares",
 						"country": "🇨🇴",
-						"position": 14,
+						"position": 12,
 						"featured": false,
 						"score": 0,
 						"winner": null,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 17,
-							"promedio_de_goles": 1.1,
-							"total_de_goles_recibidos": 20,
-							"promedio_de_goles_recibidos": 1.1,
-							"---|---": 0,
-							"goles_de_local": 10,
-							"promedio_de_goles_de_local": 1.3,
-							"partidos_de_local": 8,
-							"partidos_ganados_de_local": 3,
-							"partidos_perdidos_de_local": 2,
-							"partidos_empatados_de_local": 3,
-							"partidos_con_goles_de_local": 6,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 75,
-							"---||---": 0,
-							"goles_de_visitante": 7,
-							"promedio_de_goles_de_visitante": 1,
-							"partidos_de_visitante": 7,
-							"partidos_ganados_de_visitante": 0,
-							"partidos_perdidos_de_visitante": 5,
-							"partidos_empatados_de_visitante": 2,
-							"partidos_con_goles_de_visitante": 4,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 28.6,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 7,
-							"ultimos_promedio_de_goles": 1.8,
-							"ultimos_total_de_goles_recibidos": 20,
-							"ultimos_promedio_de_goles_recibidos": 1.1,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 5,
-							"ultimos_promedio_de_goles_de_local": 1.3,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 2,
-							"ultimos_partidos_perdidos_de_local": 1,
-							"ultimos_partidos_empatados_de_local": 1,
-							"ultimos_partidos_con_goles_de_local": 3,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 75,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 6,
-							"ultimos_promedio_de_goles_de_visitante": 1.5,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 0,
-							"ultimos_partidos_perdidos_de_visitante": 2,
-							"ultimos_partidos_empatados_de_visitante": 2,
-							"ultimos_partidos_con_goles_de_visitante": 3,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 50
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 17,
+									"total_de_goles_recibidos": 22,
+									"promedio_de_goles_anotados": 1.1,
+									"promedio_de_goles_recibidos": 1.5
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 8,
+									"goles_anotados_de_local": 10,
+									"promedio_de_goles_anotados_de_local": 1.3,
+									"partidos_ganados_de_local": 3,
+									"partidos_perdidos_de_local": 2,
+									"partidos_empatados_de_local": 3,
+									"partidos_con_goles_de_local": 6,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 7,
+									"goles_anotados_de_visitante": 7,
+									"promedio_de_goles_anotados_de_visitante": 1,
+									"partidos_ganados_de_visitante": 0,
+									"partidos_perdidos_de_visitante": 5,
+									"partidos_empatados_de_visitante": 2,
+									"partidos_con_goles_de_visitante": 4,
+									"porcentaje_de_puntos_ganados_de_visitante": "9.5%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 7,
+									"total_de_goles_recibidos": 6,
+									"promedio_de_goles_anotados": 1.8,
+									"promedio_de_goles_recibidos": 1.5
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 3,
+									"goles_anotados_de_local": 4,
+									"promedio_de_goles_anotados_de_local": 1.3,
+									"partidos_ganados_de_local": 2,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 2,
+									"porcentaje_de_puntos_ganados_de_local": "66.7%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 1,
+									"goles_anotados_de_visitante": 3,
+									"promedio_de_goles_anotados_de_visitante": 3,
+									"partidos_ganados_de_visitante": 0,
+									"partidos_perdidos_de_visitante": 1,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 1,
+									"porcentaje_de_puntos_ganados_de_visitante": "0%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-25-Jaguares-Barranquilla",
+								"id": "2024-06-25-jaguares-barranquilla",
 								"fullDate": "2024-06-25T19:00",
 								"date": "2024-06-25",
 								"hour": "19:00",
@@ -3675,7 +4053,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3690,10 +4068,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-05-16-Jaguares-Tigres FC",
+								"id": "2024-05-16-jaguares-tigres-fc",
 								"fullDate": "2024-05-16T15:00",
 								"date": "2024-05-16",
 								"hour": "15:00",
@@ -3702,7 +4081,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -3717,10 +4096,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-05-09-Tigres FC-Jaguares",
+								"id": "2024-05-09-tigres-fc-jaguares",
 								"fullDate": "2024-05-09T19:10",
 								"date": "2024-05-09",
 								"hour": "19:10",
@@ -3738,16 +4118,17 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 3,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-28-Jaguares-Santa Fe",
+								"id": "2024-04-28-jaguares-santa-fe",
 								"fullDate": "2024-04-28T17:00",
 								"date": "2024-04-28",
 								"hour": "17:00",
@@ -3756,7 +4137,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3771,10 +4152,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-24-Jaguares-Llaneros",
+								"id": "2024-04-24-jaguares-llaneros",
 								"fullDate": "2024-04-24T16:00",
 								"date": "2024-04-24",
 								"hour": "16:00",
@@ -3783,7 +4165,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3798,10 +4180,11 @@
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-20-Alianza Petrolera-Jaguares",
+								"id": "2024-04-20-alianza-petrolera-jaguares",
 								"fullDate": "2024-04-20T20:30",
 								"date": "2024-04-20",
 								"hour": "20:30",
@@ -3810,7 +4193,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 19,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3819,16 +4202,17 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-16-Jaguares-Deportivo Cali",
+								"id": "2024-04-16-jaguares-deportivo-cali",
 								"fullDate": "2024-04-16T18:10",
 								"date": "2024-04-16",
 								"hour": "18:10",
@@ -3837,7 +4221,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3846,16 +4230,17 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-13-Deportivo Pereira-Jaguares",
+								"id": "2024-04-13-deportivo-pereira-jaguares",
 								"fullDate": "2024-04-13T20:30",
 								"date": "2024-04-13",
 								"hour": "20:30",
@@ -3864,8 +4249,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									},
@@ -3873,16 +4258,17 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-10-Llaneros-Jaguares",
+								"id": "2024-04-10-llaneros-jaguares",
 								"fullDate": "2024-04-10T16:00",
 								"date": "2024-04-10",
 								"hour": "16:00",
@@ -3900,16 +4286,17 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-07-Jaguares-Independiente Medellin",
+								"id": "2024-04-07-jaguares-independiente-medellin",
 								"fullDate": "2024-04-07T18:10",
 								"date": "2024-04-07",
 								"hour": "18:10",
@@ -3918,7 +4305,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -3927,16 +4314,17 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-31-Chico-Jaguares",
+								"id": "2024-03-31-chico-jaguares",
 								"fullDate": "2024-03-31T17:20",
 								"date": "2024-03-31",
 								"hour": "17:20",
@@ -3945,7 +4333,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3954,16 +4342,17 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-27-Atletico Nacional-Jaguares",
+								"id": "2024-03-27-atletico-nacional-jaguares",
 								"fullDate": "2024-03-27T18:10",
 								"date": "2024-03-27",
 								"hour": "18:10",
@@ -3972,8 +4361,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 12,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -3981,16 +4370,17 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-24-Jaguares-Fortaleza FC",
+								"id": "2024-03-24-jaguares-fortaleza-fc",
 								"fullDate": "2024-03-24T18:20",
 								"date": "2024-03-24",
 								"hour": "18:20",
@@ -3999,7 +4389,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4008,16 +4398,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-19-Jaguares-Depor FC",
+								"id": "2024-03-19-jaguares-depor-fc",
 								"fullDate": "2024-03-19T18:10",
 								"date": "2024-03-19",
 								"hour": "18:10",
@@ -4026,7 +4417,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -4041,10 +4432,11 @@
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-03-15-Junior-Jaguares",
+								"id": "2024-03-15-junior-jaguares",
 								"fullDate": "2024-03-15T20:10",
 								"date": "2024-03-15",
 								"hour": "20:10",
@@ -4053,7 +4445,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 17,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4062,13 +4454,14 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							}
 						]
 					},
@@ -4076,66 +4469,87 @@
 						"id": 1140,
 						"name": "Patriotas",
 						"country": "🇨🇴",
-						"position": 20,
+						"position": 13,
 						"featured": false,
 						"score": 0,
 						"winner": null,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 10,
-							"promedio_de_goles": 0.7,
-							"total_de_goles_recibidos": 24,
-							"promedio_de_goles_recibidos": 1.3,
-							"---|---": 0,
-							"goles_de_local": 6,
-							"promedio_de_goles_de_local": 0.8,
-							"partidos_de_local": 8,
-							"partidos_ganados_de_local": 2,
-							"partidos_perdidos_de_local": 5,
-							"partidos_empatados_de_local": 1,
-							"partidos_con_goles_de_local": 4,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 37.5,
-							"---||---": 0,
-							"goles_de_visitante": 4,
-							"promedio_de_goles_de_visitante": 0.6,
-							"partidos_de_visitante": 7,
-							"partidos_ganados_de_visitante": 2,
-							"partidos_perdidos_de_visitante": 5,
-							"partidos_empatados_de_visitante": 0,
-							"partidos_con_goles_de_visitante": 3,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 28.6,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 3,
-							"ultimos_promedio_de_goles": 0.8,
-							"ultimos_total_de_goles_recibidos": 24,
-							"ultimos_promedio_de_goles_recibidos": 1.3,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 4,
-							"ultimos_promedio_de_goles_de_local": 1,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 0,
-							"ultimos_partidos_perdidos_de_local": 4,
-							"ultimos_partidos_empatados_de_local": 0,
-							"ultimos_partidos_con_goles_de_local": 2,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 0,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 3,
-							"ultimos_promedio_de_goles_de_visitante": 0.8,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 1,
-							"ultimos_partidos_perdidos_de_visitante": 3,
-							"ultimos_partidos_empatados_de_visitante": 0,
-							"ultimos_partidos_con_goles_de_visitante": 2,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 25
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 26,
+									"promedio_de_goles_anotados": 0.7,
+									"promedio_de_goles_recibidos": 1.7
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 8,
+									"goles_anotados_de_local": 6,
+									"promedio_de_goles_anotados_de_local": 0.8,
+									"partidos_ganados_de_local": 2,
+									"partidos_perdidos_de_local": 5,
+									"partidos_empatados_de_local": 1,
+									"partidos_con_goles_de_local": 4,
+									"porcentaje_de_puntos_ganados_de_local": "29.2%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 7,
+									"goles_anotados_de_visitante": 4,
+									"promedio_de_goles_anotados_de_visitante": 0.6,
+									"partidos_ganados_de_visitante": 2,
+									"partidos_perdidos_de_visitante": 5,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 3,
+									"porcentaje_de_puntos_ganados_de_visitante": "28.6%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 10,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 2.5
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 3,
+									"goles_anotados_de_local": 2,
+									"promedio_de_goles_anotados_de_local": 0.7,
+									"partidos_ganados_de_local": 0,
+									"partidos_perdidos_de_local": 3,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 1,
+									"porcentaje_de_puntos_ganados_de_local": "0%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 1,
+									"goles_anotados_de_visitante": 1,
+									"promedio_de_goles_anotados_de_visitante": 1,
+									"partidos_ganados_de_visitante": 0,
+									"partidos_perdidos_de_visitante": 1,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 1,
+									"porcentaje_de_puntos_ganados_de_visitante": "0%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-07-03-Patriotas-Deportivo Santani",
+								"id": "2024-07-03-patriotas-deportivo-santani",
 								"fullDate": "2024-07-03T15:15",
 								"date": "2024-07-03",
 								"hour": "15:15",
@@ -4144,7 +4558,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -4159,10 +4573,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 501, "name": "Copa Paraguay" }
 							},
 							{
-								"id": "2024-04-28-Patriotas-Deportivo Pasto",
+								"id": "2024-04-28-patriotas-deportivo-pasto",
 								"fullDate": "2024-04-28T15:00",
 								"date": "2024-04-28",
 								"hour": "15:00",
@@ -4171,7 +4586,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4180,16 +4595,17 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": 14,
 										"featured": false,
 										"score": 3,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-25-Patriotas-Bucaramanga",
+								"id": "2024-04-25-patriotas-bucaramanga",
 								"fullDate": "2024-04-25T17:30",
 								"date": "2024-04-25",
 								"hour": "17:30",
@@ -4198,7 +4614,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4207,16 +4623,17 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": 6,
 										"featured": true,
 										"score": 3,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-21-Deportes Tolima-Patriotas",
+								"id": "2024-04-21-deportes-tolima-patriotas",
 								"fullDate": "2024-04-21T20:30",
 								"date": "2024-04-21",
 								"hour": "20:30",
@@ -4225,7 +4642,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4234,16 +4651,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-18-Patriotas-Independiente Medellin",
+								"id": "2024-04-18-patriotas-independiente-medellin",
 								"fullDate": "2024-04-18T18:10",
 								"date": "2024-04-18",
 								"hour": "18:10",
@@ -4252,7 +4670,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -4261,16 +4679,17 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 3,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-14-Chico-Patriotas",
+								"id": "2024-04-14-chico-patriotas",
 								"fullDate": "2024-04-14T14:00",
 								"date": "2024-04-14",
 								"hour": "14:00",
@@ -4279,7 +4698,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4288,16 +4707,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-10-Bucaramanga-Patriotas",
+								"id": "2024-04-10-bucaramanga-patriotas",
 								"fullDate": "2024-04-10T19:40",
 								"date": "2024-04-10",
 								"hour": "19:40",
@@ -4306,7 +4726,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": 6,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4315,16 +4735,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-07-Patriotas-Alianza Petrolera",
+								"id": "2024-04-07-patriotas-alianza-petrolera",
 								"fullDate": "2024-04-07T16:00",
 								"date": "2024-04-07",
 								"hour": "16:00",
@@ -4333,7 +4754,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4342,16 +4763,17 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-31-Santa Fe-Patriotas",
+								"id": "2024-03-31-santa-fe-patriotas",
 								"fullDate": "2024-03-31T14:00",
 								"date": "2024-03-31",
 								"hour": "14:00",
@@ -4369,16 +4791,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-22-Patriotas-Junior",
+								"id": "2024-03-22-patriotas-junior",
 								"fullDate": "2024-03-22T18:10",
 								"date": "2024-03-22",
 								"hour": "18:10",
@@ -4387,7 +4810,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4396,16 +4819,17 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-17-Deportivo Cali-Patriotas",
+								"id": "2024-03-17-deportivo-cali-patriotas",
 								"fullDate": "2024-03-17T16:10",
 								"date": "2024-03-17",
 								"hour": "16:10",
@@ -4414,7 +4838,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4423,16 +4847,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-10-Patriotas-Deportivo Pereira",
+								"id": "2024-03-10-patriotas-deportivo-pereira",
 								"fullDate": "2024-03-10T20:30",
 								"date": "2024-03-10",
 								"hour": "20:30",
@@ -4441,7 +4866,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4450,16 +4875,17 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-03-Bucaramanga-Patriotas",
+								"id": "2024-03-03-bucaramanga-patriotas",
 								"fullDate": "2024-03-03T16:00",
 								"date": "2024-03-03",
 								"hour": "16:00",
@@ -4468,7 +4894,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": 6,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4477,16 +4903,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-02-27-Envigado-Patriotas",
+								"id": "2024-02-27-envigado-patriotas",
 								"fullDate": "2024-02-27T16:00",
 								"date": "2024-02-27",
 								"hour": "16:00",
@@ -4495,7 +4922,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4504,16 +4931,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-02-24-Patriotas-Millonarios",
+								"id": "2024-02-24-patriotas-millonarios",
 								"fullDate": "2024-02-24T20:20",
 								"date": "2024-02-24",
 								"hour": "20:20",
@@ -4522,7 +4950,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4531,20 +4959,21 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							}
 						]
 					}
 				}
 			},
 			{
-				"id": "2024-07-19-Fortaleza FC-Deportes Tolima",
+				"id": "2024-07-19-fortaleza-fc-deportes-tolima",
 				"fullDate": "2024-07-19T19:30",
 				"date": "2024-07-19",
 				"hour": "19:30",
@@ -4554,66 +4983,87 @@
 						"id": 1147,
 						"name": "Fortaleza FC",
 						"country": "🇨🇴",
-						"position": null,
+						"position": 10,
 						"featured": false,
 						"score": 1,
 						"winner": null,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 12,
-							"promedio_de_goles": 0.8,
-							"total_de_goles_recibidos": 0,
-							"promedio_de_goles_recibidos": 0,
-							"---|---": 0,
-							"goles_de_local": 6,
-							"promedio_de_goles_de_local": 0.8,
-							"partidos_de_local": 8,
-							"partidos_ganados_de_local": 3,
-							"partidos_perdidos_de_local": 3,
-							"partidos_empatados_de_local": 2,
-							"partidos_con_goles_de_local": 4,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 62.5,
-							"---||---": 0,
-							"goles_de_visitante": 6,
-							"promedio_de_goles_de_visitante": 0.9,
-							"partidos_de_visitante": 7,
-							"partidos_ganados_de_visitante": 4,
-							"partidos_perdidos_de_visitante": 1,
-							"partidos_empatados_de_visitante": 2,
-							"partidos_con_goles_de_visitante": 5,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 85.7,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 2,
-							"ultimos_promedio_de_goles": 0.5,
-							"ultimos_total_de_goles_recibidos": 0,
-							"ultimos_promedio_de_goles_recibidos": 0,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 1,
-							"ultimos_promedio_de_goles_de_local": 0.3,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 1,
-							"ultimos_partidos_perdidos_de_local": 2,
-							"ultimos_partidos_empatados_de_local": 1,
-							"ultimos_partidos_con_goles_de_local": 1,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 50,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 3,
-							"ultimos_promedio_de_goles_de_visitante": 0.8,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 2,
-							"ultimos_partidos_perdidos_de_visitante": 0,
-							"ultimos_partidos_empatados_de_visitante": 2,
-							"ultimos_partidos_con_goles_de_visitante": 3,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 100
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 12,
+									"total_de_goles_recibidos": 10,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 0.7
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 8,
+									"goles_anotados_de_local": 6,
+									"promedio_de_goles_anotados_de_local": 0.8,
+									"partidos_ganados_de_local": 3,
+									"partidos_perdidos_de_local": 3,
+									"partidos_empatados_de_local": 2,
+									"partidos_con_goles_de_local": 4,
+									"porcentaje_de_puntos_ganados_de_local": "45.8%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 7,
+									"goles_anotados_de_visitante": 6,
+									"promedio_de_goles_anotados_de_visitante": 0.9,
+									"partidos_ganados_de_visitante": 4,
+									"partidos_perdidos_de_visitante": 1,
+									"partidos_empatados_de_visitante": 2,
+									"partidos_con_goles_de_visitante": 5,
+									"porcentaje_de_puntos_ganados_de_visitante": "66.7%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 2,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 0.3
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 3,
+									"goles_anotados_de_local": 1,
+									"promedio_de_goles_anotados_de_local": 0.3,
+									"partidos_ganados_de_local": 1,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 1,
+									"partidos_con_goles_de_local": 1,
+									"porcentaje_de_puntos_ganados_de_local": "44.4%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 1,
+									"goles_anotados_de_visitante": 1,
+									"promedio_de_goles_anotados_de_visitante": 1,
+									"partidos_ganados_de_visitante": 1,
+									"partidos_perdidos_de_visitante": 0,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 1,
+									"porcentaje_de_puntos_ganados_de_visitante": "100%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-24-Fortaleza FC-Chico",
+								"id": "2024-06-24-fortaleza-fc-chico",
 								"fullDate": "2024-06-24T19:00",
 								"date": "2024-06-24",
 								"hour": "19:00",
@@ -4622,7 +5072,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4631,16 +5081,17 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-06-17-Fortaleza FC-Real Soacha",
+								"id": "2024-06-17-fortaleza-fc-real-soacha",
 								"fullDate": "2024-06-17T19:00",
 								"date": "2024-06-17",
 								"hour": "19:00",
@@ -4649,7 +5100,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4664,10 +5115,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-05-15-Fortaleza FC-Deportivo Pereira",
+								"id": "2024-05-15-fortaleza-fc-deportivo-pereira",
 								"fullDate": "2024-05-15T20:05",
 								"date": "2024-05-15",
 								"hour": "20:05",
@@ -4676,7 +5128,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4685,16 +5137,17 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-05-08-Deportivo Pereira-Fortaleza FC",
+								"id": "2024-05-08-deportivo-pereira-fortaleza-fc",
 								"fullDate": "2024-05-08T19:30",
 								"date": "2024-05-08",
 								"hour": "19:30",
@@ -4703,8 +5156,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -4712,16 +5165,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-28-Rionegro Aguilas-Fortaleza FC",
+								"id": "2024-04-28-rionegro-aguilas-fortaleza-fc",
 								"fullDate": "2024-04-28T17:00",
 								"date": "2024-04-28",
 								"hour": "17:00",
@@ -4730,7 +5184,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4739,16 +5193,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-25-Once Caldas-Fortaleza FC",
+								"id": "2024-04-25-once-caldas-fortaleza-fc",
 								"fullDate": "2024-04-25T20:00",
 								"date": "2024-04-25",
 								"hour": "20:00",
@@ -4757,8 +5212,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -4766,16 +5221,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-22-Fortaleza FC-Bucaramanga",
+								"id": "2024-04-22-fortaleza-fc-bucaramanga",
 								"fullDate": "2024-04-22T16:00",
 								"date": "2024-04-22",
 								"hour": "16:00",
@@ -4784,7 +5240,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4793,16 +5249,17 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-18-La Equidad-Fortaleza FC",
+								"id": "2024-04-18-la-equidad-fortaleza-fc",
 								"fullDate": "2024-04-18T16:00",
 								"date": "2024-04-18",
 								"hour": "16:00",
@@ -4811,7 +5268,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 15,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4820,16 +5277,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-13-Fortaleza FC-Once Caldas",
+								"id": "2024-04-13-fortaleza-fc-once-caldas",
 								"fullDate": "2024-04-13T14:00",
 								"date": "2024-04-13",
 								"hour": "14:00",
@@ -4838,7 +5296,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -4847,16 +5305,17 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-09-Fortaleza FC-Once Caldas",
+								"id": "2024-04-09-fortaleza-fc-once-caldas",
 								"fullDate": "2024-04-09T18:00",
 								"date": "2024-04-09",
 								"hour": "18:00",
@@ -4865,7 +5324,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -4874,16 +5333,17 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-05-Atletico Nacional-Fortaleza FC",
+								"id": "2024-04-05-atletico-nacional-fortaleza-fc",
 								"fullDate": "2024-04-05T18:10",
 								"date": "2024-04-05",
 								"hour": "18:10",
@@ -4892,8 +5352,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 12,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -4901,16 +5361,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-30-Fortaleza FC-Millonarios",
+								"id": "2024-03-30-fortaleza-fc-millonarios",
 								"fullDate": "2024-03-30T20:30",
 								"date": "2024-03-30",
 								"hour": "20:30",
@@ -4919,7 +5380,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4928,16 +5389,17 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-24-Jaguares-Fortaleza FC",
+								"id": "2024-03-24-jaguares-fortaleza-fc",
 								"fullDate": "2024-03-24T18:20",
 								"date": "2024-03-24",
 								"hour": "18:20",
@@ -4946,7 +5408,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4955,16 +5417,17 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-18-Fortaleza FC-America de Cali",
+								"id": "2024-03-18-fortaleza-fc-america-de-cali",
 								"fullDate": "2024-03-18T18:20",
 								"date": "2024-03-18",
 								"hour": "18:20",
@@ -4973,7 +5436,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4982,16 +5445,17 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 10,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-09-Santa Fe-Fortaleza FC",
+								"id": "2024-03-09-santa-fe-fortaleza-fc",
 								"fullDate": "2024-03-09T16:10",
 								"date": "2024-03-09",
 								"hour": "16:10",
@@ -5009,13 +5473,14 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							}
 						]
 					},
@@ -5023,66 +5488,87 @@
 						"id": 1142,
 						"name": "Deportes Tolima",
 						"country": "🇨🇴",
-						"position": 2,
+						"position": 8,
 						"featured": true,
 						"score": 1,
 						"winner": null,
-						"stats": {
-							"total_de_partidos": 15,
-							"total_de_goles": 24,
-							"promedio_de_goles": 1.6,
-							"total_de_goles_recibidos": 6,
-							"promedio_de_goles_recibidos": 1,
-							"---|---": 0,
-							"goles_de_local": 13,
-							"promedio_de_goles_de_local": 1.9,
-							"partidos_de_local": 7,
-							"partidos_ganados_de_local": 4,
-							"partidos_perdidos_de_local": 1,
-							"partidos_empatados_de_local": 2,
-							"partidos_con_goles_de_local": 7,
-							"promedio_de_puntos_de_local": 0,
-							"porcentaje_de_puntos_ganados_de_local": 85.7,
-							"---||---": 0,
-							"goles_de_visitante": 11,
-							"promedio_de_goles_de_visitante": 1.4,
-							"partidos_de_visitante": 8,
-							"partidos_ganados_de_visitante": 4,
-							"partidos_perdidos_de_visitante": 3,
-							"partidos_empatados_de_visitante": 1,
-							"partidos_con_goles_de_visitante": 7,
-							"promedio_de_puntos_de_visitante": 0,
-							"porcentaje_de_puntos_ganados_de_visitante": 62.5,
-							"---|||---": 0,
-							"ultimos_total_de_partidos": 4,
-							"ultimos_total_de_goles": 8,
-							"ultimos_promedio_de_goles": 2,
-							"ultimos_total_de_goles_recibidos": 6,
-							"ultimos_promedio_de_goles_recibidos": 1,
-							"---||||---": 0,
-							"ultimos_goles_de_local": 7,
-							"ultimos_promedio_de_goles_de_local": 1.8,
-							"ultimos_partidos_de_local": 4,
-							"ultimos_partidos_ganados_de_local": 2,
-							"ultimos_partidos_perdidos_de_local": 1,
-							"ultimos_partidos_empatados_de_local": 1,
-							"ultimos_partidos_con_goles_de_local": 4,
-							"ultimos_promedio_de_puntos_de_local": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_local": 75,
-							"---|||||---": 0,
-							"ultimos_goles_de_visitante": 5,
-							"ultimos_promedio_de_goles_de_visitante": 1.3,
-							"ultimos_partidos_de_visitante": 4,
-							"ultimos_partidos_ganados_de_visitante": 2,
-							"ultimos_partidos_perdidos_de_visitante": 2,
-							"ultimos_partidos_empatados_de_visitante": 0,
-							"ultimos_partidos_con_goles_de_visitante": 3,
-							"ultimos_promedio_de_puntos_de_visitante": 0,
-							"ultimos_porcentaje_de_puntos_ganados_de_visitante": 50
-						},
+						"stats": [
+							{
+								"name": "Comportamiento general en los últimos 15 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 24,
+									"total_de_goles_recibidos": 17,
+									"promedio_de_goles_anotados": 1.6,
+									"promedio_de_goles_recibidos": 1.1
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 15 partidos",
+								"items": {
+									"partidos_de_local": 7,
+									"goles_anotados_de_local": 13,
+									"promedio_de_goles_anotados_de_local": 1.9,
+									"partidos_ganados_de_local": 4,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 2,
+									"partidos_con_goles_de_local": 7,
+									"porcentaje_de_puntos_ganados_de_local": "66.7%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 15 partidos",
+								"items": {
+									"partidos_de_visitante": 8,
+									"goles_anotados_de_visitante": 11,
+									"promedio_de_goles_anotados_de_visitante": 1.4,
+									"partidos_ganados_de_visitante": 4,
+									"partidos_perdidos_de_visitante": 3,
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 7,
+									"porcentaje_de_puntos_ganados_de_visitante": "54.2%"
+								}
+							},
+							{
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1
+								}
+							},
+							{
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"partidos_de_local": 2,
+									"goles_anotados_de_local": 4,
+									"promedio_de_goles_anotados_de_local": 2,
+									"partidos_ganados_de_local": 1,
+									"partidos_perdidos_de_local": 1,
+									"partidos_empatados_de_local": 0,
+									"partidos_con_goles_de_local": 2,
+									"porcentaje_de_puntos_ganados_de_local": "50%"
+								}
+							},
+							{
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"partidos_de_visitante": 2,
+									"goles_anotados_de_visitante": 4,
+									"promedio_de_goles_anotados_de_visitante": 2,
+									"partidos_ganados_de_visitante": 2,
+									"partidos_perdidos_de_visitante": 0,
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 2,
+									"porcentaje_de_puntos_ganados_de_visitante": "100%"
+								}
+							}
+						],
 						"matches": [
 							{
-								"id": "2024-06-02-Deportes Tolima-Santa Fe",
+								"id": "2024-06-02-deportes-tolima-santa-fe",
 								"fullDate": "2024-06-02T19:30",
 								"date": "2024-06-02",
 								"hour": "19:30",
@@ -5091,7 +5577,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5106,10 +5592,11 @@
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-05-26-Once Caldas-Deportes Tolima",
+								"id": "2024-05-26-once-caldas-deportes-tolima",
 								"fullDate": "2024-05-26T18:00",
 								"date": "2024-05-26",
 								"hour": "18:00",
@@ -5118,8 +5605,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -5127,16 +5614,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 1,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-05-23-Deportes Tolima-La Equidad",
+								"id": "2024-05-23-deportes-tolima-la-equidad",
 								"fullDate": "2024-05-23T18:15",
 								"date": "2024-05-23",
 								"hour": "18:15",
@@ -5145,7 +5633,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5154,16 +5642,17 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 15,
 										"featured": false,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-05-18-La Equidad-Deportes Tolima",
+								"id": "2024-05-18-la-equidad-deportes-tolima",
 								"fullDate": "2024-05-18T17:15",
 								"date": "2024-05-18",
 								"hour": "17:15",
@@ -5172,7 +5661,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 15,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -5181,16 +5670,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 3,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-05-12-Deportes Tolima-Once Caldas",
+								"id": "2024-05-12-deportes-tolima-once-caldas",
 								"fullDate": "2024-05-12T19:30",
 								"date": "2024-05-12",
 								"hour": "19:30",
@@ -5199,7 +5689,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5208,16 +5698,17 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-05-05-Santa Fe-Deportes Tolima",
+								"id": "2024-05-05-santa-fe-deportes-tolima",
 								"fullDate": "2024-05-05T17:15",
 								"date": "2024-05-05",
 								"hour": "17:15",
@@ -5235,16 +5726,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 0,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-27-Atletico Nacional-Deportes Tolima",
+								"id": "2024-04-27-atletico-nacional-deportes-tolima",
 								"fullDate": "2024-04-27T19:00",
 								"date": "2024-04-27",
 								"hour": "19:00",
@@ -5253,8 +5745,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 12,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -5262,16 +5754,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-21-Deportes Tolima-Patriotas",
+								"id": "2024-04-21-deportes-tolima-patriotas",
 								"fullDate": "2024-04-21T20:30",
 								"date": "2024-04-21",
 								"hour": "20:30",
@@ -5280,7 +5773,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5289,16 +5782,17 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-16-Envigado-Deportes Tolima",
+								"id": "2024-04-16-envigado-deportes-tolima",
 								"fullDate": "2024-04-16T16:00",
 								"date": "2024-04-16",
 								"hour": "16:00",
@@ -5307,7 +5801,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": 7,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5316,16 +5810,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-12-Deportes Tolima-Rionegro Aguilas",
+								"id": "2024-04-12-deportes-tolima-rionegro-aguilas",
 								"fullDate": "2024-04-12T18:05",
 								"date": "2024-04-12",
 								"hour": "18:05",
@@ -5334,7 +5829,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5343,16 +5838,17 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-05-Once Caldas-Deportes Tolima",
+								"id": "2024-04-05-once-caldas-deportes-tolima",
 								"fullDate": "2024-04-05T20:20",
 								"date": "2024-04-05",
 								"hour": "20:20",
@@ -5361,8 +5857,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -5370,16 +5866,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-29-Alianza Petrolera-Deportes Tolima",
+								"id": "2024-03-29-alianza-petrolera-deportes-tolima",
 								"fullDate": "2024-03-29T17:00",
 								"date": "2024-03-29",
 								"hour": "17:00",
@@ -5388,7 +5885,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": null,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5397,16 +5894,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": true
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-23-Deportes Tolima-Deportivo Pereira",
+								"id": "2024-03-23-deportes-tolima-deportivo-pereira",
 								"fullDate": "2024-03-23T16:10",
 								"date": "2024-03-23",
 								"hour": "16:10",
@@ -5415,7 +5913,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5424,16 +5922,17 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-16-Santa Fe-Deportes Tolima",
+								"id": "2024-03-16-santa-fe-deportes-tolima",
 								"fullDate": "2024-03-16T14:00",
 								"date": "2024-03-16",
 								"hour": "14:00",
@@ -5451,16 +5950,17 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 1,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-09-Deportes Tolima-Independiente Medellin",
+								"id": "2024-03-09-deportes-tolima-independiente-medellin",
 								"fullDate": "2024-03-09T20:30",
 								"date": "2024-03-09",
 								"hour": "20:30",
@@ -5469,7 +5969,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": 8,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -5478,13 +5978,14 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": null
 									}
 								},
-								"played": true
+								"played": true,
+								"league": { "id": 239, "name": "Primera A" }
 							}
 						]
 					}

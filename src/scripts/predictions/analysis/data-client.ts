@@ -3,6 +3,7 @@ import type DR from "../../../@diegofrayo/types";
 import { removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, delay, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
+import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
 import LEAGUES from "../data/util/leagues.json";
@@ -213,7 +214,7 @@ async function updateTeamsFile(
 
 async function updateLeaguesFixtures(requestConfig: { from: string; to: string }) {
 	const output = {} as DR.Object<number[]>;
-	const leagues = Object.values(LEAGUES.items).sort(sortBy("order", "name"));
+	const leagues = Object.values(LEAGUES.items).sort(sortBy("priority", "name"));
 
 	await asyncLoop(leagues, async (league) => {
 		try {
@@ -340,24 +341,36 @@ function getMatchPredictions({
 }
 */
 
-function getTeamStats(
-	teamId: number,
-	playedMatches: T_PlayedMatch[],
-	leagueStandings: T_LeagueStandings,
-): T_TeamStats {
-	const result = {
-		...calculateTeamStats({ teamId, playedMatches, side: "all", leagueStandings }),
-		"---|---": 0,
-		...calculateTeamStats({ teamId, playedMatches, side: "home", leagueStandings }),
-		"---||---": 0,
-		...calculateTeamStats({ teamId, playedMatches, side: "away", leagueStandings }),
-		"---|||---": 0,
-		...calculateTeamStats({ teamId, playedMatches, side: "all", leagueStandings, lastGames: 4 }),
-		"---||||---": 0,
-		...calculateTeamStats({ teamId, playedMatches, side: "home", leagueStandings, lastGames: 4 }),
-		"---|||||---": 0,
-		...calculateTeamStats({ teamId, playedMatches, side: "away", leagueStandings, lastGames: 4 }),
-	};
+function getTeamStats(teamId: number, playedMatches: T_PlayedMatch[]): T_TeamStats {
+	const totalPlayedMatches = playedMatches.length;
+	const lastGames = 4;
+
+	const result = [
+		{
+			name: `Comportamiento general en los últimos ${totalPlayedMatches} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "all" }),
+		},
+		{
+			name: `Comportamiento como local en los últimos ${totalPlayedMatches} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "home" }),
+		},
+		{
+			name: `Comportamiento como visitante en los últimos ${totalPlayedMatches} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "away" }),
+		},
+		{
+			name: `Comportamiento general en los últimos ${lastGames} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "all", lastGames }),
+		},
+		{
+			name: `Comportamiento como local en los últimos ${lastGames} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "home", lastGames }),
+		},
+		{
+			name: `Comportamiento como visitante en los últimos ${lastGames} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "away", lastGames }),
+		},
+	];
 
 	return result as T_TeamStats;
 }
@@ -442,7 +455,7 @@ function parseMatchItem(
 	const [date, hour] = fullDate.split("T");
 	const isPlayedMatch = v.isNumber(item.goals.home) && v.isNumber(item.goals.away);
 	const matchBaseData = {
-		id: `${date}-${item.teams.home.name}-${item.teams.away.name}`,
+		id: generateSlug(`${date}-${item.teams.home.name}-${item.teams.away.name}`),
 		fullDate,
 		date,
 		hour,
@@ -492,6 +505,10 @@ function parseMatchItem(
 					winner: item.teams.away.winner,
 				},
 			},
+			league: {
+				id: item.league.id,
+				name: item.league.name,
+			},
 		} as T_PlayedMatch;
 	}
 
@@ -504,14 +521,14 @@ function parseMatchItem(
 					...matchBaseData.teams.home,
 					score: item.goals.home || 0,
 					winner: item.teams.home.winner,
-					stats: {},
+					stats: [],
 					matches: [],
 				},
 				away: {
 					...matchBaseData.teams.away,
 					score: item.goals.away || 0,
 					winner: item.teams.away.winner,
-					stats: {},
+					stats: [],
 					matches: [],
 				},
 			},
@@ -524,12 +541,12 @@ function parseMatchItem(
 		teams: {
 			home: {
 				...matchBaseData.teams.home,
-				stats: {},
+				stats: [],
 				matches: [],
 			},
 			away: {
 				...matchBaseData.teams.away,
-				stats: {},
+				stats: [],
 				matches: [],
 			},
 		},
@@ -539,7 +556,7 @@ function parseMatchItem(
 function parseStandingsResponse(data: T_RawLeagueStandingsResponse) {
 	const result =
 		data.response.length > 0
-			? data.response[0].league.standings.map((item) => {
+			? getProperlyLeagueStandingsData(data.response[0].league).map((item) => {
 					return item.map((subitem) => {
 						return {
 							teamId: subitem.team.id,
@@ -562,6 +579,23 @@ function parseStandingsResponse(data: T_RawLeagueStandingsResponse) {
 			: [];
 
 	return result;
+}
+
+function getProperlyLeagueStandingsData(
+	response: T_RawLeagueStandingsResponse["response"][number]["league"],
+) {
+	const isColombianLeague = response.id === 239;
+	const isMexicanLeague = response.id === 262;
+
+	if (isColombianLeague) {
+		return response.standings.slice(0, 1);
+	}
+
+	if (isMexicanLeague) {
+		return response.standings.reverse().slice(0, 1);
+	}
+
+	return response.standings;
 }
 
 function composeTeamName(team: T_Team) {
@@ -606,6 +640,7 @@ function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
 	return teamPosition + 1;
 }
 
+/*
 function getTeamPositionStats(teamId: number, leagueStandings: T_LeagueStandings) {
 	const teamPositionStats = leagueStandings.reduce(
 		(result: T_LeagueStandings[number][number] | undefined, item) => {
@@ -624,6 +659,7 @@ function getTeamPositionStats(teamId: number, leagueStandings: T_LeagueStandings
 
 	return teamPositionStats;
 }
+*/
 
 function filterTeamPlayedMatches({
 	teamId,
@@ -636,19 +672,19 @@ function filterTeamPlayedMatches({
 	side: "home" | "away" | "all";
 	lastGames: number | undefined;
 }) {
-	let result = playedMatches;
+	let result = lastGames ? playedMatches.slice(0, lastGames) : playedMatches;
 
 	if (side === "home") {
-		result = playedMatches.filter((match) => {
+		result = result.filter((match) => {
 			return match.teams.home.id === teamId;
 		});
 	} else if (side === "away") {
-		result = playedMatches.filter((match) => {
+		result = result.filter((match) => {
 			return match.teams.away.id === teamId;
 		});
 	}
 
-	return (lastGames ? result.slice(0, lastGames) : result).filter(Boolean);
+	return result;
 }
 
 function calculateTeamStats({
@@ -656,12 +692,10 @@ function calculateTeamStats({
 	playedMatches,
 	side,
 	lastGames,
-	leagueStandings,
 }: {
 	teamId: T_Team["id"];
 	playedMatches: T_PlayedMatch[];
 	side: "home" | "away" | "all";
-	leagueStandings: T_LeagueStandings;
 	lastGames?: number;
 }) {
 	let result;
@@ -673,7 +707,6 @@ function calculateTeamStats({
 			side,
 			lastGames,
 		});
-		const teamPositionStats = getTeamPositionStats(teamId, leagueStandings);
 
 		result = filteredMatches.reduce(
 			(result, match) => {
@@ -682,30 +715,29 @@ function calculateTeamStats({
 				};
 
 				if (match.teams.home.id === teamId) {
-					newResult.total_de_goles += match.teams.home.score;
+					newResult.total_de_goles_anotados += match.teams.home.score;
+					newResult.total_de_goles_recibidos += match.teams.away.score;
 				} else {
-					newResult.total_de_goles += match.teams.away.score;
+					newResult.total_de_goles_anotados += match.teams.away.score;
+					newResult.total_de_goles_recibidos += match.teams.home.score;
 				}
 
 				return newResult;
 			},
 			{
 				total_de_partidos: filteredMatches.length,
-				total_de_goles: 0,
-				promedio_de_goles: 0,
-				...(teamPositionStats
-					? {
-							total_de_goles_recibidos: teamPositionStats.stats.goals.against,
-							promedio_de_goles_recibidos: Number(
-								(teamPositionStats.stats.goals.against / teamPositionStats.stats.played).toFixed(1),
-							),
-						}
-					: { total_de_goles_recibidos: 0, promedio_de_goles_recibidos: 0 }),
+				total_de_goles_anotados: 0,
+				total_de_goles_recibidos: 0,
+				promedio_de_goles_anotados: 0,
+				promedio_de_goles_recibidos: 0,
 			},
 		);
 
-		result.promedio_de_goles = Number(
-			(result.total_de_goles / result.total_de_partidos).toFixed(1),
+		result.promedio_de_goles_anotados = Number(
+			(result.total_de_goles_anotados / result.total_de_partidos).toFixed(1),
+		);
+		result.promedio_de_goles_recibidos = Number(
+			(result.total_de_goles_recibidos / result.total_de_partidos).toFixed(1),
 		);
 	} else {
 		const sideLabel = side === "away" ? "visitante" : "local";
@@ -723,7 +755,7 @@ function calculateTeamStats({
 				};
 
 				if (match.teams[side].id === teamId) {
-					newResult[`goles_de_${sideLabel}`] += match.teams[side].score;
+					newResult[`goles_anotados_de_${sideLabel}`] += match.teams[side].score;
 
 					if (match.teams[side].score > 0) {
 						newResult[`partidos_con_goles_de_${sideLabel}`] += 1;
@@ -741,35 +773,33 @@ function calculateTeamStats({
 				return newResult;
 			},
 			{
-				[`goles_de_${sideLabel}`]: 0,
-				[`promedio_de_goles_de_${sideLabel}`]: 0,
 				[`partidos_de_${sideLabel}`]: filteredMatches.length,
+				[`goles_anotados_de_${sideLabel}`]: 0,
+				[`promedio_de_goles_anotados_de_${sideLabel}`]: 0,
 				[`partidos_ganados_de_${sideLabel}`]: 0,
 				[`partidos_perdidos_de_${sideLabel}`]: 0,
 				[`partidos_empatados_de_${sideLabel}`]: 0,
 				[`partidos_con_goles_de_${sideLabel}`]: 0,
-				[`promedio_de_puntos_de_${sideLabel}`]: 0,
 			},
 		);
 
-		result[`promedio_de_goles_de_${sideLabel}`] = Number(
-			(result[`goles_de_${sideLabel}`] / result[`partidos_de_${sideLabel}`]).toFixed(1),
+		result[`promedio_de_goles_anotados_de_${sideLabel}`] = Number(
+			(result[`goles_anotados_de_${sideLabel}`] / result[`partidos_de_${sideLabel}`]).toFixed(1),
 		);
 		result[`porcentaje_de_puntos_ganados_de_${sideLabel}`] = Number(
 			(
-				((result[`partidos_de_${sideLabel}`] - result[`partidos_perdidos_de_${sideLabel}`]) /
-					result[`partidos_de_${sideLabel}`]) *
-				100
+				((result[`partidos_ganados_de_${sideLabel}`] * 3 +
+					result[`partidos_empatados_de_${sideLabel}`]) *
+					100) /
+				(result[`partidos_de_${sideLabel}`] * 3)
 			).toFixed(1),
 		);
 	}
 
-	return lastGames
-		? Object.entries(result).reduce((result, [key, value]) => {
-				return {
-					...result,
-					[`ultimos_${key}`]: value,
-				};
-			}, {})
-		: result;
+	return Object.entries(result).reduce((result, [key, value]) => {
+		return {
+			...result,
+			[`${key}`]: key.includes("porcentaje") ? `${value}%` : value,
+		};
+	}, {});
 }

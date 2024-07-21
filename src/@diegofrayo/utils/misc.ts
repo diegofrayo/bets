@@ -61,9 +61,9 @@ export async function asyncLoop<T>(
 	array: Array<T>,
 	callback: (arg: T) => Promise<void>,
 ): Promise<void> {
-	// eslint-disable-next-line no-restricted-syntax
+	// eslint-disable-next-line no-restricted-syntax, no-loops/no-loops
 	for (const item of array) {
-		// eslint-disable-next-line no-await-in-loop
+		// eslint-disable-next-line no-await-in-loop, no-loops/no-loops
 		await callback(item);
 	}
 }
