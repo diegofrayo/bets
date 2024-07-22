@@ -164,7 +164,12 @@ class BetHouse {
 			.replace("abr", "04")
 			.replace("may", "05")
 			.replace("jun", "06")
-			.replace("jul", "06");
+			.replace("jul", "07")
+			.replace("ago", "08")
+			.replace("sep", "09")
+			.replace("oct", "10")
+			.replace("nov", "11")
+			.replace("dec", "12");
 	}
 
 	private parseBetName(betName: string) {

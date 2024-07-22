@@ -42,6 +42,7 @@ export type T_RawLeagueStandingsResponse = {
 					};
 					points: number;
 					goalsDiff: number;
+					group: string;
 					all: {
 						played: number;
 						win: number;

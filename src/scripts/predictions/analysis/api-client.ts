@@ -7,7 +7,6 @@ import { delay } from "../../../@diegofrayo/utils/misc";
 import { addLeftPadding } from "../../../@diegofrayo/utils/strings";
 
 import { formatCode, formatDate } from "./utils";
-import type { T_RequestConfig } from "./types";
 
 const TIME_LIMIT = "10:30";
 const RATE_LIMIT_PER_DAY = 100;
@@ -29,12 +28,6 @@ const instance = axios.create({
 // --- API ---
 
 const APIClient = {
-	isEnabled: false,
-
-	config(config: Pick<T_RequestConfig, "enableRemoteAPI">) {
-		this.isEnabled = config.enableRemoteAPI;
-	},
-
 	async get(path: string, queryParams: DR.Object) {
 		if (totalRequestsCounter === -1) {
 			totalRequestsCounter = readCounterStats();
@@ -49,7 +42,7 @@ const APIClient = {
 				`    ${totalRequestsCounter}. Fetching "${path}" | "${JSON.stringify(queryParams)}" `,
 			);
 			await updateCounterStats(totalRequestsCounter);
-			await checkForAPIRequestsPerMinuteLimit(this.isEnabled);
+			await checkForAPIRequestsPerMinuteLimit();
 		}
 
 		return instance.get(path, { params: queryParams });
@@ -103,8 +96,8 @@ async function updateCounterStats(counter: number) {
 	);
 }
 
-async function checkForAPIRequestsPerMinuteLimit(isAPIClientEnabled: boolean) {
-	if (requestsLimitPerMinuteCounter >= REQUESTS_LIMIT_PER_MINUTE && isAPIClientEnabled) {
+async function checkForAPIRequestsPerMinuteLimit() {
+	if (requestsLimitPerMinuteCounter >= REQUESTS_LIMIT_PER_MINUTE) {
 		console.log("    .....", "Delay for 1 minute |", new Date().toISOString(), ".....");
 
 		await delay(1000 * 60);

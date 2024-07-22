@@ -2,7 +2,7 @@ import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
 import { removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
-import { asyncLoop, delay, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
+import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
 import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
@@ -142,12 +142,12 @@ async function fetchPlayedMatches({
 }
 
 async function fetchLeagueStandings(
-	league: T_League,
-	requestConfig: T_RequestConfig,
+	league: Pick<T_League, "id" | "season">,
+	fetchFromAPI: boolean,
 ): Promise<T_LeagueStandings> {
 	let rawResponse;
 
-	if (requestConfig.fetchFromAPI.LEAGUE_STANDINGS) {
+	if (fetchFromAPI) {
 		rawResponse = (
 			await APIClient.get("/standings", {
 				league: league.id,
@@ -258,8 +258,6 @@ async function updateLeaguesFixtures(requestConfig: { from: string; to: string }
 
 				output[date].push(league.id);
 			});
-
-			await delay(1000);
 		} catch (error) {
 			console.log(getErrorMessage(error));
 		}
@@ -280,6 +278,17 @@ async function updateLeaguesFixtures(requestConfig: { from: string; to: string }
 			"json",
 		),
 	);
+}
+
+async function updateLeaguesStandings(leagues: Array<Pick<T_League, "id" | "season">>) {
+	await asyncLoop(leagues, async (league) => {
+		try {
+			console.log(`  Fetching "${league.id})" standings...`);
+			await fetchLeagueStandings({ id: league.id, season: league.season }, true);
+		} catch (error) {
+			console.log(getErrorMessage(error));
+		}
+	});
 }
 
 /*
@@ -383,7 +392,7 @@ function getLeagueById(leagueId: number | string) {
 
 function getLeaguesByDate(date: string) {
 	return (
-		LEAGUES.fixtures[date as keyof typeof LEAGUES.fixtures] ||
+		(LEAGUES.fixtures as DR.Object<Array<number>>)[date as keyof typeof LEAGUES.fixtures] ||
 		throwError(`No fixture for "${date}"`)
 	);
 }
@@ -394,6 +403,7 @@ const DataClient = {
 	fetchLeagueStandings,
 	updateTeamsFile,
 	updateLeaguesFixtures,
+	updateLeaguesStandings,
 	// getMatchPredictions,
 	getTeamStats,
 	getLeagueById,
@@ -583,18 +593,25 @@ function parseStandingsResponse(data: T_RawLeagueStandingsResponse) {
 function getProperlyLeagueStandingsData(
 	response: T_RawLeagueStandingsResponse["response"][number]["league"],
 ) {
-	const isColombianLeague = response.id === 239;
-	const isMexicanLeague = response.id === 262;
+	const isColombiaLeague = response.id === 239;
+	const isBrazilLeague = response.id === 71;
+	const isArgentinaLeague = response.id === 128;
 
-	if (isColombianLeague) {
-		return response.standings.slice(0, 1);
+	if (isColombiaLeague) {
+		return response.standings.filter((standings) => {
+			return (
+				standings.find((team) => {
+					return team.group === "Primera A: Clausura";
+				}) !== undefined
+			);
+		});
 	}
 
-	if (isMexicanLeague) {
-		return response.standings.reverse().slice(0, 1);
+	if (isBrazilLeague || isArgentinaLeague) {
+		return response.standings;
 	}
 
-	return response.standings;
+	return [];
 }
 
 function composeTeamName(team: T_Team) {

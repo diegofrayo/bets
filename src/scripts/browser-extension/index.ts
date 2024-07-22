@@ -4,6 +4,7 @@ import Rushbet from "./rushbet";
 import WPlay from "./wplay";
 import { type T_ReadBetsConfig } from "./types";
 
+// npm run script:browser-extension:bundler
 export const BetsService = {
 	readBets: function readBets(domHTML: string, config: T_ReadBetsConfig) {
 		const BetHouse = new BetHouseClass(

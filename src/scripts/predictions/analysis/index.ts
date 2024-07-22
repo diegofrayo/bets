@@ -7,14 +7,18 @@ import { asyncLoop } from "../../../@diegofrayo/utils/misc";
 import APIClient from "./api-client";
 import DataClient from "./data-client";
 import { formatCode, formatDate } from "./utils";
-import type { T_DayOfMatches, T_NextMatchTeam, T_PlayedMatchTeam } from "./types";
+import type { T_DayOfMatches, T_League, T_NextMatchTeam, T_PlayedMatchTeam } from "./types";
 
 export default async function main(config: T_AnalysisConfig) {
-	await APIClient.config(config);
 	await APIClient.calculateUsageStats();
 
 	if (config.leaguesFixturesDates) {
 		await DataClient.updateLeaguesFixtures(config.leaguesFixturesDates);
+		return;
+	}
+
+	if (config.leagueStandings) {
+		await DataClient.updateLeaguesStandings(config.leagueStandings);
 		return;
 	}
 
@@ -33,7 +37,10 @@ export default async function main(config: T_AnalysisConfig) {
 			try {
 				console.log(`  Fetching "${league.name} (${league.id}|${league.country})" matches...`);
 
-				const leagueStandings = await DataClient.fetchLeagueStandings(league, requestConfig);
+				const leagueStandings = await DataClient.fetchLeagueStandings(
+					league,
+					requestConfig.fetchFromAPI.LEAGUE_STANDINGS,
+				);
 				const fixtureMatches = await DataClient.fetchFixtureMatches({
 					league,
 					requestConfig,
@@ -150,13 +157,12 @@ export default async function main(config: T_AnalysisConfig) {
 	});
 }
 
-// --- TYPES ---
-
 type T_AnalysisConfig = {
 	date: "today" | "tomorrow" | "yesterday" | string;
 	exact: boolean;
 	enableRemoteAPI: boolean;
 	leaguesFixturesDates?: { from: string; to: string };
+	leagueStandings?: Array<Pick<T_League, "id" | "season">>;
 };
 
 // --- UTILS ---
@@ -209,7 +215,7 @@ function createRequestConfig(
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: true,
-						LEAGUE_STANDINGS: false,
+						LEAGUE_STANDINGS: true,
 					}
 				: {
 						FIXTURE_MATCHES: false,

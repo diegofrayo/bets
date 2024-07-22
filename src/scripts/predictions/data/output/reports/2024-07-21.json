@@ -22,6 +22,19 @@
 					}
 				},
 				{
+					"teamId": 441,
+					"teamName": "Union Santa Fe",
+					"points": 14,
+					"stats": {
+						"goalsDiff": 5,
+						"played": 6,
+						"win": 4,
+						"draw": 2,
+						"lose": 0,
+						"goals": { "for": 7, "against": 2 }
+					}
+				},
+				{
 					"teamId": 436,
 					"teamName": "Racing Club",
 					"points": 13,
@@ -32,19 +45,6 @@
 						"draw": 1,
 						"lose": 1,
 						"goals": { "for": 15, "against": 6 }
-					}
-				},
-				{
-					"teamId": 456,
-					"teamName": "Talleres Cordoba",
-					"points": 13,
-					"stats": {
-						"goalsDiff": 7,
-						"played": 5,
-						"win": 4,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 11, "against": 4 }
 					}
 				},
 				{
@@ -61,16 +61,16 @@
 					}
 				},
 				{
-					"teamId": 441,
-					"teamName": "Union Santa Fe",
+					"teamId": 456,
+					"teamName": "Talleres Cordoba",
 					"points": 13,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 5,
+						"goalsDiff": 4,
+						"played": 6,
 						"win": 4,
 						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 7, "against": 2 }
+						"lose": 1,
+						"goals": { "for": 11, "against": 7 }
 					}
 				},
 				{
@@ -84,6 +84,19 @@
 						"draw": 2,
 						"lose": 1,
 						"goals": { "for": 10, "against": 10 }
+					}
+				},
+				{
+					"teamId": 435,
+					"teamName": "River Plate",
+					"points": 10,
+					"stats": {
+						"goalsDiff": 5,
+						"played": 6,
+						"win": 3,
+						"draw": 1,
+						"lose": 2,
+						"goals": { "for": 11, "against": 6 }
 					}
 				},
 				{
@@ -113,19 +126,6 @@
 					}
 				},
 				{
-					"teamId": 435,
-					"teamName": "River Plate",
-					"points": 9,
-					"stats": {
-						"goalsDiff": 5,
-						"played": 5,
-						"win": 3,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 9, "against": 4 }
-					}
-				},
-				{
 					"teamId": 437,
 					"teamName": "Rosario Central",
 					"points": 9,
@@ -136,6 +136,19 @@
 						"draw": 3,
 						"lose": 1,
 						"goals": { "for": 11, "against": 8 }
+					}
+				},
+				{
+					"teamId": 446,
+					"teamName": "Lanus",
+					"points": 9,
+					"stats": {
+						"goalsDiff": 1,
+						"played": 6,
+						"win": 2,
+						"draw": 3,
+						"lose": 1,
+						"goals": { "for": 8, "against": 7 }
 					}
 				},
 				{
@@ -165,40 +178,53 @@
 					}
 				},
 				{
-					"teamId": 446,
-					"teamName": "Lanus",
+					"teamId": 1064,
+					"teamName": "Platense",
 					"points": 8,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 5,
+						"goalsDiff": 0,
+						"played": 6,
 						"win": 2,
 						"draw": 2,
-						"lose": 1,
-						"goals": { "for": 6, "against": 5 }
+						"lose": 2,
+						"goals": { "for": 5, "against": 5 }
 					}
 				},
 				{
 					"teamId": 451,
 					"teamName": "Boca Juniors",
-					"points": 7,
+					"points": 8,
 					"stats": {
 						"goalsDiff": 1,
-						"played": 5,
+						"played": 6,
 						"win": 2,
-						"draw": 1,
+						"draw": 2,
 						"lose": 2,
-						"goals": { "for": 5, "against": 4 }
+						"goals": { "for": 7, "against": 6 }
+					}
+				},
+				{
+					"teamId": 438,
+					"teamName": "Velez Sarsfield",
+					"points": 8,
+					"stats": {
+						"goalsDiff": 1,
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 7, "against": 6 }
 					}
 				},
 				{
 					"teamId": 450,
 					"teamName": "Estudiantes L.P.",
-					"points": 7,
+					"points": 8,
 					"stats": {
 						"goalsDiff": 0,
-						"played": 5,
+						"played": 6,
 						"win": 2,
-						"draw": 1,
+						"draw": 2,
 						"lose": 2,
 						"goals": { "for": 5, "against": 5 }
 					}
@@ -256,32 +282,6 @@
 					}
 				},
 				{
-					"teamId": 438,
-					"teamName": "Velez Sarsfield",
-					"points": 5,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 5,
-						"win": 1,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 4, "against": 6 }
-					}
-				},
-				{
-					"teamId": 1064,
-					"teamName": "Platense",
-					"points": 5,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 5,
-						"win": 1,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 3, "against": 5 }
-					}
-				},
-				{
 					"teamId": 449,
 					"teamName": "Banfield",
 					"points": 5,
@@ -308,6 +308,19 @@
 					}
 				},
 				{
+					"teamId": 442,
+					"teamName": "Defensa Y Justicia",
+					"points": 4,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 6,
+						"win": 0,
+						"draw": 4,
+						"lose": 2,
+						"goals": { "for": 5, "against": 8 }
+					}
+				},
+				{
 					"teamId": 2432,
 					"teamName": "Barracas Central",
 					"points": 4,
@@ -318,19 +331,6 @@
 						"draw": 1,
 						"lose": 4,
 						"goals": { "for": 3, "against": 8 }
-					}
-				},
-				{
-					"teamId": 442,
-					"teamName": "Defensa Y Justicia",
-					"points": 3,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 5,
-						"win": 0,
-						"draw": 3,
-						"lose": 2,
-						"goals": { "for": 3, "against": 6 }
 					}
 				},
 				{
@@ -364,12 +364,12 @@
 					"teamName": "Central Cordoba de Santiago",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -9,
-						"played": 5,
+						"goalsDiff": -11,
+						"played": 6,
 						"win": 0,
 						"draw": 0,
-						"lose": 5,
-						"goals": { "for": 6, "against": 15 }
+						"lose": 6,
+						"goals": { "for": 6, "against": 17 }
 					}
 				}
 			]
@@ -380,14 +380,16 @@
 				"fullDate": "2024-07-21T13:00",
 				"date": "2024-07-21",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 435,
 						"name": "River Plate",
 						"country": "🇦🇷",
-						"position": 9,
+						"position": 7,
 						"featured": true,
+						"score": 2,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -473,7 +475,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -501,7 +503,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -529,7 +531,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -557,7 +559,7 @@
 										"id": 476,
 										"name": "Deportivo Riestra",
 										"country": "🇦🇷",
-										"position": 19,
+										"position": 21,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -566,7 +568,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -585,7 +587,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -613,7 +615,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -641,7 +643,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -650,7 +652,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -678,7 +680,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -697,7 +699,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -725,7 +727,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -753,7 +755,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -790,7 +792,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -818,7 +820,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -837,7 +839,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -846,7 +848,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -874,7 +876,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -889,8 +891,10 @@
 						"id": 446,
 						"name": "Lanus",
 						"country": "🇦🇷",
-						"position": 13,
+						"position": 11,
 						"featured": false,
+						"score": 2,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -976,7 +980,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -985,7 +989,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1013,7 +1017,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1032,7 +1036,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1060,7 +1064,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1069,7 +1073,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -1097,7 +1101,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1116,7 +1120,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -1144,7 +1148,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1153,7 +1157,7 @@
 										"id": 473,
 										"name": "Independ. Rivadavia",
 										"country": "🇦🇷",
-										"position": 8,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1181,7 +1185,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1209,7 +1213,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1228,7 +1232,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1237,7 +1241,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1256,7 +1260,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1284,7 +1288,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1293,7 +1297,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1321,7 +1325,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1340,7 +1344,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -1349,7 +1353,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -1377,7 +1381,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -1395,7 +1399,7 @@
 				"fullDate": "2024-07-21T15:15",
 				"date": "2024-07-21",
 				"hour": "15:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1065,
@@ -1403,6 +1407,8 @@
 						"country": "🇦🇷",
 						"position": 28,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -1488,7 +1494,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -1516,7 +1522,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1553,7 +1559,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1609,7 +1615,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1628,7 +1634,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -1684,7 +1690,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 5,
 										"winner": true
@@ -1749,7 +1755,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 3,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -1768,7 +1774,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -1824,7 +1830,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1889,7 +1895,7 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1904,8 +1910,10 @@
 						"id": 1064,
 						"name": "Platense",
 						"country": "🇦🇷",
-						"position": 21,
+						"position": 14,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -1991,7 +1999,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2000,7 +2008,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2019,7 +2027,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2047,7 +2055,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -2056,7 +2064,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2075,7 +2083,7 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2084,7 +2092,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2103,7 +2111,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2112,7 +2120,7 @@
 										"id": 453,
 										"name": "Independiente",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2131,7 +2139,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2140,7 +2148,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2159,7 +2167,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2168,7 +2176,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -2187,7 +2195,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -2215,7 +2223,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2243,7 +2251,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": true
@@ -2271,7 +2279,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2280,7 +2288,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2299,7 +2307,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2327,7 +2335,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2336,7 +2344,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2355,7 +2363,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2364,7 +2372,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -2383,7 +2391,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -2392,7 +2400,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2410,14 +2418,16 @@
 				"fullDate": "2024-07-21T15:15",
 				"date": "2024-07-21",
 				"hour": "15:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 450,
 						"name": "Estudiantes L.P.",
 						"country": "🇦🇷",
-						"position": 15,
+						"position": 17,
 						"featured": true,
+						"score": 0,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -2503,7 +2513,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2531,7 +2541,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 18,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2540,7 +2550,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2568,7 +2578,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -2587,7 +2597,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -2615,7 +2625,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 3,
 										"winner": false
@@ -2643,7 +2653,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2652,7 +2662,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2671,7 +2681,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2680,7 +2690,7 @@
 										"id": 476,
 										"name": "Deportivo Riestra",
 										"country": "🇦🇷",
-										"position": 19,
+										"position": 21,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2708,7 +2718,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2736,7 +2746,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2755,7 +2765,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2764,7 +2774,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2783,7 +2793,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2792,7 +2802,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2811,7 +2821,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2839,7 +2849,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2848,7 +2858,7 @@
 										"id": 2432,
 										"name": "Barracas Central",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2867,7 +2877,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2876,7 +2886,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2895,7 +2905,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2904,7 +2914,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2919,8 +2929,10 @@
 						"id": 441,
 						"name": "Union Santa Fe",
 						"country": "🇦🇷",
-						"position": 5,
+						"position": 2,
 						"featured": true,
+						"score": 0,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3006,7 +3018,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3034,7 +3046,7 @@
 										"id": 473,
 										"name": "Independ. Rivadavia",
 										"country": "🇦🇷",
-										"position": 8,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3043,7 +3055,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3062,7 +3074,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3071,7 +3083,7 @@
 										"id": 2432,
 										"name": "Barracas Central",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3099,7 +3111,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -3118,7 +3130,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3146,7 +3158,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3183,7 +3195,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3202,7 +3214,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3230,7 +3242,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -3239,7 +3251,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -3258,7 +3270,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -3286,7 +3298,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3295,7 +3307,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3314,7 +3326,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3323,7 +3335,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -3342,7 +3354,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3351,7 +3363,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3370,7 +3382,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -3379,7 +3391,7 @@
 										"id": 473,
 										"name": "Independ. Rivadavia",
 										"country": "🇦🇷",
-										"position": 8,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3398,7 +3410,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -3407,7 +3419,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -3425,14 +3437,16 @@
 				"fullDate": "2024-07-21T18:00",
 				"date": "2024-07-21",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 438,
 						"name": "Velez Sarsfield",
 						"country": "🇦🇷",
-						"position": 20,
+						"position": 16,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3518,7 +3532,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3527,7 +3541,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3555,7 +3569,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3574,7 +3588,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3583,7 +3597,7 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3602,7 +3616,7 @@
 										"id": 453,
 										"name": "Independiente",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3611,7 +3625,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3630,7 +3644,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3639,7 +3653,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3658,7 +3672,7 @@
 										"id": 434,
 										"name": "Gimnasia L.P.",
 										"country": "🇦🇷",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -3667,7 +3681,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3686,7 +3700,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3695,7 +3709,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3714,7 +3728,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3723,7 +3737,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": true
@@ -3751,7 +3765,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3770,7 +3784,7 @@
 										"id": 473,
 										"name": "Independ. Rivadavia",
 										"country": "🇦🇷",
-										"position": 8,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3779,7 +3793,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3798,7 +3812,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -3807,7 +3821,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -3826,7 +3840,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3835,7 +3849,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3854,7 +3868,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3891,7 +3905,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3910,7 +3924,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3934,8 +3948,10 @@
 						"id": 456,
 						"name": "Talleres Cordoba",
 						"country": "🇦🇷",
-						"position": 3,
+						"position": 5,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4021,7 +4037,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4058,7 +4074,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4086,7 +4102,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4105,7 +4121,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4114,7 +4130,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4133,7 +4149,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4170,7 +4186,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -4198,7 +4214,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4217,7 +4233,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -4226,7 +4242,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -4245,7 +4261,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4254,7 +4270,7 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4273,7 +4289,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4301,7 +4317,7 @@
 										"id": 453,
 										"name": "Independiente",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4310,7 +4326,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4329,7 +4345,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4366,7 +4382,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4385,7 +4401,7 @@
 										"id": 453,
 										"name": "Independiente",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -4394,7 +4410,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -4422,7 +4438,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -4440,14 +4456,16 @@
 				"fullDate": "2024-07-21T18:00",
 				"date": "2024-07-21",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 442,
 						"name": "Defensa Y Justicia",
 						"country": "🇦🇷",
-						"position": 25,
+						"position": 24,
 						"featured": false,
+						"score": 2,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4533,7 +4551,7 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4542,7 +4560,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4561,7 +4579,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4570,7 +4588,7 @@
 										"id": 453,
 										"name": "Independiente",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4589,7 +4607,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4617,7 +4635,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4626,7 +4644,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4645,7 +4663,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4654,7 +4672,7 @@
 										"id": 434,
 										"name": "Gimnasia L.P.",
 										"country": "🇦🇷",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4673,7 +4691,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4710,7 +4728,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4738,7 +4756,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4766,7 +4784,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4785,7 +4803,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4794,7 +4812,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4813,7 +4831,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4822,7 +4840,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4841,7 +4859,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4878,7 +4896,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -4906,7 +4924,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4925,7 +4943,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4934,7 +4952,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4949,8 +4967,10 @@
 						"id": 451,
 						"name": "Boca Juniors",
 						"country": "🇦🇷",
-						"position": 14,
+						"position": 15,
 						"featured": true,
+						"score": 2,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5045,7 +5065,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5064,7 +5084,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5092,7 +5112,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5101,7 +5121,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 20,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5120,7 +5140,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 21,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -5129,7 +5149,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5148,7 +5168,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5176,7 +5196,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5185,7 +5205,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5213,7 +5233,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5232,7 +5252,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5260,7 +5280,7 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -5269,7 +5289,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5297,7 +5317,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5316,7 +5336,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5325,7 +5345,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5353,7 +5373,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -5372,7 +5392,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": "🇦🇷",
-										"position": 9,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -5381,7 +5401,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5400,7 +5420,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5428,7 +5448,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5437,7 +5457,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5459,76 +5479,23 @@
 		"country": "Colombia",
 		"priority": 3,
 		"flag": "🇨🇴",
-		"standings": [
-			[
-				{
-					"teamId": 1131,
-					"teamName": "Bucaramanga",
-					"points": 8,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 4, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1125,
-					"teamName": "Millonarios",
-					"points": 8,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 6, "against": 5 }
-					}
-				},
-				{
-					"teamId": 1462,
-					"teamName": "Deportivo Pereira",
-					"points": 8,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 7, "against": 8 }
-					}
-				},
-				{
-					"teamId": 1135,
-					"teamName": "Junior",
-					"points": 8,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 5, "against": 6 }
-					}
-				}
-			]
-		],
+		"standings": [],
 		"matches": [
 			{
 				"id": "2024-07-21-millonarios-bucaramanga",
 				"fullDate": "2024-07-21T15:30",
 				"date": "2024-07-21",
 				"hour": "15:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1125,
 						"name": "Millonarios",
 						"country": "🇨🇴",
-						"position": 2,
+						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5623,7 +5590,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5651,7 +5618,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5670,7 +5637,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5679,7 +5646,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5707,7 +5674,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5726,8 +5693,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": null
 									},
@@ -5735,7 +5702,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -5754,8 +5721,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -5763,7 +5730,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5782,7 +5749,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5791,8 +5758,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									}
@@ -5810,7 +5777,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5838,7 +5805,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5847,8 +5814,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -5866,7 +5833,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5894,7 +5861,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5903,7 +5870,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5922,7 +5889,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5959,7 +5926,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5978,8 +5945,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": false
 									},
@@ -5987,7 +5954,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6006,7 +5973,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6015,7 +5982,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -6030,8 +5997,10 @@
 						"id": 1131,
 						"name": "Bucaramanga",
 						"country": "🇨🇴",
-						"position": 1,
-						"featured": true,
+						"position": null,
+						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6117,8 +6086,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									},
@@ -6126,7 +6095,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6154,8 +6123,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									}
@@ -6173,8 +6142,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									},
@@ -6201,8 +6170,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 3,
 										"winner": true
 									},
@@ -6210,8 +6179,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": false
 									}
@@ -6229,8 +6198,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -6257,7 +6226,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6266,8 +6235,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -6285,8 +6254,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -6294,7 +6263,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6313,7 +6282,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6322,8 +6291,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									}
@@ -6350,8 +6319,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": null
 									}
@@ -6369,8 +6338,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -6378,7 +6347,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6397,8 +6366,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									},
@@ -6406,8 +6375,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -6425,8 +6394,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									},
@@ -6462,8 +6431,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 3,
 										"winner": true
 									}
@@ -6490,8 +6459,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									}
@@ -6509,8 +6478,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": false
 									},
@@ -6536,7 +6505,7 @@
 				"fullDate": "2024-07-21T17:45",
 				"date": "2024-07-21",
 				"hour": "17:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1137,
@@ -6544,6 +6513,8 @@
 						"country": "🇨🇴",
 						"position": null,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6806,8 +6777,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									}
@@ -7002,8 +6973,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									}
@@ -7021,7 +6992,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7047,6 +7018,8 @@
 						"country": "🇨🇴",
 						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7337,7 +7310,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7496,8 +7469,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									},
@@ -7551,14 +7524,16 @@
 				"fullDate": "2024-07-21T20:00",
 				"date": "2024-07-21",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1135,
 						"name": "Junior",
 						"country": "🇨🇴",
-						"position": 4,
+						"position": null,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7644,8 +7619,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									},
@@ -7653,7 +7628,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -7672,7 +7647,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7681,7 +7656,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -7700,7 +7675,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7728,7 +7703,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -7737,8 +7712,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -7756,8 +7731,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -7765,7 +7740,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7784,7 +7759,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -7793,8 +7768,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 3,
 										"winner": true
 									}
@@ -7821,7 +7796,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -7840,8 +7815,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -7849,7 +7824,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7877,7 +7852,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -7896,7 +7871,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7905,7 +7880,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7933,7 +7908,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7952,7 +7927,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -7980,7 +7955,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -8008,7 +7983,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -8017,7 +7992,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -8036,7 +8011,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -8062,6 +8037,8 @@
 						"country": "🇨🇴",
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8203,7 +8180,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -8259,8 +8236,8 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 1,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": false
 									},
@@ -8612,14 +8589,27 @@
 					}
 				},
 				{
-					"teamId": 126,
-					"teamName": "Sao Paulo",
-					"points": 30,
+					"teamId": 154,
+					"teamName": "Fortaleza EC",
+					"points": 32,
 					"stats": {
-						"goalsDiff": 8,
+						"goalsDiff": 5,
 						"played": 17,
 						"win": 9,
-						"draw": 3,
+						"draw": 5,
+						"lose": 3,
+						"goals": { "for": 22, "against": 17 }
+					}
+				},
+				{
+					"teamId": 126,
+					"teamName": "Sao Paulo",
+					"points": 31,
+					"stats": {
+						"goalsDiff": 8,
+						"played": 18,
+						"win": 9,
+						"draw": 4,
 						"lose": 5,
 						"goals": { "for": 26, "against": 18 }
 					}
@@ -8629,12 +8619,12 @@
 					"teamName": "Bahia",
 					"points": 30,
 					"stats": {
-						"goalsDiff": 6,
-						"played": 17,
+						"goalsDiff": 5,
+						"played": 18,
 						"win": 9,
 						"draw": 3,
-						"lose": 5,
-						"goals": { "for": 27, "against": 21 }
+						"lose": 6,
+						"goals": { "for": 27, "against": 22 }
 					}
 				},
 				{
@@ -8651,29 +8641,42 @@
 					}
 				},
 				{
-					"teamId": 154,
-					"teamName": "Fortaleza EC",
-					"points": 29,
-					"stats": {
-						"goalsDiff": 3,
-						"played": 16,
-						"win": 8,
-						"draw": 5,
-						"lose": 3,
-						"goals": { "for": 19, "against": 16 }
-					}
-				},
-				{
 					"teamId": 134,
 					"teamName": "Atletico Paranaense",
 					"points": 25,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 16,
+						"goalsDiff": 3,
+						"played": 17,
 						"win": 7,
 						"draw": 4,
-						"lose": 5,
-						"goals": { "for": 20, "against": 16 }
+						"lose": 6,
+						"goals": { "for": 20, "against": 17 }
+					}
+				},
+				{
+					"teamId": 794,
+					"teamName": "RB Bragantino",
+					"points": 25,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 17,
+						"win": 7,
+						"draw": 4,
+						"lose": 6,
+						"goals": { "for": 22, "against": 20 }
+					}
+				},
+				{
+					"teamId": 1062,
+					"teamName": "Atletico-MG",
+					"points": 25,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 17,
+						"win": 6,
+						"draw": 7,
+						"lose": 4,
+						"goals": { "for": 25, "against": 25 }
 					}
 				},
 				{
@@ -8681,49 +8684,23 @@
 					"teamName": "Vasco DA Gama",
 					"points": 23,
 					"stats": {
-						"goalsDiff": -6,
-						"played": 17,
+						"goalsDiff": -8,
+						"played": 18,
 						"win": 7,
 						"draw": 2,
-						"lose": 8,
-						"goals": { "for": 20, "against": 26 }
-					}
-				},
-				{
-					"teamId": 794,
-					"teamName": "RB Bragantino",
-					"points": 22,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 16,
-						"win": 6,
-						"draw": 4,
-						"lose": 6,
-						"goals": { "for": 21, "against": 20 }
-					}
-				},
-				{
-					"teamId": 1062,
-					"teamName": "Atletico-MG",
-					"points": 22,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 16,
-						"win": 5,
-						"draw": 7,
-						"lose": 4,
-						"goals": { "for": 23, "against": 25 }
+						"lose": 9,
+						"goals": { "for": 20, "against": 28 }
 					}
 				},
 				{
 					"teamId": 152,
 					"teamName": "Juventude",
-					"points": 20,
+					"points": 21,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 15,
+						"played": 16,
 						"win": 5,
-						"draw": 5,
+						"draw": 6,
 						"lose": 5,
 						"goals": { "for": 19, "against": 20 }
 					}
@@ -8739,6 +8716,19 @@
 						"draw": 4,
 						"lose": 5,
 						"goals": { "for": 12, "against": 12 }
+					}
+				},
+				{
+					"teamId": 131,
+					"teamName": "Corinthians",
+					"points": 18,
+					"stats": {
+						"goalsDiff": -8,
+						"played": 18,
+						"win": 4,
+						"draw": 6,
+						"lose": 8,
+						"goals": { "for": 15, "against": 23 }
 					}
 				},
 				{
@@ -8759,12 +8749,12 @@
 					"teamName": "Cuiaba",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 16,
+						"goalsDiff": -4,
+						"played": 17,
 						"win": 4,
 						"draw": 5,
-						"lose": 7,
-						"goals": { "for": 18, "against": 21 }
+						"lose": 8,
+						"goals": { "for": 18, "against": 22 }
 					}
 				},
 				{
@@ -8772,43 +8762,30 @@
 					"teamName": "Vitoria",
 					"points": 15,
 					"stats": {
-						"goalsDiff": -9,
-						"played": 17,
+						"goalsDiff": -11,
+						"played": 18,
 						"win": 4,
 						"draw": 3,
-						"lose": 10,
-						"goals": { "for": 19, "against": 28 }
-					}
-				},
-				{
-					"teamId": 131,
-					"teamName": "Corinthians",
-					"points": 15,
-					"stats": {
-						"goalsDiff": -9,
-						"played": 17,
-						"win": 3,
-						"draw": 6,
-						"lose": 8,
-						"goals": { "for": 14, "against": 23 }
+						"lose": 11,
+						"goals": { "for": 19, "against": 30 }
 					}
 				},
 				{
 					"teamId": 130,
 					"teamName": "Gremio",
-					"points": 11,
+					"points": 14,
 					"stats": {
-						"goalsDiff": -10,
-						"played": 15,
-						"win": 3,
+						"goalsDiff": -8,
+						"played": 16,
+						"win": 4,
 						"draw": 2,
 						"lose": 10,
-						"goals": { "for": 10, "against": 20 }
+						"goals": { "for": 12, "against": 20 }
 					}
 				},
 				{
-					"teamId": 144,
-					"teamName": "Atletico Goianiense",
+					"teamId": 124,
+					"teamName": "Fluminense",
 					"points": 11,
 					"stats": {
 						"goalsDiff": -11,
@@ -8816,20 +8793,20 @@
 						"win": 2,
 						"draw": 5,
 						"lose": 10,
-						"goals": { "for": 14, "against": 25 }
+						"goals": { "for": 13, "against": 24 }
 					}
 				},
 				{
-					"teamId": 124,
-					"teamName": "Fluminense",
-					"points": 8,
+					"teamId": 144,
+					"teamName": "Atletico Goianiense",
+					"points": 11,
 					"stats": {
-						"goalsDiff": -12,
-						"played": 16,
-						"win": 1,
+						"goalsDiff": -13,
+						"played": 18,
+						"win": 2,
 						"draw": 5,
-						"lose": 10,
-						"goals": { "for": 12, "against": 24 }
+						"lose": 11,
+						"goals": { "for": 15, "against": 28 }
 					}
 				}
 			]
@@ -8840,7 +8817,7 @@
 				"fullDate": "2024-07-21T09:00",
 				"date": "2024-07-21",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 130,
@@ -8848,6 +8825,8 @@
 						"country": "🇧🇷",
 						"position": 18,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8933,7 +8912,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -8998,7 +8977,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9082,7 +9061,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -9101,7 +9080,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -9157,7 +9136,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -9306,7 +9285,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9349,8 +9328,10 @@
 						"id": 136,
 						"name": "Vitoria",
 						"country": "🇧🇷",
-						"position": 16,
+						"position": 17,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9436,7 +9417,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -9445,7 +9426,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9464,7 +9445,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9492,7 +9473,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -9501,7 +9482,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9520,7 +9501,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -9529,7 +9510,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -9548,7 +9529,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9576,7 +9557,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -9585,7 +9566,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -9604,7 +9585,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9613,7 +9594,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9632,7 +9613,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -9641,7 +9622,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -9660,7 +9641,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -9697,7 +9678,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -9716,7 +9697,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9725,7 +9706,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9744,7 +9725,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9753,7 +9734,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -9772,7 +9753,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9800,7 +9781,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9809,7 +9790,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9828,7 +9809,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9837,7 +9818,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -9855,14 +9836,16 @@
 				"fullDate": "2024-07-21T14:00",
 				"date": "2024-07-21",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1062,
 						"name": "Atletico-MG",
 						"country": "🇧🇷",
-						"position": 11,
+						"position": 10,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9957,7 +9940,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -9976,7 +9959,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9985,7 +9968,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -10013,7 +9996,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10032,7 +10015,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -10060,7 +10043,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -10069,7 +10052,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -10097,7 +10080,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10116,7 +10099,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -10125,7 +10108,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -10144,7 +10127,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -10153,7 +10136,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -10172,7 +10155,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10200,7 +10183,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -10209,7 +10192,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10228,7 +10211,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -10237,7 +10220,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -10256,7 +10239,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -10293,7 +10276,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10321,7 +10304,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10340,7 +10323,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -10364,8 +10347,10 @@
 						"id": 133,
 						"name": "Vasco DA Gama",
 						"country": "🇧🇷",
-						"position": 9,
+						"position": 11,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -10451,7 +10436,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -10460,7 +10445,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -10479,7 +10464,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10488,7 +10473,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10516,7 +10501,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10535,7 +10520,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10544,7 +10529,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10563,7 +10548,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -10591,7 +10576,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10600,7 +10585,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -10619,7 +10604,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -10628,7 +10613,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -10656,7 +10641,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10675,7 +10660,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -10684,7 +10669,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -10712,7 +10697,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10731,7 +10716,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -10759,7 +10744,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -10768,7 +10753,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": false
@@ -10787,7 +10772,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10796,7 +10781,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -10824,7 +10809,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10843,7 +10828,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -10852,7 +10837,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -10870,14 +10855,16 @@
 				"fullDate": "2024-07-21T14:00",
 				"date": "2024-07-21",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 118,
 						"name": "Bahia",
 						"country": "🇧🇷",
-						"position": 5,
+						"position": 6,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -10963,7 +10950,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -10972,7 +10959,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -11000,7 +10987,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -11028,7 +11015,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11047,7 +11034,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11075,7 +11062,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -11084,7 +11071,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -11103,7 +11090,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11112,7 +11099,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -11131,7 +11118,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -11140,7 +11127,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -11168,7 +11155,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -11187,7 +11174,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -11196,7 +11183,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -11215,7 +11202,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -11224,7 +11211,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11243,7 +11230,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -11252,7 +11239,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -11271,7 +11258,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11299,7 +11286,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -11308,7 +11295,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11327,7 +11314,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -11336,7 +11323,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11364,7 +11351,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11379,8 +11366,10 @@
 						"id": 131,
 						"name": "Corinthians",
 						"country": "🇧🇷",
-						"position": 17,
+						"position": 14,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -11466,7 +11455,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11475,7 +11464,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -11494,7 +11483,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11503,7 +11492,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11522,7 +11511,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -11531,7 +11520,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11550,7 +11539,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -11559,7 +11548,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -11587,7 +11576,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11606,7 +11595,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -11615,7 +11604,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -11643,7 +11632,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -11671,7 +11660,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11690,7 +11679,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -11699,7 +11688,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -11718,7 +11707,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -11727,7 +11716,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -11746,7 +11735,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11774,7 +11763,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -11802,7 +11791,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -11830,7 +11819,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -11867,7 +11856,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -11885,14 +11874,16 @@
 				"fullDate": "2024-07-21T16:30",
 				"date": "2024-07-21",
 				"hour": "16:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 794,
 						"name": "RB Bragantino",
 						"country": "🇧🇷",
-						"position": 10,
+						"position": 9,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -11987,7 +11978,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -12006,7 +11997,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12015,7 +12006,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -12034,7 +12025,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -12062,7 +12053,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12071,7 +12062,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -12090,7 +12081,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -12099,7 +12090,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -12118,7 +12109,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -12127,7 +12118,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -12155,7 +12146,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -12174,7 +12165,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12183,7 +12174,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -12211,7 +12202,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -12230,7 +12221,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12258,7 +12249,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -12267,7 +12258,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12295,7 +12286,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12323,7 +12314,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -12342,7 +12333,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -12379,7 +12370,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -12396,6 +12387,8 @@
 						"country": "🇧🇷",
 						"position": 8,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -12509,7 +12502,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -12574,7 +12567,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -12593,7 +12586,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -12630,7 +12623,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12649,7 +12642,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -12677,7 +12670,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -12714,7 +12707,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -12798,7 +12791,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -12817,7 +12810,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -12900,14 +12893,16 @@
 				"fullDate": "2024-07-21T16:30",
 				"date": "2024-07-21",
 				"hour": "16:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 154,
 						"name": "Fortaleza EC",
 						"country": "🇧🇷",
-						"position": 7,
+						"position": 4,
 						"featured": true,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -12993,7 +12988,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -13002,7 +12997,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13030,7 +13025,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -13049,7 +13044,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -13058,7 +13053,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -13077,7 +13072,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -13086,7 +13081,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -13105,7 +13100,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -13133,7 +13128,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -13161,7 +13156,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -13170,7 +13165,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -13189,7 +13184,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -13217,7 +13212,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -13226,7 +13221,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -13245,7 +13240,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -13254,7 +13249,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -13282,7 +13277,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -13301,7 +13296,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -13329,7 +13324,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -13357,7 +13352,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -13394,7 +13389,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -13409,8 +13404,10 @@
 						"id": 144,
 						"name": "Atletico Goianiense",
 						"country": "🇧🇷",
-						"position": 19,
+						"position": 20,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -13496,7 +13493,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13505,7 +13502,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -13533,7 +13530,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13552,7 +13549,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13580,7 +13577,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -13589,7 +13586,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13608,7 +13605,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -13617,7 +13614,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -13636,7 +13633,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -13664,7 +13661,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -13673,7 +13670,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -13692,7 +13689,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13701,7 +13698,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13720,7 +13717,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -13729,7 +13726,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13748,7 +13745,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -13757,7 +13754,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -13785,7 +13782,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13804,7 +13801,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13813,7 +13810,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13832,7 +13829,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -13860,7 +13857,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13869,7 +13866,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -13897,7 +13894,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -13915,7 +13912,7 @@
 				"fullDate": "2024-07-21T16:30",
 				"date": "2024-07-21",
 				"hour": "16:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 152,
@@ -13923,6 +13920,8 @@
 						"country": "🇧🇷",
 						"position": 12,
 						"featured": false,
+						"score": 0,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -14017,7 +14016,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -14092,7 +14091,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -14148,7 +14147,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14176,7 +14175,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14269,7 +14268,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -14288,7 +14287,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14325,7 +14324,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -14353,7 +14352,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -14372,7 +14371,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -14424,8 +14423,10 @@
 						"id": 126,
 						"name": "Sao Paulo",
 						"country": "🇧🇷",
-						"position": 4,
+						"position": 5,
 						"featured": true,
+						"score": 0,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -14511,7 +14512,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -14539,7 +14540,7 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": "🇧🇷",
-										"position": 11,
+										"position": 10,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14548,7 +14549,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -14567,7 +14568,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14576,7 +14577,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -14604,7 +14605,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14623,7 +14624,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -14632,7 +14633,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -14651,7 +14652,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14660,7 +14661,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -14679,7 +14680,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": "🇧🇷",
-										"position": 9,
+										"position": 11,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -14688,7 +14689,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -14707,7 +14708,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -14716,7 +14717,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -14735,7 +14736,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -14744,7 +14745,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -14772,7 +14773,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -14791,7 +14792,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14800,7 +14801,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -14819,7 +14820,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14847,7 +14848,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14875,7 +14876,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -14903,7 +14904,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -14912,7 +14913,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -14930,14 +14931,16 @@
 				"fullDate": "2024-07-21T18:00",
 				"date": "2024-07-21",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1193,
 						"name": "Cuiaba",
 						"country": "🇧🇷",
-						"position": 15,
+						"position": 16,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -15032,7 +15035,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -15051,7 +15054,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -15060,7 +15063,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15079,7 +15082,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -15116,7 +15119,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -15135,7 +15138,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -15163,7 +15166,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -15172,7 +15175,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": "🇧🇷",
-										"position": 10,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -15191,7 +15194,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 17,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -15200,7 +15203,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -15219,7 +15222,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -15228,7 +15231,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -15247,7 +15250,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15256,7 +15259,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -15275,7 +15278,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -15284,7 +15287,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15303,7 +15306,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -15312,7 +15315,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -15331,7 +15334,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -15340,7 +15343,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -15359,7 +15362,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -15368,7 +15371,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -15387,7 +15390,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -15424,7 +15427,7 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -15439,8 +15442,10 @@
 						"id": 124,
 						"name": "Fluminense",
 						"country": "🇧🇷",
-						"position": 20,
+						"position": 19,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -15526,7 +15531,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -15554,7 +15559,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -15563,7 +15568,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -15582,7 +15587,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -15591,7 +15596,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15610,7 +15615,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -15647,7 +15652,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15666,7 +15671,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15675,7 +15680,7 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": "🇧🇷",
-										"position": 16,
+										"position": 17,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -15694,7 +15699,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15722,7 +15727,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -15731,7 +15736,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15750,7 +15755,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -15759,7 +15764,7 @@
 										"id": 144,
 										"name": "Atletico Goianiense",
 										"country": "🇧🇷",
-										"position": 19,
+										"position": 20,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15787,7 +15792,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -15806,7 +15811,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -15834,7 +15839,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -15862,7 +15867,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -15890,7 +15895,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -15918,7 +15923,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -15927,7 +15932,7 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": "🇧🇷",
-										"position": 20,
+										"position": 19,
 										"featured": true,
 										"score": 1,
 										"winner": false
