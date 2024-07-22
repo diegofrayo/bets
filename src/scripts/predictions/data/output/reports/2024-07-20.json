@@ -9,6 +9,19 @@
 		"standings": [
 			[
 				{
+					"teamId": 2295,
+					"teamName": "Cruz Azul",
+					"points": 10,
+					"stats": {
+						"goalsDiff": 8,
+						"played": 4,
+						"win": 3,
+						"draw": 1,
+						"lose": 0,
+						"goals": { "for": 9, "against": 1 }
+					}
+				},
+				{
 					"teamId": 2279,
 					"teamName": "Tigres UANL",
 					"points": 10,
@@ -22,19 +35,6 @@
 					}
 				},
 				{
-					"teamId": 2295,
-					"teamName": "Cruz Azul",
-					"points": 9,
-					"stats": {
-						"goalsDiff": 8,
-						"played": 3,
-						"win": 3,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 8, "against": 0 }
-					}
-				},
-				{
 					"teamId": 2282,
 					"teamName": "Monterrey",
 					"points": 9,
@@ -45,6 +45,19 @@
 						"draw": 0,
 						"lose": 1,
 						"goals": { "for": 4, "against": 5 }
+					}
+				},
+				{
+					"teamId": 2281,
+					"teamName": "Toluca",
+					"points": 8,
+					"stats": {
+						"goalsDiff": 4,
+						"played": 4,
+						"win": 2,
+						"draw": 2,
+						"lose": 0,
+						"goals": { "for": 7, "against": 3 }
 					}
 				},
 				{
@@ -74,19 +87,6 @@
 					}
 				},
 				{
-					"teamId": 2281,
-					"teamName": "Toluca",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 4,
-						"played": 3,
-						"win": 2,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 6, "against": 2 }
-					}
-				},
-				{
 					"teamId": 2278,
 					"teamName": "Guadalajara Chivas",
 					"points": 7,
@@ -110,6 +110,19 @@
 						"draw": 1,
 						"lose": 1,
 						"goals": { "for": 7, "against": 7 }
+					}
+				},
+				{
+					"teamId": 2287,
+					"teamName": "Club America",
+					"points": 6,
+					"stats": {
+						"goalsDiff": 1,
+						"played": 4,
+						"win": 2,
+						"draw": 0,
+						"lose": 2,
+						"goals": { "for": 6, "against": 5 }
 					}
 				},
 				{
@@ -165,19 +178,6 @@
 					}
 				},
 				{
-					"teamId": 2287,
-					"teamName": "Club America",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 4, "against": 4 }
-					}
-				},
-				{
 					"teamId": 2289,
 					"teamName": "Leon",
 					"points": 2,
@@ -195,12 +195,12 @@
 					"teamName": "FC Juarez",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 3,
+						"goalsDiff": -3,
+						"played": 4,
 						"win": 0,
 						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 5, "against": 7 }
+						"lose": 3,
+						"goals": { "for": 6, "against": 9 }
 					}
 				},
 				{
@@ -258,7 +258,7 @@
 						"country": "🇲🇽",
 						"position": 7,
 						"featured": true,
-						"score": 1,
+						"score": 2,
 						"winner": true,
 						"stats": [
 							{
@@ -410,7 +410,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -438,7 +438,7 @@
 										"id": 2283,
 										"name": "Atlas",
 										"country": "🇲🇽",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -466,7 +466,7 @@
 										"id": 2283,
 										"name": "Atlas",
 										"country": "🇲🇽",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -485,7 +485,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -522,7 +522,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -710,7 +710,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -747,7 +747,7 @@
 										"id": 2314,
 										"name": "Atletico San Luis",
 										"country": "🇲🇽",
-										"position": 9,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -766,7 +766,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -849,7 +849,7 @@
 				"fullDate": "2024-07-20T20:00",
 				"date": "2024-07-20",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2285,
@@ -857,6 +857,8 @@
 						"country": "🇲🇽",
 						"position": 16,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -942,7 +944,7 @@
 										"id": 2283,
 										"name": "Atlas",
 										"country": "🇲🇽",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -979,7 +981,7 @@
 										"id": 2286,
 										"name": "U.N.A.M. - Pumas",
 										"country": "🇲🇽",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -998,7 +1000,7 @@
 										"id": 2291,
 										"name": "Puebla",
 										"country": "🇲🇽",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -1026,7 +1028,7 @@
 										"id": 2283,
 										"name": "Atlas",
 										"country": "🇲🇽",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -1050,8 +1052,10 @@
 						"id": 2279,
 						"name": "Tigres UANL",
 						"country": "🇲🇽",
-						"position": 1,
+						"position": 2,
 						"featured": true,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -1137,7 +1141,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -1146,7 +1150,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1165,7 +1169,7 @@
 										"id": 2283,
 										"name": "Atlas",
 										"country": "🇲🇽",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -1174,7 +1178,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -1193,7 +1197,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -1202,7 +1206,7 @@
 										"id": 2288,
 										"name": "Necaxa",
 										"country": "🇲🇽",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1221,7 +1225,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1230,7 +1234,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -1249,7 +1253,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -1286,7 +1290,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -1305,7 +1309,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1342,7 +1346,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -1361,7 +1365,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -1398,7 +1402,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -1416,7 +1420,7 @@
 				"fullDate": "2024-07-20T20:00",
 				"date": "2024-07-20",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2282,
@@ -1424,6 +1428,8 @@
 						"country": "🇲🇽",
 						"position": 3,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -1509,7 +1515,7 @@
 										"id": 2288,
 										"name": "Necaxa",
 										"country": "🇲🇽",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1546,7 +1552,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1565,7 +1571,7 @@
 										"id": 2292,
 										"name": "Pachuca",
 										"country": "🇲🇽",
-										"position": 10,
+										"position": 11,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1899,6 +1905,8 @@
 						"country": "🇲🇽",
 						"position": 18,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -2012,7 +2020,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2095,7 +2103,7 @@
 				"fullDate": "2024-07-20T22:10",
 				"date": "2024-07-20",
 				"hour": "22:10",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2298,
@@ -2103,6 +2111,8 @@
 						"country": "🇲🇽",
 						"position": 15,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -2197,7 +2207,7 @@
 										"id": 2286,
 										"name": "U.N.A.M. - Pumas",
 										"country": "🇲🇽",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2216,7 +2226,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2253,7 +2263,7 @@
 										"id": 2283,
 										"name": "Atlas",
 										"country": "🇲🇽",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -2296,8 +2306,10 @@
 						"id": 2287,
 						"name": "Club America",
 						"country": "🇲🇽",
-						"position": 13,
+						"position": 9,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -2383,7 +2395,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2392,7 +2404,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2411,7 +2423,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2439,7 +2451,7 @@
 										"id": 2314,
 										"name": "Atletico San Luis",
 										"country": "🇲🇽",
-										"position": 9,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2448,7 +2460,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2467,7 +2479,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2476,7 +2488,7 @@
 										"id": 2279,
 										"name": "Tigres UANL",
 										"country": "🇲🇽",
-										"position": 1,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2495,7 +2507,7 @@
 										"id": 2292,
 										"name": "Pachuca",
 										"country": "🇲🇽",
-										"position": 10,
+										"position": 11,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2504,7 +2516,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2523,7 +2535,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -2532,7 +2544,7 @@
 										"id": 2292,
 										"name": "Pachuca",
 										"country": "🇲🇽",
-										"position": 10,
+										"position": 11,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -2551,7 +2563,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 5,
 										"winner": true
@@ -2588,7 +2600,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -2607,7 +2619,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2616,7 +2628,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -2635,7 +2647,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -2672,7 +2684,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2691,7 +2703,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2728,7 +2740,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -2756,7 +2768,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -2774,14 +2786,16 @@
 				"fullDate": "2024-07-20T22:05",
 				"date": "2024-07-20",
 				"hour": "22:05",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2295,
 						"name": "Cruz Azul",
 						"country": "🇲🇽",
-						"position": 2,
+						"position": 1,
 						"featured": true,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -2867,7 +2881,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2904,7 +2918,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -2923,7 +2937,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2951,7 +2965,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2979,7 +2993,7 @@
 										"id": 2295,
 										"name": "Cruz Azul",
 										"country": "🇲🇽",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2988,7 +3002,7 @@
 										"id": 2287,
 										"name": "Club America",
 										"country": "🇲🇽",
-										"position": 13,
+										"position": 9,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -3003,8 +3017,10 @@
 						"id": 2281,
 						"name": "Toluca",
 						"country": "🇲🇽",
-						"position": 6,
+						"position": 4,
 						"featured": true,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -3090,7 +3106,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -3118,7 +3134,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -3155,7 +3171,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -3174,7 +3190,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -3211,7 +3227,7 @@
 										"id": 2281,
 										"name": "Toluca",
 										"country": "🇲🇽",
-										"position": 6,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3236,6 +3252,32 @@
 		"standings": [
 			[
 				{
+					"teamId": 445,
+					"teamName": "Huracan",
+					"points": 14,
+					"stats": {
+						"goalsDiff": 6,
+						"played": 6,
+						"win": 4,
+						"draw": 2,
+						"lose": 0,
+						"goals": { "for": 9, "against": 3 }
+					}
+				},
+				{
+					"teamId": 436,
+					"teamName": "Racing Club",
+					"points": 13,
+					"stats": {
+						"goalsDiff": 9,
+						"played": 6,
+						"win": 4,
+						"draw": 1,
+						"lose": 1,
+						"goals": { "for": 15, "against": 6 }
+					}
+				},
+				{
 					"teamId": 456,
 					"teamName": "Talleres Cordoba",
 					"points": 13,
@@ -3246,19 +3288,6 @@
 						"draw": 1,
 						"lose": 0,
 						"goals": { "for": 11, "against": 4 }
-					}
-				},
-				{
-					"teamId": 445,
-					"teamName": "Huracan",
-					"points": 13,
-					"stats": {
-						"goalsDiff": 6,
-						"played": 5,
-						"win": 4,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 8, "against": 2 }
 					}
 				},
 				{
@@ -3301,19 +3330,6 @@
 					}
 				},
 				{
-					"teamId": 436,
-					"teamName": "Racing Club",
-					"points": 10,
-					"stats": {
-						"goalsDiff": 6,
-						"played": 5,
-						"win": 3,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 12, "against": 6 }
-					}
-				},
-				{
 					"teamId": 434,
 					"teamName": "Gimnasia L.P.",
 					"points": 10,
@@ -3350,6 +3366,19 @@
 						"draw": 0,
 						"lose": 2,
 						"goals": { "for": 9, "against": 4 }
+					}
+				},
+				{
+					"teamId": 437,
+					"teamName": "Rosario Central",
+					"points": 9,
+					"stats": {
+						"goalsDiff": 3,
+						"played": 6,
+						"win": 2,
+						"draw": 3,
+						"lose": 1,
+						"goals": { "for": 11, "against": 8 }
 					}
 				},
 				{
@@ -3405,19 +3434,6 @@
 					}
 				},
 				{
-					"teamId": 474,
-					"teamName": "Sarmiento Junin",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 5,
-						"win": 2,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 5, "against": 4 }
-					}
-				},
-				{
 					"teamId": 450,
 					"teamName": "Estudiantes L.P.",
 					"points": 7,
@@ -3431,29 +3447,29 @@
 					}
 				},
 				{
-					"teamId": 437,
-					"teamName": "Rosario Central",
-					"points": 6,
+					"teamId": 474,
+					"teamName": "Sarmiento Junin",
+					"points": 7,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 5,
-						"win": 1,
-						"draw": 3,
-						"lose": 1,
-						"goals": { "for": 7, "against": 6 }
+						"goalsDiff": -1,
+						"played": 6,
+						"win": 2,
+						"draw": 1,
+						"lose": 3,
+						"goals": { "for": 7, "against": 8 }
 					}
 				},
 				{
 					"teamId": 455,
 					"teamName": "Atletico Tucuman",
-					"points": 6,
+					"points": 7,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 5,
+						"played": 6,
 						"win": 1,
-						"draw": 3,
+						"draw": 4,
 						"lose": 1,
-						"goals": { "for": 4, "against": 5 }
+						"goals": { "for": 5, "against": 6 }
 					}
 				},
 				{
@@ -3509,6 +3525,19 @@
 					}
 				},
 				{
+					"teamId": 449,
+					"teamName": "Banfield",
+					"points": 5,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 6,
+						"win": 1,
+						"draw": 2,
+						"lose": 3,
+						"goals": { "for": 5, "against": 8 }
+					}
+				},
+				{
 					"teamId": 452,
 					"teamName": "Tigre",
 					"points": 5,
@@ -3519,19 +3548,6 @@
 						"draw": 2,
 						"lose": 3,
 						"goals": { "for": 5, "against": 10 }
-					}
-				},
-				{
-					"teamId": 449,
-					"teamName": "Banfield",
-					"points": 4,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 5,
-						"win": 1,
-						"draw": 1,
-						"lose": 3,
-						"goals": { "for": 4, "against": 7 }
 					}
 				},
 				{
@@ -3563,14 +3579,14 @@
 				{
 					"teamId": 460,
 					"teamName": "San Lorenzo",
-					"points": 1,
+					"points": 2,
 					"stats": {
 						"goalsDiff": -3,
-						"played": 4,
+						"played": 5,
 						"win": 0,
-						"draw": 1,
+						"draw": 2,
 						"lose": 3,
-						"goals": { "for": 2, "against": 5 }
+						"goals": { "for": 3, "against": 6 }
 					}
 				},
 				{
@@ -3578,12 +3594,12 @@
 					"teamName": "Godoy Cruz",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 4,
+						"goalsDiff": -4,
+						"played": 5,
 						"win": 0,
 						"draw": 3,
-						"lose": 1,
-						"goals": { "for": 2, "against": 3 }
+						"lose": 2,
+						"goals": { "for": 2, "against": 6 }
 					}
 				},
 				{
@@ -3607,14 +3623,16 @@
 				"fullDate": "2024-07-20T17:30",
 				"date": "2024-07-20",
 				"hour": "17:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 449,
 						"name": "Banfield",
 						"country": "🇦🇷",
-						"position": 23,
+						"position": 22,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3709,7 +3727,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3728,7 +3746,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3737,7 +3755,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3765,7 +3783,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3793,7 +3811,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3812,7 +3830,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3821,7 +3839,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -3840,7 +3858,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3849,7 +3867,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3877,7 +3895,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3896,7 +3914,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 6,
 										"winner": true
@@ -3924,7 +3942,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3961,7 +3979,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3980,7 +3998,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -3989,7 +4007,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -4008,7 +4026,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4045,7 +4063,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -4064,7 +4082,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -4092,7 +4110,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4101,7 +4119,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -4118,6 +4136,8 @@
 						"country": "🇦🇷",
 						"position": 17,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4315,7 +4335,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4352,7 +4372,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4371,7 +4391,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -4511,7 +4531,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -4548,7 +4568,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -4622,7 +4642,7 @@
 				"fullDate": "2024-07-20T13:00",
 				"date": "2024-07-20",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 460,
@@ -4630,6 +4650,8 @@
 						"country": "🇦🇷",
 						"position": 26,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4743,7 +4765,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4808,7 +4830,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4892,7 +4914,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5131,8 +5153,10 @@
 						"id": 445,
 						"name": "Huracan",
 						"country": "🇦🇷",
-						"position": 2,
+						"position": 1,
 						"featured": true,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5218,7 +5242,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5255,7 +5279,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": true
@@ -5283,7 +5307,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5302,7 +5326,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5311,7 +5335,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5330,7 +5354,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5339,7 +5363,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5358,7 +5382,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5386,7 +5410,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5423,7 +5447,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5442,7 +5466,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": true
@@ -5470,7 +5494,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5507,7 +5531,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5526,7 +5550,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5535,7 +5559,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5554,7 +5578,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5563,7 +5587,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5582,7 +5606,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5591,7 +5615,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5610,7 +5634,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5637,14 +5661,16 @@
 				"fullDate": "2024-07-20T15:00",
 				"date": "2024-07-20",
 				"hour": "15:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 436,
 						"name": "Racing Club",
 						"country": "🇦🇷",
-						"position": 6,
+						"position": 2,
 						"featured": true,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5730,7 +5756,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5739,7 +5765,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5758,7 +5784,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5786,7 +5812,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5814,7 +5840,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5823,7 +5849,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5842,7 +5868,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5851,7 +5877,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5870,7 +5896,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5898,7 +5924,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 4,
 										"winner": null
@@ -5907,7 +5933,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 4,
 										"winner": null
@@ -5935,7 +5961,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5954,7 +5980,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5991,7 +6017,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6010,7 +6036,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6019,7 +6045,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -6038,7 +6064,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6066,7 +6092,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6075,7 +6101,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6103,7 +6129,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6131,7 +6157,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6148,6 +6174,8 @@
 						"country": "🇦🇷",
 						"position": 27,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6242,7 +6270,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -6429,7 +6457,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6466,7 +6494,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6578,7 +6606,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6606,7 +6634,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -6661,14 +6689,14 @@
 				{
 					"teamId": 9568,
 					"teamName": "Inter Miami",
-					"points": 50,
+					"points": 53,
 					"stats": {
-						"goalsDiff": 16,
-						"played": 24,
-						"win": 15,
+						"goalsDiff": 17,
+						"played": 25,
+						"win": 16,
 						"draw": 5,
 						"lose": 4,
-						"goals": { "for": 54, "against": 38 }
+						"goals": { "for": 56, "against": 39 }
 					}
 				},
 				{
@@ -6676,12 +6704,12 @@
 					"teamName": "FC Cincinnati",
 					"points": 48,
 					"stats": {
-						"goalsDiff": 13,
-						"played": 24,
+						"goalsDiff": 11,
+						"played": 25,
 						"win": 15,
 						"draw": 3,
-						"lose": 6,
-						"goals": { "for": 43, "against": 30 }
+						"lose": 7,
+						"goals": { "for": 44, "against": 33 }
 					}
 				},
 				{
@@ -6689,77 +6717,103 @@
 					"teamName": "Columbus Crew",
 					"points": 43,
 					"stats": {
-						"goalsDiff": 26,
-						"played": 22,
+						"goalsDiff": 25,
+						"played": 23,
 						"win": 12,
 						"draw": 7,
-						"lose": 3,
-						"goals": { "for": 46, "against": 20 }
+						"lose": 4,
+						"goals": { "for": 47, "against": 22 }
 					}
 				},
 				{
 					"teamId": 1602,
 					"teamName": "New York Red Bulls",
-					"points": 38,
+					"points": 41,
 					"stats": {
-						"goalsDiff": 9,
-						"played": 24,
-						"win": 9,
+						"goalsDiff": 11,
+						"played": 25,
+						"win": 10,
 						"draw": 11,
 						"lose": 4,
-						"goals": { "for": 39, "against": 30 }
+						"goals": { "for": 42, "against": 31 }
 					}
 				},
 				{
 					"teamId": 1604,
 					"teamName": "New York City FC",
-					"points": 37,
+					"points": 38,
 					"stats": {
 						"goalsDiff": 6,
-						"played": 24,
+						"played": 25,
 						"win": 11,
-						"draw": 4,
+						"draw": 5,
 						"lose": 9,
-						"goals": { "for": 35, "against": 29 }
+						"goals": { "for": 36, "against": 30 }
 					}
 				},
 				{
 					"teamId": 18310,
 					"teamName": "Charlotte",
-					"points": 36,
+					"points": 37,
 					"stats": {
 						"goalsDiff": 3,
-						"played": 24,
+						"played": 25,
 						"win": 10,
-						"draw": 6,
+						"draw": 7,
 						"lose": 8,
-						"goals": { "for": 28, "against": 25 }
+						"goals": { "for": 30, "against": 27 }
 					}
 				},
 				{
 					"teamId": 1598,
 					"teamName": "Orlando City SC",
-					"points": 33,
+					"points": 34,
 					"stats": {
 						"goalsDiff": 1,
-						"played": 24,
+						"played": 25,
 						"win": 9,
-						"draw": 6,
+						"draw": 7,
 						"lose": 9,
-						"goals": { "for": 38, "against": 37 }
+						"goals": { "for": 39, "against": 38 }
 					}
 				},
 				{
 					"teamId": 1601,
 					"teamName": "Toronto FC",
-					"points": 27,
+					"points": 30,
 					"stats": {
-						"goalsDiff": -14,
-						"played": 25,
-						"win": 8,
+						"goalsDiff": -13,
+						"played": 26,
+						"win": 9,
 						"draw": 3,
 						"lose": 14,
-						"goals": { "for": 33, "against": 47 }
+						"goals": { "for": 34, "against": 47 }
+					}
+				},
+				{
+					"teamId": 1608,
+					"teamName": "Atlanta United FC",
+					"points": 28,
+					"stats": {
+						"goalsDiff": -1,
+						"played": 25,
+						"win": 7,
+						"draw": 7,
+						"lose": 11,
+						"goals": { "for": 35, "against": 36 }
+					}
+				},
+				{
+					"teamId": 1599,
+					"teamName": "Philadelphia Union",
+					"points": 27,
+					"stats": {
+						"goalsDiff": 3,
+						"played": 25,
+						"win": 6,
+						"draw": 9,
+						"lose": 10,
+						"goals": { "for": 45, "against": 42 }
 					}
 				},
 				{
@@ -6767,12 +6821,12 @@
 					"teamName": "CF Montreal",
 					"points": 27,
 					"stats": {
-						"goalsDiff": -14,
-						"played": 24,
+						"goalsDiff": -15,
+						"played": 25,
 						"win": 6,
 						"draw": 9,
-						"lose": 9,
-						"goals": { "for": 34, "against": 48 }
+						"lose": 10,
+						"goals": { "for": 34, "against": 49 }
 					}
 				},
 				{
@@ -6780,12 +6834,12 @@
 					"teamName": "Nashville SC",
 					"points": 26,
 					"stats": {
-						"goalsDiff": -10,
-						"played": 24,
+						"goalsDiff": -13,
+						"played": 25,
 						"win": 6,
 						"draw": 8,
-						"lose": 10,
-						"goals": { "for": 26, "against": 36 }
+						"lose": 11,
+						"goals": { "for": 26, "against": 39 }
 					}
 				},
 				{
@@ -6802,55 +6856,29 @@
 					}
 				},
 				{
-					"teamId": 1608,
-					"teamName": "Atlanta United FC",
-					"points": 25,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 24,
-						"win": 6,
-						"draw": 7,
-						"lose": 11,
-						"goals": { "for": 33, "against": 35 }
-					}
-				},
-				{
 					"teamId": 1607,
 					"teamName": "Chicago Fire",
 					"points": 25,
 					"stats": {
-						"goalsDiff": -11,
-						"played": 24,
+						"goalsDiff": -12,
+						"played": 25,
 						"win": 6,
 						"draw": 7,
-						"lose": 11,
-						"goals": { "for": 29, "against": 40 }
-					}
-				},
-				{
-					"teamId": 1599,
-					"teamName": "Philadelphia Union",
-					"points": 24,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 24,
-						"win": 5,
-						"draw": 9,
-						"lose": 10,
-						"goals": { "for": 42, "against": 42 }
+						"lose": 12,
+						"goals": { "for": 30, "against": 42 }
 					}
 				},
 				{
 					"teamId": 1609,
 					"teamName": "New England Revolution",
-					"points": 22,
+					"points": 23,
 					"stats": {
 						"goalsDiff": -24,
-						"played": 22,
+						"played": 23,
 						"win": 7,
-						"draw": 1,
+						"draw": 2,
 						"lose": 14,
-						"goals": { "for": 22, "against": 46 }
+						"goals": { "for": 23, "against": 47 }
 					}
 				}
 			],
@@ -6858,27 +6886,27 @@
 				{
 					"teamId": 1605,
 					"teamName": "Los Angeles Galaxy",
-					"points": 46,
+					"points": 49,
 					"stats": {
-						"goalsDiff": 13,
-						"played": 25,
-						"win": 13,
+						"goalsDiff": 14,
+						"played": 26,
+						"win": 14,
 						"draw": 7,
 						"lose": 5,
-						"goals": { "for": 47, "against": 34 }
+						"goals": { "for": 50, "against": 36 }
 					}
 				},
 				{
 					"teamId": 1616,
 					"teamName": "Los Angeles FC",
-					"points": 44,
+					"points": 47,
 					"stats": {
-						"goalsDiff": 15,
-						"played": 23,
-						"win": 13,
+						"goalsDiff": 18,
+						"played": 24,
+						"win": 14,
 						"draw": 5,
 						"lose": 5,
-						"goals": { "for": 45, "against": 30 }
+						"goals": { "for": 48, "against": 30 }
 					}
 				},
 				{
@@ -6886,12 +6914,25 @@
 					"teamName": "Real Salt Lake",
 					"points": 44,
 					"stats": {
-						"goalsDiff": 18,
-						"played": 24,
+						"goalsDiff": 17,
+						"played": 25,
 						"win": 12,
 						"draw": 8,
-						"lose": 4,
-						"goals": { "for": 49, "against": 31 }
+						"lose": 5,
+						"goals": { "for": 51, "against": 34 }
+					}
+				},
+				{
+					"teamId": 1610,
+					"teamName": "Colorado Rapids",
+					"points": 41,
+					"stats": {
+						"goalsDiff": 7,
+						"played": 26,
+						"win": 12,
+						"draw": 5,
+						"lose": 9,
+						"goals": { "for": 50, "against": 43 }
 					}
 				},
 				{
@@ -6899,25 +6940,25 @@
 					"teamName": "Vancouver Whitecaps",
 					"points": 38,
 					"stats": {
-						"goalsDiff": 9,
-						"played": 23,
+						"goalsDiff": 8,
+						"played": 24,
 						"win": 11,
 						"draw": 5,
-						"lose": 7,
-						"goals": { "for": 40, "against": 31 }
+						"lose": 8,
+						"goals": { "for": 43, "against": 35 }
 					}
 				},
 				{
-					"teamId": 1610,
-					"teamName": "Colorado Rapids",
-					"points": 38,
+					"teamId": 1600,
+					"teamName": "Houston Dynamo",
+					"points": 37,
 					"stats": {
-						"goalsDiff": 6,
-						"played": 25,
-						"win": 11,
-						"draw": 5,
-						"lose": 9,
-						"goals": { "for": 47, "against": 41 }
+						"goalsDiff": 5,
+						"played": 24,
+						"win": 10,
+						"draw": 7,
+						"lose": 7,
+						"goals": { "for": 35, "against": 30 }
 					}
 				},
 				{
@@ -6925,12 +6966,12 @@
 					"teamName": "Seattle Sounders",
 					"points": 37,
 					"stats": {
-						"goalsDiff": 8,
-						"played": 24,
+						"goalsDiff": 5,
+						"played": 25,
 						"win": 10,
 						"draw": 7,
-						"lose": 7,
-						"goals": { "for": 34, "against": 26 }
+						"lose": 8,
+						"goals": { "for": 34, "against": 29 }
 					}
 				},
 				{
@@ -6938,90 +6979,77 @@
 					"teamName": "Portland Timbers",
 					"points": 36,
 					"stats": {
-						"goalsDiff": 9,
-						"played": 24,
+						"goalsDiff": 8,
+						"played": 25,
 						"win": 10,
 						"draw": 6,
-						"lose": 8,
-						"goals": { "for": 48, "against": 39 }
-					}
-				},
-				{
-					"teamId": 1600,
-					"teamName": "Houston Dynamo",
-					"points": 34,
-					"stats": {
-						"goalsDiff": 4,
-						"played": 23,
-						"win": 9,
-						"draw": 7,
-						"lose": 7,
-						"goals": { "for": 31, "against": 27 }
+						"lose": 9,
+						"goals": { "for": 50, "against": 42 }
 					}
 				},
 				{
 					"teamId": 1612,
 					"teamName": "Minnesota United FC",
-					"points": 30,
+					"points": 33,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 24,
-						"win": 8,
+						"goalsDiff": -1,
+						"played": 25,
+						"win": 9,
 						"draw": 6,
 						"lose": 10,
-						"goals": { "for": 38, "against": 41 }
+						"goals": { "for": 40, "against": 41 }
 					}
 				},
 				{
 					"teamId": 16489,
 					"teamName": "Austin",
-					"points": 30,
+					"points": 31,
 					"stats": {
 						"goalsDiff": -9,
-						"played": 24,
+						"played": 25,
 						"win": 8,
-						"draw": 6,
+						"draw": 7,
 						"lose": 10,
-						"goals": { "for": 26, "against": 35 }
+						"goals": { "for": 28, "against": 37 }
 					}
 				},
 				{
 					"teamId": 1597,
 					"teamName": "FC Dallas",
-					"points": 29,
+					"points": 30,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 24,
+						"played": 25,
 						"win": 8,
-						"draw": 5,
+						"draw": 6,
 						"lose": 11,
-						"goals": { "for": 37, "against": 38 }
+						"goals": { "for": 38, "against": 39 }
 					}
 				},
 				{
 					"teamId": 1611,
 					"teamName": "Sporting Kansas City",
-					"points": 23,
+					"points": 24,
 					"stats": {
 						"goalsDiff": -11,
-						"played": 25,
+						"played": 26,
 						"win": 6,
-						"draw": 5,
+						"draw": 6,
 						"lose": 14,
-						"goals": { "for": 40, "against": 51 }
+						"goals": { "for": 41, "against": 52 }
 					}
 				},
 				{
 					"teamId": 20787,
 					"teamName": "St. Louis City",
-					"points": 22,
+					"points": 23,
 					"stats": {
 						"goalsDiff": -14,
-						"played": 24,
+						"played": 25,
 						"win": 4,
-						"draw": 10,
+						"draw": 11,
 						"lose": 10,
-						"goals": { "for": 31, "against": 45 }
+						"goals": { "for": 32, "against": 46 }
 					}
 				},
 				{
@@ -7029,12 +7057,12 @@
 					"teamName": "San Jose Earthquakes",
 					"points": 14,
 					"stats": {
-						"goalsDiff": -28,
-						"played": 24,
+						"goalsDiff": -30,
+						"played": 25,
 						"win": 4,
 						"draw": 2,
-						"lose": 18,
-						"goals": { "for": 31, "against": 59 }
+						"lose": 19,
+						"goals": { "for": 31, "against": 61 }
 					}
 				}
 			]
@@ -7045,14 +7073,16 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1608,
 						"name": "Atlanta United FC",
 						"country": "🇺🇸",
-						"position": 12,
+						"position": 9,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7138,7 +7168,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -7166,7 +7196,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -7175,7 +7205,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7194,7 +7224,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -7231,7 +7261,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -7259,7 +7289,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -7278,7 +7308,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -7315,7 +7345,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -7334,7 +7364,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7343,7 +7373,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -7362,7 +7392,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -7371,7 +7401,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -7390,7 +7420,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -7427,7 +7457,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -7446,7 +7476,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7483,7 +7513,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": true
@@ -7502,7 +7532,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -7511,7 +7541,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -7539,7 +7569,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7556,6 +7586,8 @@
 						"country": "🇺🇸",
 						"position": 3,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7734,7 +7766,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7921,7 +7953,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -7949,7 +7981,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8042,7 +8074,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -8060,7 +8092,7 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 9568,
@@ -8068,6 +8100,8 @@
 						"country": "🇺🇸",
 						"position": 1,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8237,7 +8271,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8293,7 +8327,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8358,7 +8392,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -8377,7 +8411,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8414,7 +8448,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -8461,7 +8495,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -8554,7 +8588,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8569,8 +8603,10 @@
 						"id": 1607,
 						"name": "Chicago Fire",
 						"country": "🇺🇸",
-						"position": 13,
+						"position": 14,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8665,7 +8701,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -8684,7 +8720,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -8721,7 +8757,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -8740,7 +8776,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -8749,7 +8785,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -8768,7 +8804,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -8777,7 +8813,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8805,7 +8841,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -8833,7 +8869,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -8852,7 +8888,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -8880,7 +8916,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8908,7 +8944,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8917,7 +8953,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8936,7 +8972,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8964,7 +9000,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9001,7 +9037,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9020,7 +9056,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9048,7 +9084,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9057,7 +9093,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9075,14 +9111,16 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1614,
 						"name": "CF Montreal",
 						"country": "🇺🇸",
-						"position": 9,
+						"position": 11,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9177,7 +9215,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -9196,7 +9234,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -9205,7 +9243,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9224,7 +9262,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -9233,7 +9271,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -9261,7 +9299,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9280,7 +9318,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -9289,7 +9327,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -9308,7 +9346,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -9317,7 +9355,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9336,7 +9374,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -9364,7 +9402,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9392,7 +9430,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -9401,7 +9439,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -9420,7 +9458,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -9429,7 +9467,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -9448,7 +9486,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9457,7 +9495,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -9476,7 +9514,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9513,7 +9551,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9532,7 +9570,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9560,7 +9598,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -9586,6 +9624,8 @@
 						"country": "🇺🇸",
 						"position": 8,
 						"featured": false,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9708,7 +9748,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9811,7 +9851,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -9876,7 +9916,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -9904,7 +9944,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -9923,7 +9963,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -9951,7 +9991,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -10044,7 +10084,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -10063,7 +10103,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -10090,7 +10130,7 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1609,
@@ -10098,6 +10138,8 @@
 						"country": "🇺🇸",
 						"position": 15,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -10183,7 +10225,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -10239,7 +10281,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -10276,7 +10318,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -10360,7 +10402,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -10407,7 +10449,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -10472,7 +10514,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -10519,7 +10561,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -10601,6 +10643,8 @@
 						"country": "🇺🇸",
 						"position": 11,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -10807,7 +10851,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -10854,7 +10898,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -11078,7 +11122,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -11105,7 +11149,7 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1602,
@@ -11113,6 +11157,8 @@
 						"country": "🇺🇸",
 						"position": 4,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -11207,7 +11253,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -11226,7 +11272,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -11254,7 +11300,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -11291,7 +11337,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -11338,7 +11384,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -11375,7 +11421,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -11506,7 +11552,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -11599,7 +11645,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -11616,6 +11662,8 @@
 						"country": "🇺🇸",
 						"position": 2,
 						"featured": true,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -11710,7 +11758,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -11785,7 +11833,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -11878,7 +11926,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -11934,7 +11982,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -12018,7 +12066,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -12102,7 +12150,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -12120,7 +12168,7 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1598,
@@ -12128,6 +12176,8 @@
 						"country": "🇺🇸",
 						"position": 7,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -12213,7 +12263,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -12278,7 +12328,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -12362,7 +12412,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -12465,7 +12515,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -12577,7 +12627,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -12631,6 +12681,8 @@
 						"country": "🇺🇸",
 						"position": 5,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -12716,7 +12768,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -12744,7 +12796,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -12809,7 +12861,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -12856,7 +12908,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -13024,7 +13076,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13089,7 +13141,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13135,14 +13187,16 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1599,
 						"name": "Philadelphia Union",
 						"country": "🇺🇸",
-						"position": 14,
+						"position": 10,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -13228,7 +13282,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -13265,7 +13319,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13284,7 +13338,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -13321,7 +13375,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13340,7 +13394,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -13349,7 +13403,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -13368,7 +13422,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -13377,7 +13431,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -13396,7 +13450,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -13424,7 +13478,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13452,7 +13506,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13489,7 +13543,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -13517,7 +13571,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -13536,7 +13590,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13564,7 +13618,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13592,7 +13646,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -13629,7 +13683,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 4,
 										"winner": null
@@ -13644,8 +13698,10 @@
 						"id": 9569,
 						"name": "Nashville SC",
 						"country": "🇺🇸",
-						"position": 10,
+						"position": 12,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -13731,7 +13787,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13759,7 +13815,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13768,7 +13824,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13787,7 +13843,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -13796,7 +13852,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13824,7 +13880,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -13843,7 +13899,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13871,7 +13927,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -13908,7 +13964,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -13936,7 +13992,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -13955,7 +14011,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -13992,7 +14048,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -14011,7 +14067,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -14020,7 +14076,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -14039,7 +14095,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -14048,7 +14104,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -14067,7 +14123,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -14104,7 +14160,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -14123,7 +14179,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -14132,7 +14188,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -14150,7 +14206,7 @@
 				"fullDate": "2024-07-20T19:30",
 				"date": "2024-07-20",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 16489,
@@ -14158,6 +14214,8 @@
 						"country": "🇺🇸",
 						"position": 10,
 						"featured": false,
+						"score": 2,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -14280,7 +14338,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -14411,7 +14469,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -14476,7 +14534,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -14560,7 +14618,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -14607,7 +14665,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -14661,6 +14719,8 @@
 						"country": "🇺🇸",
 						"position": 6,
 						"featured": false,
+						"score": 2,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -14830,7 +14890,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -14858,7 +14918,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -14923,7 +14983,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -14942,7 +15002,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -15007,7 +15067,7 @@
 										"id": 1599,
 										"name": "Philadelphia Union",
 										"country": "🇺🇸",
-										"position": 14,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -15054,7 +15114,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -15091,7 +15151,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -15119,7 +15179,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -15165,7 +15225,7 @@
 				"fullDate": "2024-07-20T19:30",
 				"date": "2024-07-20",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1611,
@@ -15173,6 +15233,8 @@
 						"country": "🇺🇸",
 						"position": 12,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -15258,7 +15320,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15370,7 +15432,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15519,7 +15581,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -15575,7 +15637,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15594,7 +15656,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15676,6 +15738,8 @@
 						"country": "🇺🇸",
 						"position": 13,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -15761,7 +15825,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -15798,7 +15862,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -15817,7 +15881,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -15873,7 +15937,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -15910,7 +15974,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -15938,7 +16002,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -15994,7 +16058,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -16050,7 +16114,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -16134,7 +16198,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -16153,7 +16217,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -16180,7 +16244,7 @@
 				"fullDate": "2024-07-20T19:30",
 				"date": "2024-07-20",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1612,
@@ -16188,6 +16252,8 @@
 						"country": "🇺🇸",
 						"position": 9,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -16282,7 +16348,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -16301,7 +16367,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -16366,7 +16432,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -16385,7 +16451,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -16469,7 +16535,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -16581,7 +16647,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 3,
 										"winner": null
@@ -16618,7 +16684,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -16665,7 +16731,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -16691,6 +16757,8 @@
 						"country": "🇺🇸",
 						"position": 14,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -16785,7 +16853,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -16841,7 +16909,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -16953,7 +17021,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -17112,7 +17180,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -17140,7 +17208,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -17195,14 +17263,16 @@
 				"fullDate": "2024-07-20T20:30",
 				"date": "2024-07-20",
 				"hour": "20:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1610,
 						"name": "Colorado Rapids",
 						"country": "🇺🇸",
-						"position": 5,
+						"position": 4,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -17297,7 +17367,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -17316,7 +17386,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -17344,7 +17414,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -17372,7 +17442,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -17409,7 +17479,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -17428,7 +17498,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -17437,7 +17507,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -17465,7 +17535,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -17484,7 +17554,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -17512,7 +17582,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -17521,7 +17591,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -17540,7 +17610,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -17549,7 +17619,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -17568,7 +17638,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 3,
 										"winner": null
@@ -17605,7 +17675,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -17624,7 +17694,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -17633,7 +17703,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -17652,7 +17722,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -17689,7 +17759,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -17706,6 +17776,8 @@
 						"country": "🇺🇸",
 						"position": 3,
 						"featured": false,
+						"score": 2,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -17819,7 +17891,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -17856,7 +17928,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -17884,7 +17956,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -17959,7 +18031,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -18015,7 +18087,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -18080,7 +18152,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -18108,7 +18180,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -18210,14 +18282,16 @@
 				"fullDate": "2024-07-20T21:30",
 				"date": "2024-07-20",
 				"hour": "21:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1603,
 						"name": "Vancouver Whitecaps",
 						"country": "🇺🇸",
-						"position": 4,
+						"position": 5,
 						"featured": false,
+						"score": 3,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -18303,7 +18377,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -18340,7 +18414,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -18368,7 +18442,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -18387,7 +18461,7 @@
 										"id": 1614,
 										"name": "CF Montreal",
 										"country": "🇺🇸",
-										"position": 9,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -18396,7 +18470,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -18424,7 +18498,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -18443,7 +18517,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -18471,7 +18545,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -18480,7 +18554,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -18508,7 +18582,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -18527,7 +18601,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -18536,7 +18610,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -18564,7 +18638,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -18583,7 +18657,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -18611,7 +18685,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -18639,7 +18713,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -18648,7 +18722,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -18667,7 +18741,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -18676,7 +18750,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -18704,7 +18778,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -18719,8 +18793,10 @@
 						"id": 1600,
 						"name": "Houston Dynamo",
 						"country": "🇺🇸",
-						"position": 8,
+						"position": 6,
 						"featured": false,
+						"score": 4,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -18762,9 +18838,9 @@
 								"name": "Comportamiento general en los últimos 4 partidos",
 								"items": {
 									"total_de_partidos": 4,
-									"total_de_goles_anotados": 4,
+									"total_de_goles_anotados": 5,
 									"total_de_goles_recibidos": 4,
-									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_anotados": 1.3,
 									"promedio_de_goles_recibidos": 1
 								}
 							},
@@ -18772,13 +18848,13 @@
 								"name": "Comportamiento como local en los últimos 4 partidos",
 								"items": {
 									"partidos_de_local": 2,
-									"goles_anotados_de_local": 1,
-									"promedio_de_goles_anotados_de_local": 0.5,
-									"partidos_ganados_de_local": 0,
+									"goles_anotados_de_local": 2,
+									"promedio_de_goles_anotados_de_local": 1,
+									"partidos_ganados_de_local": 1,
 									"partidos_perdidos_de_local": 0,
-									"partidos_empatados_de_local": 2,
-									"partidos_con_goles_de_local": 1,
-									"porcentaje_de_puntos_ganados_de_local": "33.3%"
+									"partidos_empatados_de_local": 1,
+									"partidos_con_goles_de_local": 2,
+									"porcentaje_de_puntos_ganados_de_local": "66.7%"
 								}
 							},
 							{
@@ -18815,7 +18891,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -18834,7 +18910,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -18846,34 +18922,6 @@
 										"position": 9,
 										"featured": false,
 										"score": 1,
-										"winner": null
-									}
-								},
-								"played": true,
-								"league": { "id": 253, "name": "Major League Soccer" }
-							},
-							{
-								"id": "2024-07-07-houston-dynamo-los-angeles-fc",
-								"fullDate": "2024-07-07T17:30",
-								"date": "2024-07-07",
-								"hour": "17:30",
-								"teams": {
-									"home": {
-										"id": 1600,
-										"name": "Houston Dynamo",
-										"country": "🇺🇸",
-										"position": 8,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 1616,
-										"name": "Los Angeles FC",
-										"country": "🇺🇸",
-										"position": 2,
-										"featured": true,
-										"score": 0,
 										"winner": null
 									}
 								},
@@ -18899,7 +18947,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -18918,7 +18966,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -18946,7 +18994,7 @@
 										"id": 1615,
 										"name": "DC United",
 										"country": "🇺🇸",
-										"position": 11,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -18955,7 +19003,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -18974,7 +19022,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -18983,7 +19031,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19002,7 +19050,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19011,7 +19059,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19030,7 +19078,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19039,7 +19087,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19058,7 +19106,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -19067,7 +19115,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -19095,7 +19143,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -19114,7 +19162,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -19151,7 +19199,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -19179,7 +19227,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19198,7 +19246,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -19215,6 +19263,34 @@
 								},
 								"played": true,
 								"league": { "id": 257, "name": "US Open Cup" }
+							},
+							{
+								"id": "2024-05-04-houston-dynamo-st-louis-city",
+								"fullDate": "2024-05-04T19:30",
+								"date": "2024-05-04",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 1600,
+										"name": "Houston Dynamo",
+										"country": "🇺🇸",
+										"position": 6,
+										"featured": false,
+										"score": 0,
+										"winner": null
+									},
+									"away": {
+										"id": 20787,
+										"name": "St. Louis City",
+										"country": "🇺🇸",
+										"position": 13,
+										"featured": false,
+										"score": 0,
+										"winner": null
+									}
+								},
+								"played": true,
+								"league": { "id": 253, "name": "Major League Soccer" }
 							}
 						]
 					}
@@ -19225,14 +19301,16 @@
 				"fullDate": "2024-07-20T21:30",
 				"date": "2024-07-20",
 				"hour": "21:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1595,
 						"name": "Seattle Sounders",
 						"country": "🇺🇸",
-						"position": 6,
+						"position": 7,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -19318,7 +19396,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19355,7 +19433,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -19383,7 +19461,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19402,7 +19480,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19430,7 +19508,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19439,7 +19517,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -19458,7 +19536,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -19486,7 +19564,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19495,7 +19573,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -19514,7 +19592,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19551,7 +19629,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -19570,7 +19648,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -19607,7 +19685,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19626,7 +19704,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19654,7 +19732,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -19663,7 +19741,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -19691,7 +19769,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -19710,7 +19788,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -19719,7 +19797,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -19736,15 +19814,17 @@
 						"country": "🇺🇸",
 						"position": 2,
 						"featured": true,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
 								"items": {
 									"total_de_partidos": 15,
-									"total_de_goles_anotados": 32,
-									"total_de_goles_recibidos": 12,
-									"promedio_de_goles_anotados": 2.1,
-									"promedio_de_goles_recibidos": 0.8
+									"total_de_goles_anotados": 35,
+									"total_de_goles_recibidos": 13,
+									"promedio_de_goles_anotados": 2.3,
+									"promedio_de_goles_recibidos": 0.9
 								}
 							},
 							{
@@ -19764,23 +19844,23 @@
 								"name": "Comportamiento como visitante en los últimos 15 partidos",
 								"items": {
 									"partidos_de_visitante": 6,
-									"goles_anotados_de_visitante": 9,
-									"promedio_de_goles_anotados_de_visitante": 1.5,
-									"partidos_ganados_de_visitante": 4,
+									"goles_anotados_de_visitante": 12,
+									"promedio_de_goles_anotados_de_visitante": 2,
+									"partidos_ganados_de_visitante": 5,
 									"partidos_perdidos_de_visitante": 0,
-									"partidos_empatados_de_visitante": 2,
-									"partidos_con_goles_de_visitante": 5,
-									"porcentaje_de_puntos_ganados_de_visitante": "77.8%"
+									"partidos_empatados_de_visitante": 1,
+									"partidos_con_goles_de_visitante": 6,
+									"porcentaje_de_puntos_ganados_de_visitante": "88.9%"
 								}
 							},
 							{
 								"name": "Comportamiento general en los últimos 4 partidos",
 								"items": {
 									"total_de_partidos": 4,
-									"total_de_goles_anotados": 5,
-									"total_de_goles_recibidos": 7,
-									"promedio_de_goles_anotados": 1.3,
-									"promedio_de_goles_recibidos": 1.8
+									"total_de_goles_anotados": 7,
+									"total_de_goles_recibidos": 8,
+									"promedio_de_goles_anotados": 1.8,
+									"promedio_de_goles_recibidos": 2
 								}
 							},
 							{
@@ -19800,13 +19880,13 @@
 								"name": "Comportamiento como visitante en los últimos 4 partidos",
 								"items": {
 									"partidos_de_visitante": 1,
-									"goles_anotados_de_visitante": 0,
-									"promedio_de_goles_anotados_de_visitante": 0,
-									"partidos_ganados_de_visitante": 0,
+									"goles_anotados_de_visitante": 2,
+									"promedio_de_goles_anotados_de_visitante": 2,
+									"partidos_ganados_de_visitante": 1,
 									"partidos_perdidos_de_visitante": 0,
-									"partidos_empatados_de_visitante": 1,
-									"partidos_con_goles_de_visitante": 0,
-									"porcentaje_de_puntos_ganados_de_visitante": "33.3%"
+									"partidos_empatados_de_visitante": 0,
+									"partidos_con_goles_de_visitante": 1,
+									"porcentaje_de_puntos_ganados_de_visitante": "100%"
 								}
 							}
 						],
@@ -19896,34 +19976,6 @@
 								"league": { "id": 257, "name": "US Open Cup" }
 							},
 							{
-								"id": "2024-07-07-houston-dynamo-los-angeles-fc",
-								"fullDate": "2024-07-07T17:30",
-								"date": "2024-07-07",
-								"hour": "17:30",
-								"teams": {
-									"home": {
-										"id": 1600,
-										"name": "Houston Dynamo",
-										"country": "🇺🇸",
-										"position": 8,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 1616,
-										"name": "Los Angeles FC",
-										"country": "🇺🇸",
-										"position": 2,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"played": true,
-								"league": { "id": 253, "name": "Major League Soccer" }
-							},
-							{
 								"id": "2024-07-04-los-angeles-galaxy-los-angeles-fc",
 								"fullDate": "2024-07-04T21:30",
 								"date": "2024-07-04",
@@ -19970,7 +20022,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -20129,7 +20181,7 @@
 										"id": 1608,
 										"name": "Atlanta United FC",
 										"country": "🇺🇸",
-										"position": 12,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -20222,7 +20274,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -20230,6 +20282,34 @@
 								},
 								"played": true,
 								"league": { "id": 253, "name": "Major League Soccer" }
+							},
+							{
+								"id": "2024-05-08-las-vegas-lights-los-angeles-fc",
+								"fullDate": "2024-05-08T21:30",
+								"date": "2024-05-08",
+								"hour": "21:30",
+								"teams": {
+									"home": {
+										"id": 3998,
+										"name": "Las Vegas Lights",
+										"country": "🇺🇸",
+										"position": null,
+										"featured": false,
+										"score": 1,
+										"winner": false
+									},
+									"away": {
+										"id": 1616,
+										"name": "Los Angeles FC",
+										"country": "🇺🇸",
+										"position": 2,
+										"featured": true,
+										"score": 3,
+										"winner": true
+									}
+								},
+								"played": true,
+								"league": { "id": 257, "name": "US Open Cup" }
 							}
 						]
 					}
@@ -20240,7 +20320,7 @@
 				"fullDate": "2024-07-20T21:45",
 				"date": "2024-07-20",
 				"hour": "21:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1605,
@@ -20248,6 +20328,8 @@
 						"country": "🇺🇸",
 						"position": 1,
 						"featured": true,
+						"score": 3,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -20342,7 +20424,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": "🇺🇸",
-										"position": 5,
+										"position": 4,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -20557,7 +20639,7 @@
 										"id": 1607,
 										"name": "Chicago Fire",
 										"country": "🇺🇸",
-										"position": 13,
+										"position": 14,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -20622,7 +20704,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -20725,7 +20807,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -20749,8 +20831,10 @@
 						"id": 1617,
 						"name": "Portland Timbers",
 						"country": "🇺🇸",
-						"position": 7,
+						"position": 8,
 						"featured": false,
+						"score": 2,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -20836,7 +20920,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -20864,7 +20948,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -20873,7 +20957,7 @@
 										"id": 9569,
 										"name": "Nashville SC",
 										"country": "🇺🇸",
-										"position": 10,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -20901,7 +20985,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -20920,7 +21004,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -20948,7 +21032,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -20957,7 +21041,7 @@
 										"id": 1603,
 										"name": "Vancouver Whitecaps",
 										"country": "🇺🇸",
-										"position": 4,
+										"position": 5,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -20985,7 +21069,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21013,7 +21097,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -21032,7 +21116,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -21041,7 +21125,7 @@
 										"id": 1600,
 										"name": "Houston Dynamo",
 										"country": "🇺🇸",
-										"position": 8,
+										"position": 6,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -21069,7 +21153,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21088,7 +21172,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21125,7 +21209,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -21144,7 +21228,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -21172,7 +21256,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -21181,7 +21265,7 @@
 										"id": 1595,
 										"name": "Seattle Sounders",
 										"country": "🇺🇸",
-										"position": 6,
+										"position": 7,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21209,7 +21293,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -21237,7 +21321,7 @@
 										"id": 1617,
 										"name": "Portland Timbers",
 										"country": "🇺🇸",
-										"position": 7,
+										"position": 8,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -21262,263 +21346,55 @@
 		"standings": [
 			[
 				{
-					"teamId": 1139,
-					"teamName": "Santa Fe",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1136,
-					"teamName": "Once Caldas",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1137,
-					"teamName": "Atletico Nacional",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1462,
-					"teamName": "Deportivo Pereira",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1138,
-					"teamName": "America de Cali",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 1 }
-					}
-				},
-				{
 					"teamId": 1131,
 					"teamName": "Bucaramanga",
-					"points": 3,
+					"points": 8,
 					"stats": {
 						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 1, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1129,
-					"teamName": "Envigado",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1142,
-					"teamName": "Deportes Tolima",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 4, "against": 3 }
 					}
 				},
 				{
 					"teamId": 1125,
 					"teamName": "Millonarios",
-					"points": 1,
+					"points": 8,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
+						"goalsDiff": 1,
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 6, "against": 5 }
 					}
 				},
 				{
-					"teamId": 1147,
-					"teamName": "Fortaleza FC",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1128,
-					"teamName": "Independiente Medellin",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1133,
-					"teamName": "Jaguares",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1140,
-					"teamName": "Patriotas",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1126,
-					"teamName": "Deportivo Pasto",
-					"points": 0,
+					"teamId": 1462,
+					"teamName": "Deportivo Pereira",
+					"points": 8,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1134,
-					"teamName": "La Equidad",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1132,
-					"teamName": "Chico",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 7, "against": 8 }
 					}
 				},
 				{
 					"teamId": 1135,
 					"teamName": "Junior",
-					"points": 0,
+					"points": 8,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1144,
-					"teamName": "Rionegro Aguilas",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
+						"played": 6,
+						"win": 2,
+						"draw": 2,
 						"lose": 2,
-						"goals": { "for": 1, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1141,
-					"teamName": "Alianza Petrolera",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1127,
-					"teamName": "Deportivo Cali",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 2 }
+						"goals": { "for": 5, "against": 6 }
 					}
 				}
 			]
@@ -21529,14 +21405,16 @@
 				"fullDate": "2024-07-20T16:00",
 				"date": "2024-07-20",
 				"hour": "16:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1129,
 						"name": "Envigado",
 						"country": "🇨🇴",
-						"position": 7,
+						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -21622,7 +21500,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21631,7 +21509,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -21650,7 +21528,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -21659,7 +21537,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -21687,7 +21565,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -21706,7 +21584,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21734,7 +21612,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -21743,7 +21621,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -21771,7 +21649,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -21790,7 +21668,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -21799,7 +21677,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -21818,7 +21696,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -21827,7 +21705,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -21846,7 +21724,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -21855,7 +21733,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -21874,7 +21752,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -21902,7 +21780,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -21911,7 +21789,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -21930,7 +21808,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -21939,7 +21817,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -21958,7 +21836,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -21967,7 +21845,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -21995,7 +21873,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -22014,7 +21892,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -22023,7 +21901,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -22038,8 +21916,10 @@
 						"id": 1139,
 						"name": "Santa Fe",
 						"country": "🇨🇴",
-						"position": 1,
+						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -22125,7 +22005,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -22134,7 +22014,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -22153,7 +22033,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": false
@@ -22162,7 +22042,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -22181,7 +22061,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22190,7 +22070,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -22209,7 +22089,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -22218,7 +22098,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -22237,7 +22117,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -22246,7 +22126,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -22265,7 +22145,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -22274,7 +22154,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -22293,7 +22173,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22302,8 +22182,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -22321,8 +22201,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -22330,7 +22210,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -22349,7 +22229,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -22358,7 +22238,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -22377,7 +22257,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -22386,7 +22266,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -22405,7 +22285,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22414,7 +22294,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -22433,7 +22313,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 12,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -22442,7 +22322,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -22461,7 +22341,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22489,7 +22369,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22498,7 +22378,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -22517,8 +22397,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									},
@@ -22526,7 +22406,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22544,14 +22424,16 @@
 				"fullDate": "2024-07-20T18:30",
 				"date": "2024-07-20",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1136,
 						"name": "Once Caldas",
 						"country": "🇨🇴",
-						"position": 2,
-						"featured": true,
+						"position": null,
+						"featured": false,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -22637,7 +22519,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -22646,8 +22528,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									}
@@ -22665,7 +22547,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -22674,8 +22556,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									}
@@ -22693,8 +22575,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									},
@@ -22702,7 +22584,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22721,7 +22603,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22730,8 +22612,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -22749,8 +22631,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -22758,7 +22640,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -22777,7 +22659,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -22786,8 +22668,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": null
 									}
@@ -22805,8 +22687,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									},
@@ -22814,7 +22696,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -22833,8 +22715,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -22842,7 +22724,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -22861,8 +22743,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									},
@@ -22870,7 +22752,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -22889,7 +22771,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22898,8 +22780,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -22917,8 +22799,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									},
@@ -22926,7 +22808,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -22945,7 +22827,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -22954,8 +22836,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -22973,7 +22855,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -22982,8 +22864,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": false
 									}
@@ -23001,8 +22883,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									},
@@ -23010,7 +22892,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -23029,7 +22911,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -23038,8 +22920,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									}
@@ -23053,8 +22935,10 @@
 						"id": 1144,
 						"name": "Rionegro Aguilas",
 						"country": "🇨🇴",
-						"position": 18,
+						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -23140,7 +23024,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -23149,7 +23033,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -23168,7 +23052,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -23177,7 +23061,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23196,7 +23080,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -23205,7 +23089,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -23224,7 +23108,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -23233,7 +23117,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -23252,7 +23136,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -23261,7 +23145,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -23280,7 +23164,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -23289,7 +23173,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23308,7 +23192,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -23317,7 +23201,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -23336,7 +23220,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23345,7 +23229,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -23364,7 +23248,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -23373,7 +23257,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -23392,7 +23276,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -23401,7 +23285,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23420,7 +23304,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -23429,7 +23313,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -23448,7 +23332,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -23457,7 +23341,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -23476,7 +23360,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23485,7 +23369,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -23504,7 +23388,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -23513,7 +23397,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23541,7 +23425,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -23568,40 +23452,40 @@
 				{
 					"teamId": 120,
 					"teamName": "Botafogo",
-					"points": 36,
+					"points": 39,
 					"stats": {
-						"goalsDiff": 14,
-						"played": 17,
-						"win": 11,
+						"goalsDiff": 15,
+						"played": 18,
+						"win": 12,
 						"draw": 3,
 						"lose": 3,
-						"goals": { "for": 28, "against": 14 }
+						"goals": { "for": 29, "against": 14 }
 					}
 				},
 				{
 					"teamId": 121,
 					"teamName": "Palmeiras",
-					"points": 33,
+					"points": 36,
 					"stats": {
-						"goalsDiff": 12,
-						"played": 17,
-						"win": 10,
+						"goalsDiff": 14,
+						"played": 18,
+						"win": 11,
 						"draw": 3,
 						"lose": 4,
-						"goals": { "for": 25, "against": 13 }
+						"goals": { "for": 27, "against": 13 }
 					}
 				},
 				{
 					"teamId": 127,
 					"teamName": "Flamengo",
-					"points": 31,
+					"points": 34,
 					"stats": {
-						"goalsDiff": 11,
-						"played": 16,
-						"win": 9,
+						"goalsDiff": 12,
+						"played": 17,
+						"win": 10,
 						"draw": 4,
 						"lose": 3,
-						"goals": { "for": 28, "against": 17 }
+						"goals": { "for": 30, "against": 18 }
 					}
 				},
 				{
@@ -23635,12 +23519,12 @@
 					"teamName": "Cruzeiro",
 					"points": 29,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 16,
+						"goalsDiff": 3,
+						"played": 17,
 						"win": 9,
 						"draw": 2,
-						"lose": 5,
-						"goals": { "for": 23, "against": 18 }
+						"lose": 6,
+						"goals": { "for": 23, "against": 20 }
 					}
 				},
 				{
@@ -23726,12 +23610,12 @@
 					"teamName": "Internacional",
 					"points": 19,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 13,
+						"goalsDiff": 0,
+						"played": 14,
 						"win": 5,
 						"draw": 4,
-						"lose": 4,
-						"goals": { "for": 12, "against": 11 }
+						"lose": 5,
+						"goals": { "for": 12, "against": 12 }
 					}
 				},
 				{
@@ -23739,12 +23623,12 @@
 					"teamName": "Criciuma",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 15,
+						"goalsDiff": -3,
+						"played": 16,
 						"win": 4,
 						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 22, "against": 24 }
+						"lose": 7,
+						"goals": { "for": 23, "against": 26 }
 					}
 				},
 				{
@@ -23833,7 +23717,7 @@
 				"fullDate": "2024-07-20T14:00",
 				"date": "2024-07-20",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 127,
@@ -23841,6 +23725,8 @@
 						"country": "🇧🇷",
 						"position": 3,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -24344,6 +24230,8 @@
 						"country": "🇧🇷",
 						"position": 14,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -24848,7 +24736,7 @@
 				"fullDate": "2024-07-20T16:30",
 				"date": "2024-07-20",
 				"hour": "16:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 120,
@@ -24856,6 +24744,8 @@
 						"country": "🇧🇷",
 						"position": 1,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -25359,6 +25249,8 @@
 						"country": "🇧🇷",
 						"position": 13,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -25863,7 +25755,7 @@
 				"fullDate": "2024-07-20T19:00",
 				"date": "2024-07-20",
 				"hour": "19:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 121,
@@ -25871,6 +25763,8 @@
 						"country": "🇧🇷",
 						"position": 2,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -26374,6 +26268,8 @@
 						"country": "🇧🇷",
 						"position": 6,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": [
 							{
 								"name": "Comportamiento general en los últimos 15 partidos",

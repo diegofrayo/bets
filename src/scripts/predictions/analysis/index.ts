@@ -123,7 +123,9 @@ export default async function main(config: T_AnalysisConfig) {
 					}
 				});
 
-				output.push(leagueData);
+				if (leagueData.matches.length > 0) {
+					output.push(leagueData);
+				}
 			} catch (error) {
 				console.log(error);
 			}

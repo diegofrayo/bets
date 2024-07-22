@@ -343,9 +343,8 @@ function getMatchPredictions({
 
 function getTeamStats(teamId: number, playedMatches: T_PlayedMatch[]): T_TeamStats {
 	const totalPlayedMatches = playedMatches.length;
-	const lastGames = 4;
-
-	const result = [
+	const lastGames = totalPlayedMatches > 4 ? 4 : totalPlayedMatches;
+	const output = [
 		{
 			name: `Comportamiento general en los últimos ${totalPlayedMatches} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "all" }),
@@ -372,7 +371,7 @@ function getTeamStats(teamId: number, playedMatches: T_PlayedMatch[]): T_TeamSta
 		},
 	];
 
-	return result as T_TeamStats;
+	return output;
 }
 
 function getLeagueById(leagueId: number | string) {

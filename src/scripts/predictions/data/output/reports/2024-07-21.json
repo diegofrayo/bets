@@ -1,252 +1,5 @@
 [
 	{
-		"id": 262,
-		"name": "Liga MX",
-		"type": "League",
-		"country": "Mexico",
-		"priority": 3,
-		"flag": "🇲🇽",
-		"standings": [
-			[
-				{
-					"teamId": 2279,
-					"teamName": "Tigres UANL",
-					"points": 10,
-					"stats": {
-						"goalsDiff": 5,
-						"played": 4,
-						"win": 3,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 6, "against": 1 }
-					}
-				},
-				{
-					"teamId": 2295,
-					"teamName": "Cruz Azul",
-					"points": 9,
-					"stats": {
-						"goalsDiff": 8,
-						"played": 3,
-						"win": 3,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 8, "against": 0 }
-					}
-				},
-				{
-					"teamId": 2282,
-					"teamName": "Monterrey",
-					"points": 9,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 4,
-						"win": 3,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 4, "against": 5 }
-					}
-				},
-				{
-					"teamId": 2283,
-					"teamName": "Atlas",
-					"points": 8,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 4,
-						"win": 2,
-						"draw": 2,
-						"lose": 0,
-						"goals": { "for": 6, "against": 4 }
-					}
-				},
-				{
-					"teamId": 2286,
-					"teamName": "U.N.A.M. - Pumas",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 4,
-						"played": 3,
-						"win": 2,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 7, "against": 3 }
-					}
-				},
-				{
-					"teamId": 2281,
-					"teamName": "Toluca",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 4,
-						"played": 3,
-						"win": 2,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 6, "against": 2 }
-					}
-				},
-				{
-					"teamId": 2278,
-					"teamName": "Guadalajara Chivas",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 4,
-						"win": 2,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 6, "against": 4 }
-					}
-				},
-				{
-					"teamId": 2280,
-					"teamName": "Club Tijuana",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 4,
-						"win": 2,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 7, "against": 7 }
-					}
-				},
-				{
-					"teamId": 2314,
-					"teamName": "Atletico San Luis",
-					"points": 5,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 4,
-						"win": 1,
-						"draw": 2,
-						"lose": 1,
-						"goals": { "for": 5, "against": 6 }
-					}
-				},
-				{
-					"teamId": 2292,
-					"teamName": "Pachuca",
-					"points": 4,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 3,
-						"win": 1,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 2, "against": 1 }
-					}
-				},
-				{
-					"teamId": 2291,
-					"teamName": "Puebla",
-					"points": 4,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 4,
-						"win": 1,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 5, "against": 8 }
-					}
-				},
-				{
-					"teamId": 2288,
-					"teamName": "Necaxa",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 4, "against": 3 }
-					}
-				},
-				{
-					"teamId": 2287,
-					"teamName": "Club America",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 4, "against": 4 }
-					}
-				},
-				{
-					"teamId": 2289,
-					"teamName": "Leon",
-					"points": 2,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 3,
-						"win": 0,
-						"draw": 2,
-						"lose": 1,
-						"goals": { "for": 3, "against": 6 }
-					}
-				},
-				{
-					"teamId": 2298,
-					"teamName": "FC Juarez",
-					"points": 1,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 3,
-						"win": 0,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 5, "against": 7 }
-					}
-				},
-				{
-					"teamId": 2285,
-					"teamName": "Santos Laguna",
-					"points": 1,
-					"stats": {
-						"goalsDiff": -5,
-						"played": 4,
-						"win": 0,
-						"draw": 1,
-						"lose": 3,
-						"goals": { "for": 1, "against": 6 }
-					}
-				},
-				{
-					"teamId": 14002,
-					"teamName": "Mazatlán",
-					"points": 1,
-					"stats": {
-						"goalsDiff": -6,
-						"played": 4,
-						"win": 0,
-						"draw": 1,
-						"lose": 3,
-						"goals": { "for": 2, "against": 8 }
-					}
-				},
-				{
-					"teamId": 2290,
-					"teamName": "Club Queretaro",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -6,
-						"played": 4,
-						"win": 0,
-						"draw": 0,
-						"lose": 4,
-						"goals": { "for": 3, "against": 9 }
-					}
-				}
-			]
-		],
-		"matches": []
-	},
-	{
 		"id": 128,
 		"name": "Liga Profesional Argentina",
 		"type": "League",
@@ -255,6 +8,32 @@
 		"flag": "🇦🇷",
 		"standings": [
 			[
+				{
+					"teamId": 445,
+					"teamName": "Huracan",
+					"points": 14,
+					"stats": {
+						"goalsDiff": 6,
+						"played": 6,
+						"win": 4,
+						"draw": 2,
+						"lose": 0,
+						"goals": { "for": 9, "against": 3 }
+					}
+				},
+				{
+					"teamId": 436,
+					"teamName": "Racing Club",
+					"points": 13,
+					"stats": {
+						"goalsDiff": 9,
+						"played": 6,
+						"win": 4,
+						"draw": 1,
+						"lose": 1,
+						"goals": { "for": 15, "against": 6 }
+					}
+				},
 				{
 					"teamId": 456,
 					"teamName": "Talleres Cordoba",
@@ -266,19 +45,6 @@
 						"draw": 1,
 						"lose": 0,
 						"goals": { "for": 11, "against": 4 }
-					}
-				},
-				{
-					"teamId": 445,
-					"teamName": "Huracan",
-					"points": 13,
-					"stats": {
-						"goalsDiff": 6,
-						"played": 5,
-						"win": 4,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 8, "against": 2 }
 					}
 				},
 				{
@@ -321,19 +87,6 @@
 					}
 				},
 				{
-					"teamId": 436,
-					"teamName": "Racing Club",
-					"points": 10,
-					"stats": {
-						"goalsDiff": 6,
-						"played": 5,
-						"win": 3,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 12, "against": 6 }
-					}
-				},
-				{
 					"teamId": 434,
 					"teamName": "Gimnasia L.P.",
 					"points": 10,
@@ -370,6 +123,19 @@
 						"draw": 0,
 						"lose": 2,
 						"goals": { "for": 9, "against": 4 }
+					}
+				},
+				{
+					"teamId": 437,
+					"teamName": "Rosario Central",
+					"points": 9,
+					"stats": {
+						"goalsDiff": 3,
+						"played": 6,
+						"win": 2,
+						"draw": 3,
+						"lose": 1,
+						"goals": { "for": 11, "against": 8 }
 					}
 				},
 				{
@@ -425,19 +191,6 @@
 					}
 				},
 				{
-					"teamId": 474,
-					"teamName": "Sarmiento Junin",
-					"points": 7,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 5,
-						"win": 2,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 5, "against": 4 }
-					}
-				},
-				{
 					"teamId": 450,
 					"teamName": "Estudiantes L.P.",
 					"points": 7,
@@ -451,29 +204,29 @@
 					}
 				},
 				{
-					"teamId": 437,
-					"teamName": "Rosario Central",
-					"points": 6,
+					"teamId": 474,
+					"teamName": "Sarmiento Junin",
+					"points": 7,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 5,
-						"win": 1,
-						"draw": 3,
-						"lose": 1,
-						"goals": { "for": 7, "against": 6 }
+						"goalsDiff": -1,
+						"played": 6,
+						"win": 2,
+						"draw": 1,
+						"lose": 3,
+						"goals": { "for": 7, "against": 8 }
 					}
 				},
 				{
 					"teamId": 455,
 					"teamName": "Atletico Tucuman",
-					"points": 6,
+					"points": 7,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 5,
+						"played": 6,
 						"win": 1,
-						"draw": 3,
+						"draw": 4,
 						"lose": 1,
-						"goals": { "for": 4, "against": 5 }
+						"goals": { "for": 5, "against": 6 }
 					}
 				},
 				{
@@ -529,6 +282,19 @@
 					}
 				},
 				{
+					"teamId": 449,
+					"teamName": "Banfield",
+					"points": 5,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 6,
+						"win": 1,
+						"draw": 2,
+						"lose": 3,
+						"goals": { "for": 5, "against": 8 }
+					}
+				},
+				{
 					"teamId": 452,
 					"teamName": "Tigre",
 					"points": 5,
@@ -539,19 +305,6 @@
 						"draw": 2,
 						"lose": 3,
 						"goals": { "for": 5, "against": 10 }
-					}
-				},
-				{
-					"teamId": 449,
-					"teamName": "Banfield",
-					"points": 4,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 5,
-						"win": 1,
-						"draw": 1,
-						"lose": 3,
-						"goals": { "for": 4, "against": 7 }
 					}
 				},
 				{
@@ -583,14 +336,14 @@
 				{
 					"teamId": 460,
 					"teamName": "San Lorenzo",
-					"points": 1,
+					"points": 2,
 					"stats": {
 						"goalsDiff": -3,
-						"played": 4,
+						"played": 5,
 						"win": 0,
-						"draw": 1,
+						"draw": 2,
 						"lose": 3,
-						"goals": { "for": 2, "against": 5 }
+						"goals": { "for": 3, "against": 6 }
 					}
 				},
 				{
@@ -598,12 +351,12 @@
 					"teamName": "Godoy Cruz",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 4,
+						"goalsDiff": -4,
+						"played": 5,
 						"win": 0,
 						"draw": 3,
-						"lose": 1,
-						"goals": { "for": 2, "against": 3 }
+						"lose": 2,
+						"goals": { "for": 2, "against": 6 }
 					}
 				},
 				{
@@ -841,7 +594,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -888,7 +641,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -953,7 +706,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1093,7 +846,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -1112,7 +865,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -1136,7 +889,7 @@
 						"id": 446,
 						"name": "Lanus",
 						"country": "🇦🇷",
-						"position": 12,
+						"position": 13,
 						"featured": false,
 						"stats": [
 							{
@@ -1223,7 +976,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1232,7 +985,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1251,7 +1004,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1260,7 +1013,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1279,7 +1032,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1307,7 +1060,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1344,7 +1097,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1363,7 +1116,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -1391,7 +1144,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1428,7 +1181,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1456,7 +1209,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1475,7 +1228,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1503,7 +1256,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1531,7 +1284,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1540,7 +1293,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1568,7 +1321,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1587,7 +1340,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -1596,7 +1349,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -1615,7 +1368,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1624,7 +1377,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -1763,7 +1516,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1800,7 +1553,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1819,7 +1572,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1856,7 +1609,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1996,7 +1749,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -2015,7 +1768,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -2052,7 +1805,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -2071,7 +1824,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2099,7 +1852,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -2238,7 +1991,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -2275,7 +2028,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": true
@@ -2303,7 +2056,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2378,7 +2131,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2406,7 +2159,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2443,7 +2196,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2518,7 +2271,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2611,7 +2364,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 6,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -2630,7 +2383,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -2778,7 +2531,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2890,7 +2643,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2946,7 +2699,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3039,7 +2792,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3114,7 +2867,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3151,7 +2904,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -3166,7 +2919,7 @@
 						"id": 441,
 						"name": "Union Santa Fe",
 						"country": "🇦🇷",
-						"position": 4,
+						"position": 5,
 						"featured": true,
 						"stats": [
 							{
@@ -3253,7 +3006,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3290,7 +3043,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3309,7 +3062,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3337,7 +3090,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -3346,7 +3099,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -3365,7 +3118,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3374,7 +3127,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3393,7 +3146,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3421,7 +3174,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 22,
+										"position": 23,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3430,7 +3183,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3449,7 +3202,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3458,7 +3211,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3477,7 +3230,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -3486,7 +3239,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -3505,7 +3258,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -3542,7 +3295,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3561,7 +3314,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3570,7 +3323,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -3589,7 +3342,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -3598,7 +3351,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3617,7 +3370,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -3645,7 +3398,7 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -3765,7 +3518,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -3886,7 +3639,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3961,7 +3714,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4054,7 +3807,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4073,7 +3826,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4110,7 +3863,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4129,7 +3882,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 22,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4166,7 +3919,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4181,7 +3934,7 @@
 						"id": 456,
 						"name": "Talleres Cordoba",
 						"country": "🇦🇷",
-						"position": 1,
+						"position": 3,
 						"featured": true,
 						"stats": [
 							{
@@ -4268,7 +4021,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4305,7 +4058,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4333,7 +4086,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4352,7 +4105,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4380,7 +4133,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4417,7 +4170,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -4445,7 +4198,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4464,7 +4217,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -4473,7 +4226,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -4492,7 +4245,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4520,7 +4273,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -4557,7 +4310,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4576,7 +4329,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4613,7 +4366,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4641,7 +4394,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -4669,7 +4422,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -4864,7 +4617,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4948,7 +4701,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": "🇦🇷",
-										"position": 2,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5032,7 +4785,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -5069,7 +4822,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5196,7 +4949,7 @@
 						"id": 451,
 						"name": "Boca Juniors",
 						"country": "🇦🇷",
-						"position": 13,
+						"position": 14,
 						"featured": true,
 						"stats": [
 							{
@@ -5292,7 +5045,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5311,7 +5064,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5339,7 +5092,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5376,7 +5129,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5395,7 +5148,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5423,7 +5176,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5432,7 +5185,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 1,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5460,7 +5213,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5479,7 +5232,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5516,7 +5269,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5544,7 +5297,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5572,7 +5325,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5600,7 +5353,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -5628,7 +5381,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5647,7 +5400,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5684,7 +5437,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 14,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5709,263 +5462,55 @@
 		"standings": [
 			[
 				{
-					"teamId": 1139,
-					"teamName": "Santa Fe",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1136,
-					"teamName": "Once Caldas",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1137,
-					"teamName": "Atletico Nacional",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1462,
-					"teamName": "Deportivo Pereira",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1138,
-					"teamName": "America de Cali",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 1 }
-					}
-				},
-				{
 					"teamId": 1131,
 					"teamName": "Bucaramanga",
-					"points": 3,
+					"points": 8,
 					"stats": {
 						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 1, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1129,
-					"teamName": "Envigado",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1142,
-					"teamName": "Deportes Tolima",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 4, "against": 3 }
 					}
 				},
 				{
 					"teamId": 1125,
 					"teamName": "Millonarios",
-					"points": 1,
+					"points": 8,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
+						"goalsDiff": 1,
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 6, "against": 5 }
 					}
 				},
 				{
-					"teamId": 1147,
-					"teamName": "Fortaleza FC",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1128,
-					"teamName": "Independiente Medellin",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1133,
-					"teamName": "Jaguares",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1140,
-					"teamName": "Patriotas",
-					"points": 1,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1126,
-					"teamName": "Deportivo Pasto",
-					"points": 0,
+					"teamId": 1462,
+					"teamName": "Deportivo Pereira",
+					"points": 8,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1134,
-					"teamName": "La Equidad",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1132,
-					"teamName": "Chico",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
+						"played": 6,
+						"win": 2,
+						"draw": 2,
+						"lose": 2,
+						"goals": { "for": 7, "against": 8 }
 					}
 				},
 				{
 					"teamId": 1135,
 					"teamName": "Junior",
-					"points": 0,
+					"points": 8,
 					"stats": {
 						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1144,
-					"teamName": "Rionegro Aguilas",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
+						"played": 6,
+						"win": 2,
+						"draw": 2,
 						"lose": 2,
-						"goals": { "for": 1, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1141,
-					"teamName": "Alianza Petrolera",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1127,
-					"teamName": "Deportivo Cali",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 2 }
+						"goals": { "for": 5, "against": 6 }
 					}
 				}
 			]
@@ -5982,7 +5527,7 @@
 						"id": 1125,
 						"name": "Millonarios",
 						"country": "🇨🇴",
-						"position": 9,
+						"position": 2,
 						"featured": true,
 						"stats": [
 							{
@@ -6069,7 +5614,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6078,7 +5623,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6106,7 +5651,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6125,7 +5670,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6134,7 +5679,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6162,7 +5707,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6181,7 +5726,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -6190,7 +5735,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -6209,7 +5754,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6218,7 +5763,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6237,7 +5782,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6246,7 +5791,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6265,7 +5810,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6293,7 +5838,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6302,7 +5847,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6321,7 +5866,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6349,7 +5894,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6358,7 +5903,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -6377,7 +5922,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6386,7 +5931,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6414,7 +5959,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -6433,7 +5978,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -6442,7 +5987,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6461,7 +6006,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6470,7 +6015,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -6485,7 +6030,7 @@
 						"id": 1131,
 						"name": "Bucaramanga",
 						"country": "🇨🇴",
-						"position": 6,
+						"position": 1,
 						"featured": true,
 						"stats": [
 							{
@@ -6572,7 +6117,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6581,7 +6126,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6600,7 +6145,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": false
@@ -6609,7 +6154,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6628,7 +6173,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6637,7 +6182,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6656,7 +6201,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6665,7 +6210,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -6684,7 +6229,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6693,7 +6238,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6712,7 +6257,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6721,7 +6266,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6740,7 +6285,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6749,7 +6294,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6768,7 +6313,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6777,7 +6322,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6796,7 +6341,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6805,7 +6350,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -6824,7 +6369,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6833,7 +6378,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -6852,7 +6397,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6861,7 +6406,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -6880,7 +6425,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6889,7 +6434,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6908,7 +6453,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 13,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6917,7 +6462,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -6936,7 +6481,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6945,7 +6490,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -6964,7 +6509,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -6973,7 +6518,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -6997,7 +6542,7 @@
 						"id": 1137,
 						"name": "Atletico Nacional",
 						"country": "🇨🇴",
-						"position": 3,
+						"position": null,
 						"featured": true,
 						"stats": [
 							{
@@ -7084,7 +6629,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7093,7 +6638,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7112,7 +6657,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7149,7 +6694,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -7168,7 +6713,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -7177,7 +6722,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -7196,7 +6741,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -7205,7 +6750,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7224,7 +6769,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -7233,7 +6778,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -7252,7 +6797,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -7261,7 +6806,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -7280,7 +6825,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7289,7 +6834,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7308,7 +6853,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7317,7 +6862,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -7336,7 +6881,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7345,7 +6890,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -7364,7 +6909,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7373,7 +6918,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 12,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7392,7 +6937,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -7401,7 +6946,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7420,7 +6965,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -7429,7 +6974,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7448,7 +6993,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7457,7 +7002,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7476,7 +7021,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7485,7 +7030,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7500,7 +7045,7 @@
 						"id": 1138,
 						"name": "America de Cali",
 						"country": "🇨🇴",
-						"position": 5,
+						"position": null,
 						"featured": true,
 						"stats": [
 							{
@@ -7587,7 +7132,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -7596,7 +7141,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7624,7 +7169,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -7652,7 +7197,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7671,8 +7216,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -7680,7 +7225,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7699,7 +7244,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -7708,7 +7253,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -7727,7 +7272,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7736,7 +7281,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -7755,7 +7300,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -7764,7 +7309,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -7783,7 +7328,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -7792,7 +7337,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7811,7 +7356,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7820,7 +7365,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -7839,7 +7384,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -7848,7 +7393,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -7867,7 +7412,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -7876,7 +7421,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -7895,7 +7440,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7904,7 +7449,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -7923,7 +7468,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -7932,7 +7477,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -7951,7 +7496,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -7960,7 +7505,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -7979,7 +7524,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 12,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -7988,7 +7533,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -8012,7 +7557,7 @@
 						"id": 1135,
 						"name": "Junior",
 						"country": "🇨🇴",
-						"position": 17,
+						"position": 4,
 						"featured": true,
 						"stats": [
 							{
@@ -8099,7 +7644,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -8108,7 +7653,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -8127,7 +7672,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -8136,7 +7681,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -8155,7 +7700,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -8183,7 +7728,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -8192,7 +7737,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -8211,7 +7756,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -8220,7 +7765,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -8239,7 +7784,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -8248,7 +7793,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
+										"position": 3,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -8276,7 +7821,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -8295,7 +7840,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -8304,7 +7849,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -8332,7 +7877,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -8351,7 +7896,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -8360,7 +7905,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -8379,7 +7924,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -8388,7 +7933,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -8407,7 +7952,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -8435,7 +7980,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -8444,8 +7989,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -8463,7 +8008,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -8472,7 +8017,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -8491,7 +8036,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": 4,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -8500,7 +8045,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 7,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8515,7 +8060,7 @@
 						"id": 1132,
 						"name": "Chico",
 						"country": "🇨🇴",
-						"position": 16,
+						"position": null,
 						"featured": false,
 						"stats": [
 							{
@@ -8602,7 +8147,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -8611,8 +8156,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 2,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									}
@@ -8630,7 +8175,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -8639,7 +8184,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -8658,7 +8203,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": 2,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -8667,7 +8212,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -8686,7 +8231,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8695,7 +8240,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -8714,7 +8259,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": 1,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -8723,7 +8268,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -8742,7 +8287,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8751,7 +8296,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": "🇨🇴",
-										"position": 13,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -8770,7 +8315,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 15,
+										"position": null,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -8779,7 +8324,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -8798,7 +8343,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -8807,7 +8352,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": "🇨🇴",
-										"position": 12,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -8826,7 +8371,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 5,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -8835,7 +8380,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -8854,7 +8399,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -8863,7 +8408,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 3,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -8882,7 +8427,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -8891,7 +8436,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8910,7 +8455,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8919,7 +8464,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -8938,7 +8483,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -8947,7 +8492,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -8966,7 +8511,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8975,7 +8520,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -8994,7 +8539,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 16,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -9003,7 +8548,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -9030,40 +8575,40 @@
 				{
 					"teamId": 120,
 					"teamName": "Botafogo",
-					"points": 36,
+					"points": 39,
 					"stats": {
-						"goalsDiff": 14,
-						"played": 17,
-						"win": 11,
+						"goalsDiff": 15,
+						"played": 18,
+						"win": 12,
 						"draw": 3,
 						"lose": 3,
-						"goals": { "for": 28, "against": 14 }
+						"goals": { "for": 29, "against": 14 }
 					}
 				},
 				{
 					"teamId": 121,
 					"teamName": "Palmeiras",
-					"points": 33,
+					"points": 36,
 					"stats": {
-						"goalsDiff": 12,
-						"played": 17,
-						"win": 10,
+						"goalsDiff": 14,
+						"played": 18,
+						"win": 11,
 						"draw": 3,
 						"lose": 4,
-						"goals": { "for": 25, "against": 13 }
+						"goals": { "for": 27, "against": 13 }
 					}
 				},
 				{
 					"teamId": 127,
 					"teamName": "Flamengo",
-					"points": 31,
+					"points": 34,
 					"stats": {
-						"goalsDiff": 11,
-						"played": 16,
-						"win": 9,
+						"goalsDiff": 12,
+						"played": 17,
+						"win": 10,
 						"draw": 4,
 						"lose": 3,
-						"goals": { "for": 28, "against": 17 }
+						"goals": { "for": 30, "against": 18 }
 					}
 				},
 				{
@@ -9097,12 +8642,12 @@
 					"teamName": "Cruzeiro",
 					"points": 29,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 16,
+						"goalsDiff": 3,
+						"played": 17,
 						"win": 9,
 						"draw": 2,
-						"lose": 5,
-						"goals": { "for": 23, "against": 18 }
+						"lose": 6,
+						"goals": { "for": 23, "against": 20 }
 					}
 				},
 				{
@@ -9188,12 +8733,12 @@
 					"teamName": "Internacional",
 					"points": 19,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 13,
+						"goalsDiff": 0,
+						"played": 14,
 						"win": 5,
 						"draw": 4,
-						"lose": 4,
-						"goals": { "for": 12, "against": 11 }
+						"lose": 5,
+						"goals": { "for": 12, "against": 12 }
 					}
 				},
 				{
@@ -9201,12 +8746,12 @@
 					"teamName": "Criciuma",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 15,
+						"goalsDiff": -3,
+						"played": 16,
 						"win": 4,
 						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 22, "against": 24 }
+						"lose": 7,
+						"goals": { "for": 23, "against": 26 }
 					}
 				},
 				{
