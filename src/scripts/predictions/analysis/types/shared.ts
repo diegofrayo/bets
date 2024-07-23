@@ -1,7 +1,7 @@
 export type T_DayOfMatches = Array<
 	Omit<T_League, "enabled" | "season"> & {
 		standings: T_LeagueStandings;
-		matches: T_FixtureMatch[];
+		matches: Array<T_FixtureMatch>;
 	}
 >;
 
@@ -66,14 +66,14 @@ export type T_FixtureNextMatch = T_Match & {
 	teams: {
 		home: T_NextMatchTeam & {
 			stats: T_TeamStats;
-			matches: T_PlayedMatch[];
+			matches: Array<T_PlayedMatch>;
 		};
 		away: T_NextMatchTeam & {
 			stats: T_TeamStats;
-			matches: T_PlayedMatch[];
+			matches: Array<T_PlayedMatch>;
 		};
 	};
-	// predictions?: T_NextMatchPrediction[];
+	predictions: Array<T_NextMatchMarketPrediction>;
 };
 
 export type T_FixturePlayedMatch = T_Match & {
@@ -81,14 +81,14 @@ export type T_FixturePlayedMatch = T_Match & {
 	teams: {
 		home: T_PlayedMatchTeam & {
 			stats: T_TeamStats;
-			matches: T_PlayedMatch[];
+			matches: Array<T_PlayedMatch>;
 		};
 		away: T_PlayedMatchTeam & {
 			stats: T_TeamStats;
-			matches: T_PlayedMatch[];
+			matches: Array<T_PlayedMatch>;
 		};
 	};
-	// predictions?: T_PlayedMatchPrediction[];
+	predictions: Array<T_PlayedMatchMarketPrediction>;
 };
 
 export type T_PlayedMatch = T_Match & {
@@ -105,36 +105,29 @@ export type T_TeamStats = Array<{
 	items: Record<string, string | number>;
 }>;
 
-/*
-export type T_Prediction = T_NextMatchPrediction | T_PlayedMatchPrediction;
-
-export type T_NextMatchPrediction = {
+export type T_MarketPrediction = {
 	id: string;
 	name: string;
-	recommendable: boolean;
-	acceptanceCriteria: () => boolean;
+	shortName: string;
+	trustLevel: "HIGH" | "MEDIUM" | "LOW";
 	criteria: Array<{
-		id: string;
-		name: string;
-		weight: number;
-		recommendable: boolean;
-		acceptancePercentage: number;
-		criteria: Array<{
-			enabled: boolean;
+		description: string;
+		fulfilled: boolean;
+		items: Array<{
+			fulfilled: boolean;
 			description: string;
-			weight: number;
-			check: string;
+			explanation: string;
 		}>;
 	}>;
-	warnings: {
-		description: string;
-	}[];
 };
 
-export type T_PlayedMatchPrediction = T_NextMatchPrediction & {
-	right: boolean;
-	lostRight: boolean;
-	fail: boolean;
-	skippedFail: boolean;
+export type T_NextMatchMarketPrediction = T_MarketPrediction;
+
+export type T_PlayedMatchMarketPrediction = T_MarketPrediction & {
+	results: {
+		right: boolean;
+		lostRight: boolean;
+		fail: boolean;
+		skippedFail: boolean;
+	};
 };
-*/

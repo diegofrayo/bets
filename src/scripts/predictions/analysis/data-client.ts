@@ -7,6 +7,7 @@ import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
 import LEAGUES from "../data/util/leagues.json";
+import TEAMS from "../data/util/teams.json";
 import APIClient from "./api-client";
 import type {
 	T_FixtureMatch,
@@ -22,13 +23,8 @@ import type {
 	T_TeamStats,
 } from "./types";
 import { formatCode } from "./utils";
-import { checkIsTeamFeatured, getTeamById } from "./markets/utils";
-
-// import TEAMS from "../data/util/teams.json";
-// import doubleOpportunityAnalysis from "./markets/double-opportunity";
-// import homeTeamScoresAnalysis from "./markets/home-team-scores";
-// import awayTeamScoresAnalysis from "./markets/away-team-scores";
-// import goalsInMatchAnalysis from "./markets/goals-in-match";
+import doubleOpportunityAnalysis from "./markets/double-opportunity";
+import goalByHomeTeamAnalysis from "./markets/goal-by-home-team";
 
 // --- API ---
 
@@ -40,7 +36,7 @@ async function fetchFixtureMatches({
 	league: T_League;
 	requestConfig: T_RequestConfig;
 	leagueStandings: T_LeagueStandings;
-}): Promise<T_FixtureMatch[]> {
+}): Promise<Array<T_FixtureMatch>> {
 	let rawResponse;
 
 	if (requestConfig.fetchFromAPI.FIXTURE_MATCHES) {
@@ -86,7 +82,7 @@ async function fetchPlayedMatches({
 	league: T_League;
 	requestConfig: T_RequestConfig;
 	leagueStandings: T_LeagueStandings;
-}): Promise<T_PlayedMatch[]> {
+}): Promise<Array<T_PlayedMatch>> {
 	let rawResponse;
 
 	if (requestConfig.fetchFromAPI.PLAYED_MATCHES) {
@@ -291,34 +287,37 @@ async function updateLeaguesStandings(leagues: Array<Pick<T_League, "id" | "seas
 	});
 }
 
-/*
-function getMatchPredictions({
-	match,
-	homeTeam,
-	awayTeam,
-	homeTeamPlayedMatches,
-	homeTeamStats,
-	awayTeamStats,
-	leagueStandings,
-}: {
-	match: T_FixtureMatch;
-	homeTeam: T_Team;
-	awayTeam: T_Team;
-	homeTeamPlayedMatches: T_PlayedMatch[];
-	homeTeamStats: T_TeamStats;
-	awayTeamStats: T_TeamStats;
-	leagueStandings: T_LeagueStandings;
-}): T_Prediction[] {
+function getMatchPredictions() {
+	// {
+	// 	// match,
+	// 	// homeTeam,
+	// 	// awayTeam,
+	// 	// homeTeamPlayedMatches,
+	// 	// homeTeamStats,
+	// 	// awayTeamStats,
+	// 	// leagueStandings,
+	// }: {
+	// 	// match: T_FixtureMatch;
+	// 	// homeTeam: T_Team;
+	// 	// awayTeam: T_Team;
+	// 	// homeTeamPlayedMatches: Array<T_PlayedMatch>;
+	// 	// homeTeamStats: T_TeamStats;
+	// 	// awayTeamStats: T_TeamStats;
+	// 	// leagueStandings: T_LeagueStandings;
+	// },
+
 	return [
-		doubleOpportunityAnalysis({
-			match,
-			homeTeam,
-			awayTeam,
-			homeTeamStats,
-			awayTeamStats,
-			leagueStandings,
-			homeTeamPlayedMatches,
-		}),
+		doubleOpportunityAnalysis(),
+		goalByHomeTeamAnalysis(),
+		//   {
+		// 	// match,
+		// 	// homeTeam,
+		// 	// awayTeam,
+		// 	// homeTeamStats,
+		// 	// awayTeamStats,
+		// 	// leagueStandings,
+		// 	// homeTeamPlayedMatches,
+		// }
 		// homeTeamScoresAnalysis({
 		// 	match,
 		// 	homeTeam,
@@ -348,9 +347,8 @@ function getMatchPredictions({
 		// }),
 	];
 }
-*/
 
-function getTeamStats(teamId: number, playedMatches: T_PlayedMatch[]): T_TeamStats {
+function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_TeamStats {
 	const totalPlayedMatches = playedMatches.length;
 	const lastGames = totalPlayedMatches > 4 ? 4 : totalPlayedMatches;
 	const output = [
@@ -404,7 +402,7 @@ const DataClient = {
 	updateTeamsFile,
 	updateLeaguesFixtures,
 	updateLeaguesStandings,
-	// getMatchPredictions,
+	getMatchPredictions,
 	getTeamStats,
 	getLeagueById,
 	getLeaguesByDate,
@@ -431,7 +429,7 @@ function parsePlayedMatchesResponse(
 	date: string,
 	leagueStandings: T_LeagueStandings,
 	league: T_League,
-): T_PlayedMatch[] {
+): Array<T_PlayedMatch> {
 	const result = data.response
 		.map((item) => parseMatchItem("PLAYED_MATCH", item, leagueStandings, league))
 		.sort(sortBy("-date"))
@@ -497,7 +495,6 @@ function parseMatchItem(
 	};
 
 	// TODO: Try to remove the next as cast. Some properties are required in the type definition and I don't set them in the next object, even so, TypeScript does not launch an error and I expect it
-
 	if (variant === "PLAYED_MATCH") {
 		return {
 			...matchBaseData,
@@ -541,6 +538,7 @@ function parseMatchItem(
 					matches: [],
 				},
 			},
+			predictions: [],
 		} as T_FixturePlayedMatch;
 	}
 
@@ -559,6 +557,7 @@ function parseMatchItem(
 				matches: [],
 			},
 		},
+		predictions: [],
 	} as T_FixtureNextMatch;
 }
 
@@ -656,27 +655,6 @@ function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
 	return teamPosition + 1;
 }
 
-/*
-function getTeamPositionStats(teamId: number, leagueStandings: T_LeagueStandings) {
-	const teamPositionStats = leagueStandings.reduce(
-		(result: T_LeagueStandings[number][number] | undefined, item) => {
-			if (result) {
-				return result;
-			}
-
-			const subItemFound = item.find((subItem) => {
-				return subItem.teamId === teamId;
-			});
-
-			return subItemFound;
-		},
-		undefined,
-	);
-
-	return teamPositionStats;
-}
-*/
-
 function filterTeamPlayedMatches({
 	teamId,
 	playedMatches,
@@ -684,7 +662,7 @@ function filterTeamPlayedMatches({
 	lastGames,
 }: {
 	teamId: T_Team["id"];
-	playedMatches: T_PlayedMatch[];
+	playedMatches: Array<T_PlayedMatch>;
 	side: "home" | "away" | "all";
 	lastGames: number | undefined;
 }) {
@@ -710,7 +688,7 @@ function calculateTeamStats({
 	lastGames,
 }: {
 	teamId: T_Team["id"];
-	playedMatches: T_PlayedMatch[];
+	playedMatches: Array<T_PlayedMatch>;
 	side: "home" | "away" | "all";
 	lastGames?: number;
 }) {
@@ -818,4 +796,18 @@ function calculateTeamStats({
 			[`${key}`]: key.includes("porcentaje") ? `${value}%` : value,
 		};
 	}, {});
+}
+
+function checkIsTeamFeatured(
+	team: { id: number; name: string },
+	leagueStandings: T_LeagueStandings,
+) {
+	return (
+		getTeamById(team.id)?.featured === true ||
+		(getTeamPosition(team.id, leagueStandings) || 100) <= (leagueStandings.length === 1 ? 6 : 2)
+	);
+}
+
+function getTeamById(teamId: number) {
+	return TEAMS[String(teamId) as keyof typeof TEAMS];
 }

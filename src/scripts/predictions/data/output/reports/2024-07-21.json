@@ -1392,7 +1392,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-central-cordoba-de-santiago-platense",
@@ -2411,7 +2525,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-estudiantes-lp-union-santa-fe",
@@ -3430,7 +3658,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-velez-sarsfield-talleres-cordoba",
@@ -4449,7 +4791,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-defensa-y-justicia-boca-juniors",
@@ -5468,7 +5924,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			}
 		]
 	},
@@ -6498,7 +7068,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-atletico-nacional-america-de-cali",
@@ -7517,7 +8201,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-junior-chico",
@@ -8536,7 +9334,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			}
 		]
 	},
@@ -9829,7 +10741,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-atletico-mg-vasco-da-gama",
@@ -10848,7 +11874,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-bahia-corinthians",
@@ -11867,7 +13007,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-rb-bragantino-atletico-paranaense",
@@ -12886,7 +14140,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-fortaleza-ec-atletico-goianiense",
@@ -13905,7 +15273,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-juventude-sao-paulo",
@@ -14924,7 +16406,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			},
 			{
 				"id": "2024-07-21-cuiaba-fluminense",
@@ -15943,7 +17539,121 @@
 							}
 						]
 					}
-				}
+				},
+				"predictions": [
+					{
+						"id": "doble-oportunidad",
+						"name": "Doble Oportunidad",
+						"shortName": "DO",
+						"trustLevel": "HIGH",
+						"criteria": [
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					},
+					{
+						"id": "gol-equipo-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"trustLevel": "MEDIUM",
+						"criteria": [
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 1",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local tiene un promedio de goles alto",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante tiene un promedio de goles alto",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": false,
+								"description": "Subcriterios 2",
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El equipo local es destacado",
+										"explanation": "Jajajajaja"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante es debil",
+										"explanation": "successExplanation"
+									}
+								]
+							},
+							{
+								"fulfilled": true,
+								"description": "Subcriterios 3",
+								"items": [
+									{
+										"fulfilled": true,
+										"description": "El equipo local hace muchos goles en partidos como local",
+										"explanation": "successExplanation"
+									},
+									{
+										"fulfilled": true,
+										"description": "El equipo visitante recibe muchos goles en partidos como visitante",
+										"explanation": "successExplanation"
+									}
+								]
+							}
+						]
+					}
+				]
 			}
 		]
 	}

@@ -7,7 +7,14 @@ import { asyncLoop } from "../../../@diegofrayo/utils/misc";
 import APIClient from "./api-client";
 import DataClient from "./data-client";
 import { formatCode, formatDate } from "./utils";
-import type { T_DayOfMatches, T_League, T_NextMatchTeam, T_PlayedMatchTeam } from "./types";
+import type {
+	T_DayOfMatches,
+	T_League,
+	T_NextMatchMarketPrediction,
+	T_NextMatchTeam,
+	T_PlayedMatchMarketPrediction,
+	T_PlayedMatchTeam,
+} from "./types";
 
 export default async function main(config: T_AnalysisConfig) {
 	await APIClient.calculateUsageStats();
@@ -71,7 +78,8 @@ export default async function main(config: T_AnalysisConfig) {
 						});
 						const homeTeamStats = DataClient.getTeamStats(homeTeam.id, homeTeamPlayedMatches);
 						const awayTeamStats = DataClient.getTeamStats(awayTeam.id, awayTeamPlayedMatches);
-						// const predictions = DataClient.getMatchPredictions({
+						const predictions = DataClient.getMatchPredictions();
+						// {
 						// 	match: fixtureMatch,
 						// 	homeTeam,
 						// 	awayTeam,
@@ -101,7 +109,7 @@ export default async function main(config: T_AnalysisConfig) {
 										matches: awayTeamPlayedMatches,
 									},
 								},
-								// predictions: predictions as T_PlayedMatchPrediction[],
+								predictions: predictions as Array<T_PlayedMatchMarketPrediction>,
 							});
 						} else {
 							leagueData.matches.push({
@@ -122,7 +130,7 @@ export default async function main(config: T_AnalysisConfig) {
 										matches: awayTeamPlayedMatches,
 									},
 								},
-								// predictions: predictions as T_NextMatchPrediction[],
+								predictions: predictions as Array<T_NextMatchMarketPrediction>,
 							});
 						}
 					} catch (error) {
@@ -265,17 +273,17 @@ function generateDates(
 			: [
 					baseDate,
 					baseDate.subtract(1, "day"),
-					baseDate.subtract(2, "day"),
-					baseDate.subtract(3, "day"),
-					baseDate.subtract(4, "day"),
-					baseDate.subtract(5, "day"),
-					baseDate.subtract(6, "day"),
+					// baseDate.subtract(2, "day"),
+					// baseDate.subtract(3, "day"),
+					// baseDate.subtract(4, "day"),
+					// baseDate.subtract(5, "day"),
+					// baseDate.subtract(6, "day"),
 					baseDate.add(1, "day"),
-					baseDate.add(2, "day"),
-					baseDate.add(3, "day"),
-					baseDate.add(4, "day"),
-					baseDate.add(5, "day"),
-					baseDate.add(6, "day"),
+					// baseDate.add(2, "day"),
+					// baseDate.add(3, "day"),
+					// baseDate.add(4, "day"),
+					// baseDate.add(5, "day"),
+					// baseDate.add(6, "day"),
 				]
 	).map((date) => formatDate(date.toDate()));
 }
