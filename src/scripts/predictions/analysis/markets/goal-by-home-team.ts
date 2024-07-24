@@ -1,221 +1,91 @@
 import type { T_MarketPrediction } from "../types";
-import { analizeCriteria, calculateTrustLevel } from "./utils";
+import { analizeCriteria, createMarketPredictionOutput, type T_PredictionsInput } from "./utils";
 
-function doubleOpportunityAnalysis(): T_MarketPrediction {
+function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_MarketPrediction {
 	const criteria = [
 		{
-			description: "Subcriterios 1",
+			description: "Promedio de goles local/visitante",
 			items: [
 				{
-					description: "El equipo local tiene un promedio de goles alto",
-					fn: () => {
+					description: "El local tiene un promedio de goles anotados como local alto",
+					fn: ({ homeTeamStats }: T_PredictionsInput) => {
+						const LIMIT = 1;
+
 						return {
-							fulfilled: true,
-							successExplanation: "successExplanation",
-							failExplanation: "failExplanation",
+							fulfilled: homeTeamStats["all-home-matches"].items.promedio_de_goles_anotados > LIMIT,
+							successExplanation: `El local tiene un promedio de goles anotados como local mayor a ${LIMIT}`,
+							failExplanation: `El local tiene un promedio de goles anotados como local menor o igual a ${LIMIT}`,
 						};
 					},
 				},
 				{
-					description: "El equipo visitante tiene un promedio de goles alto",
-					fn: () => {
+					description: "El visitante tiene un promedio de goles recibidos como visitante alto",
+					fn: ({ awayTeamStats }: T_PredictionsInput) => {
+						const LIMIT = 1;
+
 						return {
-							fulfilled: true,
-							successExplanation: "successExplanation",
-							failExplanation: "failExplanation",
-						};
-					},
-				},
-			],
-		},
-		{
-			description: "Subcriterios 2",
-			items: [
-				{
-					description: "El equipo local es destacado",
-					fn: () => {
-						return {
-							fulfilled: false,
-							successExplanation: "successExplanation",
-							failExplanation: "failExplanation",
-						};
-					},
-				},
-				{
-					description: "El equipo visitante es debil",
-					fn: () => {
-						return {
-							fulfilled: true,
-							successExplanation: "successExplanation",
-							failExplanation: "failExplanation",
-						};
-					},
-				},
-			],
-		},
-		{
-			description: "Subcriterios 3",
-			items: [
-				{
-					description: "El equipo local hace muchos goles en partidos como local",
-					fn: () => {
-						return {
-							fulfilled: true,
-							successExplanation: "successExplanation",
-							failExplanation: "failExplanation",
-						};
-					},
-				},
-				{
-					description: "El equipo visitante recibe muchos goles en partidos como visitante",
-					fn: () => {
-						return {
-							fulfilled: true,
-							successExplanation: "successExplanation",
-							failExplanation: "failExplanation",
+							fulfilled:
+								awayTeamStats["all-away-matches"].items.promedio_de_goles_recibidos > LIMIT,
+							successExplanation: `El visitante tiene un promedio de goles recibidos como visitante mayor o igual a ${LIMIT}`,
+							failExplanation: `El visitante tiene un promedio de goles recibidos como visitante menor a ${LIMIT}`,
 						};
 					},
 				},
 			],
 		},
 	];
-	const analyzedCriteria = analizeCriteria(criteria);
 
-	return {
+	return createMarketPredictionOutput({
 		id: "gol-equipo-local",
 		name: "Gol del equipo local",
 		shortName: "GL",
-		trustLevel: calculateTrustLevel(analyzedCriteria),
-		criteria: analyzedCriteria,
-	};
+		criteria: analizeCriteria(criteria, predictionsInput),
+		predictionsInput,
+		results: predictionsInput.match.played
+			? {
+					right: (
+						trustLevel: T_MarketPrediction["trustLevel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel === "1|HIGH" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.score > 0
+						);
+					},
+					lostRight: (
+						trustLevel: T_MarketPrediction["trustLevel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel !== "1|HIGH" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.score > 0
+						);
+					},
+					fail: (
+						trustLevel: T_MarketPrediction["trustLevel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel === "1|HIGH" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.score === 0
+						);
+					},
+					skippedFail: (
+						trustLevel: T_MarketPrediction["trustLevel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel === "3|LOW" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.score === 0
+						);
+					},
+				}
+			: undefined,
+	});
 }
 
-export default doubleOpportunityAnalysis;
-
-// {
-// 	// match,
-// 	// homeTeam,
-// 	// awayTeam,
-// 	// leagueStandings,
-// }: {
-// 	// match: T_FixtureMatch;
-// 	// homeTeam: T_Team;
-// 	// awayTeam: T_Team;
-// 	// leagueStandings: T_LeagueStandings;
-// },
-
-// const subCriteriaAnalyzed = item.criteria.map((subCriteriaItem) => {
-// 	const subCriteriaItemAchieved = subCriteriaItem.fn();
-
-// 	return {
-// 		description: subCriteriaItem.description,
-// 		check: subCriteriaItemAchieved ? "✅" : "❌",
-// 		weight: subCriteriaItem.weight,
-// 	};
-// });
-
-// const acceptancePercentage = subCriteriaAnalyzed.reduce((total, item) => {
-// 	return total + item.check === "✅" ? item.weight : 0;
-// }, 0);
-// const recommendable = acceptancePercentage >= item.acceptancePercentage;
-
-// if ("right" in rest) {
-// 	return {
-// 		id,
-// 		name,
-// 		recommendable,
-// 		acceptancePercentage: Number(Number(acceptancePercentage).toFixed(2)),
-// 		criteria: subCriteriaAnalyzed,
-// 		warnings: getWarnings(warnings),
-// 		right: rest.right(recommendable),
-// 		lostRight: rest.lostRight(recommendable),
-// 		fail: rest.fail(recommendable),
-// 		skippedFail: rest.skippedFail(recommendable),
-// 	};
-// }
-
-// return {
-// 	id,
-// 	name,
-// 	recommendable,
-// 	acceptancePercentage: Number(Number(acceptancePercentage).toFixed(2)),
-// 	criteria: subCriteriaAnalyzed,
-// 	warnings: getWarnings(warnings),
-// };
-
-// const criteria = [
-// 	{
-// 		id: "",
-// 		description: "",
-// 		weight: 0.5,
-// 		acceptancePercentage: 75,
-// 		criteria: [
-// 			{
-// 				enabled: true,
-// 				description: "El local es destacado",
-// 				weight: 0.75,
-// 				fn: () => {
-// 					return checkIsTeamFeatured(homeTeam, leagueStandings) === true;
-// 				},
-// 			},
-// 			{
-// 				enabled: true,
-// 				description: "El visitante no es destacado",
-// 				weight: 0.25,
-// 				fn: () => {
-// 					return checkIsTeamFeatured(awayTeam, leagueStandings) === false;
-// 				},
-// 			},
-// 		],
-// 	},
-// ];
-// const warnings = [
-// 	{
-// 		description: "El visitante es destacado",
-// 		fn: () => {
-// 			return checkIsTeamFeatured(awayTeam, leagueStandings) === true;
-// 		},
-// 	},
-// ];
-// return createAnalysisOutputObject({
-// 	id: "DO",
-// 	name: "Doble oportunidad",
-// 	acceptanceCriteria: (criteria) => {
-// 		return criteria[0].recommendable;
-// 	},
-// 	criteria,
-// 	warnings,
-// 	...(match.played
-// 		? {
-// 				right: (recommendable: boolean) =>
-// 					recommendable && (match.teams.home.winner === true || match.teams.home.winner === null),
-// 				lostRight: (recommendable: boolean) =>
-// 					!recommendable &&
-// 					(match.teams.home.winner === true || match.teams.home.winner === null),
-// 				fail: (recommendable: boolean) => recommendable && match.teams.home.winner === false,
-// 				skippedFail: (recommendable: boolean) =>
-// 					!recommendable && match.teams.home.winner === false,
-// 			}
-// 		: {}),
-// });
-
-/*
-function getTeamPositionStats(teamId: number, leagueStandings: T_LeagueStandings) {
-	const teamPositionStats = leagueStandings.reduce(
-		(result: T_LeagueStandings[number][number] | undefined, item) => {
-			if (result) {
-				return result;
-			}
-
-			const subItemFound = item.find((subItem) => {
-				return subItem.teamId === teamId;
-			});
-
-			return subItemFound;
-		},
-		undefined,
-	);
-
-	return teamPositionStats;
-}
-*/
+export default goalByHomeTeamPrediction;

@@ -5,3 +5,12 @@ export const dateWithoutTimezone = (dateParam?: Date) => {
 
 	return withoutTimezone;
 };
+
+export const dateWithoutTime = (dateParam?: Date) => {
+	const date = dateParam || new Date();
+	date.setMinutes(0);
+	date.setHours(0);
+	date.setSeconds(0);
+
+	return date;
+};

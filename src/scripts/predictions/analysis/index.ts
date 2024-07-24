@@ -1,6 +1,6 @@
 import dayjs from "dayjs";
 
-import { omit } from "../../../@diegofrayo/utils/arrays-and-objects";
+import { createArray, omit, pick } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { copyFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop } from "../../../@diegofrayo/utils/misc";
 
@@ -9,22 +9,44 @@ import DataClient from "./data-client";
 import { formatCode, formatDate } from "./utils";
 import type {
 	T_DayOfMatches,
+	T_FixtureNextMatchTeam,
+	T_FixturePlayedMatchTeam,
 	T_League,
-	T_NextMatchMarketPrediction,
-	T_NextMatchTeam,
-	T_PlayedMatchMarketPrediction,
-	T_PlayedMatchTeam,
 } from "./types";
 
-export default async function main(config: T_AnalysisConfig) {
+type T_PredictionConfig =
+	| {
+			date: Exclude<string, "today" | "tomorrow" | "yesterday">;
+			enableRemoteAPI: boolean;
+			previousDays: number;
+	  }
+	| {
+			date: "today" | "tomorrow" | "yesterday";
+			enableRemoteAPI: boolean;
+			previousDays?: never;
+	  }
+	| {
+			leaguesFixturesDates: { from: string; to: string };
+			date?: never;
+			previousDays?: never;
+			enableRemoteAPI?: never;
+	  }
+	| {
+			leagueStandings: Array<Pick<T_League, "id" | "season">>;
+			date?: never;
+			previousDays?: never;
+			enableRemoteAPI?: never;
+	  };
+
+export default async function main(config: T_PredictionConfig) {
 	await APIClient.calculateUsageStats();
 
-	if (config.leaguesFixturesDates) {
+	if ("leaguesFixturesDates" in config) {
 		await DataClient.updateLeaguesFixtures(config.leaguesFixturesDates);
 		return;
 	}
 
-	if (config.leagueStandings) {
+	if ("leagueStandings" in config) {
 		await DataClient.updateLeaguesStandings(config.leagueStandings);
 		return;
 	}
@@ -62,35 +84,44 @@ export default async function main(config: T_AnalysisConfig) {
 
 				await asyncLoop(fixtureMatches, async (fixtureMatch) => {
 					try {
-						const homeTeam = fixtureMatch.teams.home;
-						const awayTeam = fixtureMatch.teams.away;
 						const homeTeamPlayedMatches = await DataClient.fetchPlayedMatches({
-							team: homeTeam,
+							team: pick(fixtureMatch.teams.home, ["id", "name"]),
 							requestConfig,
 							league,
 							leagueStandings,
 						});
 						const awayTeamPlayedMatches = await DataClient.fetchPlayedMatches({
-							team: awayTeam,
+							team: pick(fixtureMatch.teams.away, ["id", "name"]),
 							requestConfig,
 							league,
 							leagueStandings,
 						});
-						const homeTeamStats = DataClient.getTeamStats(homeTeam.id, homeTeamPlayedMatches);
-						const awayTeamStats = DataClient.getTeamStats(awayTeam.id, awayTeamPlayedMatches);
-						const predictions = DataClient.getMatchPredictions();
-						// {
-						// 	match: fixtureMatch,
-						// 	homeTeam,
-						// 	awayTeam,
-						// 	homeTeamPlayedMatches,
-						// 	homeTeamStats,
-						// 	awayTeamStats,
-						// 	leagueStandings,
-						// });
+						const homeTeamStats = DataClient.getTeamStats(
+							fixtureMatch.teams.home.id,
+							homeTeamPlayedMatches,
+						);
+						const awayTeamStats = DataClient.getTeamStats(
+							fixtureMatch.teams.away.id,
+							awayTeamPlayedMatches,
+						);
 
-						// TODO: Try to improve this types definitions, avoid use as
 						if (fixtureMatch.played) {
+							const homeTeam: T_FixturePlayedMatchTeam = {
+								...fixtureMatch.teams.home,
+								stats: homeTeamStats,
+								matches: homeTeamPlayedMatches,
+							};
+							const awayTeam: T_FixturePlayedMatchTeam = {
+								...fixtureMatch.teams.away,
+								stats: awayTeamStats,
+								matches: awayTeamPlayedMatches,
+							};
+
+							const predictions = DataClient.getMatchPredictions(
+								{ match: fixtureMatch, homeTeam, awayTeam, homeTeamStats, awayTeamStats },
+								"FIXTURE_PLAYED_MATCH",
+							);
+
 							leagueData.matches.push({
 								id: fixtureMatch.id,
 								fullDate: fixtureMatch.fullDate,
@@ -98,20 +129,27 @@ export default async function main(config: T_AnalysisConfig) {
 								hour: fixtureMatch.hour,
 								played: fixtureMatch.played,
 								teams: {
-									home: {
-										...(homeTeam as T_PlayedMatchTeam),
-										stats: homeTeamStats,
-										matches: homeTeamPlayedMatches,
-									},
-									away: {
-										...(awayTeam as T_PlayedMatchTeam),
-										stats: awayTeamStats,
-										matches: awayTeamPlayedMatches,
-									},
+									home: homeTeam,
+									away: awayTeam,
 								},
-								predictions: predictions as Array<T_PlayedMatchMarketPrediction>,
+								predictions,
 							});
 						} else {
+							const homeTeam: T_FixtureNextMatchTeam = {
+								...fixtureMatch.teams.home,
+								stats: homeTeamStats,
+								matches: homeTeamPlayedMatches,
+							};
+							const awayTeam: T_FixtureNextMatchTeam = {
+								...fixtureMatch.teams.away,
+								stats: awayTeamStats,
+								matches: awayTeamPlayedMatches,
+							};
+							const predictions = DataClient.getMatchPredictions(
+								{ match: fixtureMatch, homeTeam, awayTeam, homeTeamStats, awayTeamStats },
+								"FIXTURE_NEXT_MATCH",
+							);
+
 							leagueData.matches.push({
 								id: fixtureMatch.id,
 								fullDate: fixtureMatch.fullDate,
@@ -119,18 +157,10 @@ export default async function main(config: T_AnalysisConfig) {
 								hour: fixtureMatch.hour,
 								played: fixtureMatch.played,
 								teams: {
-									home: {
-										...(homeTeam as T_NextMatchTeam),
-										stats: homeTeamStats,
-										matches: homeTeamPlayedMatches,
-									},
-									away: {
-										...(awayTeam as T_NextMatchTeam),
-										stats: awayTeamStats,
-										matches: awayTeamPlayedMatches,
-									},
+									home: homeTeam,
+									away: awayTeam,
 								},
-								predictions: predictions as Array<T_NextMatchMarketPrediction>,
+								predictions,
 							});
 						}
 					} catch (error) {
@@ -165,18 +195,10 @@ export default async function main(config: T_AnalysisConfig) {
 	});
 }
 
-type T_AnalysisConfig = {
-	date: "today" | "tomorrow" | "yesterday" | string;
-	exact: boolean;
-	enableRemoteAPI: boolean;
-	leaguesFixturesDates?: { from: string; to: string };
-	leagueStandings?: Array<Pick<T_League, "id" | "season">>;
-};
-
 // --- UTILS ---
 
 function createRequestConfig(
-	requestConfig: Pick<T_AnalysisConfig, "date" | "enableRemoteAPI">,
+	requestConfig: { date: string; enableRemoteAPI: boolean },
 	formattedDate: string,
 ) {
 	if (requestConfig.date === "yesterday") {
@@ -251,39 +273,23 @@ function createRequestConfig(
 }
 
 function generateDates(
-	config: { date: "today" | "tomorrow" | "yesterday" } | { date: string; exact: boolean },
+	config: { date: "today" | "tomorrow" | "yesterday" } | { date: string; previousDays: number },
 ) {
-	if (config.date === "yesterday") {
-		return [formatDate(dayjs().subtract(1, "day").toDate())];
+	if ("previousDays" in config) {
+		const baseDate = dayjs(new Date(config.date));
+
+		return [baseDate]
+			.concat(createArray(config.previousDays).map((day) => baseDate.subtract(day + 1)))
+			.map((date) => formatDate(date.toDate()));
 	}
 
 	if (config.date === "today") {
 		return [formatDate(dayjs().toDate())];
 	}
 
-	if (config.date === "tomorrow") {
-		return [formatDate(dayjs().add(1, "day").toDate())];
+	if (config.date === "yesterday") {
+		return [formatDate(dayjs().subtract(1, "day").toDate())];
 	}
 
-	const baseDate = dayjs(new Date(config.date));
-
-	return (
-		"exact" in config && config.exact === true
-			? [baseDate]
-			: [
-					baseDate,
-					baseDate.subtract(1, "day"),
-					// baseDate.subtract(2, "day"),
-					// baseDate.subtract(3, "day"),
-					// baseDate.subtract(4, "day"),
-					// baseDate.subtract(5, "day"),
-					// baseDate.subtract(6, "day"),
-					baseDate.add(1, "day"),
-					// baseDate.add(2, "day"),
-					// baseDate.add(3, "day"),
-					// baseDate.add(4, "day"),
-					// baseDate.add(5, "day"),
-					// baseDate.add(6, "day"),
-				]
-	).map((date) => formatDate(date.toDate()));
+	return [formatDate(dayjs().add(1, "day").toDate())];
 }

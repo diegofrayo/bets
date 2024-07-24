@@ -6,7 +6,7 @@
 	"license": "ISC",
 	"scripts": {
 		"===== LINTING & FORMATTING =====": "",
-		"lint": "eslint --ignore-path .gitignore --ext .ts --fix ./src/scripts/predictions",
+		"lint": "eslint --ignore-path .gitignore --ext .ts --ext .js --fix ./src/scripts/predictions",
 		"lint:no-warnings": "cross-env NO_LINT_WARNINGS=true && npm run lint",
 		"format": "prettier --write \"./src/**/*.ts\"",
 		"format:minify": "minify-all-js src/scripts/predictions/data/raw -j",
@@ -24,25 +24,29 @@
 		"dotenv": "^16.4.5",
 		"js-convert-case": "^4.2.0",
 		"jsdom": "^24.0.0",
-		"prettier": "^3.2.5"
+		"prettier": "^3.2.5",
+		"type-fest": "^4.23.0"
 	},
 	"devDependencies": {
 		"@types/jsdom": "^21.1.6",
 		"@types/node": "^20.5.6",
-		"@typescript-eslint/eslint-plugin": "^7.16.1",
-		"@typescript-eslint/parser": "^7.16.1",
 		"esbuild": "^0.20.1",
 		"esbuild-plugin-tsc": "^0.4.0",
-		"eslint": "^8.57.0",
-		"eslint-config-airbnb": "^19.0.4",
-		"eslint-config-airbnb-base": "^15.0.0",
-		"eslint-config-airbnb-typescript": "^18.0.0",
-		"eslint-config-prettier": "^9.1.0",
-		"eslint-plugin-import": "^2.29.1",
-		"eslint-plugin-prettier": "^5.2.1",
-		"eslint-plugin-unicorn": "^54.0.0",
 		"minify-all-js": "^0.1.9",
 		"ts-node": "^10.9.1",
 		"typescript": "^5.2.2"
+	},
+	"optionalDependencies": {
+		"@typescript-eslint/eslint-plugin": "^6.4.0",
+		"@typescript-eslint/parser": "^6.4.0",
+		"eslint": "^8.47.0",
+		"eslint-config-airbnb": "^19.0.4",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-config-airbnb-typescript": "^17.1.0",
+		"eslint-config-next": "^13.4.19",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-plugin-import": "^2.28.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-unicorn": "^48.0.1"
 	}
 }

@@ -11,20 +11,25 @@ import TEAMS from "../data/util/teams.json";
 import APIClient from "./api-client";
 import type {
 	T_FixtureMatch,
+	T_FixtureMatchTeam,
 	T_FixtureNextMatch,
 	T_FixturePlayedMatch,
 	T_League,
 	T_LeagueStandings,
+	T_NextMatchMarketPrediction,
 	T_PlayedMatch,
+	T_PlayedMatchMarketPrediction,
+	T_PlayedMatchTeam,
 	T_RawLeagueStandingsResponse,
 	T_RawMatchesResponse,
 	T_RequestConfig,
-	T_Team,
 	T_TeamStats,
+	T_TeamStatsItems,
 } from "./types";
 import { formatCode } from "./utils";
-import doubleOpportunityAnalysis from "./markets/double-opportunity";
-import goalByHomeTeamAnalysis from "./markets/goal-by-home-team";
+// import doubleOpportunityPrediction from "./markets/double-opportunity";
+import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
+import type { T_PredictionsInput } from "./markets/utils";
 
 // --- API ---
 
@@ -67,7 +72,7 @@ async function fetchFixtureMatches({
 		rawResponse = { response: [] };
 	}
 
-	const parsedResponse = parseFixtureMatchesResponse(rawResponse, leagueStandings, league);
+	const parsedResponse = parseFixtureMatchesResponse(rawResponse, leagueStandings);
 
 	return parsedResponse;
 }
@@ -78,7 +83,7 @@ async function fetchPlayedMatches({
 	requestConfig,
 	leagueStandings,
 }: {
-	team: T_Team;
+	team: Pick<T_PlayedMatchTeam, "id" | "name">;
 	league: T_League;
 	requestConfig: T_RequestConfig;
 	leagueStandings: T_LeagueStandings;
@@ -201,7 +206,7 @@ async function updateTeamsFile(
 					},
 				};
 			},
-			{} as Pick<T_Team, "name" | "country" | "featured">,
+			{} as Pick<T_FixtureMatchTeam, "name" | "country" | "featured">,
 		),
 	};
 
@@ -210,7 +215,7 @@ async function updateTeamsFile(
 
 async function updateLeaguesFixtures(requestConfig: { from: string; to: string }) {
 	const output = {} as DR.Object<number[]>;
-	const leagues = Object.values(LEAGUES.items).sort(sortBy("priority", "name"));
+	const leagues = LEAGUES.items.sort(sortBy("-enabled", "priority", "name"));
 
 	await asyncLoop(leagues, async (league) => {
 		try {
@@ -287,105 +292,59 @@ async function updateLeaguesStandings(leagues: Array<Pick<T_League, "id" | "seas
 	});
 }
 
-function getMatchPredictions() {
-	// {
-	// 	// match,
-	// 	// homeTeam,
-	// 	// awayTeam,
-	// 	// homeTeamPlayedMatches,
-	// 	// homeTeamStats,
-	// 	// awayTeamStats,
-	// 	// leagueStandings,
-	// }: {
-	// 	// match: T_FixtureMatch;
-	// 	// homeTeam: T_Team;
-	// 	// awayTeam: T_Team;
-	// 	// homeTeamPlayedMatches: Array<T_PlayedMatch>;
-	// 	// homeTeamStats: T_TeamStats;
-	// 	// awayTeamStats: T_TeamStats;
-	// 	// leagueStandings: T_LeagueStandings;
-	// },
-
-	return [
-		doubleOpportunityAnalysis(),
-		goalByHomeTeamAnalysis(),
-		//   {
-		// 	// match,
-		// 	// homeTeam,
-		// 	// awayTeam,
-		// 	// homeTeamStats,
-		// 	// awayTeamStats,
-		// 	// leagueStandings,
-		// 	// homeTeamPlayedMatches,
-		// }
-		// homeTeamScoresAnalysis({
-		// 	match,
-		// 	homeTeam,
-		// 	awayTeam,
-		// 	homeTeamStats,
-		// 	awayTeamStats,
-		// 	leagueStandings,
-		// 	homeTeamPlayedMatches,
-		// }),
-		// awayTeamScoresAnalysis({
-		// 	match,
-		// 	homeTeam,
-		// 	awayTeam,
-		// 	homeTeamStats,
-		// 	awayTeamStats,
-		// 	leagueStandings,
-		// 	homeTeamPlayedMatches,
-		// }),
-		// goalsInMatchAnalysis({
-		// 	match,
-		// 	homeTeam,
-		// 	awayTeam,
-		// 	homeTeamStats,
-		// 	awayTeamStats,
-		// 	leagueStandings,
-		// 	homeTeamPlayedMatches,
-		// }),
-	];
+function getMatchPredictions(
+	predictionsInput: T_PredictionsInput,
+	variant: "FIXTURE_NEXT_MATCH",
+): Array<T_NextMatchMarketPrediction>;
+function getMatchPredictions(
+	predictionsInput: T_PredictionsInput,
+	variant: "FIXTURE_PLAYED_MATCH",
+): Array<T_PlayedMatchMarketPrediction>;
+function getMatchPredictions(
+	predictionsInput: T_PredictionsInput,
+): Array<T_NextMatchMarketPrediction> | Array<T_PlayedMatchMarketPrediction> {
+	return [goalByHomeTeamPrediction(predictionsInput)].sort(sortBy("trustLevel"));
 }
 
 function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_TeamStats {
 	const totalPlayedMatches = playedMatches.length;
 	const lastGames = totalPlayedMatches > 4 ? 4 : totalPlayedMatches;
-	const output = [
-		{
+	const output = {
+		"all-matches": {
 			name: `Comportamiento general en los últimos ${totalPlayedMatches} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "all" }),
 		},
-		{
+		"all-home-matches": {
 			name: `Comportamiento como local en los últimos ${totalPlayedMatches} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "home" }),
 		},
-		{
+		"all-away-matches": {
 			name: `Comportamiento como visitante en los últimos ${totalPlayedMatches} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "away" }),
 		},
-		{
+		"last-matches": {
 			name: `Comportamiento general en los últimos ${lastGames} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "all", lastGames }),
 		},
-		{
+		"last-home-matches": {
 			name: `Comportamiento como local en los últimos ${lastGames} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "home", lastGames }),
 		},
-		{
+		"last-away-matches": {
 			name: `Comportamiento como visitante en los últimos ${lastGames} partidos`,
 			items: calculateTeamStats({ teamId, playedMatches, side: "away", lastGames }),
 		},
-	];
+	};
 
 	return output;
 }
 
 function getLeagueById(leagueId: number | string) {
-	return (
-		(LEAGUES.items[leagueId as keyof typeof LEAGUES.items] as T_League) ||
-		throwError(`League not found with id "${leagueId}"`)
-	);
+	const league = LEAGUES.items.find((item) => {
+		return item.id === leagueId;
+	});
+
+	return league || throwError(`League not found with id "${leagueId}"`);
 }
 
 function getLeaguesByDate(date: string) {
@@ -415,10 +374,9 @@ export default DataClient;
 function parseFixtureMatchesResponse(
 	data: T_RawMatchesResponse,
 	leagueStandings: T_LeagueStandings,
-	league: T_League,
 ) {
 	const result = data.response
-		.map((item) => parseMatchItem("FIXTURE_MATCH", item, leagueStandings, league))
+		.map((item) => parseMatchItem("FIXTURE_MATCH", item, leagueStandings))
 		.sort(sortBy("date"));
 
 	return result;
@@ -450,13 +408,11 @@ function parseMatchItem(
 	variant: "FIXTURE_MATCH",
 	item: T_RawMatchesResponse["response"][number],
 	leagueStandings: T_LeagueStandings,
-	league: T_League,
 ): T_FixtureMatch;
 function parseMatchItem(
 	variant: "FIXTURE_MATCH" | "PLAYED_MATCH",
 	item: T_RawMatchesResponse["response"][number],
 	leagueStandings: T_LeagueStandings,
-	league: T_League,
 ) {
 	const fullDate = item.fixture.date.substring(0, 16);
 	const [date, hour] = fullDate.split("T");
@@ -470,9 +426,7 @@ function parseMatchItem(
 			home: {
 				id: item.teams.home.id,
 				name: item.teams.home.name,
-				country:
-					getTeamById(item.teams.home.id)?.country ||
-					(league.country === "World" ? "" : league.flag),
+				country: getTeamById(item.teams.home.id)?.country || "",
 				position: getTeamPosition(item.teams.home.id, leagueStandings),
 				featured: checkIsTeamFeatured(
 					{ id: item.teams.home.id, name: item.teams.home.name },
@@ -482,9 +436,7 @@ function parseMatchItem(
 			away: {
 				id: item.teams.away.id,
 				name: item.teams.away.name,
-				country:
-					getTeamById(item.teams.away.id)?.country ||
-					(league.country === "World" ? "" : league.flag),
+				country: getTeamById(item.teams.away.id)?.country || "",
 				position: getTeamPosition(item.teams.away.id, leagueStandings),
 				featured: checkIsTeamFeatured(
 					{ id: item.teams.away.id, name: item.teams.away.name },
@@ -527,14 +479,14 @@ function parseMatchItem(
 					...matchBaseData.teams.home,
 					score: item.goals.home || 0,
 					winner: item.teams.home.winner,
-					stats: [],
+					stats: createEmptyTeamStatsObject(),
 					matches: [],
 				},
 				away: {
 					...matchBaseData.teams.away,
 					score: item.goals.away || 0,
 					winner: item.teams.away.winner,
-					stats: [],
+					stats: createEmptyTeamStatsObject(),
 					matches: [],
 				},
 			},
@@ -548,17 +500,51 @@ function parseMatchItem(
 		teams: {
 			home: {
 				...matchBaseData.teams.home,
-				stats: [],
+				stats: createEmptyTeamStatsObject(),
 				matches: [],
 			},
 			away: {
 				...matchBaseData.teams.away,
-				stats: [],
+				stats: createEmptyTeamStatsObject(),
 				matches: [],
 			},
 		},
 		predictions: [],
 	} as T_FixtureNextMatch;
+}
+
+function createEmptyTeamStatsObject(): T_TeamStats {
+	const KEYS = [
+		"all-matches",
+		"all-home-matches",
+		"all-away-matches",
+		"last-matches",
+		"last-home-matches",
+		"last-away-matches",
+	];
+
+	const VALUE = {
+		name: "name",
+		items: {
+			total_de_partidos: 0,
+			total_de_goles_anotados: 0,
+			total_de_goles_recibidos: 0,
+			promedio_de_goles_anotados: 0,
+			promedio_de_goles_recibidos: 0,
+			partidos_ganados: 0,
+			partidos_perdidos: 0,
+			partidos_empatados: 0,
+			partidos_con_goles_anotados: 0,
+			porcentaje_de_puntos_ganados: 0,
+		},
+	};
+
+	return KEYS.reduce((result, key) => {
+		return {
+			...result,
+			[key]: VALUE,
+		};
+	}, {} as T_TeamStats);
 }
 
 function parseStandingsResponse(data: T_RawLeagueStandingsResponse) {
@@ -613,7 +599,7 @@ function getProperlyLeagueStandingsData(
 	return [];
 }
 
-function composeTeamName(team: T_Team) {
+function composeTeamName(team: Pick<T_FixtureMatchTeam, "id" | "name">) {
 	return `${team.name} (${team.id})`;
 }
 
@@ -661,7 +647,7 @@ function filterTeamPlayedMatches({
 	side,
 	lastGames,
 }: {
-	teamId: T_Team["id"];
+	teamId: T_FixtureMatchTeam["id"];
 	playedMatches: Array<T_PlayedMatch>;
 	side: "home" | "away" | "all";
 	lastGames: number | undefined;
@@ -687,13 +673,11 @@ function calculateTeamStats({
 	side,
 	lastGames,
 }: {
-	teamId: T_Team["id"];
+	teamId: T_FixtureMatchTeam["id"];
 	playedMatches: Array<T_PlayedMatch>;
 	side: "home" | "away" | "all";
 	lastGames?: number;
-}) {
-	let result;
-
+}): T_TeamStatsItems {
 	if (side === "all") {
 		const filteredMatches = filterTeamPlayedMatches({
 			teamId,
@@ -701,19 +685,45 @@ function calculateTeamStats({
 			side,
 			lastGames,
 		});
-
-		result = filteredMatches.reduce(
+		const result = filteredMatches.reduce(
 			(result, match) => {
 				const newResult = {
 					...result,
 				};
+				let matchSide: "home" | "away";
 
 				if (match.teams.home.id === teamId) {
-					newResult.total_de_goles_anotados += match.teams.home.score;
-					newResult.total_de_goles_recibidos += match.teams.away.score;
+					matchSide = "home";
+
+					if (match.teams.home.score > 0) {
+						newResult.partidos_con_goles_anotados += 1;
+						newResult.total_de_goles_anotados += match.teams.home.score;
+					}
+
+					if (match.teams.away.score > 0) {
+						newResult.partidos_con_goles_recibidos += 1;
+						newResult.total_de_goles_recibidos += match.teams.away.score;
+					}
 				} else {
-					newResult.total_de_goles_anotados += match.teams.away.score;
-					newResult.total_de_goles_recibidos += match.teams.home.score;
+					matchSide = "away";
+
+					if (match.teams.away.score > 0) {
+						newResult.total_de_goles_anotados += match.teams.away.score;
+						newResult.partidos_con_goles_anotados += 1;
+					}
+
+					if (match.teams.home.score > 0) {
+						newResult.total_de_goles_recibidos += match.teams.home.score;
+						newResult.partidos_con_goles_recibidos += 1;
+					}
+				}
+
+				if (match.teams[matchSide].winner === true) {
+					newResult.partidos_ganados += 1;
+				} else if (match.teams[matchSide].winner === false) {
+					newResult.partidos_perdidos += 1;
+				} else if (match.teams[matchSide].winner === null) {
+					newResult.partidos_empatados += 1;
 				}
 
 				return newResult;
@@ -724,6 +734,12 @@ function calculateTeamStats({
 				total_de_goles_recibidos: 0,
 				promedio_de_goles_anotados: 0,
 				promedio_de_goles_recibidos: 0,
+				partidos_ganados: 0,
+				partidos_empatados: 0,
+				partidos_perdidos: 0,
+				partidos_con_goles_anotados: 0,
+				partidos_con_goles_recibidos: 0,
+				porcentaje_de_puntos_ganados: 0,
 			},
 		);
 
@@ -733,69 +749,78 @@ function calculateTeamStats({
 		result.promedio_de_goles_recibidos = Number(
 			(result.total_de_goles_recibidos / result.total_de_partidos).toFixed(1),
 		);
-	} else {
-		const sideLabel = side === "away" ? "visitante" : "local";
-		const filteredMatches = filterTeamPlayedMatches({
-			teamId,
-			playedMatches,
-			side,
-			lastGames,
-		});
-
-		result = filteredMatches.reduce(
-			(result, match) => {
-				const newResult = {
-					...result,
-				};
-
-				if (match.teams[side].id === teamId) {
-					newResult[`goles_anotados_de_${sideLabel}`] += match.teams[side].score;
-
-					if (match.teams[side].score > 0) {
-						newResult[`partidos_con_goles_de_${sideLabel}`] += 1;
-					}
-				}
-
-				if (match.teams[side].winner === true) {
-					newResult[`partidos_ganados_de_${sideLabel}`] += 1;
-				} else if (match.teams[side].winner === false) {
-					newResult[`partidos_perdidos_de_${sideLabel}`] += 1;
-				} else if (match.teams[side].winner === null) {
-					newResult[`partidos_empatados_de_${sideLabel}`] += 1;
-				}
-
-				return newResult;
-			},
-			{
-				[`partidos_de_${sideLabel}`]: filteredMatches.length,
-				[`goles_anotados_de_${sideLabel}`]: 0,
-				[`promedio_de_goles_anotados_de_${sideLabel}`]: 0,
-				[`partidos_ganados_de_${sideLabel}`]: 0,
-				[`partidos_perdidos_de_${sideLabel}`]: 0,
-				[`partidos_empatados_de_${sideLabel}`]: 0,
-				[`partidos_con_goles_de_${sideLabel}`]: 0,
-			},
-		);
-
-		result[`promedio_de_goles_anotados_de_${sideLabel}`] = Number(
-			(result[`goles_anotados_de_${sideLabel}`] / result[`partidos_de_${sideLabel}`]).toFixed(1),
-		);
-		result[`porcentaje_de_puntos_ganados_de_${sideLabel}`] = Number(
+		result.porcentaje_de_puntos_ganados = Number(
 			(
-				((result[`partidos_ganados_de_${sideLabel}`] * 3 +
-					result[`partidos_empatados_de_${sideLabel}`]) *
-					100) /
-				(result[`partidos_de_${sideLabel}`] * 3)
+				((result.partidos_ganados * 3 + result.partidos_empatados) * 100) /
+				(result.total_de_partidos * 3)
 			).toFixed(1),
 		);
+
+		return result;
 	}
 
-	return Object.entries(result).reduce((result, [key, value]) => {
-		return {
-			...result,
-			[`${key}`]: key.includes("porcentaje") ? `${value}%` : value,
-		};
-	}, {});
+	const teamOpponentSide = side === "away" ? "home" : "away";
+	const filteredMatches = filterTeamPlayedMatches({
+		teamId,
+		playedMatches,
+		side,
+		lastGames,
+	});
+	const result: T_TeamStatsItems = filteredMatches.reduce(
+		(result, match) => {
+			const newResult = {
+				...result,
+			};
+
+			if (match.teams[side].score > 0) {
+				newResult.total_de_goles_anotados += match.teams[side].score;
+				newResult.partidos_con_goles_anotados += 1;
+			}
+
+			if (match.teams[teamOpponentSide].score > 0) {
+				newResult.total_de_goles_recibidos += match.teams[teamOpponentSide].score;
+				newResult.partidos_con_goles_recibidos += 1;
+			}
+
+			if (match.teams[side].winner === true) {
+				newResult.partidos_ganados += 1;
+			} else if (match.teams[side].winner === false) {
+				newResult.partidos_perdidos += 1;
+			} else if (match.teams[side].winner === null) {
+				newResult.partidos_empatados += 1;
+			}
+
+			return newResult;
+		},
+		{
+			total_de_partidos: filteredMatches.length,
+			total_de_goles_anotados: 0,
+			total_de_goles_recibidos: 0,
+			promedio_de_goles_anotados: 0,
+			promedio_de_goles_recibidos: 0,
+			partidos_ganados: 0,
+			partidos_empatados: 0,
+			partidos_perdidos: 0,
+			partidos_con_goles_anotados: 0,
+			partidos_con_goles_recibidos: 0,
+			porcentaje_de_puntos_ganados: 0,
+		},
+	);
+
+	result.promedio_de_goles_anotados = Number(
+		(result.total_de_goles_anotados / result.total_de_partidos).toFixed(1),
+	);
+	result.promedio_de_goles_recibidos = Number(
+		(result.total_de_goles_recibidos / result.total_de_partidos).toFixed(1),
+	);
+	result.porcentaje_de_puntos_ganados = Number(
+		(
+			((result.partidos_ganados * 3 + result.partidos_empatados) * 100) /
+			(result.total_de_partidos * 3)
+		).toFixed(1),
+	);
+
+	return result;
 }
 
 function checkIsTeamFeatured(

@@ -3,12 +3,7 @@ const warnRulesValue = process.env.NO_LINT_WARNINGS ? "off" : "warn";
 module.exports = {
 	parser: "@typescript-eslint/parser",
 	plugins: ["prettier", "@typescript-eslint"],
-	ignorePatterns: [
-		".eslintrc.js",
-		"src/scripts/browser-extension",
-		"src/**/*.js",
-		"src/scripts/predictions/analysis/markets/*.ts",
-	],
+	ignorePatterns: [".eslintrc.js", "src/scripts/browser-extension", "src/**/*.js"],
 	root: true,
 	extends: [
 		"airbnb",

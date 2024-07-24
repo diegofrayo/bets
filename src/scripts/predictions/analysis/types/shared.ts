@@ -35,8 +35,6 @@ export type T_LeagueStandings = Array<
 	}>
 >;
 
-export type T_Team = T_NextMatchTeam | T_PlayedMatchTeam;
-
 type T_TeamBase = {
 	id: number;
 	name: string;
@@ -45,53 +43,51 @@ type T_TeamBase = {
 	featured: boolean;
 };
 
-export type T_NextMatchTeam = T_TeamBase;
+export type T_FixtureMatchTeam = T_FixtureNextMatchTeam | T_FixturePlayedMatchTeam;
+
+export type T_FixtureNextMatchTeam = T_TeamBase & {
+	stats: T_TeamStats;
+	matches: Array<T_PlayedMatch>;
+};
+
+export type T_FixturePlayedMatchTeam = T_PlayedMatchTeam & {
+	stats: T_TeamStats;
+	matches: Array<T_PlayedMatch>;
+};
 
 export type T_PlayedMatchTeam = T_TeamBase & {
 	score: number;
 	winner: boolean | null;
 };
 
-export type T_FixtureMatch = T_FixtureNextMatch | T_FixturePlayedMatch;
-
-type T_Match = {
+type T_MatchBase = {
 	id: string;
 	fullDate: string;
 	date: string;
 	hour: string;
 };
 
-export type T_FixtureNextMatch = T_Match & {
+export type T_FixtureMatch = T_FixtureNextMatch | T_FixturePlayedMatch;
+
+export type T_FixtureNextMatch = T_MatchBase & {
 	played: false;
 	teams: {
-		home: T_NextMatchTeam & {
-			stats: T_TeamStats;
-			matches: Array<T_PlayedMatch>;
-		};
-		away: T_NextMatchTeam & {
-			stats: T_TeamStats;
-			matches: Array<T_PlayedMatch>;
-		};
+		home: T_FixtureNextMatchTeam;
+		away: T_FixtureNextMatchTeam;
 	};
 	predictions: Array<T_NextMatchMarketPrediction>;
 };
 
-export type T_FixturePlayedMatch = T_Match & {
+export type T_FixturePlayedMatch = T_MatchBase & {
 	played: true;
 	teams: {
-		home: T_PlayedMatchTeam & {
-			stats: T_TeamStats;
-			matches: Array<T_PlayedMatch>;
-		};
-		away: T_PlayedMatchTeam & {
-			stats: T_TeamStats;
-			matches: Array<T_PlayedMatch>;
-		};
+		home: T_FixturePlayedMatchTeam;
+		away: T_FixturePlayedMatchTeam;
 	};
 	predictions: Array<T_PlayedMatchMarketPrediction>;
 };
 
-export type T_PlayedMatch = T_Match & {
+export type T_PlayedMatch = T_MatchBase & {
 	played: true;
 	teams: {
 		home: T_PlayedMatchTeam;
@@ -100,16 +96,40 @@ export type T_PlayedMatch = T_Match & {
 	league: Pick<T_League, "id" | "name">;
 };
 
-export type T_TeamStats = Array<{
-	name: string;
-	items: Record<string, string | number>;
-}>;
+export type T_TeamStats = Record<
+	| "all-matches"
+	| "all-home-matches"
+	| "all-away-matches"
+	| "last-matches"
+	| "last-home-matches"
+	| "last-away-matches",
+	{
+		name: string;
+		items: T_TeamStatsItems;
+	}
+>;
 
-export type T_MarketPrediction = {
+export type T_TeamStatsItems = {
+	total_de_partidos: number;
+	total_de_goles_anotados: number;
+	total_de_goles_recibidos: number;
+	promedio_de_goles_anotados: number;
+	promedio_de_goles_recibidos: number;
+	partidos_ganados: number;
+	partidos_perdidos: number;
+	partidos_empatados: number;
+	partidos_con_goles_anotados: number;
+	partidos_con_goles_recibidos: number;
+	porcentaje_de_puntos_ganados: number;
+};
+
+export type T_MarketPrediction = T_NextMatchMarketPrediction | T_PlayedMatchMarketPrediction;
+
+type T_MarketPredictionBase = {
 	id: string;
 	name: string;
 	shortName: string;
-	trustLevel: "HIGH" | "MEDIUM" | "LOW";
+	trustLevel: "1|HIGH" | "2|MEDIUM" | "3|LOW";
 	criteria: Array<{
 		description: string;
 		fulfilled: boolean;
@@ -121,9 +141,9 @@ export type T_MarketPrediction = {
 	}>;
 };
 
-export type T_NextMatchMarketPrediction = T_MarketPrediction;
+export type T_NextMatchMarketPrediction = T_MarketPredictionBase;
 
-export type T_PlayedMatchMarketPrediction = T_MarketPrediction & {
+export type T_PlayedMatchMarketPrediction = T_MarketPredictionBase & {
 	results: {
 		right: boolean;
 		lostRight: boolean;
