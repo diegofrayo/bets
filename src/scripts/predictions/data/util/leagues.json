@@ -2,26 +2,6 @@
 	"items": [
 		{
 			"enabled": true,
-			"id": 13,
-			"name": "CONMEBOL Libertadores",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": true,
-			"id": 11,
-			"name": "CONMEBOL Sudamericana",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": true,
 			"id": 103,
 			"name": "Eliteserien",
 			"type": "League",
@@ -72,6 +52,26 @@
 		},
 		{
 			"enabled": true,
+			"id": 13,
+			"name": "CONMEBOL Libertadores",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": true,
+			"id": 11,
+			"name": "CONMEBOL Sudamericana",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": true,
 			"id": 253,
 			"name": "Major League Soccer",
 			"type": "League",
@@ -79,6 +79,16 @@
 			"season": 2024,
 			"priority": 3,
 			"flag": "🇺🇸"
+		},
+		{
+			"enabled": true,
+			"id": 480,
+			"name": "Olympics Men",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
 		},
 		{
 			"enabled": true,
@@ -362,13 +372,13 @@
 		"2024-07-20": [103, 128, 239, 244, 253, 71],
 		"2024-07-21": [103, 128, 239, 244, 71],
 		"2024-07-22": [239, 244],
-		"2024-07-23": [11, 128, 239, 71, 2],
-		"2024-07-24": [11, 128, 239, 71, 2],
-		"2024-07-25": [11, 128, 239, 71, 3],
-		"2024-07-27": [103, 128, 239, 244, 71],
+		"2024-07-23": [128, 239, 11, 71, 2, 848],
+		"2024-07-24": [128, 239, 11, 480, 71, 2, 848],
+		"2024-07-25": [128, 239, 11, 71, 848, 3],
+		"2024-07-27": [103, 128, 239, 244, 480, 71],
 		"2024-07-28": [103, 128, 239, 244, 71],
 		"2024-07-29": [128, 239, 71],
 		"2024-07-31": [128, 2, 3],
-		"2024-07-30": [2]
+		"2024-07-30": [480]
 	}
 }

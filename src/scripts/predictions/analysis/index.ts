@@ -19,23 +19,32 @@ type T_PredictionConfig =
 			date: Exclude<string, "today" | "tomorrow" | "yesterday">;
 			enableRemoteAPI: boolean;
 			previousDays: number;
+
+			leaguesFixturesDates?: never;
+			leagueStandings?: never;
 	  }
 	| {
 			date: "today" | "tomorrow" | "yesterday";
 			enableRemoteAPI: boolean;
-			previousDays?: never;
+
+			leaguesFixturesDates?: never;
+			leagueStandings?: never;
 	  }
 	| {
-			leaguesFixturesDates: { from: string; to: string };
+			leaguesFixturesDates: { from: string; to: string; ids: Array<number> };
+
 			date?: never;
-			previousDays?: never;
 			enableRemoteAPI?: never;
+			previousDays?: never;
+			leagueStandings?: never;
 	  }
 	| {
 			leagueStandings: Array<Pick<T_League, "id" | "season">>;
+
 			date?: never;
-			previousDays?: never;
 			enableRemoteAPI?: never;
+			previousDays?: never;
+			leaguesFixturesDates?: never;
 	  };
 
 export default async function main(config: T_PredictionConfig) {
@@ -279,7 +288,7 @@ function generateDates(
 		const baseDate = dayjs(new Date(config.date));
 
 		return [baseDate]
-			.concat(createArray(config.previousDays).map((day) => baseDate.subtract(day + 1)))
+			.concat(createArray(config.previousDays).map((day) => baseDate.subtract(day, "day")))
 			.map((date) => formatDate(date.toDate()));
 	}
 

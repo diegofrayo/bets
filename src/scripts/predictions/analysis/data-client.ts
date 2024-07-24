@@ -1,6 +1,6 @@
 import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
-import { removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
+import { omit, removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
 import { generateSlug } from "../../../@diegofrayo/utils/strings";
@@ -176,10 +176,12 @@ async function fetchLeagueStandings(
 
 	const parsedResponse = parseStandingsResponse(rawResponse);
 
-	writeFile(
-		`src/scripts/predictions/data/output/standings/${composeLeagueName(league.id, "full")}.json`,
-		parsedResponse,
-	);
+	if (parsedResponse.length > 0) {
+		writeFile(
+			`src/scripts/predictions/data/output/standings/${composeLeagueName(league.id, "full")}.json`,
+			parsedResponse,
+		);
+	}
 
 	return parsedResponse;
 }
@@ -213,13 +215,22 @@ async function updateTeamsFile(
 	writeFile("src/scripts/predictions/data/util/teams.json", await formatCode(outputTeams, "json"));
 }
 
-async function updateLeaguesFixtures(requestConfig: { from: string; to: string }) {
+async function updateLeaguesFixtures(requestConfig: {
+	from: string;
+	to: string;
+	ids: Array<number>;
+}) {
 	const output = {} as DR.Object<number[]>;
 	const leagues = LEAGUES.items.sort(sortBy("-enabled", "priority", "name"));
 
 	await asyncLoop(leagues, async (league) => {
 		try {
-			if (!league.enabled) return;
+			if (
+				!league.enabled ||
+				(requestConfig.ids.length > 0 && requestConfig.ids.indexOf(league.id) === -1)
+			) {
+				return;
+			}
 
 			console.log(`  Fetching "${league.name} (${league.id}|${league.country})" matches...`);
 			let leagueMatches;
@@ -240,7 +251,7 @@ async function updateLeaguesFixtures(requestConfig: { from: string; to: string }
 						timezone: "America/Bogota",
 						league: league.id,
 						season: league.season,
-						...requestConfig,
+						...omit(requestConfig, ["ids"]),
 					})
 				).data as T_RawMatchesResponse;
 			}
