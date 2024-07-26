@@ -21,6 +21,7 @@ export type T_RawMatchesResponse = {
 			name: string;
 		};
 		fixture: {
+			id: number;
 			date: string;
 		};
 		goals: {

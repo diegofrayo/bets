@@ -11,12 +11,12 @@
 				{
 					"teamId": 445,
 					"teamName": "Huracan",
-					"points": 14,
+					"points": 15,
 					"stats": {
 						"goalsDiff": 6,
-						"played": 6,
+						"played": 7,
 						"win": 4,
-						"draw": 2,
+						"draw": 3,
 						"lose": 0,
 						"goals": { "for": 9, "against": 3 }
 					}
@@ -35,16 +35,29 @@
 					}
 				},
 				{
+					"teamId": 456,
+					"teamName": "Talleres Cordoba",
+					"points": 14,
+					"stats": {
+						"goalsDiff": 4,
+						"played": 7,
+						"win": 4,
+						"draw": 2,
+						"lose": 1,
+						"goals": { "for": 12, "against": 8 }
+					}
+				},
+				{
 					"teamId": 436,
 					"teamName": "Racing Club",
 					"points": 13,
 					"stats": {
-						"goalsDiff": 9,
-						"played": 6,
+						"goalsDiff": 8,
+						"played": 7,
 						"win": 4,
 						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 15, "against": 6 }
+						"lose": 2,
+						"goals": { "for": 15, "against": 7 }
 					}
 				},
 				{
@@ -58,19 +71,6 @@
 						"draw": 1,
 						"lose": 1,
 						"goals": { "for": 10, "against": 5 }
-					}
-				},
-				{
-					"teamId": 456,
-					"teamName": "Talleres Cordoba",
-					"points": 13,
-					"stats": {
-						"goalsDiff": 4,
-						"played": 6,
-						"win": 4,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 11, "against": 7 }
 					}
 				},
 				{
@@ -104,12 +104,12 @@
 					"teamName": "River Plate",
 					"points": 10,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 6,
+						"goalsDiff": 4,
+						"played": 7,
 						"win": 3,
 						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 11, "against": 6 }
+						"lose": 3,
+						"goals": { "for": 12, "against": 8 }
 					}
 				},
 				{
@@ -123,6 +123,19 @@
 						"draw": 1,
 						"lose": 3,
 						"goals": { "for": 10, "against": 7 }
+					}
+				},
+				{
+					"teamId": 474,
+					"teamName": "Sarmiento Junin",
+					"points": 10,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 7,
+						"win": 3,
+						"draw": 1,
+						"lose": 3,
+						"goals": { "for": 8, "against": 8 }
 					}
 				},
 				{
@@ -165,6 +178,19 @@
 					}
 				},
 				{
+					"teamId": 450,
+					"teamName": "Estudiantes L.P.",
+					"points": 9,
+					"stats": {
+						"goalsDiff": 0,
+						"played": 7,
+						"win": 2,
+						"draw": 3,
+						"lose": 2,
+						"goals": { "for": 5, "against": 5 }
+					}
+				},
+				{
 					"teamId": 476,
 					"teamName": "Deportivo Riestra",
 					"points": 9,
@@ -188,19 +214,6 @@
 						"draw": 0,
 						"lose": 4,
 						"goals": { "for": 6, "against": 11 }
-					}
-				},
-				{
-					"teamId": 1064,
-					"teamName": "Platense",
-					"points": 8,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 6,
-						"win": 2,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 5, "against": 5 }
 					}
 				},
 				{
@@ -230,8 +243,8 @@
 					}
 				},
 				{
-					"teamId": 450,
-					"teamName": "Estudiantes L.P.",
+					"teamId": 1064,
+					"teamName": "Platense",
 					"points": 8,
 					"stats": {
 						"goalsDiff": 0,
@@ -240,19 +253,6 @@
 						"draw": 2,
 						"lose": 2,
 						"goals": { "for": 5, "against": 5 }
-					}
-				},
-				{
-					"teamId": 474,
-					"teamName": "Sarmiento Junin",
-					"points": 7,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 6,
-						"win": 2,
-						"draw": 1,
-						"lose": 3,
-						"goals": { "for": 7, "against": 8 }
 					}
 				},
 				{
@@ -295,6 +295,19 @@
 					}
 				},
 				{
+					"teamId": 442,
+					"teamName": "Defensa Y Justicia",
+					"points": 5,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 7,
+						"win": 0,
+						"draw": 5,
+						"lose": 2,
+						"goals": { "for": 6, "against": 9 }
+					}
+				},
+				{
 					"teamId": 449,
 					"teamName": "Banfield",
 					"points": 5,
@@ -334,29 +347,16 @@
 					}
 				},
 				{
-					"teamId": 442,
-					"teamName": "Defensa Y Justicia",
-					"points": 4,
+					"teamId": 439,
+					"teamName": "Godoy Cruz",
+					"points": 3,
 					"stats": {
 						"goalsDiff": -3,
 						"played": 6,
-						"win": 0,
-						"draw": 4,
-						"lose": 2,
-						"goals": { "for": 5, "against": 8 }
-					}
-				},
-				{
-					"teamId": 439,
-					"teamName": "Godoy Cruz",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -4,
-						"played": 5,
-						"win": 0,
+						"win": 1,
 						"draw": 3,
 						"lose": 2,
-						"goals": { "for": 2, "against": 6 }
+						"goals": { "for": 4, "against": 7 }
 					}
 				},
 				{
@@ -376,18 +376,20 @@
 		],
 		"matches": [
 			{
-				"id": "2024-07-25-lanus-belgrano-cordoba",
+				"id": "1158746",
 				"fullDate": "2024-07-25T16:45",
 				"date": "2024-07-25",
 				"hour": "16:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 446,
 						"name": "Lanus",
 						"country": "🇦🇷",
-						"position": 12,
+						"position": 13,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -488,7 +490,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-river-plate-lanus",
+								"id": "1158741",
 								"fullDate": "2024-07-21T13:00",
 								"date": "2024-07-21",
 								"hour": "13:00",
@@ -506,7 +508,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -516,7 +518,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-13-lanus-racing-club",
+								"id": "1158719",
 								"fullDate": "2024-06-13T19:15",
 								"date": "2024-06-13",
 								"hour": "19:15",
@@ -525,7 +527,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -534,7 +536,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -544,7 +546,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-02-rosario-central-lanus",
+								"id": "1158712",
 								"fullDate": "2024-06-02T16:00",
 								"date": "2024-06-02",
 								"hour": "16:00",
@@ -553,7 +555,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -562,7 +564,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -572,7 +574,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-29-lanus-cuiaba",
+								"id": "1187175",
 								"fullDate": "2024-05-29T17:00",
 								"date": "2024-05-29",
 								"hour": "17:00",
@@ -581,7 +583,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -600,7 +602,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-24-lanus-estudiantes-lp",
+								"id": "1158692",
 								"fullDate": "2024-05-24T19:15",
 								"date": "2024-05-24",
 								"hour": "19:15",
@@ -609,7 +611,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -618,7 +620,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -628,7 +630,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-20-san-lorenzo-lanus",
+								"id": "1158683",
 								"fullDate": "2024-05-20T17:00",
 								"date": "2024-05-20",
 								"hour": "17:00",
@@ -646,7 +648,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -656,7 +658,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-15-lanus-metropolitanos-fc",
+								"id": "1187158",
 								"fullDate": "2024-05-15T17:00",
 								"date": "2024-05-15",
 								"hour": "17:00",
@@ -665,7 +667,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -684,7 +686,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-12-lanus-independ-rivadavia",
+								"id": "1158665",
 								"fullDate": "2024-05-12T15:45",
 								"date": "2024-05-12",
 								"hour": "15:45",
@@ -693,7 +695,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -712,7 +714,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-09-deportivo-garcilaso-lanus",
+								"id": "1187151",
 								"fullDate": "2024-05-09T21:00",
 								"date": "2024-05-09",
 								"hour": "21:00",
@@ -730,7 +732,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -740,7 +742,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-25-metropolitanos-fc-lanus",
+								"id": "1187132",
 								"fullDate": "2024-04-25T17:00",
 								"date": "2024-04-25",
 								"hour": "17:00",
@@ -758,7 +760,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -768,7 +770,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-17-lanus-estudiantes-lp",
+								"id": "1158655",
 								"fullDate": "2024-04-17T17:30",
 								"date": "2024-04-17",
 								"hour": "17:30",
@@ -777,7 +779,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -786,7 +788,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -796,7 +798,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-11-lanus-deportivo-garcilaso",
+								"id": "1187116",
 								"fullDate": "2024-04-11T17:00",
 								"date": "2024-04-11",
 								"hour": "17:00",
@@ -805,7 +807,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -824,7 +826,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-07-racing-club-lanus",
+								"id": "1158644",
 								"fullDate": "2024-04-07T16:30",
 								"date": "2024-04-07",
 								"hour": "16:30",
@@ -833,7 +835,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -842,7 +844,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -852,7 +854,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-03-cuiaba-lanus",
+								"id": "1187095",
 								"fullDate": "2024-04-03T17:00",
 								"date": "2024-04-03",
 								"hour": "17:00",
@@ -870,7 +872,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -880,7 +882,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-03-27-lanus-union-santa-fe",
+								"id": "1158626",
 								"fullDate": "2024-03-27T19:30",
 								"date": "2024-03-27",
 								"hour": "19:30",
@@ -889,7 +891,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -915,6 +917,8 @@
 						"country": "🇦🇷",
 						"position": 7,
 						"featured": false,
+						"score": 2,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -1015,7 +1019,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-19-belgrano-cordoba-deportivo-riestra",
+								"id": "1158742",
 								"fullDate": "2024-07-19T17:00",
 								"date": "2024-07-19",
 								"hour": "17:00",
@@ -1033,7 +1037,7 @@
 										"id": 476,
 										"name": "Deportivo Riestra",
 										"country": "🇦🇷",
-										"position": 13,
+										"position": 15,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1043,7 +1047,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-13-tigre-belgrano-cordoba",
+								"id": "1158717",
 								"fullDate": "2024-06-13T17:00",
 								"date": "2024-06-13",
 								"hour": "17:00",
@@ -1052,7 +1056,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1071,7 +1075,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-01-belgrano-cordoba-argentinos-jrs",
+								"id": "1158715",
 								"fullDate": "2024-06-01T18:15",
 								"date": "2024-06-01",
 								"hour": "18:15",
@@ -1089,7 +1093,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1099,7 +1103,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-28-internacional-belgrano-cordoba",
+								"id": "1187173",
 								"fullDate": "2024-05-28T19:30",
 								"date": "2024-05-28",
 								"hour": "19:30",
@@ -1127,7 +1131,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-24-belgrano-cordoba-central-cordoba-de-santiago",
+								"id": "1158688",
 								"fullDate": "2024-05-24T19:15",
 								"date": "2024-05-24",
 								"hour": "19:15",
@@ -1155,7 +1159,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-18-river-plate-belgrano-cordoba",
+								"id": "1158687",
 								"fullDate": "2024-05-18T16:00",
 								"date": "2024-05-18",
 								"hour": "16:00",
@@ -1183,7 +1187,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-15-belgrano-cordoba-real-tomayapo",
+								"id": "1187159",
 								"fullDate": "2024-05-15T17:00",
 								"date": "2024-05-15",
 								"hour": "17:00",
@@ -1211,7 +1215,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-12-belgrano-cordoba-racing-club",
+								"id": "1158661",
 								"fullDate": "2024-05-12T15:45",
 								"date": "2024-05-12",
 								"hour": "15:45",
@@ -1229,7 +1233,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 4,
 										"winner": null
@@ -1239,7 +1243,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-09-belgrano-cordoba-delfin-sc",
+								"id": "1187149",
 								"fullDate": "2024-05-09T17:00",
 								"date": "2024-05-09",
 								"hour": "17:00",
@@ -1267,7 +1271,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-24-real-tomayapo-belgrano-cordoba",
+								"id": "1187129",
 								"fullDate": "2024-04-24T19:30",
 								"date": "2024-04-24",
 								"hour": "19:30",
@@ -1295,7 +1299,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-17-belgrano-cordoba-racing-club",
+								"id": "1158654",
 								"fullDate": "2024-04-17T17:30",
 								"date": "2024-04-17",
 								"hour": "17:30",
@@ -1313,7 +1317,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -1323,7 +1327,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-11-delfin-sc-belgrano-cordoba",
+								"id": "1187120",
 								"fullDate": "2024-04-11T21:00",
 								"date": "2024-04-11",
 								"hour": "21:00",
@@ -1351,7 +1355,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-06-union-santa-fe-belgrano-cordoba",
+								"id": "1158645",
 								"fullDate": "2024-04-06T19:30",
 								"date": "2024-04-06",
 								"hour": "19:30",
@@ -1379,7 +1383,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-02-belgrano-cordoba-internacional",
+								"id": "1187091",
 								"fullDate": "2024-04-02T17:00",
 								"date": "2024-04-02",
 								"hour": "17:00",
@@ -1407,7 +1411,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-03-29-tigre-belgrano-cordoba",
+								"id": "1158625",
 								"fullDate": "2024-03-29T16:00",
 								"date": "2024-03-29",
 								"hour": "16:00",
@@ -1416,7 +1420,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1460,23 +1464,26 @@
 								]
 							}
 						],
-						"trustLevel": "1|HIGH"
+						"trustLevel": "1|HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			},
 			{
-				"id": "2024-07-25-platense-velez-sarsfield",
+				"id": "1158757",
 				"fullDate": "2024-07-25T16:45",
 				"date": "2024-07-25",
 				"hour": "16:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1064,
 						"name": "Platense",
 						"country": "🇦🇷",
-						"position": 15,
+						"position": 19,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -1577,7 +1584,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-central-cordoba-de-santiago-platense",
+								"id": "1158730",
 								"fullDate": "2024-07-21T15:15",
 								"date": "2024-07-21",
 								"hour": "15:15",
@@ -1595,7 +1602,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1605,7 +1612,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-14-talleres-cordoba-platense",
+								"id": "1158729",
 								"fullDate": "2024-06-14T17:00",
 								"date": "2024-06-14",
 								"hour": "17:00",
@@ -1614,7 +1621,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1623,7 +1630,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1633,7 +1640,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-08-platense-huracan",
+								"id": "1193288",
 								"fullDate": "2024-06-08T15:20",
 								"date": "2024-06-08",
 								"hour": "15:20",
@@ -1642,7 +1649,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1661,7 +1668,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-06-02-platense-boca-juniors",
+								"id": "1158703",
 								"fullDate": "2024-06-02T12:30",
 								"date": "2024-06-02",
 								"hour": "12:30",
@@ -1670,7 +1677,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -1679,7 +1686,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -1689,7 +1696,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-27-atletico-tucuman-platense",
+								"id": "1158700",
 								"fullDate": "2024-05-27T19:00",
 								"date": "2024-05-27",
 								"hour": "19:00",
@@ -1707,7 +1714,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -1717,7 +1724,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-19-platense-independiente",
+								"id": "1158676",
 								"fullDate": "2024-05-19T13:30",
 								"date": "2024-05-19",
 								"hour": "13:30",
@@ -1726,7 +1733,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1745,7 +1752,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-10-newells-old-boys-platense",
+								"id": "1158671",
 								"fullDate": "2024-05-10T19:15",
 								"date": "2024-05-10",
 								"hour": "19:15",
@@ -1754,7 +1761,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1763,7 +1770,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1773,7 +1780,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-14-sarmiento-junin-platense",
+								"id": "1158659",
 								"fullDate": "2024-04-14T14:00",
 								"date": "2024-04-14",
 								"hour": "14:00",
@@ -1782,7 +1789,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 19,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1791,7 +1798,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -1801,7 +1808,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-08-platense-tigre",
+								"id": "1158639",
 								"fullDate": "2024-04-08T18:00",
 								"date": "2024-04-08",
 								"hour": "18:00",
@@ -1810,7 +1817,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -1819,7 +1826,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1829,7 +1836,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-02-platense-godoy-cruz",
+								"id": "1158631",
 								"fullDate": "2024-04-02T17:00",
 								"date": "2024-04-02",
 								"hour": "17:00",
@@ -1838,7 +1845,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1857,7 +1864,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-25-platense-olimpo-bahia-blanca",
+								"id": "1151685",
 								"fullDate": "2024-03-25T17:30",
 								"date": "2024-03-25",
 								"hour": "17:30",
@@ -1866,7 +1873,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": true
@@ -1885,7 +1892,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-03-15-newells-old-boys-platense",
+								"id": "1158612",
 								"fullDate": "2024-03-15T19:00",
 								"date": "2024-03-15",
 								"hour": "19:00",
@@ -1894,7 +1901,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1903,7 +1910,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1913,7 +1920,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-09-platense-san-lorenzo",
+								"id": "1158602",
 								"fullDate": "2024-03-09T19:30",
 								"date": "2024-03-09",
 								"hour": "19:30",
@@ -1922,7 +1929,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1941,7 +1948,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-06-estudiantes-lp-platense",
+								"id": "1158585",
 								"fullDate": "2024-03-06T17:15",
 								"date": "2024-03-06",
 								"hour": "17:15",
@@ -1950,7 +1957,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -1959,7 +1966,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -1969,7 +1976,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-01-platense-racing-club",
+								"id": "1158573",
 								"fullDate": "2024-03-01T19:15",
 								"date": "2024-03-01",
 								"hour": "19:15",
@@ -1978,7 +1985,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1987,7 +1994,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -2002,8 +2009,10 @@
 						"id": 438,
 						"name": "Velez Sarsfield",
 						"country": "🇦🇷",
-						"position": 17,
+						"position": 18,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -2104,7 +2113,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-velez-sarsfield-talleres-cordoba",
+								"id": "1158731",
 								"fullDate": "2024-07-21T18:00",
 								"date": "2024-07-21",
 								"hour": "18:00",
@@ -2113,7 +2122,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -2122,7 +2131,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 3,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2132,7 +2141,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-14-boca-juniors-velez-sarsfield",
+								"id": "1158728",
 								"fullDate": "2024-06-14T17:00",
 								"date": "2024-06-14",
 								"hour": "17:00",
@@ -2141,7 +2150,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 17,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2150,7 +2159,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2160,7 +2169,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-05-arsenal-sarandi-velez-sarsfield",
+								"id": "1199894",
 								"fullDate": "2024-06-05T19:15",
 								"date": "2024-06-05",
 								"hour": "19:15",
@@ -2178,7 +2187,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2188,7 +2197,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-06-01-velez-sarsfield-atletico-tucuman",
+								"id": "1158704",
 								"fullDate": "2024-06-01T18:15",
 								"date": "2024-06-01",
 								"hour": "18:15",
@@ -2197,7 +2206,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2216,7 +2225,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-26-independiente-velez-sarsfield",
+								"id": "1158699",
 								"fullDate": "2024-05-26T18:00",
 								"date": "2024-05-26",
 								"hour": "18:00",
@@ -2234,7 +2243,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2244,7 +2253,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-21-velez-sarsfield-newells-old-boys",
+								"id": "1158677",
 								"fullDate": "2024-05-21T18:00",
 								"date": "2024-05-21",
 								"hour": "18:00",
@@ -2253,7 +2262,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -2262,7 +2271,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2272,7 +2281,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-13-gimnasia-lp-velez-sarsfield",
+								"id": "1158670",
 								"fullDate": "2024-05-13T17:00",
 								"date": "2024-05-13",
 								"hour": "17:00",
@@ -2290,7 +2299,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2300,7 +2309,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-05-estudiantes-lp-velez-sarsfield",
+								"id": "1198418",
 								"fullDate": "2024-05-05T13:30",
 								"date": "2024-05-05",
 								"hour": "13:30",
@@ -2309,7 +2318,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2318,7 +2327,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2328,7 +2337,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-28-argentinos-jrs-velez-sarsfield",
+								"id": "1197147",
 								"fullDate": "2024-04-28T13:30",
 								"date": "2024-04-28",
 								"hour": "13:30",
@@ -2337,7 +2346,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2346,7 +2355,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": true
@@ -2356,7 +2365,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-20-godoy-cruz-velez-sarsfield",
+								"id": "1196705",
 								"fullDate": "2024-04-20T19:15",
 								"date": "2024-04-20",
 								"hour": "19:15",
@@ -2374,7 +2383,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2384,7 +2393,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-15-independ-rivadavia-velez-sarsfield",
+								"id": "1158646",
 								"fullDate": "2024-04-15T18:00",
 								"date": "2024-04-15",
 								"hour": "18:00",
@@ -2402,7 +2411,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -2412,7 +2421,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-06-velez-sarsfield-argentinos-jrs",
+								"id": "1158632",
 								"fullDate": "2024-04-06T17:30",
 								"date": "2024-04-06",
 								"hour": "17:30",
@@ -2421,7 +2430,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2430,7 +2439,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2440,7 +2449,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-30-talleres-cordoba-velez-sarsfield",
+								"id": "1158618",
 								"fullDate": "2024-03-30T18:00",
 								"date": "2024-03-30",
 								"hour": "18:00",
@@ -2449,7 +2458,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 3,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2458,7 +2467,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2468,7 +2477,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-16-velez-sarsfield-instituto-cordoba",
+								"id": "1158604",
 								"fullDate": "2024-03-16T19:30",
 								"date": "2024-03-16",
 								"hour": "19:30",
@@ -2477,7 +2486,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -2486,7 +2495,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -2496,7 +2505,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-11-banfield-velez-sarsfield",
+								"id": "1158590",
 								"fullDate": "2024-03-11T19:15",
 								"date": "2024-03-11",
 								"hour": "19:15",
@@ -2505,7 +2514,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2514,7 +2523,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2549,23 +2558,26 @@
 								]
 							}
 						],
-						"trustLevel": "3|LOW"
+						"trustLevel": "3|LOW",
+						"results": { "right": false, "lostRight": false, "fail": false, "skippedFail": true }
 					}
 				]
 			},
 			{
-				"id": "2024-07-25-tigre-central-cordoba-de-santiago",
+				"id": "1158744",
 				"fullDate": "2024-07-25T19:00",
 				"date": "2024-07-25",
 				"hour": "19:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 452,
 						"name": "Tigre",
 						"country": "🇦🇷",
-						"position": 24,
+						"position": 25,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -2666,7 +2678,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-18-argentinos-jrs-tigre",
+								"id": "1158743",
 								"fullDate": "2024-07-18T16:45",
 								"date": "2024-07-18",
 								"hour": "16:45",
@@ -2675,7 +2687,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2684,7 +2696,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2694,7 +2706,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-13-tigre-belgrano-cordoba",
+								"id": "1158717",
 								"fullDate": "2024-06-13T17:00",
 								"date": "2024-06-13",
 								"hour": "17:00",
@@ -2703,7 +2715,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2722,7 +2734,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-02-river-plate-tigre",
+								"id": "1158714",
 								"fullDate": "2024-06-02T18:15",
 								"date": "2024-06-02",
 								"hour": "18:15",
@@ -2740,7 +2752,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2750,7 +2762,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-24-tigre-racing-club",
+								"id": "1158690",
 								"fullDate": "2024-05-24T17:00",
 								"date": "2024-05-24",
 								"hour": "17:00",
@@ -2759,7 +2771,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2768,7 +2780,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -2778,7 +2790,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-20-rosario-central-tigre",
+								"id": "1158685",
 								"fullDate": "2024-05-20T19:15",
 								"date": "2024-05-20",
 								"hour": "19:15",
@@ -2787,7 +2799,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2796,7 +2808,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2806,7 +2818,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-12-tigre-estudiantes-lp",
+								"id": "1158663",
 								"fullDate": "2024-05-12T13:30",
 								"date": "2024-05-12",
 								"hour": "13:30",
@@ -2815,7 +2827,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2824,7 +2836,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -2834,7 +2846,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-17-tigre-chacarita-juniors",
+								"id": "1151671",
 								"fullDate": "2024-04-17T13:40",
 								"date": "2024-04-17",
 								"hour": "13:40",
@@ -2843,7 +2855,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -2862,7 +2874,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-04-13-tigre-union-santa-fe",
+								"id": "1158653",
 								"fullDate": "2024-04-13T15:00",
 								"date": "2024-04-13",
 								"hour": "15:00",
@@ -2871,7 +2883,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2890,7 +2902,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-08-platense-tigre",
+								"id": "1158639",
 								"fullDate": "2024-04-08T18:00",
 								"date": "2024-04-08",
 								"hour": "18:00",
@@ -2899,7 +2911,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -2908,7 +2920,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2918,7 +2930,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-29-tigre-belgrano-cordoba",
+								"id": "1158625",
 								"fullDate": "2024-03-29T16:00",
 								"date": "2024-03-29",
 								"hour": "16:00",
@@ -2927,7 +2939,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2946,7 +2958,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-17-godoy-cruz-tigre",
+								"id": "1158611",
 								"fullDate": "2024-03-17T14:00",
 								"date": "2024-03-17",
 								"hour": "14:00",
@@ -2964,7 +2976,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2974,7 +2986,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-11-tigre-lanus",
+								"id": "1158597",
 								"fullDate": "2024-03-11T17:00",
 								"date": "2024-03-11",
 								"hour": "17:00",
@@ -2983,7 +2995,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -2992,7 +3004,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -3002,7 +3014,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-07-newells-old-boys-tigre",
+								"id": "1158583",
 								"fullDate": "2024-03-07T19:15",
 								"date": "2024-03-07",
 								"hour": "19:15",
@@ -3011,7 +3023,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3020,7 +3032,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3030,7 +3042,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-01-tigre-central-cordoba-de-santiago",
+								"id": "1158569",
 								"fullDate": "2024-03-01T17:00",
 								"date": "2024-03-01",
 								"hour": "17:00",
@@ -3039,7 +3051,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3058,7 +3070,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-26-velez-sarsfield-tigre",
+								"id": "1158557",
 								"fullDate": "2024-02-26T19:30",
 								"date": "2024-02-26",
 								"hour": "19:30",
@@ -3067,7 +3079,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -3076,7 +3088,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -3093,6 +3105,8 @@
 						"country": "🇦🇷",
 						"position": 28,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3193,7 +3207,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-central-cordoba-de-santiago-platense",
+								"id": "1158730",
 								"fullDate": "2024-07-21T15:15",
 								"date": "2024-07-21",
 								"hour": "15:15",
@@ -3211,7 +3225,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3221,7 +3235,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-07-17-estudiantes-lp-central-cordoba-de-santiago",
+								"id": "1193289",
 								"fullDate": "2024-07-17T16:00",
 								"date": "2024-07-17",
 								"hour": "16:00",
@@ -3230,7 +3244,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -3249,7 +3263,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-06-12-argentinos-jrs-central-cordoba-de-santiago",
+								"id": "1158716",
 								"fullDate": "2024-06-12T17:00",
 								"date": "2024-06-12",
 								"hour": "17:00",
@@ -3258,7 +3272,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -3277,7 +3291,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-02-central-cordoba-de-santiago-talleres-cordoba",
+								"id": "1158702",
 								"fullDate": "2024-06-02T16:00",
 								"date": "2024-06-02",
 								"hour": "16:00",
@@ -3295,7 +3309,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 3,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -3305,7 +3319,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-24-belgrano-cordoba-central-cordoba-de-santiago",
+								"id": "1158688",
 								"fullDate": "2024-05-24T19:15",
 								"date": "2024-05-24",
 								"hour": "19:15",
@@ -3333,7 +3347,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-19-central-cordoba-de-santiago-boca-juniors",
+								"id": "1158674",
 								"fullDate": "2024-05-19T18:00",
 								"date": "2024-05-19",
 								"hour": "18:00",
@@ -3351,7 +3365,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 17,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -3361,7 +3375,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-11-river-plate-central-cordoba-de-santiago",
+								"id": "1158660",
 								"fullDate": "2024-05-11T17:45",
 								"date": "2024-05-11",
 								"hour": "17:45",
@@ -3389,7 +3403,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-14-central-cordoba-de-santiago-san-lorenzo",
+								"id": "1158656",
 								"fullDate": "2024-04-14T18:00",
 								"date": "2024-04-14",
 								"hour": "18:00",
@@ -3417,7 +3431,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-07-estudiantes-lp-central-cordoba-de-santiago",
+								"id": "1158643",
 								"fullDate": "2024-04-07T17:15",
 								"date": "2024-04-07",
 								"hour": "17:15",
@@ -3426,7 +3440,7 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": "🇦🇷",
-										"position": 18,
+										"position": 14,
 										"featured": true,
 										"score": 5,
 										"winner": true
@@ -3445,7 +3459,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-02-central-cordoba-de-santiago-quilmes",
+								"id": "1151688",
 								"fullDate": "2024-04-02T14:00",
 								"date": "2024-04-02",
 								"hour": "14:00",
@@ -3473,7 +3487,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-03-30-central-cordoba-de-santiago-racing-club",
+								"id": "1158627",
 								"fullDate": "2024-03-30T17:00",
 								"date": "2024-03-30",
 								"hour": "17:00",
@@ -3491,7 +3505,7 @@
 										"id": 436,
 										"name": "Racing Club",
 										"country": "🇦🇷",
-										"position": 3,
+										"position": 4,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -3501,7 +3515,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-18-union-santa-fe-central-cordoba-de-santiago",
+								"id": "1158616",
 								"fullDate": "2024-03-18T19:15",
 								"date": "2024-03-18",
 								"hour": "19:15",
@@ -3529,7 +3543,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-12-central-cordoba-de-santiago-belgrano-cordoba",
+								"id": "1158598",
 								"fullDate": "2024-03-12T19:15",
 								"date": "2024-03-12",
 								"hour": "19:15",
@@ -3557,7 +3571,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-07-lanus-central-cordoba-de-santiago",
+								"id": "1158589",
 								"fullDate": "2024-03-07T17:00",
 								"date": "2024-03-07",
 								"hour": "17:00",
@@ -3566,7 +3580,7 @@
 										"id": 446,
 										"name": "Lanus",
 										"country": "🇦🇷",
-										"position": 12,
+										"position": 13,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3585,7 +3599,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-01-tigre-central-cordoba-de-santiago",
+								"id": "1158569",
 								"fullDate": "2024-03-01T17:00",
 								"date": "2024-03-01",
 								"hour": "17:00",
@@ -3594,7 +3608,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": "🇦🇷",
-										"position": 24,
+										"position": 25,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -3638,16 +3652,17 @@
 								]
 							}
 						],
-						"trustLevel": "3|LOW"
+						"trustLevel": "3|LOW",
+						"results": { "right": false, "lostRight": true, "fail": false, "skippedFail": false }
 					}
 				]
 			},
 			{
-				"id": "2024-07-25-atletico-tucuman-instituto-cordoba",
+				"id": "1158754",
 				"fullDate": "2024-07-25T19:00",
 				"date": "2024-07-25",
 				"hour": "19:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 455,
@@ -3655,6 +3670,8 @@
 						"country": "🇦🇷",
 						"position": 20,
 						"featured": false,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3755,7 +3772,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-20-banfield-atletico-tucuman",
+								"id": "1158733",
 								"fullDate": "2024-07-20T17:30",
 								"date": "2024-07-20",
 								"hour": "17:30",
@@ -3764,7 +3781,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 24,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3783,7 +3800,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-15-atletico-tucuman-defensa-y-justicia",
+								"id": "1158727",
 								"fullDate": "2024-06-15T18:30",
 								"date": "2024-06-15",
 								"hour": "18:30",
@@ -3801,7 +3818,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": "🇦🇷",
-										"position": 26,
+										"position": 23,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3811,7 +3828,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-01-velez-sarsfield-atletico-tucuman",
+								"id": "1158704",
 								"fullDate": "2024-06-01T18:15",
 								"date": "2024-06-01",
 								"hour": "18:15",
@@ -3820,7 +3837,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3839,7 +3856,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-27-atletico-tucuman-platense",
+								"id": "1158700",
 								"fullDate": "2024-05-27T19:00",
 								"date": "2024-05-27",
 								"hour": "19:00",
@@ -3857,7 +3874,7 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": "🇦🇷",
-										"position": 15,
+										"position": 19,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3867,7 +3884,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-22-atletico-tucuman-gimnasia-lp",
+								"id": "1192639",
 								"fullDate": "2024-05-22T19:10",
 								"date": "2024-05-22",
 								"hour": "19:10",
@@ -3895,7 +3912,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-05-19-talleres-cordoba-atletico-tucuman",
+								"id": "1158675",
 								"fullDate": "2024-05-19T15:45",
 								"date": "2024-05-19",
 								"hour": "15:45",
@@ -3904,7 +3921,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -3923,7 +3940,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-12-atletico-tucuman-boca-juniors",
+								"id": "1158673",
 								"fullDate": "2024-05-12T18:15",
 								"date": "2024-05-12",
 								"hour": "18:15",
@@ -3941,7 +3958,7 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": "🇦🇷",
-										"position": 16,
+										"position": 17,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -3951,7 +3968,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-14-huracan-atletico-tucuman",
+								"id": "1158649",
 								"fullDate": "2024-04-14T17:00",
 								"date": "2024-04-14",
 								"hour": "17:00",
@@ -3979,7 +3996,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-07-atletico-tucuman-gimnasia-lp",
+								"id": "1158636",
 								"fullDate": "2024-04-07T14:00",
 								"date": "2024-04-07",
 								"hour": "14:00",
@@ -4007,7 +4024,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-31-independiente-atletico-tucuman",
+								"id": "1158620",
 								"fullDate": "2024-03-31T16:30",
 								"date": "2024-03-31",
 								"hour": "16:30",
@@ -4035,7 +4052,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-20-atletico-tucuman-defensores-de-belgrano",
+								"id": "1151668",
 								"fullDate": "2024-03-20T19:10",
 								"date": "2024-03-20",
 								"hour": "19:10",
@@ -4063,7 +4080,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-03-16-atletico-tucuman-independ-rivadavia",
+								"id": "1158609",
 								"fullDate": "2024-03-16T19:30",
 								"date": "2024-03-16",
 								"hour": "19:30",
@@ -4091,7 +4108,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-10-talleres-cordoba-atletico-tucuman",
+								"id": "1158591",
 								"fullDate": "2024-03-10T17:15",
 								"date": "2024-03-10",
 								"hour": "17:15",
@@ -4100,7 +4117,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": "🇦🇷",
-										"position": 5,
+										"position": 3,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -4119,7 +4136,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-06-atletico-tucuman-banfield",
+								"id": "1158582",
 								"fullDate": "2024-03-06T19:30",
 								"date": "2024-03-06",
 								"hour": "19:30",
@@ -4137,7 +4154,7 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": "🇦🇷",
-										"position": 23,
+										"position": 24,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -4147,7 +4164,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-02-atletico-tucuman-velez-sarsfield",
+								"id": "1158562",
 								"fullDate": "2024-03-02T17:00",
 								"date": "2024-03-02",
 								"hour": "17:00",
@@ -4165,7 +4182,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4180,8 +4197,10 @@
 						"id": 478,
 						"name": "Instituto Cordoba",
 						"country": "🇦🇷",
-						"position": 4,
+						"position": 5,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4282,7 +4301,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-18-instituto-cordoba-independiente",
+								"id": "1158734",
 								"fullDate": "2024-07-18T19:00",
 								"date": "2024-07-18",
 								"hour": "19:00",
@@ -4291,7 +4310,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4310,7 +4329,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-13-newells-old-boys-instituto-cordoba",
+								"id": "1158725",
 								"fullDate": "2024-06-13T19:15",
 								"date": "2024-06-13",
 								"hour": "19:15",
@@ -4319,7 +4338,7 @@
 										"id": 457,
 										"name": "Newells Old Boys",
 										"country": "🇦🇷",
-										"position": 10,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4328,7 +4347,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4338,7 +4357,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-06-02-instituto-cordoba-gimnasia-lp",
+								"id": "1158707",
 								"fullDate": "2024-06-02T18:15",
 								"date": "2024-06-02",
 								"hour": "18:15",
@@ -4347,7 +4366,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4366,7 +4385,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-26-huracan-instituto-cordoba",
+								"id": "1158696",
 								"fullDate": "2024-05-26T13:30",
 								"date": "2024-05-26",
 								"hour": "13:30",
@@ -4384,7 +4403,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4394,7 +4413,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-18-instituto-cordoba-union-santa-fe",
+								"id": "1158680",
 								"fullDate": "2024-05-18T18:30",
 								"date": "2024-05-18",
 								"hour": "18:30",
@@ -4403,7 +4422,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -4422,7 +4441,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-05-10-sarmiento-junin-instituto-cordoba",
+								"id": "1158667",
 								"fullDate": "2024-05-10T17:00",
 								"date": "2024-05-10",
 								"hour": "17:00",
@@ -4431,7 +4450,7 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": "🇦🇷",
-										"position": 19,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -4440,7 +4459,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4450,7 +4469,7 @@
 								"league": { "id": 128, "name": "Liga Profesional Argentina" }
 							},
 							{
-								"id": "2024-04-15-instituto-cordoba-river-plate",
+								"id": "1158651",
 								"fullDate": "2024-04-15T18:00",
 								"date": "2024-04-15",
 								"hour": "18:00",
@@ -4459,7 +4478,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -4478,7 +4497,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-07-barracas-central-instituto-cordoba",
+								"id": "1158633",
 								"fullDate": "2024-04-07T14:00",
 								"date": "2024-04-07",
 								"hour": "14:00",
@@ -4487,7 +4506,7 @@
 										"id": 2432,
 										"name": "Barracas Central",
 										"country": "🇦🇷",
-										"position": 25,
+										"position": 26,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -4496,7 +4515,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": false
@@ -4506,7 +4525,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-04-03-instituto-cordoba-talleres-remedios",
+								"id": "1151680",
 								"fullDate": "2024-04-03T17:00",
 								"date": "2024-04-03",
 								"hour": "17:00",
@@ -4515,7 +4534,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -4534,7 +4553,7 @@
 								"league": { "id": 130, "name": "Copa Argentina" }
 							},
 							{
-								"id": "2024-03-28-instituto-cordoba-argentinos-jrs",
+								"id": "1158624",
 								"fullDate": "2024-03-28T19:00",
 								"date": "2024-03-28",
 								"hour": "19:00",
@@ -4543,7 +4562,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -4552,7 +4571,7 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": "🇦🇷",
-										"position": 14,
+										"position": 16,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -4562,7 +4581,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-16-velez-sarsfield-instituto-cordoba",
+								"id": "1158604",
 								"fullDate": "2024-03-16T19:30",
 								"date": "2024-03-16",
 								"hour": "19:30",
@@ -4571,7 +4590,7 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": "🇦🇷",
-										"position": 17,
+										"position": 18,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4580,7 +4599,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4590,7 +4609,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-09-rosario-central-instituto-cordoba",
+								"id": "1158596",
 								"fullDate": "2024-03-09T19:30",
 								"date": "2024-03-09",
 								"hour": "19:30",
@@ -4599,7 +4618,7 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": "🇦🇷",
-										"position": 11,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -4608,7 +4627,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4618,7 +4637,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-03-04-instituto-cordoba-huracan",
+								"id": "1158577",
 								"fullDate": "2024-03-04T19:00",
 								"date": "2024-03-04",
 								"hour": "19:00",
@@ -4627,7 +4646,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -4646,7 +4665,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-29-gimnasia-lp-instituto-cordoba",
+								"id": "1158567",
 								"fullDate": "2024-02-29T17:00",
 								"date": "2024-02-29",
 								"hour": "17:00",
@@ -4664,7 +4683,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -4674,7 +4693,7 @@
 								"league": { "id": 1032, "name": "Copa de la Liga Profesional" }
 							},
 							{
-								"id": "2024-02-25-instituto-cordoba-godoy-cruz",
+								"id": "1158561",
 								"fullDate": "2024-02-25T20:00",
 								"date": "2024-02-25",
 								"hour": "20:00",
@@ -4683,7 +4702,7 @@
 										"id": 478,
 										"name": "Instituto Cordoba",
 										"country": "🇦🇷",
-										"position": 4,
+										"position": 5,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -4727,7 +4746,8 @@
 								]
 							}
 						],
-						"trustLevel": "1|HIGH"
+						"trustLevel": "1|HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			}
@@ -4740,284 +4760,23 @@
 		"country": "Colombia",
 		"priority": 1,
 		"flag": "🇨🇴",
-		"standings": [
-			[
-				{
-					"teamId": 1137,
-					"teamName": "Atletico Nacional",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 3,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 4, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1139,
-					"teamName": "Santa Fe",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1136,
-					"teamName": "Once Caldas",
-					"points": 6,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 0 }
-					}
-				},
-				{
-					"teamId": 1462,
-					"teamName": "Deportivo Pereira",
-					"points": 4,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1147,
-					"teamName": "Fortaleza FC",
-					"points": 4,
-					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1142,
-					"teamName": "Deportes Tolima",
-					"points": 4,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 3, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1125,
-					"teamName": "Millonarios",
-					"points": 4,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 2, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1138,
-					"teamName": "America de Cali",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 3, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1134,
-					"teamName": "La Equidad",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1129,
-					"teamName": "Envigado",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1135,
-					"teamName": "Junior",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1131,
-					"teamName": "Bucaramanga",
-					"points": 3,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1127,
-					"teamName": "Deportivo Cali",
-					"points": 3,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1128,
-					"teamName": "Independiente Medellin",
-					"points": 2,
-					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 0,
-						"draw": 2,
-						"lose": 0,
-						"goals": { "for": 2, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1133,
-					"teamName": "Jaguares",
-					"points": 1,
-					"stats": {
-						"goalsDiff": -1,
-						"played": 2,
-						"win": 0,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
-					}
-				},
-				{
-					"teamId": 1140,
-					"teamName": "Patriotas",
-					"points": 1,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 0, "against": 2 }
-					}
-				},
-				{
-					"teamId": 1126,
-					"teamName": "Deportivo Pasto",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 2, "against": 4 }
-					}
-				},
-				{
-					"teamId": 1132,
-					"teamName": "Chico",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 1, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1144,
-					"teamName": "Rionegro Aguilas",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 1, "against": 3 }
-					}
-				},
-				{
-					"teamId": 1141,
-					"teamName": "Alianza Petrolera",
-					"points": 0,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 0, "against": 3 }
-					}
-				}
-			]
-		],
+		"standings": [],
 		"matches": [
 			{
-				"id": "2024-07-25-america-de-cali-envigado",
+				"id": "1234212",
 				"fullDate": "2024-07-25T16:00",
 				"date": "2024-07-25",
 				"hour": "16:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1138,
 						"name": "America de Cali",
 						"country": "🇨🇴",
-						"position": 8,
+						"position": null,
 						"featured": true,
+						"score": 4,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5118,7 +4877,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-atletico-nacional-america-de-cali",
+								"id": "1234157",
 								"fullDate": "2024-07-21T17:45",
 								"date": "2024-07-21",
 								"hour": "17:45",
@@ -5127,7 +4886,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5136,7 +4895,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5146,7 +4905,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-07-16-rionegro-aguilas-america-de-cali",
+								"id": "1234145",
 								"fullDate": "2024-07-16T18:10",
 								"date": "2024-07-16",
 								"hour": "18:10",
@@ -5155,7 +4914,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5164,7 +4923,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5174,7 +4933,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-06-29-cruz-azul-america-de-cali",
+								"id": "1218040",
 								"fullDate": "2024-06-29T22:00",
 								"date": "2024-06-29",
 								"hour": "22:00",
@@ -5192,7 +4951,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5202,7 +4961,7 @@
 								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-06-27-el-nacional-america-de-cali",
+								"id": "1218008",
 								"fullDate": "2024-06-27T19:00",
 								"date": "2024-06-27",
 								"hour": "19:00",
@@ -5220,7 +4979,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5230,7 +4989,7 @@
 								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-04-28-once-caldas-america-de-cali",
+								"id": "1153242",
 								"fullDate": "2024-04-28T17:00",
 								"date": "2024-04-28",
 								"hour": "17:00",
@@ -5239,8 +4998,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": "🇨🇴",
-										"position": 3,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -5248,7 +5007,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5258,7 +5017,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-21-santa-fe-america-de-cali",
+								"id": "1153237",
 								"fullDate": "2024-04-21T14:00",
 								"date": "2024-04-21",
 								"hour": "14:00",
@@ -5267,7 +5026,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5276,7 +5035,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5286,7 +5045,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-18-america-de-cali-deportivo-pasto",
+								"id": "1153226",
 								"fullDate": "2024-04-18T20:20",
 								"date": "2024-04-18",
 								"hour": "20:20",
@@ -5295,7 +5054,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5304,7 +5063,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": "🇨🇴",
-										"position": 17,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -5314,7 +5073,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-12-deportivo-cali-america-de-cali",
+								"id": "1153211",
 								"fullDate": "2024-04-12T20:15",
 								"date": "2024-04-12",
 								"hour": "20:15",
@@ -5323,7 +5082,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 13,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5332,7 +5091,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5342,7 +5101,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-06-america-de-cali-junior",
+								"id": "1153206",
 								"fullDate": "2024-04-06T20:20",
 								"date": "2024-04-06",
 								"hour": "20:20",
@@ -5351,7 +5110,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5360,7 +5119,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5370,7 +5129,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-01-independiente-medellin-america-de-cali",
+								"id": "1153199",
 								"fullDate": "2024-04-01T18:20",
 								"date": "2024-04-01",
 								"hour": "18:20",
@@ -5379,7 +5138,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5388,7 +5147,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -5398,7 +5157,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-23-america-de-cali-chico",
+								"id": "1153187",
 								"fullDate": "2024-03-23T20:30",
 								"date": "2024-03-23",
 								"hour": "20:30",
@@ -5407,7 +5166,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -5416,7 +5175,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": "🇨🇴",
-										"position": 18,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -5426,7 +5185,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-18-fortaleza-fc-america-de-cali",
+								"id": "1153178",
 								"fullDate": "2024-03-18T18:20",
 								"date": "2024-03-18",
 								"hour": "18:20",
@@ -5435,8 +5194,8 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": "🇨🇴",
-										"position": 5,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									},
@@ -5444,7 +5203,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": null
@@ -5454,7 +5213,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-10-america-de-cali-alianza-petrolera",
+								"id": "1153166",
 								"fullDate": "2024-03-10T18:20",
 								"date": "2024-03-10",
 								"hour": "18:20",
@@ -5463,7 +5222,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5472,7 +5231,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5482,7 +5241,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-06-alianza-petrolera-america-de-cali",
+								"id": "1150513",
 								"fullDate": "2024-03-06T21:00",
 								"date": "2024-03-06",
 								"hour": "21:00",
@@ -5491,7 +5250,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": "🇨🇴",
-										"position": 20,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5500,7 +5259,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": false
@@ -5510,7 +5269,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-03-02-deportivo-pereira-america-de-cali",
+								"id": "1153153",
 								"fullDate": "2024-03-02T18:10",
 								"date": "2024-03-02",
 								"hour": "18:10",
@@ -5519,8 +5278,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									},
@@ -5528,7 +5287,7 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": "🇨🇴",
-										"position": 8,
+										"position": null,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -5543,8 +5302,10 @@
 						"id": 1129,
 						"name": "Envigado",
 						"country": "🇨🇴",
-						"position": 10,
+						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5645,7 +5406,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-20-envigado-santa-fe",
+								"id": "1234153",
 								"fullDate": "2024-07-20T16:00",
 								"date": "2024-07-20",
 								"hour": "16:00",
@@ -5654,7 +5415,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5663,7 +5424,7 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": "🇨🇴",
-										"position": 2,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5673,7 +5434,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-07-16-envigado-la-equidad",
+								"id": "1234144",
 								"fullDate": "2024-07-16T16:00",
 								"date": "2024-07-16",
 								"hour": "16:00",
@@ -5682,7 +5443,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5691,7 +5452,7 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": "🇨🇴",
-										"position": 9,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5701,7 +5462,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-06-26-envigado-rionegro-aguilas",
+								"id": "1217993",
 								"fullDate": "2024-06-26T09:00",
 								"date": "2024-06-26",
 								"hour": "09:00",
@@ -5710,7 +5471,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -5719,7 +5480,7 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": "🇨🇴",
-										"position": 19,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5729,7 +5490,7 @@
 								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-05-16-real-cartagena-envigado",
+								"id": "1198205",
 								"fullDate": "2024-05-16T19:30",
 								"date": "2024-05-16",
 								"hour": "19:30",
@@ -5747,7 +5508,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -5757,7 +5518,7 @@
 								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-05-08-envigado-real-cartagena",
+								"id": "1198204",
 								"fullDate": "2024-05-08T16:00",
 								"date": "2024-05-08",
 								"hour": "16:00",
@@ -5766,7 +5527,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5785,7 +5546,7 @@
 								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-28-envigado-independiente-medellin",
+								"id": "1153250",
 								"fullDate": "2024-04-28T17:00",
 								"date": "2024-04-28",
 								"hour": "17:00",
@@ -5794,7 +5555,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5803,7 +5564,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": "🇨🇴",
-										"position": 14,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -5813,7 +5574,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-25-quindio-envigado",
+								"id": "1188718",
 								"fullDate": "2024-04-25T19:00",
 								"date": "2024-04-25",
 								"hour": "19:00",
@@ -5831,7 +5592,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -5841,7 +5602,7 @@
 								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-21-deportivo-cali-envigado",
+								"id": "1153231",
 								"fullDate": "2024-04-21T16:10",
 								"date": "2024-04-21",
 								"hour": "16:10",
@@ -5850,7 +5611,7 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": "🇨🇴",
-										"position": 13,
+										"position": null,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5859,7 +5620,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5869,7 +5630,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-16-envigado-deportes-tolima",
+								"id": "1153230",
 								"fullDate": "2024-04-16T16:00",
 								"date": "2024-04-16",
 								"hour": "16:00",
@@ -5878,7 +5639,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5887,7 +5648,7 @@
 										"id": 1142,
 										"name": "Deportes Tolima",
 										"country": "🇨🇴",
-										"position": 6,
+										"position": null,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -5897,7 +5658,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-14-junior-envigado",
+								"id": "1153215",
 								"fullDate": "2024-04-14T18:20",
 								"date": "2024-04-14",
 								"hour": "18:20",
@@ -5906,7 +5667,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": "🇨🇴",
-										"position": 11,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -5915,7 +5676,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5925,7 +5686,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-04-10-envigado-quindio",
+								"id": "1188717",
 								"fullDate": "2024-04-10T16:00",
 								"date": "2024-04-10",
 								"hour": "16:00",
@@ -5934,7 +5695,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -5953,7 +5714,7 @@
 								"league": { "id": 241, "name": "Copa Colombia" }
 							},
 							{
-								"id": "2024-04-05-envigado-deportivo-pereira",
+								"id": "1153210",
 								"fullDate": "2024-04-05T16:00",
 								"date": "2024-04-05",
 								"hour": "16:00",
@@ -5962,7 +5723,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5971,8 +5732,8 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": "🇨🇴",
-										"position": 4,
-										"featured": true,
+										"position": null,
+										"featured": false,
 										"score": 1,
 										"winner": null
 									}
@@ -5981,7 +5742,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-30-envigado-atletico-nacional",
+								"id": "1153200",
 								"fullDate": "2024-03-30T14:00",
 								"date": "2024-03-30",
 								"hour": "14:00",
@@ -5990,7 +5751,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5999,7 +5760,7 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": "🇨🇴",
-										"position": 1,
+										"position": null,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -6009,7 +5770,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-24-bucaramanga-envigado",
+								"id": "1153183",
 								"fullDate": "2024-03-24T16:00",
 								"date": "2024-03-24",
 								"hour": "16:00",
@@ -6018,7 +5779,7 @@
 										"id": 1131,
 										"name": "Bucaramanga",
 										"country": "🇨🇴",
-										"position": 12,
+										"position": null,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -6027,7 +5788,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -6037,7 +5798,7 @@
 								"league": { "id": 239, "name": "Primera A" }
 							},
 							{
-								"id": "2024-03-20-orsomarso-envigado",
+								"id": "1170643",
 								"fullDate": "2024-03-20T16:00",
 								"date": "2024-03-20",
 								"hour": "16:00",
@@ -6055,7 +5816,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": "🇨🇴",
-										"position": 10,
+										"position": null,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -6090,7 +5851,8 @@
 								]
 							}
 						],
-						"trustLevel": "1|HIGH"
+						"trustLevel": "1|HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			}
@@ -6106,11 +5868,11 @@
 		"standings": [],
 		"matches": [
 			{
-				"id": "2024-07-25-cuiaba-palestino",
+				"id": "1202646",
 				"fullDate": "2024-07-25T17:00",
 				"date": "2024-07-25",
 				"hour": "17:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1193,
@@ -6118,6 +5880,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6218,7 +5982,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-23-vasco-da-gama-cuiaba",
+								"id": "1180539",
 								"fullDate": "2024-07-23T19:00",
 								"date": "2024-07-23",
 								"hour": "19:00",
@@ -6246,7 +6010,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-21-cuiaba-fluminense",
+								"id": "1180533",
 								"fullDate": "2024-07-21T18:00",
 								"date": "2024-07-21",
 								"hour": "18:00",
@@ -6274,7 +6038,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-18-palestino-cuiaba",
+								"id": "1202645",
 								"fullDate": "2024-07-18T17:00",
 								"date": "2024-07-18",
 								"hour": "17:00",
@@ -6302,7 +6066,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-07-13-bahia-cuiaba",
+								"id": "1180517",
 								"fullDate": "2024-07-13T14:00",
 								"date": "2024-07-13",
 								"hour": "14:00",
@@ -6330,7 +6094,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-09-cuiaba-juventude",
+								"id": "1180513",
 								"fullDate": "2024-07-09T19:00",
 								"date": "2024-07-09",
 								"hour": "19:00",
@@ -6358,7 +6122,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-06-flamengo-cuiaba",
+								"id": "1180498",
 								"fullDate": "2024-07-06T18:00",
 								"date": "2024-07-06",
 								"hour": "18:00",
@@ -6386,7 +6150,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-03-cuiaba-botafogo",
+								"id": "1180493",
 								"fullDate": "2024-07-03T17:00",
 								"date": "2024-07-03",
 								"hour": "17:00",
@@ -6414,7 +6178,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-29-cuiaba-rb-bragantino",
+								"id": "1180483",
 								"fullDate": "2024-06-29T16:30",
 								"date": "2024-06-29",
 								"hour": "16:30",
@@ -6442,7 +6206,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-26-corinthians-cuiaba",
+								"id": "1180470",
 								"fullDate": "2024-06-26T18:00",
 								"date": "2024-06-26",
 								"hour": "18:00",
@@ -6470,7 +6234,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-22-cuiaba-atletico-goianiense",
+								"id": "1180463",
 								"fullDate": "2024-06-22T16:30",
 								"date": "2024-06-22",
 								"hour": "16:30",
@@ -6498,7 +6262,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-19-sao-paulo-cuiaba",
+								"id": "1180451",
 								"fullDate": "2024-06-19T18:00",
 								"date": "2024-06-19",
 								"hour": "18:00",
@@ -6526,7 +6290,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-16-cuiaba-fortaleza-ec",
+								"id": "1180443",
 								"fullDate": "2024-06-16T16:30",
 								"date": "2024-06-16",
 								"hour": "16:30",
@@ -6554,7 +6318,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-13-cruzeiro-cuiaba",
+								"id": "1180426",
 								"fullDate": "2024-06-13T17:00",
 								"date": "2024-06-13",
 								"hour": "17:00",
@@ -6582,7 +6346,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-09-criciuma-cuiaba",
+								"id": "1180414",
 								"fullDate": "2024-06-09T14:00",
 								"date": "2024-06-09",
 								"hour": "14:00",
@@ -6610,7 +6374,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-05-cuiaba-vitoria",
+								"id": "1180373",
 								"fullDate": "2024-06-05T18:00",
 								"date": "2024-06-05",
 								"hour": "18:00",
@@ -6645,6 +6409,8 @@
 						"country": "🇨🇱",
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6745,7 +6511,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-palestino-everton-de-vina",
+								"id": "1161449",
 								"fullDate": "2024-07-21T11:30",
 								"date": "2024-07-21",
 								"hour": "11:30",
@@ -6773,7 +6539,7 @@
 								"league": { "id": 265, "name": "Primera División" }
 							},
 							{
-								"id": "2024-07-18-palestino-cuiaba",
+								"id": "1202645",
 								"fullDate": "2024-07-18T17:00",
 								"date": "2024-07-18",
 								"hour": "17:00",
@@ -6801,7 +6567,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-07-12-palestino-santiago-wanderers",
+								"id": "1222473",
 								"fullDate": "2024-07-12T14:00",
 								"date": "2024-07-12",
 								"hour": "14:00",
@@ -6829,7 +6595,7 @@
 								"league": { "id": 267, "name": "Copa Chile" }
 							},
 							{
-								"id": "2024-07-06-santiago-wanderers-palestino",
+								"id": "1222472",
 								"fullDate": "2024-07-06T16:30",
 								"date": "2024-07-06",
 								"hour": "16:30",
@@ -6857,7 +6623,7 @@
 								"league": { "id": 267, "name": "Copa Chile" }
 							},
 							{
-								"id": "2024-06-30-palestino-barnechea",
+								"id": "1209598",
 								"fullDate": "2024-06-30T14:00",
 								"date": "2024-06-30",
 								"hour": "14:00",
@@ -6885,7 +6651,7 @@
 								"league": { "id": 267, "name": "Copa Chile" }
 							},
 							{
-								"id": "2024-06-23-barnechea-palestino",
+								"id": "1209597",
 								"fullDate": "2024-06-23T11:00",
 								"date": "2024-06-23",
 								"hour": "11:00",
@@ -6913,7 +6679,7 @@
 								"league": { "id": 267, "name": "Copa Chile" }
 							},
 							{
-								"id": "2024-06-16-santiago-city-palestino",
+								"id": "1198709",
 								"fullDate": "2024-06-16T14:00",
 								"date": "2024-06-16",
 								"hour": "14:00",
@@ -6941,7 +6707,7 @@
 								"league": { "id": 267, "name": "Copa Chile" }
 							},
 							{
-								"id": "2024-06-06-coquimbo-unido-palestino",
+								"id": "1161417",
 								"fullDate": "2024-06-06T16:30",
 								"date": "2024-06-06",
 								"hour": "16:30",
@@ -6969,7 +6735,7 @@
 								"league": { "id": 265, "name": "Primera División" }
 							},
 							{
-								"id": "2024-06-01-a-italiano-palestino",
+								"id": "1161441",
 								"fullDate": "2024-06-01T19:00",
 								"date": "2024-06-01",
 								"hour": "19:00",
@@ -6997,7 +6763,7 @@
 								"league": { "id": 265, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-28-bolivar-palestino",
+								"id": "1187269",
 								"fullDate": "2024-05-28T19:00",
 								"date": "2024-05-28",
 								"hour": "19:00",
@@ -7025,7 +6791,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-24-palestino-union-espanola",
+								"id": "1161434",
 								"fullDate": "2024-05-24T14:30",
 								"date": "2024-05-24",
 								"hour": "14:30",
@@ -7053,7 +6819,7 @@
 								"league": { "id": 265, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-19-colo-colo-palestino",
+								"id": "1161425",
 								"fullDate": "2024-05-19T16:30",
 								"date": "2024-05-19",
 								"hour": "16:30",
@@ -7081,7 +6847,7 @@
 								"league": { "id": 265, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-14-millonarios-palestino",
+								"id": "1187253",
 								"fullDate": "2024-05-14T21:00",
 								"date": "2024-05-14",
 								"hour": "21:00",
@@ -7109,7 +6875,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-07-palestino-flamengo",
+								"id": "1187236",
 								"fullDate": "2024-05-07T19:00",
 								"date": "2024-05-07",
 								"hour": "19:00",
@@ -7137,7 +6903,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-03-palestino-deportes-copiapo",
+								"id": "1161407",
 								"fullDate": "2024-05-03T14:30",
 								"date": "2024-05-03",
 								"hour": "14:30",
@@ -7190,16 +6956,17 @@
 								]
 							}
 						],
-						"trustLevel": "3|LOW"
+						"trustLevel": "3|LOW",
+						"results": { "right": false, "lostRight": true, "fail": false, "skippedFail": false }
 					}
 				]
 			},
 			{
-				"id": "2024-07-25-atletico-paranaense-cerro-porteno",
+				"id": "1202644",
 				"fullDate": "2024-07-25T19:30",
 				"date": "2024-07-25",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 134,
@@ -7207,6 +6974,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7307,7 +7076,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-23-atletico-paranaense-atletico-mg",
+								"id": "1180542",
 								"fullDate": "2024-07-23T19:00",
 								"date": "2024-07-23",
 								"hour": "19:00",
@@ -7335,7 +7104,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-21-rb-bragantino-atletico-paranaense",
+								"id": "1180531",
 								"fullDate": "2024-07-21T16:30",
 								"date": "2024-07-21",
 								"hour": "16:30",
@@ -7363,7 +7132,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-18-cerro-porteno-atletico-paranaense",
+								"id": "1202643",
 								"fullDate": "2024-07-18T19:30",
 								"date": "2024-07-18",
 								"hour": "19:30",
@@ -7391,7 +7160,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-07-16-fluminense-atletico-paranaense",
+								"id": "1180518",
 								"fullDate": "2024-07-16T19:00",
 								"date": "2024-07-16",
 								"hour": "19:00",
@@ -7419,7 +7188,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-13-atletico-paranaense-ypiranga-rs",
+								"id": "1196769",
 								"fullDate": "2024-07-13T16:00",
 								"date": "2024-07-13",
 								"hour": "16:00",
@@ -7447,7 +7216,7 @@
 								"league": { "id": 73, "name": "Copa Do Brasil" }
 							},
 							{
-								"id": "2024-07-10-atletico-paranaense-bahia",
+								"id": "1180512",
 								"fullDate": "2024-07-10T17:00",
 								"date": "2024-07-10",
 								"hour": "17:00",
@@ -7475,7 +7244,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-07-atletico-goianiense-atletico-paranaense",
+								"id": "1180503",
 								"fullDate": "2024-07-07T16:30",
 								"date": "2024-07-07",
 								"hour": "16:30",
@@ -7503,7 +7272,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-03-atletico-paranaense-sao-paulo",
+								"id": "1180492",
 								"fullDate": "2024-07-03T19:30",
 								"date": "2024-07-03",
 								"hour": "19:30",
@@ -7531,7 +7300,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-30-vitoria-atletico-paranaense",
+								"id": "1180477",
 								"fullDate": "2024-06-30T16:30",
 								"date": "2024-06-30",
 								"hour": "16:30",
@@ -7559,7 +7328,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-26-cruzeiro-atletico-paranaense",
+								"id": "1180466",
 								"fullDate": "2024-06-26T17:00",
 								"date": "2024-06-26",
 								"hour": "17:00",
@@ -7587,7 +7356,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-23-atletico-paranaense-corinthians",
+								"id": "1180462",
 								"fullDate": "2024-06-23T14:00",
 								"date": "2024-06-23",
 								"hour": "14:00",
@@ -7615,7 +7384,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-19-botafogo-atletico-paranaense",
+								"id": "1180449",
 								"fullDate": "2024-06-19T17:00",
 								"date": "2024-06-19",
 								"hour": "17:00",
@@ -7643,7 +7412,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-16-atletico-paranaense-flamengo",
+								"id": "1180442",
 								"fullDate": "2024-06-16T14:00",
 								"date": "2024-06-16",
 								"hour": "14:00",
@@ -7671,7 +7440,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-13-atletico-paranaense-criciuma",
+								"id": "1180432",
 								"fullDate": "2024-06-13T18:00",
 								"date": "2024-06-13",
 								"hour": "18:00",
@@ -7699,7 +7468,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-02-fortaleza-ec-atletico-paranaense",
+								"id": "1180422",
 								"fullDate": "2024-06-02T16:30",
 								"date": "2024-06-02",
 								"hour": "16:30",
@@ -7734,6 +7503,8 @@
 						"country": "🇵🇾",
 						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7834,7 +7605,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-18-cerro-porteno-atletico-paranaense",
+								"id": "1202643",
 								"fullDate": "2024-07-18T19:30",
 								"date": "2024-07-18",
 								"hour": "19:30",
@@ -7862,7 +7633,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-06-29-cerro-porteno-kilmarnock",
+								"id": "1220067",
 								"fullDate": "2024-06-29T03:30",
 								"date": "2024-06-29",
 								"hour": "03:30",
@@ -7890,7 +7661,7 @@
 								"league": { "id": 667, "name": "Friendlies Clubs" }
 							},
 							{
-								"id": "2024-06-05-nacional-asuncion-cerro-porteno",
+								"id": "1159681",
 								"fullDate": "2024-06-05T17:00",
 								"date": "2024-06-05",
 								"hour": "17:00",
@@ -7918,7 +7689,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-06-02-cerro-porteno-sportivo-luqueno",
+								"id": "1159675",
 								"fullDate": "2024-06-02T15:30",
 								"date": "2024-06-02",
 								"hour": "15:30",
@@ -7946,7 +7717,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-05-29-cerro-porteno-colo-colo",
+								"id": "1187273",
 								"fullDate": "2024-05-29T19:30",
 								"date": "2024-05-29",
 								"hour": "19:30",
@@ -7974,7 +7745,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-25-tacuary-cerro-porteno",
+								"id": "1159669",
 								"fullDate": "2024-05-25T16:00",
 								"date": "2024-05-25",
 								"hour": "16:00",
@@ -8002,7 +7773,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-05-22-cerro-porteno-club-guarani",
+								"id": "1159663",
 								"fullDate": "2024-05-22T19:00",
 								"date": "2024-05-22",
 								"hour": "19:00",
@@ -8030,7 +7801,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-05-19-sol-de-america-cerro-porteno",
+								"id": "1159657",
 								"fullDate": "2024-05-19T14:15",
 								"date": "2024-05-19",
 								"hour": "14:15",
@@ -8058,7 +7829,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-05-16-fluminense-cerro-porteno",
+								"id": "1187261",
 								"fullDate": "2024-05-16T17:00",
 								"date": "2024-05-16",
 								"hour": "17:00",
@@ -8086,7 +7857,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-12-cerro-porteno-olimpia",
+								"id": "1159651",
 								"fullDate": "2024-05-12T15:30",
 								"date": "2024-05-12",
 								"hour": "15:30",
@@ -8114,7 +7885,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-05-08-alianza-lima-cerro-porteno",
+								"id": "1187241",
 								"fullDate": "2024-05-08T19:00",
 								"date": "2024-05-08",
 								"hour": "19:00",
@@ -8142,7 +7913,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-03-libertad-asuncion-cerro-porteno",
+								"id": "1159645",
 								"fullDate": "2024-05-03T19:00",
 								"date": "2024-05-03",
 								"hour": "19:00",
@@ -8170,7 +7941,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-04-28-cerro-porteno-general-caballero",
+								"id": "1159639",
 								"fullDate": "2024-04-28T19:00",
 								"date": "2024-04-28",
 								"hour": "19:00",
@@ -8198,7 +7969,7 @@
 								"league": { "id": 250, "name": "Division Profesional - Apertura" }
 							},
 							{
-								"id": "2024-04-25-cerro-porteno-fluminense",
+								"id": "1187230",
 								"fullDate": "2024-04-25T17:00",
 								"date": "2024-04-25",
 								"hour": "17:00",
@@ -8226,7 +7997,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-04-19-2-de-mayo-cerro-porteno",
+								"id": "1159633",
 								"fullDate": "2024-04-19T19:30",
 								"date": "2024-04-19",
 								"hour": "19:30",
@@ -8279,16 +8050,17 @@
 								]
 							}
 						],
-						"trustLevel": "3|LOW"
+						"trustLevel": "3|LOW",
+						"results": { "right": false, "lostRight": true, "fail": false, "skippedFail": false }
 					}
 				]
 			},
 			{
-				"id": "2024-07-25-always-ready-ldu-de-quito",
+				"id": "1205353",
 				"fullDate": "2024-07-25T19:30",
 				"date": "2024-07-25",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3700,
@@ -8296,6 +8068,8 @@
 						"country": "🇧🇴",
 						"position": null,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8396,7 +8170,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-bolivar-always-ready",
+								"id": "1214171",
 								"fullDate": "2024-07-21T16:30",
 								"date": "2024-07-21",
 								"hour": "16:30",
@@ -8424,7 +8198,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-07-18-ldu-de-quito-always-ready",
+								"id": "1205352",
 								"fullDate": "2024-07-18T19:30",
 								"date": "2024-07-18",
 								"hour": "19:30",
@@ -8452,7 +8226,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-07-12-always-ready-real-tomayapo",
+								"id": "1214159",
 								"fullDate": "2024-07-12T19:00",
 								"date": "2024-07-12",
 								"hour": "19:00",
@@ -8480,7 +8254,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-29-independiente-medellin-always-ready",
+								"id": "1187178",
 								"fullDate": "2024-05-29T19:00",
 								"date": "2024-05-29",
 								"hour": "19:00",
@@ -8508,7 +8282,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-26-jorge-wilstermann-always-ready",
+								"id": "1199334",
 								"fullDate": "2024-05-26T16:30",
 								"date": "2024-05-26",
 								"hour": "16:30",
@@ -8536,7 +8310,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-23-always-ready-nacional-potosi",
+								"id": "1199328",
 								"fullDate": "2024-05-23T17:00",
 								"date": "2024-05-23",
 								"hour": "17:00",
@@ -8564,7 +8338,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-20-royal-pari-always-ready",
+								"id": "1199321",
 								"fullDate": "2024-05-20T18:00",
 								"date": "2024-05-20",
 								"hour": "18:00",
@@ -8592,7 +8366,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-15-cesar-vallejo-always-ready",
+								"id": "1187163",
 								"fullDate": "2024-05-15T21:00",
 								"date": "2024-05-15",
 								"hour": "21:00",
@@ -8620,7 +8394,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-11-always-ready-blooming",
+								"id": "1199308",
 								"fullDate": "2024-05-11T16:30",
 								"date": "2024-05-11",
 								"hour": "16:30",
@@ -8648,7 +8422,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-05-07-always-ready-defensa-y-justicia",
+								"id": "1187143",
 								"fullDate": "2024-05-07T21:00",
 								"date": "2024-05-07",
 								"hour": "21:00",
@@ -8676,7 +8450,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-25-always-ready-cesar-vallejo",
+								"id": "1187134",
 								"fullDate": "2024-04-25T19:00",
 								"date": "2024-04-25",
 								"hour": "19:00",
@@ -8704,7 +8478,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-10-defensa-y-justicia-always-ready",
+								"id": "1187110",
 								"fullDate": "2024-04-10T17:00",
 								"date": "2024-04-10",
 								"hour": "17:00",
@@ -8732,7 +8506,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-04-07-universitario-de-vinto-always-ready",
+								"id": "1187506",
 								"fullDate": "2024-04-07T17:00",
 								"date": "2024-04-07",
 								"hour": "17:00",
@@ -8760,7 +8534,7 @@
 								"league": { "id": 344, "name": "Primera División" }
 							},
 							{
-								"id": "2024-04-04-always-ready-independiente-medellin",
+								"id": "1187103",
 								"fullDate": "2024-04-04T21:00",
 								"date": "2024-04-04",
 								"hour": "21:00",
@@ -8788,7 +8562,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-03-31-always-ready-independiente-petrolero",
+								"id": "1187497",
 								"fullDate": "2024-03-31T14:00",
 								"date": "2024-03-31",
 								"hour": "14:00",
@@ -8823,6 +8597,8 @@
 						"country": "🇪🇨",
 						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8923,7 +8699,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-18-ldu-de-quito-always-ready",
+								"id": "1205352",
 								"fullDate": "2024-07-18T19:30",
 								"date": "2024-07-18",
 								"hour": "19:30",
@@ -8951,7 +8727,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-06-02-deportivo-cuenca-ldu-de-quito",
+								"id": "1167771",
 								"fullDate": "2024-06-02T18:00",
 								"date": "2024-06-02",
 								"hour": "18:00",
@@ -8979,7 +8755,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-05-28-ldu-de-quito-universitario",
+								"id": "1187266",
 								"fullDate": "2024-05-28T17:00",
 								"date": "2024-05-28",
 								"hour": "17:00",
@@ -9007,7 +8783,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-25-ldu-de-quito-universidad-catolica",
+								"id": "1167763",
 								"fullDate": "2024-05-25T20:00",
 								"date": "2024-05-25",
 								"hour": "20:00",
@@ -9035,7 +8811,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-05-22-barcelona-sc-ldu-de-quito",
+								"id": "1167691",
 								"fullDate": "2024-05-22T19:00",
 								"date": "2024-05-22",
 								"hour": "19:00",
@@ -9063,7 +8839,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-05-18-independiente-del-valle-ldu-de-quito",
+								"id": "1167755",
 								"fullDate": "2024-05-18T18:00",
 								"date": "2024-05-18",
 								"hour": "18:00",
@@ -9091,7 +8867,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-05-14-ldu-de-quito-junior",
+								"id": "1187250",
 								"fullDate": "2024-05-14T17:00",
 								"date": "2024-05-14",
 								"hour": "17:00",
@@ -9119,7 +8895,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-11-ldu-de-quito-emelec",
+								"id": "1167746",
 								"fullDate": "2024-05-11T18:00",
 								"date": "2024-05-11",
 								"hour": "18:00",
@@ -9147,7 +8923,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-05-08-botafogo-ldu-de-quito",
+								"id": "1187242",
 								"fullDate": "2024-05-08T19:30",
 								"date": "2024-05-08",
 								"hour": "19:30",
@@ -9175,7 +8951,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-05-04-mushuc-runa-sc-ldu-de-quito",
+								"id": "1167739",
 								"fullDate": "2024-05-04T15:30",
 								"date": "2024-05-04",
 								"hour": "15:30",
@@ -9203,7 +8979,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-04-30-libertad-ldu-de-quito",
+								"id": "1167683",
 								"fullDate": "2024-04-30T19:00",
 								"date": "2024-04-30",
 								"hour": "19:00",
@@ -9231,7 +9007,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-04-27-ldu-de-quito-tecnico-universitario",
+								"id": "1167734",
 								"fullDate": "2024-04-27T18:00",
 								"date": "2024-04-27",
 								"hour": "18:00",
@@ -9259,7 +9035,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-04-23-junior-ldu-de-quito",
+								"id": "1187222",
 								"fullDate": "2024-04-23T21:00",
 								"date": "2024-04-23",
 								"hour": "21:00",
@@ -9287,7 +9063,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-04-19-orense-sc-ldu-de-quito",
+								"id": "1167723",
 								"fullDate": "2024-04-19T16:30",
 								"date": "2024-04-19",
 								"hour": "16:30",
@@ -9315,7 +9091,7 @@
 								"league": { "id": 242, "name": "Liga Pro" }
 							},
 							{
-								"id": "2024-04-15-ldu-de-quito-delfin-sc",
+								"id": "1167719",
 								"fullDate": "2024-04-15T19:00",
 								"date": "2024-04-15",
 								"hour": "19:00",
@@ -9368,7 +9144,8 @@
 								]
 							}
 						],
-						"trustLevel": "1|HIGH"
+						"trustLevel": "1|HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			}
@@ -9386,14 +9163,27 @@
 				{
 					"teamId": 120,
 					"teamName": "Botafogo",
-					"points": 39,
+					"points": 40,
 					"stats": {
 						"goalsDiff": 15,
-						"played": 18,
+						"played": 19,
 						"win": 12,
-						"draw": 3,
+						"draw": 4,
 						"lose": 3,
-						"goals": { "for": 29, "against": 14 }
+						"goals": { "for": 31, "against": 16 }
+					}
+				},
+				{
+					"teamId": 127,
+					"teamName": "Flamengo",
+					"points": 37,
+					"stats": {
+						"goalsDiff": 13,
+						"played": 18,
+						"win": 11,
+						"draw": 4,
+						"lose": 3,
+						"goals": { "for": 32, "against": 19 }
 					}
 				},
 				{
@@ -9401,77 +9191,64 @@
 					"teamName": "Palmeiras",
 					"points": 36,
 					"stats": {
-						"goalsDiff": 14,
-						"played": 18,
+						"goalsDiff": 13,
+						"played": 19,
 						"win": 11,
 						"draw": 3,
-						"lose": 4,
-						"goals": { "for": 27, "against": 13 }
-					}
-				},
-				{
-					"teamId": 127,
-					"teamName": "Flamengo",
-					"points": 34,
-					"stats": {
-						"goalsDiff": 12,
-						"played": 17,
-						"win": 10,
-						"draw": 4,
-						"lose": 3,
-						"goals": { "for": 30, "against": 18 }
+						"lose": 5,
+						"goals": { "for": 27, "against": 14 }
 					}
 				},
 				{
 					"teamId": 154,
 					"teamName": "Fortaleza EC",
-					"points": 32,
+					"points": 33,
 					"stats": {
 						"goalsDiff": 5,
-						"played": 17,
+						"played": 18,
 						"win": 9,
-						"draw": 5,
+						"draw": 6,
 						"lose": 3,
-						"goals": { "for": 22, "against": 17 }
-					}
-				},
-				{
-					"teamId": 126,
-					"teamName": "Sao Paulo",
-					"points": 31,
-					"stats": {
-						"goalsDiff": 8,
-						"played": 18,
-						"win": 9,
-						"draw": 4,
-						"lose": 5,
-						"goals": { "for": 26, "against": 18 }
-					}
-				},
-				{
-					"teamId": 118,
-					"teamName": "Bahia",
-					"points": 30,
-					"stats": {
-						"goalsDiff": 5,
-						"played": 18,
-						"win": 9,
-						"draw": 3,
-						"lose": 6,
-						"goals": { "for": 27, "against": 22 }
+						"goals": { "for": 23, "against": 18 }
 					}
 				},
 				{
 					"teamId": 135,
 					"teamName": "Cruzeiro",
-					"points": 29,
+					"points": 32,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 17,
-						"win": 9,
+						"goalsDiff": 5,
+						"played": 18,
+						"win": 10,
 						"draw": 2,
 						"lose": 6,
-						"goals": { "for": 23, "against": 20 }
+						"goals": { "for": 25, "against": 20 }
+					}
+				},
+				{
+					"teamId": 126,
+					"teamName": "Sao Paulo",
+					"points": 32,
+					"stats": {
+						"goalsDiff": 8,
+						"played": 19,
+						"win": 9,
+						"draw": 5,
+						"lose": 5,
+						"goals": { "for": 28, "against": 20 }
+					}
+				},
+				{
+					"teamId": 118,
+					"teamName": "Bahia",
+					"points": 31,
+					"stats": {
+						"goalsDiff": 5,
+						"played": 19,
+						"win": 9,
+						"draw": 4,
+						"lose": 6,
+						"goals": { "for": 28, "against": 23 }
 					}
 				},
 				{
@@ -9531,12 +9308,12 @@
 					"teamName": "Juventude",
 					"points": 21,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 16,
+						"goalsDiff": -3,
+						"played": 17,
 						"win": 5,
 						"draw": 6,
-						"lose": 5,
-						"goals": { "for": 19, "against": 20 }
+						"lose": 6,
+						"goals": { "for": 19, "against": 22 }
 					}
 				},
 				{
@@ -9553,6 +9330,19 @@
 					}
 				},
 				{
+					"teamId": 140,
+					"teamName": "Criciuma",
+					"points": 18,
+					"stats": {
+						"goalsDiff": -3,
+						"played": 17,
+						"win": 4,
+						"draw": 6,
+						"lose": 7,
+						"goals": { "for": 24, "against": 27 }
+					}
+				},
+				{
 					"teamId": 131,
 					"teamName": "Corinthians",
 					"points": 18,
@@ -9563,19 +9353,6 @@
 						"draw": 6,
 						"lose": 8,
 						"goals": { "for": 15, "against": 23 }
-					}
-				},
-				{
-					"teamId": 140,
-					"teamName": "Criciuma",
-					"points": 17,
-					"stats": {
-						"goalsDiff": -3,
-						"played": 16,
-						"win": 4,
-						"draw": 5,
-						"lose": 7,
-						"goals": { "for": 23, "against": 26 }
 					}
 				},
 				{
@@ -9596,12 +9373,12 @@
 					"teamName": "Vitoria",
 					"points": 15,
 					"stats": {
-						"goalsDiff": -11,
-						"played": 18,
+						"goalsDiff": -12,
+						"played": 19,
 						"win": 4,
 						"draw": 3,
-						"lose": 11,
-						"goals": { "for": 19, "against": 30 }
+						"lose": 12,
+						"goals": { "for": 20, "against": 32 }
 					}
 				},
 				{
@@ -9620,45 +9397,47 @@
 				{
 					"teamId": 124,
 					"teamName": "Fluminense",
-					"points": 11,
+					"points": 14,
 					"stats": {
-						"goalsDiff": -11,
-						"played": 17,
-						"win": 2,
+						"goalsDiff": -10,
+						"played": 18,
+						"win": 3,
 						"draw": 5,
 						"lose": 10,
-						"goals": { "for": 13, "against": 24 }
+						"goals": { "for": 14, "against": 24 }
 					}
 				},
 				{
 					"teamId": 144,
 					"teamName": "Atletico Goianiense",
-					"points": 11,
+					"points": 12,
 					"stats": {
 						"goalsDiff": -13,
-						"played": 18,
+						"played": 19,
 						"win": 2,
-						"draw": 5,
+						"draw": 6,
 						"lose": 11,
-						"goals": { "for": 15, "against": 28 }
+						"goals": { "for": 16, "against": 29 }
 					}
 				}
 			]
 		],
 		"matches": [
 			{
-				"id": "2024-07-25-corinthians-gremio",
+				"id": "1180540",
 				"fullDate": "2024-07-25T18:00",
 				"date": "2024-07-25",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 131,
 						"name": "Corinthians",
 						"country": "🇧🇷",
-						"position": 14,
+						"position": 15,
 						"featured": true,
+						"score": 2,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9759,7 +9538,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-bahia-corinthians",
+								"id": "1180527",
 								"fullDate": "2024-07-21T14:00",
 								"date": "2024-07-21",
 								"hour": "14:00",
@@ -9768,7 +9547,7 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": "🇧🇷",
-										"position": 6,
+										"position": 7,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -9777,7 +9556,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -9787,7 +9566,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-16-corinthians-criciuma",
+								"id": "1180520",
 								"fullDate": "2024-07-16T19:00",
 								"date": "2024-07-16",
 								"hour": "19:00",
@@ -9796,7 +9575,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9805,7 +9584,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": "🇧🇷",
-										"position": 15,
+										"position": 14,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -9815,7 +9594,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-10-vasco-da-gama-corinthians",
+								"id": "1180509",
 								"fullDate": "2024-07-10T17:00",
 								"date": "2024-07-10",
 								"hour": "17:00",
@@ -9833,7 +9612,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -9843,7 +9622,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-07-cruzeiro-corinthians",
+								"id": "1180496",
 								"fullDate": "2024-07-07T14:00",
 								"date": "2024-07-07",
 								"hour": "14:00",
@@ -9852,7 +9631,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 5,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -9861,7 +9640,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -9871,7 +9650,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-04-corinthians-vitoria",
+								"id": "1180490",
 								"fullDate": "2024-07-04T18:00",
 								"date": "2024-07-04",
 								"hour": "18:00",
@@ -9880,7 +9659,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -9899,7 +9678,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-01-palmeiras-corinthians",
+								"id": "1180480",
 								"fullDate": "2024-07-01T18:00",
 								"date": "2024-07-01",
 								"hour": "18:00",
@@ -9908,7 +9687,7 @@
 										"id": 121,
 										"name": "Palmeiras",
 										"country": "🇧🇷",
-										"position": 2,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -9917,7 +9696,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -9927,7 +9706,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-26-corinthians-cuiaba",
+								"id": "1180470",
 								"fullDate": "2024-06-26T18:00",
 								"date": "2024-06-26",
 								"hour": "18:00",
@@ -9936,7 +9715,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -9955,7 +9734,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-23-atletico-paranaense-corinthians",
+								"id": "1180462",
 								"fullDate": "2024-06-23T14:00",
 								"date": "2024-06-23",
 								"hour": "14:00",
@@ -9973,7 +9752,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 1,
 										"winner": null
@@ -9983,7 +9762,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-19-internacional-corinthians",
+								"id": "1180445",
 								"fullDate": "2024-06-19T19:30",
 								"date": "2024-06-19",
 								"hour": "19:30",
@@ -10001,7 +9780,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10011,7 +9790,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-16-corinthians-sao-paulo",
+								"id": "1180440",
 								"fullDate": "2024-06-16T14:00",
 								"date": "2024-06-16",
 								"hour": "14:00",
@@ -10020,7 +9799,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -10029,7 +9808,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -10039,7 +9818,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-11-atletico-goianiense-corinthians",
+								"id": "1180433",
 								"fullDate": "2024-06-11T17:00",
 								"date": "2024-06-11",
 								"hour": "17:00",
@@ -10057,7 +9836,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -10067,7 +9846,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-01-corinthians-botafogo",
+								"id": "1180420",
 								"fullDate": "2024-06-01T19:00",
 								"date": "2024-06-01",
 								"hour": "19:00",
@@ -10076,7 +9855,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -10095,7 +9874,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-05-28-corinthians-racing-montevideo",
+								"id": "1187170",
 								"fullDate": "2024-05-28T17:00",
 								"date": "2024-05-28",
 								"hour": "17:00",
@@ -10104,7 +9883,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 3,
 										"winner": true
@@ -10123,7 +9902,7 @@
 								"league": { "id": 11, "name": "CONMEBOL Sudamericana" }
 							},
 							{
-								"id": "2024-05-22-corinthians-america-rn",
+								"id": "1196775",
 								"fullDate": "2024-05-22T18:00",
 								"date": "2024-05-22",
 								"hour": "18:00",
@@ -10132,7 +9911,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10151,7 +9930,7 @@
 								"league": { "id": 73, "name": "Copa Do Brasil" }
 							},
 							{
-								"id": "2024-05-14-corinthians-argentinos-jrs",
+								"id": "1187156",
 								"fullDate": "2024-05-14T19:30",
 								"date": "2024-05-14",
 								"hour": "19:30",
@@ -10160,7 +9939,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": "🇧🇷",
-										"position": 14,
+										"position": 15,
 										"featured": true,
 										"score": 4,
 										"winner": true
@@ -10186,6 +9965,8 @@
 						"country": "🇧🇷",
 						"position": 18,
 						"featured": true,
+						"score": 2,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -10286,7 +10067,7 @@
 						},
 						"matches": [
 							{
-								"id": "2024-07-21-gremio-vitoria",
+								"id": "1180525",
 								"fullDate": "2024-07-21T09:00",
 								"date": "2024-07-21",
 								"hour": "09:00",
@@ -10314,7 +10095,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-17-sao-paulo-gremio",
+								"id": "1180521",
 								"fullDate": "2024-07-17T18:00",
 								"date": "2024-07-17",
 								"hour": "18:00",
@@ -10323,7 +10104,7 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": "🇧🇷",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 1,
 										"winner": true
@@ -10342,7 +10123,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-14-gremio-operario-pr",
+								"id": "1196752",
 								"fullDate": "2024-07-14T09:00",
 								"date": "2024-07-14",
 								"hour": "09:00",
@@ -10370,7 +10151,7 @@
 								"league": { "id": 73, "name": "Copa Do Brasil" }
 							},
 							{
-								"id": "2024-07-10-gremio-cruzeiro",
+								"id": "1180505",
 								"fullDate": "2024-07-10T16:30",
 								"date": "2024-07-10",
 								"hour": "16:30",
@@ -10388,7 +10169,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": "🇧🇷",
-										"position": 7,
+										"position": 5,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10398,7 +10179,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-07-juventude-gremio",
+								"id": "1180504",
 								"fullDate": "2024-07-07T14:00",
 								"date": "2024-07-07",
 								"hour": "14:00",
@@ -10426,7 +10207,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-07-04-gremio-palmeiras",
+								"id": "1180485",
 								"fullDate": "2024-07-04T17:00",
 								"date": "2024-07-04",
 								"hour": "17:00",
@@ -10444,7 +10225,7 @@
 										"id": 121,
 										"name": "Palmeiras",
 										"country": "🇧🇷",
-										"position": 2,
+										"position": 3,
 										"featured": true,
 										"score": 2,
 										"winner": null
@@ -10454,7 +10235,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-30-gremio-fluminense",
+								"id": "1180475",
 								"fullDate": "2024-06-30T14:00",
 								"date": "2024-06-30",
 								"hour": "14:00",
@@ -10482,7 +10263,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-26-atletico-goianiense-gremio",
+								"id": "1180473",
 								"fullDate": "2024-06-26T18:00",
 								"date": "2024-06-26",
 								"hour": "18:00",
@@ -10510,7 +10291,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-22-gremio-internacional",
+								"id": "1180455",
 								"fullDate": "2024-06-22T15:30",
 								"date": "2024-06-22",
 								"hour": "15:30",
@@ -10538,7 +10319,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-19-fortaleza-ec-gremio",
+								"id": "1180452",
 								"fullDate": "2024-06-19T18:00",
 								"date": "2024-06-19",
 								"hour": "18:00",
@@ -10566,7 +10347,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-16-gremio-botafogo",
+								"id": "1180435",
 								"fullDate": "2024-06-16T16:30",
 								"date": "2024-06-16",
 								"hour": "16:30",
@@ -10594,7 +10375,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-13-flamengo-gremio",
+								"id": "1180428",
 								"fullDate": "2024-06-13T18:00",
 								"date": "2024-06-13",
 								"hour": "18:00",
@@ -10603,7 +10384,7 @@
 										"id": 127,
 										"name": "Flamengo",
 										"country": "🇧🇷",
-										"position": 3,
+										"position": 2,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -10622,7 +10403,7 @@
 								"league": { "id": 71, "name": "Serie A" }
 							},
 							{
-								"id": "2024-06-08-gremio-estudiantes-lp",
+								"id": "1187256",
 								"fullDate": "2024-06-08T17:00",
 								"date": "2024-06-08",
 								"hour": "17:00",
@@ -10650,7 +10431,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-06-04-huachipato-gremio",
+								"id": "1187239",
 								"fullDate": "2024-06-04T19:00",
 								"date": "2024-06-04",
 								"hour": "19:00",
@@ -10678,7 +10459,7 @@
 								"league": { "id": 13, "name": "CONMEBOL Libertadores" }
 							},
 							{
-								"id": "2024-06-01-gremio-rb-bragantino",
+								"id": "1180415",
 								"fullDate": "2024-06-01T14:00",
 								"date": "2024-06-01",
 								"hour": "14:00",
@@ -10731,7 +10512,8 @@
 								]
 							}
 						],
-						"trustLevel": "1|HIGH"
+						"trustLevel": "1|HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			}

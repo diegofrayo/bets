@@ -29,6 +29,10 @@ const instance = axios.create({
 
 const APIClient = {
 	async get(path: string, queryParams: DR.Object) {
+		if (dayjs(new Date()).diff(API_USAGE_STATS["last-request-execution"], "seconds") < 60) {
+			await delay(1000 * 60);
+		}
+
 		if (totalRequestsCounter === -1) {
 			totalRequestsCounter = readCounterStats();
 		}
@@ -89,6 +93,7 @@ function readCounterStats() {
 
 async function updateCounterStats(counter: number) {
 	API_USAGE_STATS["daily-requests"][composeFormattedDate()] = counter;
+	API_USAGE_STATS["last-request-execution"] = new Date().getTime();
 
 	writeFile(
 		"src/scripts/predictions/data/util/api-limits.json",
@@ -134,4 +139,5 @@ function dateWithTime(date: Date) {
 type T_APIUsageStats = {
 	bills: DR.Object<{ requests: number; paymentUSD: number; paymentCOP: number }>;
 	"daily-requests": DR.Object<number>;
+	"last-request-execution": number;
 };

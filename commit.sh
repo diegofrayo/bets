@@ -1,3 +1,3 @@
 git add .
-git commit -m ":memo: [update] data"
+git commit -m ":memo: [predictions] update data"
 git push

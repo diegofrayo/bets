@@ -3,7 +3,6 @@ import type DR from "../../../@diegofrayo/types";
 import { omit, removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
-import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
 import LEAGUES from "../data/util/leagues.json";
@@ -128,7 +127,7 @@ async function fetchPlayedMatches({
 		requestConfig.date,
 		leagueStandings,
 		league,
-	).filter((match) => match.played);
+	);
 
 	if (parsedResponse.length > 0) {
 		writeFile(
@@ -429,7 +428,7 @@ function parseMatchItem(
 	const [date, hour] = fullDate.split("T");
 	const isPlayedMatch = v.isNumber(item.goals.home) && v.isNumber(item.goals.away);
 	const matchBaseData = {
-		id: generateSlug(`${date}-${item.teams.home.name}-${item.teams.away.name}`),
+		id: `${item.fixture.id}`,
 		fullDate,
 		date,
 		hour,
@@ -457,9 +456,8 @@ function parseMatchItem(
 		},
 	};
 
-	// TODO: Try to remove the next as cast. Some properties are required in the type definition and I don't set them in the next object, even so, TypeScript does not launch an error and I expect it
 	if (variant === "PLAYED_MATCH") {
-		return {
+		const output: T_PlayedMatch = {
 			...matchBaseData,
 			played: true,
 			teams: {
@@ -478,11 +476,13 @@ function parseMatchItem(
 				id: item.league.id,
 				name: item.league.name,
 			},
-		} as T_PlayedMatch;
+		};
+
+		return output;
 	}
 
 	if (isPlayedMatch) {
-		return {
+		const output: T_FixturePlayedMatch = {
 			...matchBaseData,
 			played: true,
 			teams: {
@@ -502,10 +502,12 @@ function parseMatchItem(
 				},
 			},
 			predictions: [],
-		} as T_FixturePlayedMatch;
+		};
+
+		return output;
 	}
 
-	return {
+	const output: T_FixtureNextMatch = {
 		...matchBaseData,
 		played: false,
 		teams: {
@@ -521,7 +523,9 @@ function parseMatchItem(
 			},
 		},
 		predictions: [],
-	} as T_FixtureNextMatch;
+	};
+
+	return output;
 }
 
 function createEmptyTeamStatsObject(): T_TeamStats {
