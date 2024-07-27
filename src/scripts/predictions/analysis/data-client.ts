@@ -3,6 +3,7 @@ import type DR from "../../../@diegofrayo/types";
 import { omit, removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
+import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
 import LEAGUES from "../data/util/leagues.json";
@@ -25,7 +26,7 @@ import type {
 	T_TeamStats,
 	T_TeamStatsItems,
 } from "./types";
-import { formatCode } from "./utils";
+import { formatCode, formatDate } from "./utils";
 // import doubleOpportunityPrediction from "./markets/double-opportunity";
 import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
 import type { T_PredictionsInput } from "./markets/utils";
@@ -54,17 +55,17 @@ async function fetchFixtureMatches({
 		).data as T_RawMatchesResponse;
 
 		writeFile(
-			`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, "full")}/${requestConfig.date}.json`,
+			`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.date}.json`,
 			rawResponse,
 		);
 	} else if (
 		fileExists(
-			`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, "full")}/${requestConfig.date}.json`,
+			`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.date}.json`,
 		)
 	) {
 		rawResponse = JSON.parse(
 			readFile(
-				`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, "full")}/${requestConfig.date}.json`,
+				`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.date}.json`,
 			),
 		);
 	} else {
@@ -87,6 +88,7 @@ async function fetchPlayedMatches({
 	requestConfig: T_RequestConfig;
 	leagueStandings: T_LeagueStandings;
 }): Promise<Array<T_PlayedMatch>> {
+	const outputFileName = `${composeLeagueName(league.id)}/${generateSlug(composeTeamName(team))}`;
 	let rawResponse;
 
 	if (requestConfig.fetchFromAPI.PLAYED_MATCHES) {
@@ -98,25 +100,10 @@ async function fetchPlayedMatches({
 			})
 		).data as T_RawMatchesResponse;
 
-		writeFile(
-			`src/scripts/predictions/data/raw/teams/${composeLeagueName(league.id)}/${composeTeamName(
-				team,
-			)}.json`,
-			rawResponse,
-		);
-	} else if (
-		fileExists(
-			`src/scripts/predictions/data/raw/teams/${composeLeagueName(league.id)}/${composeTeamName(
-				team,
-			)}.json`,
-		)
-	) {
+		writeFile(`src/scripts/predictions/data/raw/teams/${outputFileName}.json`, rawResponse);
+	} else if (fileExists(`src/scripts/predictions/data/raw/teams/${outputFileName}.json`)) {
 		rawResponse = JSON.parse(
-			readFile(
-				`src/scripts/predictions/data/raw/teams/${composeLeagueName(league.id)}/${composeTeamName(
-					team,
-				)}.json`,
-			),
+			readFile(`src/scripts/predictions/data/raw/teams/${outputFileName}.json`),
 		);
 	} else {
 		rawResponse = { response: [] };
@@ -130,21 +117,22 @@ async function fetchPlayedMatches({
 	);
 
 	if (parsedResponse.length > 0) {
-		writeFile(
-			`src/scripts/predictions/data/output/teams/${composeLeagueName(
-				league.id,
-			)}/${composeTeamName(team)}.json`,
-			parsedResponse,
-		);
+		writeFile(`src/scripts/predictions/data/output/teams/${outputFileName}.json`, parsedResponse);
 	}
 
 	return parsedResponse;
 }
 
-async function fetchLeagueStandings(
-	league: Pick<T_League, "id" | "season">,
-	fetchFromAPI: boolean,
-): Promise<T_LeagueStandings> {
+async function fetchLeagueStandings({
+	league,
+	fetchFromAPI,
+	date,
+}: {
+	league: Pick<T_League, "id" | "season">;
+	fetchFromAPI: boolean;
+	date: string;
+}): Promise<T_LeagueStandings> {
+	const outputFileName = `${date}-${composeLeagueName(league.id, { full: true, date })}`;
 	let rawResponse;
 
 	if (fetchFromAPI) {
@@ -155,19 +143,10 @@ async function fetchLeagueStandings(
 			})
 		).data as T_RawLeagueStandingsResponse;
 
-		writeFile(
-			`src/scripts/predictions/data/raw/standings/${composeLeagueName(league.id, "full")}.json`,
-			rawResponse,
-		);
-	} else if (
-		fileExists(
-			`src/scripts/predictions/data/raw/standings/${composeLeagueName(league.id, "full")}.json`,
-		)
-	) {
+		writeFile(`src/scripts/predictions/data/raw/standings/${outputFileName}.json`, rawResponse);
+	} else if (fileExists(`src/scripts/predictions/data/raw/standings/${outputFileName}.json`)) {
 		rawResponse = JSON.parse(
-			readFile(
-				`src/scripts/predictions/data/raw/standings/${composeLeagueName(league.id, "full")}.json`,
-			),
+			readFile(`src/scripts/predictions/data/raw/standings/${outputFileName}.json`),
 		);
 	} else {
 		rawResponse = { response: [] };
@@ -177,7 +156,7 @@ async function fetchLeagueStandings(
 
 	if (parsedResponse.length > 0) {
 		writeFile(
-			`src/scripts/predictions/data/output/standings/${composeLeagueName(league.id, "full")}.json`,
+			`src/scripts/predictions/data/output/standings/${outputFileName}.json`,
 			parsedResponse,
 		);
 	}
@@ -236,12 +215,12 @@ async function updateLeaguesFixtures(requestConfig: {
 
 			if (
 				fileExists(
-					`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, "full")}/${requestConfig.from}--${requestConfig.to}.json`,
+					`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.from}--${requestConfig.to}.json`,
 				)
 			) {
 				leagueMatches = JSON.parse(
 					readFile(
-						`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, "full")}/${requestConfig.from}--${requestConfig.to}.json`,
+						`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.from}--${requestConfig.to}.json`,
 					),
 				) as T_RawMatchesResponse;
 			} else {
@@ -256,7 +235,7 @@ async function updateLeaguesFixtures(requestConfig: {
 			}
 
 			writeFile(
-				`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, "full")}/${requestConfig.from}--${requestConfig.to}.json`,
+				`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.from}--${requestConfig.to}.json`,
 				leagueMatches,
 			);
 
@@ -295,7 +274,11 @@ async function updateLeaguesStandings(leagues: Array<Pick<T_League, "id" | "seas
 	await asyncLoop(leagues, async (league) => {
 		try {
 			console.log(`  Fetching "${league.id})" standings...`);
-			await fetchLeagueStandings({ id: league.id, season: league.season }, true);
+			await fetchLeagueStandings({
+				league: { id: league.id, season: league.season },
+				fetchFromAPI: true,
+				date: formatDate(new Date()),
+			});
 		} catch (error) {
 			console.log(getErrorMessage(error));
 		}
@@ -596,6 +579,9 @@ function getProperlyLeagueStandingsData(
 	const isColombiaLeague = response.id === 239;
 	const isBrazilLeague = response.id === 71;
 	const isArgentinaLeague = response.id === 128;
+	const isNorwayLeague = response.id === 103;
+	const isFinlandLeague = response.id === 244;
+	const isBelgiumLeague = response.id === 144;
 
 	if (isColombiaLeague) {
 		return response.standings.filter((standings) => {
@@ -607,7 +593,7 @@ function getProperlyLeagueStandingsData(
 		});
 	}
 
-	if (isBrazilLeague || isArgentinaLeague) {
+	if (isBrazilLeague || isArgentinaLeague || isNorwayLeague || isFinlandLeague || isBelgiumLeague) {
 		return response.standings;
 	}
 
@@ -618,18 +604,18 @@ function composeTeamName(team: Pick<T_FixtureMatchTeam, "id" | "name">) {
 	return `${team.name} (${team.id})`;
 }
 
-function composeLeagueName(leagueId: number, option?: "full") {
+function composeLeagueName(leagueId: number, options?: { full: true; date?: string }) {
 	const league = getLeagueById(leagueId);
 
 	if (!league) {
 		throw new Error(`League "${leagueId}" not found`);
 	}
 
-	if (option === "full") {
-		return `${league.country}/${league.name} (${league.id})`;
+	if (options?.full) {
+		return `${league.country}/${options.date ? `${options.date}-` : ""}${league.name} (${league.id})`;
 	}
 
-	return `${league.country}`;
+	return league.country;
 }
 
 function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {

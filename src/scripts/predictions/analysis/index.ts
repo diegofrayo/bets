@@ -75,10 +75,11 @@ export default async function main(config: T_PredictionConfig) {
 			try {
 				console.log(`  Fetching "${league.name} (${league.id}|${league.country})" matches...`);
 
-				const leagueStandings = await DataClient.fetchLeagueStandings(
+				const leagueStandings = await DataClient.fetchLeagueStandings({
 					league,
-					requestConfig.fetchFromAPI.LEAGUE_STANDINGS,
-				);
+					fetchFromAPI: requestConfig.fetchFromAPI.LEAGUE_STANDINGS,
+					date,
+				});
 				const fixtureMatches = await DataClient.fetchFixtureMatches({
 					league,
 					requestConfig,

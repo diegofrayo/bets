@@ -6,11 +6,12 @@ import type {
 	T_PlayedMatchMarketPrediction,
 	T_TeamStats,
 } from "../types";
+import { sortBy } from "../../../../@diegofrayo/sort";
 
 export function analizeCriteria(
-	criteria: Array<{ description: string; items: Array<T_CriteriaInput> }>,
+	criteria: Array<{ description: string; trustLevel: number; items: Array<T_CriteriaInput> }>,
 	data: T_PredictionsInput,
-) {
+): T_MarketPrediction["criteria"] {
 	const output = criteria.map((subCriteria) => {
 		const result = subCriteria.items.map((subCriteriaItem) => {
 			const { fulfilled, ...rest } = subCriteriaItem.fn(data);
@@ -30,40 +31,36 @@ export function analizeCriteria(
 			};
 		});
 
-		return { description: subCriteria.description, items: result };
+		return { ...subCriteria, items: result };
 	});
 
-	return output.map((subCriteria) => {
-		const someFullfilledItemNotExists =
-			subCriteria.items.find((item) => {
-				return item.fulfilled === false;
-			}) === undefined;
+	return output
+		.map((subCriteria) => {
+			const allItemsAreFullFilled =
+				subCriteria.items.find((item) => {
+					return item.fulfilled === false;
+				}) === undefined;
 
-		return {
-			fulfilled: someFullfilledItemNotExists,
-			description: subCriteria.description,
-			items: subCriteria.items,
-		};
-	});
+			return {
+				...subCriteria,
+				fulfilled: allItemsAreFullFilled,
+			};
+		})
+		.sort(sortBy("fulfilled", "-trustLevel"));
 }
 
-export function calculateTrustLevel(
-	analizedCriteria: T_MarketPrediction["criteria"],
-): T_MarketPrediction["trustLevel"] {
-	if (analizedCriteria[0]?.fulfilled) {
-		return "1|HIGH";
+export function calculateTrustLevelLabel(
+	trustLevel: T_MarketPrediction["trustLevel"],
+): T_MarketPrediction["trustLevelLabel"] {
+	if (trustLevel === 100) {
+		return "HIGH";
 	}
 
-	const anyFullfilledItemExists =
-		analizedCriteria.slice(1).find((item) => {
-			return item.fulfilled === true;
-		}) !== undefined;
-
-	if (anyFullfilledItemExists) {
-		return "2|MEDIUM";
+	if (trustLevel >= 50 && trustLevel <= 80) {
+		return "MEDIUM";
 	}
 
-	return "3|LOW";
+	return "LOW";
 }
 
 export function createMarketPredictionOutput({
@@ -77,16 +74,18 @@ export function createMarketPredictionOutput({
 		| Record<
 				keyof T_PlayedMatchMarketPrediction["results"],
 				(
-					trustLevel: T_MarketPrediction["trustLevel"],
+					trustLevelLabel: T_MarketPrediction["trustLevelLabel"],
 					predictionsInput: T_PredictionsInput,
 				) => boolean
 		  >
 		| undefined;
 }): T_MarketPrediction {
-	const output = {
+	const trustLevel = criteria[0].fulfilled ? criteria[0].trustLevel : 0;
+	const output: T_MarketPrediction = {
 		...rest,
 		criteria,
-		trustLevel: calculateTrustLevel(criteria),
+		trustLevel,
+		trustLevelLabel: calculateTrustLevelLabel(trustLevel),
 	};
 
 	if (results) {
@@ -96,7 +95,7 @@ export function createMarketPredictionOutput({
 				(result, [key, fn]) => {
 					return {
 						...result,
-						[key]: fn(output.trustLevel, predictionsInput),
+						[key]: fn(output.trustLevelLabel, predictionsInput),
 					};
 				},
 				{} as T_PlayedMatchMarketPrediction["results"],

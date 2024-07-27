@@ -29,11 +29,17 @@ const instance = axios.create({
 
 const APIClient = {
 	async get(path: string, queryParams: DR.Object) {
-		if (dayjs(new Date()).diff(API_USAGE_STATS["last-request-execution"], "seconds") < 60) {
-			await delay(1000 * 60);
-		}
-
 		if (totalRequestsCounter === -1) {
+			if (dayjs(new Date()).diff(API_USAGE_STATS["last-request-execution"], "seconds") < 60) {
+				console.log(
+					"    .....",
+					"First execution delay for 1 minute |",
+					new Date().toISOString(),
+					".....",
+				);
+				await delay(1000 * 60);
+			}
+
 			totalRequestsCounter = readCounterStats();
 		}
 

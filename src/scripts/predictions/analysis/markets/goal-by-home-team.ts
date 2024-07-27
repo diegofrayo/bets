@@ -5,6 +5,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 	const criteria = [
 		{
 			description: "Promedio de goles local/visitante",
+			trustLevel: 100,
 			items: [
 				{
 					description: "El local tiene un promedio de goles anotados como local alto",
@@ -44,41 +45,41 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 		results: predictionsInput.match.played
 			? {
 					right: (
-						trustLevel: T_MarketPrediction["trustLevel"],
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
 						return (
-							trustLevel === "1|HIGH" &&
+							trustLevel === "HIGH" &&
 							"winner" in predictionsInput_.homeTeam &&
 							predictionsInput_.homeTeam.score > 0
 						);
 					},
 					lostRight: (
-						trustLevel: T_MarketPrediction["trustLevel"],
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
 						return (
-							trustLevel !== "1|HIGH" &&
+							trustLevel !== "HIGH" &&
 							"winner" in predictionsInput_.homeTeam &&
 							predictionsInput_.homeTeam.score > 0
 						);
 					},
 					fail: (
-						trustLevel: T_MarketPrediction["trustLevel"],
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
 						return (
-							trustLevel === "1|HIGH" &&
+							trustLevel === "HIGH" &&
 							"winner" in predictionsInput_.homeTeam &&
 							predictionsInput_.homeTeam.score === 0
 						);
 					},
 					skippedFail: (
-						trustLevel: T_MarketPrediction["trustLevel"],
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
 						return (
-							trustLevel === "3|LOW" &&
+							trustLevel === "LOW" &&
 							"winner" in predictionsInput_.homeTeam &&
 							predictionsInput_.homeTeam.score === 0
 						);

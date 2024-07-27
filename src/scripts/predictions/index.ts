@@ -8,8 +8,8 @@ launchAnalysis({
 	// enableRemoteAPI: true,
 
 	// Config 2
-	date: "2024-07-26T00:00:00",
-	previousDays: 5,
+	date: "2024-07-28T00:00:00",
+	previousDays: 2,
 	enableRemoteAPI: false,
 
 	// Config 3

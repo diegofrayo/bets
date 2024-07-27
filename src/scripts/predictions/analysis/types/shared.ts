@@ -129,9 +129,11 @@ type T_MarketPredictionBase = {
 	id: string;
 	name: string;
 	shortName: string;
-	trustLevel: "1|HIGH" | "2|MEDIUM" | "3|LOW";
+	trustLevel: number;
+	trustLevelLabel: "HIGH" | "MEDIUM" | "LOW";
 	criteria: Array<{
 		description: string;
+		trustLevel: number;
 		fulfilled: boolean;
 		items: Array<{
 			fulfilled: boolean;
