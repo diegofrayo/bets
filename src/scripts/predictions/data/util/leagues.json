@@ -26,7 +26,7 @@
 			"name": "Premier League",
 			"type": "League",
 			"country": "Egypt",
-			"season": 2024,
+			"season": 2023,
 			"priority": 1,
 			"flag": "🇪🇬"
 		},
@@ -151,16 +151,6 @@
 			"flag": "🌎"
 		},
 		{
-			"enabled": false,
-			"id": 9,
-			"name": "Copa America",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
 			"enabled": true,
 			"id": 130,
 			"name": "Copa Argentina",
@@ -201,16 +191,6 @@
 			"flag": "🇺🇸"
 		},
 		{
-			"enabled": false,
-			"id": 480,
-			"name": "Olympics Men",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
 			"enabled": true,
 			"id": 71,
 			"name": "Serie A",
@@ -219,46 +199,6 @@
 			"season": 2024,
 			"priority": 3,
 			"flag": "🇧🇷"
-		},
-		{
-			"enabled": false,
-			"id": 2,
-			"name": "UEFA Champions League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": false,
-			"id": 848,
-			"name": "UEFA Europa Conference League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": false,
-			"id": 3,
-			"name": "UEFA Europa League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": false,
-			"id": 220,
-			"name": "Austria Cup",
-			"type": "Cup",
-			"country": "Austria",
-			"season": 2024,
-			"priority": 4,
-			"flag": "🇦🇹"
 		},
 		{
 			"enabled": true,
@@ -321,16 +261,6 @@
 			"flag": "🇸🇦"
 		},
 		{
-			"enabled": false,
-			"id": 16,
-			"name": "CONCACAF Champions League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 5,
-			"flag": "🌎"
-		},
-		{
 			"enabled": true,
 			"id": 241,
 			"name": "Copa Colombia",
@@ -359,6 +289,76 @@
 			"season": 2024,
 			"priority": 5,
 			"flag": "🇸🇦"
+		},
+		{
+			"enabled": false,
+			"id": 9,
+			"name": "Copa America",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": false,
+			"id": 480,
+			"name": "Olympics Men",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": false,
+			"id": 2,
+			"name": "UEFA Champions League",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": false,
+			"id": 848,
+			"name": "UEFA Europa Conference League",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": false,
+			"id": 3,
+			"name": "UEFA Europa League",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 3,
+			"flag": "🌎"
+		},
+		{
+			"enabled": false,
+			"id": 220,
+			"name": "Austria Cup",
+			"type": "Cup",
+			"country": "Austria",
+			"season": 2024,
+			"priority": 4,
+			"flag": "🇦🇹"
+		},
+		{
+			"enabled": false,
+			"id": 16,
+			"name": "CONCACAF Champions League",
+			"type": "Cup",
+			"country": "World",
+			"season": 2024,
+			"priority": 5,
+			"flag": "🌎"
 		}
 	],
 	"fixtures": {
@@ -368,6 +368,13 @@
 		"2024-07-25": [128, 239, 11, 71, 848, 3],
 		"2024-07-26": [220, 144],
 		"2024-07-27": [103, 128, 239, 244, 480, 71, 220, 144],
-		"2024-07-28": [103, 128, 239, 244, 71, 220, 144]
+		"2024-07-28": [103, 128, 239, 244, 71, 220, 144],
+		"2024-07-29": [128, 239, 233],
+		"2024-07-30": [239, 73],
+		"2024-07-31": [128, 239, 130, 73],
+		"2024-08-01": [73],
+		"2024-08-02": [128, 239, 244, 218, 144],
+		"2024-08-03": [103, 128, 239, 244, 137, 71, 218, 144, 179],
+		"2024-08-04": [103, 128, 239, 244, 137, 71, 218, 144, 179]
 	}
 }
