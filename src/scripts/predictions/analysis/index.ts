@@ -68,7 +68,7 @@ export default async function main(config: T_PredictionConfig) {
 		const requestConfig = createRequestConfig(config, date);
 
 		await asyncLoop(leaguesByDate, async (leagueId) => {
-			const league = DataClient.getLeagueById(leagueId);
+			const league = DataClient.getLeagueById(Number(leagueId.split("-")[0]));
 
 			if (!league.enabled) return;
 

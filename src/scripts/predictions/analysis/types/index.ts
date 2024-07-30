@@ -59,3 +59,17 @@ export type T_RawLeagueStandingsResponse = {
 		};
 	}>;
 };
+
+export type T_LeaguesFile = {
+	items: Array<{
+		enabled: boolean;
+		id: number;
+		name: string;
+		type: string;
+		country: string;
+		season: number;
+		priority: number;
+		flag: string;
+	}>;
+	fixtures: Record<string, Array<string>>;
+};

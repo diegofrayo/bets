@@ -1,12 +1,14 @@
 import { sortBy } from "../../../@diegofrayo/sort";
-import type DR from "../../../@diegofrayo/types";
-import { omit, removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
+import {
+	omit,
+	removeDuplicates,
+	sortObjectKeys,
+} from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
 import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
-import LEAGUES from "../data/util/leagues.json";
 import TEAMS from "../data/util/teams.json";
 import APIClient from "./api-client";
 import type {
@@ -15,6 +17,7 @@ import type {
 	T_FixtureNextMatch,
 	T_FixturePlayedMatch,
 	T_League,
+	T_LeaguesFile,
 	T_LeagueStandings,
 	T_NextMatchMarketPrediction,
 	T_PlayedMatch,
@@ -30,6 +33,10 @@ import { formatCode, formatDate } from "./utils";
 // import doubleOpportunityPrediction from "./markets/double-opportunity";
 import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
 import type { T_PredictionsInput } from "./markets/utils";
+
+const LEAGUES = JSON.parse(
+	readFile("src/scripts/predictions/data/util/leagues.json"),
+) as T_LeaguesFile;
 
 // --- API ---
 
@@ -198,7 +205,7 @@ async function updateLeaguesFixtures(requestConfig: {
 	to: string;
 	ids: Array<number>;
 }) {
-	const output = {} as DR.Object<number[]>;
+	const output = {} as T_LeaguesFile["fixtures"];
 	const leagues = LEAGUES.items.sort(sortBy("-enabled", "priority", "name"));
 
 	await asyncLoop(leagues, async (league) => {
@@ -246,7 +253,7 @@ async function updateLeaguesFixtures(requestConfig: {
 					output[date] = [];
 				}
 
-				output[date].push(league.id);
+				output[date].push(generateSlug(`${league.id}-${league.name}-${league.country}`));
 			});
 		} catch (error) {
 			console.log(getErrorMessage(error));
@@ -258,11 +265,11 @@ async function updateLeaguesFixtures(requestConfig: {
 		await formatCode(
 			{
 				...LEAGUES,
-				fixtures: Object.entries(output).reduce(
+				fixtures: Object.entries(sortObjectKeys({ ...LEAGUES.fixtures, ...output })).reduce(
 					(result, [key, value]) => {
 						return { ...result, [key]: removeDuplicates(value) };
 					},
-					{ ...LEAGUES.fixtures },
+					{},
 				),
 			},
 			"json",
@@ -332,7 +339,7 @@ function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_Te
 	return output;
 }
 
-function getLeagueById(leagueId: number | string) {
+function getLeagueById(leagueId: number) {
 	const league = LEAGUES.items.find((item) => {
 		return item.id === leagueId;
 	});
@@ -342,7 +349,7 @@ function getLeagueById(leagueId: number | string) {
 
 function getLeaguesByDate(date: string) {
 	return (
-		(LEAGUES.fixtures as DR.Object<Array<number>>)[date as keyof typeof LEAGUES.fixtures] ||
+		LEAGUES.fixtures[date as keyof typeof LEAGUES.fixtures] ||
 		throwError(`No fixture for "${date}"`)
 	);
 }

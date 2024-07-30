@@ -45,3 +45,16 @@ export function pick<G_Object extends object, G_ObjectKeys extends keyof G_Objec
 export function removeDuplicates<G_ItemType>(array: G_ItemType[]): G_ItemType[] {
 	return array.filter((item, index) => array.indexOf(item) === index);
 }
+
+export function sortObjectKeys<G_Object extends object, G_ObjectKeys extends keyof G_Object>(
+	object: G_Object,
+): G_Object {
+	return Object.keys(object)
+		.sort()
+		.reduce((result, key) => {
+			return {
+				...result,
+				[key]: object[key as G_ObjectKeys],
+			};
+		}, {} as G_Object);
+}
