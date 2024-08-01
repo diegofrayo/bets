@@ -3575,7 +3575,7 @@
 				"fullDate": "2024-07-30T18:00",
 				"date": "2024-07-30",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1144,
@@ -3583,6 +3583,8 @@
 						"country": "🇨🇴",
 						"position": 20,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4110,6 +4112,8 @@
 						"country": "🇨🇴",
 						"position": 18,
 						"featured": false,
+						"score": 2,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4657,7 +4661,8 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			},
@@ -4666,7 +4671,7 @@
 				"fullDate": "2024-07-30T20:10",
 				"date": "2024-07-30",
 				"hour": "20:10",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1137,
@@ -4674,6 +4679,8 @@
 						"country": "🇨🇴",
 						"position": 2,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5201,6 +5208,8 @@
 						"country": "🇨🇴",
 						"position": 5,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -5748,7 +5757,8 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": { "right": false, "lostRight": false, "fail": true, "skippedFail": false }
 					}
 				]
 			}
@@ -5768,7 +5778,7 @@
 				"fullDate": "2024-07-30T18:00",
 				"date": "2024-07-30",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 126,
@@ -5776,6 +5786,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6303,6 +6315,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -6850,7 +6864,8 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			},
@@ -6859,7 +6874,7 @@
 				"fullDate": "2024-07-30T19:30",
 				"date": "2024-07-30",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 120,
@@ -6867,6 +6882,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7394,6 +7411,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": true,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -7941,7 +7960,8 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			}
