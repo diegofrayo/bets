@@ -139,7 +139,7 @@ async function fetchLeagueStandings({
 	fetchFromAPI: boolean;
 	date: string;
 }): Promise<T_LeagueStandings> {
-	const outputFileName = `${date}-${composeLeagueName(league.id, { full: true, date })}`;
+	const outputFileName = composeLeagueName(league.id, { full: true, date });
 	let rawResponse;
 
 	if (fetchFromAPI) {
@@ -589,6 +589,8 @@ function getProperlyLeagueStandingsData(
 	const isNorwayLeague = response.id === 103;
 	const isFinlandLeague = response.id === 244;
 	const isBelgiumLeague = response.id === 144;
+	const isEgyptianLeague = response.id === 233;
+	const isAustriaLeague = response.id === 218;
 
 	if (isColombiaLeague) {
 		return response.standings.filter((standings) => {
@@ -600,7 +602,15 @@ function getProperlyLeagueStandingsData(
 		});
 	}
 
-	if (isBrazilLeague || isArgentinaLeague || isNorwayLeague || isFinlandLeague || isBelgiumLeague) {
+	if (
+		isBrazilLeague ||
+		isArgentinaLeague ||
+		isNorwayLeague ||
+		isFinlandLeague ||
+		isBelgiumLeague ||
+		isEgyptianLeague ||
+		isAustriaLeague
+	) {
 		return response.standings;
 	}
 

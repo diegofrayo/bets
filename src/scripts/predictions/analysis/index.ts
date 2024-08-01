@@ -272,7 +272,7 @@ function createRequestConfig(
 			? {
 					FIXTURE_MATCHES: true,
 					PLAYED_MATCHES: true,
-					LEAGUE_STANDINGS: true,
+					LEAGUE_STANDINGS: formattedDate >= formatDate(new Date()),
 				}
 			: {
 					FIXTURE_MATCHES: false,

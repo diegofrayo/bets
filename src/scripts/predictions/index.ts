@@ -5,11 +5,11 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	date: "today",
-	enableRemoteAPI: true,
+	enableRemoteAPI: false,
 
 	// Config 2
-	// date: "2024-07-27T00:00:00",
-	// previousDays: 0,
+	// date: "2024-08-01T00:00:00",
+	// previousDays: 5,
 	// enableRemoteAPI: false,
 
 	// Config 3
