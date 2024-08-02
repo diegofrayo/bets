@@ -106,6 +106,19 @@ declare namespace DR {
 	// --- JS ---
 	export type SetTimeout = NodeJS.Timeout;
 	export type ProcessEnv = NodeJS.ProcessEnv;
+
+	// --- DATES ---
+	export namespace Dates {
+		type T_OneToNine = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+		type T_ZeroToNine = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+		type YYYY = `19${T_ZeroToNine}${T_ZeroToNine}` | `20${T_ZeroToNine}${T_ZeroToNine}`;
+		type MM = `0${T_OneToNine}` | `1${0 | 1 | 2}`;
+		type DD = `${0}${T_OneToNine}` | `${1 | 2}${T_ZeroToNine}` | `3${0 | 1}`;
+
+		export type DateString<T_Config = "DATE"> = T_Config extends "FULL"
+			? `${YYYY}-${MM}-${DD}T:00:00:00`
+			: `${YYYY}-${MM}-${DD}`;
+	}
 }
 
 export default DR;

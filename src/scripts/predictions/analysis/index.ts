@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 
+import type DR from "../../../@diegofrayo/types";
 import { createArray, omit, pick } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { copyFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
@@ -14,48 +15,15 @@ import type {
 	T_League,
 } from "./types";
 
-type T_PredictionConfig =
-	| {
-			date: Exclude<string, "today" | "tomorrow" | "yesterday">;
-			enableRemoteAPI: boolean;
-			previousDays: number;
-
-			leaguesFixturesDates?: never;
-			leagueStandings?: never;
-	  }
-	| {
-			date: "today" | "tomorrow" | "yesterday";
-			enableRemoteAPI: boolean;
-
-			leaguesFixturesDates?: never;
-			leagueStandings?: never;
-	  }
-	| {
-			leaguesFixturesDates: { from: string; to: string; ids: Array<number> };
-
-			date?: never;
-			enableRemoteAPI?: never;
-			previousDays?: never;
-			leagueStandings?: never;
-	  }
-	| {
-			leagueStandings: Array<Pick<T_League, "id" | "season">>;
-
-			date?: never;
-			enableRemoteAPI?: never;
-			previousDays?: never;
-			leaguesFixturesDates?: never;
-	  };
-
-export default async function main(config: T_PredictionConfig) {
+export default async function main(config: T_AnalysisConfig) {
 	await APIClient.calculateUsageStats();
 
-	if ("leaguesFixturesDates" in config) {
+	if (config.config === "LEAGUES_FIXTURES_UPDATE") {
 		await DataClient.updateLeaguesFixtures(config.leaguesFixturesDates);
 		return;
 	}
 
-	if ("leagueStandings" in config) {
+	if (config.config === "LEAGUES_STANDINGS_UPDATE") {
 		await DataClient.updateLeaguesStandings(config.leagueStandings);
 		return;
 	}
@@ -207,29 +175,62 @@ export default async function main(config: T_PredictionConfig) {
 
 // --- UTILS ---
 
-function createRequestConfig(
-	requestConfig: { date: string; enableRemoteAPI: boolean },
-	formattedDate: string,
-) {
-	if (requestConfig.date === "yesterday") {
-		return {
-			date: formattedDate,
-			enableRemoteAPI: requestConfig.enableRemoteAPI,
-			fetchFromAPI: requestConfig.enableRemoteAPI
-				? {
-						FIXTURE_MATCHES: true,
-						PLAYED_MATCHES: false,
-						LEAGUE_STANDINGS: false,
-					}
-				: {
-						FIXTURE_MATCHES: false,
-						PLAYED_MATCHES: false,
-						LEAGUE_STANDINGS: false,
-					},
-		};
-	}
+function createRequestConfig(requestConfig: T_AnalysisConfig, formattedDate: DR.Dates.DateString) {
+	if (requestConfig.config === "SPECIFIC_DATE") {
+		if (requestConfig.date === "yesterday") {
+			return {
+				date: formattedDate,
+				enableRemoteAPI: requestConfig.enableRemoteAPI,
+				fetchFromAPI: requestConfig.enableRemoteAPI
+					? {
+							FIXTURE_MATCHES: true,
+							PLAYED_MATCHES: false,
+							LEAGUE_STANDINGS: false,
+						}
+					: {
+							FIXTURE_MATCHES: false,
+							PLAYED_MATCHES: false,
+							LEAGUE_STANDINGS: false,
+						},
+			};
+		}
 
-	if (requestConfig.date === "today") {
+		if (requestConfig.date === "today") {
+			return {
+				date: formattedDate,
+				enableRemoteAPI: requestConfig.enableRemoteAPI,
+				fetchFromAPI: requestConfig.enableRemoteAPI
+					? {
+							FIXTURE_MATCHES: true,
+							PLAYED_MATCHES: true,
+							LEAGUE_STANDINGS: true,
+						}
+					: {
+							FIXTURE_MATCHES: false,
+							PLAYED_MATCHES: false,
+							LEAGUE_STANDINGS: false,
+						},
+			};
+		}
+
+		if (requestConfig.date === "tomorrow") {
+			return {
+				date: formattedDate,
+				enableRemoteAPI: requestConfig.enableRemoteAPI,
+				fetchFromAPI: requestConfig.enableRemoteAPI
+					? {
+							FIXTURE_MATCHES: true,
+							PLAYED_MATCHES: true,
+							LEAGUE_STANDINGS: true,
+						}
+					: {
+							FIXTURE_MATCHES: false,
+							PLAYED_MATCHES: false,
+							LEAGUE_STANDINGS: false,
+						},
+			};
+		}
+
 		return {
 			date: formattedDate,
 			enableRemoteAPI: requestConfig.enableRemoteAPI,
@@ -237,25 +238,7 @@ function createRequestConfig(
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: true,
-						LEAGUE_STANDINGS: true,
-					}
-				: {
-						FIXTURE_MATCHES: false,
-						PLAYED_MATCHES: false,
-						LEAGUE_STANDINGS: false,
-					},
-		};
-	}
-
-	if (requestConfig.date === "tomorrow") {
-		return {
-			date: formattedDate,
-			enableRemoteAPI: requestConfig.enableRemoteAPI,
-			fetchFromAPI: requestConfig.enableRemoteAPI
-				? {
-						FIXTURE_MATCHES: true,
-						PLAYED_MATCHES: true,
-						LEAGUE_STANDINGS: true,
+						LEAGUE_STANDINGS: formattedDate >= formatDate(new Date()),
 					}
 				: {
 						FIXTURE_MATCHES: false,
@@ -267,39 +250,66 @@ function createRequestConfig(
 
 	return {
 		date: formattedDate,
-		enableRemoteAPI: requestConfig.enableRemoteAPI,
-		fetchFromAPI: requestConfig.enableRemoteAPI
-			? {
-					FIXTURE_MATCHES: true,
-					PLAYED_MATCHES: true,
-					LEAGUE_STANDINGS: formattedDate >= formatDate(new Date()),
-				}
-			: {
-					FIXTURE_MATCHES: false,
-					PLAYED_MATCHES: false,
-					LEAGUE_STANDINGS: false,
-				},
+		enableRemoteAPI: false,
+		fetchFromAPI: {
+			FIXTURE_MATCHES: false,
+			PLAYED_MATCHES: false,
+			LEAGUE_STANDINGS: false,
+		},
 	};
 }
 
-function generateDates(
-	config: { date: "today" | "tomorrow" | "yesterday" } | { date: string; previousDays: number },
-) {
-	if ("previousDays" in config) {
+function generateDates(config: T_AnalysisConfig): DR.Dates.DateString[] {
+	if (config.config === "SPECIFIC_DATE") {
+		if (config.date === "today") {
+			return [formatDate(dayjs().toDate())];
+		}
+
+		if (config.date === "yesterday") {
+			return [formatDate(dayjs().subtract(1, "day").toDate())];
+		}
+
+		if (config.date === "tomorrow") {
+			return [formatDate(dayjs().add(1, "day").toDate())];
+		}
+
+		return [config.date];
+	}
+
+	if (config.config === "OFFLINE_REBUILDING") {
 		const baseDate = dayjs(new Date(config.date));
 
 		return [baseDate]
 			.concat(createArray(config.previousDays).map((day) => baseDate.subtract(day, "day")))
-			.map((date) => formatDate(date.toDate()));
+			.map((date) => formatDate(date.toDate()))
+			.reverse();
 	}
 
-	if (config.date === "today") {
-		return [formatDate(dayjs().toDate())];
-	}
-
-	if (config.date === "yesterday") {
-		return [formatDate(dayjs().subtract(1, "day").toDate())];
-	}
-
-	return [formatDate(dayjs().add(1, "day").toDate())];
+	return [];
 }
+
+// --- TYPES ---
+
+type T_AnalysisConfig =
+	| {
+			config: "SPECIFIC_DATE";
+			date: "today" | "tomorrow" | "yesterday" | DR.Dates.DateString;
+			enableRemoteAPI: boolean;
+	  }
+	| {
+			config: "OFFLINE_REBUILDING";
+			date: DR.Dates.DateString;
+			previousDays: number;
+	  }
+	| {
+			config: "LEAGUES_FIXTURES_UPDATE";
+			leaguesFixturesDates: {
+				from: DR.Dates.DateString<"DATE">;
+				to: DR.Dates.DateString<"DATE">;
+				ids: Array<number>;
+			};
+	  }
+	| {
+			config: "LEAGUES_STANDINGS_UPDATE";
+			leagueStandings: Array<Pick<T_League, "id" | "season">>;
+	  };

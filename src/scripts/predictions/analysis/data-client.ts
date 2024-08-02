@@ -1,4 +1,5 @@
 import { sortBy } from "../../../@diegofrayo/sort";
+import type DR from "../../../@diegofrayo/types";
 import {
 	omit,
 	removeDuplicates,
@@ -137,7 +138,7 @@ async function fetchLeagueStandings({
 }: {
 	league: Pick<T_League, "id" | "season">;
 	fetchFromAPI: boolean;
-	date: string;
+	date: DR.Dates.DateString;
 }): Promise<T_LeagueStandings> {
 	const outputFileName = composeLeagueName(league.id, { full: true, date });
 	let rawResponse;
@@ -347,7 +348,7 @@ function getLeagueById(leagueId: number) {
 	return league || throwError(`League not found with id "${leagueId}"`);
 }
 
-function getLeaguesByDate(date: string) {
+function getLeaguesByDate(date: DR.Dates.DateString) {
 	return (
 		LEAGUES.fixtures[date as keyof typeof LEAGUES.fixtures] ||
 		throwError(`No fixture for "${date}"`)
@@ -384,7 +385,7 @@ function parseFixtureMatchesResponse(
 
 function parsePlayedMatchesResponse(
 	data: T_RawMatchesResponse,
-	date: string,
+	date: DR.Dates.DateString,
 	leagueStandings: T_LeagueStandings,
 	league: T_League,
 ): Array<T_PlayedMatch> {

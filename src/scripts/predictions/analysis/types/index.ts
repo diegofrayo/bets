@@ -1,7 +1,9 @@
+import type DR from "../../../../@diegofrayo/types";
+
 export * from "./shared";
 
 export type T_RequestConfig = {
-	date: string;
+	date: DR.Dates.DateString;
 	enableRemoteAPI: boolean;
 	fetchFromAPI: {
 		FIXTURE_MATCHES: boolean;

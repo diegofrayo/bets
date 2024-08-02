@@ -4,15 +4,17 @@ import launchAnalysis from "./analysis";
 // npm run script:predictions
 launchAnalysis({
 	// Config 1
-	date: "yesterday",
+	config: "SPECIFIC_DATE",
+	date: "today",
 	enableRemoteAPI: true,
 
 	// Config 2
-	// date: "2024-08-01T00:00:00",
+	// config: "OFFLINE_REBUILDING",
+	// date: "2024-08-04",
 	// previousDays: 5,
-	// enableRemoteAPI: false,
 
 	// Config 3
+	// config: "LEAGUES_FIXTURES_UPDATE",
 	// leaguesFixturesDates: {
 	// 	from: "2024-07-29",
 	// 	to: "2024-08-04",
@@ -20,5 +22,6 @@ launchAnalysis({
 	// },
 
 	// Config 4
+	// config: "LEAGUES_STANDINGS_UPDATE",
 	// leagueStandings: [{ id: 233, season: 2023 }],
 });

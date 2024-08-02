@@ -1,14 +1,15 @@
 import * as prettier from "prettier";
 
+import type DR from "../../../@diegofrayo/types";
 import { addLeftPadding, replaceAll } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
 import prettierConfig from "../../../../.prettierrc.js";
 
-export function formatDate(date: Date) {
+export function formatDate(date: Date): DR.Dates.DateString {
 	return `${date.getFullYear()}-${addLeftPadding(date.getMonth() + 1)}-${addLeftPadding(
 		date.getDate(),
-	)}`;
+	)}` as DR.Dates.DateString;
 }
 
 // https://prettier.io/docs/en/options#parser
