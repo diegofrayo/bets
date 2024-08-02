@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 
 import { createArray, omit, pick } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { copyFile, writeFile } from "../../../@diegofrayo/utils/files";
-import { asyncLoop } from "../../../@diegofrayo/utils/misc";
+import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
 
 import APIClient from "./api-client";
 import DataClient from "./data-client";
@@ -174,7 +174,7 @@ export default async function main(config: T_PredictionConfig) {
 							});
 						}
 					} catch (error) {
-						console.log(error);
+						console.log(getErrorMessage(error));
 					}
 				});
 
@@ -182,7 +182,7 @@ export default async function main(config: T_PredictionConfig) {
 					output.push(leagueData);
 				}
 			} catch (error) {
-				console.log(error);
+				console.log(getErrorMessage(error));
 			}
 		});
 

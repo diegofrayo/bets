@@ -85,6 +85,16 @@ export function getImageOrientation(source: string): Promise<"portrait" | "lands
 	});
 }
 
+export function encodeRequestParams(body: Record<string, string | number>) {
+	const params = new URLSearchParams();
+
+	Object.entries(body).forEach(([key, value]) => {
+		params.append(key, String(value));
+	});
+
+	return params;
+}
+
 // --- INTERNALS ---
 
 type T_HttpError = { response: { data: { message: string } } };

@@ -4,8 +4,8 @@ import launchAnalysis from "./analysis";
 // npm run script:predictions
 launchAnalysis({
 	// Config 1
-	date: "today",
-	enableRemoteAPI: false,
+	date: "yesterday",
+	enableRemoteAPI: true,
 
 	// Config 2
 	// date: "2024-08-01T00:00:00",

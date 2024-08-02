@@ -11,14 +11,14 @@
 				{
 					"teamId": 1577,
 					"teamName": "Al Ahly",
-					"points": 72,
+					"points": 75,
 					"stats": {
-						"goalsDiff": 41,
-						"played": 28,
-						"win": 23,
+						"goalsDiff": 42,
+						"played": 29,
+						"win": 24,
 						"draw": 3,
 						"lose": 2,
-						"goals": { "for": 65, "against": 24 }
+						"goals": { "for": 66, "against": 24 }
 					}
 				},
 				{
@@ -39,12 +39,12 @@
 					"teamName": "AL Masry",
 					"points": 52,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 31,
+						"goalsDiff": 1,
+						"played": 32,
 						"win": 15,
 						"draw": 7,
-						"lose": 9,
-						"goals": { "for": 39, "against": 37 }
+						"lose": 10,
+						"goals": { "for": 39, "against": 38 }
 					}
 				},
 				{
@@ -58,6 +58,19 @@
 						"draw": 11,
 						"lose": 8,
 						"goals": { "for": 37, "against": 26 }
+					}
+				},
+				{
+					"teamId": 1044,
+					"teamName": "Smouha SC",
+					"points": 48,
+					"stats": {
+						"goalsDiff": 2,
+						"played": 31,
+						"win": 13,
+						"draw": 9,
+						"lose": 9,
+						"goals": { "for": 36, "against": 34 }
 					}
 				},
 				{
@@ -87,29 +100,16 @@
 					}
 				},
 				{
-					"teamId": 1044,
-					"teamName": "Smouha SC",
-					"points": 45,
-					"stats": {
-						"goalsDiff": 1,
-						"played": 30,
-						"win": 12,
-						"draw": 9,
-						"lose": 9,
-						"goals": { "for": 35, "against": 34 }
-					}
-				},
-				{
 					"teamId": 14651,
 					"teamName": "Ceramica Cleopatra",
-					"points": 44,
+					"points": 45,
 					"stats": {
 						"goalsDiff": 10,
-						"played": 31,
+						"played": 32,
 						"win": 12,
-						"draw": 8,
+						"draw": 9,
 						"lose": 11,
-						"goals": { "for": 48, "against": 38 }
+						"goals": { "for": 49, "against": 39 }
 					}
 				},
 				{
@@ -156,12 +156,12 @@
 					"teamName": "National Bank of Egypt",
 					"points": 34,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 31,
+						"goalsDiff": 1,
+						"played": 32,
 						"win": 9,
 						"draw": 7,
-						"lose": 15,
-						"goals": { "for": 46, "against": 44 }
+						"lose": 16,
+						"goals": { "for": 46, "against": 45 }
 					}
 				},
 				{
@@ -219,14 +219,14 @@
 				{
 					"teamId": 1575,
 					"teamName": "El Mokawloon",
-					"points": 24,
+					"points": 25,
 					"stats": {
 						"goalsDiff": -20,
-						"played": 30,
+						"played": 31,
 						"win": 5,
-						"draw": 9,
+						"draw": 10,
 						"lose": 16,
-						"goals": { "for": 30, "against": 50 }
+						"goals": { "for": 31, "against": 51 }
 					}
 				},
 				{
@@ -250,7 +250,7 @@
 				"fullDate": "2024-08-01T09:30",
 				"date": "2024-08-01",
 				"hour": "09:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1575,
@@ -258,6 +258,8 @@
 						"country": "",
 						"position": 17,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -376,8 +378,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 1,
 										"winner": false
 									}
@@ -675,7 +677,7 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": "",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -712,8 +714,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -785,6 +787,8 @@
 						"country": "",
 						"position": 8,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -1006,8 +1010,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 4,
 										"winner": true
 									},
@@ -1099,8 +1103,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 2,
 										"winner": true
 									}
@@ -1332,7 +1336,8 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": { "right": false, "lostRight": true, "fail": false, "skippedFail": false }
 					}
 				]
 			},
@@ -1341,14 +1346,16 @@
 				"fullDate": "2024-08-01T13:00",
 				"date": "2024-08-01",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1044,
 						"name": "Smouha SC",
 						"country": "",
-						"position": 7,
-						"featured": false,
+						"position": 5,
+						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -1467,8 +1474,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1495,8 +1502,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -1514,8 +1521,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -1542,8 +1549,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									},
@@ -1579,8 +1586,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									}
@@ -1598,8 +1605,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -1635,8 +1642,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1654,8 +1661,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -1691,8 +1698,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -1719,8 +1726,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -1738,8 +1745,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -1747,7 +1754,7 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": "",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 2,
 										"winner": true
@@ -1766,8 +1773,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -1775,8 +1782,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 0,
 										"winner": false
 									}
@@ -1803,8 +1810,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -1822,8 +1829,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -1859,8 +1866,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1876,6 +1883,8 @@
 						"country": "",
 						"position": 3,
 						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -2153,8 +2162,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 1,
 										"winner": false
 									},
@@ -2423,7 +2432,8 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": { "right": false, "lostRight": true, "fail": false, "skippedFail": false }
 					}
 				]
 			},
@@ -2432,7 +2442,7 @@
 				"fullDate": "2024-08-01T13:00",
 				"date": "2024-08-01",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1577,
@@ -2440,6 +2450,8 @@
 						"country": "",
 						"position": 1,
 						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -2838,8 +2850,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 0,
 										"winner": null
 									}
@@ -2967,6 +2979,8 @@
 						"country": "",
 						"position": 12,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3113,8 +3127,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": "",
-										"position": 7,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -3132,7 +3146,7 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": "",
-										"position": 5,
+										"position": 6,
 										"featured": true,
 										"score": 0,
 										"winner": false
@@ -3412,8 +3426,8 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": "",
-										"position": 6,
-										"featured": true,
+										"position": 7,
+										"featured": false,
 										"score": 1,
 										"winner": true
 									},
@@ -3514,7 +3528,8 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": { "right": true, "lostRight": false, "fail": false, "skippedFail": false }
 					}
 				]
 			}
@@ -3534,7 +3549,7 @@
 				"fullDate": "2024-08-01T17:00",
 				"date": "2024-08-01",
 				"hour": "17:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 152,
@@ -3542,6 +3557,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4069,6 +4086,8 @@
 						"country": "🇧🇷",
 						"position": null,
 						"featured": true,
+						"score": 2,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -4616,7 +4635,8 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": { "right": false, "lostRight": true, "fail": false, "skippedFail": false }
 					}
 				]
 			}
