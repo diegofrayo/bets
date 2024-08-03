@@ -1,10 +1,6 @@
 import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
-import {
-	omit,
-	removeDuplicates,
-	sortObjectKeys,
-} from "../../../@diegofrayo/utils/arrays-and-objects";
+import { omit, removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
 import { generateSlug } from "../../../@diegofrayo/utils/strings";
@@ -266,12 +262,14 @@ async function updateLeaguesFixtures(requestConfig: {
 		await formatCode(
 			{
 				...LEAGUES,
-				fixtures: Object.entries(sortObjectKeys({ ...LEAGUES.fixtures, ...output })).reduce(
-					(result, [key, value]) => {
-						return { ...result, [key]: removeDuplicates(value) };
-					},
-					{},
-				),
+				fixtures: removeDuplicates([...Object.keys(output), ...Object.keys(LEAGUES.fixtures)])
+					.sort()
+					.reduce((result, key) => {
+						return {
+							...result,
+							[key]: removeDuplicates([...(output[key] || []), ...(LEAGUES.fixtures[key] || [])]),
+						};
+					}, {}),
 			},
 			"json",
 		),
@@ -592,6 +590,7 @@ function getProperlyLeagueStandingsData(
 	const isBelgiumLeague = response.id === 144;
 	const isEgyptianLeague = response.id === 233;
 	const isAustriaLeague = response.id === 218;
+	const isScotlandLeague = response.id === 179;
 
 	if (isColombiaLeague) {
 		return response.standings.filter((standings) => {
@@ -610,7 +609,8 @@ function getProperlyLeagueStandingsData(
 		isFinlandLeague ||
 		isBelgiumLeague ||
 		isEgyptianLeague ||
-		isAustriaLeague
+		isAustriaLeague ||
+		isScotlandLeague
 	) {
 		return response.standings;
 	}

@@ -4,14 +4,14 @@ import launchAnalysis from "./analysis";
 // npm run script:predictions
 launchAnalysis({
 	// Config 1
-	config: "SPECIFIC_DATE",
-	date: "today",
-	enableRemoteAPI: true,
+	// config: "SPECIFIC_DATE",
+	// date: "today",
+	// enableRemoteAPI: false,
 
 	// Config 2
-	// config: "OFFLINE_REBUILDING",
-	// date: "2024-08-04",
-	// previousDays: 5,
+	config: "OFFLINE_REBUILDING",
+	date: "2024-08-04",
+	previousDays: 5,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",
