@@ -31,6 +31,13 @@ export default async function main(config: T_AnalysisConfig) {
 	// NOTE: For Debug purposes
 	// return console.log(generateDates(config));
 
+	const updatePredictionStats =
+		"updatePredictionStats" in config && config.updatePredictionStats === true;
+
+	if (updatePredictionStats) {
+		DataClient.createEmptyPredictionsStatsFile();
+	}
+
 	await asyncLoop(generateDates(config), async (date) => {
 		console.log(`Executing script for ${date}`);
 
@@ -99,12 +106,21 @@ export default async function main(config: T_AnalysisConfig) {
 							};
 
 							const predictions = DataClient.getMatchPredictions(
-								{ match: fixtureMatch, homeTeam, awayTeam, homeTeamStats, awayTeamStats },
+								{
+									match: fixtureMatch,
+									homeTeam,
+									awayTeam,
+									homeTeamStats,
+									awayTeamStats,
+									leagueStandings,
+								},
 								"FIXTURE_PLAYED_MATCH",
+								updatePredictionStats,
 							);
 
 							leagueData.matches.push({
 								id: fixtureMatch.id,
+								type: fixtureMatch.type,
 								fullDate: fixtureMatch.fullDate,
 								date: fixtureMatch.date,
 								hour: fixtureMatch.hour,
@@ -114,6 +130,7 @@ export default async function main(config: T_AnalysisConfig) {
 									away: awayTeam,
 								},
 								predictions,
+								league,
 							});
 						} else {
 							const homeTeam: T_FixtureNextMatchTeam = {
@@ -127,12 +144,21 @@ export default async function main(config: T_AnalysisConfig) {
 								matches: awayTeamPlayedMatches,
 							};
 							const predictions = DataClient.getMatchPredictions(
-								{ match: fixtureMatch, homeTeam, awayTeam, homeTeamStats, awayTeamStats },
+								{
+									match: fixtureMatch,
+									homeTeam,
+									awayTeam,
+									homeTeamStats,
+									awayTeamStats,
+									leagueStandings,
+								},
 								"FIXTURE_NEXT_MATCH",
+								updatePredictionStats,
 							);
 
 							leagueData.matches.push({
 								id: fixtureMatch.id,
+								type: fixtureMatch.type,
 								fullDate: fixtureMatch.fullDate,
 								date: fixtureMatch.date,
 								hour: fixtureMatch.hour,
@@ -142,6 +168,7 @@ export default async function main(config: T_AnalysisConfig) {
 									away: awayTeam,
 								},
 								predictions,
+								league,
 							});
 						}
 					} catch (error) {
@@ -303,6 +330,7 @@ type T_AnalysisConfig =
 			config: "OFFLINE_REBUILDING";
 			date: DR.Dates.DateString;
 			previousDays: number;
+			updatePredictionStats: boolean;
 	  }
 	| {
 			config: "LEAGUES_FIXTURES_UPDATE";

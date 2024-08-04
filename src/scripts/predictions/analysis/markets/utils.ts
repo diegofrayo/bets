@@ -2,6 +2,7 @@ import { Entries } from "type-fest";
 import type {
 	T_FixtureMatch,
 	T_FixtureMatchTeam,
+	T_LeagueStandings,
 	T_MarketPrediction,
 	T_PlayedMatchMarketPrediction,
 	T_TeamStats,
@@ -106,6 +107,42 @@ export function createMarketPredictionOutput({
 	return output;
 }
 
+export function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
+	const teamPosition = leagueStandings.reduce((result, item) => {
+		if (result !== -1) {
+			return result;
+		}
+
+		const subItemIndex = item.findIndex((subItem) => {
+			return subItem.teamId === teamId;
+		});
+
+		if (subItemIndex !== -1) {
+			return subItemIndex;
+		}
+
+		return result;
+	}, -1);
+
+	if (teamPosition === -1) {
+		return null;
+	}
+
+	return teamPosition + 1;
+}
+
+export function getTeamPoints(selectedTeam: T_FixtureMatchTeam) {
+	return selectedTeam.matches.slice(0, 5).reduce((result, match) => {
+		const side = match.teams.home.id === selectedTeam.id ? "home" : "away";
+		const selectedTeamDetails = match.teams[side];
+
+		return (
+			result +
+			(selectedTeamDetails.winner === true ? 3 : selectedTeamDetails.winner === null ? 1 : 0)
+		);
+	}, 0);
+}
+
 // --- TYPES ---
 
 export type T_CriteriaInput = {
@@ -123,4 +160,5 @@ export type T_PredictionsInput = {
 	awayTeam: T_FixtureMatchTeam;
 	homeTeamStats: T_TeamStats;
 	awayTeamStats: T_TeamStats;
+	leagueStandings: T_LeagueStandings;
 };

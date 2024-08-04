@@ -1,0 +1,164 @@
+import type { T_MarketPrediction } from "../types";
+import {
+	analizeCriteria,
+	createMarketPredictionOutput,
+	getTeamPoints,
+	getTeamPosition,
+	type T_PredictionsInput,
+} from "./utils";
+
+function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput): T_MarketPrediction {
+	const criteria = [
+		{
+			description: "Criterios mas confiables para el local como favorito",
+			trustLevel: 100,
+			items: [
+				{
+					description: "El local debe estar en los primeros 5 lugares de la tabla",
+					fn: ({ homeTeam }: T_PredictionsInput) => {
+						const LIMIT = 5;
+						const teamPosition =
+							getTeamPosition(homeTeam.id, predictionsInput.leagueStandings) || 0;
+
+						return {
+							fulfilled: teamPosition >= 1 && teamPosition <= LIMIT,
+							successExplanation: `El local está entre los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
+							failExplanation: `El local está fuera de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
+						};
+					},
+				},
+				{
+					description:
+						"El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
+					fn: ({ homeTeam }: T_PredictionsInput) => {
+						const LIMITS = { min: 10, max: 15, games: 5 };
+						const homeTeamPoints = getTeamPoints(homeTeam);
+
+						return {
+							fulfilled: homeTeamPoints >= LIMITS.min,
+							successExplanation: `El local sumó mas de ${LIMITS.min} puntos en los ultimos ${LIMITS.games} partidos | (${homeTeamPoints}/${LIMITS.max})`,
+							failExplanation: `El local sumó menos de ${LIMITS.min} puntos en los ultimos ${LIMITS.games} partidos | (${homeTeamPoints}/${LIMITS.max})`,
+						};
+					},
+				},
+				{
+					description: "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
+					fn: ({ awayTeam }: T_PredictionsInput) => {
+						const LIMITS = { min: 4, max: 15, games: 5 };
+						const awayTeamPoints = getTeamPoints(awayTeam);
+
+						return {
+							fulfilled: awayTeamPoints <= LIMITS.min,
+							successExplanation: `El visitante sumó menos de ${LIMITS.min} puntos en los ultimos ${LIMITS.games} partidos | (${awayTeamPoints}/${LIMITS.max})`,
+							failExplanation: `El visitante sumó mas de ${LIMITS.min} puntos en los ultimos ${LIMITS.games} partidos | (${awayTeamPoints}/${LIMITS.max})`,
+						};
+					},
+				},
+			],
+		},
+	];
+
+	return createMarketPredictionOutput({
+		id: "tiempo-reglamentario-local",
+		name: "Tiempo reglamentario (Local)",
+		shortName: "TRL",
+		criteria: analizeCriteria(criteria, predictionsInput),
+		predictionsInput,
+		results: predictionsInput.match.played
+			? {
+					winning: (
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel === "HIGH" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.winner === true
+						);
+					},
+					lostWinning: (
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel !== "HIGH" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.winner === true
+						);
+					},
+					lost: (
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel === "HIGH" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.winner !== true
+						);
+					},
+					skippedLost: (
+						trustLevel: T_MarketPrediction["trustLevelLabel"],
+						predictionsInput_: T_PredictionsInput,
+					) => {
+						return (
+							trustLevel === "LOW" &&
+							"winner" in predictionsInput_.homeTeam &&
+							predictionsInput_.homeTeam.winner !== true
+						);
+					},
+				}
+			: undefined,
+	});
+}
+
+export default doubleOpportunityPrediction;
+
+/*
+		{
+			description: "Criterios mas confiables para el visitante como favorito",
+			trustLevel: 100,
+			items: [
+				{
+					description: "El visitante debe estar entre los primeros 5 lugares de la tabla",
+					fn: ({ awayTeam }: T_PredictionsInput) => {
+						const LIMIT = 5;
+						const teamPosition =
+							getTeamPosition(awayTeam.id, predictionsInput.leagueStandings) || 0;
+
+						return {
+							fulfilled: teamPosition >= 1 && teamPosition <= LIMIT,
+							successExplanation: `El visitante está entre los primeros ${LIMIT} puestos de la tabla`,
+							failExplanation: `El visitante está fuera de los primeros ${LIMIT} puestos de la tabla`,
+						};
+					},
+				},
+				{
+					description:
+						"El visitante debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
+					fn: ({ awayTeam }: T_PredictionsInput) => {
+						const LIMITS = { min: 10, max: 15, games: 5 };
+						const awayTeamPoints = getTeamPoints(awayTeam);
+
+						return {
+							fulfilled: awayTeamPoints >= LIMITS.min,
+							successExplanation: `El visitante sumó ${awayTeamPoints} de ${LIMITS.max} en los ultimos ${LIMITS.games} partidos`,
+							failExplanation: `El visitante sumó menos de ${LIMITS.min} en los ultimos ${LIMITS.games} partidos`,
+						};
+					},
+				},
+				{
+					description: "El local debe haber sumado 4 o menos puntos en los ultimos 5 partidos",
+					fn: ({ homeTeam }: T_PredictionsInput) => {
+						const LIMITS = { min: 4, max: 15, games: 5 };
+						const homeTeamPoints = getTeamPoints(homeTeam);
+
+						return {
+							fulfilled: homeTeamPoints <= LIMITS.min,
+							successExplanation: `El local sumó ${homeTeamPoints} de ${LIMITS.max} en los ultimos ${LIMITS.games} partidos`,
+							failExplanation: `El local sumó mas de ${LIMITS.min} en los ultimos ${LIMITS.games} partidos`,
+						};
+					},
+				},
+			],
+		},
+    */

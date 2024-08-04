@@ -14,8 +14,8 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 
 						return {
 							fulfilled: homeTeamStats["all-home-matches"].items.promedio_de_goles_anotados > LIMIT,
-							successExplanation: `El local tiene un promedio de goles anotados como local mayor a ${LIMIT}`,
-							failExplanation: `El local tiene un promedio de goles anotados como local menor o igual a ${LIMIT}`,
+							successExplanation: `El local tiene un promedio de goles anotados como local mayor a ${LIMIT} | (${homeTeamStats["all-home-matches"].items.promedio_de_goles_anotados})`,
+							failExplanation: `El local tiene un promedio de goles anotados como local menor o igual a ${LIMIT} | (${homeTeamStats["all-home-matches"].items.promedio_de_goles_anotados})`,
 						};
 					},
 				},
@@ -27,8 +27,8 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 						return {
 							fulfilled:
 								awayTeamStats["all-away-matches"].items.promedio_de_goles_recibidos > LIMIT,
-							successExplanation: `El visitante tiene un promedio de goles recibidos como visitante mayor o igual a ${LIMIT}`,
-							failExplanation: `El visitante tiene un promedio de goles recibidos como visitante menor a ${LIMIT}`,
+							successExplanation: `El visitante tiene un promedio de goles recibidos como visitante mayor o igual a ${LIMIT} | (${awayTeamStats["all-away-matches"].items.promedio_de_goles_recibidos})`,
+							failExplanation: `El visitante tiene un promedio de goles recibidos como visitante menor a ${LIMIT} | (${awayTeamStats["all-away-matches"].items.promedio_de_goles_recibidos})`,
 						};
 					},
 				},
@@ -44,7 +44,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 		predictionsInput,
 		results: predictionsInput.match.played
 			? {
-					right: (
+					winning: (
 						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
@@ -54,7 +54,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 							predictionsInput_.homeTeam.score > 0
 						);
 					},
-					lostRight: (
+					lostWinning: (
 						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
@@ -64,7 +64,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 							predictionsInput_.homeTeam.score > 0
 						);
 					},
-					fail: (
+					lost: (
 						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {
@@ -74,7 +74,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput): T_Marke
 							predictionsInput_.homeTeam.score === 0
 						);
 					},
-					skippedFail: (
+					skippedLost: (
 						trustLevel: T_MarketPrediction["trustLevelLabel"],
 						predictionsInput_: T_PredictionsInput,
 					) => {

@@ -65,11 +65,13 @@ type T_MatchBase = {
 	fullDate: string;
 	date: string;
 	hour: string;
+	league: Pick<T_League, "id" | "name" | "country">;
 };
 
 export type T_FixtureMatch = T_FixtureNextMatch | T_FixturePlayedMatch;
 
 export type T_FixtureNextMatch = T_MatchBase & {
+	type: "FIXTURE_NEXT_MATCH";
 	played: false;
 	teams: {
 		home: T_FixtureNextMatchTeam;
@@ -79,6 +81,7 @@ export type T_FixtureNextMatch = T_MatchBase & {
 };
 
 export type T_FixturePlayedMatch = T_MatchBase & {
+	type: "FIXTURE_PLAYED_MATCH";
 	played: true;
 	teams: {
 		home: T_FixturePlayedMatchTeam;
@@ -88,6 +91,7 @@ export type T_FixturePlayedMatch = T_MatchBase & {
 };
 
 export type T_PlayedMatch = T_MatchBase & {
+	type: "PLAYED_MATCH";
 	played: true;
 	teams: {
 		home: T_PlayedMatchTeam;
@@ -120,6 +124,7 @@ export type T_TeamStatsItems = {
 	partidos_empatados: number;
 	partidos_con_goles_anotados: number;
 	partidos_con_goles_recibidos: number;
+	puntos_ganados: number;
 	porcentaje_de_puntos_ganados: number;
 };
 
@@ -147,9 +152,9 @@ export type T_NextMatchMarketPrediction = T_MarketPredictionBase;
 
 export type T_PlayedMatchMarketPrediction = T_MarketPredictionBase & {
 	results: {
-		right: boolean;
-		lostRight: boolean;
-		fail: boolean;
-		skippedFail: boolean;
+		winning: boolean;
+		lost: boolean;
+		lostWinning: boolean;
+		skippedLost: boolean;
 	};
 };

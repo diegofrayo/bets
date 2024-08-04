@@ -1,0 +1,184 @@
+{
+	"doble-oportunidad-local": {
+		"stats": { "successes": 3, "losses": 0, "lostSuccesses": 34, "skippedLosses": 13 },
+		"record": {
+			"successes": {
+				"2024-08-01": ["1215799-egypt"],
+				"2024-08-03": ["1164454-norway", "1158785-argentina"]
+			},
+			"losses": {},
+			"lostSuccesses": {
+				"2024-07-29": [
+					"1158771-argentina",
+					"1158769-argentina",
+					"1158770-argentina",
+					"1176810-egypt",
+					"1176812-egypt",
+					"1234166-colombia",
+					"1234163-colombia"
+				],
+				"2024-07-30": ["1215793-egypt", "1215794-egypt", "1234170-colombia"],
+				"2024-07-31": [
+					"1158749-argentina",
+					"1158755-argentina",
+					"1215795-egypt",
+					"1215796-egypt",
+					"1234201-colombia"
+				],
+				"2024-08-01": ["1215797-egypt", "1215798-egypt"],
+				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland", "1213209-belgium"],
+				"2024-08-03": [
+					"1158774-argentina",
+					"1158777-argentina",
+					"1158780-argentina",
+					"1158783-argentina",
+					"1234174-colombia",
+					"1234175-colombia",
+					"1164663-finland",
+					"1180557-brazil",
+					"1180559-brazil",
+					"1180561-brazil",
+					"1180564-brazil",
+					"1218577-austria",
+					"1213211-belgium"
+				]
+			},
+			"skippedLosses": {
+				"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
+				"2024-07-30": ["1215792-egypt", "1234230-colombia"],
+				"2024-08-02": ["1158779-argentina", "1218574-austria"],
+				"2024-08-03": [
+					"1234181-colombia",
+					"1180563-brazil",
+					"1218575-austria",
+					"1218576-austria",
+					"1213210-belgium",
+					"1213212-belgium"
+				]
+			}
+		}
+	},
+	"gol-equipo-local": {
+		"stats": { "successes": 15, "losses": 4, "lostSuccesses": 24, "skippedLosses": 7 },
+		"record": {
+			"successes": {
+				"2024-07-30": ["1234170-colombia"],
+				"2024-07-31": ["1158749-argentina", "1158755-argentina", "1234201-colombia"],
+				"2024-08-01": ["1215799-egypt"],
+				"2024-08-02": ["1215800-egypt", "1164662-finland"],
+				"2024-08-03": [
+					"1164454-norway",
+					"1158783-argentina",
+					"1158785-argentina",
+					"1234174-colombia",
+					"1164663-finland",
+					"1180559-brazil",
+					"1180564-brazil",
+					"1213211-belgium"
+				]
+			},
+			"losses": {
+				"2024-07-29": ["1176810-egypt"],
+				"2024-07-30": ["1215792-egypt", "1234230-colombia"],
+				"2024-08-03": ["1158777-argentina"]
+			},
+			"lostSuccesses": {
+				"2024-07-29": [
+					"1158759-argentina",
+					"1158771-argentina",
+					"1158769-argentina",
+					"1158770-argentina",
+					"1234166-colombia",
+					"1234163-colombia"
+				],
+				"2024-07-30": ["1215793-egypt", "1215794-egypt"],
+				"2024-07-31": ["1215796-egypt"],
+				"2024-08-01": ["1215797-egypt", "1215798-egypt"],
+				"2024-08-02": [
+					"1158779-argentina",
+					"1234173-colombia",
+					"1218574-austria",
+					"1213209-belgium"
+				],
+				"2024-08-03": [
+					"1158774-argentina",
+					"1180557-brazil",
+					"1180561-brazil",
+					"1180563-brazil",
+					"1218575-austria",
+					"1218576-austria",
+					"1218577-austria",
+					"1213210-belgium",
+					"1213212-belgium"
+				]
+			},
+			"skippedLosses": {
+				"2024-07-29": ["1158762-argentina", "1158758-argentina", "1176812-egypt"],
+				"2024-07-31": ["1215795-egypt"],
+				"2024-08-03": ["1158780-argentina", "1234175-colombia", "1234181-colombia"]
+			}
+		}
+	},
+	"tiempo-reglamentario-local": {
+		"stats": { "successes": 1, "losses": 0, "lostSuccesses": 25, "skippedLosses": 24 },
+		"record": {
+			"successes": { "2024-08-03": ["1158785-argentina"] },
+			"losses": {},
+			"lostSuccesses": {
+				"2024-07-29": [
+					"1158771-argentina",
+					"1158769-argentina",
+					"1158770-argentina",
+					"1234166-colombia",
+					"1234163-colombia"
+				],
+				"2024-07-30": ["1215793-egypt", "1234170-colombia"],
+				"2024-07-31": [
+					"1158749-argentina",
+					"1158755-argentina",
+					"1215796-egypt",
+					"1234201-colombia"
+				],
+				"2024-08-01": ["1215798-egypt", "1215799-egypt"],
+				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland", "1213209-belgium"],
+				"2024-08-03": [
+					"1164454-norway",
+					"1158774-argentina",
+					"1164663-finland",
+					"1180557-brazil",
+					"1180561-brazil",
+					"1180564-brazil",
+					"1218577-austria",
+					"1213211-belgium"
+				]
+			},
+			"skippedLosses": {
+				"2024-07-29": [
+					"1158762-argentina",
+					"1158759-argentina",
+					"1158758-argentina",
+					"1176810-egypt",
+					"1176812-egypt"
+				],
+				"2024-07-30": ["1215792-egypt", "1215794-egypt", "1234230-colombia"],
+				"2024-07-31": ["1215795-egypt"],
+				"2024-08-01": ["1215797-egypt"],
+				"2024-08-02": ["1158779-argentina", "1218574-austria"],
+				"2024-08-03": [
+					"1158777-argentina",
+					"1158780-argentina",
+					"1158783-argentina",
+					"1234174-colombia",
+					"1234175-colombia",
+					"1234181-colombia",
+					"1180559-brazil",
+					"1180563-brazil",
+					"1218575-austria",
+					"1218576-austria",
+					"1213210-belgium",
+					"1213212-belgium"
+				]
+			}
+		}
+	}
+}

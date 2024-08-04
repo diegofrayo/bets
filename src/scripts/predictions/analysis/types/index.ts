@@ -21,6 +21,7 @@ export type T_RawMatchesResponse = {
 		league: {
 			id: number;
 			name: string;
+			country: string;
 		};
 		fixture: {
 			id: number;
@@ -75,3 +76,18 @@ export type T_LeaguesFile = {
 	}>;
 	fixtures: Record<string, Array<string>>;
 };
+
+export type T_PredictionsStatsFile = DR.Object<{
+	stats: {
+		winning: number;
+		lost: number;
+		lostWinning: number;
+		skippedLost: number;
+	};
+	record: {
+		winning: DR.Object<Array<string>>;
+		lost: DR.Object<Array<string>>;
+		lostWinning: DR.Object<Array<string>>;
+		skippedLost: DR.Object<Array<string>>;
+	};
+}>;

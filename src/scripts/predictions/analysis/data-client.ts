@@ -16,10 +16,12 @@ import type {
 	T_League,
 	T_LeaguesFile,
 	T_LeagueStandings,
+	T_MarketPrediction,
 	T_NextMatchMarketPrediction,
 	T_PlayedMatch,
 	T_PlayedMatchMarketPrediction,
 	T_PlayedMatchTeam,
+	T_PredictionsStatsFile,
 	T_RawLeagueStandingsResponse,
 	T_RawMatchesResponse,
 	T_RequestConfig,
@@ -27,9 +29,10 @@ import type {
 	T_TeamStatsItems,
 } from "./types";
 import { formatCode, formatDate } from "./utils";
-// import doubleOpportunityPrediction from "./markets/double-opportunity";
+import doubleOpportunityPrediction from "./markets/double-opportunity-for-home-team";
 import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
-import type { T_PredictionsInput } from "./markets/utils";
+import matchWinnerPrediction from "./markets/match-winner-for-home-team";
+import { getTeamPosition, type T_PredictionsInput } from "./markets/utils";
 
 const LEAGUES = JSON.parse(
 	readFile("src/scripts/predictions/data/util/leagues.json"),
@@ -298,20 +301,36 @@ async function updateLeaguesStandings(leagues: Array<Pick<T_League, "id" | "seas
 function getMatchPredictions(
 	predictionsInput: T_PredictionsInput,
 	variant: "FIXTURE_NEXT_MATCH",
+	updatePredictionStats: boolean,
 ): Array<T_NextMatchMarketPrediction>;
 function getMatchPredictions(
 	predictionsInput: T_PredictionsInput,
 	variant: "FIXTURE_PLAYED_MATCH",
+	updatePredictionStats: boolean,
 ): Array<T_PlayedMatchMarketPrediction>;
 function getMatchPredictions(
 	predictionsInput: T_PredictionsInput,
+	_: string,
+	updatePredictionStats: boolean,
 ): Array<T_NextMatchMarketPrediction> | Array<T_PlayedMatchMarketPrediction> {
-	return [goalByHomeTeamPrediction(predictionsInput)].sort(sortBy("trustLevel"));
+	const output = [
+		doubleOpportunityPrediction(predictionsInput),
+		goalByHomeTeamPrediction(predictionsInput),
+		matchWinnerPrediction(predictionsInput),
+	].sort(sortBy("-trustLevel"));
+
+	if (updatePredictionStats) {
+		output.forEach((prediction) => {
+			updatePredictionsStats(predictionsInput.match, prediction);
+		});
+	}
+
+	return output;
 }
 
 function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_TeamStats {
 	const totalPlayedMatches = playedMatches.length;
-	const lastGames = totalPlayedMatches > 4 ? 4 : totalPlayedMatches;
+	const lastGames = totalPlayedMatches > 5 ? 5 : totalPlayedMatches;
 	const output = {
 		"all-matches": {
 			name: `Comportamiento general en los últimos ${totalPlayedMatches} partidos`,
@@ -357,6 +376,10 @@ function getLeaguesByDate(date: DR.Dates.DateString) {
 	);
 }
 
+function createEmptyPredictionsStatsFile() {
+	writeFile("src/scripts/predictions/data/util/predictions-stats.json", {});
+}
+
 const DataClient = {
 	fetchFixtureMatches,
 	fetchPlayedMatches,
@@ -368,6 +391,7 @@ const DataClient = {
 	getTeamStats,
 	getLeagueById,
 	getLeaguesByDate,
+	createEmptyPredictionsStatsFile,
 };
 
 export default DataClient;
@@ -447,11 +471,17 @@ function parseMatchItem(
 				),
 			},
 		},
+		league: {
+			id: item.league.id,
+			name: item.league.name,
+			country: item.league.country,
+		},
 	};
 
 	if (variant === "PLAYED_MATCH") {
 		const output: T_PlayedMatch = {
 			...matchBaseData,
+			type: variant,
 			played: true,
 			teams: {
 				home: {
@@ -465,10 +495,6 @@ function parseMatchItem(
 					winner: item.teams.away.winner,
 				},
 			},
-			league: {
-				id: item.league.id,
-				name: item.league.name,
-			},
 		};
 
 		return output;
@@ -477,6 +503,7 @@ function parseMatchItem(
 	if (isPlayedMatch) {
 		const output: T_FixturePlayedMatch = {
 			...matchBaseData,
+			type: "FIXTURE_PLAYED_MATCH",
 			played: true,
 			teams: {
 				home: {
@@ -502,6 +529,7 @@ function parseMatchItem(
 
 	const output: T_FixtureNextMatch = {
 		...matchBaseData,
+		type: "FIXTURE_NEXT_MATCH",
 		played: false,
 		teams: {
 			home: {
@@ -640,30 +668,6 @@ function composeLeagueName(leagueId: number, options?: { full: true; date?: stri
 	return league.country;
 }
 
-function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
-	const teamPosition = leagueStandings.reduce((result, item) => {
-		if (result !== -1) {
-			return result;
-		}
-
-		const subItemIndex = item.findIndex((subItem) => {
-			return subItem.teamId === teamId;
-		});
-
-		if (subItemIndex !== -1) {
-			return subItemIndex;
-		}
-
-		return result;
-	}, -1);
-
-	if (teamPosition === -1) {
-		return null;
-	}
-
-	return teamPosition + 1;
-}
-
 function filterTeamPlayedMatches({
 	teamId,
 	playedMatches,
@@ -762,6 +766,7 @@ function calculateTeamStats({
 				partidos_perdidos: 0,
 				partidos_con_goles_anotados: 0,
 				partidos_con_goles_recibidos: 0,
+				puntos_ganados: 0,
 				porcentaje_de_puntos_ganados: 0,
 			},
 		);
@@ -772,11 +777,9 @@ function calculateTeamStats({
 		result.promedio_de_goles_recibidos = Number(
 			(result.total_de_goles_recibidos / result.total_de_partidos).toFixed(1),
 		);
+		result.puntos_ganados = result.partidos_ganados * 3 + result.partidos_empatados;
 		result.porcentaje_de_puntos_ganados = Number(
-			(
-				((result.partidos_ganados * 3 + result.partidos_empatados) * 100) /
-				(result.total_de_partidos * 3)
-			).toFixed(1),
+			((result.puntos_ganados * 100) / (result.total_de_partidos * 3)).toFixed(1),
 		);
 
 		return result;
@@ -826,6 +829,7 @@ function calculateTeamStats({
 			partidos_perdidos: 0,
 			partidos_con_goles_anotados: 0,
 			partidos_con_goles_recibidos: 0,
+			puntos_ganados: 0,
 			porcentaje_de_puntos_ganados: 0,
 		},
 	);
@@ -836,11 +840,9 @@ function calculateTeamStats({
 	result.promedio_de_goles_recibidos = Number(
 		(result.total_de_goles_recibidos / result.total_de_partidos).toFixed(1),
 	);
+	result.puntos_ganados = result.partidos_ganados * 3 + result.partidos_empatados;
 	result.porcentaje_de_puntos_ganados = Number(
-		(
-			((result.partidos_ganados * 3 + result.partidos_empatados) * 100) /
-			(result.total_de_partidos * 3)
-		).toFixed(1),
+		((result.puntos_ganados * 100) / (result.total_de_partidos * 3)).toFixed(1),
 	);
 
 	return result;
@@ -858,4 +860,47 @@ function checkIsTeamFeatured(
 
 function getTeamById(teamId: number) {
 	return TEAMS[String(teamId) as keyof typeof TEAMS];
+}
+
+function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPrediction) {
+	const predictionStatsFile = JSON.parse(
+		readFile("src/scripts/predictions/data/util/predictions-stats.json"),
+	) as T_PredictionsStatsFile;
+
+	if ("results" in prediction) {
+		const key = prediction.results.winning
+			? "winning"
+			: prediction.results.lost
+				? "lost"
+				: prediction.results.lostWinning
+					? "lostWinning"
+					: "skippedLost";
+
+		if (!predictionStatsFile[prediction.id]) {
+			predictionStatsFile[prediction.id] = {
+				stats: {
+					winning: 0,
+					lost: 0,
+					lostWinning: 0,
+					skippedLost: 0,
+				},
+				record: {
+					winning: {},
+					lost: {},
+					lostWinning: {},
+					skippedLost: {},
+				},
+			};
+		}
+
+		predictionStatsFile[prediction.id].stats[key] += 1;
+		predictionStatsFile[prediction.id].record[key] = {
+			...predictionStatsFile[prediction.id].record[key],
+			[match.date]: (predictionStatsFile[prediction.id].record[key][match.date] || []).concat([
+				generateSlug(`${match.id}-${match.league.country}`),
+			]),
+		};
+
+		writeFile("src/scripts/predictions/data/util/predictions-stats.json", predictionStatsFile);
+	}
 }
