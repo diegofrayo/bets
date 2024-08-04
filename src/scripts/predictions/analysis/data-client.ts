@@ -136,10 +136,14 @@ async function fetchLeagueStandings({
 	fetchFromAPI: boolean;
 	date: DR.Dates.DateString;
 }): Promise<T_LeagueStandings> {
-	const outputFileName = composeLeagueName(league.id, { full: true, date });
+	const today = formatDate(new Date());
+	const outputFileName = composeLeagueName(league.id, {
+		full: true,
+		date: date >= today ? today : date,
+	});
 	let rawResponse;
 
-	if (fetchFromAPI) {
+	if (fetchFromAPI && date === today) {
 		rawResponse = (
 			await APIClient.get("/standings", {
 				league: league.id,

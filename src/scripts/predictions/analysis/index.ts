@@ -28,6 +28,9 @@ export default async function main(config: T_AnalysisConfig) {
 		return;
 	}
 
+	// NOTE: For Debug purposes
+	// return console.log(generateDates(config));
+
 	await asyncLoop(generateDates(config), async (date) => {
 		console.log(`Executing script for ${date}`);
 
@@ -221,7 +224,7 @@ function createRequestConfig(requestConfig: T_AnalysisConfig, formattedDate: DR.
 					? {
 							FIXTURE_MATCHES: true,
 							PLAYED_MATCHES: true,
-							LEAGUE_STANDINGS: true,
+							LEAGUE_STANDINGS: false,
 						}
 					: {
 							FIXTURE_MATCHES: false,
@@ -238,7 +241,7 @@ function createRequestConfig(requestConfig: T_AnalysisConfig, formattedDate: DR.
 				? {
 						FIXTURE_MATCHES: true,
 						PLAYED_MATCHES: true,
-						LEAGUE_STANDINGS: formattedDate >= formatDate(new Date()),
+						LEAGUE_STANDINGS: true,
 					}
 				: {
 						FIXTURE_MATCHES: false,
@@ -277,7 +280,7 @@ function generateDates(config: T_AnalysisConfig): DR.Dates.DateString[] {
 	}
 
 	if (config.config === "OFFLINE_REBUILDING") {
-		const baseDate = dayjs(new Date(config.date));
+		const baseDate = dayjs(config.date);
 
 		return [baseDate]
 			.concat(createArray(config.previousDays).map((day) => baseDate.subtract(day, "day")))
