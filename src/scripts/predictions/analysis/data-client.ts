@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import { code, flag } from "country-emoji";
 
 import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
@@ -9,7 +10,6 @@ import { formatDecimalNumber } from "../../../@diegofrayo/utils/numbers";
 import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
-import TEAMS from "../data/util/teams.json";
 import APIClient from "./api-client";
 import type {
 	T_FixtureMatch,
@@ -188,35 +188,6 @@ async function fetchLeagueStandings({
 	return parsedResponse;
 }
 
-async function updateTeamsFile(
-	matches: Awaited<PromiseLike<ReturnType<typeof fetchFixtureMatches>>>,
-) {
-	const currentTeams = JSON.parse(readFile("src/scripts/predictions/data/util/teams.json"));
-	const outputTeams = {
-		...currentTeams,
-		...Object.values(matches).reduce(
-			(result, match) => {
-				return {
-					...result,
-					[match.teams.home.id]: {
-						name: match.teams.home.name,
-						country: currentTeams[match.teams.home.id]?.country || match.teams.home.country,
-						featured: currentTeams[match.teams.home.id]?.featured || false,
-					},
-					[match.teams.away.id]: {
-						name: match.teams.away.name,
-						country: currentTeams[match.teams.away.id]?.country || match.teams.away.country,
-						featured: currentTeams[match.teams.away.id]?.featured || false,
-					},
-				};
-			},
-			{} as Pick<T_FixtureMatchTeam, "name" | "country" | "featured">,
-		),
-	};
-
-	writeFile("src/scripts/predictions/data/util/teams.json", await formatCode(outputTeams, "json"));
-}
-
 async function updateLeaguesFixtures(requestConfig: {
 	from: string;
 	to: string;
@@ -234,7 +205,7 @@ async function updateLeaguesFixtures(requestConfig: {
 				return;
 			}
 
-			console.log(`  Fetching "${league.name} (${league.id}|${league.country})" matches...`);
+			console.log(`  Fetching "${league.name} (${league.id}|${league.country.name})" matches...`);
 			let leagueMatches;
 
 			if (
@@ -270,7 +241,7 @@ async function updateLeaguesFixtures(requestConfig: {
 					output[date] = [];
 				}
 
-				output[date].push(generateSlug(`${league.id}-${league.name}-${league.country}`));
+				output[date].push(generateSlug(`${league.id}-${league.name}-${league.country.name}`));
 			});
 		} catch (error) {
 			console.log(getErrorMessage(error));
@@ -415,7 +386,6 @@ const DataClient = {
 	fetchFixtureMatches,
 	fetchPlayedMatches,
 	fetchLeagueStandings,
-	updateTeamsFile,
 	updateLeaguesFixtures,
 	updateLeaguesStandings,
 	getMatchPredictions,
@@ -484,30 +454,48 @@ function parseMatchItem(
 			home: {
 				id: item.teams.home.id,
 				name: item.teams.home.name,
-				country: getTeamById(item.teams.home.id)?.country || "",
+				country:
+					item.league.country !== "World"
+						? getCountryDetails({ leagueId: item.league.id }) ||
+							getCountryDetails({ countryName: item.league.country })
+						: null,
 				position: getTeamPosition(item.teams.home.id, leagueStandings),
-				featured: checkIsTeamFeatured(
-					{ id: item.teams.home.id, name: item.teams.home.name },
-					leagueStandings,
-				),
+				featured: checkIsTeamFeatured(item.teams.home.id, leagueStandings),
 			},
 			away: {
 				id: item.teams.away.id,
 				name: item.teams.away.name,
-				country: getTeamById(item.teams.away.id)?.country || "",
+				country:
+					item.league.country !== "World"
+						? getCountryDetails({ leagueId: item.league.id }) ||
+							getCountryDetails({ countryName: item.league.country })
+						: null,
 				position: getTeamPosition(item.teams.away.id, leagueStandings),
-				featured: checkIsTeamFeatured(
-					{ id: item.teams.away.id, name: item.teams.away.name },
-					leagueStandings,
-				),
+				featured: checkIsTeamFeatured(item.teams.away.id, leagueStandings),
 			},
 		},
 		league: {
 			id: item.league.id,
 			name: item.league.name,
-			country: item.league.country,
+			country:
+				getCountryDetails({ leagueId: item.league.id }) ||
+				(item.league.name === "World"
+					? {
+							name: "World",
+							code: "World",
+							flag: "🌎",
+						}
+					: getCountryDetails({ countryName: item.league.name }) || {
+							name: "Unknown",
+							code: "Unknown",
+							flag: "❓",
+						}),
 		},
 	};
+
+	if (matchBaseData.teams.home.country?.name === "World") {
+		console.log(matchBaseData.teams.home, `${item.fixture.id}`);
+	}
 
 	if (variant === "PLAYED_MATCH") {
 		const output: T_PlayedMatch = {
@@ -759,10 +747,10 @@ function composeLeagueName(leagueId: number, options?: { full: true; date?: stri
 	}
 
 	if (options?.full) {
-		return `${league.country}/${options.date ? `${options.date}-` : ""}${league.name} (${league.id})`;
+		return `${league.country.name}/${options.date ? `${options.date}-` : ""}${league.name} (${league.id})`;
 	}
 
-	return league.country;
+	return league.country.name;
 }
 
 function filterTeamPlayedMatches({
@@ -951,18 +939,39 @@ function calculateTeamStats({
 	return result;
 }
 
-function checkIsTeamFeatured(
-	team: { id: number; name: string },
-	leagueStandings: T_LeagueStandings,
-) {
-	return (
-		getTeamById(team.id)?.featured === true ||
-		(getTeamPosition(team.id, leagueStandings) || 100) <= 6
-	);
+function checkIsTeamFeatured(teamId: number, leagueStandings: T_LeagueStandings) {
+	const teamPosition = getTeamPosition(teamId, leagueStandings);
+
+	if (v.isNumber(teamPosition)) {
+		return teamPosition <= 8;
+	}
+
+	return false;
 }
 
-function getTeamById(teamId: number) {
-	return TEAMS[String(teamId) as keyof typeof TEAMS];
+function getCountryDetails(
+	config: { leagueId: number } | { countryName: string },
+): T_League["country"] | null {
+	if ("leagueId" in config) {
+		try {
+			return getLeagueById(config.leagueId).country;
+		} catch (error) {
+			return null;
+		}
+	}
+
+	const flagValue = flag(config.countryName);
+	const codeValue = code(config.countryName);
+
+	if (flagValue && codeValue) {
+		return {
+			name: config.countryName,
+			flag: flagValue,
+			code: codeValue,
+		};
+	}
+
+	return null;
 }
 
 function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPrediction) {
@@ -1002,7 +1011,7 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 		predictionStatsFile[prediction.id].record[key] = {
 			...predictionStatsFile[prediction.id].record[key],
 			[match.date]: (predictionStatsFile[prediction.id].record[key][match.date] || []).concat([
-				generateSlug(`${match.id}-${match.league.country}`),
+				generateSlug(`${match.id}-${match.league.country.name}`),
 			]),
 		};
 

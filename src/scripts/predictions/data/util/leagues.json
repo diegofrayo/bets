@@ -5,420 +5,387 @@
 			"id": 218,
 			"name": "Bundesliga",
 			"type": "League",
-			"country": "Austria",
+			"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇦🇹"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 345,
 			"name": "Czech Liga",
 			"type": "League",
-			"country": "Czech-Republic",
+			"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇨🇿"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 103,
 			"name": "Eliteserien",
 			"type": "League",
-			"country": "Norway",
+			"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇳🇴"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 144,
 			"name": "Jupiler Pro League",
 			"type": "League",
-			"country": "Belgium",
+			"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇧🇪"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 233,
 			"name": "Premier League",
 			"type": "League",
-			"country": "Egypt",
+			"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 			"season": 2023,
-			"priority": 1,
-			"flag": "🇪🇬"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 179,
 			"name": "Premiership",
 			"type": "League",
-			"country": "Scotland",
+			"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+			"priority": 1
+		},
+		{
+			"enabled": true,
+			"id": 119,
+			"name": "Superliga",
+			"type": "League",
+			"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+			"season": 2024,
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 244,
 			"name": "Veikkausliiga",
 			"type": "League",
-			"country": "Finland",
+			"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇫🇮"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 164,
 			"name": "Úrvalsdeild",
 			"type": "League",
-			"country": "Iceland",
+			"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇮🇸"
+			"priority": 1
 		},
 		{
 			"enabled": true,
 			"id": 262,
 			"name": "Liga MX",
 			"type": "League",
-			"country": "Mexico",
+			"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇲🇽"
+			"priority": 2
 		},
 		{
 			"enabled": true,
 			"id": 128,
 			"name": "Liga Profesional Argentina",
 			"type": "League",
-			"country": "Argentina",
+			"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇦🇷"
+			"priority": 2
 		},
 		{
 			"enabled": true,
 			"id": 253,
 			"name": "Major League Soccer",
 			"type": "League",
-			"country": "USA",
+			"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇺🇸"
+			"priority": 2
 		},
 		{
 			"enabled": true,
 			"id": 239,
 			"name": "Primera A",
 			"type": "League",
-			"country": "Colombia",
+			"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇨🇴"
+			"priority": 2
 		},
 		{
 			"enabled": true,
 			"id": 71,
 			"name": "Serie A",
 			"type": "League",
-			"country": "Brazil",
+			"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇧🇷"
-		},
-		{
-			"enabled": true,
-			"id": 2,
-			"name": "UEFA Champions League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": true,
-			"id": 848,
-			"name": "UEFA Europa Conference League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
-		},
-		{
-			"enabled": true,
-			"id": 3,
-			"name": "UEFA Europa League",
-			"type": "Cup",
-			"country": "World",
-			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
+			"priority": 2
 		},
 		{
 			"enabled": true,
 			"id": 73,
 			"name": "Copa Do Brasil",
 			"type": "Cup",
-			"country": "Brazil",
+			"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🇧🇷"
+			"priority": 3
+		},
+		{
+			"enabled": true,
+			"id": 2,
+			"name": "UEFA Champions League",
+			"type": "Cup",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
+			"season": 2024,
+			"priority": 3
+		},
+		{
+			"enabled": true,
+			"id": 848,
+			"name": "UEFA Europa Conference League",
+			"type": "Cup",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
+			"season": 2024,
+			"priority": 3
+		},
+		{
+			"enabled": true,
+			"id": 3,
+			"name": "UEFA Europa League",
+			"type": "Cup",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
+			"season": 2024,
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 954,
 			"name": "National League - Central",
 			"type": "League",
-			"country": "New-Zealand",
+			"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇳🇿"
+			"priority": 1
 		},
 		{
 			"enabled": false,
 			"id": 956,
 			"name": "National League - Northern",
 			"type": "League",
-			"country": "New-Zealand",
+			"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇳🇿"
+			"priority": 1
 		},
 		{
 			"enabled": false,
 			"id": 957,
 			"name": "National League - Southern",
 			"type": "League",
-			"country": "New-Zealand",
+			"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
 			"season": 2024,
-			"priority": 1,
-			"flag": "🇳🇿"
+			"priority": 1
 		},
 		{
 			"enabled": false,
 			"id": 78,
 			"name": "Bundesliga",
 			"type": "League",
-			"country": "Germany",
+			"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇩🇪"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 135,
 			"name": "Coppa Italia",
 			"type": "Cup",
-			"country": "Italy",
+			"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇮🇹"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 140,
 			"name": "La Liga",
 			"type": "League",
-			"country": "Spain",
+			"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇪🇸"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 61,
 			"name": "Ligue 1",
 			"type": "League",
-			"country": "France",
+			"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇫🇷"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 39,
 			"name": "Premier League",
 			"type": "League",
-			"country": "England",
+			"country": { "name": "England", "flag": "🇬🇧", "code": "GB" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇬🇧"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 94,
 			"name": "Primeira Liga",
 			"type": "League",
-			"country": "Portugal",
+			"country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇵🇹"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 137,
 			"name": "Serie A",
 			"type": "League",
-			"country": "Italy",
+			"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇮🇹"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 203,
 			"name": "Süper Lig",
 			"type": "League",
-			"country": "Turkey",
+			"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" },
 			"season": 2024,
-			"priority": 2,
-			"flag": "🇹🇷"
+			"priority": 2
 		},
 		{
 			"enabled": false,
 			"id": 13,
 			"name": "CONMEBOL Libertadores",
 			"type": "Cup",
-			"country": "World",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 11,
 			"name": "CONMEBOL Sudamericana",
 			"type": "Cup",
-			"country": "World",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 9,
 			"name": "Copa America",
 			"type": "Cup",
-			"country": "World",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 130,
 			"name": "Copa Argentina",
 			"type": "Cup",
-			"country": "Argentina",
+			"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🇦🇷"
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 1032,
 			"name": "Copa de la Liga Profesional",
 			"type": "Cup",
-			"country": "Argentina",
+			"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🇦🇷"
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 480,
 			"name": "Olympics Men",
 			"type": "Cup",
-			"country": "World",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": 2024,
-			"priority": 3,
-			"flag": "🌎"
+			"priority": 3
 		},
 		{
 			"enabled": false,
 			"id": 188,
 			"name": "A-League",
 			"type": "League",
-			"country": "Australia",
+			"country": { "name": "Australia", "flag": "🇦🇺", "code": "AU" },
 			"season": 2024,
-			"priority": 4,
-			"flag": "🇦🇺"
+			"priority": 4
 		},
 		{
 			"enabled": false,
 			"id": 220,
 			"name": "Austria Cup",
 			"type": "Cup",
-			"country": "Austria",
+			"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 			"season": 2024,
-			"priority": 4,
-			"flag": "🇦🇹"
+			"priority": 4
 		},
 		{
 			"enabled": false,
 			"id": 308,
 			"name": "Division 1",
 			"type": "League",
-			"country": "Saudi-Arabia",
+			"country": { "name": "Saudi-Arabia", "flag": "🇸🇦", "code": "SA" },
 			"season": 2024,
-			"priority": 4,
-			"flag": "🇸🇦"
+			"priority": 4
 		},
 		{
 			"enabled": false,
 			"id": 88,
 			"name": "Eredivisie",
 			"type": "League",
-			"country": "Netherlands",
+			"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 			"season": 2024,
-			"priority": 4,
-			"flag": "🇳🇱"
+			"priority": 4
 		},
 		{
 			"enabled": false,
 			"id": 307,
 			"name": "Pro League",
 			"type": "League",
-			"country": "Saudi-Arabia",
+			"country": { "name": "Saudi-Arabia", "flag": "🇸🇦", "code": "SA" },
 			"season": 2024,
-			"priority": 4,
-			"flag": "🇸🇦"
+			"priority": 4
 		},
 		{
 			"enabled": false,
 			"id": 16,
 			"name": "CONCACAF Champions League",
 			"type": "Cup",
-			"country": "World",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": 2024,
-			"priority": 5,
-			"flag": "🌎"
+			"priority": 5
 		},
 		{
 			"enabled": false,
 			"id": 241,
 			"name": "Copa Colombia",
 			"type": "Cup",
-			"country": "Colombia",
+			"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 			"season": 2024,
-			"priority": 5,
-			"flag": "🇨🇴"
+			"priority": 5
 		},
 		{
 			"enabled": false,
 			"id": 504,
 			"name": "King's Cup",
 			"type": "Cup",
-			"country": "Saudi-Arabia",
+			"country": { "name": "Saudi-Arabia", "flag": "🇸🇦", "code": "SA" },
 			"season": 2024,
-			"priority": 5,
-			"flag": "🇸🇦"
+			"priority": 5
 		}
 	],
 	"fixtures": {
@@ -477,6 +444,7 @@
 			"179-premiership-scotland"
 		],
 		"2024-08-05": [
+			"119-superliga-denmark",
 			"233-premier-league-egypt",
 			"179-premiership-scotland",
 			"164-urvalsdeild-iceland",
@@ -507,6 +475,7 @@
 			"73-copa-do-brasil-brazil"
 		],
 		"2024-08-09": [
+			"119-superliga-denmark",
 			"103-eliteserien-norway",
 			"144-jupiler-pro-league-belgium",
 			"244-veikkausliiga-finland",
@@ -524,6 +493,7 @@
 			"71-serie-a-brazil"
 		],
 		"2024-08-11": [
+			"119-superliga-denmark",
 			"218-bundesliga-austria",
 			"345-czech-liga-czech-republic",
 			"103-eliteserien-norway",

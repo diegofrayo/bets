@@ -89,10 +89,9 @@ export type T_LeaguesFile = {
 		id: number;
 		name: string;
 		type: string;
-		country: string;
+		country: { code: string; name: string; flag: string };
 		season: number;
 		priority: number;
-		flag: string;
 	}>;
 	fixtures: Record<string, Array<string>>;
 };

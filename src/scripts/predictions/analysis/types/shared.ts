@@ -11,8 +11,11 @@ export type T_League = {
 	name: string;
 	type: string; // "League" | "Cup"
 	priority: number;
-	country: string;
-	flag: string;
+	country: {
+		code: string;
+		name: string;
+		flag: string;
+	};
 	season: number;
 };
 
@@ -71,9 +74,9 @@ export type T_LeagueStandings = {
 type T_TeamBase = {
 	id: number;
 	name: string;
-	country: string;
 	position: number | null;
 	featured: boolean;
+	country: T_League["country"] | null;
 };
 
 export type T_FixtureMatchTeam = T_FixtureNextMatchTeam | T_FixturePlayedMatchTeam;

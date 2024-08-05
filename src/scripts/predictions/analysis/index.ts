@@ -47,7 +47,7 @@ export default async function main(config: T_AnalysisConfig) {
 			if (!league.enabled) return;
 
 			try {
-				console.log(`  Fetching "${league.name} (${league.id}|${league.country})" matches...`);
+				console.log(`  Fetching "${league.name} (${league.id}|${league.country.name})" matches...`);
 
 				const leagueStandings = await DataClient.fetchLeagueStandings({
 					league,
@@ -64,7 +64,6 @@ export default async function main(config: T_AnalysisConfig) {
 					standings: leagueStandings,
 					matches: [],
 				};
-				await DataClient.updateTeamsFile(fixtureMatches);
 
 				await asyncLoop(fixtureMatches, async (fixtureMatch) => {
 					try {
