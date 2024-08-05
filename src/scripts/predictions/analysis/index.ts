@@ -64,6 +64,7 @@ export default async function main(config: T_AnalysisConfig) {
 					standings: leagueStandings,
 					matches: [],
 				};
+				await DataClient.updateTeamsFile(fixtureMatches);
 
 				await asyncLoop(fixtureMatches, async (fixtureMatch) => {
 					try {

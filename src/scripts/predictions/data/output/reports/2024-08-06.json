@@ -1148,7 +1148,7 @@
 									"home": {
 										"id": 251,
 										"name": "ST Mirren",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -1157,7 +1157,7 @@
 									"away": {
 										"id": 274,
 										"name": "Valur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
 										"featured": true,
 										"score": 1,
@@ -1247,7 +1247,7 @@
 									"home": {
 										"id": 274,
 										"name": "Valur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
 										"featured": true,
 										"score": 0,
@@ -1256,7 +1256,7 @@
 									"away": {
 										"id": 251,
 										"name": "ST Mirren",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -1289,7 +1289,7 @@
 									"away": {
 										"id": 274,
 										"name": "Valur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
 										"featured": true,
 										"score": 4,
@@ -1313,7 +1313,7 @@
 									"home": {
 										"id": 274,
 										"name": "Valur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
 										"featured": true,
 										"score": 2,
@@ -2487,7 +2487,7 @@
 									"away": {
 										"id": 275,
 										"name": "Stjarnan",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
 										"featured": true,
 										"score": 0,
@@ -2544,7 +2544,7 @@
 									"home": {
 										"id": 275,
 										"name": "Stjarnan",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
 										"featured": true,
 										"score": 2,
@@ -2619,7 +2619,7 @@
 									"away": {
 										"id": 275,
 										"name": "Stjarnan",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
 										"featured": true,
 										"score": 2,
@@ -2643,7 +2643,7 @@
 									"home": {
 										"id": 275,
 										"name": "Stjarnan",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
 										"featured": true,
 										"score": 2,
@@ -3209,7 +3209,7 @@
 									"away": {
 										"id": 276,
 										"name": "Breidablik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
 										"featured": true,
 										"score": 0,
@@ -3266,7 +3266,7 @@
 									"home": {
 										"id": 276,
 										"name": "Breidablik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
 										"featured": true,
 										"score": 1,
@@ -3332,7 +3332,7 @@
 									"home": {
 										"id": 276,
 										"name": "Breidablik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
 										"featured": true,
 										"score": 3,
@@ -3374,7 +3374,7 @@
 									"away": {
 										"id": 276,
 										"name": "Breidablik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
 										"featured": true,
 										"score": 2,
@@ -5949,7 +5949,7 @@
 									"home": {
 										"id": 1147,
 										"name": "Fortaleza FC",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 1,
 										"featured": true,
 										"score": 0,
@@ -5958,7 +5958,7 @@
 									"away": {
 										"id": 1132,
 										"name": "Chico",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 20,
 										"featured": false,
 										"score": 0,
@@ -8273,7 +8273,7 @@
 									"away": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8297,7 +8297,7 @@
 									"home": {
 										"id": 742,
 										"name": "Genk",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -8339,7 +8339,7 @@
 									"away": {
 										"id": 249,
 										"name": "Hibernian",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -8788,7 +8788,7 @@
 									"home": {
 										"id": 637,
 										"name": "Sturm Graz",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -8962,7 +8962,7 @@
 									"away": {
 										"id": 2149,
 										"name": "Fredrikstad",
-										"country": null,
+										"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -10052,7 +10052,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -10217,7 +10217,7 @@
 									"home": {
 										"id": 327,
 										"name": "Bodo/Glimt",
-										"country": null,
+										"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -10792,7 +10792,7 @@
 									"home": {
 										"id": 1026,
 										"name": "Lask Linz",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -12151,7 +12151,7 @@
 									"home": {
 										"id": 1025,
 										"name": "Wolfsberger AC",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -12184,7 +12184,7 @@
 									"home": {
 										"id": 742,
 										"name": "Genk",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -12217,7 +12217,7 @@
 									"home": {
 										"id": 631,
 										"name": "Gent",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -12259,7 +12259,7 @@
 									"away": {
 										"id": 266,
 										"name": "KV Mechelen",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -12737,7 +12737,7 @@
 					"home": {
 						"id": 571,
 						"name": "Red Bull Salzburg",
-						"country": null,
+						"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 						"position": null,
 						"featured": false,
 						"stats": {
@@ -12920,7 +12920,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -12953,7 +12953,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -12986,7 +12986,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -13028,7 +13028,7 @@
 									"away": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 8,
@@ -13052,7 +13052,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -13085,7 +13085,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -13118,7 +13118,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -13151,7 +13151,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 6,
@@ -13160,7 +13160,7 @@
 									"away": {
 										"id": 327,
 										"name": "Bodo/Glimt",
-										"country": null,
+										"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -13184,7 +13184,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -13372,7 +13372,7 @@
 									"away": {
 										"id": 735,
 										"name": "St. Truiden",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -14258,7 +14258,7 @@
 									"away": {
 										"id": 631,
 										"name": "Gent",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -14282,7 +14282,7 @@
 									"home": {
 										"id": 569,
 										"name": "Club Brugge KV",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -14824,7 +14824,7 @@
 									"home": {
 										"id": 649,
 										"name": "HJK helsinki",
-										"country": null,
+										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -14866,7 +14866,7 @@
 									"away": {
 										"id": 649,
 										"name": "HJK helsinki",
-										"country": null,
+										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -16201,7 +16201,7 @@
 									"home": {
 										"id": 250,
 										"name": "Kilmarnock",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": null,
 										"featured": false,
 										"score": 5,

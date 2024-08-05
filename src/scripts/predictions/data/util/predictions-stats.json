@@ -1,6 +1,6 @@
 {
 	"doble-oportunidad-local": {
-		"stats": { "winning": 5, "lost": 0, "lostWinning": 66, "skippedLost": 21, "total": 92 },
+		"stats": { "winning": 5, "lost": 0, "lostWinning": 67, "skippedLost": 22, "total": 94 },
 		"record": {
 			"winning": {
 				"2024-08-01": ["1215799-egypt"],
@@ -79,7 +79,8 @@
 					"1213215-belgium",
 					"1220112-scotland",
 					"1220113-scotland"
-				]
+				],
+				"2024-08-05": ["1176834-egypt"]
 			},
 			"skippedLost": {
 				"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
@@ -102,12 +103,12 @@
 					"1213214-belgium",
 					"1213216-belgium"
 				],
-				"2024-08-05": ["1205441-denmark"]
+				"2024-08-05": ["1205441-denmark", "1220115-scotland"]
 			}
 		}
 	},
 	"gol-equipo-local": {
-		"stats": { "winning": 32, "lost": 10, "lostWinning": 42, "skippedLost": 8, "total": 92 },
+		"stats": { "winning": 32, "lost": 10, "lostWinning": 44, "skippedLost": 8, "total": 94 },
 		"record": {
 			"winning": {
 				"2024-07-30": ["1234170-colombia", "1251952-brazil", "1251956-brazil"],
@@ -200,7 +201,8 @@
 					"1220112-scotland",
 					"1220113-scotland",
 					"1220114-scotland"
-				]
+				],
+				"2024-08-05": ["1176834-egypt", "1220115-scotland"]
 			},
 			"skippedLost": {
 				"2024-07-29": ["1158762-argentina", "1158758-argentina", "1176812-egypt"],
@@ -211,9 +213,9 @@
 		}
 	},
 	"tiempo-reglamentario-local": {
-		"stats": { "winning": 1, "lost": 0, "lostWinning": 45, "skippedLost": 46, "total": 92 },
+		"stats": { "winning": 2, "lost": 0, "lostWinning": 45, "skippedLost": 47, "total": 94 },
 		"record": {
-			"winning": { "2024-08-03": ["1158785-argentina"] },
+			"winning": { "2024-08-03": ["1158785-argentina"], "2024-08-05": ["1176834-egypt"] },
 			"lost": {},
 			"lostWinning": {
 				"2024-07-29": [
@@ -308,7 +310,7 @@
 					"1213216-belgium",
 					"1220112-scotland"
 				],
-				"2024-08-05": ["1205441-denmark"]
+				"2024-08-05": ["1205441-denmark", "1220115-scotland"]
 			}
 		}
 	}

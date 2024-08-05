@@ -1713,7 +1713,7 @@
 									"home": {
 										"id": 119,
 										"name": "Internacional",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -1722,7 +1722,7 @@
 									"away": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"featured": false,
 										"score": 1,
@@ -1779,7 +1779,7 @@
 									"home": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"featured": false,
 										"score": 1,
@@ -1788,7 +1788,7 @@
 									"away": {
 										"id": 119,
 										"name": "Internacional",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -1920,7 +1920,7 @@
 									"away": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"featured": false,
 										"score": 1,
@@ -2010,7 +2010,7 @@
 									"home": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"featured": false,
 										"score": 4,
@@ -2076,7 +2076,7 @@
 									"home": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"featured": false,
 										"score": 0,
@@ -2085,7 +2085,7 @@
 									"away": {
 										"id": 1062,
 										"name": "Atletico-MG",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -2118,7 +2118,7 @@
 									"away": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"featured": false,
 										"score": 1,
@@ -2455,7 +2455,7 @@
 									"home": {
 										"id": 451,
 										"name": "Boca Juniors",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 1,
@@ -2530,7 +2530,7 @@
 									"away": {
 										"id": 451,
 										"name": "Boca Juniors",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 0,
@@ -2653,7 +2653,7 @@
 									"home": {
 										"id": 451,
 										"name": "Boca Juniors",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 4,
@@ -2752,7 +2752,7 @@
 									"home": {
 										"id": 451,
 										"name": "Boca Juniors",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 1,
@@ -2761,7 +2761,7 @@
 									"away": {
 										"id": 154,
 										"name": "Fortaleza EC",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -2827,7 +2827,7 @@
 									"away": {
 										"id": 451,
 										"name": "Boca Juniors",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 2,
@@ -2884,7 +2884,7 @@
 									"home": {
 										"id": 154,
 										"name": "Fortaleza EC",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -2893,7 +2893,7 @@
 									"away": {
 										"id": 451,
 										"name": "Boca Juniors",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 2,
@@ -7869,7 +7869,7 @@
 									"home": {
 										"id": 1128,
 										"name": "Independiente Medellin",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"featured": false,
 										"score": 4,
@@ -7902,7 +7902,7 @@
 									"home": {
 										"id": 442,
 										"name": "Defensa Y Justicia",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -7911,7 +7911,7 @@
 									"away": {
 										"id": 1128,
 										"name": "Independiente Medellin",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"featured": false,
 										"score": 1,
@@ -7944,7 +7944,7 @@
 									"away": {
 										"id": 1128,
 										"name": "Independiente Medellin",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"featured": false,
 										"score": 5,
@@ -8001,7 +8001,7 @@
 									"home": {
 										"id": 1128,
 										"name": "Independiente Medellin",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"featured": false,
 										"score": 2,
@@ -8010,7 +8010,7 @@
 									"away": {
 										"id": 442,
 										"name": "Defensa Y Justicia",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -8133,7 +8133,7 @@
 									"home": {
 										"id": 1128,
 										"name": "Independiente Medellin",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"featured": false,
 										"score": 4,
@@ -8208,7 +8208,7 @@
 									"away": {
 										"id": 1128,
 										"name": "Independiente Medellin",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"featured": false,
 										"score": 0,
@@ -8479,7 +8479,7 @@
 									"home": {
 										"id": 1147,
 										"name": "Fortaleza FC",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
 										"featured": true,
 										"score": 0,
@@ -8488,7 +8488,7 @@
 									"away": {
 										"id": 1132,
 										"name": "Chico",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 20,
 										"featured": false,
 										"score": 0,
@@ -9173,7 +9173,7 @@
 									"home": {
 										"id": 134,
 										"name": "Atletico Paranaense",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -9281,7 +9281,7 @@
 									"away": {
 										"id": 134,
 										"name": "Atletico Paranaense",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -9783,7 +9783,7 @@
 									"home": {
 										"id": 794,
 										"name": "RB Bragantino",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -9891,7 +9891,7 @@
 									"away": {
 										"id": 794,
 										"name": "RB Bragantino",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -11564,7 +11564,7 @@
 									"home": {
 										"id": 1062,
 										"name": "Atletico-MG",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -12306,7 +12306,7 @@
 									"home": {
 										"id": 127,
 										"name": "Flamengo",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -12315,7 +12315,7 @@
 									"away": {
 										"id": 1125,
 										"name": "Millonarios",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -12916,7 +12916,7 @@
 									"home": {
 										"id": 121,
 										"name": "Palmeiras",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -12925,7 +12925,7 @@
 									"away": {
 										"id": 460,
 										"name": "San Lorenzo",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -15010,7 +15010,7 @@
 									"home": {
 										"id": 131,
 										"name": "Corinthians",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -15620,7 +15620,7 @@
 									"home": {
 										"id": 130,
 										"name": "Gremio",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -15629,7 +15629,7 @@
 									"away": {
 										"id": 450,
 										"name": "Estudiantes L.P.",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
 										"featured": false,
 										"score": 1,

@@ -7,11 +7,408 @@
 		"priority": 1,
 		"standings": {
 			"type": "SIMPLE",
-			"items": [],
+			"items": [
+				{
+					"teamId": 407,
+					"teamName": "Brondby",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 7, "against": 4, "diff": 3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2.5
+						}
+					}
+				},
+				{
+					"teamId": 401,
+					"teamName": "Randers FC",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 7, "against": 4, "diff": 3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
+					}
+				},
+				{
+					"teamId": 400,
+					"teamName": "FC Copenhagen",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 6, "against": 3, "diff": 3 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
+					}
+				},
+				{
+					"teamId": 2073,
+					"teamName": "Silkeborg",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 5, "against": 4, "diff": 1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 397,
+					"teamName": "FC Midtjylland",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 5, "against": 3, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 406,
+					"teamName": "Aarhus",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 7, "against": 4, "diff": 3 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
+					}
+				},
+				{
+					"teamId": 398,
+					"teamName": "FC Nordsjaelland",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2, "diff": 3 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 402,
+					"teamName": "Aalborg",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 6, "diff": -4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 0, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 2070,
+					"teamName": "Viborg",
+					"points": 1,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 6, "against": 9, "diff": -3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 3, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 625,
+					"teamName": "Lyngby",
+					"points": 1,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 1, "against": 5, "diff": -4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 0, "against": 4 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 396,
+					"teamName": "Sonderjyske",
+					"points": 1,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 1, "against": 6, "diff": -5 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 0, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 395,
+					"teamName": "Vejle",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 3, "against": 5, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				}
+			],
 			"stats": {
-				"promedio_de_goles_anotados_por_partido": 0,
-				"promedio_de_goles_anotados_de_local_por_partido": 0,
-				"promedio_de_goles_anotados_de_visitante_por_partido": 0
+				"promedio_de_goles_anotados_por_partido": 1.6,
+				"promedio_de_goles_anotados_de_local_por_partido": 2,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
 			}
 		},
 		"matches": [
@@ -27,7 +424,7 @@
 						"id": 395,
 						"name": "Vejle",
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-						"position": null,
+						"position": 12,
 						"featured": false,
 						"score": 0,
 						"winner": false,
@@ -146,8 +543,8 @@
 										"id": 407,
 										"name": "Brondby",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -155,7 +552,7 @@
 										"id": 395,
 										"name": "Vejle",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -179,7 +576,7 @@
 										"id": 395,
 										"name": "Vejle",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -188,8 +585,8 @@
 										"id": 401,
 										"name": "Randers FC",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -211,8 +608,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 5,
 										"winner": true
@@ -244,8 +641,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -277,8 +674,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -311,16 +708,16 @@
 										"id": 407,
 										"name": "Brondby",
 										"country": null,
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
 									"away": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -352,8 +749,8 @@
 									"away": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 3,
 										"winner": null
@@ -376,8 +773,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -409,8 +806,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -451,8 +848,8 @@
 									"away": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -484,8 +881,8 @@
 									"away": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -508,8 +905,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -541,8 +938,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -574,8 +971,8 @@
 									"home": {
 										"id": 395,
 										"name": "Vejle",
-										"country": null,
-										"position": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -584,7 +981,7 @@
 										"id": 396,
 										"name": "Sonderjyske",
 										"country": null,
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -604,8 +1001,8 @@
 						"id": 398,
 						"name": "FC Nordsjaelland",
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-						"position": null,
-						"featured": false,
+						"position": 7,
+						"featured": true,
 						"score": 1,
 						"winner": true,
 						"stats": {
@@ -723,8 +1120,8 @@
 										"id": 398,
 										"name": "FC Nordsjaelland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									},
@@ -732,8 +1129,8 @@
 										"id": 397,
 										"name": "FC Midtjylland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									}
@@ -756,8 +1153,8 @@
 										"id": 398,
 										"name": "FC Nordsjaelland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -765,8 +1162,8 @@
 										"id": 402,
 										"name": "Aalborg",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -789,17 +1186,17 @@
 										"id": 401,
 										"name": "Randers FC",
 										"country": null,
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									},
 									"away": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -821,9 +1218,9 @@
 									"home": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -854,9 +1251,9 @@
 									"home": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									},
@@ -887,9 +1284,9 @@
 									"home": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									},
@@ -929,9 +1326,9 @@
 									"away": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -962,9 +1359,9 @@
 									"away": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									}
@@ -995,9 +1392,9 @@
 									"away": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1019,9 +1416,9 @@
 									"home": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -1052,9 +1449,9 @@
 									"home": {
 										"id": 398,
 										"name": "FC Nordsjaelland",
-										"country": null,
-										"position": null,
-										"featured": false,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
+										"position": 7,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -1124,12 +1521,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe estar en los primeros 5 lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (0/0)"
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (12/12)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (0/0)"
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (7/12)"
 									},
 									{
 										"fulfilled": false,
@@ -1166,7 +1563,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe estar en los primeros 5 lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (0/0)"
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (12/12)"
 									},
 									{
 										"fulfilled": false,
@@ -1817,11 +2214,11 @@
 		"matches": [
 			{
 				"id": "1176834",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-05T13:00",
 				"date": "2024-08-05",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1040,
@@ -1829,6 +2226,8 @@
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 5,
 						"featured": true,
+						"score": 4,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -2437,6 +2836,8 @@
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 9,
 						"featured": false,
+						"score": 2,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -3070,7 +3471,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "doble-oportunidad-local",
@@ -3106,7 +3513,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gol-equipo-local",
@@ -3132,7 +3545,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -3562,11 +3981,11 @@
 		"matches": [
 			{
 				"id": "1220115",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-05T14:00",
 				"date": "2024-08-05",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 258,
@@ -3574,6 +3993,8 @@
 						"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 						"position": 10,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -3688,7 +4109,7 @@
 									"home": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 5,
@@ -3730,7 +4151,7 @@
 									"away": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 2,
@@ -3754,7 +4175,7 @@
 									"home": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 2,
@@ -3796,7 +4217,7 @@
 									"away": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 2,
@@ -3829,7 +4250,7 @@
 									"away": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 1,
@@ -3862,7 +4283,7 @@
 									"away": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 2,
@@ -3895,7 +4316,7 @@
 									"away": {
 										"id": 258,
 										"name": "ST Johnstone",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 10,
 										"featured": false,
 										"score": 6,
@@ -3918,6 +4339,8 @@
 						"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 						"position": 9,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -4032,7 +4455,7 @@
 									"home": {
 										"id": 252,
 										"name": "Aberdeen",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 9,
 										"featured": false,
 										"score": 6,
@@ -4065,7 +4488,7 @@
 									"home": {
 										"id": 252,
 										"name": "Aberdeen",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 9,
 										"featured": false,
 										"score": 2,
@@ -4107,7 +4530,7 @@
 									"away": {
 										"id": 252,
 										"name": "Aberdeen",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 9,
 										"featured": false,
 										"score": 4,
@@ -4140,7 +4563,7 @@
 									"away": {
 										"id": 252,
 										"name": "Aberdeen",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 9,
 										"featured": false,
 										"score": 3,
@@ -4173,7 +4596,7 @@
 									"away": {
 										"id": 252,
 										"name": "Aberdeen",
-										"country": null,
+										"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 										"position": 9,
 										"featured": false,
 										"score": 4,
@@ -4226,7 +4649,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "gol-equipo-local",
@@ -4252,7 +4681,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tiempo-reglamentario-local",
@@ -4283,7 +4718,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -5456,7 +5897,7 @@
 									"away": {
 										"id": 278,
 										"name": "Vikingur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
 										"featured": true,
 										"score": 2,
@@ -5513,7 +5954,7 @@
 									"home": {
 										"id": 278,
 										"name": "Vikingur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
 										"featured": true,
 										"score": 0,
@@ -5588,7 +6029,7 @@
 									"away": {
 										"id": 278,
 										"name": "Vikingur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
 										"featured": true,
 										"score": 1,
@@ -5612,7 +6053,7 @@
 									"home": {
 										"id": 278,
 										"name": "Vikingur Reykjavik",
-										"country": null,
+										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
 										"featured": true,
 										"score": 0,
@@ -9116,7 +9557,7 @@
 									"home": {
 										"id": 119,
 										"name": "Internacional",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -9125,7 +9566,7 @@
 									"away": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 1,
@@ -9182,7 +9623,7 @@
 									"home": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 1,
@@ -9191,7 +9632,7 @@
 									"away": {
 										"id": 119,
 										"name": "Internacional",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -9323,7 +9764,7 @@
 									"away": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 1,
@@ -9413,7 +9854,7 @@
 									"home": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 4,
@@ -9479,7 +9920,7 @@
 									"home": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 0,
@@ -9488,7 +9929,7 @@
 									"away": {
 										"id": 1062,
 										"name": "Atletico-MG",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -9521,7 +9962,7 @@
 									"away": {
 										"id": 437,
 										"name": "Rosario Central",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"featured": false,
 										"score": 1,
@@ -11946,7 +12387,7 @@
 									"home": {
 										"id": 1137,
 										"name": "Atletico Nacional",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
 										"featured": true,
 										"score": 2,
@@ -11988,7 +12429,7 @@
 									"away": {
 										"id": 1137,
 										"name": "Atletico Nacional",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
 										"featured": true,
 										"score": 3,
@@ -12012,7 +12453,7 @@
 									"home": {
 										"id": 1137,
 										"name": "Atletico Nacional",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
 										"featured": true,
 										"score": 2,
@@ -12021,7 +12462,7 @@
 									"away": {
 										"id": 1144,
 										"name": "Rionegro Aguilas",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
 										"featured": false,
 										"score": 2,
@@ -12488,7 +12929,7 @@
 									"home": {
 										"id": 1129,
 										"name": "Envigado",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 18,
 										"featured": false,
 										"score": 3,
@@ -12497,7 +12938,7 @@
 									"away": {
 										"id": 1144,
 										"name": "Rionegro Aguilas",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
 										"featured": false,
 										"score": 0,
@@ -12521,7 +12962,7 @@
 									"home": {
 										"id": 1137,
 										"name": "Atletico Nacional",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
 										"featured": true,
 										"score": 2,
@@ -12530,7 +12971,7 @@
 									"away": {
 										"id": 1144,
 										"name": "Rionegro Aguilas",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
 										"featured": false,
 										"score": 2,
@@ -14252,7 +14693,7 @@
 									"home": {
 										"id": 135,
 										"name": "Cruzeiro",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
 										"featured": true,
 										"score": 1,

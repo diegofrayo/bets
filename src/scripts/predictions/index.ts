@@ -25,5 +25,5 @@ launchAnalysis({
 	// Config 4
 	// config: "LEAGUES_STANDINGS_UPDATE",
 	// leagues: [],
-	// enableRemoteAPI: true,
+	// enableRemoteAPI: false,
 });

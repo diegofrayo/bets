@@ -96,6 +96,13 @@ export type T_LeaguesFile = {
 	fixtures: Record<string, Array<string>>;
 };
 
+export type T_TeamsFile = DR.Object<T_TeamsFileItem>;
+
+export type T_TeamsFileItem = {
+	name: string;
+	country: { code: string; name: string; flag: string } | null;
+};
+
 export type T_PredictionsStatsFile = DR.Object<{
 	stats: {
 		winning: number;

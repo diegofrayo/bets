@@ -1845,7 +1845,7 @@
 									"home": {
 										"id": 130,
 										"name": "Gremio",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -1854,7 +1854,7 @@
 									"away": {
 										"id": 450,
 										"name": "Estudiantes L.P.",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
 										"featured": false,
 										"score": 1,
@@ -1911,7 +1911,7 @@
 									"home": {
 										"id": 450,
 										"name": "Estudiantes L.P.",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
 										"featured": false,
 										"score": 3,
@@ -2052,7 +2052,7 @@
 									"away": {
 										"id": 450,
 										"name": "Estudiantes L.P.",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
 										"featured": false,
 										"score": 0,
@@ -2142,7 +2142,7 @@
 									"home": {
 										"id": 450,
 										"name": "Estudiantes L.P.",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
 										"featured": false,
 										"score": 0,
@@ -2151,7 +2151,7 @@
 									"away": {
 										"id": 130,
 										"name": "Gremio",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -5198,7 +5198,7 @@
 									"home": {
 										"id": 435,
 										"name": "River Plate",
-										"country": null,
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -5207,7 +5207,7 @@
 									"away": {
 										"id": 1125,
 										"name": "Millonarios",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
 										"featured": false,
 										"score": 1,
@@ -5264,7 +5264,7 @@
 									"home": {
 										"id": 127,
 										"name": "Flamengo",
-										"country": null,
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -5273,7 +5273,7 @@
 									"away": {
 										"id": 1125,
 										"name": "Millonarios",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
 										"featured": false,
 										"score": 0,
@@ -5396,7 +5396,7 @@
 									"home": {
 										"id": 1125,
 										"name": "Millonarios",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
 										"featured": false,
 										"score": 1,
@@ -5462,7 +5462,7 @@
 									"home": {
 										"id": 1125,
 										"name": "Millonarios",
-										"country": null,
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
 										"featured": false,
 										"score": 1,
@@ -8236,7 +8236,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -8269,7 +8269,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -8302,7 +8302,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -8344,7 +8344,7 @@
 									"away": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -8377,7 +8377,7 @@
 									"away": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8410,7 +8410,7 @@
 									"away": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 8,
@@ -8434,7 +8434,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8443,7 +8443,7 @@
 									"away": {
 										"id": 1405,
 										"name": "Austria Klagenfurt",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8476,7 +8476,7 @@
 									"away": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8500,7 +8500,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8533,7 +8533,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8566,7 +8566,7 @@
 									"home": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -8575,7 +8575,7 @@
 									"away": {
 										"id": 1025,
 										"name": "Wolfsberger AC",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -8608,7 +8608,7 @@
 									"away": {
 										"id": 4256,
 										"name": "Grazer AK",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 6,
@@ -8780,7 +8780,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 4,
@@ -8813,7 +8813,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 1,
@@ -8846,7 +8846,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -8888,7 +8888,7 @@
 									"away": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 8,
@@ -8912,7 +8912,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -8945,7 +8945,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 3,
@@ -8978,7 +8978,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -9011,7 +9011,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 6,
@@ -9020,7 +9020,7 @@
 									"away": {
 										"id": 327,
 										"name": "Bodo/Glimt",
-										"country": null,
+										"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 										"position": null,
 										"featured": false,
 										"score": 0,
@@ -9044,7 +9044,7 @@
 									"home": {
 										"id": 571,
 										"name": "Red Bull Salzburg",
-										"country": null,
+										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 										"position": null,
 										"featured": false,
 										"score": 2,
@@ -9904,7 +9904,7 @@
 									"home": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 4,
@@ -9946,7 +9946,7 @@
 									"away": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 2,
@@ -9979,7 +9979,7 @@
 									"away": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 2,
@@ -10012,7 +10012,7 @@
 									"away": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 2,
@@ -10036,7 +10036,7 @@
 									"home": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 2,
@@ -10078,7 +10078,7 @@
 									"away": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 8,
@@ -10111,7 +10111,7 @@
 									"away": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 2,
@@ -10135,7 +10135,7 @@
 									"home": {
 										"id": 1393,
 										"name": "Union St. Gilloise",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
 										"featured": false,
 										"score": 4,
@@ -10316,7 +10316,7 @@
 									"home": {
 										"id": 263,
 										"name": "Beerschot Wilrijk",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 7,
 										"featured": true,
 										"score": 1,
@@ -10325,7 +10325,7 @@
 									"away": {
 										"id": 266,
 										"name": "KV Mechelen",
-										"country": null,
+										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 5,
 										"featured": true,
 										"score": 2,

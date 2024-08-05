@@ -28,6 +28,7 @@ import type {
 	T_RawLeagueStandingsResponse,
 	T_RawMatchesResponse,
 	T_RequestConfig,
+	T_TeamsFile,
 	T_TeamStats,
 	T_TeamStatsItems,
 } from "./types";
@@ -40,6 +41,7 @@ import { getTeamPosition, type T_PredictionsInput } from "./markets/utils";
 const LEAGUES = JSON.parse(
 	readFile("src/scripts/predictions/data/util/leagues.json"),
 ) as T_LeaguesFile;
+const TEAMS = JSON.parse(readFile("src/scripts/predictions/data/util/teams.json")) as T_TeamsFile;
 
 // --- API ---
 
@@ -186,6 +188,33 @@ async function fetchLeagueStandings({
 	}
 
 	return parsedResponse;
+}
+
+async function updateTeamsFile(
+	matches: Awaited<PromiseLike<ReturnType<typeof fetchFixtureMatches>>>,
+) {
+	const currentTeams = JSON.parse(readFile("src/scripts/predictions/data/util/teams.json"));
+	const outputTeams = {
+		...currentTeams,
+		...Object.values(matches).reduce(
+			(result, match) => {
+				return {
+					...result,
+					[match.teams.home.id]: {
+						name: match.teams.home.name,
+						country: currentTeams[match.teams.home.id]?.country || match.teams.home.country,
+					},
+					[match.teams.away.id]: {
+						name: match.teams.away.name,
+						country: currentTeams[match.teams.away.id]?.country || match.teams.away.country,
+					},
+				};
+			},
+			{} as Pick<T_FixtureMatchTeam, "name" | "country" | "featured">,
+		),
+	};
+
+	writeFile("src/scripts/predictions/data/util/teams.json", await formatCode(outputTeams, "json"));
 }
 
 async function updateLeaguesFixtures(requestConfig: {
@@ -386,6 +415,7 @@ const DataClient = {
 	fetchFixtureMatches,
 	fetchPlayedMatches,
 	fetchLeagueStandings,
+	updateTeamsFile,
 	updateLeaguesFixtures,
 	updateLeaguesStandings,
 	getMatchPredictions,
@@ -455,10 +485,11 @@ function parseMatchItem(
 				id: item.teams.home.id,
 				name: item.teams.home.name,
 				country:
-					item.league.country !== "World"
+					getTeamById(item.teams.home.id)?.country ||
+					(item.league.country !== "World"
 						? getCountryDetails({ leagueId: item.league.id }) ||
 							getCountryDetails({ countryName: item.league.country })
-						: null,
+						: null),
 				position: getTeamPosition(item.teams.home.id, leagueStandings),
 				featured: checkIsTeamFeatured(item.teams.home.id, leagueStandings),
 			},
@@ -466,10 +497,11 @@ function parseMatchItem(
 				id: item.teams.away.id,
 				name: item.teams.away.name,
 				country:
-					item.league.country !== "World"
+					getTeamById(item.teams.away.id)?.country ||
+					(item.league.country !== "World"
 						? getCountryDetails({ leagueId: item.league.id }) ||
 							getCountryDetails({ countryName: item.league.country })
-						: null,
+						: null),
 				position: getTeamPosition(item.teams.away.id, leagueStandings),
 				featured: checkIsTeamFeatured(item.teams.away.id, leagueStandings),
 			},
@@ -492,10 +524,6 @@ function parseMatchItem(
 						}),
 		},
 	};
-
-	if (matchBaseData.teams.home.country?.name === "World") {
-		console.log(matchBaseData.teams.home, `${item.fixture.id}`);
-	}
 
 	if (variant === "PLAYED_MATCH") {
 		const output: T_PlayedMatch = {
@@ -673,10 +701,6 @@ function parseStandingsResponse(data: T_RawLeagueStandingsResponse): T_LeagueSta
 			),
 			promedio_de_goles_anotados_de_local_por_partido: formatDecimalNumber(
 				items.reduce((result, item) => {
-					if (item.stats.averages.promedio_de_goles_anotados_de_local_por_partido === null) {
-						console.log(item.stats.averages.promedio_de_goles_anotados_de_local_por_partido);
-					}
-
 					return result + item.stats.averages.promedio_de_goles_anotados_de_local_por_partido;
 				}, 0) / items.length,
 				1,
@@ -704,6 +728,7 @@ function getProperlyLeagueStandingsData(
 	const isAustriaLeague = response.id === 218;
 	const isScotlandLeague = response.id === 179;
 	const isIcelandLeague = response.id === 164;
+	const isDenmarkLeague = response.id === 119;
 
 	if (isColombiaLeague) {
 		return (
@@ -726,7 +751,8 @@ function getProperlyLeagueStandingsData(
 			isEgyptianLeague ||
 			isAustriaLeague ||
 			isScotlandLeague ||
-			isIcelandLeague) &&
+			isIcelandLeague ||
+			isDenmarkLeague) &&
 		response.standings.length === 1
 	) {
 		return response.standings[0];
@@ -947,6 +973,10 @@ function checkIsTeamFeatured(teamId: number, leagueStandings: T_LeagueStandings)
 	}
 
 	return false;
+}
+
+function getTeamById(teamId: number) {
+	return TEAMS[String(teamId) as keyof typeof TEAMS] as T_TeamsFile[keyof typeof TEAMS];
 }
 
 function getCountryDetails(
