@@ -2,6 +2,16 @@
 	"items": [
 		{
 			"enabled": true,
+			"id": 164,
+			"name": "Úrvalsdeild",
+			"type": "League",
+			"country": "Iceland",
+			"season": 2024,
+			"priority": 1,
+			"flag": "🇮🇸"
+		},
+		{
+			"enabled": true,
 			"id": 218,
 			"name": "Bundesliga",
 			"type": "League",
@@ -412,7 +422,11 @@
 		}
 	],
 	"fixtures": {
-		"2024-07-29": ["239-primera-a-colombia"],
+		"2024-07-29": [
+			"128-liga-profesional-argentina-argentina",
+			"233-premier-league-egypt",
+			"239-primera-a-colombia"
+		],
 		"2024-07-30": [
 			"233-premier-league-egypt",
 			"239-primera-a-colombia",

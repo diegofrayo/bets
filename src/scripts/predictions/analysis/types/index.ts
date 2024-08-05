@@ -57,6 +57,26 @@ export type T_RawLeagueStandingsResponse = {
 							against: number;
 						};
 					};
+					home: {
+						played: number;
+						win: number;
+						draw: number;
+						lose: number;
+						goals: {
+							for: number;
+							against: number;
+						};
+					};
+					away: {
+						played: number;
+						win: number;
+						draw: number;
+						lose: number;
+						goals: {
+							for: number;
+							against: number;
+						};
+					};
 				}>
 			>;
 		};

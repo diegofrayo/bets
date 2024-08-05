@@ -5,7 +5,7 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	// config: "SPECIFIC_DATE",
-	// date: "today",
+	// date: "yesterday",
 	// enableRemoteAPI: true,
 
 	// Config 2
@@ -24,5 +24,6 @@ launchAnalysis({
 
 	// Config 4
 	// config: "LEAGUES_STANDINGS_UPDATE",
-	// leagueStandings: [{ id: 233, season: 2023 }],
+	// leagues: [],
+	// enableRemoteAPI: false,
 });

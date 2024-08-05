@@ -108,20 +108,8 @@ export function createMarketPredictionOutput({
 }
 
 export function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
-	const teamPosition = leagueStandings.reduce((result, item) => {
-		if (result !== -1) {
-			return result;
-		}
-
-		const subItemIndex = item.findIndex((subItem) => {
-			return subItem.teamId === teamId;
-		});
-
-		if (subItemIndex !== -1) {
-			return subItemIndex;
-		}
-
-		return result;
+	const teamPosition = leagueStandings.items.findIndex((item) => {
+		return item.teamId === teamId;
 	}, -1);
 
 	if (teamPosition === -1) {

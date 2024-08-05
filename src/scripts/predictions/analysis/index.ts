@@ -8,14 +8,10 @@ import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
 import APIClient from "./api-client";
 import DataClient from "./data-client";
 import { formatCode, formatDate } from "./utils";
-import type {
-	T_DayOfMatches,
-	T_FixtureNextMatchTeam,
-	T_FixturePlayedMatchTeam,
-	T_League,
-} from "./types";
+import type { T_DayOfMatches, T_FixtureNextMatchTeam, T_FixturePlayedMatchTeam } from "./types";
 
 export default async function main(config: T_AnalysisConfig) {
+	copySharedTypesFile();
 	await APIClient.calculateUsageStats();
 
 	if (config.config === "LEAGUES_FIXTURES_UPDATE") {
@@ -24,7 +20,7 @@ export default async function main(config: T_AnalysisConfig) {
 	}
 
 	if (config.config === "LEAGUES_STANDINGS_UPDATE") {
-		await DataClient.updateLeaguesStandings(config.leagueStandings);
+		await DataClient.updateLeaguesStandings(config.leagues, config.enableRemoteAPI);
 		return;
 	}
 
@@ -196,10 +192,6 @@ export default async function main(config: T_AnalysisConfig) {
 			outputFolderPath: "../website/diegofrayo-frontend/public/data/apps/bets",
 			outputFileName: `${requestConfig.date}.json`,
 		});
-		copyFile(`src/scripts/predictions/analysis/types/shared.ts`, {
-			outputFolderPath: "../website/diegofrayo-frontend/src/modules/pages/apps/pages/BetsPage",
-			outputFileName: "types.ts",
-		});
 	});
 }
 
@@ -318,6 +310,13 @@ function generateDates(config: T_AnalysisConfig): DR.Dates.DateString[] {
 	return [];
 }
 
+function copySharedTypesFile() {
+	copyFile(`src/scripts/predictions/analysis/types/shared.ts`, {
+		outputFolderPath: "../website/diegofrayo-frontend/src/modules/pages/apps/pages/BetsPage",
+		outputFileName: "types.ts",
+	});
+}
+
 // --- TYPES ---
 
 type T_AnalysisConfig =
@@ -342,5 +341,6 @@ type T_AnalysisConfig =
 	  }
 	| {
 			config: "LEAGUES_STANDINGS_UPDATE";
-			leagueStandings: Array<Pick<T_League, "id" | "season">>;
+			leagues: Array<number>;
+			enableRemoteAPI: boolean;
 	  };

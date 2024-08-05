@@ -22,8 +22,8 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput): T_Ma
 
 						return {
 							fulfilled: teamPosition >= 1 && teamPosition <= LIMIT,
-							successExplanation: `El local está entre los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
-							failExplanation: `El local está fuera de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
+							successExplanation: `El local está entre los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+							failExplanation: `El local está fuera de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
 						};
 					},
 				},

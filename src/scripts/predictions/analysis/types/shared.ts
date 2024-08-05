@@ -16,24 +16,57 @@ export type T_League = {
 	season: number;
 };
 
-export type T_LeagueStandings = Array<
-	Array<{
+export type T_LeagueStandings = {
+	type: "SIMPLE" | "GROUPS";
+	items: Array<{
 		teamId: number;
 		teamName: string;
 		points: number;
 		stats: {
-			goalsDiff: number;
-			played: number;
-			win: number;
-			draw: number;
-			lose: number;
-			goals: {
-				for: number;
-				against: number;
+			all: {
+				played: number;
+				win: number;
+				draw: number;
+				lose: number;
+				goals: {
+					for: number;
+					against: number;
+					diff: number;
+				};
+			};
+			home: {
+				played: number;
+				win: number;
+				draw: number;
+				lose: number;
+				goals: {
+					for: number;
+					against: number;
+				};
+			};
+			away: {
+				played: number;
+				win: number;
+				draw: number;
+				lose: number;
+				goals: {
+					for: number;
+					against: number;
+				};
+			};
+			averages: {
+				promedio_de_goles_anotados_por_partido: number;
+				promedio_de_goles_anotados_de_local_por_partido: number;
+				promedio_de_goles_anotados_de_visitante_por_partido: number;
 			};
 		};
-	}>
->;
+	}>;
+	stats: {
+		promedio_de_goles_anotados_por_partido: number;
+		promedio_de_goles_anotados_de_local_por_partido: number;
+		promedio_de_goles_anotados_de_visitante_por_partido: number;
+	};
+};
 
 type T_TeamBase = {
 	id: number;

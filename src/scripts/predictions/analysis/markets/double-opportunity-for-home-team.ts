@@ -22,8 +22,8 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput): T_Ma
 
 						return {
 							fulfilled: teamPosition >= 1 && teamPosition <= LIMIT,
-							successExplanation: `El local está entre los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
-							failExplanation: `El local está fuera de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
+							successExplanation: `El local está entre los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+							failExplanation: `El local está fuera de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
 						};
 					},
 				},
@@ -36,8 +36,8 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput): T_Ma
 
 						return {
 							fulfilled: teamPosition > LIMIT,
-							successExplanation: `El visitante está mas abajo de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
-							failExplanation: `El visitante está dentro de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings[0].length})`,
+							successExplanation: `El visitante está mas abajo de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+							failExplanation: `El visitante está dentro de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
 						};
 					},
 				},

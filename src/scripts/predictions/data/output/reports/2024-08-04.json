@@ -6,19 +6,40 @@
 		"country": "Norway",
 		"priority": 1,
 		"flag": "🇳🇴",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 327,
 					"teamName": "Bodo/Glimt",
 					"points": 40,
 					"stats": {
-						"goalsDiff": 25,
-						"played": 18,
-						"win": 12,
-						"draw": 4,
-						"lose": 2,
-						"goals": { "for": 41, "against": 16 }
+						"all": {
+							"played": 18,
+							"win": 12,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 41, "against": 16, "diff": 25 }
+						},
+						"home": {
+							"played": null,
+							"win": null,
+							"draw": null,
+							"lose": null,
+							"goals": { "for": null, "against": null }
+						},
+						"away": {
+							"played": null,
+							"win": null,
+							"draw": null,
+							"lose": null,
+							"goals": { "for": null, "against": null }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -26,12 +47,32 @@
 					"teamName": "Brann",
 					"points": 33,
 					"stats": {
-						"goalsDiff": 6,
-						"played": 18,
-						"win": 9,
-						"draw": 6,
-						"lose": 3,
-						"goals": { "for": 28, "against": 22 }
+						"all": {
+							"played": 18,
+							"win": 9,
+							"draw": 6,
+							"lose": 3,
+							"goals": { "for": 28, "against": 22, "diff": 6 }
+						},
+						"home": {
+							"played": 9,
+							"win": 6,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 22, "against": 8 }
+						},
+						"away": {
+							"played": 9,
+							"win": 6,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 19, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2.1
+						}
 					}
 				},
 				{
@@ -39,12 +80,32 @@
 					"teamName": "Viking",
 					"points": 32,
 					"stats": {
-						"goalsDiff": 10,
-						"played": 17,
-						"win": 9,
-						"draw": 5,
-						"lose": 3,
-						"goals": { "for": 30, "against": 20 }
+						"all": {
+							"played": 17,
+							"win": 9,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 30, "against": 20, "diff": 10 }
+						},
+						"home": {
+							"played": 9,
+							"win": 6,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 16, "against": 9 }
+						},
+						"away": {
+							"played": 9,
+							"win": 5,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 15, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+						}
 					}
 				},
 				{
@@ -52,12 +113,32 @@
 					"teamName": "Molde",
 					"points": 28,
 					"stats": {
-						"goalsDiff": 12,
-						"played": 17,
-						"win": 8,
-						"draw": 4,
-						"lose": 5,
-						"goals": { "for": 32, "against": 20 }
+						"all": {
+							"played": 17,
+							"win": 8,
+							"draw": 4,
+							"lose": 5,
+							"goals": { "for": 32, "against": 20, "diff": 12 }
+						},
+						"home": {
+							"played": 9,
+							"win": 5,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 12, "against": 8 }
+						},
+						"away": {
+							"played": 9,
+							"win": 5,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 15, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+						}
 					}
 				},
 				{
@@ -65,12 +146,32 @@
 					"teamName": "Fredrikstad",
 					"points": 28,
 					"stats": {
-						"goalsDiff": 8,
-						"played": 17,
-						"win": 7,
-						"draw": 7,
-						"lose": 3,
-						"goals": { "for": 24, "against": 16 }
+						"all": {
+							"played": 17,
+							"win": 7,
+							"draw": 7,
+							"lose": 3,
+							"goals": { "for": 24, "against": 16, "diff": 8 }
+						},
+						"home": {
+							"played": 8,
+							"win": 5,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 11, "against": 9 }
+						},
+						"away": {
+							"played": 9,
+							"win": 4,
+							"draw": 4,
+							"lose": 1,
+							"goals": { "for": 16, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
 					}
 				},
 				{
@@ -78,12 +179,32 @@
 					"teamName": "KFUM Oslo",
 					"points": 23,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 17,
-						"win": 5,
-						"draw": 8,
-						"lose": 4,
-						"goals": { "for": 23, "against": 23 }
+						"all": {
+							"played": 17,
+							"win": 5,
+							"draw": 8,
+							"lose": 4,
+							"goals": { "for": 23, "against": 23, "diff": 0 }
+						},
+						"home": {
+							"played": 8,
+							"win": 4,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 15, "against": 11 }
+						},
+						"away": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 12, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				},
 				{
@@ -91,12 +212,32 @@
 					"teamName": "Kristiansund BK",
 					"points": 21,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 17,
-						"win": 5,
-						"draw": 6,
-						"lose": 6,
-						"goals": { "for": 23, "against": 25 }
+						"all": {
+							"played": 17,
+							"win": 5,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 23, "against": 25, "diff": -2 }
+						},
+						"home": {
+							"played": 9,
+							"win": 4,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 20, "against": 14 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 14, "against": 11 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
 					}
 				},
 				{
@@ -104,12 +245,32 @@
 					"teamName": "Rosenborg",
 					"points": 21,
 					"stats": {
-						"goalsDiff": -6,
-						"played": 16,
-						"win": 6,
-						"draw": 3,
-						"lose": 7,
-						"goals": { "for": 23, "against": 29 }
+						"all": {
+							"played": 16,
+							"win": 6,
+							"draw": 3,
+							"lose": 7,
+							"goals": { "for": 23, "against": 29, "diff": -6 }
+						},
+						"home": {
+							"played": 8,
+							"win": 4,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 15, "against": 14 }
+						},
+						"away": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 14, "against": 11 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
 					}
 				},
 				{
@@ -117,12 +278,32 @@
 					"teamName": "Sarpsborg 08 FF",
 					"points": 21,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 17,
-						"win": 6,
-						"draw": 3,
-						"lose": 8,
-						"goals": { "for": 26, "against": 33 }
+						"all": {
+							"played": 17,
+							"win": 6,
+							"draw": 3,
+							"lose": 8,
+							"goals": { "for": 26, "against": 33, "diff": -7 }
+						},
+						"home": {
+							"played": 8,
+							"win": 2,
+							"draw": 5,
+							"lose": 1,
+							"goals": { "for": 9, "against": 7 }
+						},
+						"away": {
+							"played": 8,
+							"win": 4,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 11, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -130,12 +311,32 @@
 					"teamName": "Lillestrom",
 					"points": 20,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 16,
-						"win": 6,
-						"draw": 2,
-						"lose": 8,
-						"goals": { "for": 21, "against": 28 }
+						"all": {
+							"played": 16,
+							"win": 6,
+							"draw": 2,
+							"lose": 8,
+							"goals": { "for": 21, "against": 28, "diff": -7 }
+						},
+						"home": {
+							"played": 10,
+							"win": 3,
+							"draw": 1,
+							"lose": 6,
+							"goals": { "for": 14, "against": 16 }
+						},
+						"away": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 15, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.9
+						}
 					}
 				},
 				{
@@ -143,12 +344,32 @@
 					"teamName": "Stromsgodset",
 					"points": 19,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 17,
-						"win": 5,
-						"draw": 4,
-						"lose": 8,
-						"goals": { "for": 18, "against": 25 }
+						"all": {
+							"played": 17,
+							"win": 5,
+							"draw": 4,
+							"lose": 8,
+							"goals": { "for": 18, "against": 25, "diff": -7 }
+						},
+						"home": {
+							"played": 9,
+							"win": 3,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 11, "against": 18 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 9, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -156,12 +377,32 @@
 					"teamName": "Ham-Kam",
 					"points": 18,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 17,
-						"win": 4,
-						"draw": 6,
-						"lose": 7,
-						"goals": { "for": 21, "against": 21 }
+						"all": {
+							"played": 17,
+							"win": 4,
+							"draw": 6,
+							"lose": 7,
+							"goals": { "for": 21, "against": 21, "diff": 0 }
+						},
+						"home": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 9, "against": 9 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 12, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				},
 				{
@@ -169,12 +410,32 @@
 					"teamName": "Tromso",
 					"points": 18,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 18,
-						"win": 5,
-						"draw": 3,
-						"lose": 10,
-						"goals": { "for": 18, "against": 25 }
+						"all": {
+							"played": 18,
+							"win": 5,
+							"draw": 3,
+							"lose": 10,
+							"goals": { "for": 18, "against": 25, "diff": -7 }
+						},
+						"home": {
+							"played": 8,
+							"win": 3,
+							"draw": 0,
+							"lose": 5,
+							"goals": { "for": 6, "against": 10 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 4, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -182,12 +443,32 @@
 					"teamName": "Haugesund",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -8,
-						"played": 16,
-						"win": 5,
-						"draw": 2,
-						"lose": 9,
-						"goals": { "for": 18, "against": 26 }
+						"all": {
+							"played": 16,
+							"win": 5,
+							"draw": 2,
+							"lose": 9,
+							"goals": { "for": 18, "against": 26, "diff": -8 }
+						},
+						"home": {
+							"played": 9,
+							"win": 2,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 12, "against": 17 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 6, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -195,12 +476,32 @@
 					"teamName": "ODD Ballklubb",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -12,
-						"played": 17,
-						"win": 4,
-						"draw": 5,
-						"lose": 8,
-						"goals": { "for": 18, "against": 30 }
+						"all": {
+							"played": 17,
+							"win": 4,
+							"draw": 5,
+							"lose": 8,
+							"goals": { "for": 18, "against": 30, "diff": -12 }
+						},
+						"home": {
+							"played": 8,
+							"win": 2,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 10, "against": 18 }
+						},
+						"away": {
+							"played": 9,
+							"win": 1,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 8, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -208,16 +509,41 @@
 					"teamName": "Sandefjord",
 					"points": 16,
 					"stats": {
-						"goalsDiff": -5,
-						"played": 17,
-						"win": 4,
-						"draw": 4,
-						"lose": 9,
-						"goals": { "for": 25, "against": 30 }
+						"all": {
+							"played": 17,
+							"win": 4,
+							"draw": 4,
+							"lose": 9,
+							"goals": { "for": 25, "against": 30, "diff": -5 }
+						},
+						"home": {
+							"played": 8,
+							"win": 1,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 7, "against": 10 }
+						},
+						"away": {
+							"played": 8,
+							"win": 1,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 12, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.4,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+			}
+		},
 		"matches": [
 			{
 				"id": "1164448",
@@ -7642,19 +7968,40 @@
 		"country": "Argentina",
 		"priority": 2,
 		"flag": "🇦🇷",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 445,
 					"teamName": "Huracan",
 					"points": 18,
 					"stats": {
-						"goalsDiff": 7,
-						"played": 8,
-						"win": 5,
-						"draw": 3,
-						"lose": 0,
-						"goals": { "for": 10, "against": 3 }
+						"all": {
+							"played": 8,
+							"win": 5,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 10, "against": 3, "diff": 7 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -7662,12 +8009,32 @@
 					"teamName": "Union Santa Fe",
 					"points": 17,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 8,
-						"win": 5,
-						"draw": 2,
-						"lose": 1,
-						"goals": { "for": 9, "against": 4 }
+						"all": {
+							"played": 8,
+							"win": 5,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 9, "against": 4, "diff": 5 }
+						},
+						"home": {
+							"played": 4,
+							"win": 4,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 6, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -7675,12 +8042,32 @@
 					"teamName": "Racing Club",
 					"points": 16,
 					"stats": {
-						"goalsDiff": 9,
-						"played": 8,
-						"win": 5,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 17, "against": 8 }
+						"all": {
+							"played": 8,
+							"win": 5,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 17, "against": 8, "diff": 9 }
+						},
+						"home": {
+							"played": 4,
+							"win": 4,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 9, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 8, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -7688,12 +8075,32 @@
 					"teamName": "Talleres Cordoba",
 					"points": 15,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 8,
-						"win": 4,
-						"draw": 3,
-						"lose": 1,
-						"goals": { "for": 13, "against": 9 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 13, "against": 9, "diff": 4 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 5,
+							"win": 2,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 8, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
 					}
 				},
 				{
@@ -7701,12 +8108,32 @@
 					"teamName": "Velez Sarsfield",
 					"points": 14,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 8,
-						"win": 4,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 11, "against": 6 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 11, "against": 6, "diff": 5 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 1 }
+						},
+						"away": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 6, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
 					}
 				},
 				{
@@ -7714,12 +8141,32 @@
 					"teamName": "Instituto Cordoba",
 					"points": 14,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 8,
-						"win": 4,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 10, "against": 6 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 10, "against": 6, "diff": 4 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 6, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 2,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -7727,12 +8174,32 @@
 					"teamName": "Independ. Rivadavia",
 					"points": 14,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 8,
-						"win": 4,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 5, "against": 2 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 5, "against": 2, "diff": 3 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -7740,12 +8207,32 @@
 					"teamName": "Belgrano Cordoba",
 					"points": 14,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 8,
-						"win": 4,
-						"draw": 2,
-						"lose": 2,
-						"goals": { "for": 13, "against": 13 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 13, "against": 13, "diff": 0 }
+						},
+						"home": {
+							"played": 5,
+							"win": 4,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 10, "against": 6 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 3, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -7753,12 +8240,32 @@
 					"teamName": "River Plate",
 					"points": 13,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 8,
-						"win": 4,
-						"draw": 1,
-						"lose": 3,
-						"goals": { "for": 13, "against": 8 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 13, "against": 8, "diff": 5 }
+						},
+						"home": {
+							"played": 5,
+							"win": 4,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 12, "against": 3 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 1, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
 					}
 				},
 				{
@@ -7766,12 +8273,32 @@
 					"teamName": "Atletico Tucuman",
 					"points": 13,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 8,
-						"win": 3,
-						"draw": 4,
-						"lose": 1,
-						"goals": { "for": 8, "against": 6 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 4,
+							"lose": 1,
+							"goals": { "for": 8, "against": 6, "diff": 2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 4, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -7779,12 +8306,32 @@
 					"teamName": "Boca Juniors",
 					"points": 12,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 8,
-						"win": 3,
-						"draw": 3,
-						"lose": 2,
-						"goals": { "for": 10, "against": 6 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 10, "against": 6, "diff": 4 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 5,
+							"win": 1,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 6, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
 					}
 				},
 				{
@@ -7792,12 +8339,32 @@
 					"teamName": "Estudiantes L.P.",
 					"points": 12,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 8,
-						"win": 3,
-						"draw": 3,
-						"lose": 2,
-						"goals": { "for": 9, "against": 6 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 9, "against": 6, "diff": 3 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 7, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -7805,12 +8372,32 @@
 					"teamName": "Lanus",
 					"points": 12,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 8,
-						"win": 3,
-						"draw": 3,
-						"lose": 2,
-						"goals": { "for": 11, "against": 11 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 11, "against": 11, "diff": 0 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 7, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 4, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -7818,12 +8405,32 @@
 					"teamName": "Argentinos JRS",
 					"points": 12,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 8,
-						"win": 4,
-						"draw": 0,
-						"lose": 4,
-						"goals": { "for": 8, "against": 11 }
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 8, "against": 11, "diff": -3 }
+						},
+						"home": {
+							"played": 5,
+							"win": 4,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 8, "against": 5 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 0, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -7831,12 +8438,32 @@
 					"teamName": "Platense",
 					"points": 11,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 8,
-						"win": 3,
-						"draw": 2,
-						"lose": 3,
-						"goals": { "for": 8, "against": 8 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 8, "against": 8, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 7, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -7844,12 +8471,32 @@
 					"teamName": "Newells Old Boys",
 					"points": 11,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 8,
-						"win": 3,
-						"draw": 2,
-						"lose": 3,
-						"goals": { "for": 5, "against": 6 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 5, "against": 6, "diff": -1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -7857,12 +8504,32 @@
 					"teamName": "Gimnasia L.P.",
 					"points": 10,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 8,
-						"win": 3,
-						"draw": 1,
-						"lose": 4,
-						"goals": { "for": 11, "against": 11 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 11, "against": 11, "diff": 0 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 8, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 3, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -7870,12 +8537,32 @@
 					"teamName": "Sarmiento Junin",
 					"points": 10,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 8,
-						"win": 3,
-						"draw": 1,
-						"lose": 4,
-						"goals": { "for": 8, "against": 9 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 8, "against": 9, "diff": -1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -7883,12 +8570,32 @@
 					"teamName": "Rosario Central",
 					"points": 9,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 8,
-						"win": 2,
-						"draw": 3,
-						"lose": 3,
-						"goals": { "for": 11, "against": 10 }
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 11, "against": 10, "diff": 1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 6, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 5, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -7896,12 +8603,32 @@
 					"teamName": "Deportivo Riestra",
 					"points": 9,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 8,
-						"win": 3,
-						"draw": 0,
-						"lose": 5,
-						"goals": { "for": 7, "against": 9 }
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 0,
+							"lose": 5,
+							"goals": { "for": 7, "against": 9, "diff": -2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 2, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -7909,12 +8636,32 @@
 					"teamName": "Tigre",
 					"points": 9,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 8,
-						"win": 2,
-						"draw": 3,
-						"lose": 3,
-						"goals": { "for": 8, "against": 12 }
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 8, "against": 12, "diff": -4 }
+						},
+						"home": {
+							"played": 5,
+							"win": 1,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 4, "against": 8 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -7922,12 +8669,32 @@
 					"teamName": "Independiente",
 					"points": 7,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 8,
-						"win": 1,
-						"draw": 4,
-						"lose": 3,
-						"goals": { "for": 5, "against": 9 }
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 5, "against": 9, "diff": -4 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 4, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 1, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
 					}
 				},
 				{
@@ -7935,12 +8702,32 @@
 					"teamName": "San Lorenzo",
 					"points": 6,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 7,
-						"win": 1,
-						"draw": 3,
-						"lose": 3,
-						"goals": { "for": 5, "against": 7 }
+						"all": {
+							"played": 7,
+							"win": 1,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 5, "against": 7, "diff": -2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 3, "against": 4 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
 					}
 				},
 				{
@@ -7948,12 +8735,32 @@
 					"teamName": "Banfield",
 					"points": 6,
 					"stats": {
-						"goalsDiff": -6,
-						"played": 8,
-						"win": 1,
-						"draw": 3,
-						"lose": 4,
-						"goals": { "for": 6, "against": 12 }
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 6, "against": 12, "diff": -6 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 5, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 1, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
 					}
 				},
 				{
@@ -7961,12 +8768,32 @@
 					"teamName": "Defensa Y Justicia",
 					"points": 5,
 					"stats": {
-						"goalsDiff": -5,
-						"played": 8,
-						"win": 0,
-						"draw": 5,
-						"lose": 3,
-						"goals": { "for": 7, "against": 12 }
+						"all": {
+							"played": 8,
+							"win": 0,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 7, "against": 12, "diff": -5 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 4, "against": 6 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 3, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -7974,12 +8801,32 @@
 					"teamName": "Barracas Central",
 					"points": 5,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 8,
-						"win": 1,
-						"draw": 2,
-						"lose": 5,
-						"goals": { "for": 3, "against": 10 }
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 3, "against": 10, "diff": -7 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 1, "against": 6 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -7987,12 +8834,32 @@
 					"teamName": "Godoy Cruz",
 					"points": 3,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 7,
-						"win": 1,
-						"draw": 3,
-						"lose": 3,
-						"goals": { "for": 4, "against": 8 }
+						"all": {
+							"played": 7,
+							"win": 1,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 4, "against": 8, "diff": -4 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 1, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
 					}
 				},
 				{
@@ -8000,24 +8867,49 @@
 					"teamName": "Central Cordoba de Santiago",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -13,
-						"played": 8,
-						"win": 0,
-						"draw": 1,
-						"lose": 7,
-						"goals": { "for": 7, "against": 20 }
+						"all": {
+							"played": 8,
+							"win": 0,
+							"draw": 1,
+							"lose": 7,
+							"goals": { "for": 7, "against": 20, "diff": -13 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 4, "against": 12 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 3, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.1,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+			}
+		},
 		"matches": [
 			{
 				"id": "1158775",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-04T13:00",
 				"date": "2024-08-04",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 474,
@@ -8025,6 +8917,8 @@
 						"country": "🇦🇷",
 						"position": 18,
 						"featured": false,
+						"score": 0,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -8633,6 +9527,8 @@
 						"country": "🇦🇷",
 						"position": 8,
 						"featured": false,
+						"score": 0,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9251,7 +10147,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gol-equipo-local",
@@ -9277,7 +10179,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "tiempo-reglamentario-local",
@@ -9308,7 +10216,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -9324,11 +10238,11 @@
 			},
 			{
 				"id": "1158776",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-04T13:00",
 				"date": "2024-08-04",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 441,
@@ -9336,6 +10250,8 @@
 						"country": "🇦🇷",
 						"position": 2,
 						"featured": true,
+						"score": 0,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -9940,6 +10856,8 @@
 						"country": "🇦🇷",
 						"position": 9,
 						"featured": true,
+						"score": 0,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -10540,7 +11458,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": true,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "doble-oportunidad-local",
@@ -10576,7 +11500,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tiempo-reglamentario-local",
@@ -10607,7 +11537,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -10623,11 +11559,11 @@
 			},
 			{
 				"id": "1158782",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-04T15:30",
 				"date": "2024-08-04",
 				"hour": "15:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 451,
@@ -10635,6 +11571,8 @@
 						"country": "🇦🇷",
 						"position": 11,
 						"featured": true,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -11219,6 +12157,8 @@
 						"country": "🇦🇷",
 						"position": 26,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -11839,7 +12779,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "doble-oportunidad-local",
@@ -11875,7 +12821,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tiempo-reglamentario-local",
@@ -11906,7 +12858,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -11922,11 +12880,11 @@
 			},
 			{
 				"id": "1158773",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-04T18:00",
 				"date": "2024-08-04",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 446,
@@ -11934,6 +12892,8 @@
 						"country": "🇦🇷",
 						"position": 13,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -12522,6 +13482,8 @@
 						"country": "🇦🇷",
 						"position": 21,
 						"featured": false,
+						"score": 2,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -13146,7 +14108,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "doble-oportunidad-local",
@@ -13182,7 +14150,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tiempo-reglamentario-local",
@@ -13213,7 +14187,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -13229,11 +14209,11 @@
 			},
 			{
 				"id": "1158781",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-04T18:00",
 				"date": "2024-08-04",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 455,
@@ -13241,6 +14221,8 @@
 						"country": "🇦🇷",
 						"position": 10,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -13841,6 +14823,8 @@
 						"country": "🇦🇷",
 						"position": 7,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -14467,7 +15451,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gol-equipo-local",
@@ -14493,7 +15483,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tiempo-reglamentario-local",
@@ -14524,7 +15520,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -14547,19 +15549,40 @@
 		"country": "Egypt",
 		"priority": 1,
 		"flag": "🇪🇬",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 1577,
 					"teamName": "Al Ahly",
 					"points": 75,
 					"stats": {
-						"goalsDiff": 42,
-						"played": 29,
-						"win": 24,
-						"draw": 3,
-						"lose": 2,
-						"goals": { "for": 66, "against": 24 }
+						"all": {
+							"played": 29,
+							"win": 24,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 66, "against": 24, "diff": 42 }
+						},
+						"home": {
+							"played": 14,
+							"win": 12,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 39, "against": 10 }
+						},
+						"away": {
+							"played": 15,
+							"win": 12,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 27, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
 					}
 				},
 				{
@@ -14567,12 +15590,32 @@
 					"teamName": "Pyramids FC",
 					"points": 70,
 					"stats": {
-						"goalsDiff": 30,
-						"played": 31,
-						"win": 21,
-						"draw": 7,
-						"lose": 3,
-						"goals": { "for": 54, "against": 24 }
+						"all": {
+							"played": 31,
+							"win": 21,
+							"draw": 7,
+							"lose": 3,
+							"goals": { "for": 54, "against": 24, "diff": 30 }
+						},
+						"home": {
+							"played": 15,
+							"win": 10,
+							"draw": 4,
+							"lose": 1,
+							"goals": { "for": 26, "against": 14 }
+						},
+						"away": {
+							"played": 16,
+							"win": 11,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 28, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
 					}
 				},
 				{
@@ -14580,12 +15623,32 @@
 					"teamName": "AL Masry",
 					"points": 52,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 32,
-						"win": 15,
-						"draw": 7,
-						"lose": 10,
-						"goals": { "for": 39, "against": 38 }
+						"all": {
+							"played": 32,
+							"win": 15,
+							"draw": 7,
+							"lose": 10,
+							"goals": { "for": 39, "against": 38, "diff": 1 }
+						},
+						"home": {
+							"played": 16,
+							"win": 7,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 16, "against": 16 }
+						},
+						"away": {
+							"played": 16,
+							"win": 8,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 23, "against": 22 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -14593,12 +15656,32 @@
 					"teamName": "Future FC",
 					"points": 50,
 					"stats": {
-						"goalsDiff": 11,
-						"played": 32,
-						"win": 13,
-						"draw": 11,
-						"lose": 8,
-						"goals": { "for": 37, "against": 26 }
+						"all": {
+							"played": 32,
+							"win": 13,
+							"draw": 11,
+							"lose": 8,
+							"goals": { "for": 37, "against": 26, "diff": 11 }
+						},
+						"home": {
+							"played": 16,
+							"win": 5,
+							"draw": 6,
+							"lose": 5,
+							"goals": { "for": 16, "against": 13 }
+						},
+						"away": {
+							"played": 16,
+							"win": 8,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 21, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -14606,12 +15689,32 @@
 					"teamName": "Zamalek SC",
 					"points": 49,
 					"stats": {
-						"goalsDiff": 15,
-						"played": 30,
-						"win": 15,
-						"draw": 7,
-						"lose": 8,
-						"goals": { "for": 45, "against": 30 }
+						"all": {
+							"played": 30,
+							"win": 15,
+							"draw": 7,
+							"lose": 8,
+							"goals": { "for": 45, "against": 30, "diff": 15 }
+						},
+						"home": {
+							"played": 15,
+							"win": 9,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 26, "against": 12 }
+						},
+						"away": {
+							"played": 15,
+							"win": 6,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 19, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -14619,12 +15722,32 @@
 					"teamName": "Smouha SC",
 					"points": 48,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 31,
-						"win": 13,
-						"draw": 9,
-						"lose": 9,
-						"goals": { "for": 36, "against": 34 }
+						"all": {
+							"played": 31,
+							"win": 13,
+							"draw": 9,
+							"lose": 9,
+							"goals": { "for": 36, "against": 34, "diff": 2 }
+						},
+						"home": {
+							"played": 15,
+							"win": 9,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 23, "against": 13 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 13, "against": 21 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -14632,12 +15755,32 @@
 					"teamName": "Masr",
 					"points": 47,
 					"stats": {
-						"goalsDiff": 15,
-						"played": 29,
-						"win": 12,
-						"draw": 11,
-						"lose": 6,
-						"goals": { "for": 43, "against": 28 }
+						"all": {
+							"played": 29,
+							"win": 12,
+							"draw": 11,
+							"lose": 6,
+							"goals": { "for": 43, "against": 28, "diff": 15 }
+						},
+						"home": {
+							"played": 15,
+							"win": 5,
+							"draw": 6,
+							"lose": 4,
+							"goals": { "for": 22, "against": 16 }
+						},
+						"away": {
+							"played": 14,
+							"win": 7,
+							"draw": 5,
+							"lose": 2,
+							"goals": { "for": 21, "against": 12 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				},
 				{
@@ -14645,12 +15788,32 @@
 					"teamName": "Ceramica Cleopatra",
 					"points": 45,
 					"stats": {
-						"goalsDiff": 10,
-						"played": 32,
-						"win": 12,
-						"draw": 9,
-						"lose": 11,
-						"goals": { "for": 49, "against": 39 }
+						"all": {
+							"played": 32,
+							"win": 12,
+							"draw": 9,
+							"lose": 11,
+							"goals": { "for": 49, "against": 39, "diff": 10 }
+						},
+						"home": {
+							"played": 16,
+							"win": 8,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 27, "against": 13 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 4,
+							"lose": 8,
+							"goals": { "for": 22, "against": 26 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -14658,12 +15821,32 @@
 					"teamName": "Enppi",
 					"points": 43,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 31,
-						"win": 11,
-						"draw": 10,
-						"lose": 10,
-						"goals": { "for": 35, "against": 32 }
+						"all": {
+							"played": 31,
+							"win": 11,
+							"draw": 10,
+							"lose": 10,
+							"goals": { "for": 35, "against": 32, "diff": 3 }
+						},
+						"home": {
+							"played": 16,
+							"win": 6,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 19, "against": 17 }
+						},
+						"away": {
+							"played": 15,
+							"win": 5,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 16, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
 					}
 				},
 				{
@@ -14671,12 +15854,32 @@
 					"teamName": "Al Ittihad",
 					"points": 40,
 					"stats": {
-						"goalsDiff": -10,
-						"played": 32,
-						"win": 9,
-						"draw": 13,
-						"lose": 10,
-						"goals": { "for": 29, "against": 39 }
+						"all": {
+							"played": 32,
+							"win": 9,
+							"draw": 13,
+							"lose": 10,
+							"goals": { "for": 29, "against": 39, "diff": -10 }
+						},
+						"home": {
+							"played": 16,
+							"win": 4,
+							"draw": 8,
+							"lose": 4,
+							"goals": { "for": 15, "against": 19 }
+						},
+						"away": {
+							"played": 16,
+							"win": 5,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 14, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -14684,12 +15887,32 @@
 					"teamName": "El Geish",
 					"points": 39,
 					"stats": {
-						"goalsDiff": -9,
-						"played": 32,
-						"win": 9,
-						"draw": 12,
-						"lose": 11,
-						"goals": { "for": 25, "against": 34 }
+						"all": {
+							"played": 32,
+							"win": 9,
+							"draw": 12,
+							"lose": 11,
+							"goals": { "for": 25, "against": 34, "diff": -9 }
+						},
+						"home": {
+							"played": 16,
+							"win": 5,
+							"draw": 6,
+							"lose": 5,
+							"goals": { "for": 12, "against": 16 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 13, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -14697,12 +15920,32 @@
 					"teamName": "National Bank of Egypt",
 					"points": 34,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 32,
-						"win": 9,
-						"draw": 7,
-						"lose": 16,
-						"goals": { "for": 46, "against": 45 }
+						"all": {
+							"played": 32,
+							"win": 9,
+							"draw": 7,
+							"lose": 16,
+							"goals": { "for": 46, "against": 45, "diff": 1 }
+						},
+						"home": {
+							"played": 16,
+							"win": 5,
+							"draw": 3,
+							"lose": 8,
+							"goals": { "for": 27, "against": 26 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 4,
+							"lose": 8,
+							"goals": { "for": 19, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
 					}
 				},
 				{
@@ -14710,12 +15953,32 @@
 					"teamName": "El Gouna FC",
 					"points": 33,
 					"stats": {
-						"goalsDiff": -14,
-						"played": 32,
-						"win": 7,
-						"draw": 12,
-						"lose": 13,
-						"goals": { "for": 29, "against": 43 }
+						"all": {
+							"played": 32,
+							"win": 7,
+							"draw": 12,
+							"lose": 13,
+							"goals": { "for": 29, "against": 43, "diff": -14 }
+						},
+						"home": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 15, "against": 20 }
+						},
+						"away": {
+							"played": 16,
+							"win": 3,
+							"draw": 6,
+							"lose": 7,
+							"goals": { "for": 14, "against": 23 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -14723,12 +15986,32 @@
 					"teamName": "Ismaily SC",
 					"points": 32,
 					"stats": {
-						"goalsDiff": -8,
-						"played": 32,
-						"win": 7,
-						"draw": 11,
-						"lose": 14,
-						"goals": { "for": 32, "against": 40 }
+						"all": {
+							"played": 32,
+							"win": 7,
+							"draw": 11,
+							"lose": 14,
+							"goals": { "for": 32, "against": 40, "diff": -8 }
+						},
+						"home": {
+							"played": 16,
+							"win": 5,
+							"draw": 4,
+							"lose": 7,
+							"goals": { "for": 18, "against": 20 }
+						},
+						"away": {
+							"played": 16,
+							"win": 2,
+							"draw": 7,
+							"lose": 7,
+							"goals": { "for": 14, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -14736,12 +16019,32 @@
 					"teamName": "Pharco",
 					"points": 31,
 					"stats": {
-						"goalsDiff": -11,
-						"played": 32,
-						"win": 6,
-						"draw": 13,
-						"lose": 13,
-						"goals": { "for": 32, "against": 43 }
+						"all": {
+							"played": 32,
+							"win": 6,
+							"draw": 13,
+							"lose": 13,
+							"goals": { "for": 32, "against": 43, "diff": -11 }
+						},
+						"home": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 17, "against": 20 }
+						},
+						"away": {
+							"played": 16,
+							"win": 2,
+							"draw": 7,
+							"lose": 7,
+							"goals": { "for": 15, "against": 23 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -14749,12 +16052,32 @@
 					"teamName": "Baladiyyat Al Mehalla",
 					"points": 27,
 					"stats": {
-						"goalsDiff": -33,
-						"played": 32,
-						"win": 7,
-						"draw": 6,
-						"lose": 19,
-						"goals": { "for": 28, "against": 61 }
+						"all": {
+							"played": 32,
+							"win": 7,
+							"draw": 6,
+							"lose": 19,
+							"goals": { "for": 28, "against": 61, "diff": -33 }
+						},
+						"home": {
+							"played": 16,
+							"win": 5,
+							"draw": 2,
+							"lose": 9,
+							"goals": { "for": 18, "against": 27 }
+						},
+						"away": {
+							"played": 16,
+							"win": 2,
+							"draw": 4,
+							"lose": 10,
+							"goals": { "for": 10, "against": 34 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+						}
 					}
 				},
 				{
@@ -14762,12 +16085,32 @@
 					"teamName": "El Mokawloon",
 					"points": 25,
 					"stats": {
-						"goalsDiff": -20,
-						"played": 31,
-						"win": 5,
-						"draw": 10,
-						"lose": 16,
-						"goals": { "for": 31, "against": 51 }
+						"all": {
+							"played": 31,
+							"win": 5,
+							"draw": 10,
+							"lose": 16,
+							"goals": { "for": 31, "against": 51, "diff": -20 }
+						},
+						"home": {
+							"played": 16,
+							"win": 2,
+							"draw": 5,
+							"lose": 9,
+							"goals": { "for": 14, "against": 24 }
+						},
+						"away": {
+							"played": 15,
+							"win": 3,
+							"draw": 5,
+							"lose": 7,
+							"goals": { "for": 17, "against": 27 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
 					}
 				},
 				{
@@ -14775,16 +16118,41 @@
 					"teamName": "El Dakhleya",
 					"points": 19,
 					"stats": {
-						"goalsDiff": -25,
-						"played": 32,
-						"win": 3,
-						"draw": 10,
-						"lose": 19,
-						"goals": { "for": 17, "against": 42 }
+						"all": {
+							"played": 32,
+							"win": 3,
+							"draw": 10,
+							"lose": 19,
+							"goals": { "for": 17, "against": 42, "diff": -25 }
+						},
+						"home": {
+							"played": 16,
+							"win": 3,
+							"draw": 6,
+							"lose": 7,
+							"goals": { "for": 11, "against": 16 }
+						},
+						"away": {
+							"played": 16,
+							"win": 0,
+							"draw": 4,
+							"lose": 12,
+							"goals": { "for": 6, "against": 26 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.4
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.2,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+			}
+		},
 		"matches": [
 			{
 				"id": "1176847",
@@ -17261,19 +18629,40 @@
 		"country": "Colombia",
 		"priority": 2,
 		"flag": "🇨🇴",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 1136,
 					"teamName": "Once Caldas",
 					"points": 9,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 3,
-						"win": 3,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 4, "against": 0 }
+						"all": {
+							"played": 3,
+							"win": 3,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0, "diff": 4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17281,12 +18670,32 @@
 					"teamName": "La Equidad",
 					"points": 9,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 4,
-						"win": 3,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 4, "against": 2 }
+						"all": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 2, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17294,12 +18703,32 @@
 					"teamName": "Atletico Nacional",
 					"points": 9,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 5,
-						"win": 3,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 6, "against": 5 }
+						"all": {
+							"played": 5,
+							"win": 3,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 6, "against": 5, "diff": 1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -17307,12 +18736,32 @@
 					"teamName": "Fortaleza FC",
 					"points": 7,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 3,
-						"win": 2,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 5, "against": 2 }
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2, "diff": 3 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -17320,12 +18769,32 @@
 					"teamName": "Millonarios",
 					"points": 7,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 5,
-						"win": 2,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 5, "against": 5 }
+						"all": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 5, "against": 5, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17333,12 +18802,32 @@
 					"teamName": "America de Cali",
 					"points": 6,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 3,
-						"win": 2,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 7, "against": 3 }
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 7, "against": 3, "diff": 4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				},
 				{
@@ -17346,12 +18835,32 @@
 					"teamName": "Santa Fe",
 					"points": 6,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 3,
-						"win": 2,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 3, "against": 2 }
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2, "diff": 1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17359,12 +18868,32 @@
 					"teamName": "Independiente Medellin",
 					"points": 6,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 4,
-						"win": 1,
-						"draw": 3,
-						"lose": 0,
-						"goals": { "for": 3, "against": 2 }
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2, "diff": 1 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17372,12 +18901,32 @@
 					"teamName": "Deportivo Pereira",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 3, "against": 3 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17385,12 +18934,32 @@
 					"teamName": "Deportes Tolima",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 3, "against": 3 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -17398,12 +18967,32 @@
 					"teamName": "Junior",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -17411,12 +19000,32 @@
 					"teamName": "Bucaramanga",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 1, "against": 1 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 1, "diff": 0 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -17424,12 +19033,32 @@
 					"teamName": "Deportivo Pasto",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 4, "against": 4 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17437,12 +19066,32 @@
 					"teamName": "Rionegro Aguilas",
 					"points": 3,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 4, "against": 5 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 5, "diff": -1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -17450,12 +19099,32 @@
 					"teamName": "Deportivo Cali",
 					"points": 3,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 2, "against": 4 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4, "diff": -2 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17463,12 +19132,32 @@
 					"teamName": "Alianza Petrolera",
 					"points": 3,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 2, "against": 4 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4, "diff": -2 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -17476,12 +19165,32 @@
 					"teamName": "Envigado",
 					"points": 3,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 3,
-						"win": 1,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 2, "against": 6 }
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 6, "diff": -4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -17489,12 +19198,32 @@
 					"teamName": "Jaguares",
 					"points": 2,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 3,
-						"win": 0,
-						"draw": 2,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1, "diff": -1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -17502,12 +19231,32 @@
 					"teamName": "Patriotas",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 3,
-						"win": 0,
-						"draw": 1,
-						"lose": 2,
-						"goals": { "for": 2, "against": 5 }
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 5, "diff": -3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -17515,16 +19264,41 @@
 					"teamName": "Chico",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 3,
-						"win": 0,
-						"draw": 0,
-						"lose": 3,
-						"goals": { "for": 1, "against": 4 }
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 1, "against": 4, "diff": -3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 0.9,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+			}
+		},
 		"matches": [
 			{
 				"id": "1234178",
@@ -21168,19 +22942,40 @@
 		"country": "Finland",
 		"priority": 1,
 		"flag": "🇫🇮",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 1165,
 					"teamName": "KuPS",
 					"points": 37,
 					"stats": {
-						"goalsDiff": 14,
-						"played": 18,
-						"win": 11,
-						"draw": 4,
-						"lose": 3,
-						"goals": { "for": 32, "against": 18 }
+						"all": {
+							"played": 18,
+							"win": 11,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 32, "against": 18, "diff": 14 }
+						},
+						"home": {
+							"played": 8,
+							"win": 7,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 19, "against": 7 }
+						},
+						"away": {
+							"played": 10,
+							"win": 4,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 13, "against": 11 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -21188,12 +22983,32 @@
 					"teamName": "HJK helsinki",
 					"points": 34,
 					"stats": {
-						"goalsDiff": 14,
-						"played": 19,
-						"win": 10,
-						"draw": 4,
-						"lose": 5,
-						"goals": { "for": 34, "against": 20 }
+						"all": {
+							"played": 19,
+							"win": 10,
+							"draw": 4,
+							"lose": 5,
+							"goals": { "for": 34, "against": 20, "diff": 14 }
+						},
+						"home": {
+							"played": 10,
+							"win": 7,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 21, "against": 6 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 13, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -21201,12 +23016,32 @@
 					"teamName": "SJK",
 					"points": 32,
 					"stats": {
-						"goalsDiff": 9,
-						"played": 18,
-						"win": 9,
-						"draw": 5,
-						"lose": 4,
-						"goals": { "for": 36, "against": 27 }
+						"all": {
+							"played": 18,
+							"win": 9,
+							"draw": 5,
+							"lose": 4,
+							"goals": { "for": 36, "against": 27, "diff": 9 }
+						},
+						"home": {
+							"played": 9,
+							"win": 5,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 20, "against": 15 }
+						},
+						"away": {
+							"played": 9,
+							"win": 4,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 16, "against": 12 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
 					}
 				},
 				{
@@ -21214,12 +23049,32 @@
 					"teamName": "Ilves Tampere",
 					"points": 32,
 					"stats": {
-						"goalsDiff": 14,
-						"played": 18,
-						"win": 9,
-						"draw": 5,
-						"lose": 4,
-						"goals": { "for": 37, "against": 23 }
+						"all": {
+							"played": 18,
+							"win": 9,
+							"draw": 5,
+							"lose": 4,
+							"goals": { "for": 37, "against": 23, "diff": 14 }
+						},
+						"home": {
+							"played": 9,
+							"win": 5,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 24, "against": 14 }
+						},
+						"away": {
+							"played": 9,
+							"win": 4,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 13, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -21227,12 +23082,32 @@
 					"teamName": "haka",
 					"points": 30,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 18,
-						"win": 9,
-						"draw": 3,
-						"lose": 6,
-						"goals": { "for": 29, "against": 26 }
+						"all": {
+							"played": 18,
+							"win": 9,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 29, "against": 26, "diff": 3 }
+						},
+						"home": {
+							"played": 9,
+							"win": 5,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 17, "against": 12 }
+						},
+						"away": {
+							"played": 9,
+							"win": 4,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 12, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -21240,12 +23115,32 @@
 					"teamName": "vaasa PS",
 					"points": 28,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 18,
-						"win": 8,
-						"draw": 4,
-						"lose": 6,
-						"goals": { "for": 29, "against": 28 }
+						"all": {
+							"played": 18,
+							"win": 8,
+							"draw": 4,
+							"lose": 6,
+							"goals": { "for": 29, "against": 28, "diff": 1 }
+						},
+						"home": {
+							"played": 9,
+							"win": 4,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 17, "against": 13 }
+						},
+						"away": {
+							"played": 9,
+							"win": 4,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 12, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -21253,12 +23148,32 @@
 					"teamName": "Inter Turku",
 					"points": 25,
 					"stats": {
-						"goalsDiff": 7,
-						"played": 18,
-						"win": 7,
-						"draw": 4,
-						"lose": 7,
-						"goals": { "for": 33, "against": 26 }
+						"all": {
+							"played": 18,
+							"win": 7,
+							"draw": 4,
+							"lose": 7,
+							"goals": { "for": 33, "against": 26, "diff": 7 }
+						},
+						"home": {
+							"played": 10,
+							"win": 5,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 20, "against": 12 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 13, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
 					}
 				},
 				{
@@ -21266,12 +23181,32 @@
 					"teamName": "IF Gnistan",
 					"points": 20,
 					"stats": {
-						"goalsDiff": -6,
-						"played": 18,
-						"win": 5,
-						"draw": 5,
-						"lose": 8,
-						"goals": { "for": 26, "against": 32 }
+						"all": {
+							"played": 18,
+							"win": 5,
+							"draw": 5,
+							"lose": 8,
+							"goals": { "for": 26, "against": 32, "diff": -6 }
+						},
+						"home": {
+							"played": 8,
+							"win": 3,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 8, "against": 12 }
+						},
+						"away": {
+							"played": 10,
+							"win": 2,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 18, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
 					}
 				},
 				{
@@ -21279,12 +23214,32 @@
 					"teamName": "AC oulu",
 					"points": 18,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 18,
-						"win": 4,
-						"draw": 6,
-						"lose": 8,
-						"goals": { "for": 24, "against": 31 }
+						"all": {
+							"played": 18,
+							"win": 4,
+							"draw": 6,
+							"lose": 8,
+							"goals": { "for": 24, "against": 31, "diff": -7 }
+						},
+						"home": {
+							"played": 9,
+							"win": 3,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 10, "against": 9 }
+						},
+						"away": {
+							"played": 9,
+							"win": 1,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 14, "against": 22 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
 					}
 				},
 				{
@@ -21292,12 +23247,32 @@
 					"teamName": "IFK Mariehamn",
 					"points": 16,
 					"stats": {
-						"goalsDiff": -13,
-						"played": 17,
-						"win": 4,
-						"draw": 4,
-						"lose": 9,
-						"goals": { "for": 17, "against": 30 }
+						"all": {
+							"played": 17,
+							"win": 4,
+							"draw": 4,
+							"lose": 9,
+							"goals": { "for": 17, "against": 30, "diff": -13 }
+						},
+						"home": {
+							"played": 9,
+							"win": 2,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 10, "against": 16 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 7, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -21305,12 +23280,32 @@
 					"teamName": "FC Lahti",
 					"points": 13,
 					"stats": {
-						"goalsDiff": -16,
-						"played": 18,
-						"win": 2,
-						"draw": 7,
-						"lose": 9,
-						"goals": { "for": 21, "against": 37 }
+						"all": {
+							"played": 18,
+							"win": 2,
+							"draw": 7,
+							"lose": 9,
+							"goals": { "for": 21, "against": 37, "diff": -16 }
+						},
+						"home": {
+							"played": 9,
+							"win": 2,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 12, "against": 16 }
+						},
+						"away": {
+							"played": 9,
+							"win": 0,
+							"draw": 4,
+							"lose": 5,
+							"goals": { "for": 9, "against": 21 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -21318,16 +23313,41 @@
 					"teamName": "EIF",
 					"points": 12,
 					"stats": {
-						"goalsDiff": -20,
-						"played": 18,
-						"win": 3,
-						"draw": 3,
-						"lose": 12,
-						"goals": { "for": 18, "against": 38 }
+						"all": {
+							"played": 18,
+							"win": 3,
+							"draw": 3,
+							"lose": 12,
+							"goals": { "for": 18, "against": 38, "diff": -20 }
+						},
+						"home": {
+							"played": 9,
+							"win": 1,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 7, "against": 19 }
+						},
+						"away": {
+							"played": 9,
+							"win": 2,
+							"draw": 1,
+							"lose": 6,
+							"goals": { "for": 11, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.5,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+			}
+		},
 		"matches": [
 			{
 				"id": "1164664",
@@ -26302,19 +28322,40 @@
 		"country": "Brazil",
 		"priority": 2,
 		"flag": "🇧🇷",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 127,
 					"teamName": "Flamengo",
 					"points": 40,
 					"stats": {
-						"goalsDiff": 15,
-						"played": 19,
-						"win": 12,
-						"draw": 4,
-						"lose": 3,
-						"goals": { "for": 34, "against": 19 }
+						"all": {
+							"played": 19,
+							"win": 12,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 34, "against": 19, "diff": 15 }
+						},
+						"home": {
+							"played": 10,
+							"win": 7,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 16, "against": 10 }
+						},
+						"away": {
+							"played": 9,
+							"win": 5,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 18, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -26322,12 +28363,32 @@
 					"teamName": "Botafogo",
 					"points": 40,
 					"stats": {
-						"goalsDiff": 12,
-						"played": 20,
-						"win": 12,
-						"draw": 4,
-						"lose": 4,
-						"goals": { "for": 31, "against": 19 }
+						"all": {
+							"played": 20,
+							"win": 12,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 31, "against": 19, "diff": 12 }
+						},
+						"home": {
+							"played": 10,
+							"win": 7,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 16, "against": 8 }
+						},
+						"away": {
+							"played": 10,
+							"win": 5,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 15, "against": 11 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				},
 				{
@@ -26335,12 +28396,32 @@
 					"teamName": "Palmeiras",
 					"points": 36,
 					"stats": {
-						"goalsDiff": 11,
-						"played": 20,
-						"win": 11,
-						"draw": 3,
-						"lose": 6,
-						"goals": { "for": 27, "against": 16 }
+						"all": {
+							"played": 20,
+							"win": 11,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 27, "against": 16, "diff": 11 }
+						},
+						"home": {
+							"played": 11,
+							"win": 7,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 16, "against": 8 }
+						},
+						"away": {
+							"played": 9,
+							"win": 4,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 11, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
 					}
 				},
 				{
@@ -26348,12 +28429,32 @@
 					"teamName": "Fortaleza EC",
 					"points": 36,
 					"stats": {
-						"goalsDiff": 6,
-						"played": 19,
-						"win": 10,
-						"draw": 6,
-						"lose": 3,
-						"goals": { "for": 24, "against": 18 }
+						"all": {
+							"played": 19,
+							"win": 10,
+							"draw": 6,
+							"lose": 3,
+							"goals": { "for": 24, "against": 18, "diff": 6 }
+						},
+						"home": {
+							"played": 11,
+							"win": 8,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 18, "against": 6 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 6, "against": 12 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -26361,12 +28462,32 @@
 					"teamName": "Cruzeiro",
 					"points": 35,
 					"stats": {
-						"goalsDiff": 8,
-						"played": 19,
-						"win": 11,
-						"draw": 2,
-						"lose": 6,
-						"goals": { "for": 28, "against": 20 }
+						"all": {
+							"played": 19,
+							"win": 11,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 28, "against": 20, "diff": 8 }
+						},
+						"home": {
+							"played": 8,
+							"win": 8,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 19, "against": 5 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 9, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -26374,12 +28495,32 @@
 					"teamName": "Sao Paulo",
 					"points": 32,
 					"stats": {
-						"goalsDiff": 7,
-						"played": 20,
-						"win": 9,
-						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 28, "against": 21 }
+						"all": {
+							"played": 20,
+							"win": 9,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 28, "against": 21, "diff": 7 }
+						},
+						"home": {
+							"played": 10,
+							"win": 6,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 15, "against": 8 }
+						},
+						"away": {
+							"played": 10,
+							"win": 3,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 13, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
 					}
 				},
 				{
@@ -26387,12 +28528,32 @@
 					"teamName": "Bahia",
 					"points": 32,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 20,
-						"win": 9,
-						"draw": 5,
-						"lose": 6,
-						"goals": { "for": 29, "against": 24 }
+						"all": {
+							"played": 20,
+							"win": 9,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 29, "against": 24, "diff": 5 }
+						},
+						"home": {
+							"played": 10,
+							"win": 7,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 15, "against": 7 }
+						},
+						"away": {
+							"played": 10,
+							"win": 2,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 14, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -26400,12 +28561,32 @@
 					"teamName": "Atletico Paranaense",
 					"points": 28,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 18,
-						"win": 8,
-						"draw": 4,
-						"lose": 6,
-						"goals": { "for": 22, "against": 18 }
+						"all": {
+							"played": 18,
+							"win": 8,
+							"draw": 4,
+							"lose": 6,
+							"goals": { "for": 22, "against": 18, "diff": 4 }
+						},
+						"home": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 13, "against": 8 }
+						},
+						"away": {
+							"played": 10,
+							"win": 4,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 9, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
 					}
 				},
 				{
@@ -26413,12 +28594,32 @@
 					"teamName": "Atletico-MG",
 					"points": 28,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 18,
-						"win": 7,
-						"draw": 7,
-						"lose": 4,
-						"goals": { "for": 27, "against": 26 }
+						"all": {
+							"played": 18,
+							"win": 7,
+							"draw": 7,
+							"lose": 4,
+							"goals": { "for": 27, "against": 26, "diff": 1 }
+						},
+						"home": {
+							"played": 10,
+							"win": 4,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 15, "against": 14 }
+						},
+						"away": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 12, "against": 12 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
 					}
 				},
 				{
@@ -26426,12 +28627,32 @@
 					"teamName": "RB Bragantino",
 					"points": 25,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 18,
-						"win": 7,
-						"draw": 4,
-						"lose": 7,
-						"goals": { "for": 22, "against": 21 }
+						"all": {
+							"played": 18,
+							"win": 7,
+							"draw": 4,
+							"lose": 7,
+							"goals": { "for": 22, "against": 21, "diff": 1 }
+						},
+						"home": {
+							"played": 9,
+							"win": 6,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 13, "against": 8 }
+						},
+						"away": {
+							"played": 9,
+							"win": 1,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 9, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -26439,12 +28660,32 @@
 					"teamName": "Vasco DA Gama",
 					"points": 23,
 					"stats": {
-						"goalsDiff": -9,
-						"played": 19,
-						"win": 7,
-						"draw": 2,
-						"lose": 10,
-						"goals": { "for": 20, "against": 29 }
+						"all": {
+							"played": 19,
+							"win": 7,
+							"draw": 2,
+							"lose": 10,
+							"goals": { "for": 20, "against": 29, "diff": -9 }
+						},
+						"home": {
+							"played": 9,
+							"win": 5,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 14, "against": 14 }
+						},
+						"away": {
+							"played": 10,
+							"win": 2,
+							"draw": 0,
+							"lose": 8,
+							"goals": { "for": 6, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+						}
 					}
 				},
 				{
@@ -26452,12 +28693,32 @@
 					"teamName": "Criciuma",
 					"points": 21,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 18,
-						"win": 5,
-						"draw": 6,
-						"lose": 7,
-						"goals": { "for": 26, "against": 28 }
+						"all": {
+							"played": 18,
+							"win": 5,
+							"draw": 6,
+							"lose": 7,
+							"goals": { "for": 26, "against": 28, "diff": -2 }
+						},
+						"home": {
+							"played": 9,
+							"win": 2,
+							"draw": 5,
+							"lose": 2,
+							"goals": { "for": 12, "against": 14 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 14, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
 					}
 				},
 				{
@@ -26465,12 +28726,32 @@
 					"teamName": "Juventude",
 					"points": 21,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 18,
-						"win": 5,
-						"draw": 6,
-						"lose": 7,
-						"goals": { "for": 20, "against": 24 }
+						"all": {
+							"played": 18,
+							"win": 5,
+							"draw": 6,
+							"lose": 7,
+							"goals": { "for": 20, "against": 24, "diff": -4 }
+						},
+						"home": {
+							"played": 10,
+							"win": 5,
+							"draw": 4,
+							"lose": 1,
+							"goals": { "for": 14, "against": 6 }
+						},
+						"away": {
+							"played": 8,
+							"win": 0,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 6, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -26478,12 +28759,32 @@
 					"teamName": "Internacional",
 					"points": 20,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 15,
-						"win": 5,
-						"draw": 5,
-						"lose": 5,
-						"goals": { "for": 13, "against": 13 }
+						"all": {
+							"played": 15,
+							"win": 5,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 13, "against": 13, "diff": 0 }
+						},
+						"home": {
+							"played": 6,
+							"win": 2,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 6, "against": 6 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 7, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				},
 				{
@@ -26491,12 +28792,32 @@
 					"teamName": "Corinthians",
 					"points": 19,
 					"stats": {
-						"goalsDiff": -9,
-						"played": 20,
-						"win": 4,
-						"draw": 7,
-						"lose": 9,
-						"goals": { "for": 18, "against": 27 }
+						"all": {
+							"played": 20,
+							"win": 4,
+							"draw": 7,
+							"lose": 9,
+							"goals": { "for": 18, "against": 27, "diff": -9 }
+						},
+						"home": {
+							"played": 9,
+							"win": 3,
+							"draw": 5,
+							"lose": 1,
+							"goals": { "for": 13, "against": 9 }
+						},
+						"away": {
+							"played": 11,
+							"win": 1,
+							"draw": 2,
+							"lose": 8,
+							"goals": { "for": 5, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -26504,12 +28825,32 @@
 					"teamName": "Gremio",
 					"points": 18,
 					"stats": {
-						"goalsDiff": -7,
-						"played": 18,
-						"win": 5,
-						"draw": 3,
-						"lose": 10,
-						"goals": { "for": 15, "against": 22 }
+						"all": {
+							"played": 18,
+							"win": 5,
+							"draw": 3,
+							"lose": 10,
+							"goals": { "for": 15, "against": 22, "diff": -7 }
+						},
+						"home": {
+							"played": 10,
+							"win": 5,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 10, "against": 9 }
+						},
+						"away": {
+							"played": 8,
+							"win": 0,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 5, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+						}
 					}
 				},
 				{
@@ -26517,12 +28858,32 @@
 					"teamName": "Vitoria",
 					"points": 18,
 					"stats": {
-						"goalsDiff": -10,
-						"played": 20,
-						"win": 5,
-						"draw": 3,
-						"lose": 12,
-						"goals": { "for": 22, "against": 32 }
+						"all": {
+							"played": 20,
+							"win": 5,
+							"draw": 3,
+							"lose": 12,
+							"goals": { "for": 22, "against": 32, "diff": -10 }
+						},
+						"home": {
+							"played": 10,
+							"win": 3,
+							"draw": 1,
+							"lose": 6,
+							"goals": { "for": 12, "against": 16 }
+						},
+						"away": {
+							"played": 10,
+							"win": 2,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 10, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -26530,12 +28891,32 @@
 					"teamName": "Cuiaba",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -5,
-						"played": 18,
-						"win": 4,
-						"draw": 5,
-						"lose": 9,
-						"goals": { "for": 19, "against": 24 }
+						"all": {
+							"played": 18,
+							"win": 4,
+							"draw": 5,
+							"lose": 9,
+							"goals": { "for": 19, "against": 24, "diff": -5 }
+						},
+						"home": {
+							"played": 10,
+							"win": 1,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 8, "against": 12 }
+						},
+						"away": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 11, "against": 12 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
 					}
 				},
 				{
@@ -26543,12 +28924,32 @@
 					"teamName": "Fluminense",
 					"points": 17,
 					"stats": {
-						"goalsDiff": -9,
-						"played": 19,
-						"win": 4,
-						"draw": 5,
-						"lose": 10,
-						"goals": { "for": 15, "against": 24 }
+						"all": {
+							"played": 19,
+							"win": 4,
+							"draw": 5,
+							"lose": 10,
+							"goals": { "for": 15, "against": 24, "diff": -9 }
+						},
+						"home": {
+							"played": 9,
+							"win": 2,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 10, "against": 11 }
+						},
+						"away": {
+							"played": 10,
+							"win": 2,
+							"draw": 1,
+							"lose": 7,
+							"goals": { "for": 5, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
 					}
 				},
 				{
@@ -26556,16 +28957,41 @@
 					"teamName": "Atletico Goianiense",
 					"points": 12,
 					"stats": {
-						"goalsDiff": -15,
-						"played": 20,
-						"win": 2,
-						"draw": 6,
-						"lose": 12,
-						"goals": { "for": 16, "against": 31 }
+						"all": {
+							"played": 20,
+							"win": 2,
+							"draw": 6,
+							"lose": 12,
+							"goals": { "for": 16, "against": 31, "diff": -15 }
+						},
+						"home": {
+							"played": 9,
+							"win": 0,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 7, "against": 15 }
+						},
+						"away": {
+							"played": 11,
+							"win": 2,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 9, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.2,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+			}
+		},
 		"matches": [
 			{
 				"id": "1180558",
@@ -31420,19 +33846,40 @@
 		"country": "Austria",
 		"priority": 1,
 		"flag": "🇦🇹",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 1025,
 					"teamName": "Wolfsberger AC",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 4, "against": 1 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 1, "diff": 3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 1 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 4,
+							"promedio_de_goles_anotados_de_local_por_partido": 4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31440,12 +33887,32 @@
 					"teamName": "Red Bull Salzburg",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 3, "against": 2 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2, "diff": 1 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 3
+						}
 					}
 				},
 				{
@@ -31453,12 +33920,32 @@
 					"teamName": "Lask Linz",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 1 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1, "diff": 1 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -31466,12 +33953,32 @@
 					"teamName": "WSG Wattens",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 2, "against": 1 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1, "diff": 1 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -31479,12 +33986,32 @@
 					"teamName": "FC BW Linz",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 1, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0, "diff": 1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31492,12 +34019,32 @@
 					"teamName": "Rapid Vienna",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 1, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0, "diff": 1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31505,12 +34052,32 @@
 					"teamName": "Grazer AK",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 3 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3, "diff": -1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31518,12 +34085,32 @@
 					"teamName": "TSV Hartberg",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2, "diff": -1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31531,12 +34118,32 @@
 					"teamName": "SCR Altach",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2, "diff": -1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31544,12 +34151,32 @@
 					"teamName": "Austria Vienna",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1, "diff": -1 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31557,12 +34184,32 @@
 					"teamName": "Sturm Graz",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 1 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1, "diff": -1 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -31570,16 +34217,41 @@
 					"teamName": "Austria Klagenfurt",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 1, "against": 4 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 4, "diff": -3 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.5,
+				"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+			}
+		},
 		"matches": [
 			{
 				"id": "1218578",
@@ -33861,19 +36533,40 @@
 		"country": "Belgium",
 		"priority": 1,
 		"flag": "🇧🇪",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 261,
 					"teamName": "KVC Westerlo",
 					"points": 6,
 					"stats": {
-						"goalsDiff": 5,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 7, "against": 2 }
+						"all": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 7, "against": 2, "diff": 5 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 3.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 4
+						}
 					}
 				},
 				{
@@ -33881,12 +36574,32 @@
 					"teamName": "Anderlecht",
 					"points": 6,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 2,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
+						"all": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -33894,12 +36607,32 @@
 					"teamName": "OH Leuven",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -33907,12 +36640,32 @@
 					"teamName": "Union St. Gilloise",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 3, "against": 1 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -33920,12 +36673,32 @@
 					"teamName": "Dender",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 2, "against": 1 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1, "diff": 1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -33933,12 +36706,32 @@
 					"teamName": "Standard Liege",
 					"points": 4,
 					"stats": {
-						"goalsDiff": 1,
-						"played": 2,
-						"win": 1,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 1, "against": 0 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0, "diff": 1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -33946,12 +36739,32 @@
 					"teamName": "Gent",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -33959,12 +36772,32 @@
 					"teamName": "Charleroi",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 2,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 4, "against": 2 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 2, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 4
+						}
 					}
 				},
 				{
@@ -33972,12 +36805,32 @@
 					"teamName": "Kortrijk",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -33985,12 +36838,32 @@
 					"teamName": "Antwerp",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 2,
-						"win": 1,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 2, "against": 2 }
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -33998,12 +36871,32 @@
 					"teamName": "Club Brugge KV",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -1,
-						"played": 2,
-						"win": 0,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 1, "against": 2 }
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2, "diff": -1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -34011,12 +36904,32 @@
 					"teamName": "KV Mechelen",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 3, "against": 5 }
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 5, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -34024,12 +36937,32 @@
 					"teamName": "Beerschot Wilrijk",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 1, "against": 3 }
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -34037,12 +36970,32 @@
 					"teamName": "Genk",
 					"points": 1,
 					"stats": {
-						"goalsDiff": -2,
-						"played": 2,
-						"win": 0,
-						"draw": 1,
-						"lose": 1,
-						"goals": { "for": 1, "against": 3 }
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
 					}
 				},
 				{
@@ -34050,12 +37003,32 @@
 					"teamName": "St. Truiden",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 1, "against": 5 }
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 1, "against": 5, "diff": -4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 4 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -34063,16 +37036,41 @@
 					"teamName": "Cercle Brugge",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 2,
-						"win": 0,
-						"draw": 0,
-						"lose": 2,
-						"goals": { "for": 1, "against": 5 }
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 1, "against": 5, "diff": -4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 1.2,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+			}
+		},
 		"matches": [
 			{
 				"id": "1213213",
@@ -37283,19 +40281,40 @@
 		"country": "Scotland",
 		"priority": 1,
 		"flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
-		"standings": [
-			[
+		"standings": {
+			"type": "SIMPLE",
+			"items": [
 				{
 					"teamId": 247,
 					"teamName": "Celtic",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 4,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 4, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0, "diff": 4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 4,
+							"promedio_de_goles_anotados_de_local_por_partido": 4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37303,12 +40322,32 @@
 					"teamName": "ST Mirren",
 					"points": 3,
 					"stats": {
-						"goalsDiff": 3,
-						"played": 1,
-						"win": 1,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 3, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0, "diff": 3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 3,
+							"promedio_de_goles_anotados_de_local_por_partido": 3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37316,12 +40355,32 @@
 					"teamName": "Dundee",
 					"points": 1,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 2, "against": 2 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 2, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
 					}
 				},
 				{
@@ -37329,12 +40388,32 @@
 					"teamName": "Dundee Utd",
 					"points": 1,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 2, "against": 2 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 2, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37342,12 +40421,32 @@
 					"teamName": "Heart Of Midlothian",
 					"points": 1,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37355,12 +40454,32 @@
 					"teamName": "Motherwell",
 					"points": 1,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37368,12 +40487,32 @@
 					"teamName": "Rangers",
 					"points": 1,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37381,12 +40520,32 @@
 					"teamName": "Ross County",
 					"points": 1,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 1,
-						"win": 0,
-						"draw": 1,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37394,12 +40553,32 @@
 					"teamName": "Aberdeen",
 					"points": 0,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 0,
-						"win": 0,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
+						"all": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37407,12 +40586,32 @@
 					"teamName": "ST Johnstone",
 					"points": 0,
 					"stats": {
-						"goalsDiff": 0,
-						"played": 0,
-						"win": 0,
-						"draw": 0,
-						"lose": 0,
-						"goals": { "for": 0, "against": 0 }
+						"all": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37420,12 +40619,32 @@
 					"teamName": "Hibernian",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -3,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 3 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 3, "diff": -3 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				},
 				{
@@ -37433,16 +40652,41 @@
 					"teamName": "Kilmarnock",
 					"points": 0,
 					"stats": {
-						"goalsDiff": -4,
-						"played": 1,
-						"win": 0,
-						"draw": 0,
-						"lose": 1,
-						"goals": { "for": 0, "against": 4 }
+						"all": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 4, "diff": -4 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
 					}
 				}
-			]
-		],
+			],
+			"stats": {
+				"promedio_de_goles_anotados_por_partido": 0.9,
+				"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 0.2
+			}
+		},
 		"matches": [
 			{
 				"id": "1220112",
@@ -39146,15 +42390,15 @@
 									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
-									"promedio_de_goles_anotados": null,
-									"promedio_de_goles_recibidos": null,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
 									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
 									"puntos_ganados": 0,
-									"porcentaje_de_puntos_ganados": null
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"all-away-matches": {
@@ -39197,15 +42441,15 @@
 									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
-									"promedio_de_goles_anotados": null,
-									"promedio_de_goles_recibidos": null,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
 									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
 									"puntos_ganados": 0,
-									"porcentaje_de_puntos_ganados": null
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"last-away-matches": {
@@ -39806,7 +43050,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (NaN)"
+										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
 									},
 									{
 										"fulfilled": false,
