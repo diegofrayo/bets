@@ -103,6 +103,7 @@ export type T_PredictionsStatsFile = DR.Object<{
 		lost: number;
 		lostWinning: number;
 		skippedLost: number;
+		total: number;
 	};
 	record: {
 		winning: DR.Object<Array<string>>;

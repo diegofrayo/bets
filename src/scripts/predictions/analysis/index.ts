@@ -341,6 +341,6 @@ type T_AnalysisConfig =
 	  }
 	| {
 			config: "LEAGUES_STANDINGS_UPDATE";
-			leagues: Array<number>;
+			leagues: Array<string>;
 			enableRemoteAPI: boolean;
 	  };

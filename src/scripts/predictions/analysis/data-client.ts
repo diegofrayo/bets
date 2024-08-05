@@ -173,6 +173,16 @@ async function fetchLeagueStandings({
 			`src/scripts/predictions/data/output/standings/${outputFileName}.json`,
 			parsedResponse,
 		);
+
+		if (date > today) {
+			writeFile(
+				`src/scripts/predictions/data/output/standings/${composeLeagueName(league.id, {
+					full: true,
+					date,
+				})}.json`,
+				parsedResponse,
+			);
+		}
 	}
 
 	return parsedResponse;
@@ -286,11 +296,11 @@ async function updateLeaguesFixtures(requestConfig: {
 	);
 }
 
-async function updateLeaguesStandings(leaguesIds: Array<number>, enableRemoteAPI: boolean) {
+async function updateLeaguesStandings(leaguesIds: Array<string>, enableRemoteAPI: boolean) {
 	const leagues =
 		leaguesIds.length > 0
 			? leaguesIds.map((leagueId) => {
-					return getLeagueById(leagueId);
+					return getLeagueById(Number(leagueId.split("-")[0]));
 				})
 			: LEAGUES.items;
 
@@ -352,7 +362,6 @@ function getMatchPredictions(
 
 function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_TeamStats {
 	const totalPlayedMatches = playedMatches.length;
-	const lastGames = totalPlayedMatches > 5 ? 5 : totalPlayedMatches;
 	const output = {
 		"all-matches": {
 			name: `Comportamiento general en los últimos ${totalPlayedMatches} partidos`,
@@ -367,16 +376,16 @@ function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_Te
 			items: calculateTeamStats({ teamId, playedMatches, side: "away" }),
 		},
 		"last-matches": {
-			name: `Comportamiento general en los últimos ${lastGames} partidos`,
-			items: calculateTeamStats({ teamId, playedMatches, side: "all", lastGames }),
+			name: `Comportamiento general en los últimos ${5} partidos`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "all", lastMatches: 5 }),
 		},
 		"last-home-matches": {
-			name: `Comportamiento como local en los últimos ${lastGames} partidos`,
-			items: calculateTeamStats({ teamId, playedMatches, side: "home", lastGames }),
+			name: `Comportamiento en los últimos ${3} partidos como local`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "home", lastMatches: 2 }),
 		},
 		"last-away-matches": {
-			name: `Comportamiento como visitante en los últimos ${lastGames} partidos`,
-			items: calculateTeamStats({ teamId, playedMatches, side: "away", lastGames }),
+			name: `Comportamiento en los últimos ${3} partidos como visitante`,
+			items: calculateTeamStats({ teamId, playedMatches, side: "away", lastMatches: 2 }),
 		},
 	};
 
@@ -706,6 +715,7 @@ function getProperlyLeagueStandingsData(
 	const isEgyptianLeague = response.id === 233;
 	const isAustriaLeague = response.id === 218;
 	const isScotlandLeague = response.id === 179;
+	const isIcelandLeague = response.id === 164;
 
 	if (isColombiaLeague) {
 		return (
@@ -727,7 +737,8 @@ function getProperlyLeagueStandingsData(
 			isBelgiumLeague ||
 			isEgyptianLeague ||
 			isAustriaLeague ||
-			isScotlandLeague) &&
+			isScotlandLeague ||
+			isIcelandLeague) &&
 		response.standings.length === 1
 	) {
 		return response.standings[0];
@@ -758,14 +769,14 @@ function filterTeamPlayedMatches({
 	teamId,
 	playedMatches,
 	side,
-	lastGames,
+	lastMatches,
 }: {
 	teamId: T_FixtureMatchTeam["id"];
 	playedMatches: Array<T_PlayedMatch>;
 	side: "home" | "away" | "all";
-	lastGames: number | undefined;
+	lastMatches: number | undefined;
 }) {
-	let result = lastGames ? playedMatches.slice(0, lastGames) : playedMatches;
+	let result = playedMatches;
 
 	if (side === "home") {
 		result = result.filter((match) => {
@@ -777,26 +788,26 @@ function filterTeamPlayedMatches({
 		});
 	}
 
-	return result;
+	return lastMatches ? result.slice(0, lastMatches) : result;
 }
 
 function calculateTeamStats({
 	teamId,
 	playedMatches,
 	side,
-	lastGames,
+	lastMatches,
 }: {
 	teamId: T_FixtureMatchTeam["id"];
 	playedMatches: Array<T_PlayedMatch>;
 	side: "home" | "away" | "all";
-	lastGames?: number;
+	lastMatches?: number;
 }): T_TeamStatsItems {
 	if (side === "all") {
 		const filteredMatches = filterTeamPlayedMatches({
 			teamId,
 			playedMatches,
 			side,
-			lastGames,
+			lastMatches,
 		});
 		const result = filteredMatches.reduce(
 			(result, match) => {
@@ -879,7 +890,7 @@ function calculateTeamStats({
 		teamId,
 		playedMatches,
 		side,
-		lastGames,
+		lastMatches,
 	});
 	const result: T_TeamStatsItems = filteredMatches.reduce(
 		(result, match) => {
@@ -975,6 +986,7 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 					lost: 0,
 					lostWinning: 0,
 					skippedLost: 0,
+					total: 0,
 				},
 				record: {
 					winning: {},
@@ -985,6 +997,7 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 			};
 		}
 
+		predictionStatsFile[prediction.id].stats.total += 1;
 		predictionStatsFile[prediction.id].stats[key] += 1;
 		predictionStatsFile[prediction.id].record[key] = {
 			...predictionStatsFile[prediction.id].record[key],
