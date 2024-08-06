@@ -6,7 +6,7 @@
 			"name": "Bundesliga",
 			"type": "League",
 			"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-08-02" },
 			"priority": 1
 		},
 		{
@@ -15,7 +15,7 @@
 			"name": "Czech Liga",
 			"type": "League",
 			"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-19" },
 			"priority": 1
 		},
 		{
@@ -24,7 +24,7 @@
 			"name": "Eliteserien",
 			"type": "League",
 			"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-03-31" },
 			"priority": 1
 		},
 		{
@@ -33,7 +33,7 @@
 			"name": "Jupiler Pro League",
 			"type": "League",
 			"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-26" },
 			"priority": 1
 		},
 		{
@@ -42,7 +42,7 @@
 			"name": "Premier League",
 			"type": "League",
 			"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-			"season": 2023,
+			"season": { "year": 2023, "startDate": "2023-09-23" },
 			"priority": 1
 		},
 		{
@@ -50,8 +50,8 @@
 			"id": 179,
 			"name": "Premiership",
 			"type": "League",
-			"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
-			"season": 2024,
+			"country": { "name": "Scotland", "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "code": "GB" },
+			"season": { "year": 2024, "startDate": "2024-08-03" },
 			"priority": 1
 		},
 		{
@@ -60,7 +60,7 @@
 			"name": "Superliga",
 			"type": "League",
 			"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-19" },
 			"priority": 1
 		},
 		{
@@ -69,7 +69,7 @@
 			"name": "Veikkausliiga",
 			"type": "League",
 			"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-04-06" },
 			"priority": 1
 		},
 		{
@@ -78,17 +78,8 @@
 			"name": "Úrvalsdeild",
 			"type": "League",
 			"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-04-06" },
 			"priority": 1
-		},
-		{
-			"enabled": true,
-			"id": 262,
-			"name": "Liga MX",
-			"type": "League",
-			"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
-			"season": 2024,
-			"priority": 2
 		},
 		{
 			"enabled": true,
@@ -96,16 +87,7 @@
 			"name": "Liga Profesional Argentina",
 			"type": "League",
 			"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-			"season": 2024,
-			"priority": 2
-		},
-		{
-			"enabled": true,
-			"id": 253,
-			"name": "Major League Soccer",
-			"type": "League",
-			"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-18" },
 			"priority": 2
 		},
 		{
@@ -114,7 +96,7 @@
 			"name": "Primera A",
 			"type": "League",
 			"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-15" },
 			"priority": 2
 		},
 		{
@@ -123,7 +105,7 @@
 			"name": "Serie A",
 			"type": "League",
 			"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-04-13" },
 			"priority": 2
 		},
 		{
@@ -132,7 +114,7 @@
 			"name": "Copa Do Brasil",
 			"type": "Cup",
 			"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-04-13" },
 			"priority": 3
 		},
 		{
@@ -141,7 +123,7 @@
 			"name": "UEFA Champions League",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -150,7 +132,7 @@
 			"name": "UEFA Europa Conference League",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -159,7 +141,7 @@
 			"name": "UEFA Europa League",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -168,7 +150,7 @@
 			"name": "National League - Central",
 			"type": "League",
 			"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 1
 		},
 		{
@@ -177,7 +159,7 @@
 			"name": "National League - Northern",
 			"type": "League",
 			"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 1
 		},
 		{
@@ -186,7 +168,7 @@
 			"name": "National League - Southern",
 			"type": "League",
 			"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 1
 		},
 		{
@@ -195,7 +177,16 @@
 			"name": "Bundesliga",
 			"type": "League",
 			"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 2
+		},
+		{
+			"enabled": false,
+			"id": 40,
+			"name": "Championship",
+			"type": "League",
+			"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -204,7 +195,7 @@
 			"name": "Coppa Italia",
 			"type": "Cup",
 			"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -213,7 +204,16 @@
 			"name": "La Liga",
 			"type": "League",
 			"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 2
+		},
+		{
+			"enabled": false,
+			"id": 262,
+			"name": "Liga MX",
+			"type": "League",
+			"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -222,7 +222,16 @@
 			"name": "Ligue 1",
 			"type": "League",
 			"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 2
+		},
+		{
+			"enabled": false,
+			"id": 253,
+			"name": "Major League Soccer",
+			"type": "League",
+			"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -230,8 +239,8 @@
 			"id": 39,
 			"name": "Premier League",
 			"type": "League",
-			"country": { "name": "England", "flag": "🇬🇧", "code": "GB" },
-			"season": 2024,
+			"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -240,7 +249,7 @@
 			"name": "Primeira Liga",
 			"type": "League",
 			"country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -249,7 +258,7 @@
 			"name": "Serie A",
 			"type": "League",
 			"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -258,7 +267,7 @@
 			"name": "Süper Lig",
 			"type": "League",
 			"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 2
 		},
 		{
@@ -267,7 +276,7 @@
 			"name": "CONMEBOL Libertadores",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -276,7 +285,7 @@
 			"name": "CONMEBOL Sudamericana",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -285,7 +294,7 @@
 			"name": "Copa America",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -294,7 +303,7 @@
 			"name": "Copa Argentina",
 			"type": "Cup",
 			"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -303,7 +312,7 @@
 			"name": "Copa de la Liga Profesional",
 			"type": "Cup",
 			"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -312,7 +321,7 @@
 			"name": "Olympics Men",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
 		},
 		{
@@ -321,7 +330,7 @@
 			"name": "A-League",
 			"type": "League",
 			"country": { "name": "Australia", "flag": "🇦🇺", "code": "AU" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 4
 		},
 		{
@@ -330,7 +339,7 @@
 			"name": "Austria Cup",
 			"type": "Cup",
 			"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 4
 		},
 		{
@@ -339,7 +348,7 @@
 			"name": "Division 1",
 			"type": "League",
 			"country": { "name": "Saudi-Arabia", "flag": "🇸🇦", "code": "SA" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 4
 		},
 		{
@@ -348,7 +357,7 @@
 			"name": "Eredivisie",
 			"type": "League",
 			"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 4
 		},
 		{
@@ -357,7 +366,7 @@
 			"name": "Pro League",
 			"type": "League",
 			"country": { "name": "Saudi-Arabia", "flag": "🇸🇦", "code": "SA" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 4
 		},
 		{
@@ -366,7 +375,7 @@
 			"name": "CONCACAF Champions League",
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 5
 		},
 		{
@@ -375,7 +384,7 @@
 			"name": "Copa Colombia",
 			"type": "Cup",
 			"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 5
 		},
 		{
@@ -384,7 +393,7 @@
 			"name": "King's Cup",
 			"type": "Cup",
 			"country": { "name": "Saudi-Arabia", "flag": "🇸🇦", "code": "SA" },
-			"season": 2024,
+			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 5
 		}
 	],
@@ -444,9 +453,9 @@
 			"179-premiership-scotland"
 		],
 		"2024-08-05": [
-			"119-superliga-denmark",
 			"233-premier-league-egypt",
 			"179-premiership-scotland",
+			"119-superliga-denmark",
 			"164-urvalsdeild-iceland",
 			"128-liga-profesional-argentina-argentina",
 			"239-primera-a-colombia",
@@ -455,29 +464,29 @@
 		"2024-08-06": [
 			"164-urvalsdeild-iceland",
 			"239-primera-a-colombia",
+			"73-copa-do-brasil-brazil",
 			"2-uefa-champions-league-world",
 			"848-uefa-europa-conference-league-world",
-			"3-uefa-europa-league-world",
-			"73-copa-do-brasil-brazil"
+			"3-uefa-europa-league-world"
 		],
 		"2024-08-07": [
 			"164-urvalsdeild-iceland",
 			"239-primera-a-colombia",
+			"73-copa-do-brasil-brazil",
 			"2-uefa-champions-league-world",
-			"848-uefa-europa-conference-league-world",
-			"73-copa-do-brasil-brazil"
+			"848-uefa-europa-conference-league-world"
 		],
 		"2024-08-08": [
 			"233-premier-league-egypt",
 			"128-liga-profesional-argentina-argentina",
+			"73-copa-do-brasil-brazil",
 			"848-uefa-europa-conference-league-world",
-			"3-uefa-europa-league-world",
-			"73-copa-do-brasil-brazil"
+			"3-uefa-europa-league-world"
 		],
 		"2024-08-09": [
-			"119-superliga-denmark",
 			"103-eliteserien-norway",
 			"144-jupiler-pro-league-belgium",
+			"119-superliga-denmark",
 			"244-veikkausliiga-finland",
 			"128-liga-profesional-argentina-argentina"
 		],
@@ -493,13 +502,13 @@
 			"71-serie-a-brazil"
 		],
 		"2024-08-11": [
-			"119-superliga-denmark",
 			"218-bundesliga-austria",
 			"345-czech-liga-czech-republic",
 			"103-eliteserien-norway",
 			"144-jupiler-pro-league-belgium",
 			"233-premier-league-egypt",
 			"179-premiership-scotland",
+			"119-superliga-denmark",
 			"244-veikkausliiga-finland",
 			"164-urvalsdeild-iceland",
 			"128-liga-profesional-argentina-argentina",

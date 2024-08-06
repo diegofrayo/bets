@@ -16,7 +16,10 @@ export type T_League = {
 		name: string;
 		flag: string;
 	};
-	season: number;
+	season: {
+		year: number;
+		startDate: string;
+	};
 };
 
 export type T_LeagueStandings = {
@@ -101,7 +104,7 @@ type T_MatchBase = {
 	fullDate: string;
 	date: string;
 	hour: string;
-	league: Pick<T_League, "id" | "name" | "country">;
+	league: Pick<T_League, "id" | "name" | "country" | "type">;
 };
 
 export type T_FixtureMatch = T_FixtureNextMatch | T_FixturePlayedMatch;

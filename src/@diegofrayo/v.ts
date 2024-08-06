@@ -116,7 +116,7 @@ function isNil(input: unknown): input is null | undefined {
 	return input === null || input === undefined;
 }
 
-function isNotNil(input: unknown) {
+function isNotNil<G_Input>(input: G_Input): input is NonNullable<G_Input> {
 	return isNil(input) === false;
 }
 

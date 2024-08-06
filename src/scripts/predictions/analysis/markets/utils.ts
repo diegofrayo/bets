@@ -80,7 +80,11 @@ export function createMarketPredictionOutput({
 				) => boolean
 		  >
 		| undefined;
-}): T_MarketPrediction {
+}): T_MarketPrediction | null {
+	if (criteria.length === 0) {
+		return null;
+	}
+
 	const trustLevel = criteria[0].fulfilled ? criteria[0].trustLevel : 0;
 	const output: T_MarketPrediction = {
 		...rest,
@@ -129,6 +133,14 @@ export function getTeamPoints(selectedTeam: T_FixtureMatchTeam) {
 			(selectedTeamDetails.winner === true ? 3 : selectedTeamDetails.winner === null ? 1 : 0)
 		);
 	}, 0);
+}
+
+export function isMatchInLocalLeague(match: T_FixtureMatch, leagueStandings: T_LeagueStandings) {
+	return (
+		match.league.country.name !== "World" &&
+		match.league.type === "League" &&
+		leagueStandings.items.length > 10
+	);
 }
 
 // --- TYPES ---

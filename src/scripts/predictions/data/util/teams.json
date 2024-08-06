@@ -45,6 +45,7 @@
 		"name": "FH hafnarfjordur",
 		"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" }
 	},
+	"271": { "name": "KR Reykjavik", "country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" } },
 	"272": { "name": "KA Akureyri", "country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" } },
 	"274": {
 		"name": "Valur Reykjavik",
@@ -66,7 +67,10 @@
 	"331": { "name": "Rosenborg", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
 	"332": { "name": "Sandefjord", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
 	"333": { "name": "Sarpsborg 08 FF", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
+	"336": { "name": "Jagiellonia", "country": null },
+	"337": { "name": "Slask Wroclaw", "country": null },
 	"354": { "name": "The New Saints", "country": null },
+	"367": { "name": "BK Hacken", "country": null },
 	"375": { "name": "Malmo FF", "country": null },
 	"395": { "name": "Vejle", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"397": { "name": "FC Midtjylland", "country": null },
@@ -74,6 +78,7 @@
 		"name": "FC Nordsjaelland",
 		"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" }
 	},
+	"400": { "name": "FC Copenhagen", "country": null },
 	"415": { "name": "Twente", "country": null },
 	"434": {
 		"name": "Gimnasia L.P.",
@@ -151,6 +156,7 @@
 	"554": { "name": "Anderlecht", "country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" } },
 	"556": { "name": "Qarabag", "country": null },
 	"559": { "name": "FCSB", "country": null },
+	"560": { "name": "Slavia Praha", "country": null },
 	"566": { "name": "Ludogorets", "country": null },
 	"569": { "name": "Club Brugge KV", "country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" } },
 	"571": {
@@ -171,6 +177,7 @@
 	"649": { "name": "HJK helsinki", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
 	"650": { "name": "vaasa PS", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
 	"651": { "name": "Ferencvarosi TC", "country": null },
+	"656": { "name": "Slovan Bratislava", "country": null },
 	"689": { "name": "SJK", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
 	"733": { "name": "Standard Liege", "country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" } },
 	"734": { "name": "Kortrijk", "country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" } },
@@ -182,6 +189,8 @@
 	"759": { "name": "Viking", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
 	"781": { "name": "Rapid Vienna", "country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" } },
 	"794": { "name": "RB Bragantino", "country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" } },
+	"827": { "name": "IA Akranes", "country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" } },
+	"1011": { "name": "FC ST. Gallen", "country": null },
 	"1025": {
 		"name": "Wolfsberger AC",
 		"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" }
@@ -216,6 +225,7 @@
 		"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" }
 	},
 	"1129": { "name": "Envigado", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
+	"1131": { "name": "Bucaramanga", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
 	"1132": { "name": "Chico", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
 	"1133": { "name": "Jaguares", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
 	"1134": { "name": "La Equidad", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
@@ -229,6 +239,7 @@
 		"name": "America de Cali",
 		"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" }
 	},
+	"1139": { "name": "Santa Fe", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
 	"1140": { "name": "Patriotas", "country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" } },
 	"1141": {
 		"name": "Alianza Petrolera",
@@ -271,6 +282,7 @@
 	"2078": { "name": "EIF", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
 	"2080": { "name": "haka", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
 	"2082": { "name": "IF Gnistan", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
+	"2113": { "name": "HK Kopavogur", "country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" } },
 	"2117": {
 		"name": "Fram Reykjavik",
 		"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" }
@@ -278,13 +290,19 @@
 	"2143": { "name": "KFUM Oslo", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
 	"2149": { "name": "Fredrikstad", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
 	"2159": { "name": "Ham-Kam", "country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" } },
+	"2247": { "name": "Apoel Nicosia", "country": null },
 	"2271": { "name": "Petrocub", "country": null },
+	"2390": { "name": "Paks", "country": null },
 	"2432": {
 		"name": "Barracas Central",
 		"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" }
 	},
+	"3528": { "name": "Paide", "country": null },
 	"3684": { "name": "FC Noah", "country": null },
+	"3713": { "name": "Baník Ostrava", "country": null },
+	"3740": { "name": "Mornar", "country": null },
 	"3874": { "name": "Panevėžys", "country": null },
+	"4165": { "name": "Vestri", "country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" } },
 	"4256": { "name": "Grazer AK", "country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" } },
 	"6215": { "name": "Dender", "country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" } },
 	"7520": { "name": "Masr", "country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" } },

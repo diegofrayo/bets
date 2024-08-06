@@ -61,7 +61,7 @@ async function fetchFixtureMatches({
 			await APIClient.get("/fixtures", {
 				timezone: "America/Bogota",
 				league: league.id,
-				season: league.season,
+				season: league.season.year,
 				date: requestConfig.date,
 			})
 		).data as T_RawMatchesResponse;
@@ -108,7 +108,8 @@ async function fetchPlayedMatches({
 			await APIClient.get("/fixtures", {
 				timezone: "America/Bogota",
 				team: team.id,
-				season: league.season,
+				from: `${new Date().getFullYear()}-01-01`,
+				to: formatDate(new Date()),
 			})
 		).data as T_RawMatchesResponse;
 
@@ -121,12 +122,7 @@ async function fetchPlayedMatches({
 		rawResponse = { response: [] };
 	}
 
-	const parsedResponse = parsePlayedMatchesResponse(
-		rawResponse,
-		requestConfig.date,
-		leagueStandings,
-		league,
-	);
+	const parsedResponse = parsePlayedMatchesResponse({ data: rawResponse, leagueStandings, league });
 
 	if (parsedResponse.length > 0) {
 		writeFile(`src/scripts/predictions/data/output/teams/${outputFileName}.json`, parsedResponse);
@@ -155,7 +151,7 @@ async function fetchLeagueStandings({
 		rawResponse = (
 			await APIClient.get("/standings", {
 				league: league.id,
-				season: league.season,
+				season: league.season.year,
 			})
 		).data as T_RawLeagueStandingsResponse;
 
@@ -252,7 +248,7 @@ async function updateLeaguesFixtures(requestConfig: {
 					await APIClient.get("/fixtures", {
 						timezone: "America/Bogota",
 						league: league.id,
-						season: league.season,
+						season: league.season.year,
 						...omit(requestConfig, ["ids"]),
 					})
 				).data as T_RawMatchesResponse;
@@ -349,7 +345,9 @@ function getMatchPredictions(
 		doubleOpportunityPrediction(predictionsInput),
 		goalByHomeTeamPrediction(predictionsInput),
 		matchWinnerPrediction(predictionsInput),
-	].sort(sortBy("-trustLevel"));
+	]
+		.filter(v.isNotNil)
+		.sort(sortBy("-trustLevel"));
 
 	if (updatePredictionStats) {
 		output.forEach((prediction) => {
@@ -392,12 +390,18 @@ function getTeamStats(teamId: number, playedMatches: Array<T_PlayedMatch>): T_Te
 	return output;
 }
 
-function getLeagueById(leagueId: number) {
+function getLeagueById(leagueId: number, config: { noThrowError: true }): T_League | undefined;
+function getLeagueById(leagueId: number): T_League;
+function getLeagueById(leagueId: number, config?: { noThrowError: boolean }) {
 	const league = LEAGUES.items.find((item) => {
 		return item.id === leagueId;
 	});
 
-	return league || throwError(`League not found with id "${leagueId}"`);
+	if (!league && config?.noThrowError !== true) {
+		throw Error(`League not found with id "${leagueId}"`);
+	}
+
+	return league;
 }
 
 function getLeaguesByDate(date: DR.Dates.DateString) {
@@ -440,20 +444,24 @@ function parseFixtureMatchesResponse(
 	return result;
 }
 
-function parsePlayedMatchesResponse(
-	data: T_RawMatchesResponse,
-	date: DR.Dates.DateString,
-	leagueStandings: T_LeagueStandings,
-	league: T_League,
-): Array<T_PlayedMatch> {
+function parsePlayedMatchesResponse({
+	data,
+	leagueStandings,
+	league,
+}: {
+	data: T_RawMatchesResponse;
+	leagueStandings: T_LeagueStandings;
+	league: T_League;
+}): Array<T_PlayedMatch> {
+	const today = formatDate(new Date());
 	const result = data.response
 		.map((item) => parseMatchItem("PLAYED_MATCH", item, leagueStandings, league))
 		.sort(sortBy("-date"))
 		.filter((match) => {
-			return match.fullDate <= date;
+			return match.date >= league.season.startDate && match.date < today;
 		});
 
-	return result.slice(0, 15);
+	return result;
 }
 
 function parseMatchItem(
@@ -506,9 +514,10 @@ function parseMatchItem(
 				featured: checkIsTeamFeatured(item.teams.away.id, leagueStandings),
 			},
 		},
-		league: {
+		league: getLeagueById(item.league.id, { noThrowError: true }) || {
 			id: item.league.id,
 			name: item.league.name,
+			type: "Unknown",
 			country:
 				getCountryDetails({ leagueId: item.league.id }) ||
 				(item.league.name === "World"
@@ -768,10 +777,6 @@ function composeTeamName(team: Pick<T_FixtureMatchTeam, "id" | "name">) {
 function composeLeagueName(leagueId: number, options?: { full: true; date?: string }) {
 	const league = getLeagueById(leagueId);
 
-	if (!league) {
-		throw new Error(`League "${leagueId}" not found`);
-	}
-
 	if (options?.full) {
 		return `${league.country.name}/${options.date ? `${options.date}-` : ""}${league.name} (${league.id})`;
 	}
@@ -983,11 +988,7 @@ function getCountryDetails(
 	config: { leagueId: number } | { countryName: string },
 ): T_League["country"] | null {
 	if ("leagueId" in config) {
-		try {
-			return getLeagueById(config.leagueId).country;
-		} catch (error) {
-			return null;
-		}
+		return getLeagueById(config.leagueId, { noThrowError: true })?.country || null;
 	}
 
 	const flagValue = flag(config.countryName);
@@ -1026,6 +1027,7 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 					lostWinning: 0,
 					skippedLost: 0,
 					total: 0,
+					successPercentaje: 0,
 				},
 				record: {
 					winning: {},
@@ -1044,6 +1046,13 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 				generateSlug(`${match.id}-${match.league.country.name}`),
 			]),
 		};
+		predictionStatsFile[prediction.id].stats.successPercentaje = formatDecimalNumber(
+			(predictionStatsFile[prediction.id].stats.winning /
+				(predictionStatsFile[prediction.id].stats.winning +
+					predictionStatsFile[prediction.id].stats.lost)) *
+				100,
+			1,
+		);
 
 		writeFile("src/scripts/predictions/data/util/predictions-stats.json", predictionStatsFile);
 	}

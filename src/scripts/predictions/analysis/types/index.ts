@@ -90,7 +90,7 @@ export type T_LeaguesFile = {
 		name: string;
 		type: string;
 		country: { code: string; name: string; flag: string };
-		season: number;
+		season: { year: number; startDate: string };
 		priority: number;
 	}>;
 	fixtures: Record<string, Array<string>>;
@@ -110,6 +110,7 @@ export type T_PredictionsStatsFile = DR.Object<{
 		lostWinning: number;
 		skippedLost: number;
 		total: number;
+		successPercentaje: number;
 	};
 	record: {
 		winning: DR.Object<Array<string>>;
