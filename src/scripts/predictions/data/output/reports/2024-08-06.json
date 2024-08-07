@@ -7,28 +7,427 @@
 		"priority": 1,
 		"standings": {
 			"type": "SIMPLE",
-			"items": [],
+			"items": [
+				{
+					"teamId": 278,
+					"teamName": "Vikingur Reykjavik",
+					"points": 39,
+					"stats": {
+						"all": {
+							"played": 17,
+							"win": 12,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 42, "against": 18, "diff": 24 }
+						},
+						"home": {
+							"played": 8,
+							"win": 7,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 25, "against": 8 }
+						},
+						"away": {
+							"played": 9,
+							"win": 5,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 17, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 3.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.9
+						}
+					}
+				},
+				{
+					"teamId": 276,
+					"teamName": "Breidablik",
+					"points": 30,
+					"stats": {
+						"all": {
+							"played": 15,
+							"win": 9,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 33, "against": 19, "diff": 14 }
+						},
+						"home": {
+							"played": 8,
+							"win": 5,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 18, "against": 9 }
+						},
+						"away": {
+							"played": 7,
+							"win": 4,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 15, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2.1
+						}
+					}
+				},
+				{
+					"teamId": 274,
+					"teamName": "Valur Reykjavik",
+					"points": 28,
+					"stats": {
+						"all": {
+							"played": 15,
+							"win": 8,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 37, "against": 22, "diff": 15 }
+						},
+						"home": {
+							"played": 7,
+							"win": 4,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 19, "against": 7 }
+						},
+						"away": {
+							"played": 8,
+							"win": 4,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 18, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2.3
+						}
+					}
+				},
+				{
+					"teamId": 270,
+					"teamName": "FH hafnarfjordur",
+					"points": 28,
+					"stats": {
+						"all": {
+							"played": 17,
+							"win": 8,
+							"draw": 4,
+							"lose": 5,
+							"goals": { "for": 31, "against": 27, "diff": 4 }
+						},
+						"home": {
+							"played": 9,
+							"win": 4,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 18, "against": 14 }
+						},
+						"away": {
+							"played": 8,
+							"win": 4,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 13, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
+					}
+				},
+				{
+					"teamId": 827,
+					"teamName": "IA Akranes",
+					"points": 24,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 7,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 34, "against": 24, "diff": 10 }
+						},
+						"home": {
+							"played": 8,
+							"win": 5,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 23, "against": 10 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 11, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 2117,
+					"teamName": "Fram Reykjavik",
+					"points": 23,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 6,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 24, "against": 21, "diff": 3 }
+						},
+						"home": {
+							"played": 8,
+							"win": 4,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 12, "against": 10 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 12, "against": 11 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 275,
+					"teamName": "Stjarnan",
+					"points": 23,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 7,
+							"draw": 2,
+							"lose": 7,
+							"goals": { "for": 30, "against": 30, "diff": 0 }
+						},
+						"home": {
+							"played": 8,
+							"win": 5,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 18, "against": 11 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 12, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 272,
+					"teamName": "KA Akureyri",
+					"points": 19,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 5,
+							"draw": 4,
+							"lose": 7,
+							"goals": { "for": 25, "against": 31, "diff": -6 }
+						},
+						"home": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 14, "against": 13 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 11, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 271,
+					"teamName": "KR Reykjavik",
+					"points": 15,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 3,
+							"draw": 6,
+							"lose": 7,
+							"goals": { "for": 27, "against": 32, "diff": -5 }
+						},
+						"home": {
+							"played": 8,
+							"win": 0,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 13, "against": 18 }
+						},
+						"away": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 14, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
+					}
+				},
+				{
+					"teamId": 2113,
+					"teamName": "HK Kopavogur",
+					"points": 14,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 4,
+							"draw": 2,
+							"lose": 10,
+							"goals": { "for": 18, "against": 40, "diff": -22 }
+						},
+						"home": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 10, "against": 17 }
+						},
+						"away": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 8, "against": 23 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 267,
+					"teamName": "Fylkir",
+					"points": 12,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 3,
+							"draw": 3,
+							"lose": 10,
+							"goals": { "for": 21, "against": 38, "diff": -17 }
+						},
+						"home": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 12, "against": 11 }
+						},
+						"away": {
+							"played": 8,
+							"win": 0,
+							"draw": 1,
+							"lose": 7,
+							"goals": { "for": 9, "against": 27 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
+					}
+				},
+				{
+					"teamId": 4165,
+					"teamName": "Vestri",
+					"points": 12,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 3,
+							"draw": 3,
+							"lose": 10,
+							"goals": { "for": 18, "against": 38, "diff": -20 }
+						},
+						"home": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 10, "against": 20 }
+						},
+						"away": {
+							"played": 8,
+							"win": 1,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 8, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				}
+			],
 			"stats": {
-				"promedio_de_goles_anotados_por_partido": 0,
-				"promedio_de_goles_anotados_de_local_por_partido": 0,
-				"promedio_de_goles_anotados_de_visitante_por_partido": 0
+				"promedio_de_goles_anotados_por_partido": 1.8,
+				"promedio_de_goles_anotados_de_local_por_partido": 2,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
 			}
 		},
 		"matches": [
 			{
 				"id": "1152209",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T14:15",
 				"date": "2024-08-06",
 				"hour": "14:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 272,
 						"name": "KA Akureyri",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": null,
-						"featured": false,
+						"position": 8,
+						"featured": true,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 20 partidos",
@@ -144,7 +543,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -153,8 +552,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									}
@@ -181,8 +580,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -190,8 +589,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -218,7 +617,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -227,8 +626,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -255,8 +654,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -264,8 +663,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -292,8 +691,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -301,8 +700,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -326,7 +725,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -335,8 +734,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -363,8 +762,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -372,8 +771,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -400,8 +799,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -409,8 +808,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -437,8 +836,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -446,8 +845,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -471,8 +870,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									},
@@ -480,8 +879,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -508,8 +907,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -517,8 +916,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -545,8 +944,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -554,7 +953,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -582,8 +981,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -591,7 +990,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -616,8 +1015,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -625,8 +1024,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -653,8 +1052,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -662,7 +1061,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -690,8 +1089,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -699,8 +1098,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -727,8 +1126,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -761,8 +1160,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -770,7 +1169,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -798,8 +1197,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									},
@@ -807,8 +1206,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -835,8 +1234,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -844,7 +1243,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -868,8 +1267,10 @@
 						"id": 274,
 						"name": "Valur Reykjavik",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": null,
-						"featured": false,
+						"position": 3,
+						"featured": true,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 24 partidos",
@@ -994,8 +1395,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -1022,8 +1423,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -1031,8 +1432,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -1059,8 +1460,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									},
@@ -1068,8 +1469,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
@@ -1096,8 +1497,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									},
@@ -1142,8 +1543,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									}
@@ -1170,8 +1571,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									},
@@ -1207,8 +1608,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -1216,7 +1617,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -1244,8 +1645,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -1253,8 +1654,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -1278,8 +1679,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -1287,8 +1688,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -1315,7 +1716,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1324,8 +1725,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									}
@@ -1352,8 +1753,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									},
@@ -1361,8 +1762,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									}
@@ -1398,8 +1799,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": null
 									}
@@ -1423,7 +1824,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -1432,8 +1833,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									}
@@ -1460,8 +1861,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -1469,8 +1870,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -1497,8 +1898,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									},
@@ -1506,8 +1907,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									}
@@ -1534,7 +1935,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -1543,8 +1944,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -1580,8 +1981,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -1605,8 +2006,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -1614,8 +2015,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -1642,8 +2043,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									},
@@ -1651,8 +2052,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -1679,8 +2080,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -1688,8 +2089,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -1716,8 +2117,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -1725,8 +2126,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1750,8 +2151,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -1759,8 +2160,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1787,7 +2188,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -1796,8 +2197,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
@@ -1824,8 +2225,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -1833,8 +2234,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -1861,9 +2262,19 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (8/12)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (3/12)"
+									},
 									{
 										"fulfilled": true,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -1875,11 +2286,17 @@
 										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
 									}
 								],
-								"fulfilled": true
+								"fulfilled": false
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -1887,7 +2304,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
 									{
@@ -1899,13 +2316,24 @@
 										"fulfilled": true,
 										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
 										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (2)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"explanation": "El local va de 8 y el visitante de 3 en la tabla de posiciones"
 									}
 								],
-								"fulfilled": true
+								"fulfilled": false
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -1913,9 +2341,14 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (8/12)"
+									},
 									{
 										"fulfilled": true,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -1931,7 +2364,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -1946,18 +2385,20 @@
 			},
 			{
 				"id": "1152210",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T14:15",
 				"date": "2024-08-06",
 				"hour": "14:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2117,
 						"name": "Fram Reykjavik",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": null,
-						"featured": false,
+						"position": 6,
+						"featured": true,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 19 partidos",
@@ -2073,7 +2514,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -2082,8 +2523,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
@@ -2110,8 +2551,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -2119,8 +2560,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -2147,8 +2588,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -2156,7 +2597,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2184,8 +2625,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -2193,8 +2634,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -2221,7 +2662,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2230,8 +2671,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -2258,8 +2699,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -2267,8 +2708,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -2295,8 +2736,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -2304,7 +2745,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -2332,8 +2773,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -2341,8 +2782,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -2366,8 +2807,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 3,
 										"winner": null
 									},
@@ -2375,8 +2816,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 3,
 										"winner": null
 									}
@@ -2403,8 +2844,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -2412,8 +2853,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									}
@@ -2440,8 +2881,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -2449,8 +2890,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -2477,8 +2918,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -2511,8 +2952,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -2520,8 +2961,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -2548,8 +2989,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -2557,7 +2998,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -2585,8 +3026,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -2594,8 +3035,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -2631,8 +3072,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -2656,7 +3097,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2665,8 +3106,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -2693,8 +3134,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -2702,8 +3143,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -2730,8 +3171,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -2739,7 +3180,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -2763,8 +3204,10 @@
 						"id": 275,
 						"name": "Stjarnan",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": null,
-						"featured": false,
+						"position": 7,
+						"featured": true,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 24 partidos",
@@ -2889,8 +3332,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -2917,8 +3360,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -2926,8 +3369,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -2954,8 +3397,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -2991,8 +3434,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -3000,7 +3443,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3037,8 +3480,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -3065,8 +3508,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -3102,7 +3545,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -3111,8 +3554,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -3139,8 +3582,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -3148,8 +3591,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -3173,8 +3616,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -3182,8 +3625,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									}
@@ -3210,7 +3653,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -3219,8 +3662,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 3,
 										"winner": false
 									}
@@ -3247,8 +3690,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -3256,8 +3699,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -3293,8 +3736,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -3318,7 +3761,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -3327,8 +3770,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -3355,8 +3798,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -3364,8 +3807,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -3392,8 +3835,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -3401,8 +3844,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -3429,8 +3872,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -3438,8 +3881,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -3466,8 +3909,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -3475,7 +3918,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -3500,8 +3943,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -3509,8 +3952,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -3537,8 +3980,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -3546,8 +3989,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -3574,7 +4017,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -3583,8 +4026,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -3620,8 +4063,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -3645,8 +4088,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -3654,8 +4097,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -3682,8 +4125,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -3691,7 +4134,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -3719,8 +4162,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -3728,8 +4171,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -3756,9 +4199,19 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (6/12)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (7/12)"
+									},
 									{
 										"fulfilled": true,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -3770,11 +4223,17 @@
 										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (9/15)"
 									}
 								],
-								"fulfilled": true
+								"fulfilled": false
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -3782,7 +4241,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
 									{
@@ -3794,13 +4253,24 @@
 										"fulfilled": true,
 										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
 										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (2.2)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"explanation": "El local va de 6 y el visitante de 7 en la tabla de posiciones"
 									}
 								],
-								"fulfilled": true
+								"fulfilled": false
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -3808,9 +4278,14 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (6/12)"
+									},
 									{
 										"fulfilled": true,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -3826,7 +4301,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -3841,18 +4322,20 @@
 			},
 			{
 				"id": "1152212",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T14:15",
 				"date": "2024-08-06",
 				"hour": "14:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 276,
 						"name": "Breidablik",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": null,
-						"featured": false,
+						"position": 2,
+						"featured": true,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 21 partidos",
@@ -3977,8 +4460,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -4005,8 +4488,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									},
@@ -4014,8 +4497,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
@@ -4042,8 +4525,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -4079,8 +4562,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -4088,7 +4571,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -4116,8 +4599,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -4162,8 +4645,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									}
@@ -4190,7 +4673,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -4199,8 +4682,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": null
 									}
@@ -4227,8 +4710,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									},
@@ -4236,8 +4719,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -4264,8 +4747,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -4273,8 +4756,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -4301,8 +4784,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -4310,8 +4793,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -4338,7 +4821,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4347,8 +4830,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									}
@@ -4375,8 +4858,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									},
@@ -4384,8 +4867,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 1,
 										"winner": null
 									}
@@ -4412,8 +4895,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									},
@@ -4421,8 +4904,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									}
@@ -4449,8 +4932,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -4458,8 +4941,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -4486,7 +4969,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4495,8 +4978,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -4523,8 +5006,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": false
 									},
@@ -4532,8 +5015,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -4560,7 +5043,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -4569,8 +5052,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -4606,8 +5089,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -4631,8 +5114,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -4640,8 +5123,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": false
 									}
@@ -4668,8 +5151,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -4677,7 +5160,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4705,8 +5188,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -4714,8 +5197,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -4738,8 +5221,10 @@
 						"id": 267,
 						"name": "Fylkir",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": null,
+						"position": 11,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 19 partidos",
@@ -4855,7 +5340,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -4864,8 +5349,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
@@ -4892,8 +5377,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -4901,7 +5386,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -4929,7 +5414,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -4938,8 +5423,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									}
@@ -4966,8 +5451,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -4975,7 +5460,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5003,7 +5488,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -5012,7 +5497,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": null
@@ -5040,8 +5525,8 @@
 										"id": 270,
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 4,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -5049,7 +5534,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5077,7 +5562,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -5086,7 +5571,7 @@
 										"id": 4165,
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -5114,8 +5599,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									},
@@ -5123,7 +5608,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5148,8 +5633,8 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 1,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -5157,7 +5642,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -5185,7 +5670,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -5194,7 +5679,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5222,8 +5707,8 @@
 										"id": 272,
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 4,
 										"winner": true
 									},
@@ -5231,7 +5716,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": false
@@ -5259,7 +5744,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 3,
 										"winner": true
@@ -5268,7 +5753,7 @@
 										"id": 2113,
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5293,7 +5778,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5302,8 +5787,8 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 3,
 										"winner": true
 									}
@@ -5330,8 +5815,8 @@
 										"id": 2117,
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 6,
+										"featured": true,
 										"score": 2,
 										"winner": true
 									},
@@ -5339,7 +5824,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5367,7 +5852,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5376,8 +5861,8 @@
 										"id": 275,
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 7,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -5413,7 +5898,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -5438,8 +5923,8 @@
 										"id": 827,
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 5,
+										"featured": true,
 										"score": 5,
 										"winner": true
 									},
@@ -5447,7 +5932,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -5475,7 +5960,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -5484,8 +5969,8 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
-										"featured": false,
+										"position": 3,
+										"featured": true,
 										"score": 0,
 										"winner": null
 									}
@@ -5512,7 +5997,7 @@
 										"id": 267,
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 3,
 										"winner": false
@@ -5521,7 +6006,7 @@
 										"id": 271,
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 4,
 										"winner": true
@@ -5549,7 +6034,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
 									{
@@ -5561,13 +6046,24 @@
 										"fulfilled": true,
 										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
 										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (3)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"explanation": "El local va de 2 y el visitante de 11 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": true
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "do-local",
@@ -5575,9 +6071,19 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": true,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está entre los primeros 5 puestos de la tabla | (2/12)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
+										"explanation": "El visitante está mas abajo de los primeros 10 puestos de la tabla | (11/12)"
+									},
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -5593,7 +6099,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -5601,9 +6113,14 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": true,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está entre los primeros 5 puestos de la tabla | (2/12)"
+									},
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -5619,7 +6136,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -5642,28 +6165,691 @@
 		"priority": 2,
 		"standings": {
 			"type": "SIMPLE",
-			"items": [],
+			"items": [
+				{
+					"teamId": 1147,
+					"teamName": "Fortaleza FC",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 6, "against": 2, "diff": 4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 1136,
+					"teamName": "Once Caldas",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 1, "diff": 4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1134,
+					"teamName": "La Equidad",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 3,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 5, "against": 3, "diff": 2 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1137,
+					"teamName": "Atletico Nacional",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 3,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 7, "against": 6, "diff": 1 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1138,
+					"teamName": "America de Cali",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 8, "against": 4, "diff": 4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1125,
+					"teamName": "Millonarios",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 5, "against": 5, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1139,
+					"teamName": "Santa Fe",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2, "diff": 1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1127,
+					"teamName": "Deportivo Cali",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 2,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1128,
+					"teamName": "Independiente Medellin",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 1,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 3, "against": 4, "diff": -1 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 1135,
+					"teamName": "Junior",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1126,
+					"teamName": "Deportivo Pasto",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
+					}
+				},
+				{
+					"teamId": 1462,
+					"teamName": "Deportivo Pereira",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1142,
+					"teamName": "Deportes Tolima",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 1131,
+					"teamName": "Bucaramanga",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 1, "diff": 0 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1144,
+					"teamName": "Rionegro Aguilas",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 5, "against": 6, "diff": -1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 1141,
+					"teamName": "Alianza Petrolera",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 6, "diff": -2 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1133,
+					"teamName": "Jaguares",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 0,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1, "diff": -1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 0,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1129,
+					"teamName": "Envigado",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 2, "against": 7, "diff": -5 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1140,
+					"teamName": "Patriotas",
+					"points": 2,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 3, "against": 6, "diff": -3 }
+						},
+						"home": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1132,
+					"teamName": "Chico",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 1, "against": 4, "diff": -3 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				}
+			],
 			"stats": {
-				"promedio_de_goles_anotados_por_partido": 0,
-				"promedio_de_goles_anotados_de_local_por_partido": 0,
-				"promedio_de_goles_anotados_de_visitante_por_partido": 0
+				"promedio_de_goles_anotados_por_partido": 0.9,
+				"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
 			}
 		},
 		"matches": [
 			{
 				"id": "1234180",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T20:00",
 				"date": "2024-08-06",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1462,
 						"name": "Deportivo Pereira",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": null,
+						"position": 12,
 						"featured": false,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -5779,7 +6965,7 @@
 										"id": 1126,
 										"name": "Deportivo Pasto",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 11,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5788,7 +6974,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -5816,7 +7002,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5825,7 +7011,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": null
@@ -5853,8 +7039,8 @@
 										"id": 1127,
 										"name": "Deportivo Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
-										"featured": false,
+										"position": 8,
+										"featured": true,
 										"score": 0,
 										"winner": false
 									},
@@ -5862,7 +7048,7 @@
 										"id": 1462,
 										"name": "Deportivo Pereira",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 12,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -5886,8 +7072,10 @@
 						"id": 1132,
 						"name": "Chico",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": null,
+						"position": 20,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -6003,7 +7191,7 @@
 										"id": 1128,
 										"name": "Independiente Medellin",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 9,
 										"featured": false,
 										"score": 1,
 										"winner": true
@@ -6012,7 +7200,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6040,7 +7228,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -6049,7 +7237,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 18,
 										"featured": false,
 										"score": 0,
 										"winner": null
@@ -6077,7 +7265,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 10,
 										"featured": false,
 										"score": 2,
 										"winner": true
@@ -6086,7 +7274,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 20,
 										"featured": false,
 										"score": 1,
 										"winner": false
@@ -6114,7 +7302,7 @@
 										"id": 1132,
 										"name": "Chico",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 20,
 										"featured": false,
 										"score": 0,
 										"winner": false
@@ -6123,8 +7311,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
-										"featured": false,
+										"position": 2,
+										"featured": true,
 										"score": 1,
 										"winner": true
 									}
@@ -6151,9 +7339,19 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (12/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
+										"explanation": "El visitante está mas abajo de los primeros 10 puestos de la tabla | (20/20)"
+									},
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -6169,7 +7367,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -6177,7 +7381,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
 									{
@@ -6189,13 +7393,24 @@
 										"fulfilled": true,
 										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
 										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.5)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"explanation": "El local va de 12 y el visitante de 20 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -6203,9 +7418,14 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local debe estar en los primeros 5 lugares de la tabla",
+										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (12/20)"
+									},
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
@@ -6221,7 +7441,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -6254,11 +7480,11 @@
 		"matches": [
 			{
 				"id": "1251949",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T19:45",
 				"date": "2024-08-06",
 				"hour": "19:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 133,
@@ -6266,6 +7492,8 @@
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 24 partidos",
@@ -7267,6 +8495,8 @@
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 24 partidos",
@@ -8288,7 +9518,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "do-local",
@@ -8314,7 +9550,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -8340,7 +9582,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -8373,11 +9621,11 @@
 		"matches": [
 			{
 				"id": "1273677",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T11:00",
 				"date": "2024-08-06",
 				"hour": "11:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 556,
@@ -8385,6 +9633,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -8708,6 +9958,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -9057,7 +10309,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": true,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -9083,7 +10341,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -9109,7 +10373,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -9124,11 +10394,11 @@
 			},
 			{
 				"id": "1273681",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T12:00",
 				"date": "2024-08-06",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 375,
@@ -9136,6 +10406,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -9459,6 +10731,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -9802,7 +11076,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "do-local",
@@ -9828,7 +11108,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -9854,7 +11140,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -9869,11 +11161,11 @@
 			},
 			{
 				"id": "1273683",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T12:15",
 				"date": "2024-08-06",
 				"hour": "12:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 397,
@@ -9881,6 +11173,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -10281,6 +11575,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -10624,7 +11920,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -10650,7 +11952,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -10676,7 +11984,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -10691,11 +12005,11 @@
 			},
 			{
 				"id": "1273679",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T13:00",
 				"date": "2024-08-06",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 628,
@@ -10703,6 +12017,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -11103,6 +12419,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -11520,7 +12838,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -11546,7 +12870,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -11572,7 +12902,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -11587,11 +12923,11 @@
 			},
 			{
 				"id": "1273687",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T13:00",
 				"date": "2024-08-06",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 572,
@@ -11599,6 +12935,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -12024,6 +13362,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": null,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -12330,7 +13670,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -12356,7 +13702,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -12382,7 +13734,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": true,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -12397,11 +13755,11 @@
 			},
 			{
 				"id": "1271720",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T13:30",
 				"date": "2024-08-06",
 				"hour": "13:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 79,
@@ -12409,6 +13767,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -12726,6 +14086,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -13035,7 +14397,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "do-local",
@@ -13061,7 +14429,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -13087,7 +14461,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -13102,11 +14482,11 @@
 			},
 			{
 				"id": "1253319",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T13:45",
 				"date": "2024-08-06",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 571,
@@ -13114,6 +14494,8 @@
 						"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -13437,6 +14819,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -13638,7 +15022,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -13664,7 +15054,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -13690,7 +15086,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -13723,11 +15125,11 @@
 		"matches": [
 			{
 				"id": "1274823",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T11:00",
 				"date": "2024-08-06",
 				"hour": "11:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3684,
@@ -13735,6 +15137,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 3,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -14030,6 +15434,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -14373,7 +15779,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -14399,7 +15811,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -14425,7 +15843,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -14458,11 +15882,11 @@
 		"matches": [
 			{
 				"id": "1274773",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T11:30",
 				"date": "2024-08-06",
 				"hour": "11:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3874,
@@ -14470,6 +15894,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -14867,6 +16293,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 2,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -15210,7 +16638,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -15236,7 +16670,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -15262,7 +16702,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -15277,11 +16723,11 @@
 			},
 			{
 				"id": "1273694",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-06T12:00",
 				"date": "2024-08-06",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2271,
@@ -15289,6 +16735,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 1,
+						"winner": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -15584,6 +17032,8 @@
 						"country": null,
 						"position": null,
 						"featured": false,
+						"score": 0,
+						"winner": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -15933,7 +17383,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -15959,7 +17415,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -15985,7 +17447,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {

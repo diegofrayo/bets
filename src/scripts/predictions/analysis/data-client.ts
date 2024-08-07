@@ -108,6 +108,7 @@ async function fetchPlayedMatches({
 			await APIClient.get("/fixtures", {
 				timezone: "America/Bogota",
 				team: team.id,
+				season: league.season.year,
 				from: `${new Date().getFullYear()}-01-01`,
 				to: formatDate(new Date()),
 			})
@@ -140,14 +141,13 @@ async function fetchLeagueStandings({
 	fetchFromAPI: boolean;
 	date: DR.Dates.DateString;
 }): Promise<T_LeagueStandings> {
-	const today = formatDate(new Date());
 	const outputFileName = composeLeagueName(league.id, {
 		full: true,
-		date: date >= today ? today : date,
+		date,
 	});
 	let rawResponse;
 
-	if (fetchFromAPI && date === today) {
+	if (fetchFromAPI) {
 		rawResponse = (
 			await APIClient.get("/standings", {
 				league: league.id,
@@ -171,16 +171,6 @@ async function fetchLeagueStandings({
 			`src/scripts/predictions/data/output/standings/${outputFileName}.json`,
 			parsedResponse,
 		);
-
-		if (date > today) {
-			writeFile(
-				`src/scripts/predictions/data/output/standings/${composeLeagueName(league.id, {
-					full: true,
-					date,
-				})}.json`,
-				parsedResponse,
-			);
-		}
 	}
 
 	return parsedResponse;
@@ -1028,6 +1018,7 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 					skippedLost: 0,
 					total: 0,
 					successPercentaje: 0,
+					picksPercentaje: 0,
 				},
 				record: {
 					winning: {},
@@ -1050,6 +1041,13 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 			(predictionStatsFile[prediction.id].stats.winning /
 				(predictionStatsFile[prediction.id].stats.winning +
 					predictionStatsFile[prediction.id].stats.lost)) *
+				100,
+			1,
+		);
+		predictionStatsFile[prediction.id].stats.picksPercentaje = formatDecimalNumber(
+			((predictionStatsFile[prediction.id].stats.winning +
+				predictionStatsFile[prediction.id].stats.lost) /
+				predictionStatsFile[prediction.id].stats.total) *
 				100,
 			1,
 		);

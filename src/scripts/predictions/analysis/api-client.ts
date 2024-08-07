@@ -5,6 +5,7 @@ import type DR from "../../../@diegofrayo/types";
 import { readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { delay } from "../../../@diegofrayo/utils/misc";
 import { addLeftPadding } from "../../../@diegofrayo/utils/strings";
+import v from "../../../@diegofrayo/v";
 
 import { formatCode, formatDate } from "./utils";
 
@@ -55,7 +56,13 @@ const APIClient = {
 			await checkForAPIRequestsPerMinuteLimit();
 		}
 
-		return instance.get(path, { params: queryParams });
+		const output = await instance.get(path, { params: queryParams });
+
+		if ("errors" in output.data && !v.isEmptyArray(output.data.errors)) {
+			throw new Error(JSON.stringify(output.data.errors));
+		}
+
+		return output;
 	},
 
 	async calculateUsageStats() {

@@ -32,6 +32,7 @@ export type T_RawMatchesResponse = {
 			away: number | null;
 		};
 	}>;
+	errors: [] | DR.JSON;
 };
 
 export type T_RawLeagueStandingsResponse = {
@@ -111,6 +112,7 @@ export type T_PredictionsStatsFile = DR.Object<{
 		skippedLost: number;
 		total: number;
 		successPercentaje: number;
+		picksPercentaje: number;
 	};
 	record: {
 		winning: DR.Object<Array<string>>;

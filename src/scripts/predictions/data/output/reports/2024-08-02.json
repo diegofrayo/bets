@@ -958,41 +958,41 @@
 						"winner": false,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 4 partidos",
+								"name": "Comportamiento general en los últimos 3 partidos",
 								"items": {
-									"total_de_partidos": 4,
+									"total_de_partidos": 3,
 									"total_de_goles_anotados": 2,
 									"total_de_goles_recibidos": 1,
-									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_anotados": 0.7,
 									"promedio_de_goles_recibidos": 0.3,
 									"partidos_ganados": 1,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 50
+									"puntos_ganados": 5,
+									"porcentaje_de_puntos_ganados": 55.6
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 4 partidos",
+								"name": "Comportamiento como local en los últimos 3 partidos",
 								"items": {
-									"total_de_partidos": 2,
+									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
+									"puntos_ganados": 1,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"name": "Comportamiento como visitante en los últimos 3 partidos",
 								"items": {
 									"total_de_partidos": 2,
 									"total_de_goles_anotados": 2,
@@ -1011,34 +1011,34 @@
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 4,
+									"total_de_partidos": 3,
 									"total_de_goles_anotados": 2,
 									"total_de_goles_recibidos": 1,
-									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_anotados": 0.7,
 									"promedio_de_goles_recibidos": 0.3,
 									"partidos_ganados": 1,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 50
+									"puntos_ganados": 5,
+									"porcentaje_de_puntos_ganados": 55.6
 								}
 							},
 							"last-home-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como local",
 								"items": {
-									"total_de_partidos": 2,
+									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
+									"puntos_ganados": 1,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
@@ -1061,43 +1061,6 @@
 							}
 						},
 						"matches": [
-							{
-								"id": "1158779",
-								"fullDate": "2024-08-02T18:00",
-								"date": "2024-08-02",
-								"hour": "18:00",
-								"teams": {
-									"home": {
-										"id": 457,
-										"name": "Newells Old Boys",
-										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 16,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 450,
-										"name": "Estudiantes L.P.",
-										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 12,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 128,
-									"name": "Liga Profesional Argentina",
-									"type": "League",
-									"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-									"season": { "year": 2024, "startDate": "2024-07-18" },
-									"priority": 2
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1158764",
 								"fullDate": "2024-07-27T15:00",
@@ -1221,24 +1184,24 @@
 						"winner": true,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 4 partidos",
+								"name": "Comportamiento general en los últimos 3 partidos",
 								"items": {
-									"total_de_partidos": 4,
+									"total_de_partidos": 3,
 									"total_de_goles_anotados": 4,
 									"total_de_goles_recibidos": 1,
-									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_anotados": 1.3,
 									"promedio_de_goles_recibidos": 0.3,
 									"partidos_ganados": 1,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 1,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 50
+									"puntos_ganados": 5,
+									"porcentaje_de_puntos_ganados": 55.6
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 4 partidos",
+								"name": "Comportamiento como local en los últimos 3 partidos",
 								"items": {
 									"total_de_partidos": 2,
 									"total_de_goles_anotados": 4,
@@ -1255,37 +1218,37 @@
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"name": "Comportamiento como visitante en los últimos 3 partidos",
 								"items": {
-									"total_de_partidos": 2,
+									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
+									"puntos_ganados": 1,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 4,
+									"total_de_partidos": 3,
 									"total_de_goles_anotados": 4,
 									"total_de_goles_recibidos": 1,
-									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_anotados": 1.3,
 									"promedio_de_goles_recibidos": 0.3,
 									"partidos_ganados": 1,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 1,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 50
+									"puntos_ganados": 5,
+									"porcentaje_de_puntos_ganados": 55.6
 								}
 							},
 							"last-home-matches": {
@@ -1308,59 +1271,22 @@
 							"last-away-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como visitante",
 								"items": {
-									"total_de_partidos": 2,
+									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
+									"puntos_ganados": 1,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							}
 						},
 						"matches": [
-							{
-								"id": "1158779",
-								"fullDate": "2024-08-02T18:00",
-								"date": "2024-08-02",
-								"hour": "18:00",
-								"teams": {
-									"home": {
-										"id": 457,
-										"name": "Newells Old Boys",
-										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 16,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 450,
-										"name": "Estudiantes L.P.",
-										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 12,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 128,
-									"name": "Liga Profesional Argentina",
-									"type": "League",
-									"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-									"season": { "year": 2024, "startDate": "2024-07-18" },
-									"priority": 2
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1158765",
 								"fullDate": "2024-07-28T13:00",
@@ -1498,12 +1424,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (6/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (6/15)"
+										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
 									}
 								],
 								"fulfilled": false
@@ -1572,12 +1498,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (6/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (6/15)"
+										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (5/15)"
 									}
 								],
 								"fulfilled": false
@@ -2234,54 +2160,54 @@
 						"winner": true,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 44 partidos",
+								"name": "Comportamiento general en los últimos 30 partidos",
 								"items": {
-									"total_de_partidos": 44,
-									"total_de_goles_anotados": 75,
-									"total_de_goles_recibidos": 36,
-									"promedio_de_goles_anotados": 1.7,
+									"total_de_partidos": 30,
+									"total_de_goles_anotados": 48,
+									"total_de_goles_recibidos": 25,
+									"promedio_de_goles_anotados": 1.6,
 									"promedio_de_goles_recibidos": 0.8,
-									"partidos_ganados": 26,
-									"partidos_empatados": 10,
-									"partidos_perdidos": 8,
-									"partidos_con_goles_anotados": 37,
-									"partidos_con_goles_recibidos": 26,
-									"puntos_ganados": 88,
-									"porcentaje_de_puntos_ganados": 66.7
+									"partidos_ganados": 17,
+									"partidos_empatados": 8,
+									"partidos_perdidos": 5,
+									"partidos_con_goles_anotados": 25,
+									"partidos_con_goles_recibidos": 18,
+									"puntos_ganados": 59,
+									"porcentaje_de_puntos_ganados": 65.6
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 44 partidos",
+								"name": "Comportamiento como local en los últimos 30 partidos",
 								"items": {
-									"total_de_partidos": 24,
-									"total_de_goles_anotados": 46,
-									"total_de_goles_recibidos": 18,
-									"promedio_de_goles_anotados": 1.9,
-									"promedio_de_goles_recibidos": 0.8,
-									"partidos_ganados": 16,
-									"partidos_empatados": 6,
-									"partidos_perdidos": 2,
-									"partidos_con_goles_anotados": 22,
-									"partidos_con_goles_recibidos": 13,
-									"puntos_ganados": 54,
-									"porcentaje_de_puntos_ganados": 75
+									"total_de_partidos": 16,
+									"total_de_goles_anotados": 28,
+									"total_de_goles_recibidos": 11,
+									"promedio_de_goles_anotados": 1.8,
+									"promedio_de_goles_recibidos": 0.7,
+									"partidos_ganados": 10,
+									"partidos_empatados": 5,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 14,
+									"partidos_con_goles_recibidos": 8,
+									"puntos_ganados": 35,
+									"porcentaje_de_puntos_ganados": 72.9
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 44 partidos",
+								"name": "Comportamiento como visitante en los últimos 30 partidos",
 								"items": {
-									"total_de_partidos": 20,
-									"total_de_goles_anotados": 29,
-									"total_de_goles_recibidos": 18,
+									"total_de_partidos": 14,
+									"total_de_goles_anotados": 20,
+									"total_de_goles_recibidos": 14,
 									"promedio_de_goles_anotados": 1.4,
-									"promedio_de_goles_recibidos": 0.9,
-									"partidos_ganados": 10,
-									"partidos_empatados": 4,
-									"partidos_perdidos": 6,
-									"partidos_con_goles_anotados": 15,
-									"partidos_con_goles_recibidos": 13,
-									"puntos_ganados": 34,
-									"porcentaje_de_puntos_ganados": 56.7
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 7,
+									"partidos_empatados": 3,
+									"partidos_perdidos": 4,
+									"partidos_con_goles_anotados": 11,
+									"partidos_con_goles_recibidos": 10,
+									"puntos_ganados": 24,
+									"porcentaje_de_puntos_ganados": 57.1
 								}
 							},
 							"last-matches": {
@@ -2292,30 +2218,30 @@
 									"total_de_goles_recibidos": 6,
 									"promedio_de_goles_anotados": 1.8,
 									"promedio_de_goles_recibidos": 1.2,
-									"partidos_ganados": 3,
-									"partidos_empatados": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 1,
-									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_anotados": 4,
 									"partidos_con_goles_recibidos": 4,
-									"puntos_ganados": 10,
-									"porcentaje_de_puntos_ganados": 66.7
+									"puntos_ganados": 8,
+									"porcentaje_de_puntos_ganados": 53.3
 								}
 							},
 							"last-home-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como local",
 								"items": {
 									"total_de_partidos": 2,
-									"total_de_goles_anotados": 5,
-									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 2.5,
-									"promedio_de_goles_recibidos": 1,
-									"partidos_ganados": 2,
-									"partidos_empatados": 0,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 2,
-									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 100
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7
 								}
 							},
 							"last-away-matches": {
@@ -2337,80 +2263,6 @@
 							}
 						},
 						"matches": [
-							{
-								"id": "1176834",
-								"fullDate": "2024-08-05T13:00",
-								"date": "2024-08-05",
-								"hour": "13:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 4,
-										"winner": true
-									},
-									"away": {
-										"id": 1037,
-										"name": "Enppi",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"featured": false,
-										"score": 2,
-										"winner": false
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1215800",
-								"fullDate": "2024-08-02T13:00",
-								"date": "2024-08-02",
-								"hour": "13:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 1,
-										"winner": true
-									},
-									"away": {
-										"id": 1574,
-										"name": "El Gouna FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 13,
-										"featured": false,
-										"score": 0,
-										"winner": false
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1176812",
 								"fullDate": "2024-07-29T13:00",
@@ -3493,435 +3345,6 @@
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
-							},
-							{
-								"id": "1138672",
-								"fullDate": "2023-12-20T11:00",
-								"date": "2023-12-20",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 4925,
-										"name": "Sagrada Esperança",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"id": 20,
-									"name": "CAF Confederation Cup",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132576",
-								"fullDate": "2023-12-14T12:00",
-								"date": "2023-12-14",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 1031,
-										"name": "AL Masry",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
-										"featured": true,
-										"score": 1,
-										"winner": true
-									},
-									"away": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 0,
-										"winner": false
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1138664",
-								"fullDate": "2023-12-09T11:00",
-								"date": "2023-12-09",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 1,
-										"winner": true
-									},
-									"away": {
-										"id": 4925,
-										"name": "Sagrada Esperança",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": false
-									}
-								},
-								"league": {
-									"id": 20,
-									"name": "CAF Confederation Cup",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1138655",
-								"fullDate": "2023-12-03T12:00",
-								"date": "2023-12-03",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 4412,
-										"name": "CO Coyah",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": false
-									},
-									"away": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 4,
-										"winner": true
-									}
-								},
-								"league": {
-									"id": 20,
-									"name": "CAF Confederation Cup",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132558",
-								"fullDate": "2023-11-29T12:00",
-								"date": "2023-11-29",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 16431,
-										"name": "Coca-Cola",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"featured": true,
-										"score": 0,
-										"winner": false
-									},
-									"away": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 2,
-										"winner": true
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1138647",
-								"fullDate": "2023-11-26T11:00",
-								"date": "2023-11-26",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 1,
-										"winner": true
-									},
-									"away": {
-										"id": 12422,
-										"name": "Abu Salim",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": false
-									}
-								},
-								"league": {
-									"id": 20,
-									"name": "CAF Confederation Cup",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132557",
-								"fullDate": "2023-11-03T12:00",
-								"date": "2023-11-03",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 1,
-										"winner": false
-									},
-									"away": {
-										"id": 7520,
-										"name": "Masr",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"featured": true,
-										"score": 2,
-										"winner": true
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132540",
-								"fullDate": "2023-10-27T12:00",
-								"date": "2023-10-27",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 1037,
-										"name": "Enppi",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"featured": false,
-										"score": 2,
-										"winner": true
-									},
-									"away": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 1,
-										"winner": false
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132539",
-								"fullDate": "2023-10-21T11:00",
-								"date": "2023-10-21",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 5,
-										"winner": true
-									},
-									"away": {
-										"id": 1044,
-										"name": "Smouha SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"featured": true,
-										"score": 1,
-										"winner": false
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132522",
-								"fullDate": "2023-10-07T11:00",
-								"date": "2023-10-07",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 15570,
-										"name": "National Bank of Egypt",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 12,
-										"featured": false,
-										"score": 1,
-										"winner": false
-									},
-									"away": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 2,
-										"winner": true
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1124138",
-								"fullDate": "2023-09-30T11:00",
-								"date": "2023-09-30",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 4,
-										"winner": true
-									},
-									"away": {
-										"id": 8055,
-										"name": "Arta / SIHD",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"score": 1,
-										"winner": false
-									}
-								},
-								"league": {
-									"id": 20,
-									"name": "CAF Confederation Cup",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132521",
-								"fullDate": "2023-09-25T11:00",
-								"date": "2023-09-25",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 1,
-										"winner": null
-									},
-									"away": {
-										"id": 1575,
-										"name": "El Mokawloon",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
-										"featured": false,
-										"score": 1,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
 							}
 						]
 					},
@@ -3935,24 +3358,24 @@
 						"winner": false,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 36 partidos",
+								"name": "Comportamiento general en los últimos 35 partidos",
 								"items": {
-									"total_de_partidos": 36,
+									"total_de_partidos": 35,
 									"total_de_goles_anotados": 35,
 									"total_de_goles_recibidos": 47,
 									"promedio_de_goles_anotados": 1,
 									"promedio_de_goles_recibidos": 1.3,
 									"partidos_ganados": 8,
-									"partidos_empatados": 14,
+									"partidos_empatados": 13,
 									"partidos_perdidos": 14,
 									"partidos_con_goles_anotados": 24,
 									"partidos_con_goles_recibidos": 28,
-									"puntos_ganados": 38,
+									"puntos_ganados": 37,
 									"porcentaje_de_puntos_ganados": 35.2
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 36 partidos",
+								"name": "Comportamiento como local en los últimos 35 partidos",
 								"items": {
 									"total_de_partidos": 17,
 									"total_de_goles_anotados": 18,
@@ -3969,20 +3392,20 @@
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 36 partidos",
+								"name": "Comportamiento como visitante en los últimos 35 partidos",
 								"items": {
-									"total_de_partidos": 19,
+									"total_de_partidos": 18,
 									"total_de_goles_anotados": 17,
 									"total_de_goles_recibidos": 26,
 									"promedio_de_goles_anotados": 0.9,
 									"promedio_de_goles_recibidos": 1.4,
 									"partidos_ganados": 3,
-									"partidos_empatados": 8,
+									"partidos_empatados": 7,
 									"partidos_perdidos": 8,
 									"partidos_con_goles_anotados": 13,
 									"partidos_con_goles_recibidos": 16,
-									"puntos_ganados": 17,
-									"porcentaje_de_puntos_ganados": 29.8
+									"puntos_ganados": 16,
+									"porcentaje_de_puntos_ganados": 29.6
 								}
 							},
 							"last-matches": {
@@ -3990,16 +3413,16 @@
 								"items": {
 									"total_de_partidos": 5,
 									"total_de_goles_anotados": 2,
-									"total_de_goles_recibidos": 5,
+									"total_de_goles_recibidos": 6,
 									"promedio_de_goles_anotados": 0.4,
-									"promedio_de_goles_recibidos": 1,
+									"promedio_de_goles_recibidos": 1.2,
 									"partidos_ganados": 0,
-									"partidos_empatados": 3,
-									"partidos_perdidos": 2,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 3,
 									"partidos_con_goles_anotados": 2,
-									"partidos_con_goles_recibidos": 3,
-									"puntos_ganados": 3,
-									"porcentaje_de_puntos_ganados": 20
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 2,
+									"porcentaje_de_puntos_ganados": 13.3
 								}
 							},
 							"last-home-matches": {
@@ -4023,58 +3446,21 @@
 								"name": "Comportamiento en los últimos 3 partidos como visitante",
 								"items": {
 									"total_de_partidos": 2,
-									"total_de_goles_anotados": 1,
-									"total_de_goles_recibidos": 1,
-									"promedio_de_goles_anotados": 0.5,
-									"promedio_de_goles_recibidos": 0.5,
+									"total_de_goles_anotados": 2,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1.5,
 									"partidos_ganados": 0,
-									"partidos_empatados": 2,
-									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 1,
-									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 2,
-									"porcentaje_de_puntos_ganados": 33.3
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 16.7
 								}
 							}
 						},
 						"matches": [
-							{
-								"id": "1215800",
-								"fullDate": "2024-08-02T13:00",
-								"date": "2024-08-02",
-								"hour": "13:00",
-								"teams": {
-									"home": {
-										"id": 1040,
-										"name": "Zamalek SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 1574,
-										"name": "El Gouna FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 13,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1215789",
 								"fullDate": "2024-07-22T09:30",
@@ -5371,7 +4757,7 @@
 									{
 										"fulfilled": true,
 										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.9)"
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.8)"
 									},
 									{
 										"fulfilled": true,
@@ -5416,14 +4802,14 @@
 										"explanation": "El visitante está mas abajo de los primeros 10 puestos de la tabla | (13/18)"
 									},
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (10/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (8/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
+										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
 									}
 								],
 								"fulfilled": false
@@ -5453,14 +4839,14 @@
 										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (6/18)"
 									},
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (10/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (8/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (3/15)"
+										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (2/15)"
 									}
 								],
 								"fulfilled": false
@@ -6183,41 +5569,41 @@
 						"winner": true,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 5 partidos",
+								"name": "Comportamiento general en los últimos 4 partidos",
 								"items": {
-									"total_de_partidos": 5,
+									"total_de_partidos": 4,
 									"total_de_goles_anotados": 4,
 									"total_de_goles_recibidos": 5,
-									"promedio_de_goles_anotados": 0.8,
-									"promedio_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1.3,
 									"partidos_ganados": 1,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 2,
 									"partidos_con_goles_anotados": 4,
 									"partidos_con_goles_recibidos": 3,
-									"puntos_ganados": 5,
+									"puntos_ganados": 4,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 5 partidos",
+								"name": "Comportamiento como local en los últimos 4 partidos",
 								"items": {
-									"total_de_partidos": 3,
+									"total_de_partidos": 2,
 									"total_de_goles_anotados": 2,
 									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 0.7,
-									"promedio_de_goles_recibidos": 0.7,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
 									"partidos_ganados": 1,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 1,
 									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 4,
-									"porcentaje_de_puntos_ganados": 44.4
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 5 partidos",
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
 								"items": {
 									"total_de_partidos": 2,
 									"total_de_goles_anotados": 2,
@@ -6236,17 +5622,17 @@
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 5,
+									"total_de_partidos": 4,
 									"total_de_goles_anotados": 4,
 									"total_de_goles_recibidos": 5,
-									"promedio_de_goles_anotados": 0.8,
-									"promedio_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1.3,
 									"partidos_ganados": 1,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 2,
 									"partidos_con_goles_anotados": 4,
 									"partidos_con_goles_recibidos": 3,
-									"puntos_ganados": 5,
+									"puntos_ganados": 4,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
@@ -6254,17 +5640,17 @@
 								"name": "Comportamiento en los últimos 3 partidos como local",
 								"items": {
 									"total_de_partidos": 2,
-									"total_de_goles_anotados": 1,
+									"total_de_goles_anotados": 2,
 									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_anotados": 1,
 									"promedio_de_goles_recibidos": 1,
-									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 1,
-									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 16.7
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50
 								}
 							},
 							"last-away-matches": {
@@ -6286,43 +5672,6 @@
 							}
 						},
 						"matches": [
-							{
-								"id": "1234173",
-								"fullDate": "2024-08-02T20:00",
-								"date": "2024-08-02",
-								"hour": "20:00",
-								"teams": {
-									"home": {
-										"id": 1125,
-										"name": "Millonarios",
-										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 12,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 1142,
-										"name": "Deportes Tolima",
-										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 239,
-									"name": "Primera A",
-									"type": "League",
-									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-									"season": { "year": 2024, "startDate": "2024-07-15" },
-									"priority": 2
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1234169",
 								"fullDate": "2024-07-28T17:30",
@@ -6483,24 +5832,24 @@
 						"winner": false,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 4 partidos",
+								"name": "Comportamiento general en los últimos 3 partidos",
 								"items": {
-									"total_de_partidos": 4,
+									"total_de_partidos": 3,
 									"total_de_goles_anotados": 3,
 									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 0.8,
-									"promedio_de_goles_recibidos": 0.5,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0.7,
 									"partidos_ganados": 1,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 2,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 50
+									"puntos_ganados": 5,
+									"porcentaje_de_puntos_ganados": 55.6
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 4 partidos",
+								"name": "Comportamiento como local en los últimos 3 partidos",
 								"items": {
 									"total_de_partidos": 1,
 									"total_de_goles_anotados": 2,
@@ -6517,37 +5866,37 @@
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"name": "Comportamiento como visitante en los últimos 3 partidos",
 								"items": {
-									"total_de_partidos": 3,
+									"total_de_partidos": 2,
 									"total_de_goles_anotados": 1,
 									"total_de_goles_recibidos": 1,
-									"promedio_de_goles_anotados": 0.3,
-									"promedio_de_goles_recibidos": 0.3,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 0.5,
 									"partidos_ganados": 0,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 1,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 3,
+									"puntos_ganados": 2,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 4,
+									"total_de_partidos": 3,
 									"total_de_goles_anotados": 3,
 									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 0.8,
-									"promedio_de_goles_recibidos": 0.5,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0.7,
 									"partidos_ganados": 1,
-									"partidos_empatados": 3,
+									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 2,
-									"puntos_ganados": 6,
-									"porcentaje_de_puntos_ganados": 50
+									"puntos_ganados": 5,
+									"porcentaje_de_puntos_ganados": 55.6
 								}
 							},
 							"last-home-matches": {
@@ -6571,58 +5920,21 @@
 								"name": "Comportamiento en los últimos 3 partidos como visitante",
 								"items": {
 									"total_de_partidos": 2,
-									"total_de_goles_anotados": 0,
-									"total_de_goles_recibidos": 0,
-									"promedio_de_goles_anotados": 0,
-									"promedio_de_goles_recibidos": 0,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 0.5,
 									"partidos_ganados": 0,
 									"partidos_empatados": 2,
 									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 0,
-									"partidos_con_goles_recibidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
 									"puntos_ganados": 2,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							}
 						},
 						"matches": [
-							{
-								"id": "1234173",
-								"fullDate": "2024-08-02T20:00",
-								"date": "2024-08-02",
-								"hour": "20:00",
-								"teams": {
-									"home": {
-										"id": 1125,
-										"name": "Millonarios",
-										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 12,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 1142,
-										"name": "Deportes Tolima",
-										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 239,
-									"name": "Primera A",
-									"type": "League",
-									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-									"season": { "year": 2024, "startDate": "2024-07-15" },
-									"priority": 2
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1234165",
 								"fullDate": "2024-07-28T15:00",
@@ -6760,12 +6072,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (4/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (6/15)"
+										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
 									}
 								],
 								"fulfilled": false
@@ -6792,12 +6104,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0.7)"
+										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (1)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0.3)"
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0.5)"
 									},
 									{
 										"fulfilled": false,
@@ -6834,12 +6146,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (4/15)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (6/15)"
+										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (5/15)"
 									}
 								],
 								"fulfilled": false
@@ -7298,41 +6610,41 @@
 						"winner": true,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 22 partidos",
+								"name": "Comportamiento general en los últimos 21 partidos",
 								"items": {
-									"total_de_partidos": 22,
+									"total_de_partidos": 21,
 									"total_de_goles_anotados": 47,
 									"total_de_goles_recibidos": 30,
-									"promedio_de_goles_anotados": 2.1,
+									"promedio_de_goles_anotados": 2.2,
 									"promedio_de_goles_recibidos": 1.4,
 									"partidos_ganados": 10,
-									"partidos_empatados": 5,
+									"partidos_empatados": 4,
 									"partidos_perdidos": 7,
 									"partidos_con_goles_anotados": 17,
 									"partidos_con_goles_recibidos": 16,
-									"puntos_ganados": 35,
-									"porcentaje_de_puntos_ganados": 53
+									"puntos_ganados": 34,
+									"porcentaje_de_puntos_ganados": 54
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 22 partidos",
+								"name": "Comportamiento como local en los últimos 21 partidos",
 								"items": {
-									"total_de_partidos": 12,
+									"total_de_partidos": 11,
 									"total_de_goles_anotados": 26,
 									"total_de_goles_recibidos": 15,
-									"promedio_de_goles_anotados": 2.2,
-									"promedio_de_goles_recibidos": 1.3,
+									"promedio_de_goles_anotados": 2.4,
+									"promedio_de_goles_recibidos": 1.4,
 									"partidos_ganados": 6,
-									"partidos_empatados": 4,
+									"partidos_empatados": 3,
 									"partidos_perdidos": 2,
 									"partidos_con_goles_anotados": 9,
 									"partidos_con_goles_recibidos": 10,
-									"puntos_ganados": 22,
-									"porcentaje_de_puntos_ganados": 61.1
+									"puntos_ganados": 21,
+									"porcentaje_de_puntos_ganados": 63.6
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 22 partidos",
+								"name": "Comportamiento como visitante en los últimos 21 partidos",
 								"items": {
 									"total_de_partidos": 10,
 									"total_de_goles_anotados": 21,
@@ -7352,34 +6664,34 @@
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
 									"total_de_partidos": 5,
-									"total_de_goles_anotados": 15,
-									"total_de_goles_recibidos": 4,
-									"promedio_de_goles_anotados": 3,
-									"promedio_de_goles_recibidos": 0.8,
-									"partidos_ganados": 3,
-									"partidos_empatados": 2,
+									"total_de_goles_anotados": 18,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 3.6,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 4,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 4,
-									"partidos_con_goles_recibidos": 2,
-									"puntos_ganados": 11,
-									"porcentaje_de_puntos_ganados": 73.3
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 13,
+									"porcentaje_de_puntos_ganados": 86.7
 								}
 							},
 							"last-home-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como local",
 								"items": {
 									"total_de_partidos": 2,
-									"total_de_goles_anotados": 2,
+									"total_de_goles_anotados": 5,
 									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_anotados": 2.5,
 									"promedio_de_goles_recibidos": 1,
-									"partidos_ganados": 0,
-									"partidos_empatados": 2,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_anotados": 2,
 									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 2,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7
 								}
 							},
 							"last-away-matches": {
@@ -7401,43 +6713,6 @@
 							}
 						},
 						"matches": [
-							{
-								"id": "1164662",
-								"fullDate": "2024-08-02T10:00",
-								"date": "2024-08-02",
-								"hour": "10:00",
-								"teams": {
-									"home": {
-										"id": 1164,
-										"name": "Inter Turku",
-										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-										"position": 7,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 587,
-										"name": "IFK Mariehamn",
-										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-										"position": 10,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 244,
-									"name": "Veikkausliiga",
-									"type": "League",
-									"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-									"season": { "year": 2024, "startDate": "2024-04-06" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1164655",
 								"fullDate": "2024-07-22T10:00",
@@ -8215,24 +7490,24 @@
 						"winner": false,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 20 partidos",
+								"name": "Comportamiento general en los últimos 19 partidos",
 								"items": {
-									"total_de_partidos": 20,
+									"total_de_partidos": 19,
 									"total_de_goles_anotados": 28,
 									"total_de_goles_recibidos": 30,
-									"promedio_de_goles_anotados": 1.4,
-									"promedio_de_goles_recibidos": 1.5,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1.6,
 									"partidos_ganados": 6,
-									"partidos_empatados": 5,
+									"partidos_empatados": 4,
 									"partidos_perdidos": 9,
 									"partidos_con_goles_anotados": 13,
 									"partidos_con_goles_recibidos": 15,
-									"puntos_ganados": 23,
-									"porcentaje_de_puntos_ganados": 38.3
+									"puntos_ganados": 22,
+									"porcentaje_de_puntos_ganados": 38.6
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 20 partidos",
+								"name": "Comportamiento como local en los últimos 19 partidos",
 								"items": {
 									"total_de_partidos": 10,
 									"total_de_goles_anotados": 11,
@@ -8249,37 +7524,37 @@
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 20 partidos",
+								"name": "Comportamiento como visitante en los últimos 19 partidos",
 								"items": {
-									"total_de_partidos": 10,
+									"total_de_partidos": 9,
 									"total_de_goles_anotados": 17,
 									"total_de_goles_recibidos": 11,
-									"promedio_de_goles_anotados": 1.7,
-									"promedio_de_goles_recibidos": 1.1,
+									"promedio_de_goles_anotados": 1.9,
+									"promedio_de_goles_recibidos": 1.2,
 									"partidos_ganados": 4,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 4,
 									"partidos_con_goles_anotados": 7,
 									"partidos_con_goles_recibidos": 6,
-									"puntos_ganados": 14,
-									"porcentaje_de_puntos_ganados": 46.7
+									"puntos_ganados": 13,
+									"porcentaje_de_puntos_ganados": 48.1
 								}
 							},
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
 									"total_de_partidos": 5,
-									"total_de_goles_anotados": 2,
-									"total_de_goles_recibidos": 11,
-									"promedio_de_goles_anotados": 0.4,
-									"promedio_de_goles_recibidos": 2.2,
-									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 12,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 2.4,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 4,
-									"partidos_con_goles_anotados": 2,
-									"partidos_con_goles_recibidos": 4,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 6.7
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 5,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 20
 								}
 							},
 							"last-home-matches": {
@@ -8303,58 +7578,21 @@
 								"name": "Comportamiento en los últimos 3 partidos como visitante",
 								"items": {
 									"total_de_partidos": 2,
-									"total_de_goles_anotados": 1,
-									"total_de_goles_recibidos": 2,
-									"promedio_de_goles_anotados": 0.5,
-									"promedio_de_goles_recibidos": 1,
-									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 1,
-									"partidos_con_goles_anotados": 1,
-									"partidos_con_goles_recibidos": 1,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 16.7
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50
 								}
 							}
 						},
 						"matches": [
-							{
-								"id": "1164662",
-								"fullDate": "2024-08-02T10:00",
-								"date": "2024-08-02",
-								"hour": "10:00",
-								"teams": {
-									"home": {
-										"id": 1164,
-										"name": "Inter Turku",
-										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-										"position": 7,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 587,
-										"name": "IFK Mariehamn",
-										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-										"position": 10,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 244,
-									"name": "Veikkausliiga",
-									"type": "League",
-									"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
-									"season": { "year": 2024, "startDate": "2024-04-06" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1164661",
 								"fullDate": "2024-07-28T10:30",
@@ -9075,12 +8313,12 @@
 									{
 										"fulfilled": true,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (11/15)"
+										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (13/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
+										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
 									}
 								],
 								"fulfilled": false
@@ -9107,12 +8345,12 @@
 									{
 										"fulfilled": true,
 										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2.2)"
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2.4)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.1)"
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.2)"
 									},
 									{
 										"fulfilled": false,
@@ -9149,12 +8387,12 @@
 									{
 										"fulfilled": true,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (11/15)"
+										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (13/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (1/15)"
+										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (3/15)"
 									}
 								],
 								"fulfilled": false
@@ -9216,41 +8454,41 @@
 						"winner": false,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 1 partidos",
+								"name": "Comportamiento general en los últimos 0 partidos",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 1 partidos",
+								"name": "Comportamiento como local en los últimos 0 partidos",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"name": "Comportamiento como visitante en los últimos 0 partidos",
 								"items": {
 									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
@@ -9269,35 +8507,35 @@
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"last-home-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como local",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"last-away-matches": {
@@ -9318,45 +8556,7 @@
 								}
 							}
 						},
-						"matches": [
-							{
-								"id": "1218574",
-								"fullDate": "2024-08-02T13:30",
-								"date": "2024-08-02",
-								"hour": "13:30",
-								"teams": {
-									"home": {
-										"id": 4256,
-										"name": "Grazer AK",
-										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 571,
-										"name": "Red Bull Salzburg",
-										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 218,
-									"name": "Bundesliga",
-									"type": "League",
-									"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-									"season": { "year": 2024, "startDate": "2024-08-02" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							}
-						]
+						"matches": []
 					},
 					"away": {
 						"id": 571,
@@ -9368,24 +8568,24 @@
 						"winner": true,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 1 partidos",
+								"name": "Comportamiento general en los últimos 0 partidos",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 1 partidos",
+								"name": "Comportamiento como local en los últimos 0 partidos",
 								"items": {
 									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
@@ -9402,37 +8602,37 @@
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"name": "Comportamiento como visitante en los últimos 0 partidos",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"last-home-matches": {
@@ -9455,60 +8655,22 @@
 							"last-away-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como visitante",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							}
 						},
-						"matches": [
-							{
-								"id": "1218574",
-								"fullDate": "2024-08-02T13:30",
-								"date": "2024-08-02",
-								"hour": "13:30",
-								"teams": {
-									"home": {
-										"id": 4256,
-										"name": "Grazer AK",
-										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 571,
-										"name": "Red Bull Salzburg",
-										"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-										"position": null,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 218,
-									"name": "Bundesliga",
-									"type": "League",
-									"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
-									"season": { "year": 2024, "startDate": "2024-08-02" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							}
-						]
+						"matches": []
 					}
 				},
 				"predictions": [
@@ -9524,12 +8686,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
+										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
 									}
 								],
 								"fulfilled": false
@@ -9588,12 +8750,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (1/15)"
+										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (0/15)"
 									}
 								],
 								"fulfilled": false
@@ -10184,24 +9346,7 @@
 						"winner": true,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 2 partidos",
-								"items": {
-									"total_de_partidos": 2,
-									"total_de_goles_anotados": 0,
-									"total_de_goles_recibidos": 0,
-									"promedio_de_goles_anotados": 0,
-									"promedio_de_goles_recibidos": 0,
-									"partidos_ganados": 0,
-									"partidos_empatados": 2,
-									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 0,
-									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
-									"porcentaje_de_puntos_ganados": 33.3
-								}
-							},
-							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 2 partidos",
+								"name": "Comportamiento general en los últimos 1 partidos",
 								"items": {
 									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
@@ -10217,8 +9362,25 @@
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
+								}
+							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 2 partidos",
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
 								"items": {
 									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
@@ -10237,23 +9399,6 @@
 							"last-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
-									"total_de_partidos": 2,
-									"total_de_goles_anotados": 0,
-									"total_de_goles_recibidos": 0,
-									"promedio_de_goles_anotados": 0,
-									"promedio_de_goles_recibidos": 0,
-									"partidos_ganados": 0,
-									"partidos_empatados": 2,
-									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 0,
-									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
-									"porcentaje_de_puntos_ganados": 33.3
-								}
-							},
-							"last-home-matches": {
-								"name": "Comportamiento en los últimos 3 partidos como local",
-								"items": {
 									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
@@ -10266,6 +9411,23 @@
 									"partidos_con_goles_recibidos": 0,
 									"puntos_ganados": 1,
 									"porcentaje_de_puntos_ganados": 33.3
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							},
 							"last-away-matches": {
@@ -10287,43 +9449,6 @@
 							}
 						},
 						"matches": [
-							{
-								"id": "1213209",
-								"fullDate": "2024-08-02T13:45",
-								"date": "2024-08-02",
-								"hour": "13:45",
-								"teams": {
-									"home": {
-										"id": 1393,
-										"name": "Union St. Gilloise",
-										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-										"position": 12,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 263,
-										"name": "Beerschot Wilrijk",
-										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-										"position": 7,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 144,
-									"name": "Jupiler Pro League",
-									"type": "League",
-									"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-									"season": { "year": 2024, "startDate": "2024-07-26" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1213202",
 								"fullDate": "2024-07-27T09:00",
@@ -10373,24 +9498,24 @@
 						"winner": false,
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 2 partidos",
+								"name": "Comportamiento general en los últimos 1 partidos",
 								"items": {
-									"total_de_partidos": 2,
+									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 2,
+									"partidos_empatados": 1,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
+									"puntos_ganados": 1,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 2 partidos",
+								"name": "Comportamiento como local en los últimos 1 partidos",
 								"items": {
 									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
@@ -10407,7 +9532,24 @@
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 2 partidos",
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
 								"items": {
 									"total_de_partidos": 1,
 									"total_de_goles_anotados": 0,
@@ -10420,23 +9562,6 @@
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
 									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
-								}
-							},
-							"last-matches": {
-								"name": "Comportamiento general en los últimos 5 partidos",
-								"items": {
-									"total_de_partidos": 2,
-									"total_de_goles_anotados": 0,
-									"total_de_goles_recibidos": 0,
-									"promedio_de_goles_anotados": 0,
-									"promedio_de_goles_recibidos": 0,
-									"partidos_ganados": 0,
-									"partidos_empatados": 2,
-									"partidos_perdidos": 0,
-									"partidos_con_goles_anotados": 0,
-									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 2,
 									"porcentaje_de_puntos_ganados": 33.3
 								}
 							},
@@ -10460,59 +9585,22 @@
 							"last-away-matches": {
 								"name": "Comportamiento en los últimos 3 partidos como visitante",
 								"items": {
-									"total_de_partidos": 1,
+									"total_de_partidos": 0,
 									"total_de_goles_anotados": 0,
 									"total_de_goles_recibidos": 0,
 									"promedio_de_goles_anotados": 0,
 									"promedio_de_goles_recibidos": 0,
 									"partidos_ganados": 0,
-									"partidos_empatados": 1,
+									"partidos_empatados": 0,
 									"partidos_perdidos": 0,
 									"partidos_con_goles_anotados": 0,
 									"partidos_con_goles_recibidos": 0,
-									"puntos_ganados": 1,
-									"porcentaje_de_puntos_ganados": 33.3
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0
 								}
 							}
 						},
 						"matches": [
-							{
-								"id": "1213209",
-								"fullDate": "2024-08-02T13:45",
-								"date": "2024-08-02",
-								"hour": "13:45",
-								"teams": {
-									"home": {
-										"id": 1393,
-										"name": "Union St. Gilloise",
-										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-										"position": 12,
-										"featured": false,
-										"score": 0,
-										"winner": null
-									},
-									"away": {
-										"id": 263,
-										"name": "Beerschot Wilrijk",
-										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-										"position": 7,
-										"featured": true,
-										"score": 0,
-										"winner": null
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 144,
-									"name": "Jupiler Pro League",
-									"type": "League",
-									"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
-									"season": { "year": 2024, "startDate": "2024-07-26" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
 							{
 								"id": "1213203",
 								"fullDate": "2024-07-27T11:15",
@@ -10576,12 +9664,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
 									}
 								],
 								"fulfilled": false
@@ -10650,12 +9738,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (2/15)"
+										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (1/15)"
 									}
 								],
 								"fulfilled": false
