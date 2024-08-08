@@ -339,7 +339,7 @@ type T_AnalysisConfig =
 			config: "LEAGUES_FIXTURES_UPDATE";
 			leaguesFixturesDates: {
 				from: DR.Dates.DateString<"DATE">;
-				to: DR.Dates.DateString<"DATE">;
+				to?: DR.Dates.DateString<"DATE">;
 				ids: Array<number>;
 			};
 	  }

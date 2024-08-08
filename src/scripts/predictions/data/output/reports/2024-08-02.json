@@ -955,7 +955,7 @@
 						"position": 16,
 						"featured": false,
 						"score": 1,
-						"winner": false,
+						"result": "LOSE",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -1074,7 +1074,7 @@
 										"position": 23,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 457,
@@ -1083,7 +1083,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -1111,7 +1111,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 473,
@@ -1120,7 +1120,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -1148,7 +1148,7 @@
 										"position": 26,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 457,
@@ -1157,7 +1157,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -1181,7 +1181,7 @@
 						"position": 12,
 						"featured": false,
 						"score": 4,
-						"winner": true,
+						"result": "WIN",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -1300,7 +1300,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 4,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 434,
@@ -1309,7 +1309,7 @@
 										"position": 17,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -1337,7 +1337,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 450,
@@ -1346,7 +1346,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -1374,7 +1374,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 441,
@@ -1383,7 +1383,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -2157,7 +2157,7 @@
 						"position": 6,
 						"featured": true,
 						"score": 1,
-						"winner": true,
+						"result": "WIN",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 30 partidos",
@@ -2276,7 +2276,7 @@
 										"position": 17,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1040,
@@ -2285,7 +2285,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2313,7 +2313,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1036,
@@ -2322,7 +2322,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -2350,7 +2350,7 @@
 										"position": 18,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -2359,7 +2359,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -2387,7 +2387,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 5,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 20461,
@@ -2396,7 +2396,7 @@
 										"position": null,
 										"featured": false,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2421,7 +2421,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 18036,
@@ -2430,7 +2430,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -2458,7 +2458,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -2467,7 +2467,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -2495,7 +2495,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1030,
@@ -2504,7 +2504,7 @@
 										"position": 14,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2532,7 +2532,7 @@
 										"position": 15,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1040,
@@ -2541,7 +2541,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -2569,7 +2569,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 4,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 14651,
@@ -2578,7 +2578,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2606,7 +2606,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1040,
@@ -2615,7 +2615,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -2643,7 +2643,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 15736,
@@ -2652,7 +2652,7 @@
 										"position": 15,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2680,7 +2680,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1031,
@@ -2689,7 +2689,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -2717,7 +2717,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -2726,7 +2726,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -2754,7 +2754,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -2763,7 +2763,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -2791,7 +2791,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 16431,
@@ -2800,7 +2800,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -2828,7 +2828,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 962,
@@ -2837,7 +2837,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2862,7 +2862,7 @@
 										"position": null,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1040,
@@ -2871,7 +2871,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2896,7 +2896,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1040,
@@ -2905,7 +2905,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2933,7 +2933,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 15570,
@@ -2942,7 +2942,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -2970,7 +2970,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -2979,7 +2979,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -3004,7 +3004,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 4450,
@@ -3013,7 +3013,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3038,7 +3038,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1577,
@@ -3047,7 +3047,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3075,7 +3075,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1572,
@@ -3084,7 +3084,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3112,7 +3112,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 16431,
@@ -3121,7 +3121,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3146,7 +3146,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -3155,7 +3155,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -3180,7 +3180,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1040,
@@ -3189,7 +3189,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3217,7 +3217,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 4412,
@@ -3226,7 +3226,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3251,7 +3251,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1032,
@@ -3260,7 +3260,7 @@
 										"position": 18,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3288,7 +3288,7 @@
 										"position": null,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1040,
@@ -3297,7 +3297,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -3322,7 +3322,7 @@
 										"position": 14,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1040,
@@ -3331,7 +3331,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3355,7 +3355,7 @@
 						"position": 13,
 						"featured": false,
 						"score": 0,
-						"winner": false,
+						"result": "LOSE",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 35 partidos",
@@ -3366,12 +3366,12 @@
 									"promedio_de_goles_anotados": 1,
 									"promedio_de_goles_recibidos": 1.3,
 									"partidos_ganados": 8,
-									"partidos_empatados": 13,
-									"partidos_perdidos": 14,
+									"partidos_empatados": 14,
+									"partidos_perdidos": 13,
 									"partidos_con_goles_anotados": 24,
 									"partidos_con_goles_recibidos": 28,
-									"puntos_ganados": 37,
-									"porcentaje_de_puntos_ganados": 35.2
+									"puntos_ganados": 38,
+									"porcentaje_de_puntos_ganados": 36.2
 								}
 							},
 							"all-home-matches": {
@@ -3400,12 +3400,12 @@
 									"promedio_de_goles_anotados": 0.9,
 									"promedio_de_goles_recibidos": 1.4,
 									"partidos_ganados": 3,
-									"partidos_empatados": 7,
-									"partidos_perdidos": 8,
+									"partidos_empatados": 8,
+									"partidos_perdidos": 7,
 									"partidos_con_goles_anotados": 13,
 									"partidos_con_goles_recibidos": 16,
-									"puntos_ganados": 16,
-									"porcentaje_de_puntos_ganados": 29.6
+									"puntos_ganados": 17,
+									"porcentaje_de_puntos_ganados": 31.5
 								}
 							},
 							"last-matches": {
@@ -3474,7 +3474,7 @@
 										"position": 14,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -3483,7 +3483,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3511,7 +3511,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 14651,
@@ -3520,7 +3520,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3548,7 +3548,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -3557,7 +3557,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3585,7 +3585,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 16431,
@@ -3594,7 +3594,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -3622,7 +3622,7 @@
 										"position": 9,
 										"featured": false,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -3631,7 +3631,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3659,7 +3659,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 15570,
@@ -3668,7 +3668,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3696,7 +3696,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -3705,7 +3705,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3733,7 +3733,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -3742,7 +3742,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3767,7 +3767,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -3776,7 +3776,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3804,7 +3804,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1039,
@@ -3813,7 +3813,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3841,7 +3841,7 @@
 										"position": 18,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -3850,7 +3850,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -3878,7 +3878,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 15736,
@@ -3887,7 +3887,7 @@
 										"position": 15,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -3915,7 +3915,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -3924,7 +3924,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3952,7 +3952,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1572,
@@ -3961,7 +3961,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -3989,7 +3989,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -3998,7 +3998,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -4026,7 +4026,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1044,
@@ -4035,7 +4035,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -4063,7 +4063,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1036,
@@ -4072,7 +4072,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 4,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -4100,7 +4100,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1575,
@@ -4109,7 +4109,7 @@
 										"position": 17,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -4137,7 +4137,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1040,
@@ -4146,7 +4146,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -4174,7 +4174,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1574,
@@ -4183,7 +4183,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -4211,7 +4211,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1030,
@@ -4220,7 +4220,7 @@
 										"position": 14,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4248,7 +4248,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -4257,7 +4257,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4285,7 +4285,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1031,
@@ -4294,7 +4294,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4322,7 +4322,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 1,
-										"winner": true
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -4331,7 +4331,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4356,7 +4356,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1574,
@@ -4365,7 +4365,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -4390,7 +4390,7 @@
 										"position": 17,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -4399,7 +4399,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4424,7 +4424,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 15570,
@@ -4433,7 +4433,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -4458,7 +4458,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1037,
@@ -4467,7 +4467,7 @@
 										"position": 9,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -4495,7 +4495,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1574,
@@ -4504,7 +4504,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -4532,7 +4532,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -4541,7 +4541,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4569,7 +4569,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1577,
@@ -4578,7 +4578,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4606,7 +4606,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1032,
@@ -4615,7 +4615,7 @@
 										"position": 18,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -4643,7 +4643,7 @@
 										"position": 15,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1574,
@@ -4652,7 +4652,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -4680,7 +4680,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1574,
@@ -4689,7 +4689,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -4717,7 +4717,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 7520,
@@ -4726,7 +4726,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -5566,7 +5566,7 @@
 						"position": 12,
 						"featured": false,
 						"score": 1,
-						"winner": true,
+						"result": "WIN",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -5685,7 +5685,7 @@
 										"position": 16,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1125,
@@ -5694,7 +5694,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -5722,7 +5722,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1137,
@@ -5731,7 +5731,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -5759,7 +5759,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1131,
@@ -5768,7 +5768,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -5796,7 +5796,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1125,
@@ -5805,7 +5805,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -5829,7 +5829,7 @@
 						"position": 8,
 						"featured": true,
 						"score": 0,
-						"winner": false,
+						"result": "LOSE",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -5948,7 +5948,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1142,
@@ -5957,7 +5957,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -5985,7 +5985,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1126,
@@ -5994,7 +5994,7 @@
 										"position": 13,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -6022,7 +6022,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1142,
@@ -6031,7 +6031,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -6607,7 +6607,7 @@
 						"position": 7,
 						"featured": true,
 						"score": 3,
-						"winner": true,
+						"result": "WIN",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 21 partidos",
@@ -6726,7 +6726,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 2082,
@@ -6735,7 +6735,7 @@
 										"position": 9,
 										"featured": false,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -6763,7 +6763,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1164,
@@ -6772,7 +6772,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 7,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -6800,7 +6800,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1166,
@@ -6809,7 +6809,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -6837,7 +6837,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1168,
@@ -6846,7 +6846,7 @@
 										"position": null,
 										"featured": false,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -6871,7 +6871,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 650,
@@ -6880,7 +6880,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -6908,7 +6908,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 6,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 2079,
@@ -6917,7 +6917,7 @@
 										"position": null,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -6942,7 +6942,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1164,
@@ -6951,7 +6951,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -6979,7 +6979,7 @@
 										"position": null,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1164,
@@ -6988,7 +6988,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 5,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7013,7 +7013,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1163,
@@ -7022,7 +7022,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7050,7 +7050,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1164,
@@ -7059,7 +7059,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7087,7 +7087,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 2080,
@@ -7096,7 +7096,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7124,7 +7124,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1164,
@@ -7133,7 +7133,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7161,7 +7161,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1164,
@@ -7170,7 +7170,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7198,7 +7198,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1164,
@@ -7207,7 +7207,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7235,7 +7235,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 649,
@@ -7244,7 +7244,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7272,7 +7272,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1164,
@@ -7281,7 +7281,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7306,7 +7306,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1164,
@@ -7315,7 +7315,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7343,7 +7343,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 2078,
@@ -7352,7 +7352,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7380,7 +7380,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1165,
@@ -7389,7 +7389,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -7417,7 +7417,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 3,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 2077,
@@ -7426,7 +7426,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 3,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -7454,7 +7454,7 @@
 										"position": 9,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1164,
@@ -7463,7 +7463,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7487,7 +7487,7 @@
 						"position": 10,
 						"featured": false,
 						"score": 0,
-						"winner": false,
+						"result": "LOSE",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 19 partidos",
@@ -7606,7 +7606,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 587,
@@ -7615,7 +7615,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7643,7 +7643,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 689,
@@ -7652,7 +7652,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 4,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7680,7 +7680,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 2080,
@@ -7689,7 +7689,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7717,7 +7717,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 649,
@@ -7726,7 +7726,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7754,7 +7754,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 587,
@@ -7763,7 +7763,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7791,7 +7791,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1165,
@@ -7800,7 +7800,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7825,7 +7825,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 650,
@@ -7834,7 +7834,7 @@
 										"position": 5,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -7862,7 +7862,7 @@
 										"position": 6,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 587,
@@ -7871,7 +7871,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -7899,7 +7899,7 @@
 										"position": 3,
 										"featured": true,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 587,
@@ -7908,7 +7908,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -7936,7 +7936,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 2082,
@@ -7945,7 +7945,7 @@
 										"position": 9,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -7973,7 +7973,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 587,
@@ -7982,7 +7982,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -8010,7 +8010,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 587,
@@ -8019,7 +8019,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -8047,7 +8047,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 587,
@@ -8056,7 +8056,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 5,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -8081,7 +8081,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 1164,
@@ -8090,7 +8090,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -8118,7 +8118,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 1163,
@@ -8127,7 +8127,7 @@
 										"position": 4,
 										"featured": true,
 										"score": 1,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -8155,7 +8155,7 @@
 										"position": 1,
 										"featured": true,
 										"score": 2,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 587,
@@ -8164,7 +8164,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 1,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -8192,7 +8192,7 @@
 										"position": null,
 										"featured": false,
 										"score": 0,
-										"winner": false
+										"result": "LOSE"
 									},
 									"away": {
 										"id": 587,
@@ -8201,7 +8201,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 5,
-										"winner": true
+										"result": "WIN"
 									}
 								},
 								"league": {
@@ -8226,7 +8226,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1165,
@@ -8235,7 +8235,7 @@
 										"position": 2,
 										"featured": true,
 										"score": 2,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -8263,7 +8263,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 3,
-										"winner": true
+										"result": "WIN"
 									},
 									"away": {
 										"id": 2078,
@@ -8272,7 +8272,7 @@
 										"position": 11,
 										"featured": false,
 										"score": 2,
-										"winner": false
+										"result": "LOSE"
 									}
 								},
 								"league": {
@@ -8451,7 +8451,7 @@
 						"position": null,
 						"featured": false,
 						"score": 2,
-						"winner": false,
+						"result": "LOSE",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 0 partidos",
@@ -8565,7 +8565,7 @@
 						"position": null,
 						"featured": false,
 						"score": 3,
-						"winner": true,
+						"result": "WIN",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 0 partidos",
@@ -9343,7 +9343,7 @@
 						"position": 12,
 						"featured": false,
 						"score": 3,
-						"winner": true,
+						"result": "WIN",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 1 partidos",
@@ -9462,7 +9462,7 @@
 										"position": 8,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 1393,
@@ -9471,7 +9471,7 @@
 										"position": 12,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {
@@ -9495,7 +9495,7 @@
 						"position": 7,
 						"featured": true,
 						"score": 1,
-						"winner": false,
+						"result": "LOSE",
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 1 partidos",
@@ -9614,7 +9614,7 @@
 										"position": 7,
 										"featured": true,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									},
 									"away": {
 										"id": 260,
@@ -9623,7 +9623,7 @@
 										"position": 10,
 										"featured": false,
 										"score": 0,
-										"winner": null
+										"result": "DRAW"
 									}
 								},
 								"league": {

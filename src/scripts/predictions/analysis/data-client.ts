@@ -3,7 +3,12 @@ import { code, flag } from "country-emoji";
 
 import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
-import { createArray, omit, removeDuplicates } from "../../../@diegofrayo/utils/arrays-and-objects";
+import {
+	createArray,
+	omit,
+	removeDuplicates,
+	sortObjectKeys,
+} from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
 import { formatDecimalNumber } from "../../../@diegofrayo/utils/numbers";
@@ -110,7 +115,7 @@ async function fetchPlayedMatches({
 				team: team.id,
 				season: league.season.year,
 				from: `${new Date().getFullYear()}-01-01`,
-				to: formatDate(new Date()),
+				to: formatDate(dayjs(new Date()).subtract(1, "days").toDate()),
 			})
 		).data as T_RawMatchesResponse;
 
@@ -205,7 +210,7 @@ async function updateTeamsFile(
 
 async function updateLeaguesFixtures(requestConfig: {
 	from: string;
-	to: string;
+	to?: string;
 	ids: Array<number>;
 }) {
 	const output = {} as T_LeaguesFile["fixtures"];
@@ -221,17 +226,12 @@ async function updateLeaguesFixtures(requestConfig: {
 			}
 
 			console.log(`  Fetching "${league.name} (${league.id}|${league.country.name})" matches...`);
+			const fileName = `${composeLeagueName(league.id, { full: true })}/${requestConfig.to ? `${requestConfig.from}--${requestConfig.to}` : `${requestConfig.from}`}.json`;
 			let leagueMatches;
 
-			if (
-				fileExists(
-					`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.from}--${requestConfig.to}.json`,
-				)
-			) {
+			if (fileExists(`src/scripts/predictions/data/raw/fixtures/${fileName}`)) {
 				leagueMatches = JSON.parse(
-					readFile(
-						`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.from}--${requestConfig.to}.json`,
-					),
+					readFile(`src/scripts/predictions/data/raw/fixtures/${fileName}`),
 				) as T_RawMatchesResponse;
 			} else {
 				leagueMatches = (
@@ -239,15 +239,12 @@ async function updateLeaguesFixtures(requestConfig: {
 						timezone: "America/Bogota",
 						league: league.id,
 						season: league.season.year,
-						...omit(requestConfig, ["ids"]),
+						...(requestConfig.to ? omit(requestConfig, ["ids"]) : { date: requestConfig.from }),
 					})
 				).data as T_RawMatchesResponse;
 			}
 
-			writeFile(
-				`src/scripts/predictions/data/raw/fixtures/${composeLeagueName(league.id, { full: true })}/${requestConfig.from}--${requestConfig.to}.json`,
-				leagueMatches,
-			);
+			writeFile(`src/scripts/predictions/data/raw/fixtures/${fileName}`, leagueMatches);
 
 			leagueMatches.response.forEach((match) => {
 				const [date] = match.fixture.date.split("T");
@@ -428,7 +425,15 @@ function parseFixtureMatchesResponse(
 	leagueStandings: T_LeagueStandings,
 ) {
 	const result = data.response
-		.map((item) => parseMatchItem("FIXTURE_MATCH", item, leagueStandings))
+		.map((item) =>
+			parseMatchItem(
+				item.fixture.status.long === "Match Finished"
+					? "FIXTURE_PLAYED_MATCH"
+					: "FIXTURE_NEXT_MATCH",
+				item,
+				leagueStandings,
+			),
+		)
 		.sort(sortBy("date"));
 
 	return result;
@@ -461,18 +466,17 @@ function parseMatchItem(
 	league: T_League,
 ): T_PlayedMatch;
 function parseMatchItem(
-	variant: "FIXTURE_MATCH",
+	variant: "FIXTURE_NEXT_MATCH" | "FIXTURE_PLAYED_MATCH",
 	item: T_RawMatchesResponse["response"][number],
 	leagueStandings: T_LeagueStandings,
 ): T_FixtureMatch;
 function parseMatchItem(
-	variant: "FIXTURE_MATCH" | "PLAYED_MATCH",
+	variant: "PLAYED_MATCH" | "FIXTURE_NEXT_MATCH" | "FIXTURE_PLAYED_MATCH",
 	item: T_RawMatchesResponse["response"][number],
 	leagueStandings: T_LeagueStandings,
 ) {
 	const fullDate = item.fixture.date.substring(0, 16);
 	const [date, hour] = fullDate.split("T");
-	const isPlayedMatch = v.isNumber(item.goals.home) && v.isNumber(item.goals.away);
 	const matchBaseData = {
 		id: `${item.fixture.id}`,
 		fullDate,
@@ -525,20 +529,23 @@ function parseMatchItem(
 	};
 
 	if (variant === "PLAYED_MATCH") {
+		const matchResult = getMatchResult({
+			// matchId: item.fixture.id,
+			homeTeam: { score: item.goals.home },
+			awayTeam: { score: item.goals.away },
+		});
 		const output: T_PlayedMatch = {
 			...matchBaseData,
-			type: variant,
+			type: "PLAYED_MATCH",
 			played: true,
 			teams: {
 				home: {
 					...matchBaseData.teams.home,
-					score: item.goals.home || 0,
-					winner: item.teams.home.winner,
+					...matchResult.homeTeam,
 				},
 				away: {
 					...matchBaseData.teams.away,
-					score: item.goals.away || 0,
-					winner: item.teams.away.winner,
+					...matchResult.awayTeam,
 				},
 			},
 		};
@@ -546,7 +553,12 @@ function parseMatchItem(
 		return output;
 	}
 
-	if (isPlayedMatch) {
+	if (variant === "FIXTURE_PLAYED_MATCH") {
+		const matchResult = getMatchResult({
+			// matchId: item.fixture.id,
+			homeTeam: { score: item.goals.home },
+			awayTeam: { score: item.goals.away },
+		});
 		const output: T_FixturePlayedMatch = {
 			...matchBaseData,
 			type: "FIXTURE_PLAYED_MATCH",
@@ -554,15 +566,13 @@ function parseMatchItem(
 			teams: {
 				home: {
 					...matchBaseData.teams.home,
-					score: item.goals.home || 0,
-					winner: item.teams.home.winner,
+					...matchResult.homeTeam,
 					stats: createEmptyTeamStatsObject(),
 					matches: [],
 				},
 				away: {
 					...matchBaseData.teams.away,
-					score: item.goals.away || 0,
-					winner: item.teams.away.winner,
+					...matchResult.awayTeam,
 					stats: createEmptyTeamStatsObject(),
 					matches: [],
 				},
@@ -851,11 +861,11 @@ function calculateTeamStats({
 					}
 				}
 
-				if (match.teams[matchSide].winner === true) {
+				if (match.teams[matchSide].result === "WIN") {
 					newResult.partidos_ganados += 1;
-				} else if (match.teams[matchSide].winner === false) {
+				} else if (match.teams[matchSide].result === "LOSE") {
 					newResult.partidos_perdidos += 1;
-				} else if (match.teams[matchSide].winner === null) {
+				} else if (match.teams[matchSide].result === "DRAW") {
 					newResult.partidos_empatados += 1;
 				}
 
@@ -917,11 +927,11 @@ function calculateTeamStats({
 				newResult.partidos_con_goles_recibidos += 1;
 			}
 
-			if (match.teams[side].winner === true) {
+			if (match.teams[side].result === "WIN") {
 				newResult.partidos_ganados += 1;
-			} else if (match.teams[side].winner === false) {
+			} else if (match.teams[side].result === "LOSE") {
 				newResult.partidos_perdidos += 1;
-			} else if (match.teams[side].winner === null) {
+			} else if (match.teams[side].result === "DRAW") {
 				newResult.partidos_empatados += 1;
 			}
 
@@ -1052,6 +1062,47 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 			1,
 		);
 
-		writeFile("src/scripts/predictions/data/util/predictions-stats.json", predictionStatsFile);
+		writeFile(
+			"src/scripts/predictions/data/util/predictions-stats.json",
+			sortObjectKeys(predictionStatsFile),
+		);
 	}
+}
+
+function getMatchResult({
+	// matchId,
+	homeTeam,
+	awayTeam,
+}: {
+	// matchId: string;
+	homeTeam: { score: number | null };
+	awayTeam: { score: number | null };
+}): {
+	homeTeam: Pick<T_PlayedMatchTeam, "score" | "result">;
+	awayTeam: Pick<T_PlayedMatchTeam, "score" | "result">;
+} {
+	if (v.isNumber(homeTeam.score) && v.isNumber(awayTeam.score)) {
+		const matchResult: {
+			homeTeam: T_PlayedMatchTeam["result"];
+			awayTeam: T_PlayedMatchTeam["result"];
+		} =
+			homeTeam.score === awayTeam.score
+				? { homeTeam: "DRAW", awayTeam: "DRAW" }
+				: homeTeam.score > awayTeam.score
+					? { homeTeam: "WIN", awayTeam: "LOSE" }
+					: { homeTeam: "LOSE", awayTeam: "WIN" };
+
+		return {
+			homeTeam: { score: homeTeam.score, result: matchResult.homeTeam },
+			awayTeam: { score: awayTeam.score, result: matchResult.awayTeam },
+		};
+	}
+
+	// TODO: Take out this in two weeks
+	return {
+		homeTeam: { score: 0, result: "DRAW" },
+		awayTeam: { score: 0, result: "DRAW" },
+	};
+
+	// throw new Error(`Invalid score values: matchId: ${matchId}`);
 }

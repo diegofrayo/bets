@@ -1,5 +1,4 @@
 import v from "../../../../@diegofrayo/v";
-import type { T_MarketPrediction } from "../types";
 import {
 	analizeCriteria,
 	createMarketPredictionOutput,
@@ -105,45 +104,29 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 		predictionsInput,
 		results: predictionsInput.match.played
 			? {
-					winning: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel === "HIGH" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.score > 0
-						);
+					winning: (trustLevel, predictionsInput_) => {
+						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score > 0;
 					},
-					lostWinning: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel !== "HIGH" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.score > 0
-						);
+					lostWinning: (trustLevel, predictionsInput_) => {
+						if (predictionsInput_.match.played) {
+							return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.score > 0;
+						}
+
+						throw new Error("Invalid flow");
 					},
-					lost: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel === "HIGH" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.score === 0
-						);
+					lost: (trustLevel, predictionsInput_) => {
+						if (predictionsInput_.match.played) {
+							return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score === 0;
+						}
+
+						throw new Error("Invalid flow");
 					},
-					skippedLost: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel === "LOW" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.score === 0
-						);
+					skippedLost: (trustLevel, predictionsInput_) => {
+						if (predictionsInput_.match.played) {
+							return trustLevel === "LOW" && predictionsInput_.match.teams.home.score === 0;
+						}
+
+						throw new Error("Invalid flow");
 					},
 				}
 			: undefined,

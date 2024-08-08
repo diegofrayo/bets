@@ -2,6 +2,7 @@ import { Entries } from "type-fest";
 import type {
 	T_FixtureMatch,
 	T_FixtureMatchTeam,
+	T_FixturePlayedMatch,
 	T_LeagueStandings,
 	T_MarketPrediction,
 	T_PlayedMatchMarketPrediction,
@@ -76,7 +77,7 @@ export function createMarketPredictionOutput({
 				keyof T_PlayedMatchMarketPrediction["results"],
 				(
 					trustLevelLabel: T_MarketPrediction["trustLevelLabel"],
-					predictionsInput: T_PredictionsInput,
+					predictionsInput: T_PredictionsInput & { match: T_FixturePlayedMatch },
 				) => boolean
 		  >
 		| undefined;
@@ -94,13 +95,17 @@ export function createMarketPredictionOutput({
 	};
 
 	if (results) {
+		const predictionsInput_ = {
+			...predictionsInput,
+			match: predictionsInput.match as T_FixturePlayedMatch,
+		};
 		return {
 			...output,
 			results: (Object.entries(results) as Entries<typeof results>).reduce(
 				(result, [key, fn]) => {
 					return {
 						...result,
-						[key]: fn(output.trustLevelLabel, predictionsInput),
+						[key]: fn(output.trustLevelLabel, predictionsInput_),
 					};
 				},
 				{} as T_PlayedMatchMarketPrediction["results"],
@@ -130,7 +135,7 @@ export function getTeamPoints(selectedTeam: T_FixtureMatchTeam) {
 
 		return (
 			result +
-			(selectedTeamDetails.winner === true ? 3 : selectedTeamDetails.winner === null ? 1 : 0)
+			(selectedTeamDetails.result === "WIN" ? 3 : selectedTeamDetails.result === "DRAW" ? 1 : 0)
 		);
 	}, 0);
 }

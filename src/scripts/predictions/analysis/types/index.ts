@@ -14,19 +14,21 @@ export type T_RequestConfig = {
 
 export type T_RawMatchesResponse = {
 	response: Array<{
-		teams: {
-			home: { id: number; name: string; winner: boolean | null };
-			away: { id: number; name: string; winner: boolean | null };
+		fixture: {
+			id: number;
+			date: string;
+			status: { long: "Not Started" | "Match Finished"; short: string };
 		};
 		league: {
 			id: number;
 			name: string;
 			country: string;
 		};
-		fixture: {
-			id: number;
-			date: string;
+		teams: {
+			home: { id: number; name: string; winner: boolean | null };
+			away: { id: number; name: string; winner: boolean | null };
 		};
+
 		goals: {
 			home: number | null;
 			away: number | null;

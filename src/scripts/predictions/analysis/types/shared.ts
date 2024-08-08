@@ -96,7 +96,7 @@ export type T_FixturePlayedMatchTeam = T_PlayedMatchTeam & {
 
 export type T_PlayedMatchTeam = T_TeamBase & {
 	score: number;
-	winner: boolean | null;
+	result: "WIN" | "LOSE" | "DRAW";
 };
 
 type T_MatchBase = {

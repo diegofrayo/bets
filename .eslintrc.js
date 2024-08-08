@@ -40,9 +40,10 @@ module.exports = {
 		"no-console": "off",
 		"no-nested-ternary": "off",
 
-		"no-restricted-syntax": warnRulesValue,
 		"no-alert": warnRulesValue,
 		"no-debugger": warnRulesValue,
+		"no-restricted-syntax": warnRulesValue,
+		"no-underscore-dangle": warnRulesValue,
 		"@typescript-eslint/ban-ts-comment": warnRulesValue,
 		"@typescript-eslint/ban-types": [
 			warnRulesValue,

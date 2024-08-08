@@ -1,5 +1,4 @@
 import v from "../../../../@diegofrayo/v";
-import type { T_MarketPrediction } from "../types";
 import {
 	analizeCriteria,
 	createMarketPredictionOutput,
@@ -106,45 +105,17 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 		predictionsInput,
 		results: predictionsInput.match.played
 			? {
-					winning: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel === "HIGH" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.winner === true
-						);
+					winning: (trustLevel, predictionsInput_) => {
+						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.result === "WIN";
 					},
-					lostWinning: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel !== "HIGH" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.winner === true
-						);
+					lostWinning: (trustLevel, predictionsInput_) => {
+						return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.result === "WIN";
 					},
-					lost: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel === "HIGH" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.winner !== true
-						);
+					lost: (trustLevel, predictionsInput_) => {
+						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.result !== "WIN";
 					},
-					skippedLost: (
-						trustLevel: T_MarketPrediction["trustLevelLabel"],
-						predictionsInput_: T_PredictionsInput,
-					) => {
-						return (
-							trustLevel === "LOW" &&
-							"winner" in predictionsInput_.homeTeam &&
-							predictionsInput_.homeTeam.winner !== true
-						);
+					skippedLost: (trustLevel, predictionsInput_) => {
+						return trustLevel === "LOW" && predictionsInput_.match.teams.home.result !== "WIN";
 					},
 				}
 			: undefined,
