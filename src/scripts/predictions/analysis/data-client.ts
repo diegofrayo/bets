@@ -399,7 +399,7 @@ function getLeaguesByDate(date: DR.Dates.DateString) {
 }
 
 function createEmptyPredictionsStatsFile() {
-	writeFile("src/scripts/predictions/data/util/predictions-stats.json", {});
+	writeFile("src/scripts/predictions/data/util/predictions-stats.json", { stats: {}, records: {} });
 }
 
 const DataClient = {
@@ -450,11 +450,15 @@ function parsePlayedMatchesResponse({
 }): Array<T_PlayedMatch> {
 	const today = formatDate(new Date());
 	const result = data.response
-		.map((item) => parseMatchItem("PLAYED_MATCH", item, leagueStandings, league))
-		.sort(sortBy("-date"))
 		.filter((match) => {
-			return match.date >= league.season.startDate && match.date < today;
-		});
+			return (
+				match.fixture.date >= league.season.startDate &&
+				match.fixture.date < today &&
+				match.fixture.status.long === "Match Finished"
+			);
+		})
+		.map((item) => parseMatchItem("PLAYED_MATCH", item, leagueStandings, league))
+		.sort(sortBy("-date"));
 
 	return result;
 }
@@ -529,10 +533,10 @@ function parseMatchItem(
 	};
 
 	if (variant === "PLAYED_MATCH") {
-		const matchResult = getMatchResult({
-			// matchId: item.fixture.id,
-			homeTeam: { score: item.goals.home },
-			awayTeam: { score: item.goals.away },
+		const matchScores = getMatchScores({
+			matchId: item.fixture.id,
+			score: item.score,
+			goals: item.goals,
 		});
 		const output: T_PlayedMatch = {
 			...matchBaseData,
@@ -541,11 +545,11 @@ function parseMatchItem(
 			teams: {
 				home: {
 					...matchBaseData.teams.home,
-					...matchResult.homeTeam,
+					...matchScores.homeTeam,
 				},
 				away: {
 					...matchBaseData.teams.away,
-					...matchResult.awayTeam,
+					...matchScores.awayTeam,
 				},
 			},
 		};
@@ -554,10 +558,10 @@ function parseMatchItem(
 	}
 
 	if (variant === "FIXTURE_PLAYED_MATCH") {
-		const matchResult = getMatchResult({
-			// matchId: item.fixture.id,
-			homeTeam: { score: item.goals.home },
-			awayTeam: { score: item.goals.away },
+		const matchScores = getMatchScores({
+			matchId: item.fixture.id,
+			score: item.score,
+			goals: item.goals,
 		});
 		const output: T_FixturePlayedMatch = {
 			...matchBaseData,
@@ -566,13 +570,13 @@ function parseMatchItem(
 			teams: {
 				home: {
 					...matchBaseData.teams.home,
-					...matchResult.homeTeam,
+					...matchScores.homeTeam,
 					stats: createEmptyTeamStatsObject(),
 					matches: [],
 				},
 				away: {
 					...matchBaseData.teams.away,
-					...matchResult.awayTeam,
+					...matchScores.awayTeam,
 					stats: createEmptyTeamStatsObject(),
 					matches: [],
 				},
@@ -643,6 +647,27 @@ function parseStandingsResponse(data: T_RawLeagueStandingsResponse): T_LeagueSta
 	const items =
 		data.response.length > 0
 			? getProperlyLeagueStandingsData(data.response[0].league).map((item) => {
+					const homeData = {
+						played: item.home.played || 0,
+						win: item.home.win || 0,
+						draw: item.home.draw || 0,
+						lose: item.home.lose || 0,
+						goals: {
+							for: item.home.goals.for || 0,
+							against: item.home.goals.against || 0,
+						},
+					};
+					const awayData = {
+						played: item.away.played || 0,
+						win: item.away.win || 0,
+						draw: item.away.draw || 0,
+						lose: item.away.lose || 0,
+						goals: {
+							for: item.away.goals.for || 0,
+							against: item.away.goals.against || 0,
+						},
+					};
+
 					return {
 						teamId: item.team.id,
 						teamName: item.team.name,
@@ -659,37 +684,19 @@ function parseStandingsResponse(data: T_RawLeagueStandingsResponse): T_LeagueSta
 									diff: item.goalsDiff,
 								},
 							},
-							home: {
-								played: item.home.played,
-								win: item.home.win,
-								draw: item.home.draw,
-								lose: item.home.lose,
-								goals: {
-									for: item.home.goals.for,
-									against: item.home.goals.against,
-								},
-							},
-							away: {
-								played: item.away.played,
-								win: item.away.win,
-								draw: item.away.draw,
-								lose: item.away.lose,
-								goals: {
-									for: item.away.goals.for,
-									against: item.away.goals.against,
-								},
-							},
+							home: homeData,
+							away: awayData,
 							averages: {
 								promedio_de_goles_anotados_por_partido: formatDecimalNumber(
 									item.all.goals.for / item.all.played,
 									1,
 								),
 								promedio_de_goles_anotados_de_local_por_partido: formatDecimalNumber(
-									item.home.goals.for / item.home.played,
+									homeData.goals.for / homeData.played,
 									1,
 								),
 								promedio_de_goles_anotados_de_visitante_por_partido: formatDecimalNumber(
-									item.away.goals.for / item.away.played,
+									awayData.goals.for / awayData.played,
 									1,
 								),
 							},
@@ -738,6 +745,10 @@ function getProperlyLeagueStandingsData(
 	const isScotlandLeague = response.id === 179;
 	const isIcelandLeague = response.id === 164;
 	const isDenmarkLeague = response.id === 119;
+	const isTurkeyLeague = response.id === 203;
+	const isPortugalLeague = response.id === 94;
+	const isNetherlandsLeague = response.id === 88;
+	const isEnglandChampionshipLeague = response.id === 40;
 
 	if (isColombiaLeague) {
 		return (
@@ -761,6 +772,10 @@ function getProperlyLeagueStandingsData(
 			isAustriaLeague ||
 			isScotlandLeague ||
 			isIcelandLeague ||
+			isTurkeyLeague ||
+			isPortugalLeague ||
+			isNetherlandsLeague ||
+			isEnglandChampionshipLeague ||
 			isDenmarkLeague) &&
 		response.standings.length === 1
 	) {
@@ -838,25 +853,25 @@ function calculateTeamStats({
 				if (match.teams.home.id === teamId) {
 					matchSide = "home";
 
-					if (match.teams.home.score > 0) {
+					if (match.teams.home.score.fullTime > 0) {
 						newResult.partidos_con_goles_anotados += 1;
-						newResult.total_de_goles_anotados += match.teams.home.score;
+						newResult.total_de_goles_anotados += match.teams.home.score.fullTime;
 					}
 
-					if (match.teams.away.score > 0) {
+					if (match.teams.away.score.fullTime > 0) {
 						newResult.partidos_con_goles_recibidos += 1;
-						newResult.total_de_goles_recibidos += match.teams.away.score;
+						newResult.total_de_goles_recibidos += match.teams.away.score.fullTime;
 					}
 				} else {
 					matchSide = "away";
 
-					if (match.teams.away.score > 0) {
-						newResult.total_de_goles_anotados += match.teams.away.score;
+					if (match.teams.away.score.fullTime > 0) {
+						newResult.total_de_goles_anotados += match.teams.away.score.fullTime;
 						newResult.partidos_con_goles_anotados += 1;
 					}
 
-					if (match.teams.home.score > 0) {
-						newResult.total_de_goles_recibidos += match.teams.home.score;
+					if (match.teams.home.score.fullTime > 0) {
+						newResult.total_de_goles_recibidos += match.teams.home.score.fullTime;
 						newResult.partidos_con_goles_recibidos += 1;
 					}
 				}
@@ -869,21 +884,57 @@ function calculateTeamStats({
 					newResult.partidos_empatados += 1;
 				}
 
+				newResult.total_de_goles_anotados_en_primera_mitad +=
+					match.teams[matchSide].score.firstHalf.for;
+				newResult.total_de_goles_recibidos_en_primera_mitad +=
+					match.teams[matchSide].score.firstHalf.against;
+				newResult.partidos_con_goles_anotados_en_primera_mitad +=
+					match.teams[matchSide].score.firstHalf.for > 0 ? 1 : 0;
+				newResult.partidos_con_goles_recibidos_en_primera_mitad +=
+					match.teams[matchSide].score.firstHalf.against > 0 ? 1 : 0;
+
+				newResult.total_de_goles_anotados_en_segunda_mitad +=
+					match.teams[matchSide].score.secondHalf.for;
+				newResult.total_de_goles_recibidos_en_segunda_mitad +=
+					match.teams[matchSide].score.secondHalf.against;
+				newResult.partidos_con_goles_anotados_en_segunda_mitad +=
+					match.teams[matchSide].score.secondHalf.for > 0 ? 1 : 0;
+				newResult.partidos_con_goles_recibidos_en_segunda_mitad +=
+					match.teams[matchSide].score.secondHalf.against > 0 ? 1 : 0;
+
 				return newResult;
 			},
 			{
 				total_de_partidos: filteredMatches.length,
+
 				total_de_goles_anotados: 0,
 				total_de_goles_recibidos: 0,
 				promedio_de_goles_anotados: 0,
 				promedio_de_goles_recibidos: 0,
+
 				partidos_ganados: 0,
 				partidos_empatados: 0,
 				partidos_perdidos: 0,
+
 				partidos_con_goles_anotados: 0,
 				partidos_con_goles_recibidos: 0,
+
 				puntos_ganados: 0,
 				porcentaje_de_puntos_ganados: 0,
+
+				total_de_goles_anotados_en_primera_mitad: 0,
+				total_de_goles_recibidos_en_primera_mitad: 0,
+				partidos_con_goles_anotados_en_primera_mitad: 0,
+				partidos_con_goles_recibidos_en_primera_mitad: 0,
+				promedio_de_partidos_con_goles_anotados_en_primera_mitad: 0,
+				promedio_de_partidos_con_goles_recibidos_en_primera_mitad: 0,
+
+				total_de_goles_anotados_en_segunda_mitad: 0,
+				total_de_goles_recibidos_en_segunda_mitad: 0,
+				partidos_con_goles_anotados_en_segunda_mitad: 0,
+				partidos_con_goles_recibidos_en_segunda_mitad: 0,
+				promedio_de_partidos_con_goles_anotados_en_segunda_mitad: 0,
+				promedio_de_partidos_con_goles_recibidos_en_segunda_mitad: 0,
 			},
 		);
 
@@ -898,6 +949,22 @@ function calculateTeamStats({
 		result.puntos_ganados = result.partidos_ganados * 3 + result.partidos_empatados;
 		result.porcentaje_de_puntos_ganados = formatDecimalNumber(
 			(result.puntos_ganados * 100) / (result.total_de_partidos * 3),
+			1,
+		);
+		result.promedio_de_partidos_con_goles_anotados_en_primera_mitad = formatDecimalNumber(
+			result.partidos_con_goles_anotados_en_primera_mitad / result.total_de_partidos,
+			1,
+		);
+		result.promedio_de_partidos_con_goles_recibidos_en_primera_mitad = formatDecimalNumber(
+			result.partidos_con_goles_recibidos_en_primera_mitad / result.total_de_partidos,
+			1,
+		);
+		result.promedio_de_partidos_con_goles_anotados_en_segunda_mitad = formatDecimalNumber(
+			result.partidos_con_goles_anotados_en_segunda_mitad / result.total_de_partidos,
+			1,
+		);
+		result.promedio_de_partidos_con_goles_recibidos_en_segunda_mitad = formatDecimalNumber(
+			result.partidos_con_goles_recibidos_en_segunda_mitad / result.total_de_partidos,
 			1,
 		);
 
@@ -917,13 +984,13 @@ function calculateTeamStats({
 				...result,
 			};
 
-			if (match.teams[side].score > 0) {
-				newResult.total_de_goles_anotados += match.teams[side].score;
+			if (match.teams[side].score.fullTime > 0) {
+				newResult.total_de_goles_anotados += match.teams[side].score.fullTime;
 				newResult.partidos_con_goles_anotados += 1;
 			}
 
-			if (match.teams[teamOpponentSide].score > 0) {
-				newResult.total_de_goles_recibidos += match.teams[teamOpponentSide].score;
+			if (match.teams[teamOpponentSide].score.fullTime > 0) {
+				newResult.total_de_goles_recibidos += match.teams[teamOpponentSide].score.fullTime;
 				newResult.partidos_con_goles_recibidos += 1;
 			}
 
@@ -935,21 +1002,55 @@ function calculateTeamStats({
 				newResult.partidos_empatados += 1;
 			}
 
+			newResult.total_de_goles_anotados_en_primera_mitad += match.teams[side].score.firstHalf.for;
+			newResult.total_de_goles_recibidos_en_primera_mitad +=
+				match.teams[side].score.firstHalf.against;
+			newResult.partidos_con_goles_anotados_en_primera_mitad +=
+				match.teams[side].score.firstHalf.for > 0 ? 1 : 0;
+			newResult.partidos_con_goles_recibidos_en_primera_mitad +=
+				match.teams[side].score.firstHalf.against > 0 ? 1 : 0;
+
+			newResult.total_de_goles_anotados_en_segunda_mitad += match.teams[side].score.secondHalf.for;
+			newResult.total_de_goles_recibidos_en_segunda_mitad +=
+				match.teams[side].score.secondHalf.against;
+			newResult.partidos_con_goles_anotados_en_segunda_mitad +=
+				match.teams[side].score.secondHalf.for > 0 ? 1 : 0;
+			newResult.partidos_con_goles_recibidos_en_segunda_mitad +=
+				match.teams[side].score.secondHalf.against > 0 ? 1 : 0;
+
 			return newResult;
 		},
 		{
 			total_de_partidos: filteredMatches.length,
+
 			total_de_goles_anotados: 0,
 			total_de_goles_recibidos: 0,
 			promedio_de_goles_anotados: 0,
 			promedio_de_goles_recibidos: 0,
+
 			partidos_ganados: 0,
 			partidos_empatados: 0,
 			partidos_perdidos: 0,
+
 			partidos_con_goles_anotados: 0,
 			partidos_con_goles_recibidos: 0,
+
 			puntos_ganados: 0,
 			porcentaje_de_puntos_ganados: 0,
+
+			total_de_goles_anotados_en_primera_mitad: 0,
+			total_de_goles_recibidos_en_primera_mitad: 0,
+			partidos_con_goles_anotados_en_primera_mitad: 0,
+			partidos_con_goles_recibidos_en_primera_mitad: 0,
+			promedio_de_partidos_con_goles_anotados_en_primera_mitad: 0,
+			promedio_de_partidos_con_goles_recibidos_en_primera_mitad: 0,
+
+			total_de_goles_anotados_en_segunda_mitad: 0,
+			total_de_goles_recibidos_en_segunda_mitad: 0,
+			partidos_con_goles_anotados_en_segunda_mitad: 0,
+			partidos_con_goles_recibidos_en_segunda_mitad: 0,
+			promedio_de_partidos_con_goles_anotados_en_segunda_mitad: 0,
+			promedio_de_partidos_con_goles_recibidos_en_segunda_mitad: 0,
 		},
 	);
 
@@ -964,6 +1065,22 @@ function calculateTeamStats({
 	result.puntos_ganados = result.partidos_ganados * 3 + result.partidos_empatados;
 	result.porcentaje_de_puntos_ganados = formatDecimalNumber(
 		(result.puntos_ganados * 100) / (result.total_de_partidos * 3),
+		1,
+	);
+	result.promedio_de_partidos_con_goles_anotados_en_primera_mitad = formatDecimalNumber(
+		result.partidos_con_goles_anotados_en_primera_mitad / result.total_de_partidos,
+		1,
+	);
+	result.promedio_de_partidos_con_goles_recibidos_en_primera_mitad = formatDecimalNumber(
+		result.partidos_con_goles_recibidos_en_primera_mitad / result.total_de_partidos,
+		1,
+	);
+	result.promedio_de_partidos_con_goles_anotados_en_segunda_mitad = formatDecimalNumber(
+		result.partidos_con_goles_anotados_en_segunda_mitad / result.total_de_partidos,
+		1,
+	);
+	result.promedio_de_partidos_con_goles_recibidos_en_segunda_mitad = formatDecimalNumber(
+		result.partidos_con_goles_recibidos_en_segunda_mitad / result.total_de_partidos,
 		1,
 	);
 
@@ -1019,45 +1136,43 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 					? "lostWinning"
 					: "skippedLost";
 
-		if (!predictionStatsFile[prediction.id]) {
-			predictionStatsFile[prediction.id] = {
-				stats: {
-					winning: 0,
-					lost: 0,
-					lostWinning: 0,
-					skippedLost: 0,
-					total: 0,
-					successPercentaje: 0,
-					picksPercentaje: 0,
-				},
-				record: {
-					winning: {},
-					lost: {},
-					lostWinning: {},
-					skippedLost: {},
-				},
+		if (!predictionStatsFile.stats[prediction.id]) {
+			predictionStatsFile.stats[prediction.id] = {
+				winning: 0,
+				lost: 0,
+				lostWinning: 0,
+				skippedLost: 0,
+				total: 0,
+				successPercentaje: 0,
+				picksPercentaje: 0,
+			};
+			predictionStatsFile.records[prediction.id] = {
+				winning: {},
+				lost: {},
+				lostWinning: {},
+				skippedLost: {},
 			};
 		}
 
-		predictionStatsFile[prediction.id].stats.total += 1;
-		predictionStatsFile[prediction.id].stats[key] += 1;
-		predictionStatsFile[prediction.id].record[key] = {
-			...predictionStatsFile[prediction.id].record[key],
-			[match.date]: (predictionStatsFile[prediction.id].record[key][match.date] || []).concat([
+		predictionStatsFile.stats[prediction.id].total += 1;
+		predictionStatsFile.stats[prediction.id][key] += 1;
+		predictionStatsFile.records[prediction.id][key] = {
+			...predictionStatsFile.records[prediction.id][key],
+			[match.date]: (predictionStatsFile.records[prediction.id][key][match.date] || []).concat([
 				generateSlug(`${match.id}-${match.league.country.name}`),
 			]),
 		};
-		predictionStatsFile[prediction.id].stats.successPercentaje = formatDecimalNumber(
-			(predictionStatsFile[prediction.id].stats.winning /
-				(predictionStatsFile[prediction.id].stats.winning +
-					predictionStatsFile[prediction.id].stats.lost)) *
+		predictionStatsFile.stats[prediction.id].successPercentaje = formatDecimalNumber(
+			(predictionStatsFile.stats[prediction.id].winning /
+				(predictionStatsFile.stats[prediction.id].winning +
+					predictionStatsFile.stats[prediction.id].lost)) *
 				100,
 			1,
 		);
-		predictionStatsFile[prediction.id].stats.picksPercentaje = formatDecimalNumber(
-			((predictionStatsFile[prediction.id].stats.winning +
-				predictionStatsFile[prediction.id].stats.lost) /
-				predictionStatsFile[prediction.id].stats.total) *
+		predictionStatsFile.stats[prediction.id].picksPercentaje = formatDecimalNumber(
+			((predictionStatsFile.stats[prediction.id].winning +
+				predictionStatsFile.stats[prediction.id].lost) /
+				predictionStatsFile.stats[prediction.id].total) *
 				100,
 			1,
 		);
@@ -1069,40 +1184,60 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 	}
 }
 
-function getMatchResult({
-	// matchId,
-	homeTeam,
-	awayTeam,
+function getMatchScores({
+	matchId,
+	goals,
+	score,
 }: {
-	// matchId: string;
-	homeTeam: { score: number | null };
-	awayTeam: { score: number | null };
+	matchId: number;
+	score: T_RawMatchesResponse["response"][number]["score"];
+	goals: T_RawMatchesResponse["response"][number]["goals"];
 }): {
 	homeTeam: Pick<T_PlayedMatchTeam, "score" | "result">;
 	awayTeam: Pick<T_PlayedMatchTeam, "score" | "result">;
 } {
-	if (v.isNumber(homeTeam.score) && v.isNumber(awayTeam.score)) {
+	if (v.isNumber(goals.home) && v.isNumber(goals.away)) {
 		const matchResult: {
 			homeTeam: T_PlayedMatchTeam["result"];
 			awayTeam: T_PlayedMatchTeam["result"];
 		} =
-			homeTeam.score === awayTeam.score
+			goals.home === goals.away
 				? { homeTeam: "DRAW", awayTeam: "DRAW" }
-				: homeTeam.score > awayTeam.score
+				: goals.home > goals.away
 					? { homeTeam: "WIN", awayTeam: "LOSE" }
 					: { homeTeam: "LOSE", awayTeam: "WIN" };
 
 		return {
-			homeTeam: { score: homeTeam.score, result: matchResult.homeTeam },
-			awayTeam: { score: awayTeam.score, result: matchResult.awayTeam },
+			homeTeam: {
+				result: matchResult.homeTeam,
+				score: {
+					fullTime: score.fulltime.home,
+					firstHalf: {
+						for: score.halftime.home,
+						against: score.halftime.away,
+					},
+					secondHalf: {
+						for: score.fulltime.home - score.halftime.home,
+						against: score.fulltime.away - score.halftime.away,
+					},
+				},
+			},
+			awayTeam: {
+				result: matchResult.awayTeam,
+				score: {
+					fullTime: score.fulltime.away,
+					firstHalf: {
+						for: score.halftime.away,
+						against: score.halftime.home,
+					},
+					secondHalf: {
+						for: score.fulltime.away - score.halftime.away,
+						against: score.fulltime.home - score.halftime.home,
+					},
+				},
+			},
 		};
 	}
 
-	// TODO: Take out this in two weeks
-	return {
-		homeTeam: { score: 0, result: "DRAW" },
-		awayTeam: { score: 0, result: "DRAW" },
-	};
-
-	// throw new Error(`Invalid score values: matchId: ${matchId}`);
+	throw new Error(`Invalid score values: matchId: ${matchId}`);
 }

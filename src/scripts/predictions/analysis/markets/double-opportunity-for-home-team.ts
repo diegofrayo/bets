@@ -2,6 +2,7 @@ import v from "../../../../@diegofrayo/v";
 import {
 	analizeCriteria,
 	createMarketPredictionOutput,
+	getLeagueStandingsLimits,
 	getTeamPoints,
 	getTeamPosition,
 	isMatchInLocalLeague,
@@ -17,30 +18,30 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 					trustLevel: 100,
 					items: [
 						{
-							description: "El local debe estar en los primeros 5 lugares de la tabla",
+							description: "El local debe estar en los primeros lugares de la tabla",
 							fn: ({ homeTeam }: T_PredictionsInput) => {
-								const LIMIT = 5;
+								const LIMITS = getLeagueStandingsLimits(predictionsInput.leagueStandings);
 								const teamPosition =
 									getTeamPosition(homeTeam.id, predictionsInput.leagueStandings) || 0;
 
 								return {
-									fulfilled: teamPosition >= 1 && teamPosition <= LIMIT,
-									successExplanation: `El local está entre los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
-									failExplanation: `El local está fuera de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+									fulfilled: teamPosition >= 1 && teamPosition <= LIMITS.best,
+									successExplanation: `El local está entre los primeros ${LIMITS.best} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+									failExplanation: `El local está fuera de los primeros ${LIMITS.best} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
 								};
 							},
 						},
 						{
 							description: "El visitante debe estar mas abajo de los 10 primeros de la tabla",
 							fn: ({ awayTeam }: T_PredictionsInput) => {
-								const LIMIT = 10;
+								const LIMITS = getLeagueStandingsLimits(predictionsInput.leagueStandings);
 								const teamPosition =
 									getTeamPosition(awayTeam.id, predictionsInput.leagueStandings) || 0;
 
 								return {
-									fulfilled: teamPosition > LIMIT,
-									successExplanation: `El visitante está mas abajo de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
-									failExplanation: `El visitante está dentro de los primeros ${LIMIT} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+									fulfilled: teamPosition >= LIMITS.worst,
+									successExplanation: `El visitante está mas abajo de los primeros ${LIMITS.worst} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+									failExplanation: `El visitante está dentro de los primeros ${LIMITS.worst} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
 								};
 							},
 						},

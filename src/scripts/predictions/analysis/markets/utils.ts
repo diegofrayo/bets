@@ -148,6 +148,50 @@ export function isMatchInLocalLeague(match: T_FixtureMatch, leagueStandings: T_L
 	);
 }
 
+export function getLeagueStandingsLimits(leagueStandings: T_LeagueStandings) {
+	if (leagueStandings.items.length === 28) {
+		return {
+			best: 9,
+			worst: leagueStandings.items.length - 8,
+		};
+	}
+
+	if (leagueStandings.items.length === 24) {
+		return {
+			best: 8,
+			worst: leagueStandings.items.length - 7,
+		};
+	}
+
+	if (leagueStandings.items.length === 20 || leagueStandings.items.length === 19) {
+		return {
+			best: 6,
+			worst: leagueStandings.items.length - 5,
+		};
+	}
+
+	if (leagueStandings.items.length === 18 || leagueStandings.items.length === 16) {
+		return {
+			best: 5,
+			worst: leagueStandings.items.length - 4,
+		};
+	}
+
+	if (leagueStandings.items.length === 12) {
+		return {
+			best: 4,
+			worst: leagueStandings.items.length - 3,
+		};
+	}
+
+	console.log(`Unknown league standings length: ${leagueStandings.items.length}`);
+
+	return {
+		best: 0,
+		worst: 0,
+	};
+}
+
 // --- TYPES ---
 
 export type T_CriteriaInput = {

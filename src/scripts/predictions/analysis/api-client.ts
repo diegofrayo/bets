@@ -10,7 +10,7 @@ import v from "../../../@diegofrayo/v";
 import { formatCode, formatDate } from "./utils";
 
 const TIME_LIMIT = "10:30";
-const RATE_LIMIT_PER_DAY = 100;
+const RATE_LIMIT_PER_DAY = 200;
 const REQUESTS_LIMIT_PER_MINUTE = 30;
 const API_USAGE_STATS = JSON.parse(
 	readFile("src/scripts/predictions/data/util/api-limits.json"),
@@ -34,11 +34,11 @@ const APIClient = {
 			if (dayjs(new Date()).diff(API_USAGE_STATS["last-request-execution"], "seconds") < 60) {
 				console.log(
 					"    .....",
-					"First execution delay for 1 minute |",
+					"First execution delay for 1:30 minutes |",
 					new Date().toISOString(),
 					".....",
 				);
-				await delay(1000 * 60);
+				await delay(1000 * 90);
 			}
 
 			totalRequestsCounter = readCounterStats();
@@ -116,9 +116,9 @@ async function updateCounterStats(counter: number) {
 
 async function checkForAPIRequestsPerMinuteLimit() {
 	if (requestsLimitPerMinuteCounter >= REQUESTS_LIMIT_PER_MINUTE) {
-		console.log("    .....", "Delay for 1 minute |", new Date().toISOString(), ".....");
+		console.log("    .....", "Delay for 1:30 minutes |", new Date().toISOString(), ".....");
 
-		await delay(1000 * 60);
+		await delay(1000 * 90);
 		requestsLimitPerMinuteCounter = 0;
 
 		console.log(

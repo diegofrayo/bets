@@ -1,19 +1,9 @@
 {
-	"do-local": {
-		"stats": {
-			"winning": 16,
-			"lost": 1,
-			"lostWinning": 80,
-			"skippedLost": 30,
-			"total": 127,
-			"successPercentaje": 94.1,
-			"picksPercentaje": 13.4
-		},
-		"record": {
+	"records": {
+		"do-local": {
 			"winning": {
 				"2024-07-30": ["1251956-brazil"],
-				"2024-07-31": ["1251946-brazil"],
-				"2024-08-01": ["1215799-egypt"],
+				"2024-07-31": ["1251950-brazil", "1251954-brazil", "1251946-brazil"],
 				"2024-08-03": ["1164454-norway"],
 				"2024-08-04": ["1176847-egypt"],
 				"2024-08-06": ["1273679-world", "1273687-world", "1253319-world", "1274823-world"],
@@ -21,10 +11,16 @@
 					"1251959-brazil",
 					"1251961-brazil",
 					"1271718-world",
-					"1274793-world",
 					"1274801-world",
 					"1274803-world",
 					"1274835-world"
+				],
+				"2024-08-08": [
+					"1273690-world",
+					"1274841-world",
+					"1274785-world",
+					"1274791-world",
+					"1274783-world"
 				]
 			},
 			"lost": { "2024-08-06": ["1273677-world"] },
@@ -42,12 +38,10 @@
 					"1215795-egypt",
 					"1215796-egypt",
 					"1234201-colombia",
-					"1251950-brazil",
-					"1251954-brazil",
 					"1251948-brazil",
 					"1251958-brazil"
 				],
-				"2024-08-01": ["1215797-egypt", "1215798-egypt", "1251960-brazil"],
+				"2024-08-01": ["1215797-egypt", "1215798-egypt", "1215799-egypt", "1251960-brazil"],
 				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland", "1213209-belgium"],
 				"2024-08-03": [
 					"1158774-argentina",
@@ -109,7 +103,30 @@
 					"1251955-brazil",
 					"1251957-brazil",
 					"1251947-brazil",
-					"1253317-world"
+					"1253317-world",
+					"1274793-world"
+				],
+				"2024-08-08": [
+					"1158797-argentina",
+					"1251953-brazil",
+					"1271725-world",
+					"1274795-world",
+					"1274817-world",
+					"1274821-world",
+					"1274831-world",
+					"1274839-world",
+					"1274815-world",
+					"1274807-world",
+					"1274833-world",
+					"1274837-world",
+					"1274805-world",
+					"1274843-world",
+					"1274809-world",
+					"1274811-world",
+					"1274813-world",
+					"1274779-world",
+					"1274775-world",
+					"1273692-world"
 				]
 			},
 			"skippedLost": {
@@ -142,21 +159,27 @@
 					"1180556-brazil"
 				],
 				"2024-08-06": ["1274773-world"],
-				"2024-08-07": ["1234179-colombia", "1251951-brazil", "1273685-world"]
+				"2024-08-07": ["1234179-colombia", "1251951-brazil", "1273685-world"],
+				"2024-08-08": [
+					"1176843-egypt",
+					"1176850-egypt",
+					"1274797-world",
+					"1274845-world",
+					"1274825-world",
+					"1274799-world",
+					"1274827-world",
+					"1271723-world",
+					"1274819-world",
+					"1274829-world",
+					"1274777-world",
+					"1253321-world",
+					"1274781-world",
+					"1274787-world",
+					"1274789-world"
+				]
 			}
-		}
-	},
-	"gpe-local": {
-		"stats": {
-			"winning": 20,
-			"lost": 3,
-			"lostWinning": 85,
-			"skippedLost": 19,
-			"total": 127,
-			"successPercentaje": 87,
-			"picksPercentaje": 18.1
 		},
-		"record": {
+		"gpe-local": {
 			"winning": {
 				"2024-07-29": ["1158769-argentina"],
 				"2024-07-30": ["1251952-brazil", "1251956-brazil"],
@@ -173,11 +196,24 @@
 					"1271720-world",
 					"1274823-world"
 				],
-				"2024-08-07": ["1251955-brazil", "1251961-brazil", "1274793-world"]
+				"2024-08-07": ["1251955-brazil", "1251961-brazil", "1274793-world"],
+				"2024-08-08": [
+					"1271725-world",
+					"1274795-world",
+					"1274817-world",
+					"1274841-world",
+					"1274815-world",
+					"1274779-world",
+					"1274785-world",
+					"1274775-world",
+					"1273692-world"
+				]
 			},
 			"lost": {
 				"2024-07-31": ["1251958-brazil"],
-				"2024-08-07": ["1251959-brazil", "1273685-world"]
+				"2024-08-04": ["1180562-brazil"],
+				"2024-08-07": ["1251959-brazil", "1273685-world"],
+				"2024-08-08": ["1251953-brazil", "1274783-world"]
 			},
 			"lostWinning": {
 				"2024-07-29": [
@@ -271,6 +307,23 @@
 					"1274801-world",
 					"1274803-world",
 					"1274835-world"
+				],
+				"2024-08-08": [
+					"1273690-world",
+					"1274831-world",
+					"1274827-world",
+					"1274839-world",
+					"1274807-world",
+					"1274819-world",
+					"1274833-world",
+					"1274837-world",
+					"1274805-world",
+					"1274843-world",
+					"1274809-world",
+					"1274811-world",
+					"1274813-world",
+					"1253321-world",
+					"1274791-world"
 				]
 			},
 			"skippedLost": {
@@ -287,26 +340,34 @@
 					"1164455-norway",
 					"1158775-argentina",
 					"1158776-argentina",
-					"1164666-finland",
-					"1180562-brazil"
+					"1164666-finland"
 				],
 				"2024-08-05": ["1205441-denmark", "1158778-argentina", "1158784-argentina"],
-				"2024-08-07": ["1152213-iceland", "1234179-colombia"]
+				"2024-08-07": ["1152213-iceland", "1234179-colombia"],
+				"2024-08-08": [
+					"1176843-egypt",
+					"1176850-egypt",
+					"1158797-argentina",
+					"1274797-world",
+					"1274845-world",
+					"1274825-world",
+					"1274821-world",
+					"1274799-world",
+					"1271723-world",
+					"1274829-world",
+					"1274777-world",
+					"1274781-world",
+					"1274787-world",
+					"1274789-world"
+				]
 			}
-		}
-	},
-	"tr-local": {
-		"stats": {
-			"winning": 2,
-			"lost": 1,
-			"lostWinning": 64,
-			"skippedLost": 60,
-			"total": 127,
-			"successPercentaje": 66.7,
-			"picksPercentaje": 2.4
 		},
-		"record": {
-			"winning": { "2024-08-05": ["1176834-egypt"], "2024-08-06": ["1253319-world"] },
+		"tr-local": {
+			"winning": {
+				"2024-08-05": ["1176834-egypt"],
+				"2024-08-06": ["1253319-world"],
+				"2024-08-08": ["1274785-world", "1274791-world"]
+			},
 			"lost": { "2024-08-06": ["1273687-world"] },
 			"lostWinning": {
 				"2024-07-29": [
@@ -377,6 +438,19 @@
 					"1274801-world",
 					"1274803-world",
 					"1274835-world"
+				],
+				"2024-08-08": [
+					"1273690-world",
+					"1271725-world",
+					"1274839-world",
+					"1274841-world",
+					"1274815-world",
+					"1274837-world",
+					"1274805-world",
+					"1274809-world",
+					"1274811-world",
+					"1274779-world",
+					"1273692-world"
 				]
 			},
 			"skippedLost": {
@@ -435,8 +509,66 @@
 					"1251959-brazil",
 					"1251961-brazil",
 					"1273685-world"
+				],
+				"2024-08-08": [
+					"1176843-egypt",
+					"1176850-egypt",
+					"1158797-argentina",
+					"1251953-brazil",
+					"1274797-world",
+					"1274845-world",
+					"1274795-world",
+					"1274817-world",
+					"1274825-world",
+					"1274821-world",
+					"1274831-world",
+					"1274799-world",
+					"1274827-world",
+					"1271723-world",
+					"1274807-world",
+					"1274819-world",
+					"1274829-world",
+					"1274833-world",
+					"1274843-world",
+					"1274813-world",
+					"1274777-world",
+					"1253321-world",
+					"1274775-world",
+					"1274781-world",
+					"1274787-world",
+					"1274789-world",
+					"1274783-world"
 				]
 			}
+		}
+	},
+	"stats": {
+		"do-local": {
+			"winning": 21,
+			"lost": 1,
+			"lostWinning": 100,
+			"skippedLost": 45,
+			"total": 167,
+			"successPercentaje": 95.5,
+			"picksPercentaje": 13.2
+		},
+		"gpe-local": {
+			"winning": 29,
+			"lost": 6,
+			"lostWinning": 100,
+			"skippedLost": 32,
+			"total": 167,
+			"successPercentaje": 82.9,
+			"picksPercentaje": 21
+		},
+		"tr-local": {
+			"winning": 4,
+			"lost": 1,
+			"lostWinning": 75,
+			"skippedLost": 87,
+			"total": 167,
+			"successPercentaje": 80,
+			"picksPercentaje": 3
 		}
 	}
 }

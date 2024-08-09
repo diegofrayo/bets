@@ -95,8 +95,18 @@ export type T_FixturePlayedMatchTeam = T_PlayedMatchTeam & {
 };
 
 export type T_PlayedMatchTeam = T_TeamBase & {
-	score: number;
 	result: "WIN" | "LOSE" | "DRAW";
+	score: {
+		fullTime: number;
+		firstHalf: {
+			for: number;
+			against: number;
+		};
+		secondHalf: {
+			for: number;
+			against: number;
+		};
+	};
 };
 
 type T_MatchBase = {
@@ -154,17 +164,34 @@ export type T_TeamStats = Record<
 
 export type T_TeamStatsItems = {
 	total_de_partidos: number;
+
 	total_de_goles_anotados: number;
 	total_de_goles_recibidos: number;
 	promedio_de_goles_anotados: number;
 	promedio_de_goles_recibidos: number;
+	partidos_con_goles_anotados: number;
+	partidos_con_goles_recibidos: number;
+
 	partidos_ganados: number;
 	partidos_perdidos: number;
 	partidos_empatados: number;
-	partidos_con_goles_anotados: number;
-	partidos_con_goles_recibidos: number;
+
 	puntos_ganados: number;
 	porcentaje_de_puntos_ganados: number;
+
+	total_de_goles_anotados_en_primera_mitad: number;
+	total_de_goles_recibidos_en_primera_mitad: number;
+	partidos_con_goles_anotados_en_primera_mitad: number;
+	partidos_con_goles_recibidos_en_primera_mitad: number;
+	promedio_de_partidos_con_goles_anotados_en_primera_mitad: number;
+	promedio_de_partidos_con_goles_recibidos_en_primera_mitad: number;
+
+	total_de_goles_anotados_en_segunda_mitad: number;
+	total_de_goles_recibidos_en_segunda_mitad: number;
+	partidos_con_goles_anotados_en_segunda_mitad: number;
+	partidos_con_goles_recibidos_en_segunda_mitad: number;
+	promedio_de_partidos_con_goles_anotados_en_segunda_mitad: number;
+	promedio_de_partidos_con_goles_recibidos_en_segunda_mitad: number;
 };
 
 export type T_MarketPrediction = T_NextMatchMarketPrediction | T_PlayedMatchMarketPrediction;

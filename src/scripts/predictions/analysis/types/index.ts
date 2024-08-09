@@ -28,10 +28,13 @@ export type T_RawMatchesResponse = {
 			home: { id: number; name: string; winner: boolean | null };
 			away: { id: number; name: string; winner: boolean | null };
 		};
-
 		goals: {
 			home: number | null;
 			away: number | null;
+		};
+		score: {
+			halftime: { home: number; away: number };
+			fulltime: { home: number; away: number };
 		};
 	}>;
 	errors: [] | DR.JSON;
@@ -106,8 +109,8 @@ export type T_TeamsFileItem = {
 	country: { code: string; name: string; flag: string } | null;
 };
 
-export type T_PredictionsStatsFile = DR.Object<{
-	stats: {
+export type T_PredictionsStatsFile = {
+	stats: DR.Object<{
 		winning: number;
 		lost: number;
 		lostWinning: number;
@@ -115,11 +118,11 @@ export type T_PredictionsStatsFile = DR.Object<{
 		total: number;
 		successPercentaje: number;
 		picksPercentaje: number;
-	};
-	record: {
+	}>;
+	records: DR.Object<{
 		winning: DR.Object<Array<string>>;
 		lost: DR.Object<Array<string>>;
 		lostWinning: DR.Object<Array<string>>;
 		skippedLost: DR.Object<Array<string>>;
-	};
-}>;
+	}>;
+};

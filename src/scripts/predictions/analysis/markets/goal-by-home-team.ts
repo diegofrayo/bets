@@ -105,28 +105,16 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 		results: predictionsInput.match.played
 			? {
 					winning: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score > 0;
+						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score.fullTime > 0;
 					},
 					lostWinning: (trustLevel, predictionsInput_) => {
-						if (predictionsInput_.match.played) {
-							return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.score > 0;
-						}
-
-						throw new Error("Invalid flow");
+						return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.score.fullTime > 0;
 					},
 					lost: (trustLevel, predictionsInput_) => {
-						if (predictionsInput_.match.played) {
-							return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score === 0;
-						}
-
-						throw new Error("Invalid flow");
+						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score.fullTime === 0;
 					},
 					skippedLost: (trustLevel, predictionsInput_) => {
-						if (predictionsInput_.match.played) {
-							return trustLevel === "LOW" && predictionsInput_.match.teams.home.score === 0;
-						}
-
-						throw new Error("Invalid flow");
+						return trustLevel === "LOW" && predictionsInput_.match.teams.home.score.fullTime === 0;
 					},
 				}
 			: undefined,

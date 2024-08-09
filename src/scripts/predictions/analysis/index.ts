@@ -306,7 +306,7 @@ function generateDates(config: T_AnalysisConfig): DR.Dates.DateString[] {
 		const baseDate = dayjs(config.date);
 
 		return [baseDate]
-			.concat(createArray(config.previousDays).map((day) => baseDate.subtract(day, "day")))
+			.concat(createArray(config.previousDays || 0).map((day) => baseDate.subtract(day, "day")))
 			.map((date) => formatDate(date.toDate()))
 			.reverse();
 	}
@@ -332,8 +332,8 @@ type T_AnalysisConfig =
 	| {
 			config: "OFFLINE_REBUILDING";
 			date: DR.Dates.DateString;
-			previousDays: number;
-			updatePredictionStats: boolean;
+			previousDays?: number;
+			updatePredictionStats?: boolean;
 	  }
 	| {
 			config: "LEAGUES_FIXTURES_UPDATE";
