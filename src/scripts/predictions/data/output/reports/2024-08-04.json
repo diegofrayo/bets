@@ -8733,7 +8733,7 @@
 									"away": {
 										"id": 410,
 										"name": "GO Ahead Eagles",
-										"country": null,
+										"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 										"position": null,
 										"featured": false,
 										"result": "LOSE",
@@ -8765,7 +8765,7 @@
 									"home": {
 										"id": 410,
 										"name": "GO Ahead Eagles",
-										"country": null,
+										"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 										"position": null,
 										"featured": false,
 										"result": "DRAW",
@@ -23551,89 +23551,89 @@
 						},
 						"stats": {
 							"all-matches": {
-								"name": "Comportamiento general en los últimos 42 partidos",
+								"name": "Comportamiento general en los últimos 30 partidos",
 								"items": {
-									"total_de_partidos": 42,
-									"total_de_goles_anotados": 73,
-									"total_de_goles_recibidos": 39,
-									"promedio_de_goles_anotados": 1.7,
+									"total_de_partidos": 30,
+									"total_de_goles_anotados": 56,
+									"total_de_goles_recibidos": 28,
+									"promedio_de_goles_anotados": 1.9,
 									"promedio_de_goles_recibidos": 0.9,
-									"partidos_ganados": 25,
-									"partidos_empatados": 10,
-									"partidos_perdidos": 7,
-									"partidos_con_goles_anotados": 34,
-									"partidos_con_goles_recibidos": 23,
-									"puntos_ganados": 85,
-									"porcentaje_de_puntos_ganados": 67.5,
-									"total_de_goles_anotados_en_primera_mitad": 26,
-									"total_de_goles_recibidos_en_primera_mitad": 20,
-									"partidos_con_goles_anotados_en_primera_mitad": 19,
-									"partidos_con_goles_recibidos_en_primera_mitad": 18,
+									"partidos_ganados": 18,
+									"partidos_empatados": 8,
+									"partidos_perdidos": 4,
+									"partidos_con_goles_anotados": 26,
+									"partidos_con_goles_recibidos": 16,
+									"puntos_ganados": 62,
+									"porcentaje_de_puntos_ganados": 68.9,
+									"total_de_goles_anotados_en_primera_mitad": 21,
+									"total_de_goles_recibidos_en_primera_mitad": 15,
+									"partidos_con_goles_anotados_en_primera_mitad": 15,
+									"partidos_con_goles_recibidos_en_primera_mitad": 13,
 									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
 									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
-									"total_de_goles_anotados_en_segunda_mitad": 47,
-									"total_de_goles_recibidos_en_segunda_mitad": 19,
-									"partidos_con_goles_anotados_en_segunda_mitad": 30,
-									"partidos_con_goles_recibidos_en_segunda_mitad": 14,
-									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
+									"total_de_goles_anotados_en_segunda_mitad": 35,
+									"total_de_goles_recibidos_en_segunda_mitad": 13,
+									"partidos_con_goles_anotados_en_segunda_mitad": 23,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 9,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.8,
 									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
 								}
 							},
 							"all-home-matches": {
-								"name": "Comportamiento como local en los últimos 42 partidos",
+								"name": "Comportamiento como local en los últimos 30 partidos",
 								"items": {
-									"total_de_partidos": 21,
-									"total_de_goles_anotados": 42,
-									"total_de_goles_recibidos": 19,
-									"promedio_de_goles_anotados": 2,
+									"total_de_partidos": 14,
+									"total_de_goles_anotados": 27,
+									"total_de_goles_recibidos": 12,
+									"promedio_de_goles_anotados": 1.9,
 									"promedio_de_goles_recibidos": 0.9,
-									"partidos_ganados": 14,
-									"partidos_empatados": 5,
-									"partidos_perdidos": 2,
-									"partidos_con_goles_anotados": 18,
-									"partidos_con_goles_recibidos": 14,
-									"puntos_ganados": 47,
-									"porcentaje_de_puntos_ganados": 74.6,
-									"total_de_goles_anotados_en_primera_mitad": 16,
-									"total_de_goles_recibidos_en_primera_mitad": 9,
-									"partidos_con_goles_anotados_en_primera_mitad": 10,
-									"partidos_con_goles_recibidos_en_primera_mitad": 9,
-									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"partidos_ganados": 9,
+									"partidos_empatados": 4,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 12,
+									"partidos_con_goles_recibidos": 9,
+									"puntos_ganados": 31,
+									"porcentaje_de_puntos_ganados": 73.8,
+									"total_de_goles_anotados_en_primera_mitad": 11,
+									"total_de_goles_recibidos_en_primera_mitad": 6,
+									"partidos_con_goles_anotados_en_primera_mitad": 6,
+									"partidos_con_goles_recibidos_en_primera_mitad": 6,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.4,
 									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
-									"total_de_goles_anotados_en_segunda_mitad": 26,
-									"total_de_goles_recibidos_en_segunda_mitad": 10,
-									"partidos_con_goles_anotados_en_segunda_mitad": 15,
-									"partidos_con_goles_recibidos_en_segunda_mitad": 7,
+									"total_de_goles_anotados_en_segunda_mitad": 16,
+									"total_de_goles_recibidos_en_segunda_mitad": 6,
+									"partidos_con_goles_anotados_en_segunda_mitad": 10,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 4,
 									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
 									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
 								}
 							},
 							"all-away-matches": {
-								"name": "Comportamiento como visitante en los últimos 42 partidos",
+								"name": "Comportamiento como visitante en los últimos 30 partidos",
 								"items": {
-									"total_de_partidos": 21,
-									"total_de_goles_anotados": 31,
-									"total_de_goles_recibidos": 20,
-									"promedio_de_goles_anotados": 1.5,
+									"total_de_partidos": 16,
+									"total_de_goles_anotados": 29,
+									"total_de_goles_recibidos": 16,
+									"promedio_de_goles_anotados": 1.8,
 									"promedio_de_goles_recibidos": 1,
-									"partidos_ganados": 11,
-									"partidos_empatados": 5,
-									"partidos_perdidos": 5,
-									"partidos_con_goles_anotados": 16,
-									"partidos_con_goles_recibidos": 9,
-									"puntos_ganados": 38,
-									"porcentaje_de_puntos_ganados": 60.3,
+									"partidos_ganados": 9,
+									"partidos_empatados": 4,
+									"partidos_perdidos": 3,
+									"partidos_con_goles_anotados": 14,
+									"partidos_con_goles_recibidos": 7,
+									"puntos_ganados": 31,
+									"porcentaje_de_puntos_ganados": 64.6,
 									"total_de_goles_anotados_en_primera_mitad": 10,
-									"total_de_goles_recibidos_en_primera_mitad": 11,
+									"total_de_goles_recibidos_en_primera_mitad": 9,
 									"partidos_con_goles_anotados_en_primera_mitad": 9,
-									"partidos_con_goles_recibidos_en_primera_mitad": 9,
-									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 7,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
 									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
-									"total_de_goles_anotados_en_segunda_mitad": 21,
-									"total_de_goles_recibidos_en_segunda_mitad": 9,
-									"partidos_con_goles_anotados_en_segunda_mitad": 15,
-									"partidos_con_goles_recibidos_en_segunda_mitad": 7,
-									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
+									"total_de_goles_anotados_en_segunda_mitad": 19,
+									"total_de_goles_recibidos_en_segunda_mitad": 7,
+									"partidos_con_goles_anotados_en_segunda_mitad": 13,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.8,
 									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
 								}
 							},
@@ -25054,531 +25054,6 @@
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
-							},
-							{
-								"id": "1138622",
-								"fullDate": "2023-12-19T11:00",
-								"date": "2023-12-19",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 2699,
-										"name": "Mamelodi Sundowns",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"result": "WIN",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
-										}
-									}
-								},
-								"league": {
-									"id": 12,
-									"name": "CAF Champions League",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132584",
-								"fullDate": "2023-12-14T12:00",
-								"date": "2023-12-14",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "DRAW",
-										"score": {
-											"fullTime": 2,
-											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
-										}
-									},
-									"away": {
-										"id": 18036,
-										"name": "Baladiyyat Al Mehalla",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
-										"featured": false,
-										"result": "DRAW",
-										"score": {
-											"fullTime": 2,
-											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1138614",
-								"fullDate": "2023-12-10T08:00",
-								"date": "2023-12-10",
-								"hour": "08:00",
-								"teams": {
-									"home": {
-										"id": 2699,
-										"name": "Mamelodi Sundowns",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"result": "DRAW",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "DRAW",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
-										}
-									}
-								},
-								"league": {
-									"id": 12,
-									"name": "CAF Champions League",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1138606",
-								"fullDate": "2023-12-02T11:00",
-								"date": "2023-12-02",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 6427,
-										"name": "Nouadhibou",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"result": "WIN",
-										"score": {
-											"fullTime": 2,
-											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
-										}
-									}
-								},
-								"league": {
-									"id": 12,
-									"name": "CAF Champions League",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132560",
-								"fullDate": "2023-11-28T09:00",
-								"date": "2023-11-28",
-								"hour": "09:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 2,
-											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 1030,
-										"name": "Ismaily SC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
-										"featured": false,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 2 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1138598",
-								"fullDate": "2023-11-24T11:00",
-								"date": "2023-11-24",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 6435,
-										"name": "TP Mazembe",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
-										}
-									}
-								},
-								"league": {
-									"id": 12,
-									"name": "CAF Champions League",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132551",
-								"fullDate": "2023-11-03T12:00",
-								"date": "2023-11-03",
-								"hour": "12:00",
-								"teams": {
-									"home": {
-										"id": 14651,
-										"name": "Ceramica Cleopatra",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 2,
-											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132544",
-								"fullDate": "2023-10-27T09:00",
-								"date": "2023-10-27",
-								"hour": "09:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 3,
-											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 2, "against": 2 }
-										}
-									},
-									"away": {
-										"id": 1031,
-										"name": "AL Masry",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
-										"featured": true,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 2,
-											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 2 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132532",
-								"fullDate": "2023-10-22T11:00",
-								"date": "2023-10-22",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 16431,
-										"name": "Coca-Cola",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"featured": true,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
-										}
-									},
-									"away": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132528",
-								"fullDate": "2023-10-08T11:00",
-								"date": "2023-10-08",
-								"hour": "11:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
-										}
-									},
-									"away": {
-										"id": 1037,
-										"name": "Enppi",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"featured": false,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1124140",
-								"fullDate": "2023-09-29T10:00",
-								"date": "2023-09-29",
-								"hour": "10:00",
-								"teams": {
-									"home": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 6,
-											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 4, "against": 1 }
-										}
-									},
-									"away": {
-										"id": 5309,
-										"name": "APR",
-										"country": null,
-										"position": null,
-										"featured": false,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 1, "against": 4 }
-										}
-									}
-								},
-								"league": {
-									"id": 12,
-									"name": "CAF Champions League",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
-							},
-							{
-								"id": "1132513",
-								"fullDate": "2023-09-25T08:00",
-								"date": "2023-09-25",
-								"hour": "08:00",
-								"teams": {
-									"home": {
-										"id": 15570,
-										"name": "National Bank of Egypt",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 12,
-										"featured": false,
-										"result": "LOSE",
-										"score": {
-											"fullTime": 0,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
-										}
-									},
-									"away": {
-										"id": 1036,
-										"name": "Pyramids FC",
-										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"featured": true,
-										"result": "WIN",
-										"score": {
-											"fullTime": 1,
-											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
-										}
-									}
-								},
-								"league": {
-									"enabled": true,
-									"id": 233,
-									"name": "Premier League",
-									"type": "League",
-									"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-									"season": { "year": 2023, "startDate": "2023-09-23" },
-									"priority": 1
-								},
-								"type": "PLAYED_MATCH",
-								"played": true
 							}
 						]
 					},
@@ -26852,7 +26327,7 @@
 									{
 										"fulfilled": true,
 										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2)"
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.9)"
 									},
 									{
 										"fulfilled": false,

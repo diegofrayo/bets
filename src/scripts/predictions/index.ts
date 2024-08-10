@@ -10,8 +10,8 @@ launchAnalysis({
 
 	// Config 2
 	config: "OFFLINE_REBUILDING",
-	date: "2024-08-10",
-	previousDays: 12,
+	date: "2024-08-11",
+	previousDays: 13,
 	updatePredictionStats: true,
 
 	// Config 3

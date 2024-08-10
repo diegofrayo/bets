@@ -181,9 +181,7 @@ async function fetchLeagueStandings({
 	return parsedResponse;
 }
 
-async function updateTeamsFile(
-	matches: Awaited<PromiseLike<ReturnType<typeof fetchFixtureMatches>>>,
-) {
+function updateTeamsFile(matches: Awaited<PromiseLike<ReturnType<typeof fetchFixtureMatches>>>) {
 	const currentTeams = JSON.parse(readFile("src/scripts/predictions/data/util/teams.json"));
 	const outputTeams = {
 		...currentTeams,
@@ -205,7 +203,7 @@ async function updateTeamsFile(
 		),
 	};
 
-	writeFile("src/scripts/predictions/data/util/teams.json", await formatCode(outputTeams, "json"));
+	writeFile("src/scripts/predictions/data/util/teams.json", outputTeams);
 }
 
 async function updateLeaguesFixtures(requestConfig: {
@@ -735,6 +733,7 @@ function getProperlyLeagueStandingsData(
 	response: T_RawLeagueStandingsResponse["response"][number]["league"],
 ) {
 	const isColombiaLeague = response.id === 239;
+	/*
 	const isBrazilLeague = response.id === 71;
 	const isArgentinaLeague = response.id === 128;
 	const isNorwayLeague = response.id === 103;
@@ -749,6 +748,8 @@ function getProperlyLeagueStandingsData(
 	const isPortugalLeague = response.id === 94;
 	const isNetherlandsLeague = response.id === 88;
 	const isEnglandChampionshipLeague = response.id === 40;
+	const isCzechLeague = response.id === 345;
+  */
 
 	if (isColombiaLeague) {
 		return (
@@ -762,6 +763,7 @@ function getProperlyLeagueStandingsData(
 		);
 	}
 
+	/*
 	if (
 		(isBrazilLeague ||
 			isArgentinaLeague ||
@@ -776,13 +778,15 @@ function getProperlyLeagueStandingsData(
 			isPortugalLeague ||
 			isNetherlandsLeague ||
 			isEnglandChampionshipLeague ||
+			isCzechLeague ||
 			isDenmarkLeague) &&
 		response.standings.length === 1
 	) {
 		return response.standings[0];
 	}
+  */
 
-	return [];
+	return response.standings[0] || [];
 }
 
 function composeTeamName(team: Pick<T_FixtureMatchTeam, "id" | "name">) {
@@ -1207,6 +1211,53 @@ function getMatchScores({
 					? { homeTeam: "WIN", awayTeam: "LOSE" }
 					: { homeTeam: "LOSE", awayTeam: "WIN" };
 
+		const homeTeamSecondHalfScore = {
+			for: score.fulltime.home - score.halftime.home,
+			against: score.fulltime.away - score.halftime.away,
+		};
+		const awayTeamSecondHalfScore = {
+			for: score.fulltime.away - score.halftime.away,
+			against: score.fulltime.home - score.halftime.home,
+		};
+
+		if (
+			homeTeamSecondHalfScore.for < 0 ||
+			homeTeamSecondHalfScore.against < 0 ||
+			awayTeamSecondHalfScore.for < 0 ||
+			awayTeamSecondHalfScore.against < 0
+		) {
+			return {
+				homeTeam: {
+					result: matchResult.homeTeam,
+					score: {
+						fullTime: score.fulltime.home,
+						firstHalf: {
+							for: 0,
+							against: 0,
+						},
+						secondHalf: {
+							for: 0,
+							against: 0,
+						},
+					},
+				},
+				awayTeam: {
+					result: matchResult.awayTeam,
+					score: {
+						fullTime: score.fulltime.away,
+						firstHalf: {
+							for: 0,
+							against: 0,
+						},
+						secondHalf: {
+							for: 0,
+							against: 0,
+						},
+					},
+				},
+			};
+		}
+
 		return {
 			homeTeam: {
 				result: matchResult.homeTeam,
@@ -1216,10 +1267,7 @@ function getMatchScores({
 						for: score.halftime.home,
 						against: score.halftime.away,
 					},
-					secondHalf: {
-						for: score.fulltime.home - score.halftime.home,
-						against: score.fulltime.away - score.halftime.away,
-					},
+					secondHalf: homeTeamSecondHalfScore,
 				},
 			},
 			awayTeam: {
@@ -1230,10 +1278,7 @@ function getMatchScores({
 						for: score.halftime.away,
 						against: score.halftime.home,
 					},
-					secondHalf: {
-						for: score.fulltime.away - score.halftime.away,
-						against: score.fulltime.home - score.halftime.home,
-					},
+					secondHalf: awayTeamSecondHalfScore,
 				},
 			},
 		};

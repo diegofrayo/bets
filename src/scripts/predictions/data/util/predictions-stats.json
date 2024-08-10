@@ -127,6 +127,19 @@
 					"1274779-world",
 					"1274775-world",
 					"1273692-world"
+				],
+				"2024-08-09": [
+					"1164456-norway",
+					"1213217-belgium",
+					"1205442-denmark",
+					"1164669-finland",
+					"1215843-england",
+					"1213441-netherlands",
+					"1158799-argentina",
+					"1158789-argentina",
+					"1158796-argentina",
+					"1231733-portugal",
+					"1237855-turkey"
 				]
 			},
 			"skippedLost": {
@@ -176,7 +189,8 @@
 					"1274781-world",
 					"1274787-world",
 					"1274789-world"
-				]
+				],
+				"2024-08-09": ["1215844-england", "1158794-argentina"]
 			}
 		},
 		"gpe-local": {
@@ -207,13 +221,15 @@
 					"1274785-world",
 					"1274775-world",
 					"1273692-world"
-				]
+				],
+				"2024-08-09": ["1205442-denmark"]
 			},
 			"lost": {
 				"2024-07-31": ["1251958-brazil"],
 				"2024-08-04": ["1180562-brazil"],
 				"2024-08-07": ["1251959-brazil", "1273685-world"],
-				"2024-08-08": ["1251953-brazil", "1274783-world"]
+				"2024-08-08": ["1251953-brazil", "1274783-world"],
+				"2024-08-09": ["1158794-argentina"]
 			},
 			"lostWinning": {
 				"2024-07-29": [
@@ -324,6 +340,17 @@
 					"1274813-world",
 					"1253321-world",
 					"1274791-world"
+				],
+				"2024-08-09": [
+					"1164456-norway",
+					"1164669-finland",
+					"1215843-england",
+					"1213441-netherlands",
+					"1158799-argentina",
+					"1158789-argentina",
+					"1158796-argentina",
+					"1231733-portugal",
+					"1237855-turkey"
 				]
 			},
 			"skippedLost": {
@@ -359,7 +386,8 @@
 					"1274781-world",
 					"1274787-world",
 					"1274789-world"
-				]
+				],
+				"2024-08-09": ["1213217-belgium", "1215844-england"]
 			}
 		},
 		"tr-local": {
@@ -451,6 +479,15 @@
 					"1274811-world",
 					"1274779-world",
 					"1273692-world"
+				],
+				"2024-08-09": [
+					"1205442-denmark",
+					"1164669-finland",
+					"1215843-england",
+					"1213441-netherlands",
+					"1158799-argentina",
+					"1231733-portugal",
+					"1237855-turkey"
 				]
 			},
 			"skippedLost": {
@@ -538,6 +575,14 @@
 					"1274787-world",
 					"1274789-world",
 					"1274783-world"
+				],
+				"2024-08-09": [
+					"1164456-norway",
+					"1213217-belgium",
+					"1215844-england",
+					"1158789-argentina",
+					"1158796-argentina",
+					"1158794-argentina"
 				]
 			}
 		}
@@ -546,29 +591,29 @@
 		"do-local": {
 			"winning": 21,
 			"lost": 1,
-			"lostWinning": 100,
-			"skippedLost": 45,
-			"total": 167,
+			"lostWinning": 111,
+			"skippedLost": 47,
+			"total": 180,
 			"successPercentaje": 95.5,
-			"picksPercentaje": 13.2
+			"picksPercentaje": 12.2
 		},
 		"gpe-local": {
-			"winning": 29,
-			"lost": 6,
-			"lostWinning": 100,
-			"skippedLost": 32,
-			"total": 167,
-			"successPercentaje": 82.9,
-			"picksPercentaje": 21
+			"winning": 30,
+			"lost": 7,
+			"lostWinning": 109,
+			"skippedLost": 34,
+			"total": 180,
+			"successPercentaje": 81.1,
+			"picksPercentaje": 20.6
 		},
 		"tr-local": {
 			"winning": 4,
 			"lost": 1,
-			"lostWinning": 75,
-			"skippedLost": 87,
-			"total": 167,
+			"lostWinning": 82,
+			"skippedLost": 93,
+			"total": 180,
 			"successPercentaje": 80,
-			"picksPercentaje": 3
+			"picksPercentaje": 2.8
 		}
 	}
 }

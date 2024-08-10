@@ -12035,7 +12035,7 @@
 									"home": {
 										"id": 567,
 										"name": "Plzen",
-										"country": null,
+										"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" },
 										"position": null,
 										"featured": false,
 										"result": "LOSE",
@@ -14219,7 +14219,7 @@
 									"away": {
 										"id": 406,
 										"name": "Aarhus",
-										"country": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": null,
 										"featured": false,
 										"result": "LOSE",
@@ -15243,7 +15243,7 @@
 									"away": {
 										"id": 407,
 										"name": "Brondby",
-										"country": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": null,
 										"featured": false,
 										"result": "WIN",
@@ -16335,7 +16335,7 @@
 									"home": {
 										"id": 407,
 										"name": "Brondby",
-										"country": null,
+										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": null,
 										"featured": false,
 										"result": "LOSE",
@@ -16865,7 +16865,7 @@
 									"home": {
 										"id": 194,
 										"name": "Ajax",
-										"country": null,
+										"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 										"position": null,
 										"featured": false,
 										"result": "WIN",
@@ -18285,7 +18285,7 @@
 									"away": {
 										"id": 74,
 										"name": "Sheffield Wednesday",
-										"country": null,
+										"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 										"position": null,
 										"featured": false,
 										"result": "LOSE",

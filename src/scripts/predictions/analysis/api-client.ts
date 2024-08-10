@@ -7,7 +7,7 @@ import { delay } from "../../../@diegofrayo/utils/misc";
 import { addLeftPadding } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
-import { formatCode, formatDate } from "./utils";
+import { formatDate } from "./utils";
 
 const TIME_LIMIT = "10:30";
 const RATE_LIMIT_PER_DAY = 200;
@@ -65,7 +65,7 @@ const APIClient = {
 		return output;
 	},
 
-	async calculateUsageStats() {
+	calculateUsageStats() {
 		const VALUES = {
 			RATE_LIMIT_PER_DAY: 100,
 			AMOUNT_PER_REQUEST: 0.005,
@@ -89,10 +89,7 @@ const APIClient = {
 			paymentCOP: monthRequests * VALUES.AMOUNT_PER_REQUEST * VALUES.COP,
 		};
 
-		writeFile(
-			"src/scripts/predictions/data/util/api-limits.json",
-			await formatCode(API_USAGE_STATS, "json"),
-		);
+		writeFile("src/scripts/predictions/data/util/api-limits.json", API_USAGE_STATS);
 	},
 };
 
@@ -104,14 +101,11 @@ function readCounterStats() {
 	return API_USAGE_STATS["daily-requests"][composeFormattedDate()] || 0;
 }
 
-async function updateCounterStats(counter: number) {
+function updateCounterStats(counter: number) {
 	API_USAGE_STATS["daily-requests"][composeFormattedDate()] = counter;
 	API_USAGE_STATS["last-request-execution"] = new Date().getTime();
 
-	writeFile(
-		"src/scripts/predictions/data/util/api-limits.json",
-		await formatCode(API_USAGE_STATS, "json"),
-	);
+	writeFile("src/scripts/predictions/data/util/api-limits.json", API_USAGE_STATS);
 }
 
 async function checkForAPIRequestsPerMinuteLimit() {

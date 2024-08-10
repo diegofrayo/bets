@@ -546,11 +546,11 @@
 		"matches": [
 			{
 				"id": "1164456",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T12:00",
 				"date": "2024-08-09",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 332,
@@ -558,6 +558,12 @@
 						"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 						"position": 16,
 						"featured": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 2, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 18 partidos",
@@ -1550,6 +1556,12 @@
 						"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" },
 						"position": 11,
 						"featured": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 21 partidos",
@@ -2698,7 +2710,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -2729,7 +2747,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -2760,7 +2784,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -3322,11 +3352,11 @@
 		"matches": [
 			{
 				"id": "1213217",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T13:45",
 				"date": "2024-08-09",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 733,
@@ -3334,6 +3364,12 @@
 						"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 						"position": 6,
 						"featured": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -3609,6 +3645,12 @@
 						"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 						"position": 12,
 						"featured": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -3914,7 +3956,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -3945,7 +3993,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "tr-local",
@@ -3976,7 +4030,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -4406,11 +4466,11 @@
 		"matches": [
 			{
 				"id": "1205442",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T12:00",
 				"date": "2024-08-09",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 397,
@@ -4418,6 +4478,12 @@
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 						"position": 6,
 						"featured": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -4873,6 +4939,12 @@
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 						"position": 12,
 						"featured": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -5218,7 +5290,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": true,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "do-local",
@@ -5254,7 +5332,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -5285,7 +5369,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -5715,11 +5805,11 @@
 		"matches": [
 			{
 				"id": "1164669",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T10:00",
 				"date": "2024-08-09",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1166,
@@ -5727,6 +5817,12 @@
 						"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 						"position": 11,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 21 partidos",
@@ -6848,6 +6944,12 @@
 						"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 						"position": 12,
 						"featured": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 2 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 23 partidos",
@@ -8083,7 +8185,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -8114,7 +8222,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -8145,7 +8259,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -8971,11 +9091,11 @@
 		"matches": [
 			{
 				"id": "1215843",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T14:00",
 				"date": "2024-08-09",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 67,
@@ -8983,6 +9103,12 @@
 						"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 						"position": 1,
 						"featured": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 3, "against": 2 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -9378,6 +9504,12 @@
 						"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 						"position": 2,
 						"featured": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 2, "against": 3 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -9887,7 +10019,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -9918,7 +10056,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -9949,7 +10093,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -9964,11 +10114,11 @@
 			},
 			{
 				"id": "1215844",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T14:00",
 				"date": "2024-08-09",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 59,
@@ -9976,6 +10126,12 @@
 						"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 						"position": 13,
 						"featured": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -10413,6 +10569,12 @@
 						"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 						"position": 24,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -10838,7 +11000,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -10869,7 +11037,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "tr-local",
@@ -10900,7 +11074,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -11528,11 +11708,11 @@
 		"matches": [
 			{
 				"id": "1213441",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T13:00",
 				"date": "2024-08-09",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 202,
@@ -11540,6 +11720,12 @@
 						"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 						"position": 18,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 3, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -11739,7 +11925,7 @@
 									"away": {
 										"id": 206,
 										"name": "Heracles",
-										"country": null,
+										"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 										"position": 15,
 										"featured": false,
 										"result": "LOSE",
@@ -11893,6 +12079,12 @@
 						"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 						"position": 7,
 						"featured": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 3 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -12079,7 +12271,7 @@
 									"home": {
 										"id": 426,
 										"name": "Sparta Rotterdam",
-										"country": null,
+										"country": { "name": "Netherlands", "flag": "🇳🇱", "code": "NL" },
 										"position": 14,
 										"featured": false,
 										"result": "WIN",
@@ -12360,7 +12552,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -12391,7 +12589,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -12422,7 +12626,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -13380,11 +13590,11 @@
 		"matches": [
 			{
 				"id": "1158799",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T13:00",
 				"date": "2024-08-09",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 476,
@@ -13392,6 +13602,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 15,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 3, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -13757,6 +13973,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 9,
 						"featured": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 3 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -14152,7 +14374,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -14183,7 +14411,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -14214,7 +14448,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -14229,11 +14469,11 @@
 			},
 			{
 				"id": "1158789",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T14:30",
 				"date": "2024-08-09",
 				"hour": "14:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2432,
@@ -14241,6 +14481,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 26,
 						"featured": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -14606,6 +14852,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 5,
 						"featured": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -15001,7 +15253,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -15032,7 +15290,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -15063,7 +15327,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -15078,11 +15348,11 @@
 			},
 			{
 				"id": "1158796",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T17:00",
 				"date": "2024-08-09",
 				"hour": "17:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 440,
@@ -15090,6 +15360,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 10,
 						"featured": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -15455,6 +15731,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 2,
 						"featured": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -15850,7 +16132,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -15881,7 +16169,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -15912,7 +16206,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -15927,11 +16227,11 @@
 			},
 			{
 				"id": "1158794",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T19:00",
 				"date": "2024-08-09",
 				"hour": "19:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 436,
@@ -15939,6 +16239,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 3,
 						"featured": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -16304,6 +16610,12 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 20,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -16694,7 +17006,13 @@
 							}
 						],
 						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevelLabel": "HIGH",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": true,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "do-local",
@@ -16730,7 +17048,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					},
 					{
 						"id": "tr-local",
@@ -16761,7 +17085,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
 					}
 				],
 				"league": {
@@ -17389,11 +17719,11 @@
 		"matches": [
 			{
 				"id": "1231733",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T14:15",
 				"date": "2024-08-09",
 				"hour": "14:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 228,
@@ -17401,6 +17731,12 @@
 						"country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" },
 						"position": 10,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -17754,6 +18090,12 @@
 						"country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" },
 						"position": 6,
 						"featured": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 1, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -18037,7 +18379,7 @@
 									"away": {
 										"id": 227,
 										"name": "Santa Clara",
-										"country": null,
+										"country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" },
 										"position": 7,
 										"featured": true,
 										"result": "WIN",
@@ -18163,7 +18505,7 @@
 									"away": {
 										"id": 215,
 										"name": "Moreirense",
-										"country": null,
+										"country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" },
 										"position": 8,
 										"featured": true,
 										"result": "WIN",
@@ -18221,7 +18563,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -18252,7 +18600,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -18283,7 +18637,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
@@ -18944,11 +19304,11 @@
 		"matches": [
 			{
 				"id": "1237855",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-09T13:00",
 				"date": "2024-08-09",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 645,
@@ -18956,6 +19316,12 @@
 						"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" },
 						"position": 10,
 						"featured": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 1 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -19393,6 +19759,12 @@
 						"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" },
 						"position": 9,
 						"featured": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 0 partidos",
@@ -19607,7 +19979,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "gpe-local",
@@ -19638,7 +20016,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					},
 					{
 						"id": "tr-local",
@@ -19669,7 +20053,13 @@
 							}
 						],
 						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
 					}
 				],
 				"league": {
