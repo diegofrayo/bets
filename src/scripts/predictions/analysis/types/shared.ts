@@ -78,9 +78,11 @@ type T_TeamBase = {
 	id: number;
 	name: string;
 	position: number | null;
-	featured: boolean;
+	tag: "FEATURED" | "POOR" | "REGULAR";
 	country: T_League["country"] | null;
 };
+
+export type T_Team = T_TeamBase;
 
 export type T_FixtureMatchTeam = T_FixtureNextMatchTeam | T_FixturePlayedMatchTeam;
 

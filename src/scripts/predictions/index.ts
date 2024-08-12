@@ -10,15 +10,15 @@ launchAnalysis({
 
 	// Config 2
 	config: "OFFLINE_REBUILDING",
-	date: "2024-08-11",
-	previousDays: 13,
+	date: "2024-08-12",
+	previousDays: 14,
 	updatePredictionStats: true,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",
 	// leaguesFixturesDates: {
-	// 	from: "2024-08-05",
-	// 	to: "2024-08-11",
+	// 	from: "2024-08-12",
+	// 	to: "2024-08-18",
 	// 	ids: [],
 	// },
 

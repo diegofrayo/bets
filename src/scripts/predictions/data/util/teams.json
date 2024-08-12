@@ -1,6 +1,7 @@
 {
 	"38": { "name": "Watford", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"43": { "name": "Cardiff", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
+	"44": { "name": "Burnley", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"56": { "name": "Bristol City", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"58": { "name": "Millwall", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"59": { "name": "Preston", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
@@ -68,13 +69,14 @@
 	"215": { "name": "Moreirense", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"217": { "name": "SC Braga", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"222": { "name": "Boavista", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
-	"224": { "name": "Guimaraes", "country": null },
+	"224": { "name": "Guimaraes", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"225": { "name": "Nacional", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"226": { "name": "Rio Ave", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"227": { "name": "Santa Clara", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"228": { "name": "Sporting CP", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"230": { "name": "Estoril", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"231": { "name": "Farense", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
+	"240": { "name": "Arouca", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"242": { "name": "Famalicao", "country": { "name": "Portugal", "flag": "🇵🇹", "code": "PT" } },
 	"247": { "name": "Celtic", "country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" } },
 	"249": { "name": "Hibernian", "country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" } },
@@ -144,6 +146,7 @@
 	},
 	"400": { "name": "FC Copenhagen", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"401": { "name": "Randers FC", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
+	"402": { "name": "Aalborg", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"406": { "name": "Aarhus", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"407": { "name": "Brondby", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"410": {
@@ -249,7 +252,10 @@
 	"561": { "name": "HNK Rijeka", "country": null },
 	"562": { "name": "FC Astana", "country": null },
 	"563": { "name": "Hapoel Beer Sheva", "country": null },
-	"564": { "name": "Istanbul Basaksehir", "country": null },
+	"564": {
+		"name": "Istanbul Basaksehir",
+		"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" }
+	},
 	"566": { "name": "Ludogorets", "country": null },
 	"567": { "name": "Plzen", "country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" } },
 	"568": { "name": "Sheriff Tiraspol", "country": null },
@@ -327,6 +333,7 @@
 	"1002": { "name": "Sivasspor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
 	"1004": { "name": "Kasimpasa", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
 	"1005": { "name": "Antalyaspor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
+	"1007": { "name": "Rizespor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
 	"1011": { "name": "FC ST. Gallen", "country": null },
 	"1025": {
 		"name": "Wolfsberger AC",
@@ -405,6 +412,7 @@
 	"1346": { "name": "Coventry", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"1355": { "name": "Portsmouth", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"1357": { "name": "Plymouth", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
+	"1359": { "name": "Luton", "country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" } },
 	"1386": { "name": "Dundee Utd", "country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" } },
 	"1393": {
 		"name": "Union St. Gilloise",
@@ -425,6 +433,7 @@
 	"1574": { "name": "El Gouna FC", "country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" } },
 	"1575": { "name": "El Mokawloon", "country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" } },
 	"1577": { "name": "Al Ahly", "country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" } },
+	"2070": { "name": "Viborg", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"2073": { "name": "Silkeborg", "country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" } },
 	"2077": { "name": "AC oulu", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
 	"2078": { "name": "EIF", "country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" } },
@@ -462,7 +471,12 @@
 		"name": "Adana Demirspor",
 		"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" }
 	},
+	"3573": {
+		"name": "Gazişehir Gaziantep",
+		"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" }
+	},
 	"3575": { "name": "Hatayspor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
+	"3583": { "name": "BB Bodrumspor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
 	"3588": { "name": "Eyüpspor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
 	"3603": { "name": "Samsunspor", "country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" } },
 	"3683": { "name": "Ararat-Armenia", "country": null },

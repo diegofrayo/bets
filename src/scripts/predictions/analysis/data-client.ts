@@ -33,6 +33,7 @@ import type {
 	T_RawLeagueStandingsResponse,
 	T_RawMatchesResponse,
 	T_RequestConfig,
+	T_Team,
 	T_TeamsFile,
 	T_TeamStats,
 	T_TeamStatsItems,
@@ -41,7 +42,11 @@ import { formatCode, formatDate } from "./utils";
 import doubleOpportunityPrediction from "./markets/double-opportunity-for-home-team";
 import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
 import matchWinnerPrediction from "./markets/match-winner-for-home-team";
-import { getTeamPosition, type T_PredictionsInput } from "./markets/utils";
+import {
+	getLeagueStandingsLimits,
+	getTeamPosition,
+	type T_PredictionsInput,
+} from "./markets/utils";
 
 const LEAGUES = JSON.parse(
 	readFile("src/scripts/predictions/data/util/leagues.json"),
@@ -199,7 +204,7 @@ function updateTeamsFile(matches: Awaited<PromiseLike<ReturnType<typeof fetchFix
 					},
 				};
 			},
-			{} as Pick<T_FixtureMatchTeam, "name" | "country" | "featured">,
+			{} as Pick<T_FixtureMatchTeam, "name" | "country">,
 		),
 	};
 
@@ -495,7 +500,7 @@ function parseMatchItem(
 							getCountryDetails({ countryName: item.league.country })
 						: null),
 				position: getTeamPosition(item.teams.home.id, leagueStandings),
-				featured: checkIsTeamFeatured(item.teams.home.id, leagueStandings),
+				tag: getTeamTag(item.teams.home.id, leagueStandings),
 			},
 			away: {
 				id: item.teams.away.id,
@@ -507,7 +512,7 @@ function parseMatchItem(
 							getCountryDetails({ countryName: item.league.country })
 						: null),
 				position: getTeamPosition(item.teams.away.id, leagueStandings),
-				featured: checkIsTeamFeatured(item.teams.away.id, leagueStandings),
+				tag: getTeamTag(item.teams.away.id, leagueStandings),
 			},
 		},
 		league: getLeagueById(item.league.id, { noThrowError: true }) || {
@@ -1091,14 +1096,23 @@ function calculateTeamStats({
 	return result;
 }
 
-function checkIsTeamFeatured(teamId: number, leagueStandings: T_LeagueStandings) {
+function getTeamTag(teamId: number, leagueStandings: T_LeagueStandings): T_Team["tag"] {
 	const teamPosition = getTeamPosition(teamId, leagueStandings);
+	const leagueStandingsLimits = getLeagueStandingsLimits(leagueStandings);
 
-	if (v.isNumber(teamPosition)) {
-		return teamPosition <= 8;
+	if (
+		v.isNumber(teamPosition) &&
+		leagueStandingsLimits.featured > 0 &&
+		leagueStandingsLimits.poor > 0
+	) {
+		return teamPosition <= leagueStandingsLimits.featured
+			? "FEATURED"
+			: teamPosition >= leagueStandingsLimits.poor
+				? "POOR"
+				: "REGULAR";
 	}
 
-	return false;
+	return "REGULAR";
 }
 
 function getTeamById(teamId: number) {

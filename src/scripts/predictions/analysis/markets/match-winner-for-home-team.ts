@@ -25,9 +25,9 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 									getTeamPosition(homeTeam.id, predictionsInput.leagueStandings) || 0;
 
 								return {
-									fulfilled: teamPosition >= 1 && teamPosition <= LIMITS.best,
-									successExplanation: `El local está entre los primeros ${LIMITS.best} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
-									failExplanation: `El local está fuera de los primeros ${LIMITS.best} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+									fulfilled: teamPosition >= 1 && teamPosition <= LIMITS.featured,
+									successExplanation: `El local está entre los primeros ${LIMITS.featured} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
+									failExplanation: `El local está fuera de los primeros ${LIMITS.featured} puestos de la tabla | (${teamPosition}/${predictionsInput.leagueStandings.items.length})`,
 								};
 							},
 						},

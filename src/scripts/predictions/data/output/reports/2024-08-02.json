@@ -953,7 +953,7 @@
 						"name": "Newells Old Boys",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 16,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 1,
@@ -1148,7 +1148,7 @@
 										"name": "San Lorenzo",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 23,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1161,7 +1161,7 @@
 										"name": "Newells Old Boys",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 16,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1193,7 +1193,7 @@
 										"name": "Newells Old Boys",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 16,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1206,7 +1206,7 @@
 										"name": "Independ. Rivadavia",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 7,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1238,7 +1238,7 @@
 										"name": "Barracas Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 26,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1251,7 +1251,7 @@
 										"name": "Newells Old Boys",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 16,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -1279,7 +1279,7 @@
 						"name": "Estudiantes L.P.",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 12,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 4,
@@ -1474,7 +1474,7 @@
 										"name": "Estudiantes L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -1487,7 +1487,7 @@
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 17,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1519,7 +1519,7 @@
 										"name": "Huracan",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1532,7 +1532,7 @@
 										"name": "Estudiantes L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1564,7 +1564,7 @@
 										"name": "Estudiantes L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1577,7 +1577,7 @@
 										"name": "Union Santa Fe",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1619,7 +1619,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 20 puestos de la tabla | (12/28)"
+										"explanation": "El visitante está dentro de los primeros 21 puestos de la tabla | (12/28)"
 									},
 									{
 										"fulfilled": false,
@@ -2355,7 +2355,7 @@
 						"name": "Zamalek SC",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 6,
-						"featured": true,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -2550,7 +2550,7 @@
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2563,7 +2563,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2595,7 +2595,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -2608,7 +2608,7 @@
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -2640,7 +2640,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2653,7 +2653,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2685,7 +2685,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -2698,7 +2698,7 @@
 										"name": "Proxy",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -2727,7 +2727,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2740,7 +2740,7 @@
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2772,7 +2772,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2785,7 +2785,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2817,7 +2817,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2830,7 +2830,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2862,7 +2862,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -2875,7 +2875,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -2907,7 +2907,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -2920,7 +2920,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -2952,7 +2952,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2965,7 +2965,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2997,7 +2997,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3010,7 +3010,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3042,7 +3042,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3055,7 +3055,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3087,7 +3087,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3100,7 +3100,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3132,7 +3132,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -3145,7 +3145,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -3177,7 +3177,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3190,7 +3190,7 @@
 										"name": "Renaissance Berkane",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3219,7 +3219,7 @@
 										"name": "Renaissance Berkane",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3232,7 +3232,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3261,7 +3261,7 @@
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3274,7 +3274,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3306,7 +3306,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3319,7 +3319,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3351,7 +3351,7 @@
 										"name": "Dreams",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3364,7 +3364,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -3393,7 +3393,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3406,7 +3406,7 @@
 										"name": "Dreams",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3435,7 +3435,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3448,7 +3448,7 @@
 										"name": "Al Ahly",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3480,7 +3480,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -3493,7 +3493,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3525,7 +3525,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -3538,7 +3538,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -3567,7 +3567,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3580,7 +3580,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3609,7 +3609,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -3622,7 +3622,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -3654,7 +3654,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -3667,7 +3667,7 @@
 										"name": "CO Coyah",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3696,7 +3696,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3709,7 +3709,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3741,7 +3741,7 @@
 										"name": "Abu Salim",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3754,7 +3754,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3783,7 +3783,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3796,7 +3796,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3824,7 +3824,7 @@
 						"name": "El Gouna FC",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 13,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -4019,7 +4019,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4032,7 +4032,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4064,7 +4064,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4077,7 +4077,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4109,7 +4109,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -4122,7 +4122,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -4154,7 +4154,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4167,7 +4167,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -4199,7 +4199,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -4212,7 +4212,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4244,7 +4244,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4257,7 +4257,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4289,7 +4289,7 @@
 										"name": "Coca-Cola",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -4302,7 +4302,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -4334,7 +4334,7 @@
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4347,7 +4347,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4376,7 +4376,7 @@
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -4389,7 +4389,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4421,7 +4421,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4434,7 +4434,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4466,7 +4466,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4479,7 +4479,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4511,7 +4511,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -4524,7 +4524,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -4556,7 +4556,7 @@
 										"name": "Al Ahly",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -4569,7 +4569,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4601,7 +4601,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -4614,7 +4614,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -4646,7 +4646,7 @@
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -4659,7 +4659,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4691,7 +4691,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -4704,7 +4704,7 @@
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4736,7 +4736,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -4749,7 +4749,7 @@
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -4781,7 +4781,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -4794,7 +4794,7 @@
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -4826,7 +4826,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -4839,7 +4839,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -4871,7 +4871,7 @@
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -4884,7 +4884,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -4916,7 +4916,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4929,7 +4929,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -4961,7 +4961,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -4974,7 +4974,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5006,7 +5006,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5019,7 +5019,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5051,7 +5051,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5064,7 +5064,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5093,7 +5093,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -5106,7 +5106,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -5135,7 +5135,7 @@
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5148,7 +5148,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5177,7 +5177,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -5190,7 +5190,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -5219,7 +5219,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -5232,7 +5232,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -5264,7 +5264,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -5277,7 +5277,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -5309,7 +5309,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5322,7 +5322,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5354,7 +5354,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5367,7 +5367,7 @@
 										"name": "Al Ahly",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -5399,7 +5399,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -5412,7 +5412,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -5444,7 +5444,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -5457,7 +5457,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -5489,7 +5489,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5502,7 +5502,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5534,7 +5534,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -5547,7 +5547,7 @@
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -5626,7 +5626,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 14 puestos de la tabla | (13/18)"
+										"explanation": "El visitante está dentro de los primeros 15 puestos de la tabla | (13/18)"
 									},
 									{
 										"fulfilled": false,
@@ -6391,7 +6391,7 @@
 						"name": "Millonarios",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 						"position": 12,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -6586,7 +6586,7 @@
 										"name": "Alianza Petrolera",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -6599,7 +6599,7 @@
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -6631,7 +6631,7 @@
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -6644,7 +6644,7 @@
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -6676,7 +6676,7 @@
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -6689,7 +6689,7 @@
 										"name": "Bucaramanga",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -6721,7 +6721,7 @@
 										"name": "Independiente Medellin",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -6734,7 +6734,7 @@
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -6762,7 +6762,7 @@
 						"name": "Deportes Tolima",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 						"position": 8,
-						"featured": true,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -6957,7 +6957,7 @@
 										"name": "Deportes Tolima",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -6970,7 +6970,7 @@
 										"name": "Deportivo Pasto",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -7002,7 +7002,7 @@
 										"name": "Fortaleza FC",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -7015,7 +7015,7 @@
 										"name": "Deportes Tolima",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -7057,7 +7057,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 15 puestos de la tabla | (8/20)"
+										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (8/20)"
 									},
 									{
 										"fulfilled": false,
@@ -7595,7 +7595,7 @@
 						"name": "Inter Turku",
 						"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 						"position": 7,
-						"featured": true,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
@@ -7790,7 +7790,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -7803,7 +7803,7 @@
 										"name": "IF Gnistan",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -7835,7 +7835,7 @@
 										"name": "EIF",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7848,7 +7848,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 7,
@@ -7880,7 +7880,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -7893,7 +7893,7 @@
 										"name": "FC Lahti",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7925,7 +7925,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -7938,7 +7938,7 @@
 										"name": "Turku PS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -7967,7 +7967,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -7980,7 +7980,7 @@
 										"name": "vaasa PS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8012,7 +8012,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 6,
@@ -8025,7 +8025,7 @@
 										"name": "GrIFK",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8054,7 +8054,7 @@
 										"name": "haka",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -8067,7 +8067,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -8099,7 +8099,7 @@
 										"name": "Kooteepee",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8112,7 +8112,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -8141,7 +8141,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8154,7 +8154,7 @@
 										"name": "Ilves Tampere",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8186,7 +8186,7 @@
 										"name": "FC Lahti",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8199,7 +8199,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8231,7 +8231,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8244,7 +8244,7 @@
 										"name": "haka",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8276,7 +8276,7 @@
 										"name": "vaasa PS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8289,7 +8289,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8321,7 +8321,7 @@
 										"name": "Ilves Tampere",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8334,7 +8334,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8366,7 +8366,7 @@
 										"name": "SJK",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8379,7 +8379,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8411,7 +8411,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8424,7 +8424,7 @@
 										"name": "HJK helsinki",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -8456,7 +8456,7 @@
 										"name": "Ilves II",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8469,7 +8469,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8498,7 +8498,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8511,7 +8511,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8543,7 +8543,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8556,7 +8556,7 @@
 										"name": "EIF",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8588,7 +8588,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -8601,7 +8601,7 @@
 										"name": "KuPS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -8633,7 +8633,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 3,
@@ -8646,7 +8646,7 @@
 										"name": "AC oulu",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 3,
@@ -8678,7 +8678,7 @@
 										"name": "IF Gnistan",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8691,7 +8691,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8719,7 +8719,7 @@
 						"name": "IFK Mariehamn",
 						"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 						"position": 10,
-						"featured": false,
+						"tag": "POOR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -8914,7 +8914,7 @@
 										"name": "vaasa PS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8927,7 +8927,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8959,7 +8959,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8972,7 +8972,7 @@
 										"name": "SJK",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -9004,7 +9004,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9017,7 +9017,7 @@
 										"name": "haka",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -9049,7 +9049,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -9062,7 +9062,7 @@
 										"name": "HJK helsinki",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -9094,7 +9094,7 @@
 										"name": "EIF",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -9107,7 +9107,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -9139,7 +9139,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -9152,7 +9152,7 @@
 										"name": "KuPS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -9181,7 +9181,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -9194,7 +9194,7 @@
 										"name": "vaasa PS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -9226,7 +9226,7 @@
 										"name": "haka",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -9239,7 +9239,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9271,7 +9271,7 @@
 										"name": "SJK",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9284,7 +9284,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -9316,7 +9316,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -9329,7 +9329,7 @@
 										"name": "IF Gnistan",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -9361,7 +9361,7 @@
 										"name": "AC oulu",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -9374,7 +9374,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -9406,7 +9406,7 @@
 										"name": "FC Lahti",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -9419,7 +9419,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9451,7 +9451,7 @@
 										"name": "LPS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9464,7 +9464,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -9493,7 +9493,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -9506,7 +9506,7 @@
 										"name": "Inter Turku",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -9538,7 +9538,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9551,7 +9551,7 @@
 										"name": "Ilves Tampere",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -9583,7 +9583,7 @@
 										"name": "HJK helsinki",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -9596,7 +9596,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -9628,7 +9628,7 @@
 										"name": "RiPS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -9641,7 +9641,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -9670,7 +9670,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -9683,7 +9683,7 @@
 										"name": "KuPS",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -9715,7 +9715,7 @@
 										"name": "IFK Mariehamn",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -9728,7 +9728,7 @@
 										"name": "EIF",
 										"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -9770,7 +9770,7 @@
 									{
 										"fulfilled": true,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 9 puestos de la tabla | (10/12)"
+										"explanation": "El visitante está mas abajo de los primeros 10 puestos de la tabla | (10/12)"
 									},
 									{
 										"fulfilled": true,
@@ -10308,7 +10308,7 @@
 						"name": "Grazer AK",
 						"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 						"position": 4,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 2,
@@ -10498,7 +10498,7 @@
 						"name": "Red Bull Salzburg",
 						"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" },
 						"position": 9,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
@@ -10700,9 +10700,9 @@
 										"explanation": "El local está entre los primeros 4 puestos de la tabla | (4/12)"
 									},
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 9 puestos de la tabla | (9/12)"
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (9/12)"
 									},
 									{
 										"fulfilled": false,
@@ -11372,7 +11372,7 @@
 						"name": "Union St. Gilloise",
 						"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 						"position": 12,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
@@ -11567,7 +11567,7 @@
 										"name": "Dender",
 										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -11580,7 +11580,7 @@
 										"name": "Union St. Gilloise",
 										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -11608,7 +11608,7 @@
 						"name": "Beerschot Wilrijk",
 						"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 						"position": 7,
-						"featured": true,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 1,
@@ -11803,7 +11803,7 @@
 										"name": "Beerschot Wilrijk",
 										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -11816,7 +11816,7 @@
 										"name": "OH Leuven",
 										"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -11858,7 +11858,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 12 puestos de la tabla | (7/16)"
+										"explanation": "El visitante está dentro de los primeros 13 puestos de la tabla | (7/16)"
 									},
 									{
 										"fulfilled": false,

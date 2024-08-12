@@ -623,7 +623,7 @@
 						"name": "Zamalek SC",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 5,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "WIN",
 						"score": {
 							"fullTime": 4,
@@ -818,7 +818,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -831,7 +831,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -863,7 +863,7 @@
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -876,7 +876,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -908,7 +908,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -921,7 +921,7 @@
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -953,7 +953,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -966,7 +966,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -998,7 +998,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -1011,7 +1011,7 @@
 										"name": "Proxy",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -1040,7 +1040,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1053,7 +1053,7 @@
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1085,7 +1085,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1098,7 +1098,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1130,7 +1130,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1143,7 +1143,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1175,7 +1175,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1188,7 +1188,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1220,7 +1220,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -1233,7 +1233,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -1265,7 +1265,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1278,7 +1278,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1310,7 +1310,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1323,7 +1323,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1355,7 +1355,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1368,7 +1368,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1400,7 +1400,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1413,7 +1413,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1445,7 +1445,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1458,7 +1458,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1490,7 +1490,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -1503,7 +1503,7 @@
 										"name": "Renaissance Berkane",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1532,7 +1532,7 @@
 										"name": "Renaissance Berkane",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1545,7 +1545,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1574,7 +1574,7 @@
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -1587,7 +1587,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1619,7 +1619,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -1632,7 +1632,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1664,7 +1664,7 @@
 										"name": "Dreams",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1677,7 +1677,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -1706,7 +1706,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1719,7 +1719,7 @@
 										"name": "Dreams",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -1748,7 +1748,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1761,7 +1761,7 @@
 										"name": "Al Ahly",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1793,7 +1793,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -1806,7 +1806,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -1838,7 +1838,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1851,7 +1851,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -1880,7 +1880,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -1893,7 +1893,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -1922,7 +1922,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -1935,7 +1935,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -1967,7 +1967,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -1980,7 +1980,7 @@
 										"name": "CO Coyah",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2009,7 +2009,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -2022,7 +2022,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2054,7 +2054,7 @@
 										"name": "Abu Salim",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2067,7 +2067,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2096,7 +2096,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2109,7 +2109,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2137,7 +2137,7 @@
 						"name": "Enppi",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 9,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 2,
@@ -2332,7 +2332,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2345,7 +2345,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2377,7 +2377,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2390,7 +2390,7 @@
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -2422,7 +2422,7 @@
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2435,7 +2435,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2467,7 +2467,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -2480,7 +2480,7 @@
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -2512,7 +2512,7 @@
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2525,7 +2525,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2557,7 +2557,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -2570,7 +2570,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2602,7 +2602,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -2615,7 +2615,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -2647,7 +2647,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -2660,7 +2660,7 @@
 										"name": "Nogoom El Mostakbal FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2689,7 +2689,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -2702,7 +2702,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -2734,7 +2734,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2747,7 +2747,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2779,7 +2779,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2792,7 +2792,7 @@
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -2824,7 +2824,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -2837,7 +2837,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -2869,7 +2869,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2882,7 +2882,7 @@
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -2914,7 +2914,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -2927,7 +2927,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -2959,7 +2959,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -2972,7 +2972,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3004,7 +3004,7 @@
 										"name": "Al Ahly",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -3017,7 +3017,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -3049,7 +3049,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -3062,7 +3062,7 @@
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -3094,7 +3094,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3107,7 +3107,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3139,7 +3139,7 @@
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3152,7 +3152,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3184,7 +3184,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3197,7 +3197,7 @@
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3229,7 +3229,7 @@
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3242,7 +3242,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3274,7 +3274,7 @@
 										"name": "Al Ittihad",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3287,7 +3287,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3316,7 +3316,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3329,7 +3329,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3358,7 +3358,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3371,7 +3371,7 @@
 										"name": "El Dakhleya",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3400,7 +3400,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3413,7 +3413,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3442,7 +3442,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -3455,7 +3455,7 @@
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3487,7 +3487,7 @@
 										"name": "El Gouna FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3500,7 +3500,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3532,7 +3532,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3545,7 +3545,7 @@
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3577,7 +3577,7 @@
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -3590,7 +3590,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -3622,7 +3622,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3635,7 +3635,7 @@
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3667,7 +3667,7 @@
 										"name": "Coca-Cola",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3680,7 +3680,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3712,7 +3712,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -3725,7 +3725,7 @@
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3757,7 +3757,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -3770,7 +3770,7 @@
 										"name": "National Bank of Egypt",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -3802,7 +3802,7 @@
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -3815,7 +3815,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -3847,7 +3847,7 @@
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3860,7 +3860,7 @@
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -3939,7 +3939,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 14 puestos de la tabla | (9/18)"
+										"explanation": "El visitante está dentro de los primeros 15 puestos de la tabla | (9/18)"
 									},
 									{
 										"fulfilled": true,
@@ -4440,7 +4440,7 @@
 						"name": "ST Johnstone",
 						"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 						"position": 10,
-						"featured": false,
+						"tag": "POOR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 1,
@@ -4630,7 +4630,7 @@
 						"name": "Aberdeen",
 						"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
 						"position": 9,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 2,
@@ -4832,9 +4832,9 @@
 										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (10/12)"
 									},
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 9 puestos de la tabla | (9/12)"
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (9/12)"
 									},
 									{
 										"fulfilled": false,
@@ -5372,7 +5372,7 @@
 						"name": "Vejle",
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 						"position": 12,
-						"featured": false,
+						"tag": "POOR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -5567,7 +5567,7 @@
 										"name": "Brondby",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -5580,7 +5580,7 @@
 										"name": "Vejle",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -5612,7 +5612,7 @@
 										"name": "Vejle",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -5625,7 +5625,7 @@
 										"name": "Randers FC",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -5653,7 +5653,7 @@
 						"name": "FC Nordsjaelland",
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 						"position": 7,
-						"featured": true,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -5848,7 +5848,7 @@
 										"name": "FC Nordsjaelland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5861,7 +5861,7 @@
 										"name": "FC Midtjylland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5893,7 +5893,7 @@
 										"name": "FC Nordsjaelland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -5906,7 +5906,7 @@
 										"name": "Aalborg",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -5948,7 +5948,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 9 puestos de la tabla | (7/12)"
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (7/12)"
 									},
 									{
 										"fulfilled": false,
@@ -6486,7 +6486,7 @@
 						"name": "FH hafnarfjordur",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 						"position": 4,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 2,
@@ -6681,7 +6681,7 @@
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -6694,7 +6694,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -6726,7 +6726,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -6739,7 +6739,7 @@
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -6771,7 +6771,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -6784,7 +6784,7 @@
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -6816,7 +6816,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -6829,7 +6829,7 @@
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -6861,7 +6861,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -6874,7 +6874,7 @@
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -6906,7 +6906,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -6919,7 +6919,7 @@
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -6951,7 +6951,7 @@
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -6964,7 +6964,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -6996,7 +6996,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 3,
@@ -7009,7 +7009,7 @@
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 3,
@@ -7041,7 +7041,7 @@
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -7054,7 +7054,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -7086,7 +7086,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -7099,7 +7099,7 @@
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7131,7 +7131,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7144,7 +7144,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7176,7 +7176,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -7189,7 +7189,7 @@
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -7221,7 +7221,7 @@
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -7234,7 +7234,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7266,7 +7266,7 @@
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -7279,7 +7279,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7308,7 +7308,7 @@
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7321,7 +7321,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7353,7 +7353,7 @@
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -7366,7 +7366,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -7398,7 +7398,7 @@
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7411,7 +7411,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7439,7 +7439,7 @@
 						"name": "Vikingur Reykjavik",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 						"position": 1,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
@@ -7634,7 +7634,7 @@
 										"name": "Egnatia Rrogozhinë",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7647,7 +7647,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7679,7 +7679,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -7692,7 +7692,7 @@
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -7724,7 +7724,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7737,7 +7737,7 @@
 										"name": "Egnatia Rrogozhinë",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -7769,7 +7769,7 @@
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -7782,7 +7782,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -7814,7 +7814,7 @@
 										"name": "Shamrock Rovers",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7827,7 +7827,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -7859,7 +7859,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -7872,7 +7872,7 @@
 										"name": "Shamrock Rovers",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -7904,7 +7904,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -7917,7 +7917,7 @@
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -7946,7 +7946,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -7959,7 +7959,7 @@
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -7991,7 +7991,7 @@
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8004,7 +8004,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -8036,7 +8036,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -8049,7 +8049,7 @@
 										"name": "KR Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -8081,7 +8081,7 @@
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -8094,7 +8094,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -8126,7 +8126,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8139,7 +8139,7 @@
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8168,7 +8168,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -8181,7 +8181,7 @@
 										"name": "Fylkir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 11,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -8213,7 +8213,7 @@
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -8226,7 +8226,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -8258,7 +8258,7 @@
 										"name": "IA Akranes",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 5,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8271,7 +8271,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -8303,7 +8303,7 @@
 										"name": "Vestri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 12,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8316,7 +8316,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -8348,7 +8348,7 @@
 										"name": "Grindavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8361,7 +8361,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -8390,7 +8390,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8403,7 +8403,7 @@
 										"name": "FH hafnarfjordur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8435,7 +8435,7 @@
 										"name": "HK Kopavogur",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 10,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -8448,7 +8448,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8480,7 +8480,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -8493,7 +8493,7 @@
 										"name": "KA Akureyri",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -8525,7 +8525,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -8538,7 +8538,7 @@
 										"name": "Vídir",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8567,7 +8567,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -8580,7 +8580,7 @@
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -8612,7 +8612,7 @@
 										"name": "Fram Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 6,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8625,7 +8625,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -8657,7 +8657,7 @@
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -8670,7 +8670,7 @@
 										"name": "Stjarnan",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -8712,7 +8712,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 9 puestos de la tabla | (1/12)"
+										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (1/12)"
 									},
 									{
 										"fulfilled": true,
@@ -9778,7 +9778,7 @@
 						"name": "Deportivo Riestra",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 20,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -9973,7 +9973,7 @@
 										"name": "Tigre",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 21,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -9986,7 +9986,7 @@
 										"name": "Deportivo Riestra",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 20,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -10018,7 +10018,7 @@
 										"name": "Deportivo Riestra",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 20,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -10031,7 +10031,7 @@
 										"name": "Argentinos JRS",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -10063,7 +10063,7 @@
 										"name": "Belgrano Cordoba",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -10076,7 +10076,7 @@
 										"name": "Deportivo Riestra",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 20,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -10104,7 +10104,7 @@
 						"name": "Central Cordoba de Santiago",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 28,
-						"featured": false,
+						"tag": "POOR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -10299,7 +10299,7 @@
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 28,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -10312,7 +10312,7 @@
 										"name": "Velez Sarsfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -10344,7 +10344,7 @@
 										"name": "Tigre",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 21,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -10357,7 +10357,7 @@
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 28,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -10389,7 +10389,7 @@
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 28,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -10402,7 +10402,7 @@
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -10444,7 +10444,7 @@
 									{
 										"fulfilled": true,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 20 puestos de la tabla | (28/28)"
+										"explanation": "El visitante está mas abajo de los primeros 21 puestos de la tabla | (28/28)"
 									},
 									{
 										"fulfilled": false,
@@ -10567,7 +10567,7 @@
 						"name": "Gimnasia L.P.",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 18,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -10762,7 +10762,7 @@
 										"name": "Estudiantes L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 7,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -10775,7 +10775,7 @@
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -10807,7 +10807,7 @@
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -10820,7 +10820,7 @@
 										"name": "San Lorenzo",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 23,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -10852,7 +10852,7 @@
 										"name": "Independ. Rivadavia",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -10865,7 +10865,7 @@
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -10893,7 +10893,7 @@
 						"name": "Rosario Central",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 19,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -11088,7 +11088,7 @@
 										"name": "Union Santa Fe",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -11101,7 +11101,7 @@
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -11133,7 +11133,7 @@
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -11146,7 +11146,7 @@
 										"name": "Huracan",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -11178,7 +11178,7 @@
 										"name": "Internacional",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -11191,7 +11191,7 @@
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -11223,7 +11223,7 @@
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -11236,7 +11236,7 @@
 										"name": "Sarmiento Junin",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 16,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -11278,7 +11278,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 20 puestos de la tabla | (19/28)"
+										"explanation": "El visitante está dentro de los primeros 21 puestos de la tabla | (19/28)"
 									},
 									{
 										"fulfilled": false,
@@ -11401,7 +11401,7 @@
 						"name": "Platense",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 15,
-						"featured": false,
+						"tag": "REGULAR",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
@@ -11596,7 +11596,7 @@
 										"name": "Defensa Y Justicia",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 27,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -11609,7 +11609,7 @@
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -11641,7 +11641,7 @@
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -11654,7 +11654,7 @@
 										"name": "Velez Sarsfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -11686,7 +11686,7 @@
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 28,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -11699,7 +11699,7 @@
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -11727,7 +11727,7 @@
 						"name": "Banfield",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 25,
-						"featured": false,
+						"tag": "POOR",
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -11922,7 +11922,7 @@
 										"name": "Boca Juniors",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -11935,7 +11935,7 @@
 										"name": "Banfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 25,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -11967,7 +11967,7 @@
 										"name": "Banfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 25,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -11980,7 +11980,7 @@
 										"name": "Talleres Cordoba",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -12012,7 +12012,7 @@
 										"name": "Banfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 25,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -12025,7 +12025,7 @@
 										"name": "Atletico Tucuman",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 6,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -12067,7 +12067,7 @@
 									{
 										"fulfilled": true,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 20 puestos de la tabla | (25/28)"
+										"explanation": "El visitante está mas abajo de los primeros 21 puestos de la tabla | (25/28)"
 									},
 									{
 										"fulfilled": false,
@@ -12869,7 +12869,7 @@
 						"name": "Atletico Nacional",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 						"position": 4,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "DRAW",
 						"score": {
 							"fullTime": 1,
@@ -13064,7 +13064,7 @@
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -13077,7 +13077,7 @@
 										"name": "La Equidad",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -13109,7 +13109,7 @@
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -13122,7 +13122,7 @@
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -13154,7 +13154,7 @@
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 6,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -13167,7 +13167,7 @@
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -13199,7 +13199,7 @@
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -13212,7 +13212,7 @@
 										"name": "America de Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -13244,7 +13244,7 @@
 										"name": "Alianza Petrolera",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -13257,7 +13257,7 @@
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -13285,7 +13285,7 @@
 						"name": "Rionegro Aguilas",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 						"position": 16,
-						"featured": false,
+						"tag": "POOR",
 						"result": "DRAW",
 						"score": {
 							"fullTime": 1,
@@ -13480,7 +13480,7 @@
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -13493,7 +13493,7 @@
 										"name": "Patriotas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 19,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -13525,7 +13525,7 @@
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -13538,7 +13538,7 @@
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -13570,7 +13570,7 @@
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 16,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -13583,7 +13583,7 @@
 										"name": "America de Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -13625,7 +13625,7 @@
 									{
 										"fulfilled": true,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 15 puestos de la tabla | (16/20)"
+										"explanation": "El visitante está mas abajo de los primeros 16 puestos de la tabla | (16/20)"
 									},
 									{
 										"fulfilled": false,
@@ -14427,7 +14427,7 @@
 						"name": "Cruzeiro",
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 						"position": 5,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "LOSE",
 						"score": {
 							"fullTime": 1,
@@ -14622,7 +14622,7 @@
 										"name": "Botafogo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -14635,7 +14635,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -14667,7 +14667,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -14680,7 +14680,7 @@
 										"name": "Juventude",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -14712,7 +14712,7 @@
 										"name": "Palmeiras",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -14725,7 +14725,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -14757,7 +14757,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -14770,7 +14770,7 @@
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -14802,7 +14802,7 @@
 										"name": "Gremio",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -14815,7 +14815,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -14847,7 +14847,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -14860,7 +14860,7 @@
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -14892,7 +14892,7 @@
 										"name": "Criciuma",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -14905,7 +14905,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -14937,7 +14937,7 @@
 										"name": "Flamengo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -14950,7 +14950,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -14982,7 +14982,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -14995,7 +14995,7 @@
 										"name": "Atletico Paranaense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15027,7 +15027,7 @@
 										"name": "Bahia",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -15040,7 +15040,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -15072,7 +15072,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -15085,7 +15085,7 @@
 										"name": "Fluminense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15117,7 +15117,7 @@
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -15130,7 +15130,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -15162,7 +15162,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -15175,7 +15175,7 @@
 										"name": "Cuiaba",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 19,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -15207,7 +15207,7 @@
 										"name": "Sao Paulo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 6,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -15220,7 +15220,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15252,7 +15252,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -15265,7 +15265,7 @@
 										"name": "Universidad Catolica",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15297,7 +15297,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -15310,7 +15310,7 @@
 										"name": "Union La Calera",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15342,7 +15342,7 @@
 										"name": "Atletico Goianiense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 20,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15355,7 +15355,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -15387,7 +15387,7 @@
 										"name": "Alianza Petrolera",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15400,7 +15400,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -15432,7 +15432,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -15445,7 +15445,7 @@
 										"name": "Vitoria",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -15477,7 +15477,7 @@
 										"name": "Union La Calera",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -15490,7 +15490,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -15522,7 +15522,7 @@
 										"name": "Atletico-MG",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -15535,7 +15535,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15567,7 +15567,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -15580,7 +15580,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -15612,7 +15612,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -15625,7 +15625,7 @@
 										"name": "Botafogo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -15653,7 +15653,7 @@
 						"name": "Fortaleza EC",
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 						"position": 4,
-						"featured": true,
+						"tag": "FEATURED",
 						"result": "WIN",
 						"score": {
 							"fullTime": 2,
@@ -15848,7 +15848,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -15861,7 +15861,7 @@
 										"name": "Sao Paulo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 6,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -15893,7 +15893,7 @@
 										"name": "Criciuma",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 12,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -15906,7 +15906,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -15938,7 +15938,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -15951,7 +15951,7 @@
 										"name": "Atletico Goianiense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 20,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -15983,7 +15983,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -15996,7 +15996,7 @@
 										"name": "Vitoria",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 15,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -16028,7 +16028,7 @@
 										"name": "Flamengo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 2,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -16041,7 +16041,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -16073,7 +16073,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -16086,7 +16086,7 @@
 										"name": "Fluminense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 17,
-										"featured": false,
+										"tag": "POOR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16118,7 +16118,7 @@
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -16131,7 +16131,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16163,7 +16163,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -16176,7 +16176,7 @@
 										"name": "Juventude",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 13,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -16208,7 +16208,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -16221,7 +16221,7 @@
 										"name": "Palmeiras",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 3,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16253,7 +16253,7 @@
 										"name": "Atletico-MG",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 9,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16266,7 +16266,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16298,7 +16298,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -16311,7 +16311,7 @@
 										"name": "Gremio",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 14,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16343,7 +16343,7 @@
 										"name": "Cuiaba",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 19,
-										"featured": false,
+										"tag": "POOR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -16356,7 +16356,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16388,7 +16388,7 @@
 										"name": "Bahia",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 7,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -16401,7 +16401,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16433,7 +16433,7 @@
 										"name": "CRB",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -16446,7 +16446,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16475,7 +16475,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -16488,7 +16488,7 @@
 										"name": "CRB",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16517,7 +16517,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -16530,7 +16530,7 @@
 										"name": "Atletico Paranaense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 8,
-										"featured": true,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -16562,7 +16562,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -16575,7 +16575,7 @@
 										"name": "Sportivo Trinidense",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -16607,7 +16607,7 @@
 										"name": "Sport Recife",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -16620,7 +16620,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -16649,7 +16649,7 @@
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 3,
@@ -16662,7 +16662,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 3,
@@ -16694,7 +16694,7 @@
 										"name": "Boca Juniors",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16707,7 +16707,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16739,7 +16739,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16752,7 +16752,7 @@
 										"name": "Botafogo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 1,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16784,7 +16784,7 @@
 										"name": "Nacional Potosí",
 										"country": null,
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -16797,7 +16797,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -16829,7 +16829,7 @@
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 18,
-										"featured": false,
+										"tag": "POOR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -16842,7 +16842,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -16874,7 +16874,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -16887,7 +16887,7 @@
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 11,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -16919,7 +16919,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16932,7 +16932,7 @@
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 10,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -16964,7 +16964,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -16977,7 +16977,7 @@
 										"name": "Boca Juniors",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -17009,7 +17009,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -17022,7 +17022,7 @@
 										"name": "Altos",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
-										"featured": false,
+										"tag": "REGULAR",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -17051,7 +17051,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -17064,7 +17064,7 @@
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 5,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -17096,7 +17096,7 @@
 										"name": "Sao Paulo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 6,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -17109,7 +17109,7 @@
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": 4,
-										"featured": true,
+										"tag": "FEATURED",
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -17151,7 +17151,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 15 puestos de la tabla | (4/20)"
+										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (4/20)"
 									},
 									{
 										"fulfilled": true,
