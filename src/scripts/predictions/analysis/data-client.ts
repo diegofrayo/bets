@@ -484,6 +484,24 @@ function parseMatchItem(
 ) {
 	const fullDate = item.fixture.date.substring(0, 16);
 	const [date, hour] = fullDate.split("T");
+	const league = getLeagueById(item.league.id, { noThrowError: true }) || {
+		id: item.league.id,
+		name: item.league.name,
+		type: "Unknown",
+		country:
+			getCountryDetails({ leagueId: item.league.id }) ||
+			(item.league.name === "World"
+				? {
+						name: "World",
+						code: "World",
+						flag: "🌎",
+					}
+				: getCountryDetails({ countryName: item.league.name }) || {
+						name: "Unknown",
+						code: "Unknown",
+						flag: "❓",
+					}),
+	};
 	const matchBaseData = {
 		id: `${item.fixture.id}`,
 		fullDate,
@@ -515,24 +533,7 @@ function parseMatchItem(
 				tag: getTeamTag(item.teams.away.id, leagueStandings),
 			},
 		},
-		league: getLeagueById(item.league.id, { noThrowError: true }) || {
-			id: item.league.id,
-			name: item.league.name,
-			type: "Unknown",
-			country:
-				getCountryDetails({ leagueId: item.league.id }) ||
-				(item.league.name === "World"
-					? {
-							name: "World",
-							code: "World",
-							flag: "🌎",
-						}
-					: getCountryDetails({ countryName: item.league.name }) || {
-							name: "Unknown",
-							code: "Unknown",
-							flag: "❓",
-						}),
-		},
+		league,
 	};
 
 	if (variant === "PLAYED_MATCH") {

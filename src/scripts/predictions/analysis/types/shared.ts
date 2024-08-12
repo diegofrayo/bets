@@ -9,7 +9,7 @@ export type T_League = {
 	id: number;
 	enabled: boolean;
 	name: string;
-	type: string; // "League" | "Cup"
+	type: "League" | "Cup" | "Unknown";
 	priority: number;
 	country: {
 		code: string;
