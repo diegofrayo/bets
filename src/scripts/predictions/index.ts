@@ -5,13 +5,13 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	// config: "SPECIFIC_DATE",
-	// date: "yesterday",
+	// date: "today",
 	// enableRemoteAPI: true,
 
 	// Config 2
 	config: "OFFLINE_REBUILDING",
-	date: "2024-08-13",
-	previousDays: 15,
+	date: "2024-08-15",
+	previousDays: 17,
 	updatePredictionStats: true,
 
 	// Config 3

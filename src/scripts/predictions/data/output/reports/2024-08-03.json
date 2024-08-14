@@ -2729,23 +2729,8 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 5 puestos de la tabla | (1/16)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 13 puestos de la tabla | (14/16)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (10/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (1>14/16)"
 									}
 								],
 								"fulfilled": true
@@ -2771,17 +2756,7 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2.4)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.5)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 1 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
@@ -2808,28 +2783,28 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 5 puestos de la tabla | (1/16)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (1>14/16)"
 									},
 									{
 										"fulfilled": true,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó mas de 10 puntos en los ultimos 5 partidos | (10/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante es de los mejores del torneo | (1/16)"
 									},
 									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (5/15)"
+										"fulfilled": true,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante es de los peores del torneo | (14/16)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -4461,23 +4436,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 9 puestos de la tabla | (27/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 21 puestos de la tabla | (14/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (27<=14/28)"
 									}
 								],
 								"fulfilled": false
@@ -4502,18 +4462,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (2)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 27 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
@@ -4540,18 +4490,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 9 puestos de la tabla | (27/28)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (27<=14/28)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (27/28)"
 									},
 									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (3/15)"
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (14/28)"
 									}
 								],
 								"fulfilled": false
@@ -5250,33 +5200,18 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 9 puestos de la tabla | (1/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 21 puestos de la tabla | (3/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (6/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (1>3/28)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -5292,17 +5227,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 1 y el visitante de 3 en la tabla de posiciones"
 									}
 								],
@@ -5329,18 +5254,18 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 9 puestos de la tabla | (1/28)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (1>3/28)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante es de los mejores del torneo | (1/28)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (6/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (3/28)"
 									}
 								],
 								"fulfilled": false
@@ -6038,34 +5963,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 9 puestos de la tabla | (22/28)"
-									},
-									{
 										"fulfilled": true,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 21 puestos de la tabla | (23/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (22>23/28)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -6081,17 +5991,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 22 y el visitante de 23 en la tabla de posiciones"
 									}
 								],
@@ -6117,19 +6017,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 9 puestos de la tabla | (22/28)"
+										"fulfilled": true,
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (22>23/28)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (22/28)"
 									},
 									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (5/15)"
+										"fulfilled": true,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante es de los peores del torneo | (23/28)"
 									}
 								],
 								"fulfilled": false
@@ -6828,33 +6728,18 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 9 puestos de la tabla | (4/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 21 puestos de la tabla | (6/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (4/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (4>6/28)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -6870,17 +6755,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (1)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 4 y el visitante de 6 en la tabla de posiciones"
 									}
 								],
@@ -6907,18 +6782,18 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 9 puestos de la tabla | (4/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (4>6/28)"
 									},
 									{
 										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (4/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante es de los mejores del torneo | (4/28)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (6/28)"
 									}
 								],
 								"fulfilled": false
@@ -7617,33 +7492,18 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 9 puestos de la tabla | (5/28)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 21 puestos de la tabla | (25/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (9/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (5>25/28)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -7659,28 +7519,18 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (3)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 5 y el visitante de 25 en la tabla de posiciones"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -7696,28 +7546,28 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 9 puestos de la tabla | (5/28)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (9/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (5>25/28)"
 									},
 									{
 										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (2/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante es de los mejores del torneo | (5/28)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante es de los peores del torneo | (25/28)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -9129,24 +8979,9 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 6 puestos de la tabla | (2/20)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (1/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (9/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (9/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (2<=1/20)"
 									}
 								],
 								"fulfilled": false
@@ -9172,17 +9007,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (1)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 2 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
@@ -9208,19 +9033,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
+										"fulfilled": false,
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (2<=1/20)"
+									},
+									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 6 puestos de la tabla | (2/20)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante es de los mejores del torneo | (2/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (9/15)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (9/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (1/20)"
 									}
 								],
 								"fulfilled": false
@@ -9919,23 +9744,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (18/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (13/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (18<=13/20)"
 									}
 								],
 								"fulfilled": false
@@ -9961,17 +9771,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (2)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 18 y el visitante de 13 en la tabla de posiciones"
 									}
 								],
@@ -9998,18 +9798,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (18/20)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (18<=13/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (18/20)"
 									},
 									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (3/15)"
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (13/20)"
 									}
 								],
 								"fulfilled": false
@@ -10708,23 +10508,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (17/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (4/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (17<=4/20)"
 									}
 								],
 								"fulfilled": false
@@ -10750,17 +10535,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (1)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 17 y el visitante de 4 en la tabla de posiciones"
 									}
 								],
@@ -10787,18 +10562,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (17/20)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (17<=4/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (17/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (4/20)"
 									}
 								],
 								"fulfilled": false
@@ -13517,23 +13292,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (12/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (1/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (12<=1/12)"
 									}
 								],
 								"fulfilled": false
@@ -13558,18 +13318,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.3)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.4)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 12 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
@@ -13596,18 +13346,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (12/12)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (12<=1/12)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (12/12)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (1/12)"
 									}
 								],
 								"fulfilled": false
@@ -15218,13 +14968,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -15353,13 +15103,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -15769,7 +15519,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -15859,7 +15609,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -16444,7 +16194,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -16489,13 +16239,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -16534,7 +16284,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -16621,7 +16371,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -16711,13 +16461,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -16801,7 +16551,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -16958,34 +16708,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (17/20)"
-									},
-									{
 										"fulfilled": true,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 16 puestos de la tabla | (18/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (4/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (17>18/20)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -17000,18 +16735,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.2)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.3)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 17 y el visitante de 18 en la tabla de posiciones"
 									}
 								],
@@ -17037,19 +16762,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (17/20)"
+										"fulfilled": true,
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (17>18/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (17/20)"
 									},
 									{
 										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (4/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante es de los peores del torneo | (18/20)"
 									}
 								],
 								"fulfilled": false
@@ -17306,13 +17031,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -17936,13 +17661,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -18071,13 +17796,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -18487,13 +18212,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -18577,7 +18302,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -18667,7 +18392,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -19162,7 +18887,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -19207,13 +18932,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -19252,7 +18977,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -19342,7 +19067,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -19432,13 +19157,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -19522,7 +19247,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 11,
 									"name": "CONMEBOL Sudamericana",
 									"type": "Cup",
@@ -19683,23 +19408,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (11/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (10/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (7/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (11<=10/20)"
 									}
 								],
 								"fulfilled": false
@@ -19724,18 +19434,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.7)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.4)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 11 y el visitante de 10 en la tabla de posiciones"
 									}
 								],
@@ -19762,18 +19462,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (11/20)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (11<=10/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (11/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (7/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (10/20)"
 									}
 								],
 								"fulfilled": false
@@ -20030,13 +19730,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -20705,7 +20405,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -20750,13 +20450,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -20795,7 +20495,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -20885,7 +20585,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -20975,13 +20675,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -21065,7 +20765,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -21436,13 +21136,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -22066,7 +21766,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -22111,13 +21811,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -22156,7 +21856,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -22246,7 +21946,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -22336,13 +22036,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -22426,7 +22126,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -22586,24 +22286,9 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 6 puestos de la tabla | (6/20)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (1/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (8/15)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 10 puntos en los ultimos 5 partidos | (12/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (6<=1/20)"
 									}
 								],
 								"fulfilled": false
@@ -22628,18 +22313,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.5)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 6 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
@@ -22665,19 +22340,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
+										"fulfilled": false,
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (6<=1/20)"
+									},
+									{
 										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 6 puestos de la tabla | (6/20)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante es de los mejores del torneo | (6/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (8/15)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (12/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (1/20)"
 									}
 								],
 								"fulfilled": false
@@ -22934,13 +22609,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -23654,13 +23329,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -23744,13 +23419,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -24160,13 +23835,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -24835,7 +24510,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -24880,13 +24555,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -24925,7 +24600,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -25015,7 +24690,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -25105,13 +24780,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -25195,7 +24870,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -25356,23 +25031,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (20/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (2/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (8/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (20<=2/20)"
 									}
 								],
 								"fulfilled": false
@@ -25397,18 +25057,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.1)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0.9)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 20 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
@@ -25435,18 +25085,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (20/20)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (20<=2/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (2/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (20/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (8/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (2/20)"
 									}
 								],
 								"fulfilled": false
@@ -26378,13 +26028,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -26423,13 +26073,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -26794,13 +26444,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -27424,7 +27074,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -27469,13 +27119,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -27514,7 +27164,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -27559,7 +27209,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -27649,13 +27299,13 @@
 									}
 								},
 								"league": {
-									"enabled": true,
+									"enabled": false,
 									"id": 73,
 									"name": "Copa Do Brasil",
 									"type": "Cup",
 									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 									"season": { "year": 2024, "startDate": "2024-04-13" },
-									"priority": 3
+									"priority": 4
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -27739,7 +27389,7 @@
 									}
 								},
 								"league": {
-									"enabled": false,
+									"enabled": true,
 									"id": 13,
 									"name": "CONMEBOL Libertadores",
 									"type": "Cup",
@@ -27900,23 +27550,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (12/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 16 puestos de la tabla | (9/20)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 10 puntos en los ultimos 5 partidos | (11/15)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (12<=9/20)"
 									}
 								],
 								"fulfilled": false
@@ -27941,18 +27576,8 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.2)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.4)"
-									},
-									{
 										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 12 y el visitante de 9 en la tabla de posiciones"
 									}
 								],
@@ -27979,18 +27604,18 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 6 puestos de la tabla | (12/20)"
+										"description": "El local tiene una mejor posición que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (12<=9/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (5/15)"
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El visitante no es de los mejores del torneo | (12/20)"
 									},
 									{
 										"fulfilled": false,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó mas de 4 puntos en los ultimos 5 partidos | (11/15)"
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (9/20)"
 									}
 								],
 								"fulfilled": false
@@ -28822,48 +28447,6 @@
 				},
 				"predictions": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (8/12)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 10 puestos de la tabla | (11/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
-						}
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
@@ -28874,17 +28457,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 8 y el visitante de 11 en la tabla de posiciones"
 									}
 								],
@@ -28898,43 +28471,6 @@
 							"lostWinning": true,
 							"lost": false,
 							"skippedLost": false
-						}
-					},
-					{
-						"id": "tr-local",
-						"name": "Tiempo reglamentario (Local)",
-						"shortName": "TRL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (8/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
 						}
 					}
 				],
@@ -29339,48 +28875,6 @@
 				},
 				"predictions": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (5/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (6/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
-						}
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
@@ -29391,17 +28885,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 5 y el visitante de 6 en la tabla de posiciones"
 									}
 								],
@@ -29415,43 +28899,6 @@
 							"lostWinning": true,
 							"lost": false,
 							"skippedLost": false
-						}
-					},
-					{
-						"id": "tr-local",
-						"name": "Tiempo reglamentario (Local)",
-						"shortName": "TRL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (5/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
 						}
 					}
 				],
@@ -29856,48 +29303,6 @@
 				},
 				"predictions": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (12/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 10 puestos de la tabla | (1/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": true,
-							"lost": false,
-							"skippedLost": false
-						}
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
@@ -29908,55 +29313,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 12 y el visitante de 1 en la tabla de posiciones"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": true,
-							"lost": false,
-							"skippedLost": false
-						}
-					},
-					{
-						"id": "tr-local",
-						"name": "Tiempo reglamentario (Local)",
-						"shortName": "TRL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 4 puestos de la tabla | (12/12)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (0/15)"
 									}
 								],
 								"fulfilled": false
@@ -31012,48 +30370,6 @@
 				},
 				"predictions": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 5 puestos de la tabla | (5/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 13 puestos de la tabla | (1/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (3/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
-						}
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
@@ -31064,17 +30380,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 5 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
@@ -31088,43 +30394,6 @@
 							"lostWinning": true,
 							"lost": false,
 							"skippedLost": false
-						}
-					},
-					{
-						"id": "tr-local",
-						"name": "Tiempo reglamentario (Local)",
-						"shortName": "TRL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": true,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está entre los primeros 5 puestos de la tabla | (5/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (3/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
 						}
 					}
 				],
@@ -31621,48 +30890,6 @@
 				},
 				"predictions": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (10/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está dentro de los primeros 13 puestos de la tabla | (9/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": true,
-							"lost": false,
-							"skippedLost": false
-						}
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
@@ -31673,55 +30900,8 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 10 y el visitante de 9 en la tabla de posiciones"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": true,
-							"lost": false,
-							"skippedLost": false
-						}
-					},
-					{
-						"id": "tr-local",
-						"name": "Tiempo reglamentario (Local)",
-						"shortName": "TRL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (10/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (1/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (1/15)"
 									}
 								],
 								"fulfilled": false
@@ -32230,48 +31410,6 @@
 				},
 				"predictions": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (15/16)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-										"explanation": "El visitante está mas abajo de los primeros 13 puestos de la tabla | (14/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 10 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
-						}
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
@@ -32282,17 +31420,7 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene un promedio de goles anotados como local alto",
-										"explanation": "El local tiene un promedio de goles anotados como local menor o igual a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
-										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 6 posiciones por arriba del visitante",
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
 										"explanation": "El local va de 15 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
@@ -32306,43 +31434,6 @@
 							"lostWinning": true,
 							"lost": false,
 							"skippedLost": false
-						}
-					},
-					{
-						"id": "tr-local",
-						"name": "Tiempo reglamentario (Local)",
-						"shortName": "TRL",
-						"criteria": [
-							{
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"trustLevel": 100,
-								"items": [
-									{
-										"fulfilled": false,
-										"description": "El local debe estar en los primeros lugares de la tabla",
-										"explanation": "El local está fuera de los primeros 5 puestos de la tabla | (15/16)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El local debe haber sumado al menos 10 de 15 puntos en los ultimos 5 partidos",
-										"explanation": "El local sumó menos de 10 puntos en los ultimos 5 partidos | (0/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "El visitante debe haber sumado menos de 4 puntos en los ultimos 5 partidos",
-										"explanation": "El visitante sumó menos de 4 puntos en los ultimos 5 partidos | (0/15)"
-									}
-								],
-								"fulfilled": false
-							}
-						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
-						"results": {
-							"winning": false,
-							"lostWinning": false,
-							"lost": false,
-							"skippedLost": true
 						}
 					}
 				],

@@ -502,6 +502,8 @@ function parseMatchItem(
 						flag: "❓",
 					}),
 	};
+	const showWarningMessageInLeagueStandingsLimitsFunction =
+		variant !== "PLAYED_MATCH" && league.type === "League";
 	const matchBaseData = {
 		id: `${item.fixture.id}`,
 		fullDate,
@@ -518,7 +520,11 @@ function parseMatchItem(
 							getCountryDetails({ countryName: item.league.country })
 						: null),
 				position: getTeamPosition(item.teams.home.id, leagueStandings),
-				tag: getTeamTag(item.teams.home.id, leagueStandings),
+				tag: getTeamTag(
+					item.teams.home.id,
+					leagueStandings,
+					showWarningMessageInLeagueStandingsLimitsFunction,
+				),
 			},
 			away: {
 				id: item.teams.away.id,
@@ -530,18 +536,18 @@ function parseMatchItem(
 							getCountryDetails({ countryName: item.league.country })
 						: null),
 				position: getTeamPosition(item.teams.away.id, leagueStandings),
-				tag: getTeamTag(item.teams.away.id, leagueStandings),
+				tag: getTeamTag(
+					item.teams.away.id,
+					leagueStandings,
+					showWarningMessageInLeagueStandingsLimitsFunction,
+				),
 			},
 		},
 		league,
 	};
 
 	if (variant === "PLAYED_MATCH") {
-		const matchScores = getMatchScores({
-			matchId: item.fixture.id,
-			score: item.score,
-			goals: item.goals,
-		});
+		const matchScores = getMatchScores({ matchId: item.fixture.id, score: item.score });
 		const output: T_PlayedMatch = {
 			...matchBaseData,
 			type: "PLAYED_MATCH",
@@ -562,11 +568,7 @@ function parseMatchItem(
 	}
 
 	if (variant === "FIXTURE_PLAYED_MATCH") {
-		const matchScores = getMatchScores({
-			matchId: item.fixture.id,
-			score: item.score,
-			goals: item.goals,
-		});
+		const matchScores = getMatchScores({ matchId: item.fixture.id, score: item.score });
 		const output: T_FixturePlayedMatch = {
 			...matchBaseData,
 			type: "FIXTURE_PLAYED_MATCH",
@@ -1097,9 +1099,16 @@ function calculateTeamStats({
 	return result;
 }
 
-function getTeamTag(teamId: number, leagueStandings: T_LeagueStandings): T_Team["tag"] {
+function getTeamTag(
+	teamId: number,
+	leagueStandings: T_LeagueStandings,
+	showWarningMessageInLeagueStandingsLimitsFunction: boolean,
+): T_Team["tag"] {
 	const teamPosition = getTeamPosition(teamId, leagueStandings);
-	const leagueStandingsLimits = getLeagueStandingsLimits(leagueStandings);
+	const leagueStandingsLimits = getLeagueStandingsLimits(
+		leagueStandings,
+		showWarningMessageInLeagueStandingsLimitsFunction,
+	);
 
 	if (
 		v.isNumber(teamPosition) &&
@@ -1205,24 +1214,22 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 
 function getMatchScores({
 	matchId,
-	goals,
 	score,
 }: {
 	matchId: number;
 	score: T_RawMatchesResponse["response"][number]["score"];
-	goals: T_RawMatchesResponse["response"][number]["goals"];
 }): {
 	homeTeam: Pick<T_PlayedMatchTeam, "score" | "result">;
 	awayTeam: Pick<T_PlayedMatchTeam, "score" | "result">;
 } {
-	if (v.isNumber(goals.home) && v.isNumber(goals.away)) {
+	if (v.isNumber(score.fulltime.home) && v.isNumber(score.fulltime.away)) {
 		const matchResult: {
 			homeTeam: T_PlayedMatchTeam["result"];
 			awayTeam: T_PlayedMatchTeam["result"];
 		} =
-			goals.home === goals.away
+			score.fulltime.home === score.fulltime.away
 				? { homeTeam: "DRAW", awayTeam: "DRAW" }
-				: goals.home > goals.away
+				: score.fulltime.home > score.fulltime.away
 					? { homeTeam: "WIN", awayTeam: "LOSE" }
 					: { homeTeam: "LOSE", awayTeam: "WIN" };
 

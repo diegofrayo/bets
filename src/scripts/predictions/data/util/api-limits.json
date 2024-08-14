@@ -3,7 +3,11 @@
 		"2024-04": { "requests": 3, "paymentUSD": 0.015, "paymentCOP": 60 },
 		"2024-05": { "requests": 999, "paymentUSD": 4.995, "paymentCOP": 19980 },
 		"2024-07": { "requests": 48, "paymentUSD": 0.24, "paymentCOP": 960 },
-		"2024-08": { "requests": 75, "paymentUSD": 0.375, "paymentCOP": 1500 }
+		"2024-08": {
+			"requests": 114,
+			"paymentUSD": 0.5700000000000001,
+			"paymentCOP": 2280.0000000000005
+		}
 	},
 	"daily-requests": {
 		"2024-04-28T10:30": 103,
@@ -49,7 +53,8 @@
 		"2024-08-09T10:30": 126,
 		"2024-08-10T10:30": 149,
 		"2024-08-11T10:30": 91,
-		"2024-08-12T10:30": 44
+		"2024-08-12T10:30": 53,
+		"2024-08-13T10:30": 139
 	},
-	"last-request-execution": 1723478344378
+	"last-request-execution": 1723617791349
 }

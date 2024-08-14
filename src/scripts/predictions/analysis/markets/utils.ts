@@ -148,7 +148,10 @@ export function isMatchInLocalLeague(match: T_FixtureMatch, leagueStandings: T_L
 	);
 }
 
-export function getLeagueStandingsLimits(leagueStandings: T_LeagueStandings) {
+export function getLeagueStandingsLimits(
+	leagueStandings: T_LeagueStandings,
+	showWarningMessage?: boolean,
+) {
 	if (leagueStandings.items.length === 28) {
 		return {
 			featured: 9,
@@ -184,7 +187,9 @@ export function getLeagueStandingsLimits(leagueStandings: T_LeagueStandings) {
 		};
 	}
 
-	console.log(`Unknown league standings length: ${leagueStandings.items.length}`);
+	if (showWarningMessage) {
+		console.log(`Unknown league standings length: ${leagueStandings.items.length}`);
+	}
 
 	return {
 		featured: 0,

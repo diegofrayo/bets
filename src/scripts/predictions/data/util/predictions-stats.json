@@ -2,115 +2,138 @@
 	"records": {
 		"do-local": {
 			"winning": {
-				"2024-07-30": ["1251956-brazil"],
-				"2024-07-31": ["1251950-brazil", "1251954-brazil", "1251946-brazil"],
-				"2024-08-03": ["1164454-norway"],
-				"2024-08-04": ["1176847-egypt"],
-				"2024-08-06": ["1273679-world", "1273687-world", "1253319-world", "1274823-world"],
-				"2024-08-07": [
-					"1251959-brazil",
-					"1251961-brazil",
-					"1271718-world",
-					"1274801-world",
-					"1274803-world",
-					"1274835-world"
+				"2024-07-29": ["1158769-argentina", "1234163-colombia"],
+				"2024-07-31": ["1158749-argentina", "1234201-colombia"],
+				"2024-08-01": ["1215799-egypt"],
+				"2024-08-02": ["1215800-egypt", "1164662-finland"],
+				"2024-08-03": [
+					"1164454-norway",
+					"1158777-argentina",
+					"1158780-argentina",
+					"1158783-argentina",
+					"1158785-argentina",
+					"1180557-brazil"
 				],
+				"2024-08-04": [
+					"1164450-norway",
+					"1164451-norway",
+					"1164453-norway",
+					"1164455-norway",
+					"1158776-argentina",
+					"1158782-argentina",
+					"1158773-argentina",
+					"1176847-egypt",
+					"1176897-egypt",
+					"1234176-colombia",
+					"1164664-finland",
+					"1213215-belgium"
+				],
+				"2024-08-05": ["1176834-egypt", "1158772-argentina", "1234177-colombia"],
+				"2024-08-06": [
+					"1152210-iceland",
+					"1152212-iceland",
+					"1234180-colombia",
+					"1273679-world",
+					"1273687-world",
+					"1253319-world",
+					"1274823-world"
+				],
+				"2024-08-07": ["1271718-world", "1274801-world", "1274803-world", "1274835-world"],
 				"2024-08-08": [
+					"1158797-argentina",
 					"1273690-world",
 					"1274841-world",
 					"1274785-world",
 					"1274791-world",
 					"1274783-world"
 				],
-				"2024-08-10": ["1215848-england"],
-				"2024-08-11": ["1164671-finland", "1152215-iceland"]
+				"2024-08-09": ["1213217-belgium", "1205442-denmark", "1164669-finland"],
+				"2024-08-10": [
+					"1210403-czech-republic",
+					"1213218-belgium",
+					"1213219-belgium",
+					"1213220-belgium",
+					"1158790-argentina",
+					"1158793-argentina",
+					"1234189-colombia",
+					"1180566-brazil",
+					"1180569-brazil",
+					"1180572-brazil"
+				],
+				"2024-08-11": [
+					"1210405-czech-republic",
+					"1210407-czech-republic",
+					"1164460-norway",
+					"1213222-belgium",
+					"1176867-egypt",
+					"1205444-denmark",
+					"1164671-finland",
+					"1152215-iceland",
+					"1152217-iceland",
+					"1158788-argentina",
+					"1234184-colombia",
+					"1234192-colombia",
+					"1180567-brazil",
+					"1180568-brazil",
+					"1180571-brazil"
+				],
+				"2024-08-12": ["1215802-egypt", "1164673-finland", "1234185-colombia"],
+				"2024-08-13": [
+					"1215803-egypt",
+					"1215804-egypt",
+					"1215805-egypt",
+					"1234187-colombia",
+					"1271721-world"
+				]
 			},
-			"lost": { "2024-08-06": ["1273677-world"] },
+			"lost": {
+				"2024-07-30": ["1234230-colombia"],
+				"2024-08-04": ["1180562-brazil"],
+				"2024-08-05": ["1158778-argentina", "1158784-argentina"],
+				"2024-08-06": ["1273677-world"],
+				"2024-08-09": ["1158794-argentina"],
+				"2024-08-11": [
+					"1210406-czech-republic",
+					"1205443-denmark",
+					"1205445-denmark",
+					"1158792-argentina"
+				]
+			},
 			"lostWinning": {
-				"2024-07-29": [
-					"1158771-argentina",
-					"1158769-argentina",
-					"1158770-argentina",
-					"1234166-colombia",
-					"1234163-colombia"
-				],
-				"2024-07-30": ["1215793-egypt", "1215794-egypt", "1234170-colombia", "1251952-brazil"],
-				"2024-07-31": [
-					"1158749-argentina",
-					"1215795-egypt",
-					"1215796-egypt",
-					"1234201-colombia",
-					"1251948-brazil",
-					"1251958-brazil"
-				],
-				"2024-08-01": ["1215797-egypt", "1215798-egypt", "1215799-egypt", "1251960-brazil"],
-				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland", "1213209-belgium"],
+				"2024-07-29": ["1158771-argentina", "1158770-argentina", "1234166-colombia"],
+				"2024-07-30": ["1215793-egypt", "1215794-egypt", "1234170-colombia"],
+				"2024-07-31": ["1215795-egypt", "1215796-egypt"],
+				"2024-08-01": ["1215797-egypt", "1215798-egypt"],
+				"2024-08-02": ["1234173-colombia"],
 				"2024-08-03": [
 					"1158774-argentina",
-					"1158777-argentina",
-					"1158780-argentina",
-					"1158783-argentina",
-					"1158785-argentina",
 					"1234174-colombia",
 					"1234175-colombia",
 					"1164663-finland",
-					"1180557-brazil",
 					"1180559-brazil",
 					"1180561-brazil",
-					"1180564-brazil",
-					"1218577-austria",
-					"1213211-belgium"
+					"1180564-brazil"
 				],
 				"2024-08-04": [
 					"1164448-norway",
-					"1164450-norway",
-					"1164451-norway",
-					"1164453-norway",
-					"1164455-norway",
 					"1158775-argentina",
-					"1158776-argentina",
-					"1158782-argentina",
-					"1158773-argentina",
 					"1158781-argentina",
-					"1176897-egypt",
 					"1234178-colombia",
-					"1234176-colombia",
 					"1234182-colombia",
-					"1164664-finland",
 					"1164667-finland",
 					"1180558-brazil",
 					"1180560-brazil",
-					"1180555-brazil",
-					"1218578-austria",
-					"1218579-austria",
-					"1213215-belgium",
-					"1220112-scotland",
-					"1220113-scotland",
-					"1220114-scotland"
+					"1180555-brazil"
 				],
-				"2024-08-05": ["1176834-egypt", "1158772-argentina", "1234177-colombia"],
 				"2024-08-06": [
 					"1152209-iceland",
-					"1152210-iceland",
-					"1152212-iceland",
-					"1234180-colombia",
-					"1251949-brazil",
 					"1273681-world",
 					"1273683-world",
 					"1271720-world",
 					"1273694-world"
 				],
-				"2024-08-07": [
-					"1152213-iceland",
-					"1251955-brazil",
-					"1251957-brazil",
-					"1251947-brazil",
-					"1253317-world",
-					"1274793-world"
-				],
+				"2024-08-07": ["1152213-iceland", "1253317-world", "1274793-world"],
 				"2024-08-08": [
-					"1158797-argentina",
-					"1251953-brazil",
 					"1271725-world",
 					"1274795-world",
 					"1274817-world",
@@ -132,122 +155,61 @@
 				],
 				"2024-08-09": [
 					"1164456-norway",
-					"1213217-belgium",
-					"1205442-denmark",
-					"1164669-finland",
-					"1215843-england",
-					"1213441-netherlands",
 					"1158799-argentina",
 					"1158789-argentina",
-					"1158796-argentina",
-					"1231733-portugal",
-					"1237855-turkey"
+					"1158796-argentina"
 				],
 				"2024-08-10": [
-					"1218581-austria",
-					"1218582-austria",
-					"1210403-czech-republic",
 					"1210404-czech-republic",
 					"1164463-norway",
-					"1213218-belgium",
-					"1213219-belgium",
-					"1213220-belgium",
-					"1220118-scotland",
-					"1220119-scotland",
-					"1220120-scotland",
 					"1164670-finland",
-					"1215846-england",
-					"1215847-england",
-					"1215850-england",
-					"1215852-england",
-					"1213442-netherlands",
-					"1213445-netherlands",
-					"1158790-argentina",
-					"1158793-argentina",
 					"1158795-argentina",
-					"1231729-portugal",
-					"1231737-portugal",
 					"1234183-colombia",
-					"1234189-colombia",
 					"1234190-colombia",
-					"1180566-brazil",
-					"1180569-brazil",
-					"1180570-brazil",
-					"1180572-brazil",
-					"1237851-turkey",
-					"1237853-turkey"
+					"1180570-brazil"
 				],
 				"2024-08-11": [
-					"1218583-austria",
-					"1218584-austria",
-					"1218585-austria",
-					"1210405-czech-republic",
-					"1210407-czech-republic",
 					"1210408-czech-republic",
-					"1164460-norway",
 					"1164462-norway",
 					"1213221-belgium",
-					"1213222-belgium",
 					"1213223-belgium",
 					"1213224-belgium",
-					"1176867-egypt",
-					"1220116-scotland",
-					"1205444-denmark",
 					"1164672-finland",
 					"1152216-iceland",
-					"1152217-iceland",
 					"1152218-iceland",
-					"1215853-england",
-					"1213446-netherlands",
-					"1213447-netherlands",
-					"1213449-netherlands",
 					"1158786-argentina",
-					"1158788-argentina",
 					"1158787-argentina",
-					"1231735-portugal",
-					"1231731-portugal",
-					"1234184-colombia",
-					"1234192-colombia",
 					"1180574-brazil",
-					"1180567-brazil",
-					"1180568-brazil",
-					"1180571-brazil",
-					"1180565-brazil",
-					"1237852-turkey",
-					"1237850-turkey"
+					"1180565-brazil"
+				],
+				"2024-08-12": ["1152219-iceland", "1152220-iceland"],
+				"2024-08-13": [
+					"1253320-world",
+					"1271719-world",
+					"1273686-world",
+					"1273682-world",
+					"1273684-world",
+					"1274804-world",
+					"1274802-world",
+					"1273695-world"
 				]
 			},
 			"skippedLost": {
 				"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
-				"2024-07-30": ["1215792-egypt", "1234230-colombia"],
-				"2024-08-02": ["1158779-argentina", "1218574-austria"],
-				"2024-08-03": [
-					"1234181-colombia",
-					"1180563-brazil",
-					"1218575-austria",
-					"1218576-austria",
-					"1213210-belgium",
-					"1213212-belgium"
-				],
+				"2024-07-30": ["1215792-egypt"],
+				"2024-08-02": ["1158779-argentina"],
+				"2024-08-03": ["1234181-colombia", "1180563-brazil"],
 				"2024-08-04": [
 					"1164452-norway",
 					"1164665-finland",
 					"1164666-finland",
-					"1180562-brazil",
 					"1213213-belgium",
 					"1213214-belgium",
 					"1213216-belgium"
 				],
-				"2024-08-05": [
-					"1220115-scotland",
-					"1205441-denmark",
-					"1152211-iceland",
-					"1158778-argentina",
-					"1158784-argentina",
-					"1180556-brazil"
-				],
+				"2024-08-05": ["1205441-denmark", "1152211-iceland", "1180556-brazil"],
 				"2024-08-06": ["1274773-world"],
-				"2024-08-07": ["1234179-colombia", "1251951-brazil", "1273685-world"],
+				"2024-08-07": ["1234179-colombia", "1273685-world"],
 				"2024-08-08": [
 					"1176843-egypt",
 					"1176850-egypt",
@@ -265,63 +227,53 @@
 					"1274787-world",
 					"1274789-world"
 				],
-				"2024-08-09": ["1215844-england", "1158794-argentina"],
 				"2024-08-10": [
-					"1218580-austria",
 					"1210409-czech-republic",
 					"1210410-czech-republic",
 					"1164459-norway",
-					"1215845-england",
-					"1215849-england",
-					"1215851-england",
-					"1213443-netherlands",
-					"1213444-netherlands",
 					"1158791-argentina",
-					"1231732-portugal",
-					"1180573-brazil",
-					"1237849-turkey"
+					"1180573-brazil"
 				],
-				"2024-08-11": [
-					"1210406-czech-republic",
-					"1164461-norway",
-					"1215814-egypt",
-					"1220121-scotland",
-					"1220117-scotland",
-					"1205443-denmark",
-					"1205445-denmark",
-					"1205446-denmark",
-					"1213448-netherlands",
-					"1158792-argentina",
-					"1231730-portugal",
-					"1231736-portugal",
-					"1237854-turkey"
-				]
+				"2024-08-11": ["1164461-norway", "1215814-egypt", "1205446-denmark"],
+				"2024-08-12": ["1215801-egypt", "1205447-denmark", "1158798-argentina"],
+				"2024-08-13": ["1273678-world", "1253318-world", "1273680-world", "1273688-world"]
 			}
 		},
 		"gpe-local": {
 			"winning": {
-				"2024-07-29": ["1158769-argentina"],
-				"2024-07-30": ["1251952-brazil", "1251956-brazil"],
-				"2024-07-31": ["1251950-brazil", "1251954-brazil", "1251948-brazil"],
+				"2024-07-29": ["1158769-argentina", "1234163-colombia"],
+				"2024-07-31": ["1158749-argentina", "1234201-colombia"],
 				"2024-08-01": ["1215799-egypt"],
 				"2024-08-02": ["1215800-egypt"],
-				"2024-08-03": ["1164454-norway"],
-				"2024-08-04": ["1164451-norway", "1176847-egypt"],
+				"2024-08-03": ["1164454-norway", "1158785-argentina"],
+				"2024-08-04": [
+					"1164451-norway",
+					"1158782-argentina",
+					"1158773-argentina",
+					"1176847-egypt",
+					"1220113-scotland",
+					"1220114-scotland"
+				],
+				"2024-08-05": ["1158772-argentina", "1234177-colombia"],
 				"2024-08-06": [
 					"1152212-iceland",
-					"1251949-brazil",
+					"1234180-colombia",
 					"1273681-world",
 					"1273687-world",
 					"1271720-world",
 					"1274823-world"
 				],
-				"2024-08-07": ["1251955-brazil", "1251961-brazil", "1274793-world"],
+				"2024-08-07": ["1274793-world"],
 				"2024-08-08": [
 					"1271725-world",
 					"1274795-world",
 					"1274817-world",
 					"1274841-world",
 					"1274815-world",
+					"1274837-world",
+					"1274805-world",
+					"1274843-world",
+					"1274813-world",
 					"1274779-world",
 					"1274785-world",
 					"1274775-world",
@@ -329,27 +281,42 @@
 				],
 				"2024-08-09": ["1205442-denmark"],
 				"2024-08-10": [
+					"1218580-austria",
 					"1215848-england",
 					"1213442-netherlands",
+					"1234189-colombia",
 					"1180569-brazil",
 					"1180572-brazil"
 				],
 				"2024-08-11": [
 					"1210405-czech-republic",
+					"1210407-czech-republic",
+					"1176867-egypt",
+					"1205444-denmark",
 					"1164671-finland",
 					"1152215-iceland",
 					"1152217-iceland",
+					"1158788-argentina",
+					"1234184-colombia",
 					"1180567-brazil",
 					"1180571-brazil"
+				],
+				"2024-08-12": ["1234185-colombia"],
+				"2024-08-13": [
+					"1273686-world",
+					"1273682-world",
+					"1273684-world",
+					"1274804-world",
+					"1274802-world"
 				]
 			},
 			"lost": {
-				"2024-07-31": ["1251958-brazil"],
-				"2024-08-04": ["1180562-brazil"],
-				"2024-08-07": ["1251959-brazil", "1273685-world"],
-				"2024-08-08": ["1251953-brazil", "1274783-world"],
-				"2024-08-09": ["1158794-argentina"],
-				"2024-08-10": ["1237851-turkey"],
+				"2024-08-04": ["1158776-argentina", "1180562-brazil"],
+				"2024-08-05": ["1158784-argentina"],
+				"2024-08-07": ["1273685-world"],
+				"2024-08-08": ["1274783-world"],
+				"2024-08-09": ["1213217-belgium", "1215844-england", "1158794-argentina"],
+				"2024-08-10": ["1213444-netherlands", "1237851-turkey"],
 				"2024-08-11": ["1158792-argentina"]
 			},
 			"lostWinning": {
@@ -357,12 +324,11 @@
 					"1158759-argentina",
 					"1158771-argentina",
 					"1158770-argentina",
-					"1234166-colombia",
-					"1234163-colombia"
+					"1234166-colombia"
 				],
 				"2024-07-30": ["1215793-egypt", "1215794-egypt", "1234170-colombia"],
-				"2024-07-31": ["1158749-argentina", "1215796-egypt", "1234201-colombia", "1251946-brazil"],
-				"2024-08-01": ["1215797-egypt", "1215798-egypt", "1251960-brazil"],
+				"2024-07-31": ["1215796-egypt"],
+				"2024-08-01": ["1215797-egypt", "1215798-egypt"],
 				"2024-08-02": [
 					"1158779-argentina",
 					"1234173-colombia",
@@ -373,7 +339,6 @@
 				"2024-08-03": [
 					"1158774-argentina",
 					"1158783-argentina",
-					"1158785-argentina",
 					"1234174-colombia",
 					"1164663-finland",
 					"1180557-brazil",
@@ -393,8 +358,6 @@
 					"1164450-norway",
 					"1164452-norway",
 					"1164453-norway",
-					"1158782-argentina",
-					"1158773-argentina",
 					"1158781-argentina",
 					"1176897-egypt",
 					"1234178-colombia",
@@ -412,22 +375,12 @@
 					"1213214-belgium",
 					"1213215-belgium",
 					"1213216-belgium",
-					"1220112-scotland",
-					"1220113-scotland",
-					"1220114-scotland"
+					"1220112-scotland"
 				],
-				"2024-08-05": [
-					"1176834-egypt",
-					"1220115-scotland",
-					"1152211-iceland",
-					"1158772-argentina",
-					"1234177-colombia",
-					"1180556-brazil"
-				],
+				"2024-08-05": ["1176834-egypt", "1220115-scotland", "1152211-iceland", "1180556-brazil"],
 				"2024-08-06": [
 					"1152209-iceland",
 					"1152210-iceland",
-					"1234180-colombia",
 					"1273677-world",
 					"1273683-world",
 					"1273679-world",
@@ -436,9 +389,6 @@
 					"1273694-world"
 				],
 				"2024-08-07": [
-					"1251951-brazil",
-					"1251957-brazil",
-					"1251947-brazil",
 					"1253317-world",
 					"1271718-world",
 					"1274801-world",
@@ -453,12 +403,8 @@
 					"1274807-world",
 					"1274819-world",
 					"1274833-world",
-					"1274837-world",
-					"1274805-world",
-					"1274843-world",
 					"1274809-world",
 					"1274811-world",
-					"1274813-world",
 					"1253321-world",
 					"1274791-world"
 				],
@@ -474,7 +420,6 @@
 					"1237855-turkey"
 				],
 				"2024-08-10": [
-					"1218580-austria",
 					"1218582-austria",
 					"1210403-czech-republic",
 					"1210404-czech-republic",
@@ -501,7 +446,6 @@
 					"1231729-portugal",
 					"1231737-portugal",
 					"1234183-colombia",
-					"1234189-colombia",
 					"1234190-colombia",
 					"1180570-brazil",
 					"1180573-brazil",
@@ -512,7 +456,6 @@
 					"1218583-austria",
 					"1218584-austria",
 					"1218585-austria",
-					"1210407-czech-republic",
 					"1210408-czech-republic",
 					"1164460-norway",
 					"1164461-norway",
@@ -521,10 +464,8 @@
 					"1213222-belgium",
 					"1213223-belgium",
 					"1213224-belgium",
-					"1176867-egypt",
 					"1215814-egypt",
 					"1220116-scotland",
-					"1205444-denmark",
 					"1164672-finland",
 					"1152216-iceland",
 					"1152218-iceland",
@@ -532,18 +473,34 @@
 					"1213447-netherlands",
 					"1213449-netherlands",
 					"1158786-argentina",
-					"1158788-argentina",
 					"1158787-argentina",
 					"1231730-portugal",
 					"1231735-portugal",
 					"1231736-portugal",
 					"1231731-portugal",
-					"1234184-colombia",
 					"1234192-colombia",
 					"1180574-brazil",
 					"1180568-brazil",
 					"1180565-brazil",
 					"1237850-turkey"
+				],
+				"2024-08-12": [
+					"1215854-england",
+					"1215802-egypt",
+					"1205447-denmark",
+					"1237856-turkey",
+					"1164673-finland",
+					"1152219-iceland",
+					"1152220-iceland"
+				],
+				"2024-08-13": [
+					"1215804-egypt",
+					"1215805-egypt",
+					"1234187-colombia",
+					"1253320-world",
+					"1271721-world",
+					"1273678-world",
+					"1273680-world"
 				]
 			},
 			"skippedLost": {
@@ -556,13 +513,8 @@
 					"1234175-colombia",
 					"1234181-colombia"
 				],
-				"2024-08-04": [
-					"1164455-norway",
-					"1158775-argentina",
-					"1158776-argentina",
-					"1164666-finland"
-				],
-				"2024-08-05": ["1205441-denmark", "1158778-argentina", "1158784-argentina"],
+				"2024-08-04": ["1164455-norway", "1158775-argentina", "1164666-finland"],
+				"2024-08-05": ["1205441-denmark", "1158778-argentina"],
 				"2024-08-07": ["1152213-iceland", "1234179-colombia"],
 				"2024-08-08": [
 					"1176843-egypt",
@@ -580,13 +532,11 @@
 					"1274787-world",
 					"1274789-world"
 				],
-				"2024-08-09": ["1213217-belgium", "1215844-england"],
 				"2024-08-10": [
 					"1218581-austria",
 					"1210409-czech-republic",
 					"1164459-norway",
 					"1215845-england",
-					"1213444-netherlands",
 					"1158791-argentina",
 					"1231732-portugal",
 					"1180566-brazil"
@@ -602,20 +552,30 @@
 					"1213448-netherlands",
 					"1237852-turkey",
 					"1237854-turkey"
+				],
+				"2024-08-12": ["1215801-egypt", "1231734-portugal", "1237857-turkey", "1158798-argentina"],
+				"2024-08-13": [
+					"1215803-egypt",
+					"1271719-world",
+					"1253318-world",
+					"1273688-world",
+					"1273695-world"
 				]
 			}
 		},
 		"tr-local": {
 			"winning": {
-				"2024-08-05": ["1176834-egypt"],
-				"2024-08-06": ["1253319-world"],
+				"2024-08-03": ["1164454-norway", "1158785-argentina"],
+				"2024-08-04": ["1176847-egypt"],
+				"2024-08-06": ["1152212-iceland", "1253319-world"],
 				"2024-08-08": ["1274785-world", "1274791-world"],
-				"2024-08-10": ["1215848-england"],
-				"2024-08-11": ["1210407-czech-republic", "1164671-finland", "1234184-colombia"]
+				"2024-08-10": ["1234189-colombia"],
+				"2024-08-11": ["1164671-finland", "1152217-iceland", "1180571-brazil"]
 			},
 			"lost": {
+				"2024-08-05": ["1234177-colombia"],
 				"2024-08-06": ["1273687-world"],
-				"2024-08-11": ["1205445-denmark", "1152215-iceland"]
+				"2024-08-11": ["1205444-denmark", "1152215-iceland", "1158792-argentina"]
 			},
 			"lostWinning": {
 				"2024-07-29": [
@@ -625,26 +585,16 @@
 					"1234166-colombia",
 					"1234163-colombia"
 				],
-				"2024-07-30": ["1215793-egypt", "1234170-colombia", "1251952-brazil"],
-				"2024-07-31": [
-					"1158749-argentina",
-					"1215796-egypt",
-					"1234201-colombia",
-					"1251950-brazil",
-					"1251946-brazil"
-				],
-				"2024-08-01": ["1215798-egypt", "1215799-egypt", "1251960-brazil"],
-				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland", "1213209-belgium"],
+				"2024-07-30": ["1215793-egypt", "1234170-colombia"],
+				"2024-07-31": ["1158749-argentina", "1215796-egypt", "1234201-colombia"],
+				"2024-08-01": ["1215798-egypt", "1215799-egypt"],
+				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland"],
 				"2024-08-03": [
-					"1164454-norway",
 					"1158774-argentina",
-					"1158785-argentina",
 					"1164663-finland",
 					"1180557-brazil",
 					"1180561-brazil",
-					"1180564-brazil",
-					"1218577-austria",
-					"1213211-belgium"
+					"1180564-brazil"
 				],
 				"2024-08-04": [
 					"1164450-norway",
@@ -652,34 +602,24 @@
 					"1164453-norway",
 					"1158773-argentina",
 					"1158781-argentina",
-					"1176847-egypt",
 					"1176897-egypt",
 					"1234182-colombia",
 					"1164664-finland",
 					"1164667-finland",
 					"1180558-brazil",
-					"1218578-austria",
-					"1218579-austria",
-					"1213215-belgium",
-					"1220113-scotland",
-					"1220114-scotland"
+					"1213215-belgium"
 				],
-				"2024-08-05": ["1158772-argentina"],
+				"2024-08-05": ["1176834-egypt", "1158772-argentina"],
 				"2024-08-06": [
 					"1152209-iceland",
 					"1152210-iceland",
-					"1152212-iceland",
 					"1234180-colombia",
-					"1251949-brazil",
 					"1273683-world",
 					"1271720-world",
 					"1274823-world",
 					"1273694-world"
 				],
 				"2024-08-07": [
-					"1251955-brazil",
-					"1251957-brazil",
-					"1251947-brazil",
 					"1253317-world",
 					"1271718-world",
 					"1274793-world",
@@ -700,40 +640,22 @@
 					"1274779-world",
 					"1273692-world"
 				],
-				"2024-08-09": [
-					"1205442-denmark",
-					"1164669-finland",
-					"1215843-england",
-					"1213441-netherlands",
-					"1158799-argentina",
-					"1231733-portugal",
-					"1237855-turkey"
-				],
+				"2024-08-09": ["1205442-denmark", "1164669-finland", "1158799-argentina"],
 				"2024-08-10": [
-					"1218582-austria",
 					"1210403-czech-republic",
 					"1210404-czech-republic",
 					"1213218-belgium",
 					"1213219-belgium",
-					"1220118-scotland",
-					"1220120-scotland",
 					"1164670-finland",
-					"1215850-england",
-					"1215852-england",
-					"1213445-netherlands",
 					"1158793-argentina",
-					"1231729-portugal",
 					"1234183-colombia",
-					"1234189-colombia",
 					"1234190-colombia",
 					"1180569-brazil",
-					"1180572-brazil",
-					"1237853-turkey"
+					"1180572-brazil"
 				],
 				"2024-08-11": [
-					"1218583-austria",
-					"1218584-austria",
 					"1210405-czech-republic",
+					"1210407-czech-republic",
 					"1210408-czech-republic",
 					"1164460-norway",
 					"1213221-belgium",
@@ -741,25 +663,21 @@
 					"1213223-belgium",
 					"1213224-belgium",
 					"1176867-egypt",
-					"1220116-scotland",
-					"1152217-iceland",
-					"1215853-england",
-					"1213447-netherlands",
-					"1213449-netherlands",
 					"1158786-argentina",
 					"1158788-argentina",
-					"1231735-portugal",
+					"1234184-colombia",
 					"1180574-brazil",
-					"1180567-brazil",
-					"1180571-brazil"
-				]
+					"1180567-brazil"
+				],
+				"2024-08-12": ["1164673-finland", "1152219-iceland", "1152220-iceland", "1234185-colombia"],
+				"2024-08-13": ["1215805-egypt", "1234187-colombia", "1271721-world", "1273686-world"]
 			},
 			"skippedLost": {
 				"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
-				"2024-07-30": ["1215792-egypt", "1215794-egypt", "1234230-colombia", "1251956-brazil"],
-				"2024-07-31": ["1215795-egypt", "1251954-brazil", "1251948-brazil", "1251958-brazil"],
+				"2024-07-30": ["1215792-egypt", "1215794-egypt", "1234230-colombia"],
+				"2024-07-31": ["1215795-egypt"],
 				"2024-08-01": ["1215797-egypt"],
-				"2024-08-02": ["1158779-argentina", "1218574-austria"],
+				"2024-08-02": ["1158779-argentina"],
 				"2024-08-03": [
 					"1158777-argentina",
 					"1158780-argentina",
@@ -768,11 +686,7 @@
 					"1234175-colombia",
 					"1234181-colombia",
 					"1180559-brazil",
-					"1180563-brazil",
-					"1218575-austria",
-					"1218576-austria",
-					"1213210-belgium",
-					"1213212-belgium"
+					"1180563-brazil"
 				],
 				"2024-08-04": [
 					"1164448-norway",
@@ -790,32 +704,21 @@
 					"1180555-brazil",
 					"1213213-belgium",
 					"1213214-belgium",
-					"1213216-belgium",
-					"1220112-scotland"
+					"1213216-belgium"
 				],
 				"2024-08-05": [
-					"1220115-scotland",
 					"1205441-denmark",
 					"1152211-iceland",
 					"1158778-argentina",
 					"1158784-argentina",
-					"1234177-colombia",
 					"1180556-brazil"
 				],
 				"2024-08-06": ["1273677-world", "1273681-world", "1273679-world", "1274773-world"],
-				"2024-08-07": [
-					"1152213-iceland",
-					"1234179-colombia",
-					"1251951-brazil",
-					"1251959-brazil",
-					"1251961-brazil",
-					"1273685-world"
-				],
+				"2024-08-07": ["1152213-iceland", "1234179-colombia", "1273685-world"],
 				"2024-08-08": [
 					"1176843-egypt",
 					"1176850-egypt",
 					"1158797-argentina",
-					"1251953-brazil",
 					"1274797-world",
 					"1274845-world",
 					"1274795-world",
@@ -843,97 +746,85 @@
 				"2024-08-09": [
 					"1164456-norway",
 					"1213217-belgium",
-					"1215844-england",
 					"1158789-argentina",
 					"1158796-argentina",
 					"1158794-argentina"
 				],
 				"2024-08-10": [
-					"1218580-austria",
-					"1218581-austria",
 					"1210409-czech-republic",
 					"1210410-czech-republic",
 					"1164459-norway",
 					"1164463-norway",
 					"1213220-belgium",
-					"1220119-scotland",
-					"1215845-england",
-					"1215846-england",
-					"1215847-england",
-					"1215849-england",
-					"1215851-england",
-					"1213442-netherlands",
-					"1213443-netherlands",
-					"1213444-netherlands",
 					"1158790-argentina",
 					"1158791-argentina",
 					"1158795-argentina",
-					"1231732-portugal",
-					"1231737-portugal",
 					"1180566-brazil",
 					"1180570-brazil",
-					"1180573-brazil",
-					"1237849-turkey",
-					"1237851-turkey"
+					"1180573-brazil"
 				],
 				"2024-08-11": [
-					"1218585-austria",
 					"1210406-czech-republic",
 					"1164461-norway",
 					"1164462-norway",
 					"1215814-egypt",
-					"1220121-scotland",
-					"1220117-scotland",
 					"1205443-denmark",
-					"1205444-denmark",
+					"1205445-denmark",
 					"1205446-denmark",
 					"1164672-finland",
 					"1152216-iceland",
 					"1152218-iceland",
-					"1213446-netherlands",
-					"1213448-netherlands",
 					"1158787-argentina",
-					"1158792-argentina",
-					"1231730-portugal",
-					"1231736-portugal",
-					"1231731-portugal",
 					"1234192-colombia",
 					"1180568-brazil",
-					"1180565-brazil",
-					"1237852-turkey",
-					"1237850-turkey",
-					"1237854-turkey"
+					"1180565-brazil"
+				],
+				"2024-08-12": ["1215801-egypt", "1215802-egypt", "1205447-denmark", "1158798-argentina"],
+				"2024-08-13": [
+					"1215803-egypt",
+					"1215804-egypt",
+					"1253320-world",
+					"1271719-world",
+					"1273682-world",
+					"1273678-world",
+					"1273684-world",
+					"1253318-world",
+					"1273680-world",
+					"1273688-world",
+					"1274804-world",
+					"1274802-world",
+					"1273695-world"
 				]
 			}
 		}
 	},
 	"stats": {
 		"do-local": {
-			"winning": 24,
-			"lost": 1,
-			"lostWinning": 180,
-			"skippedLost": 73,
-			"total": 278,
-			"successPercentaje": 96,
-			"picksPercentaje": 9
+			"winning": 81,
+			"lost": 10,
+			"lostWinning": 86,
+			"skippedLost": 49,
+			"total": 226,
+			"successPercentaje": 89,
+			"picksPercentaje": 40.3
 		},
 		"gpe-local": {
-			"winning": 40,
-			"lost": 9,
-			"lostWinning": 177,
-			"skippedLost": 52,
-			"total": 278,
-			"successPercentaje": 81.6,
-			"picksPercentaje": 17.6
+			"winning": 60,
+			"lost": 11,
+			"lostWinning": 164,
+			"skippedLost": 56,
+			"total": 291,
+			"successPercentaje": 84.5,
+			"picksPercentaje": 24.4
 		},
 		"tr-local": {
-			"winning": 8,
-			"lost": 3,
-			"lostWinning": 122,
-			"skippedLost": 145,
-			"total": 278,
-			"successPercentaje": 72.7,
-			"picksPercentaje": 4
+			"winning": 11,
+			"lost": 5,
+			"lostWinning": 92,
+			"skippedLost": 118,
+			"total": 226,
+			"successPercentaje": 68.8,
+			"picksPercentaje": 7.1
 		}
 	}
 }

@@ -25,9 +25,6 @@ export default async function main(config: T_AnalysisConfig) {
 			DataClient.createEmptyPredictionsStatsFile();
 		}
 
-		// NOTE: For Debug purposes
-		// return console.log(generateDates(config));
-
 		await asyncLoop(generateDates(config), async (date) => {
 			console.log(`Executing script for ${date}`);
 
