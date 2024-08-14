@@ -80,6 +80,7 @@ type T_TeamBase = {
 	position: number | null;
 	tag: "FEATURED" | "POOR" | "REGULAR";
 	country: T_League["country"] | null;
+	historic: boolean;
 };
 
 export type T_Team = T_TeamBase;
@@ -107,6 +108,10 @@ export type T_PlayedMatchTeam = T_TeamBase & {
 		secondHalf: {
 			for: number;
 			against: number;
+		};
+		extraTime: {
+			for: number | null;
+			against: number | null;
 		};
 	};
 };

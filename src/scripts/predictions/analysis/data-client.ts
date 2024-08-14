@@ -43,6 +43,7 @@ import doubleOpportunityPrediction from "./markets/double-opportunity-for-home-t
 import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
 import matchWinnerPrediction from "./markets/match-winner-for-home-team";
 import {
+	filterTeamPlayedMatches,
 	getLeagueStandingsLimits,
 	getTeamPosition,
 	type T_PredictionsInput,
@@ -196,10 +197,12 @@ function updateTeamsFile(matches: Awaited<PromiseLike<ReturnType<typeof fetchFix
 					...result,
 					[match.teams.home.id]: {
 						name: match.teams.home.name,
+						historic: currentTeams[match.teams.home.id]?.historic || false,
 						country: currentTeams[match.teams.home.id]?.country || match.teams.home.country,
 					},
 					[match.teams.away.id]: {
 						name: match.teams.away.name,
+						historic: currentTeams[match.teams.away.id]?.historic || false,
 						country: currentTeams[match.teams.away.id]?.country || match.teams.away.country,
 					},
 				};
@@ -428,6 +431,7 @@ function parseFixtureMatchesResponse(
 	leagueStandings: T_LeagueStandings,
 ) {
 	const result = data.response
+		.filter((item) => item.fixture.status.long !== "Match Postponed")
 		.map((item) =>
 			parseMatchItem(
 				item.fixture.status.long === "Match Finished"
@@ -504,6 +508,8 @@ function parseMatchItem(
 	};
 	const showWarningMessageInLeagueStandingsLimitsFunction =
 		variant !== "PLAYED_MATCH" && league.type === "League";
+	const homeTeamDetails = getTeamById(item.teams.home.id);
+	const awayTeamDetails = getTeamById(item.teams.away.id);
 	const matchBaseData = {
 		id: `${item.fixture.id}`,
 		fullDate,
@@ -514,7 +520,7 @@ function parseMatchItem(
 				id: item.teams.home.id,
 				name: item.teams.home.name,
 				country:
-					getTeamById(item.teams.home.id)?.country ||
+					homeTeamDetails?.country ||
 					(item.league.country !== "World"
 						? getCountryDetails({ leagueId: item.league.id }) ||
 							getCountryDetails({ countryName: item.league.country })
@@ -525,12 +531,13 @@ function parseMatchItem(
 					leagueStandings,
 					showWarningMessageInLeagueStandingsLimitsFunction,
 				),
+				historic: homeTeamDetails?.historic || false,
 			},
 			away: {
 				id: item.teams.away.id,
 				name: item.teams.away.name,
 				country:
-					getTeamById(item.teams.away.id)?.country ||
+					awayTeamDetails?.country ||
 					(item.league.country !== "World"
 						? getCountryDetails({ leagueId: item.league.id }) ||
 							getCountryDetails({ countryName: item.league.country })
@@ -541,6 +548,7 @@ function parseMatchItem(
 					leagueStandings,
 					showWarningMessageInLeagueStandingsLimitsFunction,
 				),
+				historic: awayTeamDetails?.historic || false,
 			},
 		},
 		league,
@@ -809,32 +817,6 @@ function composeLeagueName(leagueId: number, options?: { full: true; date?: stri
 	}
 
 	return league.country.name;
-}
-
-function filterTeamPlayedMatches({
-	teamId,
-	playedMatches,
-	side,
-	lastMatches,
-}: {
-	teamId: T_FixtureMatchTeam["id"];
-	playedMatches: Array<T_PlayedMatch>;
-	side: "home" | "away" | "all";
-	lastMatches: number | undefined;
-}) {
-	let result = playedMatches;
-
-	if (side === "home") {
-		result = result.filter((match) => {
-			return match.teams.home.id === teamId;
-		});
-	} else if (side === "away") {
-		result = result.filter((match) => {
-			return match.teams.away.id === teamId;
-		});
-	}
-
-	return lastMatches ? result.slice(0, lastMatches) : result;
 }
 
 function calculateTeamStats({
@@ -1126,7 +1108,7 @@ function getTeamTag(
 }
 
 function getTeamById(teamId: number) {
-	return TEAMS[String(teamId) as keyof typeof TEAMS] as T_TeamsFile[keyof typeof TEAMS];
+	return TEAMS[String(teamId) as keyof typeof TEAMS] as T_TeamsFile[keyof typeof TEAMS] | undefined;
 }
 
 function getCountryDetails(
@@ -1187,7 +1169,9 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 		predictionStatsFile.records[prediction.id][key] = {
 			...predictionStatsFile.records[prediction.id][key],
 			[match.date]: (predictionStatsFile.records[prediction.id][key][match.date] || []).concat([
-				generateSlug(`${match.id}-${match.league.country.name}`),
+				generateSlug(
+					`${match.id}-${match.league.country.name === "World" ? match.league.name : match.league.country.name}`,
+				),
 			]),
 		};
 		predictionStatsFile.stats[prediction.id].successPercentaje = formatDecimalNumber(
@@ -1261,6 +1245,10 @@ function getMatchScores({
 							for: 0,
 							against: 0,
 						},
+						extraTime: {
+							for: 0,
+							against: 0,
+						},
 					},
 				},
 				awayTeam: {
@@ -1272,6 +1260,10 @@ function getMatchScores({
 							against: 0,
 						},
 						secondHalf: {
+							for: 0,
+							against: 0,
+						},
+						extraTime: {
 							for: 0,
 							against: 0,
 						},
@@ -1290,6 +1282,14 @@ function getMatchScores({
 						against: score.halftime.away,
 					},
 					secondHalf: homeTeamSecondHalfScore,
+					extraTime: {
+						for: v.isNumber(score.extratime.home)
+							? score.fulltime.home + score.extratime.home
+							: null,
+						against: v.isNumber(score.extratime.away)
+							? score.fulltime.away + score.extratime.away
+							: null,
+					},
 				},
 			},
 			awayTeam: {
@@ -1301,6 +1301,14 @@ function getMatchScores({
 						against: score.halftime.home,
 					},
 					secondHalf: awayTeamSecondHalfScore,
+					extraTime: {
+						for: v.isNumber(score.extratime.away)
+							? score.fulltime.away + score.extratime.away
+							: null,
+						against: v.isNumber(score.extratime.home)
+							? score.fulltime.home + score.extratime.home
+							: null,
+					},
 				},
 			},
 		};

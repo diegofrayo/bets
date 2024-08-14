@@ -4,6 +4,7 @@ import axios from "axios";
 import type DR from "../../../@diegofrayo/types";
 import { readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { delay } from "../../../@diegofrayo/utils/misc";
+import { formatDecimalNumber } from "../../../@diegofrayo/utils/numbers";
 import { addLeftPadding } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
 
@@ -85,8 +86,8 @@ const APIClient = {
 
 		API_USAGE_STATS.bills[monthDate] = {
 			requests: monthRequests,
-			paymentUSD: monthRequests * VALUES.AMOUNT_PER_REQUEST,
-			paymentCOP: monthRequests * VALUES.AMOUNT_PER_REQUEST * VALUES.COP,
+			paymentUSD: formatDecimalNumber(monthRequests * VALUES.AMOUNT_PER_REQUEST, 2),
+			paymentCOP: Math.round(monthRequests * VALUES.AMOUNT_PER_REQUEST * VALUES.COP),
 		};
 
 		writeFile("src/scripts/predictions/data/util/api-limits.json", API_USAGE_STATS);

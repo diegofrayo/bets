@@ -218,6 +218,15 @@
 		},
 		{
 			"enabled": true,
+			"id": 772,
+			"name": "Leagues Cup",
+			"type": "Cup",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 3
+		},
+		{
+			"enabled": true,
 			"id": 2,
 			"name": "UEFA Champions League",
 			"type": "Cup",
@@ -242,6 +251,15 @@
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 3
+		},
+		{
+			"enabled": true,
+			"id": 81,
+			"name": "DFB Pokal",
+			"type": "Cup",
+			"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 4
 		},
 		{
 			"enabled": false,
@@ -520,6 +538,7 @@
 			"203-super-lig-turkey"
 		],
 		"2024-08-12": [
+			"772-leagues-cup-world",
 			"40-championship-england",
 			"233-premier-league-egypt",
 			"94-primeira-liga-portugal",
@@ -532,6 +551,7 @@
 			"239-primera-a-colombia"
 		],
 		"2024-08-13": [
+			"772-leagues-cup-world",
 			"233-premier-league-egypt",
 			"239-primera-a-colombia",
 			"13-conmebol-libertadores-world",
@@ -558,6 +578,7 @@
 			"3-uefa-europa-league-world"
 		],
 		"2024-08-16": [
+			"81-dfb-pokal-germany",
 			"40-championship-england",
 			"88-eredivisie-netherlands",
 			"144-jupiler-pro-league-belgium",
@@ -573,6 +594,7 @@
 			"128-liga-profesional-argentina-argentina"
 		],
 		"2024-08-17": [
+			"81-dfb-pokal-germany",
 			"218-bundesliga-austria",
 			"40-championship-england",
 			"345-czech-liga-czech-republic",
@@ -591,6 +613,7 @@
 			"71-serie-a-brazil"
 		],
 		"2024-08-18": [
+			"81-dfb-pokal-germany",
 			"218-bundesliga-austria",
 			"40-championship-england",
 			"345-czech-liga-czech-republic",

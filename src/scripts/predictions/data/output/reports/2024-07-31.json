@@ -954,11 +954,13 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 6,
 						"tag": "FEATURED",
+						"historic": false,
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
 							"firstHalf": { "for": 0, "against": 0 },
-							"secondHalf": { "for": 1, "against": 0 }
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -1149,11 +1151,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1162,11 +1166,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 6,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1194,11 +1200,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1207,11 +1215,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 6,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1235,11 +1245,13 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 18,
 						"tag": "REGULAR",
+						"historic": true,
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
 							"firstHalf": { "for": 0, "against": 0 },
-							"secondHalf": { "for": 0, "against": 1 }
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -1430,11 +1442,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1443,11 +1457,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1475,11 +1491,13 @@
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
 										"position": null,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1488,11 +1506,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1520,11 +1540,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 18,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
 											"firstHalf": { "for": 3, "against": 0 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1533,11 +1555,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 17,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 3 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1570,6 +1594,11 @@
 										"fulfilled": true,
 										"description": "El local tiene una mejor posición que el visitante",
 										"explanation": "El local está mas arriba que el visitante en la tabla | (6>18/28)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
 								"fulfilled": true
@@ -1622,18 +1651,38 @@
 								"items": [
 									{
 										"fulfilled": true,
-										"description": "El local tiene una mejor posición que el visitante",
-										"explanation": "El local está mas arriba que el visitante en la tabla | (6>18/28)"
-									},
-									{
-										"fulfilled": true,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El visitante es de los mejores del torneo | (6/28)"
+										"explanation": "El local es de los mejores del torneo | (6/28)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
 										"explanation": "El visitante no es de los peores del torneo | (18/28)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (1/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (4/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (1-1)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
 								"fulfilled": false
@@ -1673,6 +1722,7 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 19,
 						"tag": "REGULAR",
+						"historic": true,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -1862,11 +1912,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1875,11 +1927,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1907,11 +1961,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1920,11 +1976,13 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1952,11 +2010,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 25,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -1965,11 +2025,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 19,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 2 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -1993,6 +2055,7 @@
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 						"position": 24,
 						"tag": "POOR",
+						"historic": false,
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -2182,11 +2245,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 24,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -2195,11 +2260,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 3,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -2227,11 +2294,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 24,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -2240,11 +2309,13 @@
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -2277,6 +2348,11 @@
 										"fulfilled": true,
 										"description": "El local tiene una mejor posición que el visitante",
 										"explanation": "El local está mas arriba que el visitante en la tabla | (19>24/28)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"fulfilled": true
@@ -2316,19 +2392,39 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene una mejor posición que el visitante",
-										"explanation": "El local está mas arriba que el visitante en la tabla | (19>24/28)"
-									},
-									{
 										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El visitante no es de los mejores del torneo | (19/28)"
+										"explanation": "El local no es de los mejores del torneo | (19/28)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante es de los peores del torneo",
 										"explanation": "El visitante es de los peores del torneo | (24/28)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (5/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (2/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local ganó su último partido como local | (1-0)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"fulfilled": false
@@ -2975,11 +3071,13 @@
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 10,
 						"tag": "REGULAR",
+						"historic": false,
 						"result": "DRAW",
 						"score": {
 							"fullTime": 0,
 							"firstHalf": { "for": 0, "against": 0 },
-							"secondHalf": { "for": 0, "against": 0 }
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -3170,11 +3268,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3183,11 +3283,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3215,11 +3317,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 3 }
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3228,11 +3332,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 3, "against": 0 }
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3260,11 +3366,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3273,11 +3381,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3305,11 +3415,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3318,11 +3430,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3350,11 +3464,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
 										"tag": "POOR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3363,11 +3479,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3395,11 +3513,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3408,11 +3528,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3440,11 +3562,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3453,11 +3577,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": null,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3482,11 +3608,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3495,11 +3623,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3527,11 +3657,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3540,11 +3672,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3572,11 +3706,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3585,11 +3721,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3617,11 +3755,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3630,11 +3770,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3662,11 +3804,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
 											"firstHalf": { "for": 3, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3675,11 +3819,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 3 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3707,11 +3853,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3720,11 +3868,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3752,11 +3902,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3765,11 +3917,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3797,11 +3951,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3810,11 +3966,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3842,11 +4000,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3855,11 +4015,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3887,11 +4049,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3900,11 +4064,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3932,11 +4098,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 2 }
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3945,11 +4113,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 2, "against": 2 }
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -3977,11 +4147,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -3990,11 +4162,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4022,11 +4196,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4035,11 +4211,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4067,11 +4245,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4080,11 +4260,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4112,11 +4294,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4125,11 +4309,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4157,11 +4343,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4170,11 +4358,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 2 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4202,11 +4392,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4215,11 +4407,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4244,11 +4438,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4257,11 +4453,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4286,11 +4484,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4299,11 +4499,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4328,11 +4530,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4341,11 +4545,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4370,11 +4576,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4383,11 +4591,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4412,11 +4622,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4425,11 +4637,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4453,11 +4667,13 @@
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 9,
 						"tag": "REGULAR",
+						"historic": false,
 						"result": "DRAW",
 						"score": {
 							"fullTime": 0,
 							"firstHalf": { "for": 0, "against": 0 },
-							"secondHalf": { "for": 0, "against": 0 }
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -4648,11 +4864,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 3 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4661,11 +4879,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
 											"firstHalf": { "for": 3, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4693,11 +4913,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4706,11 +4928,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4738,11 +4962,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4751,11 +4977,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4783,11 +5011,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4796,11 +5026,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4828,11 +5060,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4841,11 +5075,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4873,11 +5109,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4886,11 +5124,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4918,11 +5158,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4931,11 +5173,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": null,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -4960,11 +5204,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 3, "against": 0 }
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -4973,11 +5219,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 0, "against": 3 }
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5005,11 +5253,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5018,11 +5268,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5050,11 +5302,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5063,11 +5317,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5095,11 +5351,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 4 }
+											"secondHalf": { "for": 0, "against": 4 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5108,11 +5366,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 4, "against": 0 }
+											"secondHalf": { "for": 4, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5140,11 +5400,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5153,11 +5415,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5185,11 +5449,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5198,11 +5464,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5230,11 +5498,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5243,11 +5513,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5275,11 +5547,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5288,11 +5562,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5320,11 +5596,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5333,11 +5611,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5365,11 +5645,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5378,11 +5660,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5410,11 +5694,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5423,11 +5709,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5455,11 +5743,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5468,11 +5758,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5500,11 +5792,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5513,11 +5807,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5545,11 +5841,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5558,11 +5856,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5587,11 +5887,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5600,11 +5902,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5629,11 +5933,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5642,11 +5948,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5671,11 +5979,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -5684,11 +5994,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -5718,6 +6030,11 @@
 										"fulfilled": false,
 										"description": "El local tiene una mejor posición que el visitante",
 										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (10<=9/18)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
 								"fulfilled": false
@@ -5770,18 +6087,38 @@
 								"items": [
 									{
 										"fulfilled": false,
-										"description": "El local tiene una mejor posición que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (10<=9/18)"
-									},
-									{
-										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El visitante no es de los mejores del torneo | (10/18)"
+										"explanation": "El local no es de los mejores del torneo | (10/18)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
 										"explanation": "El visitante no es de los peores del torneo | (9/18)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (3/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (5/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (0-4)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante ganó su último partido como visitante | (2-0)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
 								"fulfilled": false
@@ -5821,11 +6158,13 @@
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 5,
 						"tag": "FEATURED",
+						"historic": false,
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
 							"firstHalf": { "for": 1, "against": 0 },
-							"secondHalf": { "for": 2, "against": 2 }
+							"secondHalf": { "for": 2, "against": 2 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -6016,11 +6355,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 3 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6029,11 +6370,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
 											"firstHalf": { "for": 3, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6061,11 +6404,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6074,11 +6419,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6106,11 +6453,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6119,11 +6468,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6151,11 +6502,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6164,11 +6517,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6196,11 +6551,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6209,11 +6566,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6241,11 +6600,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": 2, "against": 1 }
 										}
 									},
 									"away": {
@@ -6254,11 +6615,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": 1, "against": 2 }
 										}
 									}
 								},
@@ -6283,11 +6646,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6296,11 +6661,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6328,11 +6695,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6341,11 +6710,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6373,11 +6744,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6386,11 +6759,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
 										"tag": "POOR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6418,11 +6793,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6431,11 +6808,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6463,11 +6842,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 3, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6476,11 +6857,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 3 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6508,11 +6891,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6521,11 +6906,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6553,11 +6940,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6566,11 +6955,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6598,11 +6989,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6611,11 +7004,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6643,11 +7038,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 2 }
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6656,11 +7053,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 1 }
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6688,11 +7087,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6701,11 +7102,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6733,11 +7136,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6746,11 +7151,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6778,11 +7185,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6791,11 +7200,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6823,11 +7234,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6836,11 +7249,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6868,11 +7283,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6881,11 +7298,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6910,11 +7329,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6923,11 +7344,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6952,11 +7375,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -6965,11 +7390,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -6990,11 +7417,13 @@
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 						"position": 4,
 						"tag": "FEATURED",
+						"historic": false,
 						"result": "LOSE",
 						"score": {
 							"fullTime": 2,
 							"firstHalf": { "for": 0, "against": 1 },
-							"secondHalf": { "for": 2, "against": 2 }
+							"secondHalf": { "for": 2, "against": 2 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -7185,11 +7614,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7198,11 +7629,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7230,11 +7663,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7243,11 +7678,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7275,11 +7712,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7288,11 +7727,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7320,11 +7761,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7333,11 +7776,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7365,11 +7810,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7378,11 +7825,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7410,11 +7859,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7423,11 +7874,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7455,11 +7908,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7468,11 +7923,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7500,11 +7957,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7513,11 +7972,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7545,11 +8006,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7558,11 +8021,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": null,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7587,11 +8052,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7600,11 +8067,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7632,11 +8101,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7645,11 +8116,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7677,11 +8150,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7690,11 +8165,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7722,11 +8199,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7735,11 +8214,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 12,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7767,11 +8248,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 2,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 2, "against": 0 }
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7780,11 +8263,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 2 }
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7812,11 +8297,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7825,11 +8312,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7857,11 +8346,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 18,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7870,11 +8361,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7902,11 +8395,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7915,11 +8410,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 15,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7947,11 +8444,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 14,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -7960,11 +8459,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -7992,11 +8493,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 3,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8005,11 +8508,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 1, "against": 1 }
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8037,11 +8542,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8050,11 +8557,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8079,11 +8588,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8092,11 +8603,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 6,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8121,11 +8634,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8134,11 +8649,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8166,11 +8683,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8179,11 +8698,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 5,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8211,11 +8732,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
 											"firstHalf": { "for": 2, "against": 0 },
-											"secondHalf": { "for": 3, "against": 0 }
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8224,11 +8747,13 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 2 },
-											"secondHalf": { "for": 0, "against": 3 }
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8253,11 +8778,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8266,11 +8793,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8298,11 +8827,13 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8311,11 +8842,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8340,11 +8873,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 2 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8353,11 +8888,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 17,
 										"tag": "POOR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 2, "against": 2 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8385,11 +8922,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8398,11 +8937,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8430,11 +8971,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8443,11 +8986,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 16,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8472,11 +9017,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 7,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8485,11 +9032,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8514,11 +9063,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 4,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -8527,11 +9078,13 @@
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
 										"position": 10,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -8561,6 +9114,11 @@
 										"fulfilled": false,
 										"description": "El local tiene una mejor posición que el visitante",
 										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (5<=4/18)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
 								"fulfilled": false
@@ -8612,19 +9170,39 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
-										"description": "El local tiene una mejor posición que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (5<=4/18)"
-									},
-									{
 										"fulfilled": true,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El visitante es de los mejores del torneo | (5/18)"
+										"explanation": "El local es de los mejores del torneo | (5/18)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
 										"explanation": "El visitante no es de los peores del torneo | (4/18)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (7/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (12/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (0-1)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (1-2)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
 								"fulfilled": false
@@ -9343,11 +9921,13 @@
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 						"position": 13,
 						"tag": "REGULAR",
+						"historic": true,
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
 							"firstHalf": { "for": 1, "against": 0 },
-							"secondHalf": { "for": 0, "against": 0 }
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -9538,11 +10118,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -9551,11 +10133,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -9583,11 +10167,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 8,
 										"tag": "REGULAR",
+										"historic": false,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -9596,11 +10182,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 0 }
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -9628,11 +10216,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 13,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -9641,11 +10231,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 11,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -9669,11 +10261,13 @@
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 						"position": 20,
 						"tag": "POOR",
+						"historic": false,
 						"result": "LOSE",
 						"score": {
 							"fullTime": 0,
 							"firstHalf": { "for": 0, "against": 1 },
-							"secondHalf": { "for": 0, "against": 0 }
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
 						},
 						"stats": {
 							"all-matches": {
@@ -9864,11 +10458,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 9,
 										"tag": "REGULAR",
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -9877,11 +10473,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 20,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 1, "against": 1 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -9909,11 +10507,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 20,
 										"tag": "POOR",
+										"historic": false,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 0, "against": 1 }
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
 										}
 									},
 									"away": {
@@ -9922,11 +10522,13 @@
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
 										"position": 1,
 										"tag": "FEATURED",
+										"historic": false,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
 											"firstHalf": { "for": 0, "against": 0 },
-											"secondHalf": { "for": 1, "against": 0 }
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
 										}
 									}
 								},
@@ -9959,6 +10561,11 @@
 										"fulfilled": true,
 										"description": "El local tiene una mejor posición que el visitante",
 										"explanation": "El local está mas arriba que el visitante en la tabla | (13>20/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"fulfilled": true
@@ -10010,19 +10617,39 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
-										"description": "El local tiene una mejor posición que el visitante",
-										"explanation": "El local está mas arriba que el visitante en la tabla | (13>20/20)"
-									},
-									{
 										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El visitante no es de los mejores del torneo | (13/20)"
+										"explanation": "El local no es de los mejores del torneo | (13/20)"
 									},
 									{
 										"fulfilled": true,
 										"description": "El visitante es de los peores del torneo",
 										"explanation": "El visitante es de los peores del torneo | (20/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (3/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (0-0)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante ganó su último partido como visitante | (2-1)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"fulfilled": false

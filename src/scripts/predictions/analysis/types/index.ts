@@ -17,7 +17,7 @@ export type T_RawMatchesResponse = {
 		fixture: {
 			id: number;
 			date: string;
-			status: { long: "Not Started" | "Match Finished"; short: string };
+			status: { long: "Not Started" | "Match Finished" | "Match Postponed"; short: string };
 		};
 		league: {
 			id: number;
@@ -35,6 +35,7 @@ export type T_RawMatchesResponse = {
 		score: {
 			halftime: { home: number; away: number };
 			fulltime: { home: number; away: number };
+			extratime: { home: number | null; away: number | null };
 		};
 	}>;
 	errors: [] | DR.JSON;
@@ -106,6 +107,7 @@ export type T_TeamsFile = DR.Object<T_TeamsFileItem>;
 
 export type T_TeamsFileItem = {
 	name: string;
+	historic: boolean;
 	country: { code: string; name: string; flag: string } | null;
 };
 

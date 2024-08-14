@@ -5,7 +5,7 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	// config: "SPECIFIC_DATE",
-	// date: "today",
+	// date: "tomorrow",
 	// enableRemoteAPI: true,
 
 	// Config 2
