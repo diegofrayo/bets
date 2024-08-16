@@ -733,8 +733,8 @@ function parseStandingsResponse(data: T_RawLeagueStandingsResponse): T_LeagueSta
 			type: "REGULAR",
 			items: items[0],
 			stats: {
-				partidos_jugados: items[0].sort((a, b) => a.stats.all.played - b.stats.all.played)[0].stats
-					.all.played,
+				partidos_jugados: [...items[0]].sort((a, b) => b.stats.all.played - a.stats.all.played)[0]
+					.stats.all.played,
 				promedio_de_goles_anotados_por_partido: formatDecimalNumber(
 					items[0].reduce((result, item) => {
 						return result + item.stats.averages.promedio_de_goles_anotados_por_partido;
@@ -1102,7 +1102,7 @@ function getTeamTag(
 		leagueStandingsLimits.featured > 0 &&
 		leagueStandingsLimits.poor > 0 &&
 		leagueStandings.type === "REGULAR" &&
-		leagueStandings.stats.partidos_jugados > 0
+		leagueStandings.stats.partidos_jugados >= 3
 	) {
 		return teamPosition <= leagueStandingsLimits.featured
 			? "FEATURED"

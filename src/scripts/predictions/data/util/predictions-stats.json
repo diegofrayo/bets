@@ -2,10 +2,11 @@
 	"records": {
 		"do-local": {
 			"winning": {
-				"2024-07-31": ["1215796-egypt"],
-				"2024-08-01": ["1215798-egypt", "1215799-egypt"],
+				"2024-07-29": ["1158769-argentina", "1234163-colombia"],
+				"2024-07-31": ["1158749-argentina", "1234201-colombia"],
+				"2024-08-01": ["1215799-egypt"],
 				"2024-08-02": ["1215800-egypt"],
-				"2024-08-03": ["1158774-argentina", "1158785-argentina"],
+				"2024-08-03": ["1164454-norway", "1158785-argentina"],
 				"2024-08-04": [
 					"1164450-norway",
 					"1164451-norway",
@@ -13,12 +14,13 @@
 					"1158782-argentina",
 					"1158773-argentina",
 					"1176847-egypt",
-					"1234176-colombia",
-					"1180558-brazil"
+					"1176897-egypt",
+					"1234176-colombia"
 				],
-				"2024-08-05": ["1158772-argentina"],
+				"2024-08-05": ["1176834-egypt", "1158772-argentina", "1234177-colombia"],
 				"2024-08-06": [
 					"1152212-iceland",
+					"1234180-colombia",
 					"1273687-uefa-champions-league",
 					"1253319-uefa-champions-league"
 				],
@@ -34,19 +36,25 @@
 					"1274791-uefa-europa-league"
 				],
 				"2024-08-09": ["1205442-denmark"],
-				"2024-08-10": ["1164463-norway", "1234190-colombia"],
+				"2024-08-10": ["1234189-colombia", "1180566-brazil", "1180572-brazil"],
 				"2024-08-11": [
+					"1210405-czech-republic",
+					"1210407-czech-republic",
+					"1213222-belgium",
+					"1176867-egypt",
 					"1205444-denmark",
+					"1164671-finland",
 					"1152215-iceland",
+					"1152217-iceland",
 					"1158788-argentina",
 					"1234184-colombia",
-					"1180574-brazil",
+					"1180567-brazil",
 					"1180571-brazil"
 				],
 				"2024-08-12": ["1215802-egypt", "1234185-colombia"],
 				"2024-08-14": [
 					"1164413-norway",
-					"1180405-brazil",
+					"1215808-egypt",
 					"1274820-uefa-europa-conference-league",
 					"1274788-uefa-europa-league"
 				],
@@ -59,24 +67,25 @@
 				]
 			},
 			"lost": {
-				"2024-08-04": ["1164452-norway", "1180562-brazil"],
+				"2024-08-04": ["1180562-brazil"],
 				"2024-08-05": ["1158784-argentina"],
 				"2024-08-09": ["1158794-argentina"],
-				"2024-08-10": ["1164459-norway", "1158791-argentina"],
-				"2024-08-11": ["1205445-denmark"],
+				"2024-08-11": ["1210406-czech-republic", "1205445-denmark"],
 				"2024-08-14": ["1215807-egypt"]
 			},
 			"lostWinning": {
-				"2024-07-29": ["1158771-argentina", "1158769-argentina", "1158770-argentina"],
-				"2024-07-30": ["1215793-egypt", "1215794-egypt"],
-				"2024-07-31": ["1158749-argentina", "1215795-egypt"],
-				"2024-08-01": ["1215797-egypt"],
-				"2024-08-02": ["1164662-finland"],
+				"2024-07-29": ["1158771-argentina", "1158770-argentina", "1234166-colombia"],
+				"2024-07-30": ["1215793-egypt", "1215794-egypt", "1234170-colombia"],
+				"2024-07-31": ["1215795-egypt", "1215796-egypt"],
+				"2024-08-01": ["1215797-egypt", "1215798-egypt"],
+				"2024-08-02": ["1234173-colombia", "1164662-finland"],
 				"2024-08-03": [
-					"1164454-norway",
+					"1158774-argentina",
 					"1158777-argentina",
 					"1158780-argentina",
 					"1158783-argentina",
+					"1234174-colombia",
+					"1234175-colombia",
 					"1164663-finland",
 					"1180557-brazil",
 					"1180559-brazil",
@@ -89,19 +98,17 @@
 					"1164455-norway",
 					"1158775-argentina",
 					"1158781-argentina",
-					"1176897-egypt",
 					"1234178-colombia",
 					"1234182-colombia",
 					"1164664-finland",
 					"1164667-finland",
+					"1180558-brazil",
 					"1180560-brazil",
 					"1180555-brazil"
 				],
-				"2024-08-05": ["1176834-egypt", "1234177-colombia"],
 				"2024-08-06": [
 					"1152209-iceland",
 					"1152210-iceland",
-					"1234180-colombia",
 					"1273681-uefa-champions-league",
 					"1273683-uefa-champions-league",
 					"1273679-uefa-champions-league",
@@ -145,30 +152,32 @@
 					"1158796-argentina"
 				],
 				"2024-08-10": [
+					"1210403-czech-republic",
+					"1210404-czech-republic",
+					"1164463-norway",
 					"1164670-finland",
 					"1158790-argentina",
 					"1158793-argentina",
 					"1158795-argentina",
 					"1234183-colombia",
-					"1234189-colombia",
-					"1180566-brazil",
+					"1234190-colombia",
 					"1180569-brazil",
-					"1180570-brazil",
-					"1180572-brazil"
+					"1180570-brazil"
 				],
 				"2024-08-11": [
+					"1210408-czech-republic",
 					"1164460-norway",
 					"1164462-norway",
-					"1176867-egypt",
-					"1164671-finland",
+					"1213221-belgium",
+					"1213223-belgium",
+					"1213224-belgium",
 					"1164672-finland",
 					"1152216-iceland",
-					"1152217-iceland",
 					"1152218-iceland",
 					"1158786-argentina",
 					"1158787-argentina",
 					"1234192-colombia",
-					"1180567-brazil",
+					"1180574-brazil",
 					"1180568-brazil",
 					"1180565-brazil"
 				],
@@ -189,8 +198,8 @@
 					"1273695-uefa-europa-league"
 				],
 				"2024-08-14": [
-					"1215808-egypt",
 					"1215809-egypt",
+					"1180405-brazil",
 					"1203722-conmebol-libertadores",
 					"1202203-conmebol-libertadores",
 					"1261156-conmebol-sudamericana",
@@ -228,11 +237,11 @@
 			},
 			"skippedLost": {
 				"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
-				"2024-07-30": ["1215792-egypt"],
+				"2024-07-30": ["1215792-egypt", "1234230-colombia"],
 				"2024-08-02": ["1158779-argentina"],
-				"2024-08-03": ["1180563-brazil"],
-				"2024-08-04": ["1164665-finland", "1164666-finland"],
-				"2024-08-05": ["1152211-iceland", "1158778-argentina", "1180556-brazil"],
+				"2024-08-03": ["1234181-colombia", "1180563-brazil"],
+				"2024-08-04": ["1164452-norway", "1164665-finland", "1164666-finland"],
+				"2024-08-05": ["1205441-denmark", "1152211-iceland", "1158778-argentina", "1180556-brazil"],
 				"2024-08-06": ["1273677-uefa-champions-league", "1274773-uefa-europa-league"],
 				"2024-08-07": ["1234179-colombia", "1273685-uefa-champions-league"],
 				"2024-08-08": [
@@ -252,7 +261,13 @@
 					"1274787-uefa-europa-league",
 					"1274789-uefa-europa-league"
 				],
-				"2024-08-10": ["1180573-brazil"],
+				"2024-08-10": [
+					"1210409-czech-republic",
+					"1210410-czech-republic",
+					"1164459-norway",
+					"1158791-argentina",
+					"1180573-brazil"
+				],
 				"2024-08-11": [
 					"1164461-norway",
 					"1215814-egypt",
@@ -290,20 +305,16 @@
 		},
 		"gpe-local": {
 			"winning": {
-				"2024-07-31": ["1215796-egypt"],
+				"2024-07-29": ["1158769-argentina", "1234163-colombia"],
+				"2024-07-31": ["1158749-argentina", "1234201-colombia"],
 				"2024-08-01": ["1215799-egypt"],
 				"2024-08-02": ["1215800-egypt"],
-				"2024-08-03": ["1158774-argentina", "1158785-argentina"],
-				"2024-08-04": [
-					"1164450-norway",
-					"1158782-argentina",
-					"1158773-argentina",
-					"1176847-egypt",
-					"1234182-colombia",
-					"1180555-brazil"
-				],
+				"2024-08-03": ["1164454-norway", "1158785-argentina"],
+				"2024-08-04": ["1164451-norway", "1158782-argentina", "1158773-argentina", "1176847-egypt"],
+				"2024-08-05": ["1158772-argentina", "1234177-colombia"],
 				"2024-08-06": [
 					"1152212-iceland",
+					"1234180-colombia",
 					"1273681-uefa-champions-league",
 					"1273687-uefa-champions-league",
 					"1271720-uefa-champions-league",
@@ -326,14 +337,21 @@
 					"1273692-uefa-europa-league"
 				],
 				"2024-08-09": ["1205442-denmark"],
-				"2024-08-10": ["1164463-norway", "1234190-colombia"],
+				"2024-08-10": ["1234189-colombia", "1180569-brazil", "1180572-brazil"],
 				"2024-08-11": [
+					"1210405-czech-republic",
+					"1210407-czech-republic",
+					"1176867-egypt",
 					"1205444-denmark",
+					"1164671-finland",
 					"1152215-iceland",
+					"1152217-iceland",
+					"1158788-argentina",
 					"1234184-colombia",
-					"1180574-brazil",
-					"1180568-brazil"
+					"1180567-brazil",
+					"1180571-brazil"
 				],
+				"2024-08-12": ["1234185-colombia"],
 				"2024-08-13": [
 					"1273686-uefa-champions-league",
 					"1273682-uefa-champions-league",
@@ -342,7 +360,9 @@
 					"1274802-uefa-europa-conference-league"
 				],
 				"2024-08-14": [
+					"1164413-norway",
 					"1215807-egypt",
+					"1215808-egypt",
 					"1202203-conmebol-libertadores",
 					"1261156-conmebol-sudamericana",
 					"1265730-conmebol-sudamericana",
@@ -369,12 +389,11 @@
 				]
 			},
 			"lost": {
-				"2024-08-04": ["1158776-argentina"],
+				"2024-08-04": ["1158776-argentina", "1180562-brazil"],
 				"2024-08-05": ["1158784-argentina"],
 				"2024-08-07": ["1273685-uefa-champions-league"],
 				"2024-08-08": ["1274783-uefa-europa-league"],
 				"2024-08-09": ["1158794-argentina"],
-				"2024-08-10": ["1164459-norway", "1158791-argentina"],
 				"2024-08-11": ["1158792-argentina"],
 				"2024-08-14": ["1274840-uefa-europa-conference-league"],
 				"2024-08-15": ["1274812-uefa-europa-conference-league"]
@@ -383,16 +402,17 @@
 				"2024-07-29": [
 					"1158759-argentina",
 					"1158771-argentina",
-					"1158769-argentina",
-					"1158770-argentina"
+					"1158770-argentina",
+					"1234166-colombia"
 				],
-				"2024-07-30": ["1215793-egypt", "1215794-egypt"],
-				"2024-07-31": ["1158749-argentina"],
+				"2024-07-30": ["1215793-egypt", "1215794-egypt", "1234170-colombia"],
+				"2024-07-31": ["1215796-egypt"],
 				"2024-08-01": ["1215797-egypt", "1215798-egypt"],
-				"2024-08-02": ["1158779-argentina", "1164662-finland"],
+				"2024-08-02": ["1158779-argentina", "1234173-colombia", "1164662-finland"],
 				"2024-08-03": [
-					"1164454-norway",
+					"1158774-argentina",
 					"1158783-argentina",
+					"1234174-colombia",
 					"1164663-finland",
 					"1180557-brazil",
 					"1180559-brazil",
@@ -402,30 +422,25 @@
 				],
 				"2024-08-04": [
 					"1164448-norway",
-					"1164451-norway",
+					"1164450-norway",
 					"1164452-norway",
 					"1164453-norway",
 					"1158781-argentina",
 					"1176897-egypt",
 					"1234178-colombia",
 					"1234176-colombia",
+					"1234182-colombia",
 					"1164664-finland",
 					"1164665-finland",
 					"1164667-finland",
 					"1180558-brazil",
-					"1180560-brazil"
+					"1180560-brazil",
+					"1180555-brazil"
 				],
-				"2024-08-05": [
-					"1176834-egypt",
-					"1152211-iceland",
-					"1158772-argentina",
-					"1234177-colombia",
-					"1180556-brazil"
-				],
+				"2024-08-05": ["1176834-egypt", "1152211-iceland", "1180556-brazil"],
 				"2024-08-06": [
 					"1152209-iceland",
 					"1152210-iceland",
-					"1234180-colombia",
 					"1273677-uefa-champions-league",
 					"1273683-uefa-champions-league",
 					"1273679-uefa-champions-league",
@@ -461,34 +476,37 @@
 					"1158796-argentina"
 				],
 				"2024-08-10": [
+					"1210403-czech-republic",
+					"1210404-czech-republic",
+					"1210410-czech-republic",
+					"1164463-norway",
 					"1164670-finland",
 					"1158790-argentina",
 					"1158793-argentina",
 					"1158795-argentina",
 					"1234183-colombia",
-					"1234189-colombia",
-					"1180569-brazil",
+					"1234190-colombia",
 					"1180570-brazil",
-					"1180572-brazil",
 					"1180573-brazil"
 				],
 				"2024-08-11": [
+					"1210408-czech-republic",
 					"1164460-norway",
 					"1164461-norway",
 					"1164462-norway",
-					"1176867-egypt",
+					"1213221-belgium",
+					"1213222-belgium",
+					"1213223-belgium",
+					"1213224-belgium",
 					"1215814-egypt",
-					"1164671-finland",
 					"1164672-finland",
 					"1152216-iceland",
-					"1152217-iceland",
 					"1152218-iceland",
 					"1158786-argentina",
-					"1158788-argentina",
 					"1158787-argentina",
 					"1234192-colombia",
-					"1180567-brazil",
-					"1180571-brazil",
+					"1180574-brazil",
+					"1180568-brazil",
 					"1180565-brazil"
 				],
 				"2024-08-12": [
@@ -496,8 +514,7 @@
 					"1205447-denmark",
 					"1164673-finland",
 					"1152219-iceland",
-					"1152220-iceland",
-					"1234185-colombia"
+					"1152220-iceland"
 				],
 				"2024-08-13": [
 					"1215804-egypt",
@@ -509,8 +526,6 @@
 					"1273680-uefa-champions-league"
 				],
 				"2024-08-14": [
-					"1164413-norway",
-					"1215808-egypt",
 					"1215809-egypt",
 					"1180405-brazil",
 					"1203722-conmebol-libertadores",
@@ -540,11 +555,16 @@
 			},
 			"skippedLost": {
 				"2024-07-29": ["1158762-argentina", "1158758-argentina"],
-				"2024-07-30": ["1215792-egypt"],
+				"2024-07-30": ["1215792-egypt", "1234230-colombia"],
 				"2024-07-31": ["1215795-egypt"],
-				"2024-08-03": ["1158777-argentina", "1158780-argentina"],
-				"2024-08-04": ["1164455-norway", "1158775-argentina", "1164666-finland", "1180562-brazil"],
-				"2024-08-05": ["1158778-argentina"],
+				"2024-08-03": [
+					"1158777-argentina",
+					"1158780-argentina",
+					"1234175-colombia",
+					"1234181-colombia"
+				],
+				"2024-08-04": ["1164455-norway", "1158775-argentina", "1164666-finland"],
+				"2024-08-05": ["1205441-denmark", "1158778-argentina"],
 				"2024-08-07": ["1152213-iceland", "1234179-colombia"],
 				"2024-08-08": [
 					"1176843-egypt",
@@ -562,8 +582,18 @@
 					"1274787-uefa-europa-league",
 					"1274789-uefa-europa-league"
 				],
-				"2024-08-10": ["1180566-brazil"],
-				"2024-08-11": ["1205443-denmark", "1205445-denmark", "1205446-denmark"],
+				"2024-08-10": [
+					"1210409-czech-republic",
+					"1164459-norway",
+					"1158791-argentina",
+					"1180566-brazil"
+				],
+				"2024-08-11": [
+					"1210406-czech-republic",
+					"1205443-denmark",
+					"1205445-denmark",
+					"1205446-denmark"
+				],
 				"2024-08-12": ["1215801-egypt", "1158798-argentina"],
 				"2024-08-13": [
 					"1215803-egypt",
@@ -590,7 +620,7 @@
 				"2024-08-14": ["1274820-uefa-europa-conference-league", "1274788-uefa-europa-league"],
 				"2024-08-15": ["1253322-uefa-europa-league"]
 			},
-			"lost": { "2024-08-14": ["1215807-egypt"] },
+			"lost": {},
 			"lostWinning": {
 				"2024-07-29": [
 					"1158771-argentina",
@@ -602,7 +632,7 @@
 				"2024-07-30": ["1215793-egypt", "1234170-colombia"],
 				"2024-07-31": ["1158749-argentina", "1215796-egypt", "1234201-colombia"],
 				"2024-08-01": ["1215798-egypt", "1215799-egypt"],
-				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland", "1213209-belgium"],
+				"2024-08-02": ["1215800-egypt", "1234173-colombia", "1164662-finland"],
 				"2024-08-03": [
 					"1164454-norway",
 					"1158774-argentina",
@@ -610,8 +640,7 @@
 					"1164663-finland",
 					"1180557-brazil",
 					"1180561-brazil",
-					"1180564-brazil",
-					"1213211-belgium"
+					"1180564-brazil"
 				],
 				"2024-08-04": [
 					"1164450-norway",
@@ -624,10 +653,7 @@
 					"1234182-colombia",
 					"1164664-finland",
 					"1164667-finland",
-					"1180558-brazil",
-					"1218578-austria",
-					"1218579-austria",
-					"1213215-belgium"
+					"1180558-brazil"
 				],
 				"2024-08-05": ["1176834-egypt", "1158772-argentina"],
 				"2024-08-06": [
@@ -664,13 +690,8 @@
 				],
 				"2024-08-09": ["1205442-denmark", "1164669-finland", "1158799-argentina"],
 				"2024-08-10": [
-					"1218582-austria",
 					"1210403-czech-republic",
 					"1210404-czech-republic",
-					"1213218-belgium",
-					"1213219-belgium",
-					"1220118-scotland",
-					"1220120-scotland",
 					"1164670-finland",
 					"1158793-argentina",
 					"1234183-colombia",
@@ -680,8 +701,6 @@
 					"1180572-brazil"
 				],
 				"2024-08-11": [
-					"1218583-austria",
-					"1218584-austria",
 					"1210405-czech-republic",
 					"1210407-czech-republic",
 					"1210408-czech-republic",
@@ -691,7 +710,6 @@
 					"1213223-belgium",
 					"1213224-belgium",
 					"1176867-egypt",
-					"1220116-scotland",
 					"1164671-finland",
 					"1152217-iceland",
 					"1158786-argentina",
@@ -757,9 +775,7 @@
 					"1234175-colombia",
 					"1234181-colombia",
 					"1180559-brazil",
-					"1180563-brazil",
-					"1213210-belgium",
-					"1213212-belgium"
+					"1180563-brazil"
 				],
 				"2024-08-04": [
 					"1164448-norway",
@@ -774,10 +790,7 @@
 					"1164666-finland",
 					"1180560-brazil",
 					"1180562-brazil",
-					"1180555-brazil",
-					"1213213-belgium",
-					"1213214-belgium",
-					"1213216-belgium"
+					"1180555-brazil"
 				],
 				"2024-08-05": [
 					"1205441-denmark",
@@ -825,20 +838,15 @@
 				],
 				"2024-08-09": [
 					"1164456-norway",
-					"1213217-belgium",
 					"1158789-argentina",
 					"1158796-argentina",
 					"1158794-argentina"
 				],
 				"2024-08-10": [
-					"1218580-austria",
-					"1218581-austria",
 					"1210409-czech-republic",
 					"1210410-czech-republic",
 					"1164459-norway",
 					"1164463-norway",
-					"1213220-belgium",
-					"1220119-scotland",
 					"1158790-argentina",
 					"1158791-argentina",
 					"1158795-argentina",
@@ -847,13 +855,10 @@
 					"1180573-brazil"
 				],
 				"2024-08-11": [
-					"1218585-austria",
 					"1210406-czech-republic",
 					"1164461-norway",
 					"1164462-norway",
 					"1215814-egypt",
-					"1220121-scotland",
-					"1220117-scotland",
 					"1205443-denmark",
 					"1205444-denmark",
 					"1205445-denmark",
@@ -886,6 +891,7 @@
 				],
 				"2024-08-14": [
 					"1215806-egypt",
+					"1215807-egypt",
 					"1215809-egypt",
 					"1202201-conmebol-libertadores",
 					"1261156-conmebol-sudamericana",
@@ -917,31 +923,31 @@
 	},
 	"stats": {
 		"do-local": {
-			"winning": 45,
-			"lost": 8,
-			"lostWinning": 143,
-			"skippedLost": 58,
-			"total": 254,
-			"successPercentaje": 84.9,
-			"picksPercentaje": 20.9
+			"winning": 57,
+			"lost": 6,
+			"lostWinning": 147,
+			"skippedLost": 66,
+			"total": 276,
+			"successPercentaje": 90.5,
+			"picksPercentaje": 22.8
 		},
 		"gpe-local": {
-			"winning": 65,
-			"lost": 10,
-			"lostWinning": 132,
-			"skippedLost": 47,
-			"total": 254,
-			"successPercentaje": 86.7,
-			"picksPercentaje": 29.5
+			"winning": 79,
+			"lost": 9,
+			"lostWinning": 134,
+			"skippedLost": 54,
+			"total": 276,
+			"successPercentaje": 89.8,
+			"picksPercentaje": 31.9
 		},
 		"tr-local": {
 			"winning": 5,
-			"lost": 1,
-			"lostWinning": 141,
-			"skippedLost": 155,
-			"total": 302,
-			"successPercentaje": 83.3,
-			"picksPercentaje": 2
+			"lost": 0,
+			"lostWinning": 128,
+			"skippedLost": 143,
+			"total": 276,
+			"successPercentaje": 100,
+			"picksPercentaje": 1.8
 		}
 	}
 }

@@ -42,138 +42,6 @@
 					}
 				},
 				{
-					"teamId": 1040,
-					"teamName": "Zamalek SC",
-					"points": 49,
-					"stats": {
-						"all": {
-							"played": 30,
-							"win": 15,
-							"draw": 7,
-							"lose": 8,
-							"goals": { "for": 45, "against": 30, "diff": 15 }
-						},
-						"home": {
-							"played": 15,
-							"win": 9,
-							"draw": 4,
-							"lose": 2,
-							"goals": { "for": 26, "against": 12 }
-						},
-						"away": {
-							"played": 15,
-							"win": 6,
-							"draw": 3,
-							"lose": 6,
-							"goals": { "for": 19, "against": 18 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 7520,
-					"teamName": "Masr",
-					"points": 47,
-					"stats": {
-						"all": {
-							"played": 30,
-							"win": 12,
-							"draw": 11,
-							"lose": 7,
-							"goals": { "for": 44, "against": 30, "diff": 14 }
-						},
-						"home": {
-							"played": 15,
-							"win": 5,
-							"draw": 6,
-							"lose": 4,
-							"goals": { "for": 22, "against": 16 }
-						},
-						"away": {
-							"played": 15,
-							"win": 7,
-							"draw": 5,
-							"lose": 3,
-							"goals": { "for": 22, "against": 14 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
-						}
-					}
-				},
-				{
-					"teamId": 1044,
-					"teamName": "Smouha SC",
-					"points": 48,
-					"stats": {
-						"all": {
-							"played": 31,
-							"win": 13,
-							"draw": 9,
-							"lose": 9,
-							"goals": { "for": 36, "against": 34, "diff": 2 }
-						},
-						"home": {
-							"played": 15,
-							"win": 9,
-							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 23, "against": 13 }
-						},
-						"away": {
-							"played": 16,
-							"win": 4,
-							"draw": 6,
-							"lose": 6,
-							"goals": { "for": 13, "against": 21 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
-					"teamId": 1037,
-					"teamName": "Enppi",
-					"points": 43,
-					"stats": {
-						"all": {
-							"played": 31,
-							"win": 11,
-							"draw": 10,
-							"lose": 10,
-							"goals": { "for": 35, "against": 32, "diff": 3 }
-						},
-						"home": {
-							"played": 16,
-							"win": 6,
-							"draw": 5,
-							"lose": 5,
-							"goals": { "for": 19, "against": 17 }
-						},
-						"away": {
-							"played": 15,
-							"win": 5,
-							"draw": 5,
-							"lose": 5,
-							"goals": { "for": 16, "against": 15 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
-						}
-					}
-				},
-				{
 					"teamId": 1036,
 					"teamName": "Pyramids FC",
 					"points": 73,
@@ -273,6 +141,105 @@
 					}
 				},
 				{
+					"teamId": 1040,
+					"teamName": "Zamalek SC",
+					"points": 49,
+					"stats": {
+						"all": {
+							"played": 30,
+							"win": 15,
+							"draw": 7,
+							"lose": 8,
+							"goals": { "for": 45, "against": 30, "diff": 15 }
+						},
+						"home": {
+							"played": 15,
+							"win": 9,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 26, "against": 12 }
+						},
+						"away": {
+							"played": 15,
+							"win": 6,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 19, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1044,
+					"teamName": "Smouha SC",
+					"points": 48,
+					"stats": {
+						"all": {
+							"played": 31,
+							"win": 13,
+							"draw": 9,
+							"lose": 9,
+							"goals": { "for": 36, "against": 34, "diff": 2 }
+						},
+						"home": {
+							"played": 15,
+							"win": 9,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 23, "against": 13 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 13, "against": 21 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 7520,
+					"teamName": "Masr",
+					"points": 47,
+					"stats": {
+						"all": {
+							"played": 30,
+							"win": 12,
+							"draw": 11,
+							"lose": 7,
+							"goals": { "for": 44, "against": 30, "diff": 14 }
+						},
+						"home": {
+							"played": 15,
+							"win": 5,
+							"draw": 6,
+							"lose": 4,
+							"goals": { "for": 22, "against": 16 }
+						},
+						"away": {
+							"played": 15,
+							"win": 7,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 22, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
 					"teamId": 14651,
 					"teamName": "Ceramica Cleopatra",
 					"points": 45,
@@ -302,6 +269,39 @@
 							"promedio_de_goles_anotados_por_partido": 1.5,
 							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 1037,
+					"teamName": "Enppi",
+					"points": 43,
+					"stats": {
+						"all": {
+							"played": 31,
+							"win": 11,
+							"draw": 10,
+							"lose": 10,
+							"goals": { "for": 35, "against": 32, "diff": 3 }
+						},
+						"home": {
+							"played": 16,
+							"win": 6,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 19, "against": 17 }
+						},
+						"away": {
+							"played": 15,
+							"win": 5,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 16, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
 						}
 					}
 				},
@@ -604,7 +604,7 @@
 				}
 			],
 			"stats": {
-				"partidos_jugados": 30,
+				"partidos_jugados": 32,
 				"promedio_de_goles_anotados_por_partido": 21.7,
 				"promedio_de_goles_anotados_de_local_por_partido": 23.5,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 20.1
@@ -623,7 +623,7 @@
 						"id": 1040,
 						"name": "Zamalek SC",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 2,
+						"position": 5,
 						"tag": "FEATURED",
 						"historic": false,
 						"result": "WIN",
@@ -820,7 +820,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -884,7 +884,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -918,7 +918,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -933,8 +933,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -982,7 +982,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1016,7 +1016,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1062,7 +1062,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -1126,7 +1126,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1160,7 +1160,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1224,7 +1224,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -1258,7 +1258,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1273,7 +1273,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -1307,7 +1307,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1356,7 +1356,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -1371,8 +1371,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1405,7 +1405,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -1420,7 +1420,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1469,7 +1469,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1503,7 +1503,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -1518,8 +1518,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -1552,7 +1552,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1613,7 +1613,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -1644,8 +1644,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1659,7 +1659,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -1693,7 +1693,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1757,7 +1757,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1788,7 +1788,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -1834,7 +1834,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1883,7 +1883,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1932,7 +1932,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -1947,8 +1947,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -1978,8 +1978,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -1993,7 +1993,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -2039,7 +2039,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -2073,7 +2073,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -2119,7 +2119,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -2183,7 +2183,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -2229,7 +2229,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -2259,8 +2259,8 @@
 						"id": 1037,
 						"name": "Enppi",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 5,
-						"tag": "FEATURED",
+						"position": 9,
+						"tag": "REGULAR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -2471,8 +2471,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2505,8 +2505,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -2520,8 +2520,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2554,8 +2554,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2569,8 +2569,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -2603,8 +2603,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2667,8 +2667,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2701,8 +2701,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2765,8 +2765,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2799,8 +2799,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2845,8 +2845,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2860,7 +2860,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2894,8 +2894,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2909,8 +2909,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2943,8 +2943,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -2958,8 +2958,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3007,8 +3007,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3041,8 +3041,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3056,8 +3056,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3105,8 +3105,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3139,8 +3139,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3203,8 +3203,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3237,8 +3237,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3286,8 +3286,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3335,8 +3335,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3350,8 +3350,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3384,8 +3384,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3399,8 +3399,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3448,8 +3448,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3497,8 +3497,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3528,8 +3528,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3574,8 +3574,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3620,7 +3620,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -3635,8 +3635,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3670,9 +3670,9 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (2<=5/18)"
+										"explanation": "El local está mas arriba que el visitante en la tabla | (5>9/18)"
 									},
 									{
 										"fulfilled": true,
@@ -3680,14 +3680,14 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -3704,7 +3704,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 2 y el visitante de 5 en la tabla de posiciones"
+										"explanation": "El local va de 5 y el visitante de 9 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -3731,12 +3731,12 @@
 									{
 										"fulfilled": true,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (2/18)"
+										"explanation": "El local es de los mejores del torneo | (5/18)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (5/18)"
+										"explanation": "El visitante no es de los peores del torneo | (9/18)"
 									},
 									{
 										"fulfilled": true,
@@ -3798,72 +3798,6 @@
 		"standings": {
 			"type": "REGULAR",
 			"items": [
-				{
-					"teamId": 252,
-					"teamName": "Aberdeen",
-					"points": 0,
-					"stats": {
-						"all": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0, "diff": 0 }
-						},
-						"home": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0 }
-						},
-						"away": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0,
-							"promedio_de_goles_anotados_de_local_por_partido": 0,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
-				{
-					"teamId": 258,
-					"teamName": "ST Johnstone",
-					"points": 0,
-					"stats": {
-						"all": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0, "diff": 0 }
-						},
-						"home": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0 }
-						},
-						"away": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0,
-							"promedio_de_goles_anotados_de_local_por_partido": 0,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
 				{
 					"teamId": 247,
 					"teamName": "Celtic",
@@ -4129,6 +4063,72 @@
 					}
 				},
 				{
+					"teamId": 252,
+					"teamName": "Aberdeen",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 258,
+					"teamName": "ST Johnstone",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0, "diff": 0 }
+						},
+						"home": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
 					"teamId": 249,
 					"teamName": "Hibernian",
 					"points": 0,
@@ -4196,7 +4196,7 @@
 				}
 			],
 			"stats": {
-				"partidos_jugados": 0,
+				"partidos_jugados": 1,
 				"promedio_de_goles_anotados_por_partido": 11,
 				"promedio_de_goles_anotados_de_local_por_partido": 9,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 2
@@ -4215,7 +4215,7 @@
 						"id": 258,
 						"name": "ST Johnstone",
 						"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
-						"position": 2,
+						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
 						"result": "LOSE",
@@ -4407,7 +4407,7 @@
 						"id": 252,
 						"name": "Aberdeen",
 						"country": { "name": "Scotland", "flag": "🇬🇧", "code": "GB" },
-						"position": 1,
+						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
 						"result": "WIN",
@@ -4619,72 +4619,6 @@
 			"type": "REGULAR",
 			"items": [
 				{
-					"teamId": 398,
-					"teamName": "FC Nordsjaelland",
-					"points": 4,
-					"stats": {
-						"all": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 5, "against": 2, "diff": 3 }
-						},
-						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 5, "against": 2 }
-						},
-						"away": {
-							"played": 0,
-							"win": 0,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 2.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 2.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
-				{
-					"teamId": 395,
-					"teamName": "Vejle",
-					"points": 0,
-					"stats": {
-						"all": {
-							"played": 2,
-							"win": 0,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 3, "against": 5, "diff": -2 }
-						},
-						"home": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 2, "against": 3 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 1, "against": 2 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
 					"teamId": 407,
 					"teamName": "Brondby",
 					"points": 7,
@@ -4883,6 +4817,39 @@
 					}
 				},
 				{
+					"teamId": 398,
+					"teamName": "FC Nordsjaelland",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2, "diff": 3 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 0,
+							"win": 0,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
 					"teamId": 402,
 					"teamName": "Aalborg",
 					"points": 3,
@@ -5013,10 +4980,43 @@
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0
 						}
 					}
+				},
+				{
+					"teamId": 395,
+					"teamName": "Vejle",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 3, "against": 5, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
 				}
 			],
 			"stats": {
-				"partidos_jugados": 2,
+				"partidos_jugados": 3,
 				"promedio_de_goles_anotados_por_partido": 19.6,
 				"promedio_de_goles_anotados_de_local_por_partido": 24,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 14.5
@@ -5035,8 +5035,8 @@
 						"id": 395,
 						"name": "Vejle",
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-						"position": 2,
-						"tag": "FEATURED",
+						"position": 12,
+						"tag": "POOR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -5232,7 +5232,7 @@
 										"id": 407,
 										"name": "Brondby",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -5247,8 +5247,8 @@
 										"id": 395,
 										"name": "Vejle",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 12,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5281,8 +5281,8 @@
 										"id": 395,
 										"name": "Vejle",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 12,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5296,7 +5296,7 @@
 										"id": 401,
 										"name": "Randers FC",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 4,
+										"position": 2,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -5326,8 +5326,8 @@
 						"id": 398,
 						"name": "FC Nordsjaelland",
 						"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-						"position": 1,
-						"tag": "FEATURED",
+						"position": 7,
+						"tag": "REGULAR",
 						"historic": false,
 						"result": "WIN",
 						"score": {
@@ -5523,8 +5523,8 @@
 										"id": 398,
 										"name": "FC Nordsjaelland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 1,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5538,7 +5538,7 @@
 										"id": 397,
 										"name": "FC Midtjylland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 7,
+										"position": 5,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -5572,8 +5572,8 @@
 										"id": 398,
 										"name": "FC Nordsjaelland",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 1,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5587,7 +5587,7 @@
 										"id": 402,
 										"name": "Aalborg",
 										"country": { "name": "Denmark", "flag": "🇩🇰", "code": "DK" },
-										"position": 9,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -5616,6 +5616,65 @@
 				},
 				"predictions": [
 					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"criteria": [
+							{
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"trustLevel": 100,
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (12<=7/12)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"fulfilled": false
+							}
+						],
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"criteria": [
+							{
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"trustLevel": 100,
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 12 y el visitante de 7 en la tabla de posiciones"
+									}
+								],
+								"fulfilled": false
+							}
+						],
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
+					},
+					{
 						"id": "tr-local",
 						"name": "Tiempo reglamentario (Local)",
 						"shortName": "TRL",
@@ -5625,14 +5684,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (2/12)"
+										"explanation": "El local no es de los mejores del torneo | (12/12)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (1/12)"
+										"explanation": "El visitante no es de los peores del torneo | (7/12)"
 									},
 									{
 										"fulfilled": false,
@@ -5694,6 +5753,39 @@
 		"standings": {
 			"type": "REGULAR",
 			"items": [
+				{
+					"teamId": 278,
+					"teamName": "Vikingur Reykjavik",
+					"points": 36,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 11,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 39, "against": 16, "diff": 23 }
+						},
+						"home": {
+							"played": 8,
+							"win": 7,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 25, "against": 8 }
+						},
+						"away": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 14, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 3.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
+					}
+				},
 				{
 					"teamId": 276,
 					"teamName": "Breidablik",
@@ -5757,39 +5849,6 @@
 							"promedio_de_goles_anotados_por_partido": 2.5,
 							"promedio_de_goles_anotados_de_local_por_partido": 2.7,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 2.3
-						}
-					}
-				},
-				{
-					"teamId": 278,
-					"teamName": "Vikingur Reykjavik",
-					"points": 36,
-					"stats": {
-						"all": {
-							"played": 16,
-							"win": 11,
-							"draw": 3,
-							"lose": 2,
-							"goals": { "for": 39, "against": 16, "diff": 23 }
-						},
-						"home": {
-							"played": 8,
-							"win": 7,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 25, "against": 8 }
-						},
-						"away": {
-							"played": 8,
-							"win": 4,
-							"draw": 2,
-							"lose": 2,
-							"goals": { "for": 14, "against": 8 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 2.4,
-							"promedio_de_goles_anotados_de_local_por_partido": 3.1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
 						}
 					}
 				},
@@ -6092,7 +6151,7 @@
 				}
 			],
 			"stats": {
-				"partidos_jugados": 15,
+				"partidos_jugados": 16,
 				"promedio_de_goles_anotados_por_partido": 21.2,
 				"promedio_de_goles_anotados_de_local_por_partido": 24.3,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 18.5
@@ -6519,7 +6578,7 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 1,
+										"position": 2,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -6700,7 +6759,7 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 2,
+										"position": 3,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -6798,7 +6857,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -6945,7 +7004,7 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 2,
+										"position": 3,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7089,7 +7148,7 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 1,
+										"position": 2,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7134,7 +7193,7 @@
 						"id": 278,
 						"name": "Vikingur Reykjavik",
 						"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-						"position": 3,
+						"position": 1,
 						"tag": "FEATURED",
 						"historic": false,
 						"result": "WIN",
@@ -7346,7 +7405,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7380,7 +7439,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7429,7 +7488,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -7493,7 +7552,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -7542,7 +7601,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -7576,7 +7635,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -7625,7 +7684,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -7671,7 +7730,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7735,7 +7794,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7769,7 +7828,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -7818,7 +7877,7 @@
 										"id": 274,
 										"name": "Valur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 2,
+										"position": 3,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -7833,7 +7892,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -7867,7 +7926,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7913,7 +7972,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7962,7 +8021,7 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 1,
+										"position": 2,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -7977,7 +8036,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -8026,7 +8085,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8075,7 +8134,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8124,7 +8183,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8155,7 +8214,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8219,7 +8278,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -8253,7 +8312,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8302,7 +8361,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8348,7 +8407,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8363,7 +8422,7 @@
 										"id": 276,
 										"name": "Breidablik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 1,
+										"position": 2,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -8412,7 +8471,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8446,7 +8505,7 @@
 										"id": 278,
 										"name": "Vikingur Reykjavik",
 										"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
-										"position": 3,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -8501,7 +8560,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (4<=3/12)"
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (4<=1/12)"
 									},
 									{
 										"fulfilled": true,
@@ -8533,7 +8592,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 4 y el visitante de 3 en la tabla de posiciones"
+										"explanation": "El local va de 4 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -8565,7 +8624,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (3/12)"
+										"explanation": "El visitante no es de los peores del torneo | (1/12)"
 									},
 									{
 										"fulfilled": true,
@@ -8627,270 +8686,6 @@
 		"standings": {
 			"type": "REGULAR",
 			"items": [
-				{
-					"teamId": 1064,
-					"teamName": "Platense",
-					"points": 11,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 3,
-							"draw": 2,
-							"lose": 3,
-							"goals": { "for": 8, "against": 8, "diff": 0 }
-						},
-						"home": {
-							"played": 3,
-							"win": 1,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 1, "against": 2 }
-						},
-						"away": {
-							"played": 5,
-							"win": 2,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 7, "against": 6 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 0.3,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
-						}
-					}
-				},
-				{
-					"teamId": 434,
-					"teamName": "Gimnasia L.P.",
-					"points": 10,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 3,
-							"draw": 1,
-							"lose": 4,
-							"goals": { "for": 11, "against": 11, "diff": 0 }
-						},
-						"home": {
-							"played": 4,
-							"win": 3,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 8, "against": 3 }
-						},
-						"away": {
-							"played": 4,
-							"win": 0,
-							"draw": 1,
-							"lose": 3,
-							"goals": { "for": 3, "against": 8 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
-					"teamId": 437,
-					"teamName": "Rosario Central",
-					"points": 9,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 2,
-							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 11, "against": 10, "diff": 1 }
-						},
-						"home": {
-							"played": 4,
-							"win": 1,
-							"draw": 2,
-							"lose": 1,
-							"goals": { "for": 6, "against": 5 }
-						},
-						"away": {
-							"played": 4,
-							"win": 1,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 5, "against": 5 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 476,
-					"teamName": "Deportivo Riestra",
-					"points": 9,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 3,
-							"draw": 0,
-							"lose": 5,
-							"goals": { "for": 7, "against": 9, "diff": -2 }
-						},
-						"home": {
-							"played": 4,
-							"win": 3,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 5, "against": 2 }
-						},
-						"away": {
-							"played": 4,
-							"win": 0,
-							"draw": 0,
-							"lose": 4,
-							"goals": { "for": 2, "against": 7 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.9,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
-						}
-					}
-				},
-				{
-					"teamId": 460,
-					"teamName": "San Lorenzo",
-					"points": 7,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 1,
-							"draw": 4,
-							"lose": 3,
-							"goals": { "for": 5, "against": 7, "diff": -2 }
-						},
-						"home": {
-							"played": 4,
-							"win": 0,
-							"draw": 3,
-							"lose": 1,
-							"goals": { "for": 3, "against": 4 }
-						},
-						"away": {
-							"played": 4,
-							"win": 1,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 2, "against": 3 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.6,
-							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
-						}
-					}
-				},
-				{
-					"teamId": 439,
-					"teamName": "Godoy Cruz",
-					"points": 6,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 2,
-							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 5, "against": 8, "diff": -3 }
-						},
-						"home": {
-							"played": 4,
-							"win": 2,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 4, "against": 3 }
-						},
-						"away": {
-							"played": 4,
-							"win": 0,
-							"draw": 2,
-							"lose": 2,
-							"goals": { "for": 1, "against": 5 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.6,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
-						}
-					}
-				},
-				{
-					"teamId": 449,
-					"teamName": "Banfield",
-					"points": 6,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 1,
-							"draw": 3,
-							"lose": 4,
-							"goals": { "for": 6, "against": 12, "diff": -6 }
-						},
-						"home": {
-							"played": 4,
-							"win": 1,
-							"draw": 3,
-							"lose": 0,
-							"goals": { "for": 5, "against": 3 }
-						},
-						"away": {
-							"played": 4,
-							"win": 0,
-							"draw": 0,
-							"lose": 4,
-							"goals": { "for": 1, "against": 9 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.8,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
-						}
-					}
-				},
-				{
-					"teamId": 1065,
-					"teamName": "Central Cordoba de Santiago",
-					"points": 1,
-					"stats": {
-						"all": {
-							"played": 8,
-							"win": 0,
-							"draw": 1,
-							"lose": 7,
-							"goals": { "for": 7, "against": 20, "diff": -13 }
-						},
-						"home": {
-							"played": 4,
-							"win": 0,
-							"draw": 0,
-							"lose": 4,
-							"goals": { "for": 4, "against": 12 }
-						},
-						"away": {
-							"played": 4,
-							"win": 0,
-							"draw": 1,
-							"lose": 3,
-							"goals": { "for": 3, "against": 8 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.9,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
 				{
 					"teamId": 445,
 					"teamName": "Huracan",
@@ -9354,6 +9149,39 @@
 					}
 				},
 				{
+					"teamId": 1064,
+					"teamName": "Platense",
+					"points": 11,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 8, "against": 8, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 7, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
 					"teamId": 474,
 					"teamName": "Sarmiento Junin",
 					"points": 11,
@@ -9415,6 +9243,105 @@
 						"averages": {
 							"promedio_de_goles_anotados_por_partido": 0.7,
 							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 434,
+					"teamName": "Gimnasia L.P.",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 11, "against": 11, "diff": 0 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 8, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 3, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 437,
+					"teamName": "Rosario Central",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 11, "against": 10, "diff": 1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 6, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 5, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 476,
+					"teamName": "Deportivo Riestra",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 0,
+							"lose": 5,
+							"goals": { "for": 7, "against": 9, "diff": -2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 2, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
 						}
 					}
@@ -9486,6 +9413,105 @@
 					}
 				},
 				{
+					"teamId": 460,
+					"teamName": "San Lorenzo",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 5, "against": 7, "diff": -2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 3, "against": 4 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 439,
+					"teamName": "Godoy Cruz",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 5, "against": 8, "diff": -3 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 1, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 449,
+					"teamName": "Banfield",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 6, "against": 12, "diff": -6 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 5, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 1, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
 					"teamId": 2432,
 					"teamName": "Barracas Central",
 					"points": 6,
@@ -9550,10 +9576,43 @@
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
 						}
 					}
+				},
+				{
+					"teamId": 1065,
+					"teamName": "Central Cordoba de Santiago",
+					"points": 1,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 0,
+							"draw": 1,
+							"lose": 7,
+							"goals": { "for": 7, "against": 20, "diff": -13 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 4, "against": 12 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 3, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
 				}
 			],
 			"stats": {
-				"partidos_jugados": 8,
+				"partidos_jugados": 9,
 				"promedio_de_goles_anotados_por_partido": 30.2,
 				"promedio_de_goles_anotados_de_local_por_partido": 36,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 24.2
@@ -9572,8 +9631,8 @@
 						"id": 476,
 						"name": "Deportivo Riestra",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": 4,
-						"tag": "FEATURED",
+						"position": 20,
+						"tag": "REGULAR",
 						"historic": false,
 						"result": "WIN",
 						"score": {
@@ -9769,7 +9828,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 25,
+										"position": 21,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -9784,8 +9843,8 @@
 										"id": 476,
 										"name": "Deportivo Riestra",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 20,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9818,8 +9877,8 @@
 										"id": 476,
 										"name": "Deportivo Riestra",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 20,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9833,8 +9892,8 @@
 										"id": 458,
 										"name": "Argentinos JRS",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 22,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9867,7 +9926,7 @@
 										"id": 440,
 										"name": "Belgrano Cordoba",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 18,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -9882,8 +9941,8 @@
 										"id": 476,
 										"name": "Deportivo Riestra",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 20,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9912,8 +9971,8 @@
 						"id": 1065,
 						"name": "Central Cordoba de Santiago",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": 8,
-						"tag": "FEATURED",
+						"position": 28,
+						"tag": "POOR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -10109,8 +10168,8 @@
 										"id": 1065,
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 8,
-										"tag": "FEATURED",
+										"position": 28,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10124,8 +10183,8 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 12,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -10158,7 +10217,7 @@
 										"id": 452,
 										"name": "Tigre",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 25,
+										"position": 21,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -10173,8 +10232,8 @@
 										"id": 1065,
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 8,
-										"tag": "FEATURED",
+										"position": 28,
+										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -10207,8 +10266,8 @@
 										"id": 1065,
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 8,
-										"tag": "FEATURED",
+										"position": 28,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10222,8 +10281,8 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 1,
-										"tag": "FEATURED",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -10262,7 +10321,7 @@
 									{
 										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas arriba que el visitante en la tabla | (4>8/28)"
+										"explanation": "El local está mas arriba que el visitante en la tabla | (20>28/28)"
 									},
 									{
 										"fulfilled": true,
@@ -10292,19 +10351,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 4 y el visitante de 8 en la tabla de posiciones"
+										"explanation": "El local va de 20 y el visitante de 28 en la tabla de posiciones"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -10319,14 +10378,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (4/28)"
+										"explanation": "El local no es de los mejores del torneo | (20/28)"
 									},
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (8/28)"
+										"explanation": "El visitante es de los peores del torneo | (28/28)"
 									},
 									{
 										"fulfilled": false,
@@ -10389,8 +10448,8 @@
 						"id": 434,
 						"name": "Gimnasia L.P.",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": 2,
-						"tag": "FEATURED",
+						"position": 18,
+						"tag": "REGULAR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -10586,8 +10645,8 @@
 										"id": 450,
 										"name": "Estudiantes L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 15,
-										"tag": "REGULAR",
+										"position": 7,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -10601,8 +10660,8 @@
 										"id": 434,
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 18,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10635,8 +10694,8 @@
 										"id": 434,
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 18,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10650,8 +10709,8 @@
 										"id": 460,
 										"name": "San Lorenzo",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 23,
+										"tag": "POOR",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -10684,7 +10743,7 @@
 										"id": 473,
 										"name": "Independ. Rivadavia",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 20,
+										"position": 12,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -10699,8 +10758,8 @@
 										"id": 434,
 										"name": "Gimnasia L.P.",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 18,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10729,8 +10788,8 @@
 						"id": 437,
 						"name": "Rosario Central",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": 3,
-						"tag": "FEATURED",
+						"position": 19,
+						"tag": "REGULAR",
 						"historic": true,
 						"result": "WIN",
 						"score": {
@@ -10926,8 +10985,8 @@
 										"id": 441,
 										"name": "Union Santa Fe",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 10,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -10941,8 +11000,8 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 3,
-										"tag": "FEATURED",
+										"position": 19,
+										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -10975,8 +11034,8 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 3,
-										"tag": "FEATURED",
+										"position": 19,
+										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -10990,7 +11049,7 @@
 										"id": 445,
 										"name": "Huracan",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 9,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -11039,8 +11098,8 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 3,
-										"tag": "FEATURED",
+										"position": 19,
+										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
 										"score": {
@@ -11073,8 +11132,8 @@
 										"id": 437,
 										"name": "Rosario Central",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 3,
-										"tag": "FEATURED",
+										"position": 19,
+										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -11088,8 +11147,8 @@
 										"id": 474,
 										"name": "Sarmiento Junin",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 23,
-										"tag": "POOR",
+										"position": 16,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -11128,7 +11187,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (2<=3/28)"
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (18<=19/28)"
 									},
 									{
 										"fulfilled": true,
@@ -11160,7 +11219,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 2 y el visitante de 3 en la tabla de posiciones"
+										"explanation": "El local va de 18 y el visitante de 19 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -11185,14 +11244,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (2/28)"
+										"explanation": "El local no es de los mejores del torneo | (18/28)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (3/28)"
+										"explanation": "El visitante no es de los peores del torneo | (19/28)"
 									},
 									{
 										"fulfilled": false,
@@ -11255,8 +11314,8 @@
 						"id": 1064,
 						"name": "Platense",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": 1,
-						"tag": "FEATURED",
+						"position": 15,
+						"tag": "REGULAR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -11452,7 +11511,7 @@
 										"id": 442,
 										"name": "Defensa Y Justicia",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 28,
+										"position": 27,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -11467,8 +11526,8 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 1,
-										"tag": "FEATURED",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -11501,8 +11560,8 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 1,
-										"tag": "FEATURED",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -11516,8 +11575,8 @@
 										"id": 438,
 										"name": "Velez Sarsfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 12,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -11550,8 +11609,8 @@
 										"id": 1065,
 										"name": "Central Cordoba de Santiago",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 8,
-										"tag": "FEATURED",
+										"position": 28,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -11565,8 +11624,8 @@
 										"id": 1064,
 										"name": "Platense",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 1,
-										"tag": "FEATURED",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -11595,8 +11654,8 @@
 						"id": 449,
 						"name": "Banfield",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": 7,
-						"tag": "FEATURED",
+						"position": 25,
+						"tag": "POOR",
 						"historic": false,
 						"result": "WIN",
 						"score": {
@@ -11792,8 +11851,8 @@
 										"id": 451,
 										"name": "Boca Juniors",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 21,
-										"tag": "POOR",
+										"position": 13,
+										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -11807,8 +11866,8 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 7,
-										"tag": "FEATURED",
+										"position": 25,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -11841,8 +11900,8 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 7,
-										"tag": "FEATURED",
+										"position": 25,
+										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -11856,8 +11915,8 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 13,
-										"tag": "REGULAR",
+										"position": 5,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -11890,8 +11949,8 @@
 										"id": 449,
 										"name": "Banfield",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 7,
-										"tag": "FEATURED",
+										"position": 25,
+										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -11905,8 +11964,8 @@
 										"id": 455,
 										"name": "Atletico Tucuman",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": 14,
-										"tag": "REGULAR",
+										"position": 6,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -11945,7 +12004,7 @@
 									{
 										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas arriba que el visitante en la tabla | (1>7/28)"
+										"explanation": "El local está mas arriba que el visitante en la tabla | (15>25/28)"
 									},
 									{
 										"fulfilled": true,
@@ -11977,7 +12036,7 @@
 									{
 										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 1 y el visitante de 7 en la tabla de posiciones"
+										"explanation": "El local va de 15 y el visitante de 25 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": true
@@ -12002,14 +12061,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (1/28)"
+										"explanation": "El local no es de los mejores del torneo | (15/28)"
 									},
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (7/28)"
+										"explanation": "El visitante es de los peores del torneo | (25/28)"
 									},
 									{
 										"fulfilled": false,
@@ -12072,6 +12131,204 @@
 			"type": "REGULAR",
 			"items": [
 				{
+					"teamId": 1147,
+					"teamName": "Fortaleza FC",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 6, "against": 2, "diff": 4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 1136,
+					"teamName": "Once Caldas",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 1, "diff": 4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 3, "against": 0 }
+						},
+						"away": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1134,
+					"teamName": "La Equidad",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 3,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 5, "against": 3, "diff": 2 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1137,
+					"teamName": "Atletico Nacional",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 3,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 6, "against": 5, "diff": 1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1138,
+					"teamName": "America de Cali",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 8, "against": 4, "diff": 4 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2,
+							"promedio_de_goles_anotados_de_local_por_partido": 4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1125,
+					"teamName": "Millonarios",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 5, "against": 5, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
 					"teamId": 1139,
 					"teamName": "Santa Fe",
 					"points": 6,
@@ -12101,6 +12358,138 @@
 							"promedio_de_goles_anotados_por_partido": 1,
 							"promedio_de_goles_anotados_de_local_por_partido": 1,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1127,
+					"teamName": "Deportivo Cali",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 2,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1128,
+					"teamName": "Independiente Medellin",
+					"points": 6,
+					"stats": {
+						"all": {
+							"played": 5,
+							"win": 1,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 3, "against": 4, "diff": -1 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 1135,
+					"teamName": "Junior",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1126,
+					"teamName": "Deportivo Pasto",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 4, "diff": 0 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
 						}
 					}
 				},
@@ -12204,270 +12593,6 @@
 					}
 				},
 				{
-					"teamId": 1144,
-					"teamName": "Rionegro Aguilas",
-					"points": 3,
-					"stats": {
-						"all": {
-							"played": 3,
-							"win": 1,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 4, "against": 5, "diff": -1 }
-						},
-						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 4, "against": 4 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 0, "against": 1 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
-				{
-					"teamId": 1132,
-					"teamName": "Chico",
-					"points": 0,
-					"stats": {
-						"all": {
-							"played": 3,
-							"win": 0,
-							"draw": 0,
-							"lose": 3,
-							"goals": { "for": 1, "against": 4, "diff": -3 }
-						},
-						"home": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 0, "against": 1 }
-						},
-						"away": {
-							"played": 2,
-							"win": 0,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 1, "against": 3 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 0,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
-						}
-					}
-				},
-				{
-					"teamId": 1147,
-					"teamName": "Fortaleza FC",
-					"points": 10,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 3,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 6, "against": 2, "diff": 4 }
-						},
-						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 3, "against": 2 }
-						},
-						"away": {
-							"played": 2,
-							"win": 2,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 3, "against": 0 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
-						}
-					}
-				},
-				{
-					"teamId": 1136,
-					"teamName": "Once Caldas",
-					"points": 10,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 3,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 5, "against": 1, "diff": 4 }
-						},
-						"home": {
-							"played": 2,
-							"win": 2,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 3, "against": 0 }
-						},
-						"away": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 2, "against": 1 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
-					"teamId": 1138,
-					"teamName": "America de Cali",
-					"points": 7,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 2,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 8, "against": 4, "diff": 4 }
-						},
-						"home": {
-							"played": 1,
-							"win": 1,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 4, "against": 0 }
-						},
-						"away": {
-							"played": 3,
-							"win": 1,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 4, "against": 4 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 2,
-							"promedio_de_goles_anotados_de_local_por_partido": 4,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 1127,
-					"teamName": "Deportivo Cali",
-					"points": 6,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 2,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 4, "against": 4, "diff": 0 }
-						},
-						"home": {
-							"played": 3,
-							"win": 2,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 3, "against": 2 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 1, "against": 2 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
-					"teamId": 1135,
-					"teamName": "Junior",
-					"points": 5,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 1,
-							"draw": 2,
-							"lose": 1,
-							"goals": { "for": 4, "against": 4, "diff": 0 }
-						},
-						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 4, "against": 3 }
-						},
-						"away": {
-							"played": 2,
-							"win": 0,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 0, "against": 1 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
-				{
-					"teamId": 1126,
-					"teamName": "Deportivo Pasto",
-					"points": 4,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 1,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 4, "against": 4, "diff": 0 }
-						},
-						"home": {
-							"played": 1,
-							"win": 1,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 2, "against": 0 }
-						},
-						"away": {
-							"played": 3,
-							"win": 0,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 2, "against": 4 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
-						}
-					}
-				},
-				{
 					"teamId": 1141,
 					"teamName": "Alianza Petrolera",
 					"points": 4,
@@ -12497,6 +12622,39 @@
 							"promedio_de_goles_anotados_por_partido": 1,
 							"promedio_de_goles_anotados_de_local_por_partido": 1,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1144,
+					"teamName": "Rionegro Aguilas",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 4, "against": 5, "diff": -1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
 						}
 					}
 				},
@@ -12600,140 +12758,41 @@
 					}
 				},
 				{
-					"teamId": 1134,
-					"teamName": "La Equidad",
-					"points": 10,
+					"teamId": 1132,
+					"teamName": "Chico",
+					"points": 0,
 					"stats": {
 						"all": {
-							"played": 5,
-							"win": 3,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 5, "against": 3, "diff": 2 }
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 1, "against": 4, "diff": -3 }
 						},
 						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 2, "against": 1 }
-						},
-						"away": {
-							"played": 3,
-							"win": 2,
+							"played": 1,
+							"win": 0,
 							"draw": 0,
 							"lose": 1,
-							"goals": { "for": 3, "against": 2 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
-					"teamId": 1137,
-					"teamName": "Atletico Nacional",
-					"points": 9,
-					"stats": {
-						"all": {
-							"played": 5,
-							"win": 3,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 6, "against": 5, "diff": 1 }
-						},
-						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 2, "against": 2 }
-						},
-						"away": {
-							"played": 3,
-							"win": 2,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 4, "against": 3 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 1125,
-					"teamName": "Millonarios",
-					"points": 7,
-					"stats": {
-						"all": {
-							"played": 5,
-							"win": 2,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 5, "against": 5, "diff": 0 }
-						},
-						"home": {
-							"played": 3,
-							"win": 2,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 3, "against": 2 }
+							"goals": { "for": 0, "against": 1 }
 						},
 						"away": {
 							"played": 2,
 							"win": 0,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 2, "against": 3 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
-					"teamId": 1128,
-					"teamName": "Independiente Medellin",
-					"points": 6,
-					"stats": {
-						"all": {
-							"played": 5,
-							"win": 1,
-							"draw": 3,
-							"lose": 1,
-							"goals": { "for": 3, "against": 4, "diff": -1 }
-						},
-						"home": {
-							"played": 3,
-							"win": 1,
-							"draw": 2,
-							"lose": 0,
-							"goals": { "for": 2, "against": 1 }
-						},
-						"away": {
-							"played": 2,
-							"win": 0,
-							"draw": 1,
-							"lose": 1,
+							"draw": 0,
+							"lose": 2,
 							"goals": { "for": 1, "against": 3 }
 						},
 						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.6,
-							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
 						}
 					}
 				}
 			],
 			"stats": {
-				"partidos_jugados": 3,
+				"partidos_jugados": 5,
 				"promedio_de_goles_anotados_por_partido": 18.8,
 				"promedio_de_goles_anotados_de_local_por_partido": 24.4,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 14.3
@@ -12752,8 +12811,8 @@
 						"id": 1137,
 						"name": "Atletico Nacional",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": 18,
-						"tag": "POOR",
+						"position": 4,
+						"tag": "FEATURED",
 						"historic": true,
 						"result": "DRAW",
 						"score": {
@@ -12949,8 +13008,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -12964,8 +13023,8 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 17,
-										"tag": "POOR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -12998,8 +13057,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -13013,8 +13072,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -13047,8 +13106,8 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 19,
-										"tag": "POOR",
+										"position": 6,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -13062,8 +13121,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -13096,8 +13155,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -13111,8 +13170,8 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 5,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -13145,7 +13204,7 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 13,
+										"position": 15,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -13160,8 +13219,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -13190,8 +13249,8 @@
 						"id": 1144,
 						"name": "Rionegro Aguilas",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": 5,
-						"tag": "FEATURED",
+						"position": 16,
+						"tag": "POOR",
 						"historic": false,
 						"result": "DRAW",
 						"score": {
@@ -13387,8 +13446,8 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 16,
+										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -13402,7 +13461,7 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 16,
+										"position": 19,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -13436,8 +13495,8 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -13451,8 +13510,8 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 16,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -13485,8 +13544,8 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 16,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -13500,8 +13559,8 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 5,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -13538,9 +13597,9 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (18<=5/20)"
+										"explanation": "El local está mas arriba que el visitante en la tabla | (4>16/20)"
 									},
 									{
 										"fulfilled": true,
@@ -13548,14 +13607,14 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -13570,19 +13629,19 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 18 y el visitante de 5 en la tabla de posiciones"
+										"explanation": "El local va de 4 y el visitante de 16 en la tabla de posiciones"
 									}
 								],
-								"fulfilled": false
+								"fulfilled": true
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW",
+						"trustLevel": 100,
+						"trustLevelLabel": "HIGH",
 						"results": {
-							"winning": false,
-							"lostWinning": true,
+							"winning": true,
+							"lostWinning": false,
 							"lost": false,
 							"skippedLost": false
 						}
@@ -13597,14 +13656,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local no es de los mejores del torneo | (18/20)"
+										"explanation": "El local es de los mejores del torneo | (4/20)"
 									},
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (5/20)"
+										"explanation": "El visitante es de los peores del torneo | (16/20)"
 									},
 									{
 										"fulfilled": false,
@@ -13667,35 +13726,101 @@
 			"type": "REGULAR",
 			"items": [
 				{
-					"teamId": 119,
-					"teamName": "Internacional",
-					"points": 21,
+					"teamId": 120,
+					"teamName": "Botafogo",
+					"points": 43,
 					"stats": {
 						"all": {
-							"played": 16,
-							"win": 5,
-							"draw": 6,
-							"lose": 5,
-							"goals": { "for": 14, "against": 14, "diff": 0 }
+							"played": 21,
+							"win": 13,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 35, "against": 20, "diff": 15 }
 						},
 						"home": {
-							"played": 7,
-							"win": 2,
-							"draw": 3,
+							"played": 10,
+							"win": 7,
+							"draw": 1,
 							"lose": 2,
-							"goals": { "for": 7, "against": 7 }
+							"goals": { "for": 16, "against": 8 }
 						},
 						"away": {
-							"played": 9,
-							"win": 3,
+							"played": 11,
+							"win": 6,
 							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 7, "against": 7 }
+							"lose": 2,
+							"goals": { "for": 19, "against": 12 }
 						},
 						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.9,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+						}
+					}
+				},
+				{
+					"teamId": 127,
+					"teamName": "Flamengo",
+					"points": 40,
+					"stats": {
+						"all": {
+							"played": 20,
+							"win": 12,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 34, "against": 20, "diff": 14 }
+						},
+						"home": {
+							"played": 10,
+							"win": 7,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 16, "against": 10 }
+						},
+						"away": {
+							"played": 10,
+							"win": 5,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 18, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
+					}
+				},
+				{
+					"teamId": 121,
+					"teamName": "Palmeiras",
+					"points": 37,
+					"stats": {
+						"all": {
+							"played": 21,
+							"win": 11,
+							"draw": 4,
+							"lose": 6,
+							"goals": { "for": 28, "against": 17, "diff": 11 }
+						},
+						"home": {
+							"played": 11,
+							"win": 7,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 16, "against": 8 }
+						},
+						"away": {
+							"played": 10,
+							"win": 4,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 12, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
 						}
 					}
 				},
@@ -13762,6 +13887,72 @@
 							"promedio_de_goles_anotados_por_partido": 1.5,
 							"promedio_de_goles_anotados_de_local_por_partido": 2.4,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 126,
+					"teamName": "Sao Paulo",
+					"points": 35,
+					"stats": {
+						"all": {
+							"played": 21,
+							"win": 10,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 29, "against": 21, "diff": 8 }
+						},
+						"home": {
+							"played": 11,
+							"win": 7,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 16, "against": 8 }
+						},
+						"away": {
+							"played": 10,
+							"win": 3,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 13, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 118,
+					"teamName": "Bahia",
+					"points": 32,
+					"stats": {
+						"all": {
+							"played": 21,
+							"win": 9,
+							"draw": 5,
+							"lose": 7,
+							"goals": { "for": 29, "against": 25, "diff": 4 }
+						},
+						"home": {
+							"played": 10,
+							"win": 7,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 15, "against": 7 }
+						},
+						"away": {
+							"played": 11,
+							"win": 2,
+							"draw": 4,
+							"lose": 5,
+							"goals": { "for": 14, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
 						}
 					}
 				},
@@ -13865,6 +14056,39 @@
 					}
 				},
 				{
+					"teamId": 133,
+					"teamName": "Vasco DA Gama",
+					"points": 24,
+					"stats": {
+						"all": {
+							"played": 20,
+							"win": 7,
+							"draw": 3,
+							"lose": 10,
+							"goals": { "for": 22, "against": 31, "diff": -9 }
+						},
+						"home": {
+							"played": 10,
+							"win": 5,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 16, "against": 16 }
+						},
+						"away": {
+							"played": 10,
+							"win": 2,
+							"draw": 0,
+							"lose": 8,
+							"goals": { "for": 6, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+						}
+					}
+				},
+				{
 					"teamId": 140,
 					"teamName": "Criciuma",
 					"points": 24,
@@ -13964,101 +14188,68 @@
 					}
 				},
 				{
-					"teamId": 1193,
-					"teamName": "Cuiaba",
-					"points": 17,
+					"teamId": 136,
+					"teamName": "Vitoria",
+					"points": 21,
 					"stats": {
 						"all": {
-							"played": 19,
+							"played": 21,
+							"win": 6,
+							"draw": 3,
+							"lose": 12,
+							"goals": { "for": 23, "against": 32, "diff": -9 }
+						},
+						"home": {
+							"played": 11,
 							"win": 4,
-							"draw": 5,
-							"lose": 10,
-							"goals": { "for": 19, "against": 25, "diff": -6 }
-						},
-						"home": {
-							"played": 10,
-							"win": 1,
-							"draw": 3,
-							"lose": 6,
-							"goals": { "for": 8, "against": 12 }
-						},
-						"away": {
-							"played": 9,
-							"win": 3,
-							"draw": 2,
-							"lose": 4,
-							"goals": { "for": 11, "against": 13 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
-						}
-					}
-				},
-				{
-					"teamId": 127,
-					"teamName": "Flamengo",
-					"points": 40,
-					"stats": {
-						"all": {
-							"played": 20,
-							"win": 12,
-							"draw": 4,
-							"lose": 4,
-							"goals": { "for": 34, "against": 20, "diff": 14 }
-						},
-						"home": {
-							"played": 10,
-							"win": 7,
 							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 16, "against": 10 }
-						},
-						"away": {
-							"played": 10,
-							"win": 5,
-							"draw": 3,
-							"lose": 2,
-							"goals": { "for": 18, "against": 10 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.7,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
-						}
-					}
-				},
-				{
-					"teamId": 133,
-					"teamName": "Vasco DA Gama",
-					"points": 24,
-					"stats": {
-						"all": {
-							"played": 20,
-							"win": 7,
-							"draw": 3,
-							"lose": 10,
-							"goals": { "for": 22, "against": 31, "diff": -9 }
-						},
-						"home": {
-							"played": 10,
-							"win": 5,
-							"draw": 3,
-							"lose": 2,
-							"goals": { "for": 16, "against": 16 }
+							"lose": 6,
+							"goals": { "for": 13, "against": 16 }
 						},
 						"away": {
 							"played": 10,
 							"win": 2,
-							"draw": 0,
-							"lose": 8,
-							"goals": { "for": 6, "against": 15 }
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 10, "against": 16 }
 						},
 						"averages": {
 							"promedio_de_goles_anotados_por_partido": 1.1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 119,
+					"teamName": "Internacional",
+					"points": 21,
+					"stats": {
+						"all": {
+							"played": 16,
+							"win": 5,
+							"draw": 6,
+							"lose": 5,
+							"goals": { "for": 14, "against": 14, "diff": 0 }
+						},
+						"home": {
+							"played": 7,
+							"win": 2,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 7, "against": 7 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 7, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
 						}
 					}
 				},
@@ -14096,171 +14287,6 @@
 					}
 				},
 				{
-					"teamId": 120,
-					"teamName": "Botafogo",
-					"points": 43,
-					"stats": {
-						"all": {
-							"played": 21,
-							"win": 13,
-							"draw": 4,
-							"lose": 4,
-							"goals": { "for": 35, "against": 20, "diff": 15 }
-						},
-						"home": {
-							"played": 10,
-							"win": 7,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 16, "against": 8 }
-						},
-						"away": {
-							"played": 11,
-							"win": 6,
-							"draw": 3,
-							"lose": 2,
-							"goals": { "for": 19, "against": 12 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.7,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
-						}
-					}
-				},
-				{
-					"teamId": 121,
-					"teamName": "Palmeiras",
-					"points": 37,
-					"stats": {
-						"all": {
-							"played": 21,
-							"win": 11,
-							"draw": 4,
-							"lose": 6,
-							"goals": { "for": 28, "against": 17, "diff": 11 }
-						},
-						"home": {
-							"played": 11,
-							"win": 7,
-							"draw": 1,
-							"lose": 3,
-							"goals": { "for": 16, "against": 8 }
-						},
-						"away": {
-							"played": 10,
-							"win": 4,
-							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 12, "against": 9 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
-						}
-					}
-				},
-				{
-					"teamId": 126,
-					"teamName": "Sao Paulo",
-					"points": 35,
-					"stats": {
-						"all": {
-							"played": 21,
-							"win": 10,
-							"draw": 5,
-							"lose": 6,
-							"goals": { "for": 29, "against": 21, "diff": 8 }
-						},
-						"home": {
-							"played": 11,
-							"win": 7,
-							"draw": 2,
-							"lose": 2,
-							"goals": { "for": 16, "against": 8 }
-						},
-						"away": {
-							"played": 10,
-							"win": 3,
-							"draw": 3,
-							"lose": 4,
-							"goals": { "for": 13, "against": 13 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 118,
-					"teamName": "Bahia",
-					"points": 32,
-					"stats": {
-						"all": {
-							"played": 21,
-							"win": 9,
-							"draw": 5,
-							"lose": 7,
-							"goals": { "for": 29, "against": 25, "diff": 4 }
-						},
-						"home": {
-							"played": 10,
-							"win": 7,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 15, "against": 7 }
-						},
-						"away": {
-							"played": 11,
-							"win": 2,
-							"draw": 4,
-							"lose": 5,
-							"goals": { "for": 14, "against": 18 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 136,
-					"teamName": "Vitoria",
-					"points": 21,
-					"stats": {
-						"all": {
-							"played": 21,
-							"win": 6,
-							"draw": 3,
-							"lose": 12,
-							"goals": { "for": 23, "against": 32, "diff": -9 }
-						},
-						"home": {
-							"played": 11,
-							"win": 4,
-							"draw": 1,
-							"lose": 6,
-							"goals": { "for": 13, "against": 16 }
-						},
-						"away": {
-							"played": 10,
-							"win": 2,
-							"draw": 2,
-							"lose": 6,
-							"goals": { "for": 10, "against": 16 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
 					"teamId": 131,
 					"teamName": "Corinthians",
 					"points": 20,
@@ -14290,6 +14316,39 @@
 							"promedio_de_goles_anotados_por_partido": 0.9,
 							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 1193,
+					"teamName": "Cuiaba",
+					"points": 17,
+					"stats": {
+						"all": {
+							"played": 19,
+							"win": 4,
+							"draw": 5,
+							"lose": 10,
+							"goals": { "for": 19, "against": 25, "diff": -6 }
+						},
+						"home": {
+							"played": 10,
+							"win": 1,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 8, "against": 12 }
+						},
+						"away": {
+							"played": 9,
+							"win": 3,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 11, "against": 13 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
 						}
 					}
 				},
@@ -14328,7 +14387,7 @@
 				}
 			],
 			"stats": {
-				"partidos_jugados": 16,
+				"partidos_jugados": 21,
 				"promedio_de_goles_anotados_por_partido": 24.4,
 				"promedio_de_goles_anotados_de_local_por_partido": 27.7,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 20.9
@@ -14347,7 +14406,7 @@
 						"id": 135,
 						"name": "Cruzeiro",
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-						"position": 3,
+						"position": 5,
 						"tag": "FEATURED",
 						"historic": true,
 						"result": "LOSE",
@@ -14544,8 +14603,8 @@
 										"id": 120,
 										"name": "Botafogo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 14,
-										"tag": "REGULAR",
+										"position": 1,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -14559,7 +14618,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -14593,7 +14652,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -14608,7 +14667,7 @@
 										"id": 152,
 										"name": "Juventude",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 8,
+										"position": 13,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -14642,8 +14701,8 @@
 										"id": 121,
 										"name": "Palmeiras",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 15,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -14657,7 +14716,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
@@ -14691,7 +14750,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -14706,8 +14765,8 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 6,
-										"tag": "FEATURED",
+										"position": 10,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -14740,7 +14799,7 @@
 										"id": 130,
 										"name": "Gremio",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 9,
+										"position": 14,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -14755,7 +14814,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -14789,7 +14848,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -14804,7 +14863,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 19,
+										"position": 18,
 										"tag": "POOR",
 										"historic": true,
 										"result": "LOSE",
@@ -14838,7 +14897,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 7,
+										"position": 12,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -14853,7 +14912,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
@@ -14887,8 +14946,8 @@
 										"id": 127,
 										"name": "Flamengo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 11,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -14902,7 +14961,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
@@ -14936,7 +14995,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -14951,8 +15010,8 @@
 										"id": 134,
 										"name": "Atletico Paranaense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 8,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -14985,8 +15044,8 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 17,
-										"tag": "POOR",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -15000,7 +15059,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
@@ -15034,7 +15093,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15049,8 +15108,8 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 13,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -15083,7 +15142,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 12,
+										"position": 11,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -15098,7 +15157,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "DRAW",
@@ -15132,7 +15191,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15147,8 +15206,8 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 10,
-										"tag": "REGULAR",
+										"position": 19,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -15181,8 +15240,8 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 16,
-										"tag": "POOR",
+										"position": 6,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -15196,7 +15255,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
@@ -15230,7 +15289,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15279,7 +15338,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15343,7 +15402,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15392,7 +15451,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15426,7 +15485,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15441,8 +15500,8 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -15490,7 +15549,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "DRAW",
@@ -15524,8 +15583,8 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -15539,7 +15598,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
@@ -15573,7 +15632,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -15588,7 +15647,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "DRAW",
@@ -15622,7 +15681,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
@@ -15637,8 +15696,8 @@
 										"id": 120,
 										"name": "Botafogo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 14,
-										"tag": "REGULAR",
+										"position": 1,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -15667,7 +15726,7 @@
 						"id": 154,
 						"name": "Fortaleza EC",
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-						"position": 2,
+						"position": 4,
 						"tag": "FEATURED",
 						"historic": false,
 						"result": "WIN",
@@ -15864,7 +15923,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -15879,8 +15938,8 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 16,
-										"tag": "POOR",
+										"position": 6,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -15913,7 +15972,7 @@
 										"id": 140,
 										"name": "Criciuma",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 7,
+										"position": 12,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -15928,7 +15987,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -15962,7 +16021,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16011,7 +16070,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16026,8 +16085,8 @@
 										"id": 136,
 										"name": "Vitoria",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 18,
-										"tag": "POOR",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -16060,8 +16119,8 @@
 										"id": 127,
 										"name": "Flamengo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 11,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -16075,7 +16134,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16109,7 +16168,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16124,8 +16183,8 @@
 										"id": 124,
 										"name": "Fluminense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 13,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -16158,7 +16217,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 12,
+										"position": 11,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -16173,7 +16232,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -16207,7 +16266,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16222,7 +16281,7 @@
 										"id": 152,
 										"name": "Juventude",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 8,
+										"position": 13,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -16256,7 +16315,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16271,8 +16330,8 @@
 										"id": 121,
 										"name": "Palmeiras",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 15,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -16305,8 +16364,8 @@
 										"id": 1062,
 										"name": "Atletico-MG",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -16320,7 +16379,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -16354,7 +16413,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16369,7 +16428,7 @@
 										"id": 130,
 										"name": "Gremio",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 9,
+										"position": 14,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -16403,8 +16462,8 @@
 										"id": 1193,
 										"name": "Cuiaba",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 10,
-										"tag": "REGULAR",
+										"position": 19,
+										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -16418,7 +16477,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -16452,8 +16511,8 @@
 										"id": 118,
 										"name": "Bahia",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 17,
-										"tag": "POOR",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -16467,7 +16526,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -16516,7 +16575,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -16547,7 +16606,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16593,7 +16652,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16608,8 +16667,8 @@
 										"id": 134,
 										"name": "Atletico Paranaense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 8,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -16642,7 +16701,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16706,7 +16765,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -16737,7 +16796,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 12,
+										"position": 11,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -16752,7 +16811,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -16801,7 +16860,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -16835,7 +16894,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -16850,8 +16909,8 @@
 										"id": 120,
 										"name": "Botafogo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 14,
-										"tag": "REGULAR",
+										"position": 1,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -16899,7 +16958,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
@@ -16933,7 +16992,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 19,
+										"position": 18,
 										"tag": "POOR",
 										"historic": true,
 										"result": "DRAW",
@@ -16948,7 +17007,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -16982,7 +17041,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -16997,7 +17056,7 @@
 										"id": 133,
 										"name": "Vasco DA Gama",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 12,
+										"position": 11,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -17031,7 +17090,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -17046,8 +17105,8 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 6,
-										"tag": "FEATURED",
+										"position": 10,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -17080,7 +17139,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -17129,7 +17188,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -17175,7 +17234,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -17190,7 +17249,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": true,
 										"result": "DRAW",
@@ -17224,8 +17283,8 @@
 										"id": 126,
 										"name": "Sao Paulo",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 16,
-										"tag": "POOR",
+										"position": 6,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -17239,7 +17298,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": 2,
+										"position": 4,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -17279,7 +17338,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (3<=2/20)"
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (5<=4/20)"
 									},
 									{
 										"fulfilled": true,
@@ -17311,7 +17370,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 3 y el visitante de 2 en la tabla de posiciones"
+										"explanation": "El local va de 5 y el visitante de 4 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -17338,12 +17397,12 @@
 									{
 										"fulfilled": true,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (3/20)"
+										"explanation": "El local es de los mejores del torneo | (5/20)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (2/20)"
+										"explanation": "El visitante no es de los peores del torneo | (4/20)"
 									},
 									{
 										"fulfilled": true,

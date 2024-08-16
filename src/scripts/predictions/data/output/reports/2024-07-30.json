@@ -42,171 +42,6 @@
 					}
 				},
 				{
-					"teamId": 7520,
-					"teamName": "Masr",
-					"points": 44,
-					"stats": {
-						"all": {
-							"played": 28,
-							"win": 11,
-							"draw": 11,
-							"lose": 6,
-							"goals": { "for": 40, "against": 26, "diff": 14 }
-						},
-						"home": {
-							"played": 14,
-							"win": 4,
-							"draw": 6,
-							"lose": 4,
-							"goals": { "for": 19, "against": 14 }
-						},
-						"away": {
-							"played": 14,
-							"win": 7,
-							"draw": 5,
-							"lose": 2,
-							"goals": { "for": 21, "against": 12 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
-						}
-					}
-				},
-				{
-					"teamId": 1040,
-					"teamName": "Zamalek SC",
-					"points": 46,
-					"stats": {
-						"all": {
-							"played": 29,
-							"win": 14,
-							"draw": 7,
-							"lose": 8,
-							"goals": { "for": 44, "against": 30, "diff": 14 }
-						},
-						"home": {
-							"played": 14,
-							"win": 8,
-							"draw": 4,
-							"lose": 2,
-							"goals": { "for": 25, "against": 12 }
-						},
-						"away": {
-							"played": 15,
-							"win": 6,
-							"draw": 3,
-							"lose": 6,
-							"goals": { "for": 19, "against": 18 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 1044,
-					"teamName": "Smouha SC",
-					"points": 45,
-					"stats": {
-						"all": {
-							"played": 30,
-							"win": 12,
-							"draw": 9,
-							"lose": 9,
-							"goals": { "for": 35, "against": 34, "diff": 1 }
-						},
-						"home": {
-							"played": 14,
-							"win": 8,
-							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 22, "against": 13 }
-						},
-						"away": {
-							"played": 16,
-							"win": 4,
-							"draw": 6,
-							"lose": 6,
-							"goals": { "for": 13, "against": 21 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
-					"teamId": 1037,
-					"teamName": "Enppi",
-					"points": 42,
-					"stats": {
-						"all": {
-							"played": 30,
-							"win": 11,
-							"draw": 9,
-							"lose": 10,
-							"goals": { "for": 35, "against": 32, "diff": 3 }
-						},
-						"home": {
-							"played": 16,
-							"win": 6,
-							"draw": 5,
-							"lose": 5,
-							"goals": { "for": 19, "against": 17 }
-						},
-						"away": {
-							"played": 14,
-							"win": 5,
-							"draw": 4,
-							"lose": 5,
-							"goals": { "for": 16, "against": 15 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
-						}
-					}
-				},
-				{
-					"teamId": 1575,
-					"teamName": "El Mokawloon",
-					"points": 24,
-					"stats": {
-						"all": {
-							"played": 30,
-							"win": 5,
-							"draw": 9,
-							"lose": 16,
-							"goals": { "for": 30, "against": 50, "diff": -20 }
-						},
-						"home": {
-							"played": 15,
-							"win": 2,
-							"draw": 4,
-							"lose": 9,
-							"goals": { "for": 13, "against": 23 }
-						},
-						"away": {
-							"played": 15,
-							"win": 3,
-							"draw": 5,
-							"lose": 7,
-							"goals": { "for": 17, "against": 27 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
-						}
-					}
-				},
-				{
 					"teamId": 1036,
 					"teamName": "Pyramids FC",
 					"points": 70,
@@ -306,6 +141,105 @@
 					}
 				},
 				{
+					"teamId": 1040,
+					"teamName": "Zamalek SC",
+					"points": 46,
+					"stats": {
+						"all": {
+							"played": 29,
+							"win": 14,
+							"draw": 7,
+							"lose": 8,
+							"goals": { "for": 44, "against": 30, "diff": 14 }
+						},
+						"home": {
+							"played": 14,
+							"win": 8,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 25, "against": 12 }
+						},
+						"away": {
+							"played": 15,
+							"win": 6,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 19, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1044,
+					"teamName": "Smouha SC",
+					"points": 45,
+					"stats": {
+						"all": {
+							"played": 30,
+							"win": 12,
+							"draw": 9,
+							"lose": 9,
+							"goals": { "for": 35, "against": 34, "diff": 1 }
+						},
+						"home": {
+							"played": 14,
+							"win": 8,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 22, "against": 13 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 13, "against": 21 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 7520,
+					"teamName": "Masr",
+					"points": 44,
+					"stats": {
+						"all": {
+							"played": 28,
+							"win": 11,
+							"draw": 11,
+							"lose": 6,
+							"goals": { "for": 40, "against": 26, "diff": 14 }
+						},
+						"home": {
+							"played": 14,
+							"win": 4,
+							"draw": 6,
+							"lose": 4,
+							"goals": { "for": 19, "against": 14 }
+						},
+						"away": {
+							"played": 14,
+							"win": 7,
+							"draw": 5,
+							"lose": 2,
+							"goals": { "for": 21, "against": 12 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
 					"teamId": 14651,
 					"teamName": "Ceramica Cleopatra",
 					"points": 44,
@@ -335,6 +269,72 @@
 							"promedio_de_goles_anotados_por_partido": 1.5,
 							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 1037,
+					"teamName": "Enppi",
+					"points": 42,
+					"stats": {
+						"all": {
+							"played": 30,
+							"win": 11,
+							"draw": 9,
+							"lose": 10,
+							"goals": { "for": 35, "against": 32, "diff": 3 }
+						},
+						"home": {
+							"played": 16,
+							"win": 6,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 19, "against": 17 }
+						},
+						"away": {
+							"played": 14,
+							"win": 5,
+							"draw": 4,
+							"lose": 5,
+							"goals": { "for": 16, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
+					}
+				},
+				{
+					"teamId": 1039,
+					"teamName": "El Geish",
+					"points": 39,
+					"stats": {
+						"all": {
+							"played": 32,
+							"win": 9,
+							"draw": 12,
+							"lose": 11,
+							"goals": { "for": 25, "against": 34, "diff": -9 }
+						},
+						"home": {
+							"played": 16,
+							"win": 5,
+							"draw": 6,
+							"lose": 5,
+							"goals": { "for": 12, "against": 16 }
+						},
+						"away": {
+							"played": 16,
+							"win": 4,
+							"draw": 6,
+							"lose": 6,
+							"goals": { "for": 13, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
 						}
 					}
 				},
@@ -438,39 +438,6 @@
 					}
 				},
 				{
-					"teamId": 1039,
-					"teamName": "El Geish",
-					"points": 39,
-					"stats": {
-						"all": {
-							"played": 32,
-							"win": 9,
-							"draw": 12,
-							"lose": 11,
-							"goals": { "for": 25, "against": 34, "diff": -9 }
-						},
-						"home": {
-							"played": 16,
-							"win": 5,
-							"draw": 6,
-							"lose": 5,
-							"goals": { "for": 12, "against": 16 }
-						},
-						"away": {
-							"played": 16,
-							"win": 4,
-							"draw": 6,
-							"lose": 6,
-							"goals": { "for": 13, "against": 18 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.8,
-							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
 					"teamId": 1030,
 					"teamName": "Ismaily SC",
 					"points": 32,
@@ -570,6 +537,39 @@
 					}
 				},
 				{
+					"teamId": 1575,
+					"teamName": "El Mokawloon",
+					"points": 24,
+					"stats": {
+						"all": {
+							"played": 30,
+							"win": 5,
+							"draw": 9,
+							"lose": 16,
+							"goals": { "for": 30, "against": 50, "diff": -20 }
+						},
+						"home": {
+							"played": 15,
+							"win": 2,
+							"draw": 4,
+							"lose": 9,
+							"goals": { "for": 13, "against": 23 }
+						},
+						"away": {
+							"played": 15,
+							"win": 3,
+							"draw": 5,
+							"lose": 7,
+							"goals": { "for": 17, "against": 27 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
+					}
+				},
+				{
 					"teamId": 1032,
 					"teamName": "El Dakhleya",
 					"points": 19,
@@ -604,7 +604,7 @@
 				}
 			],
 			"stats": {
-				"partidos_jugados": 28,
+				"partidos_jugados": 32,
 				"promedio_de_goles_anotados_por_partido": 21.7,
 				"promedio_de_goles_anotados_de_local_por_partido": 23.6,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 20.3
@@ -835,7 +835,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -869,7 +869,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -1031,8 +1031,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -1114,8 +1114,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1163,8 +1163,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1224,8 +1224,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -1258,7 +1258,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -1356,8 +1356,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1420,7 +1420,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -1454,8 +1454,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1518,8 +1518,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -1552,8 +1552,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -1665,8 +1665,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1699,7 +1699,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -1748,7 +1748,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -1812,7 +1812,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -1846,7 +1846,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -1892,8 +1892,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -1953,8 +1953,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -2029,7 +2029,7 @@
 						"id": 1039,
 						"name": "El Geish",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 14,
+						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
 						"result": "WIN",
@@ -2226,7 +2226,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -2241,7 +2241,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -2275,7 +2275,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2290,7 +2290,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -2339,7 +2339,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2373,7 +2373,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -2422,7 +2422,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2471,8 +2471,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2486,7 +2486,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2520,7 +2520,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -2535,8 +2535,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2569,8 +2569,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2584,7 +2584,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2618,7 +2618,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -2664,7 +2664,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -2679,7 +2679,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -2728,7 +2728,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -2762,7 +2762,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -2777,8 +2777,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2811,7 +2811,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -2826,7 +2826,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2860,7 +2860,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -2875,8 +2875,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -2909,8 +2909,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -2924,7 +2924,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -2958,7 +2958,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -2973,8 +2973,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3022,7 +3022,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -3056,8 +3056,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3071,7 +3071,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3105,7 +3105,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3154,7 +3154,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -3169,7 +3169,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3218,7 +3218,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3252,7 +3252,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3267,8 +3267,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3298,7 +3298,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3344,7 +3344,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -3359,7 +3359,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -3390,7 +3390,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -3405,8 +3405,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -3436,8 +3436,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -3451,7 +3451,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -3488,7 +3488,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (18<=14/18)"
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (18<=10/18)"
 									},
 									{
 										"fulfilled": true,
@@ -3520,7 +3520,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 18 y el visitante de 14 en la tabla de posiciones"
+										"explanation": "El local va de 18 y el visitante de 10 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -3552,7 +3552,7 @@
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (14/18)"
+										"explanation": "El visitante no es de los peores del torneo | (10/18)"
 									},
 									{
 										"fulfilled": false,
@@ -3615,7 +3615,7 @@
 						"id": 18036,
 						"name": "Baladiyyat Al Mehalla",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 17,
+						"position": 16,
 						"tag": "POOR",
 						"historic": false,
 						"result": "WIN",
@@ -3812,7 +3812,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -3827,7 +3827,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -3861,7 +3861,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -3876,7 +3876,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -3910,7 +3910,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -3925,8 +3925,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3959,8 +3959,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -3974,7 +3974,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4008,7 +4008,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -4023,8 +4023,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -4072,7 +4072,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4106,7 +4106,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4121,8 +4121,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -4155,7 +4155,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -4201,7 +4201,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -4216,7 +4216,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4250,7 +4250,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -4299,7 +4299,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -4314,7 +4314,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4348,7 +4348,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4412,7 +4412,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4446,7 +4446,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4461,8 +4461,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -4495,8 +4495,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -4510,7 +4510,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4544,7 +4544,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -4559,8 +4559,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -4593,7 +4593,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4642,8 +4642,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -4657,7 +4657,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -4706,7 +4706,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4740,7 +4740,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4755,7 +4755,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -4789,8 +4789,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -4804,7 +4804,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4838,7 +4838,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -4853,8 +4853,8 @@
 										"id": 16431,
 										"name": "Coca-Cola",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -4887,8 +4887,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -4902,7 +4902,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4948,7 +4948,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -4979,7 +4979,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -4994,8 +4994,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5021,8 +5021,8 @@
 						"id": 1030,
 						"name": "Ismaily SC",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 15,
-						"tag": "POOR",
+						"position": 14,
+						"tag": "REGULAR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -5218,8 +5218,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5267,7 +5267,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -5282,8 +5282,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5316,7 +5316,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -5331,8 +5331,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5365,8 +5365,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5380,8 +5380,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5414,8 +5414,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5429,8 +5429,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5463,8 +5463,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5478,8 +5478,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5512,8 +5512,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5573,8 +5573,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5607,8 +5607,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5622,8 +5622,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5656,7 +5656,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -5671,8 +5671,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5705,8 +5705,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5754,7 +5754,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -5769,8 +5769,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5803,8 +5803,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5867,8 +5867,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5901,8 +5901,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -5916,8 +5916,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -5950,8 +5950,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5965,8 +5965,8 @@
 										"id": 16431,
 										"name": "Coca-Cola",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -5999,8 +5999,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -6014,8 +6014,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -6048,8 +6048,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -6063,8 +6063,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -6097,8 +6097,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -6112,7 +6112,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -6161,8 +6161,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -6195,8 +6195,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -6210,7 +6210,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -6244,8 +6244,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -6259,7 +6259,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -6293,8 +6293,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -6308,8 +6308,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -6339,8 +6339,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -6354,7 +6354,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -6400,8 +6400,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -6431,8 +6431,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -6446,8 +6446,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -6486,7 +6486,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (17<=15/18)"
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (16<=14/18)"
 									},
 									{
 										"fulfilled": true,
@@ -6518,7 +6518,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 17 y el visitante de 15 en la tabla de posiciones"
+										"explanation": "El local va de 16 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -6545,12 +6545,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local no es de los mejores del torneo | (17/18)"
+										"explanation": "El local no es de los mejores del torneo | (16/18)"
 									},
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante es de los peores del torneo | (15/18)"
+										"explanation": "El visitante no es de los peores del torneo | (14/18)"
 									},
 									{
 										"fulfilled": false,
@@ -6613,7 +6613,7 @@
 						"id": 15736,
 						"name": "Pharco",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 16,
+						"position": 15,
 						"tag": "POOR",
 						"historic": false,
 						"result": "DRAW",
@@ -6810,7 +6810,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -6825,7 +6825,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -6859,7 +6859,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -6908,7 +6908,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -6923,7 +6923,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -6972,7 +6972,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7006,7 +7006,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -7055,7 +7055,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -7070,7 +7070,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7104,8 +7104,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -7119,7 +7119,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7153,7 +7153,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7202,7 +7202,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -7248,7 +7248,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7263,8 +7263,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -7297,8 +7297,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -7312,7 +7312,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7346,7 +7346,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -7361,7 +7361,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7410,7 +7410,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -7444,7 +7444,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7459,8 +7459,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -7493,7 +7493,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -7508,7 +7508,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7542,7 +7542,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7557,8 +7557,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -7591,8 +7591,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -7606,7 +7606,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7640,8 +7640,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -7655,7 +7655,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7689,8 +7689,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -7704,7 +7704,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7738,7 +7738,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -7787,7 +7787,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7802,7 +7802,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -7851,7 +7851,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -7885,7 +7885,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7900,7 +7900,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -7931,7 +7931,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -7946,8 +7946,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -7977,8 +7977,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -7992,7 +7992,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -8019,8 +8019,8 @@
 						"id": 1036,
 						"name": "Pyramids FC",
 						"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-						"position": 7,
-						"tag": "REGULAR",
+						"position": 2,
+						"tag": "FEATURED",
 						"historic": false,
 						"result": "DRAW",
 						"score": {
@@ -8216,7 +8216,7 @@
 										"id": 1040,
 										"name": "Zamalek SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 3,
+										"position": 5,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
@@ -8231,8 +8231,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -8265,8 +8265,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8314,8 +8314,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8375,8 +8375,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8424,8 +8424,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8458,8 +8458,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8473,8 +8473,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8507,8 +8507,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8522,8 +8522,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8556,7 +8556,7 @@
 										"id": 18036,
 										"name": "Baladiyyat Al Mehalla",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -8571,8 +8571,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8605,8 +8605,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8620,8 +8620,8 @@
 										"id": 1044,
 										"name": "Smouha SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 6,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8654,8 +8654,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8703,8 +8703,8 @@
 										"id": 1030,
 										"name": "Ismaily SC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 15,
-										"tag": "POOR",
+										"position": 14,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8718,8 +8718,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8752,8 +8752,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8767,7 +8767,7 @@
 										"id": 14651,
 										"name": "Ceramica Cleopatra",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 10,
+										"position": 8,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -8801,8 +8801,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8816,8 +8816,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8850,8 +8850,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8865,8 +8865,8 @@
 										"id": 16431,
 										"name": "Future FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8899,8 +8899,8 @@
 										"id": 1037,
 										"name": "Enppi",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 5,
-										"tag": "FEATURED",
+										"position": 9,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8914,8 +8914,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8948,8 +8948,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8997,8 +8997,8 @@
 										"id": 1575,
 										"name": "El Mokawloon",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 6,
-										"tag": "REGULAR",
+										"position": 17,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9012,8 +9012,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9061,8 +9061,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9095,8 +9095,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9110,7 +9110,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -9159,8 +9159,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9193,8 +9193,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9208,7 +9208,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -9242,8 +9242,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9303,8 +9303,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9334,8 +9334,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9383,8 +9383,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9398,8 +9398,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9432,8 +9432,8 @@
 										"id": 1031,
 										"name": "AL Masry",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 3,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9447,8 +9447,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9478,8 +9478,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9493,8 +9493,8 @@
 										"id": 7520,
 										"name": "Masr",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 7,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9524,7 +9524,7 @@
 										"id": 1039,
 										"name": "El Geish",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 14,
+										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -9539,8 +9539,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9570,8 +9570,8 @@
 										"id": 1036,
 										"name": "Pyramids FC",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -9585,7 +9585,7 @@
 										"id": 15736,
 										"name": "Pharco",
 										"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-										"position": 16,
+										"position": 15,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -9622,7 +9622,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (16<=7/18)"
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (15<=2/18)"
 									},
 									{
 										"fulfilled": true,
@@ -9654,7 +9654,7 @@
 									{
 										"fulfilled": false,
 										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 16 y el visitante de 7 en la tabla de posiciones"
+										"explanation": "El local va de 15 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
 								"fulfilled": false
@@ -9681,12 +9681,12 @@
 									{
 										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local no es de los mejores del torneo | (16/18)"
+										"explanation": "El local no es de los mejores del torneo | (15/18)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (7/18)"
+										"explanation": "El visitante no es de los peores del torneo | (2/18)"
 									},
 									{
 										"fulfilled": false,
@@ -9749,138 +9749,6 @@
 			"type": "REGULAR",
 			"items": [
 				{
-					"teamId": 1142,
-					"teamName": "Deportes Tolima",
-					"points": 4,
-					"stats": {
-						"all": {
-							"played": 2,
-							"win": 1,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 3, "against": 2, "diff": 1 }
-						},
-						"home": {
-							"played": 1,
-							"win": 1,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 2, "against": 1 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 1, "against": 1 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
-					"teamId": 1140,
-					"teamName": "Patriotas",
-					"points": 1,
-					"stats": {
-						"all": {
-							"played": 2,
-							"win": 0,
-							"draw": 1,
-							"lose": 1,
-							"goals": { "for": 0, "against": 2, "diff": -2 }
-						},
-						"home": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 0, "against": 2 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 1,
-							"lose": 0,
-							"goals": { "for": 0, "against": 0 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0,
-							"promedio_de_goles_anotados_de_local_por_partido": 0,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
-				{
-					"teamId": 1132,
-					"teamName": "Chico",
-					"points": 0,
-					"stats": {
-						"all": {
-							"played": 2,
-							"win": 0,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 1, "against": 3, "diff": -2 }
-						},
-						"home": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 0, "against": 1 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 1, "against": 2 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 0,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1
-						}
-					}
-				},
-				{
-					"teamId": 1144,
-					"teamName": "Rionegro Aguilas",
-					"points": 0,
-					"stats": {
-						"all": {
-							"played": 2,
-							"win": 0,
-							"draw": 0,
-							"lose": 2,
-							"goals": { "for": 1, "against": 3, "diff": -2 }
-						},
-						"home": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 1, "against": 2 }
-						},
-						"away": {
-							"played": 1,
-							"win": 0,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 0, "against": 1 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 0.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0
-						}
-					}
-				},
-				{
 					"teamId": 1136,
 					"teamName": "Once Caldas",
 					"points": 9,
@@ -9910,6 +9778,39 @@
 							"promedio_de_goles_anotados_por_partido": 1.3,
 							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1137,
+					"teamName": "Atletico Nacional",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 6, "against": 4, "diff": 2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 4, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
 						}
 					}
 				},
@@ -10046,6 +9947,39 @@
 					}
 				},
 				{
+					"teamId": 1142,
+					"teamName": "Deportes Tolima",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 1,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 2, "diff": 1 }
+						},
+						"home": {
+							"played": 1,
+							"win": 1,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
 					"teamId": 1462,
 					"teamName": "Deportivo Pereira",
 					"points": 4,
@@ -10141,6 +10075,39 @@
 							"promedio_de_goles_anotados_por_partido": 0.3,
 							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1125,
+					"teamName": "Millonarios",
+					"points": 4,
+					"stats": {
+						"all": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 5, "diff": -1 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
 						}
 					}
 				},
@@ -10343,74 +10310,107 @@
 					}
 				},
 				{
-					"teamId": 1137,
-					"teamName": "Atletico Nacional",
-					"points": 9,
+					"teamId": 1140,
+					"teamName": "Patriotas",
+					"points": 1,
 					"stats": {
 						"all": {
-							"played": 4,
-							"win": 3,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 6, "against": 4, "diff": 2 }
-						},
-						"home": {
-							"played": 1,
-							"win": 1,
-							"draw": 0,
-							"lose": 0,
-							"goals": { "for": 2, "against": 1 }
-						},
-						"away": {
-							"played": 3,
-							"win": 2,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 4, "against": 3 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 1125,
-					"teamName": "Millonarios",
-					"points": 4,
-					"stats": {
-						"all": {
-							"played": 4,
-							"win": 1,
-							"draw": 1,
-							"lose": 2,
-							"goals": { "for": 4, "against": 5, "diff": -1 }
-						},
-						"home": {
-							"played": 2,
-							"win": 1,
-							"draw": 0,
-							"lose": 1,
-							"goals": { "for": 2, "against": 2 }
-						},
-						"away": {
 							"played": 2,
 							"win": 0,
 							"draw": 1,
 							"lose": 1,
-							"goals": { "for": 2, "against": 3 }
+							"goals": { "for": 0, "against": 2, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 0, "against": 0 }
 						},
 						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 1132,
+					"teamName": "Chico",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 1, "against": 3, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
 							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1144,
+					"teamName": "Rionegro Aguilas",
+					"points": 0,
+					"stats": {
+						"all": {
+							"played": 2,
+							"win": 0,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 1, "against": 3, "diff": -2 }
+						},
+						"home": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"away": {
+							"played": 1,
+							"win": 0,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 0, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
 						}
 					}
 				}
 			],
 			"stats": {
-				"partidos_jugados": 2,
+				"partidos_jugados": 4,
 				"promedio_de_goles_anotados_por_partido": 18.4,
 				"promedio_de_goles_anotados_de_local_por_partido": 23.5,
 				"promedio_de_goles_anotados_de_visitante_por_partido": 14.8
@@ -10429,8 +10429,8 @@
 						"id": 1144,
 						"name": "Rionegro Aguilas",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": 4,
-						"tag": "FEATURED",
+						"position": 20,
+						"tag": "POOR",
 						"historic": false,
 						"result": "WIN",
 						"score": {
@@ -10626,7 +10626,7 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 5,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -10641,8 +10641,8 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 20,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10675,8 +10675,8 @@
 										"id": 1144,
 										"name": "Rionegro Aguilas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 4,
-										"tag": "FEATURED",
+										"position": 20,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10690,8 +10690,8 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -10720,8 +10720,8 @@
 						"id": 1140,
 						"name": "Patriotas",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": 2,
-						"tag": "FEATURED",
+						"position": 18,
+						"tag": "POOR",
 						"historic": false,
 						"result": "LOSE",
 						"score": {
@@ -10917,8 +10917,8 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 18,
+										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -10932,7 +10932,7 @@
 										"id": 1147,
 										"name": "Fortaleza FC",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 6,
+										"position": 3,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -10966,7 +10966,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
+										"position": 17,
 										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
@@ -10981,8 +10981,8 @@
 										"id": 1140,
 										"name": "Patriotas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 2,
-										"tag": "FEATURED",
+										"position": 18,
+										"tag": "POOR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -11010,6 +11010,65 @@
 				},
 				"predictions": [
 					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"criteria": [
+							{
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"trustLevel": 100,
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (20<=18/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"fulfilled": false
+							}
+						],
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"criteria": [
+							{
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"trustLevel": 100,
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 20 y el visitante de 18 en la tabla de posiciones"
+									}
+								],
+								"fulfilled": false
+							}
+						],
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": true,
+							"lost": false,
+							"skippedLost": false
+						}
+					},
+					{
 						"id": "tr-local",
 						"name": "Tiempo reglamentario (Local)",
 						"shortName": "TRL",
@@ -11019,14 +11078,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": true,
+										"fulfilled": false,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local es de los mejores del torneo | (4/20)"
+										"explanation": "El local no es de los mejores del torneo | (20/20)"
 									},
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (2/20)"
+										"explanation": "El visitante es de los peores del torneo | (18/20)"
 									},
 									{
 										"fulfilled": false,
@@ -11089,8 +11148,8 @@
 						"id": 1137,
 						"name": "Atletico Nacional",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": 19,
-						"tag": "POOR",
+						"position": 2,
+						"tag": "FEATURED",
 						"historic": true,
 						"result": "LOSE",
 						"score": {
@@ -11286,7 +11345,7 @@
 										"id": 1136,
 										"name": "Once Caldas",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 5,
+										"position": 1,
 										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
@@ -11301,8 +11360,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 19,
-										"tag": "POOR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -11335,8 +11394,8 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 20,
-										"tag": "POOR",
+										"position": 11,
+										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -11350,8 +11409,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 19,
-										"tag": "POOR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -11384,8 +11443,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 19,
-										"tag": "POOR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -11399,8 +11458,8 @@
 										"id": 1138,
 										"name": "America de Cali",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 7,
-										"tag": "REGULAR",
+										"position": 4,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -11433,8 +11492,8 @@
 										"id": 1141,
 										"name": "Alianza Petrolera",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 16,
-										"tag": "POOR",
+										"position": 15,
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -11448,8 +11507,8 @@
 										"id": 1137,
 										"name": "Atletico Nacional",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 19,
-										"tag": "POOR",
+										"position": 2,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "WIN",
 										"score": {
@@ -11478,8 +11537,8 @@
 						"id": 1134,
 						"name": "La Equidad",
 						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-						"position": 8,
-						"tag": "REGULAR",
+						"position": 5,
+						"tag": "FEATURED",
 						"historic": false,
 						"result": "WIN",
 						"score": {
@@ -11675,8 +11734,8 @@
 										"id": 1139,
 										"name": "Santa Fe",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 9,
-										"tag": "REGULAR",
+										"position": 6,
+										"tag": "FEATURED",
 										"historic": true,
 										"result": "LOSE",
 										"score": {
@@ -11690,8 +11749,8 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 5,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -11724,8 +11783,8 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 5,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -11739,7 +11798,7 @@
 										"id": 1133,
 										"name": "Jaguares",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 18,
+										"position": 17,
 										"tag": "POOR",
 										"historic": false,
 										"result": "LOSE",
@@ -11773,7 +11832,7 @@
 										"id": 1129,
 										"name": "Envigado",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 17,
+										"position": 16,
 										"tag": "POOR",
 										"historic": false,
 										"result": "WIN",
@@ -11788,8 +11847,8 @@
 										"id": 1134,
 										"name": "La Equidad",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": 8,
-										"tag": "REGULAR",
+										"position": 5,
+										"tag": "FEATURED",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -11817,6 +11876,65 @@
 				},
 				"predictions": [
 					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"criteria": [
+							{
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"trustLevel": 100,
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (2<=5/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
+									}
+								],
+								"fulfilled": false
+							}
+						],
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"criteria": [
+							{
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"trustLevel": 100,
+								"items": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 2 y el visitante de 5 en la tabla de posiciones"
+									}
+								],
+								"fulfilled": false
+							}
+						],
+						"trustLevel": 0,
+						"trustLevelLabel": "LOW",
+						"results": {
+							"winning": false,
+							"lostWinning": false,
+							"lost": false,
+							"skippedLost": true
+						}
+					},
+					{
 						"id": "tr-local",
 						"name": "Tiempo reglamentario (Local)",
 						"shortName": "TRL",
@@ -11826,14 +11944,14 @@
 								"trustLevel": 100,
 								"items": [
 									{
-										"fulfilled": false,
+										"fulfilled": true,
 										"description": "El local es de los mejores del torneo",
-										"explanation": "El local no es de los mejores del torneo | (19/20)"
+										"explanation": "El local es de los mejores del torneo | (2/20)"
 									},
 									{
 										"fulfilled": false,
 										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (8/20)"
+										"explanation": "El visitante no es de los peores del torneo | (5/20)"
 									},
 									{
 										"fulfilled": false,
