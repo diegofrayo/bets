@@ -225,8 +225,8 @@ function createRequestConfig(requestConfig: T_AnalysisConfig, formattedDate: DR.
 				fetchFromAPI: requestConfig.enableRemoteAPI
 					? {
 							FIXTURE_MATCHES: true,
-							PLAYED_MATCHES: true,
-							LEAGUE_STANDINGS: true,
+							PLAYED_MATCHES: false,
+							LEAGUE_STANDINGS: false,
 						}
 					: {
 							FIXTURE_MATCHES: false,

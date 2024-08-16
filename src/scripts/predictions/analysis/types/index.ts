@@ -45,6 +45,7 @@ export type T_RawLeagueStandingsResponse = {
 	response: Array<{
 		league: {
 			id: number;
+			country: string;
 			standings: Array<
 				Array<{
 					team: {

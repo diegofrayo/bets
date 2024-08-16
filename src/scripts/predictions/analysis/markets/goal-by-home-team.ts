@@ -8,14 +8,15 @@ import {
 } from "./utils";
 
 function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
-	const criteria = isMatchInLocalLeague(predictionsInput.match, predictionsInput.leagueStandings)
-		? [
-				{
-					description:
-						"Criterios mas confiables para el local como favorito en un partido de liga local",
-					trustLevel: 100,
-					items: [
-						/*
+	const criteria = isMatchInLocalLeague(predictionsInput.leagueStandings)
+		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
+			? [
+					{
+						description:
+							"Criterios mas confiables para el local como favorito en un partido de liga local",
+						trustLevel: 100,
+						items: [
+							/*
 						{
 							description: "El local tiene un promedio de goles anotados como local alto",
 							fn: ({ homeTeamStats }: T_PredictionsInput) => {
@@ -43,25 +44,25 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 							},
 						},
             */
-						{
-							description: "El local está al menos 4 posiciones por arriba del visitante",
-							fn: ({ homeTeam, awayTeam, leagueStandings }: T_PredictionsInput) => {
-								const LIMIT = 6;
-								const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
-								const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
+							{
+								description: "El local está al menos 4 posiciones por arriba del visitante",
+								fn: ({ homeTeam, awayTeam, leagueStandings }: T_PredictionsInput) => {
+									const LIMIT = 6;
+									const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
+									const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
-								return {
-									fulfilled:
-										homeTeamPosition < awayTeamPosition &&
-										Math.abs(homeTeamPosition - awayTeamPosition) >= LIMIT,
-									successExplanation: `El local va de ${homeTeamPosition} y el visitante de ${awayTeamPosition} en la tabla de posiciones`,
-									failExplanation: `El local va de ${homeTeamPosition} y el visitante de ${awayTeamPosition} en la tabla de posiciones`,
-								};
+									return {
+										fulfilled:
+											homeTeamPosition < awayTeamPosition &&
+											Math.abs(homeTeamPosition - awayTeamPosition) >= LIMIT,
+										successExplanation: `El local va de ${homeTeamPosition} y el visitante de ${awayTeamPosition} en la tabla de posiciones`,
+										failExplanation: `El local va de ${homeTeamPosition} y el visitante de ${awayTeamPosition} en la tabla de posiciones`,
+									};
+								},
 							},
-						},
-					],
-				},
-				/*
+						],
+					},
+					/*
 				{
 					description:
 						"Criterios mas confiables para el local como favorito en un partido de liga local",
@@ -114,7 +115,8 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 					],
 				},
         */
-			]
+				]
+			: []
 		: [
 				{
 					description:

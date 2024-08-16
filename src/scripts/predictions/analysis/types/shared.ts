@@ -22,55 +22,65 @@ export type T_League = {
 	};
 };
 
-export type T_LeagueStandings = {
-	type: "SIMPLE" | "GROUPS";
-	items: Array<{
-		teamId: number;
-		teamName: string;
-		points: number;
-		stats: {
-			all: {
-				played: number;
-				win: number;
-				draw: number;
-				lose: number;
-				goals: {
-					for: number;
-					against: number;
-					diff: number;
-				};
-			};
-			home: {
-				played: number;
-				win: number;
-				draw: number;
-				lose: number;
-				goals: {
-					for: number;
-					against: number;
-				};
-			};
-			away: {
-				played: number;
-				win: number;
-				draw: number;
-				lose: number;
-				goals: {
-					for: number;
-					against: number;
-				};
-			};
-			averages: {
-				promedio_de_goles_anotados_por_partido: number;
-				promedio_de_goles_anotados_de_local_por_partido: number;
-				promedio_de_goles_anotados_de_visitante_por_partido: number;
-			};
-		};
-	}>;
+export type T_LeagueStandings = T_LeagueStandingsRegular | T_LeagueStandingsGroups;
+
+export type T_LeagueStandingsRegular = {
+	type: "REGULAR";
+	items: Array<T_LeagueStandingsItem>;
 	stats: {
+		partidos_jugados: number;
 		promedio_de_goles_anotados_por_partido: number;
 		promedio_de_goles_anotados_de_local_por_partido: number;
 		promedio_de_goles_anotados_de_visitante_por_partido: number;
+	};
+};
+
+export type T_LeagueStandingsGroups = {
+	type: "GROUPS";
+	items: Array<Array<T_LeagueStandingsItem>>;
+};
+
+type T_LeagueStandingsItem = {
+	teamId: number;
+	teamName: string;
+	points: number;
+	stats: {
+		all: {
+			played: number;
+			win: number;
+			draw: number;
+			lose: number;
+			goals: {
+				for: number;
+				against: number;
+				diff: number;
+			};
+		};
+		home: {
+			played: number;
+			win: number;
+			draw: number;
+			lose: number;
+			goals: {
+				for: number;
+				against: number;
+			};
+		};
+		away: {
+			played: number;
+			win: number;
+			draw: number;
+			lose: number;
+			goals: {
+				for: number;
+				against: number;
+			};
+		};
+		averages: {
+			promedio_de_goles_anotados_por_partido: number;
+			promedio_de_goles_anotados_de_local_por_partido: number;
+			promedio_de_goles_anotados_de_visitante_por_partido: number;
+		};
 	};
 };
 

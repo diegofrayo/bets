@@ -9,8 +9,8 @@ import {
 } from "./utils";
 
 function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
-	const criteria = isMatchInLocalLeague(predictionsInput.match, predictionsInput.leagueStandings)
-		? predictionsInput.leagueStandings.items[0].stats.all.played > 1
+	const criteria = isMatchInLocalLeague(predictionsInput.leagueStandings)
+		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
 						description:
@@ -18,13 +18,15 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 						trustLevel: 100,
 						items: [
 							{
-								description: "El local tiene una mejor posición que el visitante",
+								description: "El local está al menos 4 posiciones mas arriba que el visitante",
 								fn: ({ homeTeam, awayTeam, leagueStandings }: T_PredictionsInput) => {
 									const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
 									const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
 									return {
-										fulfilled: homeTeamPosition < awayTeamPosition,
+										fulfilled:
+											homeTeamPosition < awayTeamPosition &&
+											awayTeamPosition - homeTeamPosition >= 4,
 										successExplanation: `El local está mas arriba que el visitante en la tabla | (${homeTeamPosition}>${awayTeamPosition}/${leagueStandings.items.length})`,
 										failExplanation: `El local está mas abajo o en la misma posición que el visitante en la tabla | (${homeTeamPosition}<=${awayTeamPosition}/${leagueStandings.items.length})`,
 									};

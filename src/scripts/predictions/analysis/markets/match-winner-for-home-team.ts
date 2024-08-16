@@ -10,8 +10,8 @@ import {
 } from "./utils";
 
 function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
-	const criteria = isMatchInLocalLeague(predictionsInput.match, predictionsInput.leagueStandings)
-		? predictionsInput.leagueStandings.items[0].stats.all.played > 1
+	const criteria = isMatchInLocalLeague(predictionsInput.leagueStandings)
+		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
 						description:

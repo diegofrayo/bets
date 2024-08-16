@@ -660,88 +660,106 @@ function createEmptyTeamStatsObject(): T_TeamStats {
 function parseStandingsResponse(data: T_RawLeagueStandingsResponse): T_LeagueStandings {
 	const items =
 		data.response.length > 0
-			? getProperlyLeagueStandingsData(data.response[0].league).map((item) => {
-					const homeData = {
-						played: item.home.played || 0,
-						win: item.home.win || 0,
-						draw: item.home.draw || 0,
-						lose: item.home.lose || 0,
-						goals: {
-							for: item.home.goals.for || 0,
-							against: item.home.goals.against || 0,
-						},
-					};
-					const awayData = {
-						played: item.away.played || 0,
-						win: item.away.win || 0,
-						draw: item.away.draw || 0,
-						lose: item.away.lose || 0,
-						goals: {
-							for: item.away.goals.for || 0,
-							against: item.away.goals.against || 0,
-						},
-					};
+			? getProperlyLeagueStandingsData(data.response[0].league).map((groupOfItems) => {
+					return groupOfItems.map((item) => {
+						const homeData = {
+							played: item.home.played || 0,
+							win: item.home.win || 0,
+							draw: item.home.draw || 0,
+							lose: item.home.lose || 0,
+							goals: {
+								for: item.home.goals.for || 0,
+								against: item.home.goals.against || 0,
+							},
+						};
+						const awayData = {
+							played: item.away.played || 0,
+							win: item.away.win || 0,
+							draw: item.away.draw || 0,
+							lose: item.away.lose || 0,
+							goals: {
+								for: item.away.goals.for || 0,
+								against: item.away.goals.against || 0,
+							},
+						};
 
-					return {
-						teamId: item.team.id,
-						teamName: item.team.name,
-						points: item.points,
-						stats: {
-							all: {
-								played: item.all.played,
-								win: item.all.win,
-								draw: item.all.draw,
-								lose: item.all.lose,
-								goals: {
-									for: item.all.goals.for,
-									against: item.all.goals.against,
-									diff: item.goalsDiff,
+						return {
+							teamId: item.team.id,
+							teamName: item.team.name,
+							points: item.points,
+							stats: {
+								all: {
+									played: item.all.played,
+									win: item.all.win,
+									draw: item.all.draw,
+									lose: item.all.lose,
+									goals: {
+										for: item.all.goals.for,
+										against: item.all.goals.against,
+										diff: item.goalsDiff,
+									},
+								},
+								home: homeData,
+								away: awayData,
+								averages: {
+									promedio_de_goles_anotados_por_partido: formatDecimalNumber(
+										item.all.goals.for / item.all.played,
+										1,
+									),
+									promedio_de_goles_anotados_de_local_por_partido: formatDecimalNumber(
+										homeData.goals.for / homeData.played,
+										1,
+									),
+									promedio_de_goles_anotados_de_visitante_por_partido: formatDecimalNumber(
+										awayData.goals.for / awayData.played,
+										1,
+									),
 								},
 							},
-							home: homeData,
-							away: awayData,
-							averages: {
-								promedio_de_goles_anotados_por_partido: formatDecimalNumber(
-									item.all.goals.for / item.all.played,
-									1,
-								),
-								promedio_de_goles_anotados_de_local_por_partido: formatDecimalNumber(
-									homeData.goals.for / homeData.played,
-									1,
-								),
-								promedio_de_goles_anotados_de_visitante_por_partido: formatDecimalNumber(
-									awayData.goals.for / awayData.played,
-									1,
-								),
-							},
-						},
-					};
+						};
+					});
 				})
 			: [];
 
+	if (items.length === 0) {
+		return {
+			type: "GROUPS",
+			items: [],
+		};
+	}
+
+	if (items.length === 1) {
+		return {
+			type: "REGULAR",
+			items: items[0],
+			stats: {
+				partidos_jugados: items[0].sort((a, b) => a.stats.all.played - b.stats.all.played)[0].stats
+					.all.played,
+				promedio_de_goles_anotados_por_partido: formatDecimalNumber(
+					items[0].reduce((result, item) => {
+						return result + item.stats.averages.promedio_de_goles_anotados_por_partido;
+					}, 0) / items.length,
+					1,
+				),
+				promedio_de_goles_anotados_de_local_por_partido: formatDecimalNumber(
+					items[0].reduce((result, item) => {
+						return result + item.stats.averages.promedio_de_goles_anotados_de_local_por_partido;
+					}, 0) / items.length,
+					1,
+				),
+				promedio_de_goles_anotados_de_visitante_por_partido: formatDecimalNumber(
+					items[0].reduce((result, item) => {
+						return result + item.stats.averages.promedio_de_goles_anotados_de_visitante_por_partido;
+					}, 0) / items.length,
+					1,
+				),
+			},
+		};
+	}
+
 	return {
-		type: "SIMPLE",
+		type: "GROUPS",
 		items,
-		stats: {
-			promedio_de_goles_anotados_por_partido: formatDecimalNumber(
-				items.reduce((result, item) => {
-					return result + item.stats.averages.promedio_de_goles_anotados_por_partido;
-				}, 0) / items.length,
-				1,
-			),
-			promedio_de_goles_anotados_de_local_por_partido: formatDecimalNumber(
-				items.reduce((result, item) => {
-					return result + item.stats.averages.promedio_de_goles_anotados_de_local_por_partido;
-				}, 0) / items.length,
-				1,
-			),
-			promedio_de_goles_anotados_de_visitante_por_partido: formatDecimalNumber(
-				items.reduce((result, item) => {
-					return result + item.stats.averages.promedio_de_goles_anotados_de_visitante_por_partido;
-				}, 0) / items.length,
-				1,
-			),
-		},
 	};
 }
 
@@ -749,34 +767,21 @@ function getProperlyLeagueStandingsData(
 	response: T_RawLeagueStandingsResponse["response"][number]["league"],
 ) {
 	const isColombiaLeague = response.id === 239;
-	/*
-	const isBrazilLeague = response.id === 71;
-	const isArgentinaLeague = response.id === 128;
-	const isNorwayLeague = response.id === 103;
-	const isFinlandLeague = response.id === 244;
-	const isBelgiumLeague = response.id === 144;
-	const isEgyptianLeague = response.id === 233;
-	const isAustriaLeague = response.id === 218;
-	const isScotlandLeague = response.id === 179;
-	const isIcelandLeague = response.id === 164;
-	const isDenmarkLeague = response.id === 119;
-	const isTurkeyLeague = response.id === 203;
-	const isPortugalLeague = response.id === 94;
-	const isNetherlandsLeague = response.id === 88;
-	const isEnglandChampionshipLeague = response.id === 40;
-	const isCzechLeague = response.id === 345;
-  */
 
 	if (isColombiaLeague) {
-		return (
+		return [
 			response.standings.filter((standings) => {
 				return (
 					standings.find((team) => {
 						return team.group === "Primera A: Clausura";
 					}) !== undefined
 				);
-			})[0] || []
-		);
+			})[0] || [],
+		];
+	}
+
+	if (response.country === "World") {
+		return response.standings;
 	}
 
 	/*
@@ -802,7 +807,7 @@ function getProperlyLeagueStandingsData(
 	}
   */
 
-	return response.standings[0] || [];
+	return [response.standings[0] || []];
 }
 
 function composeTeamName(team: Pick<T_FixtureMatchTeam, "id" | "name">) {
@@ -1095,7 +1100,9 @@ function getTeamTag(
 	if (
 		v.isNumber(teamPosition) &&
 		leagueStandingsLimits.featured > 0 &&
-		leagueStandingsLimits.poor > 0
+		leagueStandingsLimits.poor > 0 &&
+		leagueStandings.type === "REGULAR" &&
+		leagueStandings.stats.partidos_jugados > 0
 	) {
 		return teamPosition <= leagueStandingsLimits.featured
 			? "FEATURED"

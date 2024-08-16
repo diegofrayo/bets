@@ -4,6 +4,7 @@ import type {
 	T_FixtureMatchTeam,
 	T_FixturePlayedMatch,
 	T_LeagueStandings,
+	T_LeagueStandingsRegular,
 	T_MarketPrediction,
 	T_PlayedMatch,
 	T_PlayedMatchMarketPrediction,
@@ -118,6 +119,10 @@ export function createMarketPredictionOutput({
 }
 
 export function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
+	if (leagueStandings.type === "GROUPS") {
+		return null;
+	}
+
 	const teamPosition = leagueStandings.items.findIndex((item) => {
 		return item.teamId === teamId;
 	}, -1);
@@ -141,12 +146,10 @@ export function getTeamPoints(selectedTeam: T_FixtureMatchTeam) {
 	}, 0);
 }
 
-export function isMatchInLocalLeague(match: T_FixtureMatch, leagueStandings: T_LeagueStandings) {
-	return (
-		match.league.country.name !== "World" &&
-		match.league.type === "League" &&
-		leagueStandings.items.length > 10
-	);
+export function isMatchInLocalLeague(
+	leagueStandings: T_LeagueStandings,
+): leagueStandings is T_LeagueStandingsRegular {
+	return leagueStandings.type === "REGULAR";
 }
 
 export function getLeagueStandingsLimits(
@@ -272,13 +275,15 @@ export type T_PredictionsInput = {
   },
 },
 {
-  description: "El local tiene una mejor posición que el visitante",
+  description: "El local está al menos 4 posiciones mas arriba que el visitante",
   fn: ({ homeTeam, awayTeam, leagueStandings }: T_PredictionsInput) => {
     const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
     const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
     return {
-      fulfilled: homeTeamPosition < awayTeamPosition,
+      fulfilled:
+        homeTeamPosition < awayTeamPosition &&
+        awayTeamPosition - homeTeamPosition >= 4,
       successExplanation: `El local está mas arriba que el visitante en la tabla | (${homeTeamPosition}>${awayTeamPosition}/${leagueStandings.items.length})`,
       failExplanation: `El local está mas abajo o en la misma posición que el visitante en la tabla | (${homeTeamPosition}<=${awayTeamPosition}/${leagueStandings.items.length})`,
     };

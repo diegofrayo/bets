@@ -1,4 +1,14 @@
 {
+	"33": {
+		"name": "Manchester United",
+		"historic": true,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
+	"36": {
+		"name": "Fulham",
+		"historic": false,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
 	"38": {
 		"name": "Watford",
 		"historic": false,
@@ -90,6 +100,16 @@
 		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
 	},
 	"79": { "name": "Lille", "historic": false, "country": null },
+	"85": {
+		"name": "Paris Saint Germain",
+		"historic": true,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"111": {
+		"name": "LE Havre",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
 	"118": {
 		"name": "Bahia",
 		"historic": false,
@@ -122,7 +142,7 @@
 	},
 	"127": {
 		"name": "Flamengo",
-		"historic": false,
+		"historic": true,
 		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" }
 	},
 	"130": {
@@ -184,6 +204,26 @@
 		"name": "Fortaleza EC",
 		"historic": false,
 		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" }
+	},
+	"157": {
+		"name": "Bayern Munich",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"164": {
+		"name": "FSV Mainz 05",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"167": {
+		"name": "1899 Hoffenheim",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"186": {
+		"name": "FC St. Pauli",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"193": {
 		"name": "PEC Zwolle",
@@ -700,6 +740,26 @@
 		"historic": false,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
+	"534": {
+		"name": "Las Palmas",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"536": {
+		"name": "Sevilla",
+		"historic": true,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"538": {
+		"name": "Celta Vigo",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"542": {
+		"name": "Alaves",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
 	"543": {
 		"name": "Real Betis",
 		"historic": false,
@@ -913,6 +973,11 @@
 		"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" }
 	},
 	"783": { "name": "FC Zurich", "historic": false, "country": null },
+	"784": {
+		"name": "FC Wurzburger Kickers",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"794": {
 		"name": "RB Bragantino",
 		"historic": false,
@@ -1135,7 +1200,7 @@
 		"historic": false,
 		"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" }
 	},
-	"1158": { "name": "LDU de Quito", "historic": false, "country": null },
+	"1158": { "name": "LDU de Quito", "historic": true, "country": null },
 	"1163": {
 		"name": "Ilves Tampere",
 		"historic": false,
@@ -1161,6 +1226,16 @@
 		"name": "Cuiaba",
 		"historic": false,
 		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" }
+	},
+	"1316": {
+		"name": "Hallescher FC",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"1319": {
+		"name": "SV Wehen",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"1338": {
 		"name": "Oxford United",
@@ -1238,6 +1313,11 @@
 		"historic": false,
 		"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" }
 	},
+	"1652": {
+		"name": "SSV ULM 1846",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"2070": {
 		"name": "Viborg",
 		"historic": false,
@@ -1302,8 +1382,18 @@
 		"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" }
 	},
 	"2271": { "name": "Petrocub", "historic": false, "country": null },
+	"2282": {
+		"name": "Monterrey",
+		"historic": true,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2291": {
+		"name": "Puebla",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
 	"2318": { "name": "Palestino", "historic": false, "country": null },
-	"2348": { "name": "Penarol", "historic": false, "country": null },
+	"2348": { "name": "Penarol", "historic": true, "country": null },
 	"2356": { "name": "Club Nacional", "historic": false, "country": null },
 	"2390": { "name": "Paks", "historic": false, "country": null },
 	"2391": { "name": "Puskas Academy", "historic": false, "country": null },
