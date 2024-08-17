@@ -1,27 +1,27 @@
 import v from "../../../../@diegofrayo/v";
 import {
-	analizeCriteria,
-	createMarketPredictionOutput,
+	analizeStrategies,
+	createMarketAnalysisOutput,
 	filterTeamPlayedMatches,
 	getTeamPoints,
 	getTeamPosition,
 	isMatchInLocalLeague,
-	type T_PredictionsInput,
+	type T_AnalysisInput,
 } from "./utils";
 
-function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
-	const criteria = isMatchInLocalLeague(predictionsInput.leagueStandings)
-		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
+function matchWinnerAnalysis(analysisInput: T_AnalysisInput) {
+	const strategies = isMatchInLocalLeague(analysisInput.leagueStandings)
+		? analysisInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
 						id: "a25adfae-292b-4cac-88b8-f15532a63e7b",
 						description:
 							"Criterios mas confiables para el local como favorito en un partido de liga local",
-						trustLevel: 100,
-						items: [
+						confidenceLevel: 100,
+						criteria: [
 							{
 								description: "El local es de los mejores del torneo",
-								fn: ({ homeTeam, leagueStandings }: T_PredictionsInput) => {
+								fn: ({ homeTeam, leagueStandings }: T_AnalysisInput) => {
 									const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
 
 									return {
@@ -33,7 +33,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 							},
 							{
 								description: "El visitante es de los peores del torneo",
-								fn: ({ awayTeam, leagueStandings }: T_PredictionsInput) => {
+								fn: ({ awayTeam, leagueStandings }: T_AnalysisInput) => {
 									const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
 									return {
@@ -46,7 +46,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 							{
 								description:
 									"El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
-								fn: ({ homeTeam }: T_PredictionsInput) => {
+								fn: ({ homeTeam }: T_AnalysisInput) => {
 									const LIMITS = { min: 10, max: 15, games: 5 };
 									const homeTeamPoints = getTeamPoints(homeTeam);
 
@@ -60,7 +60,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 							{
 								description:
 									"El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
-								fn: ({ awayTeam }: T_PredictionsInput) => {
+								fn: ({ awayTeam }: T_AnalysisInput) => {
 									const LIMITS = { min: 4, max: 15, games: 5 };
 									const awayTeamPoints = getTeamPoints(awayTeam);
 
@@ -73,7 +73,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 							},
 							{
 								description: "El último partido del local como local debe ser una victoria",
-								fn: ({ homeTeam }: T_PredictionsInput) => {
+								fn: ({ homeTeam }: T_AnalysisInput) => {
 									const lastHomeTeamMatchAtHome = filterTeamPlayedMatches({
 										teamId: homeTeam.id,
 										playedMatches: homeTeam.matches,
@@ -99,7 +99,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 							},
 							{
 								description: "El último partido del visitante como visitante debe ser una derrota",
-								fn: ({ awayTeam }: T_PredictionsInput) => {
+								fn: ({ awayTeam }: T_AnalysisInput) => {
 									const lastAwayTeamMatchAsVisitor = filterTeamPlayedMatches({
 										teamId: awayTeam.id,
 										playedMatches: awayTeam.matches,
@@ -125,7 +125,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 							},
 							{
 								description: "Ambos equipos no pueden ser históricos",
-								fn: ({ homeTeam, awayTeam }: T_PredictionsInput) => {
+								fn: ({ homeTeam, awayTeam }: T_AnalysisInput) => {
 									return {
 										fulfilled: !(
 											homeTeam.historic === awayTeam.historic && homeTeam.historic === true
@@ -144,12 +144,12 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 					id: "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
 					description:
 						"Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
-					trustLevel: 100,
-					items: [
+					confidenceLevel: 100,
+					criteria: [
 						{
 							description:
 								"El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
-							fn: ({ homeTeam }: T_PredictionsInput) => {
+							fn: ({ homeTeam }: T_AnalysisInput) => {
 								const LIMITS = { min: 10, max: 15, games: 5 };
 								const homeTeamPoints = getTeamPoints(homeTeam);
 
@@ -163,7 +163,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 						{
 							description:
 								"El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
-							fn: ({ awayTeam }: T_PredictionsInput) => {
+							fn: ({ awayTeam }: T_AnalysisInput) => {
 								const LIMITS = { min: 4, max: 15, games: 5 };
 								const awayTeamPoints = getTeamPoints(awayTeam);
 
@@ -176,7 +176,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 						},
 						{
 							description: "El último partido del local como local debe ser una victoria",
-							fn: ({ homeTeam }: T_PredictionsInput) => {
+							fn: ({ homeTeam }: T_AnalysisInput) => {
 								const lastHomeTeamMatchAtHome = filterTeamPlayedMatches({
 									teamId: homeTeam.id,
 									playedMatches: homeTeam.matches,
@@ -202,7 +202,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 						},
 						{
 							description: "El último partido del visitante como visitante debe ser una derrota",
-							fn: ({ awayTeam }: T_PredictionsInput) => {
+							fn: ({ awayTeam }: T_AnalysisInput) => {
 								const lastAwayTeamMatchAsVisitor = filterTeamPlayedMatches({
 									teamId: awayTeam.id,
 									playedMatches: awayTeam.matches,
@@ -228,7 +228,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 						},
 						{
 							description: "Ambos equipos no pueden ser históricos",
-							fn: ({ homeTeam, awayTeam }: T_PredictionsInput) => {
+							fn: ({ homeTeam, awayTeam }: T_AnalysisInput) => {
 								return {
 									fulfilled: !(
 										homeTeam.historic === awayTeam.historic && homeTeam.historic === true
@@ -242,25 +242,25 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 				},
 			].filter(v.isNotNil);
 
-	return createMarketPredictionOutput({
+	return createMarketAnalysisOutput({
 		id: "tr-local",
 		name: "Tiempo reglamentario (Local)",
 		shortName: "TRL",
-		criteria: analizeCriteria(criteria, predictionsInput, {
-			winning: (fullfilled, predictionsInput_) => {
-				return fullfilled && predictionsInput_.match.teams.home.result === "WIN";
+		strategies: analizeStrategies(strategies, analysisInput, {
+			winning: (fulfilled, analysisInput_) => {
+				return fulfilled && analysisInput_.match.teams.home.result === "WIN";
 			},
-			lostWinning: (fullfilled, predictionsInput_) => {
-				return !fullfilled && predictionsInput_.match.teams.home.result === "WIN";
+			lostWinning: (fulfilled, analysisInput_) => {
+				return !fulfilled && analysisInput_.match.teams.home.result === "WIN";
 			},
-			lost: (fullfilled, predictionsInput_) => {
-				return fullfilled && predictionsInput_.match.teams.home.result !== "WIN";
+			lost: (fulfilled, analysisInput_) => {
+				return fulfilled && analysisInput_.match.teams.home.result !== "WIN";
 			},
-			skippedLost: (fullfilled, predictionsInput_) => {
-				return !fullfilled && predictionsInput_.match.teams.home.result !== "WIN";
+			skippedLost: (fulfilled, analysisInput_) => {
+				return !fulfilled && analysisInput_.match.teams.home.result !== "WIN";
 			},
 		}),
 	});
 }
 
-export default matchWinnerPrediction;
+export default matchWinnerAnalysis;

@@ -143,7 +143,7 @@ export type T_FixtureNextMatch = T_MatchBase & {
 		home: T_FixtureNextMatchTeam;
 		away: T_FixtureNextMatchTeam;
 	};
-	predictions: Array<T_NextMatchMarketPrediction>;
+	analysis: Array<T_NextMatchMarketAnalysis>;
 };
 
 export type T_FixturePlayedMatch = T_MatchBase & {
@@ -153,7 +153,7 @@ export type T_FixturePlayedMatch = T_MatchBase & {
 		home: T_FixturePlayedMatchTeam;
 		away: T_FixturePlayedMatchTeam;
 	};
-	predictions: Array<T_PlayedMatchMarketPrediction>;
+	analysis: Array<T_PlayedMatchMarketAnalysis>;
 };
 
 export type T_PlayedMatch = T_MatchBase & {
@@ -211,19 +211,19 @@ export type T_TeamStatsItems = {
 	promedio_de_partidos_con_goles_recibidos_en_segunda_mitad: number;
 };
 
-export type T_MarketPrediction = T_NextMatchMarketPrediction | T_PlayedMatchMarketPrediction;
+export type T_MarketAnalysis = T_NextMatchMarketAnalysis | T_PlayedMatchMarketAnalysis;
 
-type T_MarketPredictionBase = {
+type T_MarketAnalysisBase = {
 	id: string;
 	name: string;
 	shortName: string;
-	trustLevel: "1|HIGH" | "2|MEDIUM" | "3|LOW";
-	criteria: Array<{
+	confidenceLevel: "1|HIGH" | "2|MEDIUM" | "3|LOW";
+	strategies: Array<{
 		id: string;
 		description: string;
-		trustLevel: number;
-		fulfilled: boolean;
-		items: Array<{
+		confidenceLevel: number;
+		recommended: boolean;
+		criteria: Array<{
 			fulfilled: boolean;
 			description: string;
 			explanation: string;
@@ -231,11 +231,11 @@ type T_MarketPredictionBase = {
 	}>;
 };
 
-export type T_NextMatchMarketPrediction = T_MarketPredictionBase;
+export type T_NextMatchMarketAnalysis = T_MarketAnalysisBase;
 
-export type T_PlayedMatchMarketPrediction = Omit<T_MarketPredictionBase, "criteria"> & {
-	criteria: Array<
-		T_MarketPredictionBase["criteria"][number] & {
+export type T_PlayedMatchMarketAnalysis = Omit<T_MarketAnalysisBase, "strategies"> & {
+	strategies: Array<
+		T_MarketAnalysisBase["strategies"][number] & {
 			results: {
 				winning: boolean;
 				lost: boolean;

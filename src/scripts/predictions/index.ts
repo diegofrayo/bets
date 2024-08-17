@@ -12,7 +12,7 @@ launchAnalysis({
 	config: "OFFLINE_REBUILDING",
 	date: "2024-08-17",
 	previousDays: 19,
-	updatePredictionStats: true,
+	updateAnalysisStats: true,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",

@@ -1,26 +1,26 @@
 import v from "../../../../@diegofrayo/v";
 import {
-	analizeCriteria,
-	createMarketPredictionOutput,
+	analizeStrategies,
+	createMarketAnalysisOutput,
 	getTeamPoints,
 	getTeamPosition,
 	isMatchInLocalLeague,
-	type T_PredictionsInput,
+	type T_AnalysisInput,
 } from "./utils";
 
-function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
-	const criteria = isMatchInLocalLeague(predictionsInput.leagueStandings)
-		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
+function doubleOpportunityAnalysis(analysisInput: T_AnalysisInput) {
+	const strategies = isMatchInLocalLeague(analysisInput.leagueStandings)
+		? analysisInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
 						id: "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 						description:
 							"Criterios mas confiables para el local como favorito en un partido de liga local",
-						trustLevel: 100,
-						items: [
+						confidenceLevel: 100,
+						criteria: [
 							{
 								description: "El local está al menos 4 posiciones mas arriba que el visitante",
-								fn: ({ homeTeam, awayTeam, leagueStandings }: T_PredictionsInput) => {
+								fn: ({ homeTeam, awayTeam, leagueStandings }: T_AnalysisInput) => {
 									const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
 									const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
@@ -35,7 +35,7 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 							},
 							{
 								description: "Ambos equipos no pueden ser históricos",
-								fn: ({ homeTeam, awayTeam }: T_PredictionsInput) => {
+								fn: ({ homeTeam, awayTeam }: T_AnalysisInput) => {
 									return {
 										fulfilled: !(
 											homeTeam.historic === awayTeam.historic && homeTeam.historic === true
@@ -54,12 +54,12 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 					id: "2f288451-42c2-48a9-ad53-30790b7974a8",
 					description:
 						"Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
-					trustLevel: 100,
-					items: [
+					confidenceLevel: 100,
+					criteria: [
 						{
 							description:
 								"El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
-							fn: ({ homeTeam }: T_PredictionsInput) => {
+							fn: ({ homeTeam }: T_AnalysisInput) => {
 								const LIMITS = { min: 10, max: 15, games: 5 };
 								const homeTeamPoints = getTeamPoints(homeTeam);
 
@@ -73,7 +73,7 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 						{
 							description:
 								"El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
-							fn: ({ awayTeam }: T_PredictionsInput) => {
+							fn: ({ awayTeam }: T_AnalysisInput) => {
 								const LIMITS = { min: 7, max: 15, games: 5 };
 								const awayTeamPoints = getTeamPoints(awayTeam);
 
@@ -88,25 +88,25 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 				},
 			].filter(v.isNotNil);
 
-	return createMarketPredictionOutput({
+	return createMarketAnalysisOutput({
 		id: "do-local",
 		name: "Doble oportunidad (Local)",
 		shortName: "DOL",
-		criteria: analizeCriteria(criteria, predictionsInput, {
-			winning: (fullfilled, predictionsInput_) => {
-				return fullfilled && predictionsInput_.match.teams.home.result !== "LOSE";
+		strategies: analizeStrategies(strategies, analysisInput, {
+			winning: (fulfilled, analysisInput_) => {
+				return fulfilled && analysisInput_.match.teams.home.result !== "LOSE";
 			},
-			lostWinning: (fullfilled, predictionsInput_) => {
-				return !fullfilled && predictionsInput_.match.teams.home.result !== "LOSE";
+			lostWinning: (fulfilled, analysisInput_) => {
+				return !fulfilled && analysisInput_.match.teams.home.result !== "LOSE";
 			},
-			lost: (fullfilled, predictionsInput_) => {
-				return fullfilled && predictionsInput_.match.teams.home.result === "LOSE";
+			lost: (fulfilled, analysisInput_) => {
+				return fulfilled && analysisInput_.match.teams.home.result === "LOSE";
 			},
-			skippedLost: (fullfilled, predictionsInput_) => {
-				return !fullfilled && predictionsInput_.match.teams.home.result === "LOSE";
+			skippedLost: (fulfilled, analysisInput_) => {
+				return !fulfilled && analysisInput_.match.teams.home.result === "LOSE";
 			},
 		}),
 	});
 }
 
-export default doubleOpportunityPrediction;
+export default doubleOpportunityAnalysis;

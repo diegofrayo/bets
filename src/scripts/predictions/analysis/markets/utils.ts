@@ -5,117 +5,117 @@ import type {
 	T_FixturePlayedMatch,
 	T_LeagueStandings,
 	T_LeagueStandingsRegular,
-	T_MarketPrediction,
+	T_MarketAnalysis,
 	T_PlayedMatch,
-	T_PlayedMatchMarketPrediction,
+	T_PlayedMatchMarketAnalysis,
 	T_TeamStats,
 } from "../types";
 import { sortBy } from "../../../../@diegofrayo/sort";
 
-export function analizeCriteria(
-	criteria: Array<{
+export function analizeStrategies(
+	strategies: Array<{
 		id: string;
 		description: string;
-		trustLevel: number;
-		items: Array<T_CriteriaInput>;
+		confidenceLevel: number;
+		criteria: Array<T_CriteriaInput>;
 	}>,
-	data: T_PredictionsInput,
+	analysisInput: T_AnalysisInput,
 	resultsAnalysis: Record<
-		keyof T_PlayedMatchMarketPrediction["criteria"][number]["results"],
+		keyof T_PlayedMatchMarketAnalysis["strategies"][number]["results"],
 		(
-			fullfilled: boolean,
-			predictionsInput: T_PredictionsInput & { match: T_FixturePlayedMatch },
+			fulfilled: boolean,
+			analysisInput: T_AnalysisInput & { match: T_FixturePlayedMatch },
 		) => boolean
 	>,
-): T_MarketPrediction["criteria"] {
-	const output = criteria.map((subCriteria) => {
-		const result = subCriteria.items.map((subCriteriaItem) => {
-			const { fulfilled, ...rest } = subCriteriaItem.fn(data);
+): T_MarketAnalysis["strategies"] {
+	const strategiesResolved = strategies.map((strategy) => {
+		const resolvedCriteria = strategy.criteria.map((strategyItem) => {
+			const { fulfilled, ...rest } = strategyItem.fn(analysisInput);
 
 			if (fulfilled) {
 				return {
-					fulfilled,
-					description: subCriteriaItem.description,
+					fulfilled: true,
+					description: strategyItem.description,
 					explanation: rest.successExplanation,
 				};
 			}
 
 			return {
-				fulfilled,
-				description: subCriteriaItem.description,
+				fulfilled: false,
+				description: strategyItem.description,
 				explanation: rest.failExplanation,
 			};
 		});
 
 		return {
-			...subCriteria,
-			items: result,
+			...strategy,
+			criteria: resolvedCriteria,
 		};
 	});
 
-	return output
-		.map((subCriteria) => {
+	return strategiesResolved
+		.map((strategy) => {
 			const allItemsAreFullFilled =
-				subCriteria.items.find((item) => {
+				strategy.criteria.find((item) => {
 					return item.fulfilled === false;
 				}) === undefined;
 
-			if (data.match.played) {
-				const predictionsInput = {
-					...data,
-					match: data.match as T_FixturePlayedMatch,
+			if (analysisInput.match.played) {
+				const analysisInput_ = {
+					...analysisInput,
+					match: analysisInput.match as T_FixturePlayedMatch,
 				};
 
 				return {
-					...subCriteria,
-					fulfilled: allItemsAreFullFilled,
+					...strategy,
+					recommended: allItemsAreFullFilled,
 					results: (Object.entries(resultsAnalysis) as Entries<typeof resultsAnalysis>).reduce(
 						(result, [key, fn]) => {
 							return {
 								...result,
-								[key]: fn(allItemsAreFullFilled, predictionsInput),
+								[key]: fn(allItemsAreFullFilled, analysisInput_),
 							};
 						},
-						{} as T_PlayedMatchMarketPrediction["criteria"][number]["results"],
+						{} as T_PlayedMatchMarketAnalysis["strategies"][number]["results"],
 					),
 				};
 			}
 
 			return {
-				...subCriteria,
-				fulfilled: allItemsAreFullFilled,
+				...strategy,
+				recommended: allItemsAreFullFilled,
 			};
 		})
-		.sort(sortBy("fulfilled", "trustLevel"));
+		.sort(sortBy("recommended", "confidenceLevel"));
 }
 
 export function calculateTrustLevelLabel(
-	trustLevel: T_MarketPrediction["criteria"][number]["trustLevel"],
-): T_MarketPrediction["trustLevel"] {
-	if (trustLevel === 100) {
+	confidenceLevel: T_MarketAnalysis["strategies"][number]["confidenceLevel"],
+): T_MarketAnalysis["confidenceLevel"] {
+	if (confidenceLevel === 100) {
 		return "1|HIGH";
 	}
 
-	if (trustLevel >= 50 && trustLevel <= 80) {
+	if (confidenceLevel >= 50 && confidenceLevel <= 80) {
 		return "2|MEDIUM";
 	}
 
 	return "3|LOW";
 }
 
-export function createMarketPredictionOutput({
-	criteria,
+export function createMarketAnalysisOutput({
+	strategies,
 	...rest
-}: Pick<T_MarketPrediction, "id" | "name" | "shortName" | "criteria">): T_MarketPrediction | null {
-	if (criteria.length === 0) {
+}: Pick<T_MarketAnalysis, "id" | "name" | "shortName" | "strategies">): T_MarketAnalysis | null {
+	if (strategies.length === 0) {
 		return null;
 	}
 
-	const trustLevel = criteria[0].fulfilled ? criteria[0].trustLevel : 0;
-	const output: T_MarketPrediction = {
+	const confidenceLevel = strategies[0].recommended ? strategies[0].confidenceLevel : 0;
+	const output: T_MarketAnalysis = {
 		...rest,
-		criteria,
-		trustLevel: calculateTrustLevelLabel(trustLevel),
+		strategies,
+		confidenceLevel: calculateTrustLevelLabel(confidenceLevel),
 	};
 
 	return output;
@@ -234,14 +234,14 @@ export function filterTeamPlayedMatches({
 
 export type T_CriteriaInput = {
 	description: string;
-	fn: (predictionsInput: T_PredictionsInput) => {
+	fn: (analysisInput: T_AnalysisInput) => {
 		fulfilled: boolean;
 		successExplanation: string;
 		failExplanation: string;
 	};
 };
 
-export type T_PredictionsInput = {
+export type T_AnalysisInput = {
 	match: T_FixtureMatch;
 	homeTeam: T_FixtureMatchTeam;
 	awayTeam: T_FixtureMatchTeam;
@@ -255,11 +255,11 @@ export type T_PredictionsInput = {
 /*
 {
   description: "El local es de los mejores del torneo",
-  fn: ({ homeTeam, leagueStandings }: T_PredictionsInput) => {
+  fn: ({ homeTeam, leagueStandings }: T_AnalysisInput) => {
     const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
 
     return {
-      fulfilled: homeTeam.tag === "FEATURED",
+      recommended: homeTeam.tag === "FEATURED",
       successExplanation: `El local es de los mejores del torneo | (${homeTeamPosition}/${leagueStandings.items.length})`,
       failExplanation: `El local no es de los mejores del torneo | (${homeTeamPosition}/${leagueStandings.items.length})`,
     };
@@ -267,11 +267,11 @@ export type T_PredictionsInput = {
 },
 {
   description: "El visitante es de los peores del torneo",
-  fn: ({ awayTeam, leagueStandings }: T_PredictionsInput) => {
+  fn: ({ awayTeam, leagueStandings }: T_AnalysisInput) => {
     const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
     return {
-      fulfilled: awayTeam.tag === "POOR",
+      recommended: awayTeam.tag === "POOR",
       successExplanation: `El visitante es de los peores del torneo | (${awayTeamPosition}/${leagueStandings.items.length})`,
       failExplanation: `El visitante no es de los peores del torneo | (${awayTeamPosition}/${leagueStandings.items.length})`,
     };
@@ -279,12 +279,12 @@ export type T_PredictionsInput = {
 },
 {
   description: "El local está al menos 4 posiciones mas arriba que el visitante",
-  fn: ({ homeTeam, awayTeam, leagueStandings }: T_PredictionsInput) => {
+  fn: ({ homeTeam, awayTeam, leagueStandings }: T_AnalysisInput) => {
     const homeTeamPosition = getTeamPosition(homeTeam.id, leagueStandings) || 0;
     const awayTeamPosition = getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
     return {
-      fulfilled:
+      recommended:
         homeTeamPosition < awayTeamPosition &&
         awayTeamPosition - homeTeamPosition >= 4,
       successExplanation: `El local está mas arriba que el visitante en la tabla | (${homeTeamPosition}>${awayTeamPosition}/${leagueStandings.items.length})`,
@@ -294,13 +294,13 @@ export type T_PredictionsInput = {
 },
 {
   description: "El local debe estar en los primeros lugares de la tabla",
-  fn: ({ homeTeam }: T_PredictionsInput) => {
+  fn: ({ homeTeam }: T_AnalysisInput) => {
     const LIMITS = getLeagueStandingsLimits(leagueStandings);
     const teamPosition =
       getTeamPosition(homeTeam.id, leagueStandings) || 0;
 
     return {
-      fulfilled: teamPosition >= 1 && teamPosition <= LIMITS.featured,
+      recommended: teamPosition >= 1 && teamPosition <= LIMITS.featured,
       successExplanation: `El local está entre los primeros ${LIMITS.featured} puestos de la tabla | (${teamPosition}/${leagueStandings.items.length})`,
       failExplanation: `El local está fuera de los primeros ${LIMITS.featured} puestos de la tabla | (${teamPosition}/${leagueStandings.items.length})`,
     };
@@ -309,12 +309,12 @@ export type T_PredictionsInput = {
 {
   description:
     "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
-  fn: ({ homeTeam }: T_PredictionsInput) => {
+  fn: ({ homeTeam }: T_AnalysisInput) => {
     const LIMITS = { min: 10, max: 15, games: 5 };
     const homeTeamPoints = getTeamPoints(homeTeam);
 
     return {
-      fulfilled: homeTeamPoints >= LIMITS.min,
+      recommended: homeTeamPoints >= LIMITS.min,
       successExplanation: `El local sumó mas de ${LIMITS.min} puntos en los últimos ${LIMITS.games} partidos | (${homeTeamPoints}/${LIMITS.max})`,
       failExplanation: `El local sumó menos de ${LIMITS.min} puntos en los últimos ${LIMITS.games} partidos | (${homeTeamPoints}/${LIMITS.max})`,
     };
@@ -323,12 +323,12 @@ export type T_PredictionsInput = {
 {
   description:
     "El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
-  fn: ({ awayTeam }: T_PredictionsInput) => {
+  fn: ({ awayTeam }: T_AnalysisInput) => {
     const LIMITS = { min: 7, max: 15, games: 5 };
     const awayTeamPoints = getTeamPoints(awayTeam);
 
     return {
-      fulfilled: awayTeamPoints <= LIMITS.min,
+      recommended: awayTeamPoints <= LIMITS.min,
       successExplanation: `El visitante sumó menos de ${LIMITS.min} puntos en los últimos ${LIMITS.games} partidos | (${awayTeamPoints}/${LIMITS.max})`,
       failExplanation: `El visitante sumó mas de ${LIMITS.min} puntos en los últimos ${LIMITS.games} partidos | (${awayTeamPoints}/${LIMITS.max})`,
     };
@@ -336,7 +336,7 @@ export type T_PredictionsInput = {
 },
 {
   description: "El último partido del local como local debe ser una victoria",
-  fn: ({ homeTeam }: T_PredictionsInput) => {
+  fn: ({ homeTeam }: T_AnalysisInput) => {
     const lastHomeTeamMatchAtHome = filterTeamPlayedMatches({
       teamId: homeTeam.id,
       playedMatches: homeTeam.matches,
@@ -346,7 +346,7 @@ export type T_PredictionsInput = {
 
     if (!lastHomeTeamMatchAtHome) {
       return {
-        fulfilled: false,
+        recommended: false,
         successExplanation: "",
         failExplanation:
           "Insuficientes partidos ha jugado el equipo local para hacer este analisis",
@@ -354,7 +354,7 @@ export type T_PredictionsInput = {
     }
 
     return {
-      fulfilled: lastHomeTeamMatchAtHome?.teams.home.result === "WIN",
+      recommended: lastHomeTeamMatchAtHome?.teams.home.result === "WIN",
       successExplanation: `El local ganó su último partido como local | (${lastHomeTeamMatchAtHome?.teams.home.score.fullTime}-${lastHomeTeamMatchAtHome?.teams.away.score.fullTime})`,
       failExplanation: `El local no ganó su último partido como local | (${lastHomeTeamMatchAtHome?.teams.home.score.fullTime}-${lastHomeTeamMatchAtHome?.teams.away.score.fullTime})`,
     };
@@ -362,7 +362,7 @@ export type T_PredictionsInput = {
 },
 {
   description: "El último partido del visitante como visitante debe ser una derrota",
-  fn: ({ awayTeam }: T_PredictionsInput) => {
+  fn: ({ awayTeam }: T_AnalysisInput) => {
     const lastAwayTeamMatchAsVisitor = filterTeamPlayedMatches({
       teamId: awayTeam.id,
       playedMatches: awayTeam.matches,
@@ -372,7 +372,7 @@ export type T_PredictionsInput = {
 
     if (!lastAwayTeamMatchAsVisitor) {
       return {
-        fulfilled: false,
+        recommended: false,
         successExplanation: "",
         failExplanation:
           "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis",
@@ -380,7 +380,7 @@ export type T_PredictionsInput = {
     }
 
     return {
-      fulfilled: lastAwayTeamMatchAsVisitor?.teams.home.result === "WIN",
+      recommended: lastAwayTeamMatchAsVisitor?.teams.home.result === "WIN",
       successExplanation: `El visitante ganó su último partido como visitante | (${lastAwayTeamMatchAsVisitor?.teams.home.score.fullTime}-${lastAwayTeamMatchAsVisitor?.teams.away.score.fullTime})`,
       failExplanation: `El visitante no ganó su último partido como visitante | (${lastAwayTeamMatchAsVisitor?.teams.home.score.fullTime}-${lastAwayTeamMatchAsVisitor?.teams.away.score.fullTime})`,
     };
@@ -389,7 +389,7 @@ export type T_PredictionsInput = {
 {
   description:
     "El visitante debe haber perdido al menos uno de sus últimos 3 partidos",
-  fn: ({ awayTeam }: T_PredictionsInput) => {
+  fn: ({ awayTeam }: T_AnalysisInput) => {
     const lastThreeMatches = filterTeamPlayedMatches({
       teamId: awayTeam.id,
       playedMatches: awayTeam.matches,
@@ -399,7 +399,7 @@ export type T_PredictionsInput = {
 
     if (lastThreeMatches.length !== 3) {
       return {
-        fulfilled: false,
+        recommended: false,
         successExplanation: "",
         failExplanation:
           "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis",
@@ -414,7 +414,7 @@ export type T_PredictionsInput = {
     });
 
     return {
-      fulfilled: lostMatch !== undefined,
+      recommended: lostMatch !== undefined,
       successExplanation: `El visitante perdió al menos 1 de sus últimos 3 partidos | (Match id: ${lostMatch?.id})`,
       failExplanation: "El visitante no perdió al menos 1 de sus últimos 3 partidos",
     };
@@ -422,9 +422,9 @@ export type T_PredictionsInput = {
 },
 {
   description: "Ambos equipos no pueden ser históricos",
-  fn: ({ homeTeam, awayTeam }: T_PredictionsInput) => {
+  fn: ({ homeTeam, awayTeam }: T_AnalysisInput) => {
     return {
-      fulfilled: !(
+      recommended: !(
         homeTeam.historic === awayTeam.historic && homeTeam.historic === true
       ),
       successExplanation: `Ambos equipos no son históricos | (${homeTeam.historic}-${awayTeam.historic})`,
@@ -434,13 +434,13 @@ export type T_PredictionsInput = {
 },
 {
   description: "El visitante debe estar mas abajo de los 10 primeros de la tabla",
-  fn: ({ awayTeam }: T_PredictionsInput) => {
+  fn: ({ awayTeam }: T_AnalysisInput) => {
     const LIMITS = getLeagueStandingsLimits(leagueStandings);
     const teamPosition =
       getTeamPosition(awayTeam.id, leagueStandings) || 0;
 
     return {
-      fulfilled: teamPosition >= LIMITS.poor,
+      recommended: teamPosition >= LIMITS.poor,
       successExplanation: `El visitante está mas abajo de los primeros ${LIMITS.poor} puestos de la tabla | (${teamPosition}/${leagueStandings.items.length})`,
       failExplanation: `El visitante está dentro de los primeros ${LIMITS.poor} puestos de la tabla | (${teamPosition}/${leagueStandings.items.length})`,
     };

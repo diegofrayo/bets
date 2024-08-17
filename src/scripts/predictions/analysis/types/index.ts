@@ -112,7 +112,7 @@ export type T_TeamsFileItem = {
 	country: { code: string; name: string; flag: string } | null;
 };
 
-export type T_PredictionsStatsFile = {
+export type T_AnalysisStatsFile = {
 	stats: DR.Object<
 		DR.Object<{
 			description: string;

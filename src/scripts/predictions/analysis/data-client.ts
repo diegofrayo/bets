@@ -24,11 +24,11 @@ import type {
 	T_League,
 	T_LeaguesFile,
 	T_LeagueStandings,
-	T_NextMatchMarketPrediction,
+	T_NextMatchMarketAnalysis,
 	T_PlayedMatch,
-	T_PlayedMatchMarketPrediction,
+	T_PlayedMatchMarketAnalysis,
 	T_PlayedMatchTeam,
-	T_PredictionsStatsFile,
+	T_AnalysisStatsFile,
 	T_RawLeagueStandingsResponse,
 	T_RawMatchesResponse,
 	T_RequestConfig,
@@ -38,14 +38,14 @@ import type {
 	T_TeamStatsItems,
 } from "./types";
 import { formatCode, formatDate } from "./utils";
-import doubleOpportunityPrediction from "./markets/double-opportunity-for-home-team";
-import goalByHomeTeamPrediction from "./markets/goal-by-home-team";
-import matchWinnerPrediction from "./markets/match-winner-for-home-team";
+import doubleOpportunityAnalysis from "./markets/double-opportunity-for-home-team";
+import goalByHomeTeamAnalysis from "./markets/goal-by-home-team";
+import matchWinnerAnalysis from "./markets/match-winner-for-home-team";
 import {
 	filterTeamPlayedMatches,
 	getLeagueStandingsLimits,
 	getTeamPosition,
-	type T_PredictionsInput,
+	type T_AnalysisInput,
 } from "./markets/utils";
 
 const LEAGUES = JSON.parse(
@@ -318,32 +318,32 @@ async function updateLeaguesStandings(leaguesIds: Array<string>, enableRemoteAPI
 	});
 }
 
-function getMatchPredictions(
-	predictionsInput: T_PredictionsInput,
+function getMatchAnalysis(
+	analysisInput: T_AnalysisInput,
 	variant: "FIXTURE_NEXT_MATCH",
-	updatePredictionStats: boolean,
-): Array<T_NextMatchMarketPrediction>;
-function getMatchPredictions(
-	predictionsInput: T_PredictionsInput,
+	launchUpdateAnalysisStats: boolean,
+): Array<T_NextMatchMarketAnalysis>;
+function getMatchAnalysis(
+	analysisInput: T_AnalysisInput,
 	variant: "FIXTURE_PLAYED_MATCH",
-	updatePredictionStats: boolean,
-): Array<T_PlayedMatchMarketPrediction>;
-function getMatchPredictions(
-	predictionsInput: T_PredictionsInput,
+	launchUpdateAnalysisStats: boolean,
+): Array<T_PlayedMatchMarketAnalysis>;
+function getMatchAnalysis(
+	analysisInput: T_AnalysisInput,
 	variant: string,
-	updatePredictionStats: boolean,
-): Array<T_NextMatchMarketPrediction> | Array<T_PlayedMatchMarketPrediction> {
+	launchUpdateAnalysisStats: boolean,
+): Array<T_NextMatchMarketAnalysis> | Array<T_PlayedMatchMarketAnalysis> {
 	const output = [
-		doubleOpportunityPrediction(predictionsInput),
-		goalByHomeTeamPrediction(predictionsInput),
-		matchWinnerPrediction(predictionsInput),
+		doubleOpportunityAnalysis(analysisInput),
+		goalByHomeTeamAnalysis(analysisInput),
+		matchWinnerAnalysis(analysisInput),
 	]
 		.filter(v.isNotNil)
-		.sort(sortBy("trustLevel"));
+		.sort(sortBy("confidenceLevel"));
 
-	if (updatePredictionStats && variant === "FIXTURE_PLAYED_MATCH") {
+	if (launchUpdateAnalysisStats && variant === "FIXTURE_PLAYED_MATCH") {
 		output.forEach((prediction) => {
-			updatePredictionsStats(predictionsInput.match, prediction as T_PlayedMatchMarketPrediction);
+			updateAnalysisStats(analysisInput.match, prediction as T_PlayedMatchMarketAnalysis);
 		});
 	}
 
@@ -403,8 +403,8 @@ function getLeaguesByDate(date: DR.Dates.DateString) {
 	);
 }
 
-function createEmptyPredictionsStatsFile() {
-	writeFile("src/scripts/predictions/data/util/predictions-stats.json", { stats: {}, records: {} });
+function createEmptyAnalysisStatsFile() {
+	writeFile("src/scripts/predictions/data/util/analysis-stats.json", { stats: {}, records: {} });
 }
 
 const DataClient = {
@@ -414,11 +414,11 @@ const DataClient = {
 	updateTeamsFile,
 	updateLeaguesFixtures,
 	updateLeaguesStandings,
-	getMatchPredictions,
+	getMatchAnalysis,
 	getTeamStats,
 	getLeagueById,
 	getLeaguesByDate,
-	createEmptyPredictionsStatsFile,
+	createEmptyAnalysisStatsFile,
 };
 
 export default DataClient;
@@ -594,7 +594,7 @@ function parseMatchItem(
 					matches: [],
 				},
 			},
-			predictions: [],
+			analysis: [],
 		};
 
 		return output;
@@ -616,7 +616,7 @@ function parseMatchItem(
 				matches: [],
 			},
 		},
-		predictions: [],
+		analysis: [],
 	};
 
 	return output;
@@ -1138,29 +1138,29 @@ function getCountryDetails(
 	return null;
 }
 
-function updatePredictionsStats(match: T_FixtureMatch, prediction: T_PlayedMatchMarketPrediction) {
+function updateAnalysisStats(match: T_FixtureMatch, prediction: T_PlayedMatchMarketAnalysis) {
 	const predictionStatsFile = JSON.parse(
-		readFile("src/scripts/predictions/data/util/predictions-stats.json"),
-	) as T_PredictionsStatsFile;
+		readFile("src/scripts/predictions/data/util/analysis-stats.json"),
+	) as T_AnalysisStatsFile;
 
-	prediction.criteria.forEach((criteria) => {
-		const resultKey = criteria.results.winning
+	prediction.strategies.forEach((strategy) => {
+		const resultKey = strategy.results.winning
 			? "winning"
-			: criteria.results.lost
+			: strategy.results.lost
 				? "lost"
-				: criteria.results.lostWinning
+				: strategy.results.lostWinning
 					? "lostWinning"
 					: "skippedLost";
-		const criteriaKey = criteria.id;
+		const strategyKey = strategy.id;
 
 		if (!predictionStatsFile.stats[prediction.id]) {
 			predictionStatsFile.stats[prediction.id] = {};
 			predictionStatsFile.records[prediction.id] = {};
 		}
 
-		if (!predictionStatsFile.stats[prediction.id][criteriaKey]) {
-			predictionStatsFile.stats[prediction.id][criteriaKey] = {
-				description: criteria.description,
+		if (!predictionStatsFile.stats[prediction.id][strategyKey]) {
+			predictionStatsFile.stats[prediction.id][strategyKey] = {
+				description: strategy.description,
 				winning: 0,
 				lost: 0,
 				lostWinning: 0,
@@ -1169,8 +1169,8 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_PlayedMatch
 				successPercentaje: 0,
 				picksPercentaje: 0,
 			};
-			predictionStatsFile.records[prediction.id][criteriaKey] = {
-				description: criteria.description,
+			predictionStatsFile.records[prediction.id][strategyKey] = {
+				description: strategy.description,
 				winning: {},
 				lost: {},
 				lostWinning: {},
@@ -1178,36 +1178,36 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_PlayedMatch
 			};
 		}
 
-		predictionStatsFile.stats[prediction.id][criteriaKey].total += 1;
-		predictionStatsFile.stats[prediction.id][criteriaKey][resultKey] += 1;
-		predictionStatsFile.records[prediction.id][criteriaKey][resultKey] = {
-			...predictionStatsFile.records[prediction.id][criteriaKey][resultKey],
+		predictionStatsFile.stats[prediction.id][strategyKey].total += 1;
+		predictionStatsFile.stats[prediction.id][strategyKey][resultKey] += 1;
+		predictionStatsFile.records[prediction.id][strategyKey][resultKey] = {
+			...predictionStatsFile.records[prediction.id][strategyKey][resultKey],
 			[match.date]: (
-				predictionStatsFile.records[prediction.id][criteriaKey][resultKey][match.date] || []
+				predictionStatsFile.records[prediction.id][strategyKey][resultKey][match.date] || []
 			).concat([
 				generateSlug(
 					`${match.id}-${match.league.country.name === "World" ? match.league.name : match.league.country.name}`,
 				),
 			]),
 		};
-		predictionStatsFile.stats[prediction.id][criteriaKey].successPercentaje = formatDecimalNumber(
-			(predictionStatsFile.stats[prediction.id][criteriaKey].winning /
-				(predictionStatsFile.stats[prediction.id][criteriaKey].winning +
-					predictionStatsFile.stats[prediction.id][criteriaKey].lost)) *
+		predictionStatsFile.stats[prediction.id][strategyKey].successPercentaje = formatDecimalNumber(
+			(predictionStatsFile.stats[prediction.id][strategyKey].winning /
+				(predictionStatsFile.stats[prediction.id][strategyKey].winning +
+					predictionStatsFile.stats[prediction.id][strategyKey].lost)) *
 				100,
 			1,
 		);
-		predictionStatsFile.stats[prediction.id][criteriaKey].picksPercentaje = formatDecimalNumber(
-			((predictionStatsFile.stats[prediction.id][criteriaKey].winning +
-				predictionStatsFile.stats[prediction.id][criteriaKey].lost) /
-				predictionStatsFile.stats[prediction.id][criteriaKey].total) *
+		predictionStatsFile.stats[prediction.id][strategyKey].picksPercentaje = formatDecimalNumber(
+			((predictionStatsFile.stats[prediction.id][strategyKey].winning +
+				predictionStatsFile.stats[prediction.id][strategyKey].lost) /
+				predictionStatsFile.stats[prediction.id][strategyKey].total) *
 				100,
 			1,
 		);
 	});
 
 	writeFile(
-		"src/scripts/predictions/data/util/predictions-stats.json",
+		"src/scripts/predictions/data/util/analysis-stats.json",
 		sortObjectKeys(predictionStatsFile),
 	);
 }

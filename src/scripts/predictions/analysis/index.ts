@@ -18,11 +18,11 @@ export default async function main(config: T_AnalysisConfig) {
 	} else if (config.config === "LEAGUES_STANDINGS_UPDATE") {
 		await DataClient.updateLeaguesStandings(config.leagues, config.enableRemoteAPI);
 	} else {
-		const updatePredictionStats =
-			"updatePredictionStats" in config && config.updatePredictionStats === true;
+		const updateAnalysisStats =
+			"updateAnalysisStats" in config && config.updateAnalysisStats === true;
 
-		if (updatePredictionStats) {
-			DataClient.createEmptyPredictionsStatsFile();
+		if (updateAnalysisStats) {
+			DataClient.createEmptyAnalysisStatsFile();
 		}
 
 		await asyncLoop(generateDates(config), async (date) => {
@@ -98,7 +98,7 @@ export default async function main(config: T_AnalysisConfig) {
 									matches: awayTeamPlayedMatches,
 								};
 
-								const predictions = DataClient.getMatchPredictions(
+								const analysis = DataClient.getMatchAnalysis(
 									{
 										match: fixtureMatch,
 										homeTeam,
@@ -108,7 +108,7 @@ export default async function main(config: T_AnalysisConfig) {
 										leagueStandings,
 									},
 									"FIXTURE_PLAYED_MATCH",
-									updatePredictionStats,
+									updateAnalysisStats,
 								);
 
 								leagueData.matches.push({
@@ -122,7 +122,7 @@ export default async function main(config: T_AnalysisConfig) {
 										home: homeTeam,
 										away: awayTeam,
 									},
-									predictions,
+									analysis,
 									league,
 								});
 							} else {
@@ -136,7 +136,7 @@ export default async function main(config: T_AnalysisConfig) {
 									stats: awayTeamStats,
 									matches: awayTeamPlayedMatches,
 								};
-								const predictions = DataClient.getMatchPredictions(
+								const analysis = DataClient.getMatchAnalysis(
 									{
 										match: fixtureMatch,
 										homeTeam,
@@ -146,7 +146,7 @@ export default async function main(config: T_AnalysisConfig) {
 										leagueStandings,
 									},
 									"FIXTURE_NEXT_MATCH",
-									updatePredictionStats,
+									updateAnalysisStats,
 								);
 
 								leagueData.matches.push({
@@ -160,7 +160,7 @@ export default async function main(config: T_AnalysisConfig) {
 										home: homeTeam,
 										away: awayTeam,
 									},
-									predictions,
+									analysis,
 									league,
 								});
 							}
@@ -319,7 +319,7 @@ function copySharedTypesFile() {
 }
 
 async function formatJSONFiles() {
-	const FILES = ["api-limits", "predictions-stats", "teams"];
+	const FILES = ["api-limits", "analysis-stats", "teams"];
 
 	await asyncLoop(FILES, async (file) => {
 		writeFile(
@@ -344,7 +344,7 @@ type T_AnalysisConfig =
 			config: "OFFLINE_REBUILDING";
 			date: DR.Dates.DateString;
 			previousDays?: number;
-			updatePredictionStats?: boolean;
+			updateAnalysisStats?: boolean;
 	  }
 	| {
 			config: "LEAGUES_FIXTURES_UPDATE";
