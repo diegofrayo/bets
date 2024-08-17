@@ -24,7 +24,6 @@ import type {
 	T_League,
 	T_LeaguesFile,
 	T_LeagueStandings,
-	T_MarketPrediction,
 	T_NextMatchMarketPrediction,
 	T_PlayedMatch,
 	T_PlayedMatchMarketPrediction,
@@ -331,7 +330,7 @@ function getMatchPredictions(
 ): Array<T_PlayedMatchMarketPrediction>;
 function getMatchPredictions(
 	predictionsInput: T_PredictionsInput,
-	_: string,
+	variant: string,
 	updatePredictionStats: boolean,
 ): Array<T_NextMatchMarketPrediction> | Array<T_PlayedMatchMarketPrediction> {
 	const output = [
@@ -340,11 +339,11 @@ function getMatchPredictions(
 		matchWinnerPrediction(predictionsInput),
 	]
 		.filter(v.isNotNil)
-		.sort(sortBy("-trustLevel"));
+		.sort(sortBy("trustLevel"));
 
-	if (updatePredictionStats) {
+	if (updatePredictionStats && variant === "FIXTURE_PLAYED_MATCH") {
 		output.forEach((prediction) => {
-			updatePredictionsStats(predictionsInput.match, prediction);
+			updatePredictionsStats(predictionsInput.match, prediction as T_PlayedMatchMarketPrediction);
 		});
 	}
 
@@ -1139,22 +1138,29 @@ function getCountryDetails(
 	return null;
 }
 
-function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPrediction) {
+function updatePredictionsStats(match: T_FixtureMatch, prediction: T_PlayedMatchMarketPrediction) {
 	const predictionStatsFile = JSON.parse(
 		readFile("src/scripts/predictions/data/util/predictions-stats.json"),
 	) as T_PredictionsStatsFile;
 
-	if ("results" in prediction) {
-		const key = prediction.results.winning
+	prediction.criteria.forEach((criteria) => {
+		const resultKey = criteria.results.winning
 			? "winning"
-			: prediction.results.lost
+			: criteria.results.lost
 				? "lost"
-				: prediction.results.lostWinning
+				: criteria.results.lostWinning
 					? "lostWinning"
 					: "skippedLost";
+		const criteriaKey = criteria.id;
 
 		if (!predictionStatsFile.stats[prediction.id]) {
-			predictionStatsFile.stats[prediction.id] = {
+			predictionStatsFile.stats[prediction.id] = {};
+			predictionStatsFile.records[prediction.id] = {};
+		}
+
+		if (!predictionStatsFile.stats[prediction.id][criteriaKey]) {
+			predictionStatsFile.stats[prediction.id][criteriaKey] = {
+				description: criteria.description,
 				winning: 0,
 				lost: 0,
 				lostWinning: 0,
@@ -1163,7 +1169,8 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 				successPercentaje: 0,
 				picksPercentaje: 0,
 			};
-			predictionStatsFile.records[prediction.id] = {
+			predictionStatsFile.records[prediction.id][criteriaKey] = {
+				description: criteria.description,
 				winning: {},
 				lost: {},
 				lostWinning: {},
@@ -1171,36 +1178,38 @@ function updatePredictionsStats(match: T_FixtureMatch, prediction: T_MarketPredi
 			};
 		}
 
-		predictionStatsFile.stats[prediction.id].total += 1;
-		predictionStatsFile.stats[prediction.id][key] += 1;
-		predictionStatsFile.records[prediction.id][key] = {
-			...predictionStatsFile.records[prediction.id][key],
-			[match.date]: (predictionStatsFile.records[prediction.id][key][match.date] || []).concat([
+		predictionStatsFile.stats[prediction.id][criteriaKey].total += 1;
+		predictionStatsFile.stats[prediction.id][criteriaKey][resultKey] += 1;
+		predictionStatsFile.records[prediction.id][criteriaKey][resultKey] = {
+			...predictionStatsFile.records[prediction.id][criteriaKey][resultKey],
+			[match.date]: (
+				predictionStatsFile.records[prediction.id][criteriaKey][resultKey][match.date] || []
+			).concat([
 				generateSlug(
 					`${match.id}-${match.league.country.name === "World" ? match.league.name : match.league.country.name}`,
 				),
 			]),
 		};
-		predictionStatsFile.stats[prediction.id].successPercentaje = formatDecimalNumber(
-			(predictionStatsFile.stats[prediction.id].winning /
-				(predictionStatsFile.stats[prediction.id].winning +
-					predictionStatsFile.stats[prediction.id].lost)) *
+		predictionStatsFile.stats[prediction.id][criteriaKey].successPercentaje = formatDecimalNumber(
+			(predictionStatsFile.stats[prediction.id][criteriaKey].winning /
+				(predictionStatsFile.stats[prediction.id][criteriaKey].winning +
+					predictionStatsFile.stats[prediction.id][criteriaKey].lost)) *
 				100,
 			1,
 		);
-		predictionStatsFile.stats[prediction.id].picksPercentaje = formatDecimalNumber(
-			((predictionStatsFile.stats[prediction.id].winning +
-				predictionStatsFile.stats[prediction.id].lost) /
-				predictionStatsFile.stats[prediction.id].total) *
+		predictionStatsFile.stats[prediction.id][criteriaKey].picksPercentaje = formatDecimalNumber(
+			((predictionStatsFile.stats[prediction.id][criteriaKey].winning +
+				predictionStatsFile.stats[prediction.id][criteriaKey].lost) /
+				predictionStatsFile.stats[prediction.id][criteriaKey].total) *
 				100,
 			1,
 		);
+	});
 
-		writeFile(
-			"src/scripts/predictions/data/util/predictions-stats.json",
-			sortObjectKeys(predictionStatsFile),
-		);
-	}
+	writeFile(
+		"src/scripts/predictions/data/util/predictions-stats.json",
+		sortObjectKeys(predictionStatsFile),
+	);
 }
 
 function getMatchScores({

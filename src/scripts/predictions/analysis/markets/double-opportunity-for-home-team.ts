@@ -13,6 +13,7 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
+						id: "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 						description:
 							"Criterios mas confiables para el local como favorito en un partido de liga local",
 						trustLevel: 100,
@@ -50,6 +51,7 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 			: []
 		: [
 				{
+					id: "2f288451-42c2-48a9-ad53-30790b7974a8",
 					description:
 						"Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 					trustLevel: 100,
@@ -90,24 +92,20 @@ function doubleOpportunityPrediction(predictionsInput: T_PredictionsInput) {
 		id: "do-local",
 		name: "Doble oportunidad (Local)",
 		shortName: "DOL",
-		criteria: analizeCriteria(criteria, predictionsInput),
-		predictionsInput,
-		results: predictionsInput.match.played
-			? {
-					winning: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.result !== "LOSE";
-					},
-					lostWinning: (trustLevel, predictionsInput_) => {
-						return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.result !== "LOSE";
-					},
-					lost: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.result === "LOSE";
-					},
-					skippedLost: (trustLevel, predictionsInput_) => {
-						return trustLevel === "LOW" && predictionsInput_.match.teams.home.result === "LOSE";
-					},
-				}
-			: undefined,
+		criteria: analizeCriteria(criteria, predictionsInput, {
+			winning: (fullfilled, predictionsInput_) => {
+				return fullfilled && predictionsInput_.match.teams.home.result !== "LOSE";
+			},
+			lostWinning: (fullfilled, predictionsInput_) => {
+				return !fullfilled && predictionsInput_.match.teams.home.result !== "LOSE";
+			},
+			lost: (fullfilled, predictionsInput_) => {
+				return fullfilled && predictionsInput_.match.teams.home.result === "LOSE";
+			},
+			skippedLost: (fullfilled, predictionsInput_) => {
+				return !fullfilled && predictionsInput_.match.teams.home.result === "LOSE";
+			},
+		}),
 	});
 }
 

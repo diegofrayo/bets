@@ -113,19 +113,25 @@ export type T_TeamsFileItem = {
 };
 
 export type T_PredictionsStatsFile = {
-	stats: DR.Object<{
-		winning: number;
-		lost: number;
-		lostWinning: number;
-		skippedLost: number;
-		total: number;
-		successPercentaje: number;
-		picksPercentaje: number;
-	}>;
-	records: DR.Object<{
-		winning: DR.Object<Array<string>>;
-		lost: DR.Object<Array<string>>;
-		lostWinning: DR.Object<Array<string>>;
-		skippedLost: DR.Object<Array<string>>;
-	}>;
+	stats: DR.Object<
+		DR.Object<{
+			description: string;
+			winning: number;
+			lost: number;
+			lostWinning: number;
+			skippedLost: number;
+			total: number;
+			successPercentaje: number;
+			picksPercentaje: number;
+		}>
+	>;
+	records: DR.Object<
+		DR.Object<{
+			description: string;
+			winning: DR.Object<Array<string>>;
+			lost: DR.Object<Array<string>>;
+			lostWinning: DR.Object<Array<string>>;
+			skippedLost: DR.Object<Array<string>>;
+		}>
+	>;
 };

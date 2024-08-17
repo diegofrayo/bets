@@ -217,9 +217,9 @@ type T_MarketPredictionBase = {
 	id: string;
 	name: string;
 	shortName: string;
-	trustLevel: number;
-	trustLevelLabel: "HIGH" | "MEDIUM" | "LOW";
+	trustLevel: "1|HIGH" | "2|MEDIUM" | "3|LOW";
 	criteria: Array<{
+		id: string;
 		description: string;
 		trustLevel: number;
 		fulfilled: boolean;
@@ -233,11 +233,15 @@ type T_MarketPredictionBase = {
 
 export type T_NextMatchMarketPrediction = T_MarketPredictionBase;
 
-export type T_PlayedMatchMarketPrediction = T_MarketPredictionBase & {
-	results: {
-		winning: boolean;
-		lost: boolean;
-		lostWinning: boolean;
-		skippedLost: boolean;
-	};
+export type T_PlayedMatchMarketPrediction = Omit<T_MarketPredictionBase, "criteria"> & {
+	criteria: Array<
+		T_MarketPredictionBase["criteria"][number] & {
+			results: {
+				winning: boolean;
+				lost: boolean;
+				lostWinning: boolean;
+				skippedLost: boolean;
+			};
+		}
+	>;
 };

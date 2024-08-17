@@ -14,6 +14,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
+						id: "a25adfae-292b-4cac-88b8-f15532a63e7b",
 						description:
 							"Criterios mas confiables para el local como favorito en un partido de liga local",
 						trustLevel: 100,
@@ -140,6 +141,7 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 			: []
 		: [
 				{
+					id: "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
 					description:
 						"Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 					trustLevel: 100,
@@ -244,24 +246,20 @@ function matchWinnerPrediction(predictionsInput: T_PredictionsInput) {
 		id: "tr-local",
 		name: "Tiempo reglamentario (Local)",
 		shortName: "TRL",
-		criteria: analizeCriteria(criteria, predictionsInput),
-		predictionsInput,
-		results: predictionsInput.match.played
-			? {
-					winning: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.result === "WIN";
-					},
-					lostWinning: (trustLevel, predictionsInput_) => {
-						return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.result === "WIN";
-					},
-					lost: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.result !== "WIN";
-					},
-					skippedLost: (trustLevel, predictionsInput_) => {
-						return trustLevel === "LOW" && predictionsInput_.match.teams.home.result !== "WIN";
-					},
-				}
-			: undefined,
+		criteria: analizeCriteria(criteria, predictionsInput, {
+			winning: (fullfilled, predictionsInput_) => {
+				return fullfilled && predictionsInput_.match.teams.home.result === "WIN";
+			},
+			lostWinning: (fullfilled, predictionsInput_) => {
+				return !fullfilled && predictionsInput_.match.teams.home.result === "WIN";
+			},
+			lost: (fullfilled, predictionsInput_) => {
+				return fullfilled && predictionsInput_.match.teams.home.result !== "WIN";
+			},
+			skippedLost: (fullfilled, predictionsInput_) => {
+				return !fullfilled && predictionsInput_.match.teams.home.result !== "WIN";
+			},
+		}),
 	});
 }
 

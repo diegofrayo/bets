@@ -12,6 +12,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 		? predictionsInput.leagueStandings.stats.partidos_jugados >= 3
 			? [
 					{
+						id: "3c889798-2dea-4276-9cc9-762b8b95b556",
 						description:
 							"Criterios mas confiables para el local como favorito en un partido de liga local",
 						trustLevel: 100,
@@ -119,6 +120,7 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 			: []
 		: [
 				{
+					id: "86842844-616c-4651-a3ee-e3cb92a04ce5",
 					description:
 						"Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
 					trustLevel: 100,
@@ -157,24 +159,20 @@ function goalByHomeTeamPrediction(predictionsInput: T_PredictionsInput) {
 		id: "gpe-local",
 		name: "Gol del equipo local",
 		shortName: "GL",
-		criteria: analizeCriteria(criteria, predictionsInput),
-		predictionsInput,
-		results: predictionsInput.match.played
-			? {
-					winning: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score.fullTime > 0;
-					},
-					lostWinning: (trustLevel, predictionsInput_) => {
-						return trustLevel !== "HIGH" && predictionsInput_.match.teams.home.score.fullTime > 0;
-					},
-					lost: (trustLevel, predictionsInput_) => {
-						return trustLevel === "HIGH" && predictionsInput_.match.teams.home.score.fullTime === 0;
-					},
-					skippedLost: (trustLevel, predictionsInput_) => {
-						return trustLevel === "LOW" && predictionsInput_.match.teams.home.score.fullTime === 0;
-					},
-				}
-			: undefined,
+		criteria: analizeCriteria(criteria, predictionsInput, {
+			winning: (fullfilled, predictionsInput_) => {
+				return fullfilled && predictionsInput_.match.teams.home.score.fullTime > 0;
+			},
+			lostWinning: (fullfilled, predictionsInput_) => {
+				return !fullfilled && predictionsInput_.match.teams.home.score.fullTime > 0;
+			},
+			lost: (fullfilled, predictionsInput_) => {
+				return fullfilled && predictionsInput_.match.teams.home.score.fullTime === 0;
+			},
+			skippedLost: (fullfilled, predictionsInput_) => {
+				return !fullfilled && predictionsInput_.match.teams.home.score.fullTime === 0;
+			},
+		}),
 	});
 }
 

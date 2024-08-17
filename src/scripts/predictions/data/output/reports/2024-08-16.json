@@ -901,6 +901,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -918,8 +919,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "gpe-local",
@@ -927,6 +927,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
 								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
 								"trustLevel": 100,
 								"items": [
@@ -944,8 +945,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -953,6 +953,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -985,8 +986,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -1801,6 +1801,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -1818,8 +1819,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "gpe-local",
@@ -1827,6 +1827,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
 								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
 								"trustLevel": 100,
 								"items": [
@@ -1844,8 +1845,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -1853,6 +1853,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -1885,8 +1886,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -2747,6 +2747,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
 								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
 								"trustLevel": 100,
 								"items": [
@@ -2764,8 +2765,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "do-local",
@@ -2773,6 +2773,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -2790,8 +2791,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -2799,6 +2799,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -2831,8 +2832,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -3739,6 +3739,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
 								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
 								"trustLevel": 100,
 								"items": [
@@ -3756,8 +3757,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "do-local",
@@ -3765,6 +3765,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -3782,8 +3783,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -3791,6 +3791,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
 								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"trustLevel": 100,
 								"items": [
@@ -3823,8 +3824,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -8813,6 +8813,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -8830,8 +8831,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "gpe-local",
@@ -8839,6 +8839,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -8851,8 +8852,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -8860,6 +8860,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -8902,8 +8903,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -16577,6 +16577,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -16594,8 +16595,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "gpe-local",
@@ -16603,6 +16603,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -16615,8 +16616,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "tr-local",
@@ -16624,6 +16624,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -16666,8 +16667,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -22210,6 +22210,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -22227,8 +22228,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "gpe-local",
@@ -22236,6 +22236,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -22248,8 +22249,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -22257,6 +22257,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -22299,8 +22300,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -27036,6 +27036,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -27053,8 +27054,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "gpe-local",
@@ -27062,6 +27062,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -27074,8 +27075,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -27083,6 +27083,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -27125,8 +27126,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -30555,6 +30555,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -30572,8 +30573,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "gpe-local",
@@ -30581,6 +30581,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -30593,8 +30594,7 @@
 								"fulfilled": true
 							}
 						],
-						"trustLevel": 100,
-						"trustLevelLabel": "HIGH"
+						"trustLevel": "1|HIGH"
 					},
 					{
 						"id": "tr-local",
@@ -30602,6 +30602,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -30644,8 +30645,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
@@ -31585,6 +31585,7 @@
 						"shortName": "DOL",
 						"criteria": [
 							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -31602,8 +31603,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "gpe-local",
@@ -31611,6 +31611,7 @@
 						"shortName": "GL",
 						"criteria": [
 							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -31623,8 +31624,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					},
 					{
 						"id": "tr-local",
@@ -31632,6 +31632,7 @@
 						"shortName": "TRL",
 						"criteria": [
 							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
 								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 								"trustLevel": 100,
 								"items": [
@@ -31674,8 +31675,7 @@
 								"fulfilled": false
 							}
 						],
-						"trustLevel": 0,
-						"trustLevelLabel": "LOW"
+						"trustLevel": "3|LOW"
 					}
 				],
 				"league": {
