@@ -2511,7 +2511,7 @@
 									"away": {
 										"id": 96,
 										"name": "Toulouse",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -2603,7 +2603,7 @@
 									"away": {
 										"id": 82,
 										"name": "Montpellier",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -46485,7 +46485,7 @@
 									"away": {
 										"id": 728,
 										"name": "Rayo Vallecano",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -50326,7 +50326,7 @@
 									"home": {
 										"id": 785,
 										"name": "Karlsruher SC",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -52275,7 +52275,7 @@
 									"away": {
 										"id": 785,
 										"name": "Karlsruher SC",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -57301,7 +57301,7 @@
 									"away": {
 										"id": 728,
 										"name": "Rayo Vallecano",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,

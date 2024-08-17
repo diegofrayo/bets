@@ -639,7 +639,7 @@
 									"away": {
 										"id": 548,
 										"name": "Real Sociedad",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -685,7 +685,7 @@
 									"away": {
 										"id": 80,
 										"name": "Lyon",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -2345,7 +2345,7 @@
 									"away": {
 										"id": 176,
 										"name": "Vfl Bochum",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -4607,7 +4607,7 @@
 									"away": {
 										"id": 95,
 										"name": "Strasbourg",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -10038,7 +10038,7 @@
 									"home": {
 										"id": 95,
 										"name": "Strasbourg",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -15990,7 +15990,7 @@
 									"away": {
 										"id": 798,
 										"name": "Mallorca",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -18355,7 +18355,7 @@
 									"away": {
 										"id": 159,
 										"name": "Hertha Berlin",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -18432,7 +18432,7 @@
 									"home": {
 										"id": 175,
 										"name": "Hamburger SV",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -22043,7 +22043,7 @@
 									"home": {
 										"id": 192,
 										"name": "1.FC Köln",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -22962,7 +22962,7 @@
 									"away": {
 										"id": 55,
 										"name": "Brentford",
-										"country": null,
+										"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -32249,7 +32249,7 @@
 									"away": {
 										"id": 728,
 										"name": "Rayo Vallecano",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -32714,7 +32714,7 @@
 									"away": {
 										"id": 116,
 										"name": "Lens",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -34620,7 +34620,7 @@
 									"away": {
 										"id": 159,
 										"name": "Hertha Berlin",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -39913,7 +39913,7 @@
 									"away": {
 										"id": 541,
 										"name": "Real Madrid",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 10,
 										"tag": "REGULAR",
 										"historic": false,
@@ -39944,7 +39944,7 @@
 									"home": {
 										"id": 50,
 										"name": "Manchester City",
-										"country": null,
+										"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -40288,7 +40288,7 @@
 									"home": {
 										"id": 548,
 										"name": "Real Sociedad",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 5,
 										"tag": "REGULAR",
 										"historic": false,
@@ -40750,7 +40750,7 @@
 									"home": {
 										"id": 84,
 										"name": "Nice",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -42078,7 +42078,7 @@
 									"home": {
 										"id": 170,
 										"name": "FC Augsburg",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -43160,7 +43160,7 @@
 									"home": {
 										"id": 82,
 										"name": "Montpellier",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": 12,
 										"tag": "REGULAR",
 										"historic": false,
@@ -43519,7 +43519,7 @@
 									"away": {
 										"id": 108,
 										"name": "Auxerre",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
@@ -56175,7 +56175,7 @@
 									"away": {
 										"id": 84,
 										"name": "Nice",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -56267,7 +56267,7 @@
 									"away": {
 										"id": 158,
 										"name": "Fortuna Dusseldorf",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -56889,7 +56889,7 @@
 									"away": {
 										"id": 80,
 										"name": "Lyon",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -57305,7 +57305,7 @@
 									"away": {
 										"id": 728,
 										"name": "Rayo Vallecano",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -57382,7 +57382,7 @@
 									"home": {
 										"id": 52,
 										"name": "Crystal Palace",
-										"country": null,
+										"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 										"position": 7,
 										"tag": "REGULAR",
 										"historic": false,
@@ -59147,7 +59147,7 @@
 									"away": {
 										"id": 82,
 										"name": "Montpellier",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -59999,7 +59999,7 @@
 									"away": {
 										"id": 728,
 										"name": "Rayo Vallecano",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -60389,7 +60389,7 @@
 									"away": {
 										"id": 52,
 										"name": "Crystal Palace",
-										"country": null,
+										"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 										"position": 7,
 										"tag": "REGULAR",
 										"historic": false,
@@ -63038,7 +63038,7 @@
 									"away": {
 										"id": 55,
 										"name": "Brentford",
-										"country": null,
+										"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -66001,7 +66001,7 @@
 									"home": {
 										"id": 95,
 										"name": "Strasbourg",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -66644,7 +66644,7 @@
 									"away": {
 										"id": 84,
 										"name": "Nice",
-										"country": null,
+										"country": { "name": "France", "flag": "🇫🇷", "code": "FR" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,

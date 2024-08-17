@@ -64,8 +64,28 @@
 		"historic": false,
 		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
 	},
+	"49": {
+		"name": "Chelsea",
+		"historic": true,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
+	"50": {
+		"name": "Manchester City",
+		"historic": true,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
 	"51": {
 		"name": "Brighton",
+		"historic": false,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
+	"52": {
+		"name": "Crystal Palace",
+		"historic": false,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
+	"55": {
+		"name": "Brentford",
 		"historic": false,
 		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
 	},
@@ -159,14 +179,39 @@
 		"historic": false,
 		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
 	},
+	"77": {
+		"name": "Angers",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
 	"79": {
 		"name": "Lille",
 		"historic": false,
 		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
 	},
+	"80": {
+		"name": "Lyon",
+		"historic": true,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
 	"81": {
 		"name": "Marseille",
 		"historic": true,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"82": {
+		"name": "Montpellier",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"83": {
+		"name": "Nantes",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"84": {
+		"name": "Nice",
+		"historic": false,
 		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
 	},
 	"85": {
@@ -184,13 +229,38 @@
 		"historic": false,
 		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
 	},
+	"94": {
+		"name": "Rennes",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"95": {
+		"name": "Strasbourg",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"96": {
+		"name": "Toulouse",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
 	"106": {
 		"name": "Stade Brestois 29",
 		"historic": false,
 		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
 	},
+	"108": {
+		"name": "Auxerre",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
 	"111": {
 		"name": "LE Havre",
+		"historic": false,
+		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
+	},
+	"116": {
+		"name": "Lens",
 		"historic": false,
 		"country": { "name": "France", "flag": "🇫🇷", "code": "FR" }
 	},
@@ -294,6 +364,16 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"158": {
+		"name": "Fortuna Dusseldorf",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"159": {
+		"name": "Hertha Berlin",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"160": {
 		"name": "SC Freiburg",
 		"historic": false,
@@ -324,6 +404,16 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"170": {
+		"name": "FC Augsburg",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"171": {
+		"name": "FC Nurnberg",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"173": {
 		"name": "RB Leipzig",
 		"historic": true,
@@ -332,6 +422,21 @@
 	"174": {
 		"name": "FC Schalke 04",
 		"historic": true,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"175": {
+		"name": "Hamburger SV",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"176": {
+		"name": "Vfl Bochum",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"177": {
+		"name": "Jahn Regensburg",
+		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"178": {
@@ -344,13 +449,28 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"181": {
+		"name": "SV Darmstadt 98",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"182": {
 		"name": "Union Berlin",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"183": {
+		"name": "Dynamo Dresden",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"184": {
 		"name": "FC Ingolstadt 04",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"185": {
+		"name": "SC Paderborn 07",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -364,6 +484,11 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"189": {
+		"name": "SV Sandhausen",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"190": {
 		"name": "Erzgebirge AUE",
 		"historic": false,
@@ -371,6 +496,11 @@
 	},
 	"191": {
 		"name": "Holstein Kiel",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"192": {
+		"name": "1.FC Köln",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -919,6 +1049,11 @@
 		"historic": false,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
+	"541": {
+		"name": "Real Madrid",
+		"historic": true,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
 	"542": {
 		"name": "Alaves",
 		"historic": false,
@@ -936,6 +1071,11 @@
 	},
 	"547": {
 		"name": "Girona",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"548": {
+		"name": "Real Sociedad",
 		"historic": false,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
@@ -1081,6 +1221,11 @@
 		"historic": false,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
+	"728": {
+		"name": "Rayo Vallecano",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
 	"733": {
 		"name": "Standard Liege",
 		"historic": true,
@@ -1152,10 +1297,20 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"785": {
+		"name": "Karlsruher SC",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"794": {
 		"name": "RB Bragantino",
 		"historic": false,
 		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" }
+	},
+	"798": {
+		"name": "Mallorca",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
 	"827": {
 		"name": "IA Akranes",
@@ -1416,8 +1571,23 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"1318": {
+		"name": "SV Meppen",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"1319": {
 		"name": "SV Wehen",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"1321": {
+		"name": "Hansa Rostock",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"1323": {
+		"name": "Sportfreunde Lotte",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -1517,8 +1687,23 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"1630": {
+		"name": "Bremer Sv",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"1639": {
+		"name": "FC Saarbrücken",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"1652": {
 		"name": "SSV ULM 1846",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"1660": {
+		"name": "SV Elversberg",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -1586,13 +1771,33 @@
 		"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" }
 	},
 	"2271": { "name": "Petrocub", "historic": false, "country": null },
+	"2280": {
+		"name": "Club Tijuana",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
 	"2282": {
 		"name": "Monterrey",
 		"historic": true,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},
+	"2285": {
+		"name": "Santos Laguna",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2290": {
+		"name": "Club Queretaro",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
 	"2291": {
 		"name": "Puebla",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2314": {
+		"name": "Atletico San Luis",
 		"historic": false,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},
@@ -1712,6 +1917,11 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"4266": {
+		"name": "Viktoria Berlin",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"4360": { "name": "Celje", "historic": false, "country": null },
 	"4495": { "name": "Maccabi Petah Tikva", "historic": false, "country": null },
 	"4716": {
@@ -1733,8 +1943,18 @@
 	},
 	"10487": { "name": "Sportivo Ameliano", "historic": false, "country": null },
 	"12733": { "name": "Ballkani", "historic": false, "country": null },
+	"12742": {
+		"name": "Borussia Hildesheim",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"12831": {
 		"name": "Phönix Lübeck",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"12878": {
+		"name": "Teutonia Ottensen",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
