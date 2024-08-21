@@ -11343,7 +11343,7 @@
 						"country": null,
 						"position": null,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
@@ -11540,7 +11540,7 @@
 										"country": { "name": "Croatia", "flag": "🇭🇷", "code": "HR" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -11601,7 +11601,7 @@
 										"country": { "name": "Croatia", "flag": "🇭🇷", "code": "HR" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -11632,7 +11632,7 @@
 										"country": { "name": "Croatia", "flag": "🇭🇷", "code": "HR" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -11678,7 +11678,7 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -11724,7 +11724,7 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -11770,7 +11770,7 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -11816,7 +11816,7 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -11862,7 +11862,7 @@
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 6,
@@ -12616,7 +12616,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": false,
