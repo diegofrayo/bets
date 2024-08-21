@@ -1,3 +1,4 @@
+import dayjs from "dayjs";
 import * as prettier from "prettier";
 
 import type DR from "../../../@diegofrayo/types";
@@ -10,6 +11,10 @@ export function formatDate(date: Date): DR.Dates.DateString {
 	return `${date.getFullYear()}-${addLeftPadding(date.getMonth() + 1)}-${addLeftPadding(
 		date.getDate(),
 	)}` as DR.Dates.DateString;
+}
+
+export function beforeThanToday(date: string) {
+	return dayjs(date).isBefore(new Date());
 }
 
 // https://prettier.io/docs/en/options#parser

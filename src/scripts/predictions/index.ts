@@ -5,20 +5,20 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	// config: "SPECIFIC_DATE",
-	// date: "tomorrow",
+	// date: "today",
 	// enableRemoteAPI: true,
 
 	// Config 2
 	config: "OFFLINE_REBUILDING",
-	date: "2024-08-18",
-	previousDays: 20,
+	date: "2024-08-21",
+	previousDays: 23,
 	updateAnalysisStats: true,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",
 	// leaguesFixturesDates: {
-	// 	from: "2024-08-12",
-	// 	to: "2024-08-18",
+	// 	from: "2024-08-19",
+	// 	to: "2024-08-22",
 	// 	ids: [],
 	// },
 

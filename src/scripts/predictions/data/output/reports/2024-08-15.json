@@ -1507,10 +1507,10 @@
 									"away": {
 										"id": 530,
 										"name": "Atletico Madrid",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 9,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -2542,7 +2542,7 @@
 									"home": {
 										"id": 540,
 										"name": "Espanyol",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 14,
 										"tag": "REGULAR",
 										"historic": false,
@@ -47270,7 +47270,7 @@
 									"home": {
 										"id": 179,
 										"name": "FC Magdeburg",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,

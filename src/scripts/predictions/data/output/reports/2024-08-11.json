@@ -49526,7 +49526,7 @@
 									"home": {
 										"id": 162,
 										"name": "Werder Bremen",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -61332,10 +61332,10 @@
 									"away": {
 										"id": 533,
 										"name": "Villarreal",
-										"country": null,
+										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,

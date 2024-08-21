@@ -7,7 +7,7 @@ import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
 
 import APIClient from "./api-client";
 import DataClient from "./data-client";
-import { formatCode, formatDate } from "./utils";
+import { beforeThanToday, formatCode, formatDate } from "./utils";
 import type { T_DayOfMatches, T_FixtureNextMatchTeam, T_FixturePlayedMatchTeam } from "./types";
 
 export default async function main(config: T_AnalysisConfig) {
@@ -258,11 +258,17 @@ function createRequestConfig(requestConfig: T_AnalysisConfig, formattedDate: DR.
 			date: formattedDate,
 			enableRemoteAPI: requestConfig.enableRemoteAPI,
 			fetchFromAPI: requestConfig.enableRemoteAPI
-				? {
-						FIXTURE_MATCHES: true,
-						PLAYED_MATCHES: true,
-						LEAGUE_STANDINGS: true,
-					}
+				? beforeThanToday(formattedDate)
+					? {
+							FIXTURE_MATCHES: true,
+							PLAYED_MATCHES: false,
+							LEAGUE_STANDINGS: false,
+						}
+					: {
+							FIXTURE_MATCHES: true,
+							PLAYED_MATCHES: true,
+							LEAGUE_STANDINGS: true,
+						}
 				: {
 						FIXTURE_MATCHES: false,
 						PLAYED_MATCHES: false,

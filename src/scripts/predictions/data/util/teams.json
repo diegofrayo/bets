@@ -59,6 +59,16 @@
 		"historic": false,
 		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
 	},
+	"46": {
+		"name": "Leicester",
+		"historic": false,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
+	"47": {
+		"name": "Tottenham",
+		"historic": true,
+		"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" }
+	},
 	"48": {
 		"name": "West Ham",
 		"historic": false,
@@ -379,6 +389,16 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"161": {
+		"name": "VfL Wolfsburg",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"162": {
+		"name": "Werder Bremen",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"163": {
 		"name": "Borussia Monchengladbach",
 		"historic": false,
@@ -401,6 +421,11 @@
 	},
 	"167": {
 		"name": "1899 Hoffenheim",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"169": {
+		"name": "Eintracht Frankfurt",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -441,6 +466,11 @@
 	},
 	"178": {
 		"name": "SpVgg Greuther Furth",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"179": {
+		"name": "FC Magdeburg",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -1014,8 +1044,23 @@
 		"historic": false,
 		"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" }
 	},
+	"496": {
+		"name": "Juventus",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"499": {
+		"name": "Atalanta",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
 	"529": {
 		"name": "Barcelona",
+		"historic": true,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"530": {
+		"name": "Atletico Madrid",
 		"historic": true,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
@@ -1026,6 +1071,11 @@
 	},
 	"532": {
 		"name": "Valencia",
+		"historic": true,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"533": {
+		"name": "Villarreal",
 		"historic": true,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
@@ -1046,6 +1096,11 @@
 	},
 	"538": {
 		"name": "Celta Vigo",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
+	"540": {
+		"name": "Espanyol",
 		"historic": false,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
@@ -1105,6 +1160,7 @@
 		"historic": false,
 		"country": { "name": "Turkey", "flag": "🇹🇷", "code": "TR" }
 	},
+	"565": { "name": "BSC Young Boys", "historic": false, "country": null },
 	"566": { "name": "Ludogorets", "historic": false, "country": null },
 	"567": {
 		"name": "Plzen",
@@ -1131,6 +1187,7 @@
 		"country": { "name": "Finland", "flag": "🇫🇮", "code": "FI" }
 	},
 	"588": { "name": "Zrinjski", "historic": false, "country": null },
+	"598": { "name": "FK Crvena Zvezda", "historic": false, "country": null },
 	"601": {
 		"name": "Austria Vienna",
 		"historic": false,
@@ -1158,6 +1215,7 @@
 		"country": { "name": "Austria", "flag": "🇦🇹", "code": "AT" }
 	},
 	"619": { "name": "PAOK", "historic": true, "country": null },
+	"620": { "name": "Dinamo Zagreb", "historic": true, "country": null },
 	"625": {
 		"name": "Lyngby",
 		"historic": false,
@@ -1216,6 +1274,11 @@
 	"702": { "name": "Vojvodina", "historic": false, "country": null },
 	"703": { "name": "UE Santa Coloma", "historic": false, "country": null },
 	"709": { "name": "Pyunik Yerevan", "historic": false, "country": null },
+	"720": {
+		"name": "Valladolid",
+		"historic": false,
+		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
+	},
 	"727": {
 		"name": "Osasuna",
 		"historic": false,
@@ -1260,6 +1323,11 @@
 		"name": "Genk",
 		"historic": false,
 		"country": { "name": "Belgium", "flag": "🇧🇪", "code": "BE" }
+	},
+	"744": {
+		"name": "Eintracht Braunschweig",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"745": {
 		"name": "FC Kaiserslautern",
@@ -1316,6 +1384,16 @@
 		"name": "IA Akranes",
 		"historic": false,
 		"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" }
+	},
+	"867": {
+		"name": "Lecce",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"895": {
+		"name": "Como",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
 	},
 	"902": {
 		"name": "Ross County",
@@ -1581,6 +1659,11 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"1320": {
+		"name": "Energie Cottbus",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"1321": {
 		"name": "Hansa Rostock",
 		"historic": false,
@@ -1687,6 +1770,11 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"1628": {
+		"name": "Kickers Offenbach",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"1630": {
 		"name": "Bremer Sv",
 		"historic": false,
@@ -1694,6 +1782,11 @@
 	},
 	"1639": {
 		"name": "FC Saarbrücken",
+		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"1648": {
+		"name": "TuS Koblenz",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -1801,7 +1894,9 @@
 		"historic": false,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},
+	"2315": { "name": "Colo Colo", "historic": true, "country": null },
 	"2318": { "name": "Palestino", "historic": false, "country": null },
+	"2328": { "name": "Huachipato", "historic": false, "country": null },
 	"2348": { "name": "Penarol", "historic": true, "country": null },
 	"2356": { "name": "Club Nacional", "historic": false, "country": null },
 	"2390": { "name": "Paks", "historic": false, "country": null },
