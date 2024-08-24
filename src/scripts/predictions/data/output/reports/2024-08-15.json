@@ -885,7 +885,7 @@
 									"home": {
 										"id": 172,
 										"name": "VfB Stuttgart",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -1889,10 +1889,10 @@
 									"home": {
 										"id": 168,
 										"name": "Bayer Leverkusen",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -48006,7 +48006,7 @@
 									"away": {
 										"id": 489,
 										"name": "AC Milan",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -58187,7 +58187,7 @@
 									"away": {
 										"id": 523,
 										"name": "Parma",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,

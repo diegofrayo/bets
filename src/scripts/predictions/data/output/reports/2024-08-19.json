@@ -914,10 +914,13 @@
 									}
 								},
 								"league": {
+									"enabled": false,
 									"id": 137,
 									"name": "Coppa Italia",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+									"type": "Cup",
+									"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -1415,7 +1418,7 @@
 									"away": {
 										"id": 523,
 										"name": "Parma",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 12,
 										"tag": "REGULAR",
 										"historic": false,
@@ -2111,10 +2114,13 @@
 									}
 								},
 								"league": {
+									"enabled": false,
 									"id": 137,
 									"name": "Coppa Italia",
-									"type": "Unknown",
-									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+									"type": "Cup",
+									"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
 								},
 								"type": "PLAYED_MATCH",
 								"played": true
@@ -3581,7 +3587,7 @@
 								"teams": {
 									"home": {
 										"id": 180,
-										"name": "FC Heidenheim",
+										"name": "1. FC Heidenheim",
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
@@ -6008,11 +6014,11 @@
 									},
 									"away": {
 										"id": 157,
-										"name": "Bayern Munich",
+										"name": "Bayern München",
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -6054,11 +6060,11 @@
 									},
 									"away": {
 										"id": 157,
-										"name": "Bayern Munich",
+										"name": "Bayern München",
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -34056,7 +34062,7 @@
 									"home": {
 										"id": 2298,
 										"name": "FC Juarez",
-										"country": null,
+										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,

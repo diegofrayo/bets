@@ -371,7 +371,7 @@
 	},
 	"157": {
 		"name": "Bayern Munich",
-		"historic": false,
+		"historic": true,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"158": {
@@ -400,7 +400,7 @@
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"163": {
-		"name": "Borussia Monchengladbach",
+		"name": "Borussia Mönchengladbach",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -424,6 +424,11 @@
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
+	"168": {
+		"name": "Bayer Leverkusen",
+		"historic": true,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
 	"169": {
 		"name": "Eintracht Frankfurt",
 		"historic": false,
@@ -437,6 +442,11 @@
 	"171": {
 		"name": "FC Nurnberg",
 		"historic": false,
+		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
+	},
+	"172": {
+		"name": "VfB Stuttgart",
+		"historic": true,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"173": {
@@ -455,7 +465,7 @@
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"176": {
-		"name": "Vfl Bochum",
+		"name": "VfL Bochum",
 		"historic": false,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -1044,6 +1054,26 @@
 		"historic": false,
 		"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" }
 	},
+	"487": {
+		"name": "Lazio",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"489": {
+		"name": "AC Milan",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"494": {
+		"name": "Udinese",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"495": {
+		"name": "Genoa",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
 	"496": {
 		"name": "Juventus",
 		"historic": true,
@@ -1055,6 +1085,16 @@
 		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
 	},
 	"502": { "name": "Fiorentina", "historic": true, "country": null },
+	"505": {
+		"name": "Inter",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"523": {
+		"name": "Parma",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
 	"529": {
 		"name": "Barcelona",
 		"historic": true,
@@ -1761,6 +1801,101 @@
 		"historic": false,
 		"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" }
 	},
+	"1579": {
+		"name": "Monza",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"1595": {
+		"name": "Seattle Sounders",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1596": {
+		"name": "San Jose Earthquakes",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1597": {
+		"name": "FC Dallas",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1598": {
+		"name": "Orlando City SC",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1600": {
+		"name": "Houston Dynamo",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1601": {
+		"name": "Toronto FC",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1602": {
+		"name": "New York Red Bulls",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1604": {
+		"name": "New York City FC",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1605": {
+		"name": "Los Angeles Galaxy",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1606": {
+		"name": "Real Salt Lake",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1607": {
+		"name": "Chicago Fire",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1608": {
+		"name": "Atlanta United FC",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1609": {
+		"name": "New England Revolution",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1611": {
+		"name": "Sporting Kansas City",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1612": {
+		"name": "Minnesota United FC",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1614": {
+		"name": "CF Montreal",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1615": {
+		"name": "DC United",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"1617": {
+		"name": "Portland Timbers",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
 	"1619": {
 		"name": "FC 08 Villingen",
 		"historic": false,
@@ -1857,6 +1992,11 @@
 		"country": { "name": "Norway", "flag": "🇳🇴", "code": "NO" }
 	},
 	"2184": { "name": "Servette FC", "historic": false, "country": null },
+	"2242": {
+		"name": "FC Cincinnati",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
 	"2246": { "name": "CFR 1907 Cluj", "historic": false, "country": null },
 	"2247": { "name": "Apoel Nicosia", "historic": false, "country": null },
 	"2250": {
@@ -1865,6 +2005,16 @@
 		"country": { "name": "Czech-Republic", "flag": "🇨🇿", "code": "CZ" }
 	},
 	"2271": { "name": "Petrocub", "historic": false, "country": null },
+	"2278": {
+		"name": "Guadalajara Chivas",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2279": {
+		"name": "Tigres UANL",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
 	"2280": {
 		"name": "Club Tijuana",
 		"historic": false,
@@ -1875,8 +2025,33 @@
 		"historic": true,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},
+	"2283": {
+		"name": "Atlas",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
 	"2285": {
 		"name": "Santos Laguna",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2286": {
+		"name": "U.N.A.M. - Pumas",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2287": {
+		"name": "Club America",
+		"historic": true,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2288": {
+		"name": "Necaxa",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2289": {
+		"name": "Leon",
 		"historic": false,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},
@@ -1887,6 +2062,21 @@
 	},
 	"2291": {
 		"name": "Puebla",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2292": {
+		"name": "Pachuca",
+		"historic": true,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2295": {
+		"name": "Cruz Azul",
+		"historic": true,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2298": {
+		"name": "FC Juarez",
 		"historic": false,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},
@@ -2038,6 +2228,16 @@
 		"historic": false,
 		"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" }
 	},
+	"9568": {
+		"name": "Inter Miami",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
+	"9569": {
+		"name": "Nashville SC",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
 	"10487": { "name": "Sportivo Ameliano", "historic": false, "country": null },
 	"12733": { "name": "Ballkani", "historic": false, "country": null },
 	"12742": {
@@ -2056,6 +2256,11 @@
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
 	"13976": { "name": "Sabah FA", "historic": false, "country": null },
+	"14002": {
+		"name": "Mazatlán",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
 	"14281": { "name": "Drita", "historic": false, "country": null },
 	"14524": {
 		"name": "Schott Mainz",
@@ -2092,12 +2297,27 @@
 		"historic": false,
 		"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" }
 	},
+	"16489": {
+		"name": "Austin",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
 	"18036": {
 		"name": "Baladiyyat Al Mehalla",
 		"historic": false,
 		"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" }
 	},
+	"18310": {
+		"name": "Charlotte",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
 	"20034": { "name": "Corvinul Hunedoara", "historic": false, "country": null },
+	"20787": {
+		"name": "St. Louis City",
+		"historic": false,
+		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" }
+	},
 	"21595": {
 		"name": "AVS",
 		"historic": false,

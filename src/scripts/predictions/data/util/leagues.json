@@ -182,6 +182,15 @@
 		},
 		{
 			"enabled": true,
+			"id": 253,
+			"name": "Major League Soccer",
+			"type": "League",
+			"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 2
+		},
+		{
+			"enabled": true,
 			"id": 239,
 			"name": "Primera A",
 			"type": "League",
@@ -263,15 +272,6 @@
 		},
 		{
 			"enabled": false,
-			"id": 253,
-			"name": "Major League Soccer",
-			"type": "League",
-			"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
-			"season": { "year": 2024, "startDate": "2024-07-01" },
-			"priority": 2
-		},
-		{
-			"enabled": false,
 			"id": 16,
 			"name": "CONCACAF Champions League",
 			"type": "Cup",
@@ -344,7 +344,7 @@
 		},
 		{
 			"enabled": false,
-			"id": 135,
+			"id": 137,
 			"name": "Coppa Italia",
 			"type": "Cup",
 			"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
@@ -668,6 +668,64 @@
 			"11-conmebol-sudamericana-world",
 			"848-uefa-europa-conference-league-world",
 			"3-uefa-europa-league-world"
+		],
+		"2024-08-23": [
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"94-primeira-liga-portugal",
+			"119-superliga-denmark",
+			"203-super-lig-turkey",
+			"262-liga-mx-mexico",
+			"128-liga-profesional-argentina-argentina",
+			"239-primera-a-colombia"
+		],
+		"2024-08-24": [
+			"218-bundesliga-austria",
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"345-czech-liga-czech-republic",
+			"103-eliteserien-norway",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"39-premier-league-england",
+			"179-premiership-scotland",
+			"94-primeira-liga-portugal",
+			"135-serie-a-italy",
+			"119-superliga-denmark",
+			"203-super-lig-turkey",
+			"244-veikkausliiga-finland",
+			"262-liga-mx-mexico",
+			"128-liga-profesional-argentina-argentina",
+			"253-major-league-soccer-usa",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
+		],
+		"2024-08-25": [
+			"218-bundesliga-austria",
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"345-czech-liga-czech-republic",
+			"103-eliteserien-norway",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"39-premier-league-england",
+			"179-premiership-scotland",
+			"94-primeira-liga-portugal",
+			"135-serie-a-italy",
+			"119-superliga-denmark",
+			"203-super-lig-turkey",
+			"244-veikkausliiga-finland",
+			"164-urvalsdeild-iceland",
+			"262-liga-mx-mexico",
+			"128-liga-profesional-argentina-argentina",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
 		]
 	}
 }

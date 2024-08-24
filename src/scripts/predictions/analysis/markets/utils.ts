@@ -180,7 +180,11 @@ export function getLeagueStandingsLimits(
 		};
 	}
 
-	if (leagueStandings.items.length === 18 || leagueStandings.items.length === 16) {
+	if (
+		leagueStandings.items.length === 18 ||
+		leagueStandings.items.length === 16 ||
+		leagueStandings.items.length === 15
+	) {
 		return {
 			featured: 5,
 			poor: leagueStandings.items.length - 3,

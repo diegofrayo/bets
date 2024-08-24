@@ -1722,7 +1722,7 @@
 									},
 									"away": {
 										"id": 1313,
-										"name": "Preussen Munster",
+										"name": "Preußen Münster",
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
@@ -2446,7 +2446,7 @@
 						"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 						"position": null,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
 						"result": "WIN",
 						"score": {
 							"fullTime": 4,
@@ -2643,7 +2643,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -2704,7 +2704,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -2750,7 +2750,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -2796,7 +2796,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -2916,7 +2916,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
 								"recommended": false,
@@ -6934,7 +6934,7 @@
 									"home": {
 										"id": 172,
 										"name": "VfB Stuttgart",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -11134,7 +11134,7 @@
 									"home": {
 										"id": 505,
 										"name": "Inter",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -12582,7 +12582,7 @@
 									},
 									"away": {
 										"id": 176,
-										"name": "Vfl Bochum",
+										"name": "VfL Bochum",
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
@@ -23645,7 +23645,7 @@
 									"home": {
 										"id": 494,
 										"name": "Udinese",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -24086,7 +24086,7 @@
 									"away": {
 										"id": 523,
 										"name": "Parma",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -28343,7 +28343,7 @@
 									"home": {
 										"id": 2279,
 										"name": "Tigres UANL",
-										"country": null,
+										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 16,
 										"tag": "REGULAR",
 										"historic": false,
@@ -28407,7 +28407,7 @@
 									"away": {
 										"id": 9568,
 										"name": "Inter Miami",
-										"country": null,
+										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -28845,7 +28845,7 @@
 									"away": {
 										"id": 2286,
 										"name": "U.N.A.M. - Pumas",
-										"country": null,
+										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 13,
 										"tag": "REGULAR",
 										"historic": false,
@@ -28894,7 +28894,7 @@
 									"away": {
 										"id": 16489,
 										"name": "Austin",
-										"country": null,
+										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
