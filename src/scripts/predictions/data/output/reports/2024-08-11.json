@@ -51428,7 +51428,7 @@
 								"teams": {
 									"home": {
 										"id": 1313,
-										"name": "Preussen Munster",
+										"name": "Preußen Münster",
 										"country": null,
 										"position": null,
 										"tag": "REGULAR",
@@ -51749,7 +51749,7 @@
 									"away": {
 										"id": 517,
 										"name": "Venezia",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -52126,7 +52126,7 @@
 									"away": {
 										"id": 517,
 										"name": "Venezia",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -53262,7 +53262,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,

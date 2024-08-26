@@ -370,7 +370,7 @@
 		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" }
 	},
 	"157": {
-		"name": "Bayern Munich",
+		"name": "Bayern München",
 		"historic": true,
 		"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" }
 	},
@@ -1064,6 +1064,16 @@
 		"historic": true,
 		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
 	},
+	"490": {
+		"name": "Cagliari",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"492": {
+		"name": "Napoli",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
 	"494": {
 		"name": "Udinese",
 		"historic": false,
@@ -1079,15 +1089,49 @@
 		"historic": true,
 		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
 	},
+	"497": {
+		"name": "AS Roma",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
 	"499": {
 		"name": "Atalanta",
 		"historic": false,
 		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
 	},
-	"502": { "name": "Fiorentina", "historic": true, "country": null },
+	"500": {
+		"name": "Bologna",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"502": {
+		"name": "Fiorentina",
+		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"503": {
+		"name": "Torino",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"504": {
+		"name": "Verona",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
 	"505": {
 		"name": "Inter",
 		"historic": true,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"511": {
+		"name": "Empoli",
+		"historic": false,
+		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
+	},
+	"517": {
+		"name": "Venezia",
+		"historic": false,
 		"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" }
 	},
 	"523": {
@@ -1107,7 +1151,7 @@
 	},
 	"531": {
 		"name": "Athletic Club",
-		"historic": false,
+		"historic": true,
 		"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" }
 	},
 	"532": {
@@ -2017,6 +2061,11 @@
 	},
 	"2280": {
 		"name": "Club Tijuana",
+		"historic": false,
+		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
+	},
+	"2281": {
+		"name": "Toluca",
 		"historic": false,
 		"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" }
 	},

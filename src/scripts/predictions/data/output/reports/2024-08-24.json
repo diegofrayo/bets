@@ -415,11 +415,11 @@
 		"matches": [
 			{
 				"id": "1218593",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T10:00",
 				"date": "2024-08-24",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1398,
@@ -428,6 +428,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -807,6 +814,13 @@
 						"position": 12,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -1156,7 +1170,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -1177,7 +1197,13 @@
 										"explanation": "El local va de 6 y el visitante de 12 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -1228,7 +1254,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1246,11 +1278,11 @@
 			},
 			{
 				"id": "1218594",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T12:30",
 				"date": "2024-08-24",
 				"hour": "12:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 637,
@@ -1259,6 +1291,13 @@
 						"position": 3,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -1638,6 +1677,13 @@
 						"position": 4,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -1987,7 +2033,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -2008,7 +2060,13 @@
 										"explanation": "El local va de 3 y el visitante de 4 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -2059,7 +2117,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -2691,11 +2755,11 @@
 		"matches": [
 			{
 				"id": "1223976",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T08:30",
 				"date": "2024-08-24",
 				"hour": "08:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 173,
@@ -2704,6 +2768,13 @@
 						"position": 17,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -3077,6 +3148,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -3595,11 +3673,11 @@
 			},
 			{
 				"id": "1223977",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:30",
 				"date": "2024-08-24",
 				"hour": "11:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 165,
@@ -3608,6 +3686,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -4073,6 +4158,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -4499,11 +4591,11 @@
 			},
 			{
 				"id": "1223978",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T08:30",
 				"date": "2024-08-24",
 				"hour": "08:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 167,
@@ -4512,6 +4604,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -4977,6 +5076,13 @@
 						"position": 3,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -5403,11 +5509,11 @@
 			},
 			{
 				"id": "1223979",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T08:30",
 				"date": "2024-08-24",
 				"hour": "08:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 160,
@@ -5416,6 +5522,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -5742,7 +5855,14 @@
 						"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 						"position": 15,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -5947,7 +6067,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -5978,7 +6098,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -5993,7 +6113,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -6039,7 +6159,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -6085,7 +6205,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 5,
@@ -6116,7 +6236,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -6177,7 +6297,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -6223,7 +6343,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": 15,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 8,
@@ -6258,11 +6378,11 @@
 			},
 			{
 				"id": "1223980",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T08:30",
 				"date": "2024-08-24",
 				"hour": "08:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 170,
@@ -6271,6 +6391,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -6644,6 +6771,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -7116,11 +7250,11 @@
 			},
 			{
 				"id": "1223982",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T08:30",
 				"date": "2024-08-24",
 				"hour": "08:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 164,
@@ -7129,6 +7263,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -7548,6 +7689,13 @@
 						"position": 2,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -8832,11 +8980,11 @@
 		"matches": [
 			{
 				"id": "1215868",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T06:30",
 				"date": "2024-08-24",
 				"hour": "06:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 56,
@@ -8845,6 +8993,13 @@
 						"position": 7,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -9405,6 +9560,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -9981,7 +10143,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -10002,7 +10170,13 @@
 										"explanation": "El local va de 7 y el visitante de 10 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -10053,7 +10227,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -10071,11 +10251,11 @@
 			},
 			{
 				"id": "1215869",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T06:30",
 				"date": "2024-08-24",
 				"hour": "06:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 64,
@@ -10084,6 +10264,13 @@
 						"position": 17,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -10475,7 +10662,7 @@
 									"away": {
 										"id": 502,
 										"name": "Fiorentina",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": true,
@@ -10598,6 +10785,13 @@
 						"position": 22,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -11266,7 +11460,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -11287,7 +11487,13 @@
 										"explanation": "El local va de 17 y el visitante de 22 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -11338,7 +11544,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -11356,11 +11568,11 @@
 			},
 			{
 				"id": "1215873",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T06:30",
 				"date": "2024-08-24",
 				"hour": "06:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 72,
@@ -11369,6 +11581,13 @@
 						"position": 18,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -11837,6 +12056,13 @@
 						"position": 21,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -12413,7 +12639,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -12434,7 +12666,13 @@
 										"explanation": "El local va de 18 y el visitante de 21 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -12485,7 +12723,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -12503,11 +12747,11 @@
 			},
 			{
 				"id": "1215867",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 67,
@@ -12516,6 +12760,13 @@
 						"position": 5,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -13076,6 +13327,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -13744,7 +14002,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -13765,7 +14029,13 @@
 										"explanation": "El local va de 5 y el visitante de 9 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -13816,7 +14086,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -13834,11 +14110,11 @@
 			},
 			{
 				"id": "1215870",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 70,
@@ -13847,6 +14123,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -14453,6 +14736,13 @@
 						"position": 16,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -15029,7 +15319,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -15050,7 +15346,13 @@
 										"explanation": "El local va de 11 y el visitante de 16 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -15101,7 +15403,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -15119,11 +15427,11 @@
 			},
 			{
 				"id": "1215871",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 71,
@@ -15132,6 +15440,13 @@
 						"position": 19,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -15738,6 +16053,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -16314,7 +16636,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -16335,7 +16663,13 @@
 										"explanation": "El local va de 19 y el visitante de 15 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -16386,7 +16720,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -16404,11 +16744,11 @@
 			},
 			{
 				"id": "1215872",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 59,
@@ -16417,6 +16757,13 @@
 						"position": 23,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -16854,7 +17201,7 @@
 									"away": {
 										"id": 502,
 										"name": "Fiorentina",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": true,
@@ -17023,6 +17370,13 @@
 						"position": 20,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -17553,7 +17907,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -17574,7 +17934,13 @@
 										"explanation": "El local va de 23 y el visitante de 20 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -17625,7 +17991,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -17643,11 +18015,11 @@
 			},
 			{
 				"id": "1215875",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 75,
@@ -17656,6 +18028,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -18262,6 +18641,13 @@
 						"position": 6,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -18884,7 +19270,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -18905,7 +19297,13 @@
 										"explanation": "El local va de 14 y el visitante de 6 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -18956,7 +19354,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -18974,11 +19378,11 @@
 			},
 			{
 				"id": "1215876",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 746,
@@ -18987,6 +19391,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -19639,6 +20050,13 @@
 						"position": 1,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -19985,7 +20403,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -20006,7 +20430,13 @@
 										"explanation": "El local va de 2 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -20057,7 +20487,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -20075,11 +20511,11 @@
 			},
 			{
 				"id": "1215878",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 38,
@@ -20088,6 +20524,13 @@
 						"position": 3,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -20740,6 +21183,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -21408,7 +21858,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -21429,7 +21885,13 @@
 										"explanation": "El local va de 3 y el visitante de 12 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -21480,7 +21942,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22046,11 +22514,11 @@
 		"matches": [
 			{
 				"id": "1210419",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T10:00",
 				"date": "2024-08-24",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3720,
@@ -22059,6 +22527,13 @@
 						"position": 13,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -22490,6 +22965,13 @@
 						"position": 15,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -22888,7 +23370,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22909,7 +23397,13 @@
 										"explanation": "El local va de 13 y el visitante de 15 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22960,7 +23454,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22978,11 +23478,11 @@
 			},
 			{
 				"id": "1210421",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:00",
 				"date": "2024-08-24",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3724,
@@ -22991,6 +23491,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -23422,6 +23929,13 @@
 						"position": 5,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -23869,7 +24383,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -23890,7 +24410,13 @@
 										"explanation": "El local va de 12 y el visitante de 5 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -23941,7 +24467,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -23959,11 +24491,11 @@
 			},
 			{
 				"id": "1210425",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T07:30",
 				"date": "2024-08-24",
 				"hour": "07:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3714,
@@ -23972,6 +24504,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -24403,6 +24942,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -24850,7 +25396,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -24871,7 +25423,13 @@
 										"explanation": "El local va de 9 y el visitante de 8 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -24922,7 +25480,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -24940,11 +25504,11 @@
 			},
 			{
 				"id": "1210426",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T10:00",
 				"date": "2024-08-24",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 628,
@@ -24953,6 +25517,13 @@
 						"position": 1,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -25629,6 +26200,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -26076,7 +26654,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -26097,7 +26681,13 @@
 										"explanation": "El local va de 1 y el visitante de 6 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -26148,7 +26738,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -26714,11 +27310,11 @@
 		"matches": [
 			{
 				"id": "1164479",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 327,
@@ -26727,6 +27323,13 @@
 						"position": 1,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 6,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 4, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 27 partidos",
@@ -28227,6 +28830,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 4 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 23 partidos",
@@ -29544,7 +30154,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -29565,7 +30181,13 @@
 										"explanation": "El local va de 1 y el visitante de 10 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -29616,7 +30238,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -30248,11 +30876,11 @@
 		"matches": [
 			{
 				"id": "1213459",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:45",
 				"date": "2024-08-24",
 				"hour": "11:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 413,
@@ -30261,6 +30889,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -30729,6 +31364,13 @@
 						"position": 18,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -31028,7 +31670,7 @@
 									"away": {
 										"id": 517,
 										"name": "Venezia",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -31342,11 +31984,11 @@
 			},
 			{
 				"id": "1213460",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:00",
 				"date": "2024-08-24",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 419,
@@ -31355,6 +31997,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 1, "against": 5 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -31915,6 +32564,13 @@
 						"position": 1,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 7,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 5, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -32344,11 +33000,11 @@
 			},
 			{
 				"id": "1213461",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:00",
 				"date": "2024-08-24",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 203,
@@ -32357,6 +33013,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -32917,6 +33580,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -33216,7 +33886,7 @@
 									"away": {
 										"id": 517,
 										"name": "Venezia",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -33940,11 +34610,11 @@
 		"matches": [
 			{
 				"id": "1213235",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:15",
 				"date": "2024-08-24",
 				"hour": "11:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 261,
@@ -33953,6 +34623,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -34335,6 +35012,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -34733,7 +35417,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -34754,7 +35444,13 @@
 										"explanation": "El local va de 2 y el visitante de 10 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -34805,7 +35501,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -34823,11 +35525,11 @@
 			},
 			{
 				"id": "1213236",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:45",
 				"date": "2024-08-24",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 740,
@@ -34836,6 +35538,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -35218,6 +35927,13 @@
 						"position": 14,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -35616,7 +36332,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -35637,7 +36359,13 @@
 										"explanation": "El local va de 6 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -35688,7 +36416,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -36386,11 +37120,11 @@
 		"matches": [
 			{
 				"id": "1208505",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:30",
 				"date": "2024-08-24",
 				"hour": "14:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 546,
@@ -36399,6 +37133,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -36588,7 +37329,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -36910,6 +37651,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -37428,11 +38176,11 @@
 			},
 			{
 				"id": "1208510",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T12:00",
 				"date": "2024-08-24",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 529,
@@ -37441,6 +38189,13 @@
 						"position": 3,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -37740,7 +38495,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -37859,7 +38614,14 @@
 						"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 						"position": 8,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -38049,7 +38811,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -38098,7 +38860,7 @@
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -38113,7 +38875,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -38159,7 +38921,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -38190,7 +38952,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -38236,7 +38998,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -38297,7 +39059,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -38343,7 +39105,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -38389,7 +39151,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -38424,11 +39186,11 @@
 			},
 			{
 				"id": "1208511",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T10:00",
 				"date": "2024-08-24",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 727,
@@ -38437,6 +39199,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -38721,7 +39490,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": 8,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -38948,6 +39717,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -39198,7 +39974,7 @@
 									"away": {
 										"id": 500,
 										"name": "Bologna",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -39512,11 +40288,11 @@
 			},
 			{
 				"id": "1212911",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:30",
 				"date": "2024-08-24",
 				"hour": "14:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 540,
@@ -39525,6 +40301,13 @@
 						"position": 19,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -39944,6 +40727,13 @@
 						"position": 18,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -41030,11 +41820,11 @@
 		"matches": [
 			{
 				"id": "1213759",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:00",
 				"date": "2024-08-24",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1063,
@@ -41043,6 +41833,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -41554,6 +42351,13 @@
 						"position": 16,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -42026,11 +42830,11 @@
 			},
 			{
 				"id": "1213760",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T12:00",
 				"date": "2024-08-24",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 79,
@@ -42039,6 +42843,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -42697,6 +43508,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -43123,11 +43941,11 @@
 			},
 			{
 				"id": "1213763",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T10:00",
 				"date": "2024-08-24",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 80,
@@ -43136,6 +43954,13 @@
 						"position": 17,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -43478,7 +44303,7 @@
 									"away": {
 										"id": 503,
 										"name": "Torino",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -43647,6 +44472,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -44891,11 +45723,11 @@
 		"matches": [
 			{
 				"id": "1208032",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:30",
 				"date": "2024-08-24",
 				"hour": "11:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 66,
@@ -44904,6 +45736,13 @@
 						"position": 5,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -45203,7 +46042,7 @@
 										"country": { "name": "Spain", "flag": "🇪🇸", "code": "ES" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 2,
@@ -45234,7 +46073,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -45461,6 +46300,13 @@
 						"position": 2,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -45933,11 +46779,11 @@
 			},
 			{
 				"id": "1208033",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T06:30",
 				"date": "2024-08-24",
 				"hour": "06:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 51,
@@ -45946,6 +46792,13 @@
 						"position": 1,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -46411,6 +47264,13 @@
 						"position": 7,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -46929,11 +47789,11 @@
 			},
 			{
 				"id": "1208034",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 52,
@@ -46942,6 +47802,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -47407,6 +48274,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -47879,11 +48753,11 @@
 			},
 			{
 				"id": "1208035",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 36,
@@ -47892,6 +48766,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -48265,6 +49146,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -48737,11 +49625,11 @@
 			},
 			{
 				"id": "1208037",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 50,
@@ -48750,6 +49638,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 3, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -49141,7 +50036,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -49215,6 +50110,13 @@
 						"position": 19,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 3 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 4 partidos",
@@ -49595,11 +50497,11 @@
 			},
 			{
 				"id": "1208038",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 41,
@@ -49608,6 +50510,13 @@
 						"position": 16,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -49907,7 +50816,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -50165,6 +51074,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -50683,11 +51599,11 @@
 			},
 			{
 				"id": "1208039",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 47,
@@ -50696,6 +51612,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -51207,6 +52130,13 @@
 						"position": 20,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -51457,10 +52387,10 @@
 									"away": {
 										"id": 497,
 										"name": "AS Roma",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -52095,11 +53025,11 @@
 		"matches": [
 			{
 				"id": "1220123",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1386,
@@ -52108,6 +53038,13 @@
 						"position": 7,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -52438,6 +53375,13 @@
 						"position": 5,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -52775,11 +53719,11 @@
 			},
 			{
 				"id": "1220124",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 249,
@@ -52788,6 +53732,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -53118,6 +54069,13 @@
 						"position": 3,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -53455,11 +54413,11 @@
 			},
 			{
 				"id": "1220126",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 257,
@@ -53468,6 +54426,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 6,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 4, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -53896,6 +54861,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 4 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -54847,11 +55819,11 @@
 		"matches": [
 			{
 				"id": "1231748",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:30",
 				"date": "2024-08-24",
 				"hour": "14:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 242,
@@ -54860,6 +55832,13 @@
 						"position": 3,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -55420,6 +56399,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -55858,7 +56844,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -55879,7 +56871,13 @@
 										"explanation": "El local va de 3 y el visitante de 9 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -55930,7 +56928,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -55948,11 +56952,11 @@
 			},
 			{
 				"id": "1231750",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:30",
 				"date": "2024-08-24",
 				"hour": "09:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 4716,
@@ -55961,6 +56965,13 @@
 						"position": 17,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -56383,6 +57394,13 @@
 						"position": 7,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -56913,7 +57931,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -56934,7 +57958,13 @@
 										"explanation": "El local va de 17 y el visitante de 7 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -56985,7 +58015,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -57003,11 +58039,11 @@
 			},
 			{
 				"id": "1231751",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T12:00",
 				"date": "2024-08-24",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 212,
@@ -57016,6 +58052,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -57622,6 +58665,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -58198,7 +59248,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -58219,7 +59275,13 @@
 										"explanation": "El local va de 2 y el visitante de 11 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -58270,7 +59332,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -58288,11 +59356,11 @@
 			},
 			{
 				"id": "1231754",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:30",
 				"date": "2024-08-24",
 				"hour": "14:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 211,
@@ -58301,6 +59369,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -58861,6 +59936,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -59391,7 +60473,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -59412,7 +60500,13 @@
 										"explanation": "El local va de 8 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -59463,7 +60557,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -60161,11 +61261,11 @@
 		"matches": [
 			{
 				"id": "1223608",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:45",
 				"date": "2024-08-24",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 505,
@@ -60173,7 +61273,14 @@
 						"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 						"position": 6,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -60378,7 +61485,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -60427,7 +61534,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -60458,7 +61565,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -60519,7 +61626,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -60550,7 +61657,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -60596,7 +61703,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -60639,6 +61746,13 @@
 						"position": 20,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -61114,11 +62228,11 @@
 			},
 			{
 				"id": "1223609",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:45",
 				"date": "2024-08-24",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1579,
@@ -61127,6 +62241,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -61365,7 +62486,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -61641,6 +62762,13 @@
 						"position": 5,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -61845,7 +62973,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 6,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -62063,7 +63191,7 @@
 									"home": {
 										"id": 517,
 										"name": "Venezia",
-										"country": null,
+										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 17,
 										"tag": "REGULAR",
 										"historic": false,
@@ -62116,11 +63244,11 @@
 			},
 			{
 				"id": "1223611",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:30",
 				"date": "2024-08-24",
 				"hour": "11:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 523,
@@ -62129,6 +63257,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -62642,7 +63777,14 @@
 						"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 						"position": 7,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -62832,7 +63974,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -62881,7 +64023,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -62942,7 +64084,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 2,
@@ -62973,7 +64115,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -63034,7 +64176,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -63080,7 +64222,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 7,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -63115,11 +64257,11 @@
 			},
 			{
 				"id": "1223614",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:30",
 				"date": "2024-08-24",
 				"hour": "11:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 494,
@@ -63128,6 +64270,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -63641,7 +64790,14 @@
 						"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 						"position": 4,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -63831,7 +64987,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -63895,7 +65051,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -63941,7 +65097,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -63987,7 +65143,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -64033,7 +65189,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -64064,7 +65220,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -64110,7 +65266,7 @@
 										"country": { "name": "Italy", "flag": "🇮🇹", "code": "IT" },
 										"position": 4,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -64576,11 +65732,11 @@
 		"matches": [
 			{
 				"id": "1205454",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 397,
@@ -64589,6 +65745,13 @@
 						"position": 4,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -65265,6 +66428,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -65712,7 +66882,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -65733,7 +66909,13 @@
 										"explanation": "El local va de 4 y el visitante de 9 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -65784,7 +66966,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -66449,11 +67637,11 @@
 		"matches": [
 			{
 				"id": "1237870",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T11:15",
 				"date": "2024-08-24",
 				"hour": "11:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1002,
@@ -66462,6 +67650,13 @@
 						"position": 7,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -66746,6 +67941,13 @@
 						"position": 3,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -67046,7 +68248,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -67067,7 +68275,13 @@
 										"explanation": "El local va de 7 y el visitante de 3 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -67118,7 +68332,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -67136,11 +68356,11 @@
 			},
 			{
 				"id": "1237875",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:45",
 				"date": "2024-08-24",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 3583,
@@ -67149,6 +68369,13 @@
 						"position": 19,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 2 partidos",
@@ -67433,6 +68660,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -67963,7 +69197,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -67984,7 +69224,13 @@
 										"explanation": "El local va de 19 y el visitante de 8 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -68035,7 +69281,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -68469,11 +69721,11 @@
 		"matches": [
 			{
 				"id": "1164682",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2077,
@@ -68482,6 +69734,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 25 partidos",
@@ -69878,6 +71137,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 26 partidos",
@@ -71336,7 +72602,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -71357,7 +72629,13 @@
 										"explanation": "El local va de 9 y el visitante de 6 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -71408,7 +72686,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -71426,11 +72710,11 @@
 			},
 			{
 				"id": "1164683",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T09:00",
 				"date": "2024-08-24",
 				"hour": "09:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1163,
@@ -71439,6 +72723,13 @@
 						"position": 4,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 5,
+							"firstHalf": { "for": 4, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 25 partidos",
@@ -72847,6 +74138,13 @@
 						"position": 12,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 4 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 25 partidos",
@@ -74259,7 +75557,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -74280,7 +75584,13 @@
 										"explanation": "El local va de 4 y el visitante de 12 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -74331,7 +75641,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -74963,11 +76279,11 @@
 		"matches": [
 			{
 				"id": "1206042",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T18:00",
 				"date": "2024-08-24",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2288,
@@ -74976,6 +76292,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -75505,6 +76828,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -75902,7 +77232,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -76087,11 +77417,11 @@
 			},
 			{
 				"id": "1206043",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T20:00",
 				"date": "2024-08-24",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2289,
@@ -76100,6 +77430,13 @@
 						"position": 7,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -76500,7 +77837,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 11,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -76580,6 +77917,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -77165,11 +78509,11 @@
 			},
 			{
 				"id": "1206044",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T20:00",
 				"date": "2024-08-24",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2283,
@@ -77178,6 +78522,13 @@
 						"position": 2,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -77367,7 +78718,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -77707,6 +79058,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -78107,7 +79465,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 11,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -78292,11 +79650,11 @@
 			},
 			{
 				"id": "1206045",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T20:00",
 				"date": "2024-08-24",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2279,
@@ -78305,6 +79663,13 @@
 						"position": 16,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -78558,7 +79923,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 11,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -78754,7 +80119,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -78883,6 +80248,13 @@
 						"position": 5,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -79370,11 +80742,11 @@
 			},
 			{
 				"id": "1206046",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T22:05",
 				"date": "2024-08-24",
 				"hour": "22:05",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2287,
@@ -79382,7 +80754,14 @@
 						"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 						"position": 1,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -79572,7 +80951,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -79621,7 +81000,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -79670,7 +81049,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -79719,7 +81098,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 1,
@@ -79780,7 +81159,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -79826,7 +81205,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 2,
@@ -79875,7 +81254,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 0,
@@ -79909,7 +81288,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 3,
@@ -79973,7 +81352,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": 1,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -80004,6 +81383,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -81484,11 +82870,11 @@
 		"matches": [
 			{
 				"id": "1158815",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T15:00",
 				"date": "2024-08-24",
 				"hour": "15:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 478,
@@ -81497,6 +82883,13 @@
 						"position": 7,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 3, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -81977,6 +83370,13 @@
 						"position": 26,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 3 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -82473,7 +83873,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -82494,7 +83900,13 @@
 										"explanation": "El local va de 7 y el visitante de 26 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -82545,7 +83957,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -82563,11 +83981,11 @@
 			},
 			{
 				"id": "1158824",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T13:00",
 				"date": "2024-08-24",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 458,
@@ -82576,6 +83994,13 @@
 						"position": 21,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -83105,6 +84530,13 @@
 						"position": 1,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -83650,7 +85082,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -83671,7 +85109,13 @@
 										"explanation": "El local va de 21 y el visitante de 1 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -83722,7 +85166,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -83740,11 +85190,11 @@
 			},
 			{
 				"id": "1158825",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T17:30",
 				"date": "2024-08-24",
 				"hour": "17:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 452,
@@ -83753,6 +85203,13 @@
 						"position": 24,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 5,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 3, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -84233,6 +85690,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 1, "against": 3 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -84729,7 +86193,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -84750,7 +86220,13 @@
 										"explanation": "El local va de 24 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -84801,7 +86277,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -84819,11 +86301,11 @@
 			},
 			{
 				"id": "1158826",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T12:30",
 				"date": "2024-08-24",
 				"hour": "12:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 476,
@@ -84832,6 +86314,13 @@
 						"position": 17,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -85312,6 +86801,13 @@
 						"position": 20,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -85808,7 +87304,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -85829,7 +87331,13 @@
 										"explanation": "El local va de 17 y el visitante de 20 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -85880,7 +87388,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -86413,11 +87927,11 @@
 		"matches": [
 			{
 				"id": "1151118",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T17:45",
 				"date": "2024-08-24",
 				"hour": "17:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1612,
@@ -86426,6 +87940,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -86955,6 +88476,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -87644,7 +89172,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -87665,7 +89199,13 @@
 										"explanation": "El local va de 0 y el visitante de 0 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -87716,7 +89256,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -87734,11 +89280,11 @@
 			},
 			{
 				"id": "1151120",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T18:30",
 				"date": "2024-08-24",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 18310,
@@ -87747,6 +89293,13 @@
 						"position": 6,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -87951,7 +89504,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -88227,6 +89780,13 @@
 						"position": 4,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -88416,7 +89976,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 1,
@@ -88723,7 +90283,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -88744,7 +90310,13 @@
 										"explanation": "El local va de 6 y el visitante de 4 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -88795,7 +90367,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -88813,11 +90391,11 @@
 			},
 			{
 				"id": "1151121",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T18:30",
 				"date": "2024-08-24",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1615,
@@ -88826,6 +90404,13 @@
 						"position": 13,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 4 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -89401,6 +90986,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 4, "against": 2 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -89992,7 +91584,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -90013,7 +91611,13 @@
 										"explanation": "El local va de 13 y el visitante de 0 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -90064,7 +91668,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -90082,11 +91692,11 @@
 			},
 			{
 				"id": "1151122",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T18:30",
 				"date": "2024-08-24",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 9568,
@@ -90095,6 +91705,13 @@
 						"position": 1,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -90673,6 +92290,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -91316,7 +92940,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -91337,7 +92967,13 @@
 										"explanation": "El local va de 1 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -91388,7 +93024,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -91406,11 +93048,11 @@
 			},
 			{
 				"id": "1151123",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T18:30",
 				"date": "2024-08-24",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1614,
@@ -91419,6 +93061,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 3 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -91997,6 +93646,13 @@
 						"position": 15,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 5,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 3, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -92591,7 +94247,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -92612,7 +94274,13 @@
 										"explanation": "El local va de 11 y el visitante de 15 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -92663,7 +94331,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -92681,11 +94355,11 @@
 			},
 			{
 				"id": "1151124",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T18:30",
 				"date": "2024-08-24",
 				"hour": "18:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1604,
@@ -92694,6 +94368,13 @@
 						"position": 5,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -93370,6 +95051,13 @@
 						"position": 14,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -93556,7 +95244,7 @@
 									"home": {
 										"id": 2281,
 										"name": "Toluca",
-										"country": null,
+										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -93915,7 +95603,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -93936,7 +95630,13 @@
 										"explanation": "El local va de 5 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -93987,7 +95687,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -94005,11 +95711,11 @@
 			},
 			{
 				"id": "1151126",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T19:30",
 				"date": "2024-08-24",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1600,
@@ -94018,6 +95724,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -94204,7 +95917,7 @@
 									"home": {
 										"id": 2281,
 										"name": "Toluca",
-										"country": null,
+										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -94547,6 +96260,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -94785,7 +96505,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "LOSE",
 										"score": {
 											"fullTime": 1,
@@ -95187,7 +96907,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -95208,7 +96934,13 @@
 										"explanation": "El local va de 0 y el visitante de 8 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -95259,7 +96991,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -95277,11 +97015,11 @@
 			},
 			{
 				"id": "1151127",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T19:30",
 				"date": "2024-08-24",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1611,
@@ -95290,6 +97028,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -95525,7 +97270,7 @@
 									"home": {
 										"id": 2281,
 										"name": "Toluca",
-										"country": null,
+										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -95914,6 +97659,13 @@
 						"position": 7,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -96118,7 +97870,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "DRAW",
 										"score": {
 											"fullTime": 0,
@@ -96508,7 +98260,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -96529,7 +98287,13 @@
 										"explanation": "El local va de 0 y el visitante de 7 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -96580,7 +98344,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -96598,11 +98368,11 @@
 			},
 			{
 				"id": "1151128",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T19:30",
 				"date": "2024-08-24",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 9569,
@@ -96611,6 +98381,13 @@
 						"position": 12,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -97140,6 +98917,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -97685,7 +99469,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -97706,7 +99496,13 @@
 										"explanation": "El local va de 12 y el visitante de 0 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -97757,7 +99553,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -97775,11 +99577,11 @@
 			},
 			{
 				"id": "1151129",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T20:30",
 				"date": "2024-08-24",
 				"hour": "20:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1606,
@@ -97788,6 +99590,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -98317,6 +100126,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -98960,7 +100776,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -98981,7 +100803,13 @@
 										"explanation": "El local va de 0 y el visitante de 0 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -99032,7 +100860,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -99050,11 +100884,11 @@
 			},
 			{
 				"id": "1151130",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T21:30",
 				"date": "2024-08-24",
 				"hour": "21:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1605,
@@ -99063,6 +100897,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -99641,6 +101482,13 @@
 						"position": 9,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -100232,7 +102080,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -100253,7 +102107,13 @@
 										"explanation": "El local va de 0 y el visitante de 9 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -100304,7 +102164,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -100322,11 +102188,11 @@
 			},
 			{
 				"id": "1151131",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T21:30",
 				"date": "2024-08-24",
 				"hour": "21:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1617,
@@ -100335,6 +102201,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 1, "against": 3 },
+							"secondHalf": { "for": 3, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -100864,6 +102737,13 @@
 						"position": null,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 3, "against": 1 },
+							"secondHalf": { "for": 1, "against": 3 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -101053,7 +102933,7 @@
 										"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
 										"position": null,
 										"tag": "REGULAR",
-										"historic": false,
+										"historic": true,
 										"result": "WIN",
 										"score": {
 											"fullTime": 4,
@@ -101507,7 +103387,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -101528,7 +103414,13 @@
 										"explanation": "El local va de 0 y el visitante de 0 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -101579,7 +103471,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -102277,11 +104175,11 @@
 		"matches": [
 			{
 				"id": "1234206",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T19:30",
 				"date": "2024-08-24",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1142,
@@ -102290,6 +104188,13 @@
 						"position": 6,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -102721,6 +104626,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -103266,7 +105178,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -103287,7 +105205,13 @@
 										"explanation": "El local va de 6 y el visitante de 8 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -103338,7 +105262,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -103356,11 +105286,11 @@
 			},
 			{
 				"id": "1234209",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T17:15",
 				"date": "2024-08-24",
 				"hour": "17:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1141,
@@ -103369,6 +105299,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 5 partidos",
@@ -103800,6 +105737,13 @@
 						"position": 19,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -104296,7 +106240,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -104317,7 +106267,13 @@
 										"explanation": "El local va de 14 y el visitante de 19 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -104368,7 +106324,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -104386,11 +106348,11 @@
 			},
 			{
 				"id": "1234210",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T15:00",
 				"date": "2024-08-24",
 				"hour": "15:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1140,
@@ -104399,6 +106361,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -104879,6 +106848,13 @@
 						"position": 5,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -105424,7 +107400,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -105445,7 +107427,13 @@
 										"explanation": "El local va de 15 y el visitante de 5 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -105496,7 +107484,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -106194,11 +108188,11 @@
 		"matches": [
 			{
 				"id": "1180586",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T19:00",
 				"date": "2024-08-24",
 				"hour": "19:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1062,
@@ -106207,6 +108201,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 31 partidos",
@@ -107912,6 +109913,13 @@
 						"position": 18,
 						"tag": "POOR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 32 partidos",
@@ -109682,7 +111690,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -109703,7 +111717,13 @@
 										"explanation": "El local va de 8 y el visitante de 18 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -109754,7 +111774,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -109772,11 +111798,11 @@
 			},
 			{
 				"id": "1180590",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T16:30",
 				"date": "2024-08-24",
 				"hour": "16:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 121,
@@ -109785,6 +111811,13 @@
 						"position": 3,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 5,
+							"firstHalf": { "for": 4, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 33 partidos",
@@ -111588,6 +113621,13 @@
 						"position": 19,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 4 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 31 partidos",
@@ -113303,7 +115343,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -113324,7 +115370,13 @@
 										"explanation": "El local va de 3 y el visitante de 19 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -113375,7 +115427,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -113393,11 +115451,11 @@
 			},
 			{
 				"id": "1180593",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-08-24T14:00",
 				"date": "2024-08-24",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 144,
@@ -113406,6 +115464,13 @@
 						"position": 20,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 27 partidos",
@@ -114915,6 +116980,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 26 partidos",
@@ -116391,7 +118463,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -116412,7 +118490,13 @@
 										"explanation": "El local va de 20 y el visitante de 11 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -116463,7 +118547,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
