@@ -51429,7 +51429,7 @@
 									"home": {
 										"id": 1313,
 										"name": "Preußen Münster",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -53227,7 +53227,7 @@
 									},
 									"away": {
 										"id": 163,
-										"name": "Borussia Monchengladbach",
+										"name": "Borussia Mönchengladbach",
 										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",

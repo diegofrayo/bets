@@ -7,7 +7,7 @@ import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
 
 import APIClient from "./api-client";
 import DataClient from "./data-client";
-import { beforeThanToday, formatCode, formatDate } from "./utils";
+import { formatCode, formatDate } from "./utils";
 import type { T_DayOfMatches, T_FixtureNextMatchTeam, T_FixturePlayedMatchTeam } from "./types";
 
 export default async function main(config: T_AnalysisConfig) {
@@ -200,80 +200,36 @@ export default async function main(config: T_AnalysisConfig) {
 
 function createRequestConfig(requestConfig: T_AnalysisConfig, formattedDate: DR.Dates.DateString) {
 	if (requestConfig.config === "SPECIFIC_DATE") {
+		const enableRemoteAPI = requestConfig.enableRemoteAPI.FIXTURE_MATCHES;
+
 		if (requestConfig.date === "yesterday") {
 			return {
 				date: formattedDate,
-				enableRemoteAPI: requestConfig.enableRemoteAPI,
-				fetchFromAPI: requestConfig.enableRemoteAPI
-					? {
-							FIXTURE_MATCHES: true,
-							PLAYED_MATCHES: false,
-							LEAGUE_STANDINGS: false,
-						}
-					: {
-							FIXTURE_MATCHES: false,
-							PLAYED_MATCHES: false,
-							LEAGUE_STANDINGS: false,
-						},
+				enableRemoteAPI,
+				fetchFromAPI: requestConfig.enableRemoteAPI,
 			};
 		}
 
 		if (requestConfig.date === "today") {
 			return {
 				date: formattedDate,
-				enableRemoteAPI: requestConfig.enableRemoteAPI,
-				fetchFromAPI: requestConfig.enableRemoteAPI
-					? {
-							FIXTURE_MATCHES: true,
-							PLAYED_MATCHES: false,
-							LEAGUE_STANDINGS: false,
-						}
-					: {
-							FIXTURE_MATCHES: false,
-							PLAYED_MATCHES: false,
-							LEAGUE_STANDINGS: false,
-						},
+				enableRemoteAPI,
+				fetchFromAPI: requestConfig.enableRemoteAPI,
 			};
 		}
 
 		if (requestConfig.date === "tomorrow") {
 			return {
 				date: formattedDate,
-				enableRemoteAPI: requestConfig.enableRemoteAPI,
-				fetchFromAPI: requestConfig.enableRemoteAPI
-					? {
-							FIXTURE_MATCHES: true,
-							PLAYED_MATCHES: true,
-							LEAGUE_STANDINGS: true,
-						}
-					: {
-							FIXTURE_MATCHES: false,
-							PLAYED_MATCHES: false,
-							LEAGUE_STANDINGS: false,
-						},
+				enableRemoteAPI,
+				fetchFromAPI: requestConfig.enableRemoteAPI,
 			};
 		}
 
 		return {
 			date: formattedDate,
-			enableRemoteAPI: requestConfig.enableRemoteAPI,
-			fetchFromAPI: requestConfig.enableRemoteAPI
-				? beforeThanToday(formattedDate)
-					? {
-							FIXTURE_MATCHES: true,
-							PLAYED_MATCHES: false,
-							LEAGUE_STANDINGS: false,
-						}
-					: {
-							FIXTURE_MATCHES: true,
-							PLAYED_MATCHES: true,
-							LEAGUE_STANDINGS: true,
-						}
-				: {
-						FIXTURE_MATCHES: false,
-						PLAYED_MATCHES: false,
-						LEAGUE_STANDINGS: false,
-					},
+			enableRemoteAPI,
+			fetchFromAPI: requestConfig.enableRemoteAPI,
 		};
 	}
 
@@ -344,7 +300,11 @@ type T_AnalysisConfig =
 	| {
 			config: "SPECIFIC_DATE";
 			date: "today" | "tomorrow" | "yesterday" | DR.Dates.DateString;
-			enableRemoteAPI: boolean;
+			enableRemoteAPI: {
+				FIXTURE_MATCHES: boolean;
+				PLAYED_MATCHES: boolean;
+				LEAGUE_STANDINGS: boolean;
+			};
 	  }
 	| {
 			config: "OFFLINE_REBUILDING";

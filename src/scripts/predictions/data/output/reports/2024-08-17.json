@@ -4326,7 +4326,7 @@
 									"away": {
 										"id": 1325,
 										"name": "Carl Zeiss Jena",
-										"country": null,
+										"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
@@ -62024,7 +62024,7 @@
 									"home": {
 										"id": 1613,
 										"name": "Columbus Crew",
-										"country": null,
+										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": null,
 										"tag": "REGULAR",
 										"historic": false,
