@@ -1,0 +1,5629 @@
+[
+	{
+		"id": 71,
+		"name": "Serie A",
+		"type": "League",
+		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+		"priority": 2,
+		"standings": {
+			"type": "REGULAR",
+			"items": [
+				{
+					"teamId": 120,
+					"teamName": "Botafogo",
+					"points": 50,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 15,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 43, "against": 24, "diff": 19 }
+						},
+						"home": {
+							"played": 12,
+							"win": 9,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 22, "against": 9 }
+						},
+						"away": {
+							"played": 13,
+							"win": 6,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 21, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
+					}
+				},
+				{
+					"teamId": 154,
+					"teamName": "Fortaleza EC",
+					"points": 48,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 14,
+							"draw": 6,
+							"lose": 4,
+							"goals": { "for": 30, "against": 22, "diff": 8 }
+						},
+						"home": {
+							"played": 13,
+							"win": 10,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 20, "against": 6 }
+						},
+						"away": {
+							"played": 11,
+							"win": 4,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 10, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
+					}
+				},
+				{
+					"teamId": 121,
+					"teamName": "Palmeiras",
+					"points": 47,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 14,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 38, "against": 19, "diff": 19 }
+						},
+						"home": {
+							"played": 13,
+							"win": 9,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 23, "against": 9 }
+						},
+						"away": {
+							"played": 12,
+							"win": 5,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 15, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 127,
+					"teamName": "Flamengo",
+					"points": 44,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 13,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 39, "against": 28, "diff": 11 }
+						},
+						"home": {
+							"played": 12,
+							"win": 8,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 19, "against": 12 }
+						},
+						"away": {
+							"played": 12,
+							"win": 5,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 20, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+						}
+					}
+				},
+				{
+					"teamId": 135,
+					"teamName": "Cruzeiro",
+					"points": 41,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 12,
+							"draw": 5,
+							"lose": 8,
+							"goals": { "for": 34, "against": 26, "diff": 8 }
+						},
+						"home": {
+							"played": 12,
+							"win": 9,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 23, "against": 8 }
+						},
+						"away": {
+							"played": 13,
+							"win": 3,
+							"draw": 3,
+							"lose": 7,
+							"goals": { "for": 11, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 126,
+					"teamName": "Sao Paulo",
+					"points": 41,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 12,
+							"draw": 5,
+							"lose": 8,
+							"goals": { "for": 33, "against": 26, "diff": 7 }
+						},
+						"home": {
+							"played": 13,
+							"win": 9,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 19, "against": 9 }
+						},
+						"away": {
+							"played": 12,
+							"win": 3,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 14, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
+					}
+				},
+				{
+					"teamId": 118,
+					"teamName": "Bahia",
+					"points": 39,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 11,
+							"draw": 6,
+							"lose": 8,
+							"goals": { "for": 34, "against": 27, "diff": 7 }
+						},
+						"home": {
+							"played": 12,
+							"win": 8,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 17, "against": 7 }
+						},
+						"away": {
+							"played": 13,
+							"win": 3,
+							"draw": 4,
+							"lose": 6,
+							"goals": { "for": 17, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 133,
+					"teamName": "Vasco DA Gama",
+					"points": 34,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 10,
+							"draw": 4,
+							"lose": 10,
+							"goals": { "for": 29, "against": 34, "diff": -5 }
+						},
+						"home": {
+							"played": 12,
+							"win": 7,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 20, "against": 17 }
+						},
+						"away": {
+							"played": 12,
+							"win": 3,
+							"draw": 1,
+							"lose": 8,
+							"goals": { "for": 9, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 1062,
+					"teamName": "Atletico-MG",
+					"points": 33,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 8,
+							"draw": 9,
+							"lose": 6,
+							"goals": { "for": 32, "against": 33, "diff": -1 }
+						},
+						"home": {
+							"played": 12,
+							"win": 4,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 16, "against": 17 }
+						},
+						"away": {
+							"played": 11,
+							"win": 4,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 16, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 119,
+					"teamName": "Internacional",
+					"points": 32,
+					"stats": {
+						"all": {
+							"played": 22,
+							"win": 8,
+							"draw": 8,
+							"lose": 6,
+							"goals": { "for": 22, "against": 19, "diff": 3 }
+						},
+						"home": {
+							"played": 10,
+							"win": 4,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 12, "against": 10 }
+						},
+						"away": {
+							"played": 12,
+							"win": 4,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 10, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 794,
+					"teamName": "RB Bragantino",
+					"points": 30,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 8,
+							"draw": 6,
+							"lose": 10,
+							"goals": { "for": 29, "against": 30, "diff": -1 }
+						},
+						"home": {
+							"played": 11,
+							"win": 7,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 16, "against": 11 }
+						},
+						"away": {
+							"played": 13,
+							"win": 1,
+							"draw": 5,
+							"lose": 7,
+							"goals": { "for": 13, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 134,
+					"teamName": "Atletico Paranaense",
+					"points": 29,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 8,
+							"draw": 5,
+							"lose": 10,
+							"goals": { "for": 26, "against": 28, "diff": -2 }
+						},
+						"home": {
+							"played": 11,
+							"win": 4,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 14, "against": 14 }
+						},
+						"away": {
+							"played": 12,
+							"win": 4,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 12, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 140,
+					"teamName": "Criciuma",
+					"points": 28,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 7,
+							"draw": 7,
+							"lose": 10,
+							"goals": { "for": 32, "against": 35, "diff": -3 }
+						},
+						"home": {
+							"played": 13,
+							"win": 4,
+							"draw": 6,
+							"lose": 3,
+							"goals": { "for": 17, "against": 18 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 1,
+							"lose": 7,
+							"goals": { "for": 15, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 152,
+					"teamName": "Juventude",
+					"points": 28,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 7,
+							"draw": 7,
+							"lose": 10,
+							"goals": { "for": 29, "against": 35, "diff": -6 }
+						},
+						"home": {
+							"played": 12,
+							"win": 6,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 18, "against": 11 }
+						},
+						"away": {
+							"played": 12,
+							"win": 1,
+							"draw": 3,
+							"lose": 8,
+							"goals": { "for": 11, "against": 24 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
+					}
+				},
+				{
+					"teamId": 130,
+					"teamName": "Gremio",
+					"points": 27,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 8,
+							"draw": 3,
+							"lose": 12,
+							"goals": { "for": 23, "against": 28, "diff": -5 }
+						},
+						"home": {
+							"played": 12,
+							"win": 5,
+							"draw": 1,
+							"lose": 6,
+							"goals": { "for": 12, "against": 14 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 11, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 124,
+					"teamName": "Fluminense",
+					"points": 27,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 7,
+							"draw": 6,
+							"lose": 11,
+							"goals": { "for": 20, "against": 26, "diff": -6 }
+						},
+						"home": {
+							"played": 12,
+							"win": 4,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 13, "against": 11 }
+						},
+						"away": {
+							"played": 12,
+							"win": 3,
+							"draw": 1,
+							"lose": 8,
+							"goals": { "for": 7, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+						}
+					}
+				},
+				{
+					"teamId": 131,
+					"teamName": "Corinthians",
+					"points": 25,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 5,
+							"draw": 10,
+							"lose": 10,
+							"goals": { "for": 22, "against": 31, "diff": -9 }
+						},
+						"home": {
+							"played": 12,
+							"win": 4,
+							"draw": 7,
+							"lose": 1,
+							"goals": { "for": 17, "against": 12 }
+						},
+						"away": {
+							"played": 13,
+							"win": 1,
+							"draw": 3,
+							"lose": 9,
+							"goals": { "for": 5, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.4
+						}
+					}
+				},
+				{
+					"teamId": 136,
+					"teamName": "Vitoria",
+					"points": 22,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 6,
+							"draw": 4,
+							"lose": 15,
+							"goals": { "for": 26, "against": 39, "diff": -13 }
+						},
+						"home": {
+							"played": 13,
+							"win": 4,
+							"draw": 2,
+							"lose": 7,
+							"goals": { "for": 15, "against": 19 }
+						},
+						"away": {
+							"played": 12,
+							"win": 2,
+							"draw": 2,
+							"lose": 8,
+							"goals": { "for": 11, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
+					}
+				},
+				{
+					"teamId": 1193,
+					"teamName": "Cuiaba",
+					"points": 21,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 5,
+							"draw": 6,
+							"lose": 12,
+							"goals": { "for": 23, "against": 35, "diff": -12 }
+						},
+						"home": {
+							"played": 12,
+							"win": 2,
+							"draw": 3,
+							"lose": 7,
+							"goals": { "for": 11, "against": 16 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 12, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
+					}
+				},
+				{
+					"teamId": 144,
+					"teamName": "Atletico Goianiense",
+					"points": 18,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 4,
+							"draw": 6,
+							"lose": 15,
+							"goals": { "for": 21, "against": 40, "diff": -19 }
+						},
+						"home": {
+							"played": 12,
+							"win": 2,
+							"draw": 3,
+							"lose": 7,
+							"goals": { "for": 11, "against": 20 }
+						},
+						"away": {
+							"played": 13,
+							"win": 2,
+							"draw": 3,
+							"lose": 8,
+							"goals": { "for": 10, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				}
+			],
+			"stats": {
+				"partidos_jugados": 25,
+				"promedio_de_goles_anotados_por_partido": 24.1,
+				"promedio_de_goles_anotados_de_local_por_partido": 27.8,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 21
+			}
+		},
+		"matches": [
+			{
+				"id": "1180513",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-05T18:00",
+				"date": "2024-09-05",
+				"hour": "18:00",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 1193,
+						"name": "Cuiaba",
+						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+						"position": 19,
+						"tag": "POOR",
+						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 33 partidos",
+								"items": {
+									"total_de_partidos": 33,
+									"total_de_goles_anotados": 36,
+									"total_de_goles_recibidos": 45,
+									"promedio_de_goles_anotados": 1.1,
+									"promedio_de_goles_recibidos": 1.4,
+									"partidos_ganados": 9,
+									"partidos_empatados": 9,
+									"partidos_perdidos": 15,
+									"partidos_con_goles_anotados": 21,
+									"partidos_con_goles_recibidos": 26,
+									"puntos_ganados": 36,
+									"porcentaje_de_puntos_ganados": 36.4,
+									"total_de_goles_anotados_en_primera_mitad": 17,
+									"total_de_goles_recibidos_en_primera_mitad": 22,
+									"partidos_con_goles_anotados_en_primera_mitad": 10,
+									"partidos_con_goles_recibidos_en_primera_mitad": 17,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 19,
+									"total_de_goles_recibidos_en_segunda_mitad": 23,
+									"partidos_con_goles_anotados_en_segunda_mitad": 16,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 19,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.6
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 33 partidos",
+								"items": {
+									"total_de_partidos": 17,
+									"total_de_goles_anotados": 21,
+									"total_de_goles_recibidos": 21,
+									"promedio_de_goles_anotados": 1.2,
+									"promedio_de_goles_recibidos": 1.2,
+									"partidos_ganados": 5,
+									"partidos_empatados": 4,
+									"partidos_perdidos": 8,
+									"partidos_con_goles_anotados": 11,
+									"partidos_con_goles_recibidos": 12,
+									"puntos_ganados": 19,
+									"porcentaje_de_puntos_ganados": 37.3,
+									"total_de_goles_anotados_en_primera_mitad": 10,
+									"total_de_goles_recibidos_en_primera_mitad": 9,
+									"partidos_con_goles_anotados_en_primera_mitad": 5,
+									"partidos_con_goles_recibidos_en_primera_mitad": 9,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 11,
+									"total_de_goles_recibidos_en_segunda_mitad": 12,
+									"partidos_con_goles_anotados_en_segunda_mitad": 9,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 9,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 33 partidos",
+								"items": {
+									"total_de_partidos": 16,
+									"total_de_goles_anotados": 15,
+									"total_de_goles_recibidos": 24,
+									"promedio_de_goles_anotados": 0.9,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 4,
+									"partidos_empatados": 5,
+									"partidos_perdidos": 7,
+									"partidos_con_goles_anotados": 10,
+									"partidos_con_goles_recibidos": 14,
+									"puntos_ganados": 17,
+									"porcentaje_de_puntos_ganados": 35.4,
+									"total_de_goles_anotados_en_primera_mitad": 7,
+									"total_de_goles_recibidos_en_primera_mitad": 13,
+									"partidos_con_goles_anotados_en_primera_mitad": 5,
+									"partidos_con_goles_recibidos_en_primera_mitad": 8,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 8,
+									"total_de_goles_recibidos_en_segunda_mitad": 11,
+									"partidos_con_goles_anotados_en_segunda_mitad": 7,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 10,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.6
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 11,
+									"promedio_de_goles_anotados": 0.8,
+									"promedio_de_goles_recibidos": 2.2,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 3,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 5,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 26.7,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 7,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.2,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.8,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.6
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 2,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 6,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 16.7,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 5,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1180603",
+								"fullDate": "2024-08-31T16:30",
+								"date": "2024-08-31",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180590",
+								"fullDate": "2024-08-24T16:30",
+								"date": "2024-08-24",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 121,
+										"name": "Palmeiras",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 4, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 4 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180576",
+								"fullDate": "2024-08-17T14:00",
+								"date": "2024-08-17",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 1062,
+										"name": "Atletico-MG",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180573",
+								"fullDate": "2024-08-10T17:00",
+								"date": "2024-08-10",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 130,
+										"name": "Gremio",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 15,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180557",
+								"fullDate": "2024-08-03T14:00",
+								"date": "2024-08-03",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 136,
+										"name": "Vitoria",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 18,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180553",
+								"fullDate": "2024-07-28T17:00",
+								"date": "2024-07-28",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1202646",
+								"fullDate": "2024-07-25T17:00",
+								"date": "2024-07-25",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2318,
+										"name": "Palestino",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180533",
+								"fullDate": "2024-07-21T18:00",
+								"date": "2024-07-21",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 124,
+										"name": "Fluminense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1202645",
+								"fullDate": "2024-07-18T17:00",
+								"date": "2024-07-18",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 2318,
+										"name": "Palestino",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180517",
+								"fullDate": "2024-07-13T14:00",
+								"date": "2024-07-13",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 118,
+										"name": "Bahia",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180498",
+								"fullDate": "2024-07-06T18:00",
+								"date": "2024-07-06",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 127,
+										"name": "Flamengo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180493",
+								"fullDate": "2024-07-03T17:00",
+								"date": "2024-07-03",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 120,
+										"name": "Botafogo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 1,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180483",
+								"fullDate": "2024-06-29T16:30",
+								"date": "2024-06-29",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 794,
+										"name": "RB Bragantino",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180470",
+								"fullDate": "2024-06-26T18:00",
+								"date": "2024-06-26",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180463",
+								"fullDate": "2024-06-22T16:30",
+								"date": "2024-06-22",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 144,
+										"name": "Atletico Goianiense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180451",
+								"fullDate": "2024-06-19T18:00",
+								"date": "2024-06-19",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 126,
+										"name": "Sao Paulo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 6,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180443",
+								"fullDate": "2024-06-16T16:30",
+								"date": "2024-06-16",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 4, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 4 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180426",
+								"fullDate": "2024-06-13T17:00",
+								"date": "2024-06-13",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 135,
+										"name": "Cruzeiro",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180414",
+								"fullDate": "2024-06-09T14:00",
+								"date": "2024-06-09",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 3 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 3, "against": 0 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180373",
+								"fullDate": "2024-06-05T18:00",
+								"date": "2024-06-05",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 136,
+										"name": "Vitoria",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 18,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180423",
+								"fullDate": "2024-06-01T16:30",
+								"date": "2024-06-01",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187175",
+								"fullDate": "2024-05-29T17:00",
+								"date": "2024-05-29",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 446,
+										"name": "Lanus",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196759",
+								"fullDate": "2024-05-23T17:30",
+								"date": "2024-05-23",
+								"hour": "17:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": 1, "against": 0 }
+										}
+									},
+									"away": {
+										"id": 151,
+										"name": "Goias",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": 0, "against": 1 }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187161",
+								"fullDate": "2024-05-15T19:00",
+								"date": "2024-05-15",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20960,
+										"name": "Deportivo Garcilaso",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1190153",
+								"fullDate": "2024-05-11T17:00",
+								"date": "2024-05-11",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 3, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 142,
+										"name": "Vila Nova",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 3 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 843,
+									"name": "Copa Verde",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187147",
+								"fullDate": "2024-05-08T19:00",
+								"date": "2024-05-08",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2825,
+										"name": "Metropolitanos FC",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180403",
+								"fullDate": "2024-05-05T16:30",
+								"date": "2024-05-05",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 121,
+										"name": "Palmeiras",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196758",
+								"fullDate": "2024-05-02T19:30",
+								"date": "2024-05-02",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 151,
+										"name": "Goias",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180393",
+								"fullDate": "2024-04-27T16:30",
+								"date": "2024-04-27",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1062,
+										"name": "Atletico-MG",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187122",
+								"fullDate": "2024-04-23T19:00",
+								"date": "2024-04-23",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 20960,
+										"name": "Deportivo Garcilaso",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180375",
+								"fullDate": "2024-04-20T16:30",
+								"date": "2024-04-20",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 130,
+										"name": "Gremio",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 15,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1190154",
+								"fullDate": "2024-04-17T18:00",
+								"date": "2024-04-17",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 142,
+										"name": "Vila Nova",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 843,
+									"name": "Copa Verde",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180362",
+								"fullDate": "2024-04-14T14:00",
+								"date": "2024-04-14",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 3, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 3 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 152,
+						"name": "Juventude",
+						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+						"position": 14,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 29 partidos",
+								"items": {
+									"total_de_partidos": 29,
+									"total_de_goles_anotados": 39,
+									"total_de_goles_recibidos": 42,
+									"promedio_de_goles_anotados": 1.3,
+									"promedio_de_goles_recibidos": 1.4,
+									"partidos_ganados": 10,
+									"partidos_empatados": 9,
+									"partidos_perdidos": 10,
+									"partidos_con_goles_anotados": 26,
+									"partidos_con_goles_recibidos": 24,
+									"puntos_ganados": 39,
+									"porcentaje_de_puntos_ganados": 44.8,
+									"total_de_goles_anotados_en_primera_mitad": 16,
+									"total_de_goles_recibidos_en_primera_mitad": 15,
+									"partidos_con_goles_anotados_en_primera_mitad": 14,
+									"partidos_con_goles_recibidos_en_primera_mitad": 12,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 23,
+									"total_de_goles_recibidos_en_segunda_mitad": 27,
+									"partidos_con_goles_anotados_en_segunda_mitad": 18,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 17,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.6
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 29 partidos",
+								"items": {
+									"total_de_partidos": 15,
+									"total_de_goles_anotados": 24,
+									"total_de_goles_recibidos": 15,
+									"promedio_de_goles_anotados": 1.6,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 8,
+									"partidos_empatados": 5,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 14,
+									"partidos_con_goles_recibidos": 10,
+									"puntos_ganados": 29,
+									"porcentaje_de_puntos_ganados": 64.4,
+									"total_de_goles_anotados_en_primera_mitad": 10,
+									"total_de_goles_recibidos_en_primera_mitad": 6,
+									"partidos_con_goles_anotados_en_primera_mitad": 8,
+									"partidos_con_goles_recibidos_en_primera_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 14,
+									"total_de_goles_recibidos_en_segunda_mitad": 9,
+									"partidos_con_goles_anotados_en_segunda_mitad": 9,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 7,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 29 partidos",
+								"items": {
+									"total_de_partidos": 14,
+									"total_de_goles_anotados": 15,
+									"total_de_goles_recibidos": 27,
+									"promedio_de_goles_anotados": 1.1,
+									"promedio_de_goles_recibidos": 1.9,
+									"partidos_ganados": 2,
+									"partidos_empatados": 4,
+									"partidos_perdidos": 8,
+									"partidos_con_goles_anotados": 12,
+									"partidos_con_goles_recibidos": 14,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 23.8,
+									"total_de_goles_anotados_en_primera_mitad": 6,
+									"total_de_goles_recibidos_en_primera_mitad": 9,
+									"partidos_con_goles_anotados_en_primera_mitad": 6,
+									"partidos_con_goles_recibidos_en_primera_mitad": 7,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 9,
+									"total_de_goles_recibidos_en_segunda_mitad": 18,
+									"partidos_con_goles_anotados_en_segunda_mitad": 9,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 10,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.7
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 7,
+									"total_de_goles_recibidos": 9,
+									"promedio_de_goles_anotados": 1.4,
+									"promedio_de_goles_recibidos": 1.8,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 3,
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 5,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 40,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 6,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.8
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 2,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1180604",
+								"fullDate": "2024-09-01T16:30",
+								"date": "2024-09-01",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1294339",
+								"fullDate": "2024-08-29T18:00",
+								"date": "2024-08-29",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180593",
+								"fullDate": "2024-08-24T14:00",
+								"date": "2024-08-24",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 144,
+										"name": "Atletico Goianiense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180582",
+								"fullDate": "2024-08-18T16:30",
+								"date": "2024-08-18",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180405",
+								"fullDate": "2024-08-14T17:30",
+								"date": "2024-08-14",
+								"hour": "17:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180574",
+								"fullDate": "2024-08-11T09:00",
+								"date": "2024-08-11",
+								"hour": "09:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 120,
+										"name": "Botafogo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 1,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1251961",
+								"fullDate": "2024-08-07T19:30",
+								"date": "2024-08-07",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 124,
+										"name": "Fluminense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180560",
+								"fullDate": "2024-08-04T14:00",
+								"date": "2024-08-04",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1251960",
+								"fullDate": "2024-08-01T17:00",
+								"date": "2024-08-01",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 124,
+										"name": "Fluminense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180554",
+								"fullDate": "2024-07-27T17:00",
+								"date": "2024-07-27",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180536",
+								"fullDate": "2024-07-24T17:00",
+								"date": "2024-07-24",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 135,
+										"name": "Cruzeiro",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180534",
+								"fullDate": "2024-07-21T16:30",
+								"date": "2024-07-21",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 126,
+										"name": "Sao Paulo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 6,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180524",
+								"fullDate": "2024-07-16T17:00",
+								"date": "2024-07-16",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1062,
+										"name": "Atletico-MG",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196771",
+								"fullDate": "2024-07-13T14:00",
+								"date": "2024-07-13",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196770",
+								"fullDate": "2024-07-10T17:00",
+								"date": "2024-07-10",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180504",
+								"fullDate": "2024-07-07T14:00",
+								"date": "2024-07-07",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 130,
+										"name": "Gremio",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 15,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180487",
+								"fullDate": "2024-07-04T17:00",
+								"date": "2024-07-04",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 118,
+										"name": "Bahia",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180482",
+								"fullDate": "2024-06-30T14:00",
+								"date": "2024-06-30",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180474",
+								"fullDate": "2024-06-26T18:00",
+								"date": "2024-06-26",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 127,
+										"name": "Flamengo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180460",
+								"fullDate": "2024-06-23T16:30",
+								"date": "2024-06-23",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 121,
+										"name": "Palmeiras",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180454",
+								"fullDate": "2024-06-19T18:00",
+								"date": "2024-06-19",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 133,
+										"name": "Vasco DA Gama",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180441",
+								"fullDate": "2024-06-15T16:30",
+								"date": "2024-06-15",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 794,
+										"name": "RB Bragantino",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180434",
+								"fullDate": "2024-06-11T17:00",
+								"date": "2024-06-11",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 136,
+										"name": "Vitoria",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 18,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180404",
+								"fullDate": "2024-06-05T17:00",
+								"date": "2024-06-05",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 144,
+										"name": "Atletico Goianiense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180418",
+								"fullDate": "2024-06-01T16:30",
+								"date": "2024-06-01",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 124,
+										"name": "Fluminense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180394",
+								"fullDate": "2024-04-28T16:30",
+								"date": "2024-04-28",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180379",
+								"fullDate": "2024-04-21T16:30",
+								"date": "2024-04-21",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 120,
+										"name": "Botafogo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 1,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180374",
+								"fullDate": "2024-04-17T18:00",
+								"date": "2024-04-17",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180364",
+								"fullDate": "2024-04-13T16:30",
+								"date": "2024-04-13",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (19<=14/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 19 y el visitante de 14 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (19/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (14/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (4/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (6/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local ganó su último partido como local | (2-1)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante ganó su último partido como visitante | (2-1)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 71,
+					"name": "Serie A",
+					"type": "League",
+					"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+					"season": { "year": 2024, "startDate": "2024-04-13" },
+					"priority": 2
+				}
+			}
+		]
+	},
+	{
+		"id": 34,
+		"name": "World Cup - Qualification South America",
+		"type": "Cup",
+		"country": { "name": "World", "flag": "🌎", "code": "World" },
+		"priority": 3,
+		"standings": {
+			"type": "REGULAR",
+			"items": [
+				{
+					"teamId": 26,
+					"teamName": "Argentina",
+					"points": 15,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 5,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 8, "against": 2, "diff": 6 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 3,
+							"win": 3,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 6, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 2
+						}
+					}
+				},
+				{
+					"teamId": 7,
+					"teamName": "Uruguay",
+					"points": 13,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 4,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 13, "against": 5, "diff": 8 }
+						},
+						"home": {
+							"played": 3,
+							"win": 3,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 8, "against": 1 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 5, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 2.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+						}
+					}
+				},
+				{
+					"teamId": 8,
+					"teamName": "Colombia",
+					"points": 12,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 3,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 6, "against": 3, "diff": 3 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 5, "against": 3 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 1, "against": 0 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 2379,
+					"teamName": "Venezuela",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 2,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 6, "against": 3, "diff": 3 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
+					}
+				},
+				{
+					"teamId": 2382,
+					"teamName": "Ecuador",
+					"points": 8,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 3,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 5, "against": 3, "diff": 2 }
+						},
+						"home": {
+							"played": 3,
+							"win": 2,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 3, "against": 1 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
+					}
+				},
+				{
+					"teamId": 6,
+					"teamName": "Brazil",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 2,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 8, "against": 7, "diff": 1 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 6, "against": 3 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
+					}
+				},
+				{
+					"teamId": 2380,
+					"teamName": "Paraguay",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 1,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 1, "against": 3, "diff": -2 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 1, "against": 1 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 0, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 2383,
+					"teamName": "Chile",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 1,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 3, "against": 7, "diff": -4 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 2, "against": 0 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 1, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 2381,
+					"teamName": "Bolivia",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 1,
+							"draw": 0,
+							"lose": 5,
+							"goals": { "for": 4, "against": 14, "diff": -10 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 3, "against": 5 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 1, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 30,
+					"teamName": "Peru",
+					"points": 2,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 0,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 1, "against": 8, "diff": -7 }
+						},
+						"home": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 1, "against": 4 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 0, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				}
+			],
+			"stats": {
+				"partidos_jugados": 6,
+				"promedio_de_goles_anotados_por_partido": 9.2,
+				"promedio_de_goles_anotados_de_local_por_partido": 11.7,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 6.7
+			}
+		},
+		"matches": [
+			{
+				"id": "1100263",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-05T15:00",
+				"date": "2024-09-05",
+				"hour": "15:00",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 2381,
+						"name": "Bolivia",
+						"country": null,
+						"position": 9,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 4,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": []
+					},
+					"away": {
+						"id": 2379,
+						"name": "Venezuela",
+						"country": null,
+						"position": 4,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": []
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (9<=4/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 9 y el visitante de 4 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (9/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (4/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			},
+			{
+				"id": "1100265",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-05T19:00",
+				"date": "2024-09-05",
+				"hour": "19:00",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 26,
+						"name": "Argentina",
+						"country": null,
+						"position": 1,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 3, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": []
+					},
+					"away": {
+						"id": 2383,
+						"name": "Chile",
+						"country": null,
+						"position": 8,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 3 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 0 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": []
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (1>8/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 1 y el visitante de 8 en la tabla de posiciones"
+									}
+								],
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (1/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (8/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			}
+		]
+	}
+]

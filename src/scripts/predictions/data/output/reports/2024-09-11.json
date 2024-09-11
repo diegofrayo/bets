@@ -1,0 +1,6252 @@
+[
+	{
+		"id": 239,
+		"name": "Primera A",
+		"type": "League",
+		"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+		"priority": 2,
+		"standings": {
+			"type": "REGULAR",
+			"items": [
+				{
+					"teamId": 1136,
+					"teamName": "Once Caldas",
+					"points": 20,
+					"stats": {
+						"all": {
+							"played": 9,
+							"win": 6,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 12, "against": 6, "diff": 6 }
+						},
+						"home": {
+							"played": 5,
+							"win": 4,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 8, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1137,
+					"teamName": "Atletico Nacional",
+					"points": 16,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 5,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 12, "against": 7, "diff": 5 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 6, "against": 4 }
+						},
+						"away": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 6, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 1147,
+					"teamName": "Fortaleza FC",
+					"points": 16,
+					"stats": {
+						"all": {
+							"played": 9,
+							"win": 4,
+							"draw": 4,
+							"lose": 1,
+							"goals": { "for": 13, "against": 9, "diff": 4 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 6, "against": 4 }
+						},
+						"away": {
+							"played": 5,
+							"win": 2,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 7, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 1142,
+					"teamName": "Deportes Tolima",
+					"points": 14,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 13, "against": 6, "diff": 7 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 8, "against": 4 }
+						},
+						"away": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 1138,
+					"teamName": "America de Cali",
+					"points": 13,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 4,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 11, "against": 5, "diff": 6 }
+						},
+						"home": {
+							"played": 2,
+							"win": 2,
+							"draw": 0,
+							"lose": 0,
+							"goals": { "for": 5, "against": 0 }
+						},
+						"away": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 6, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 2.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 1139,
+					"teamName": "Santa Fe",
+					"points": 13,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 4,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 8, "against": 4, "diff": 4 }
+						},
+						"home": {
+							"played": 2,
+							"win": 1,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 6, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 1126,
+					"teamName": "Deportivo Pasto",
+					"points": 13,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 9, "against": 6, "diff": 3 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1135,
+					"teamName": "Junior",
+					"points": 12,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 8, "against": 7, "diff": 1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 7, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 1134,
+					"teamName": "La Equidad",
+					"points": 12,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 6, "against": 8, "diff": -2 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 5,
+							"win": 2,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 4, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 1125,
+					"teamName": "Millonarios",
+					"points": 11,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 2,
+							"lose": 3,
+							"goals": { "for": 10, "against": 8, "diff": 2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 6, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 4, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1144,
+					"teamName": "Rionegro Aguilas",
+					"points": 11,
+					"stats": {
+						"all": {
+							"played": 7,
+							"win": 3,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 8, "against": 7, "diff": 1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 7, "against": 5 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 1, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 1141,
+					"teamName": "Alianza Petrolera",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 7,
+							"win": 2,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 10, "against": 8, "diff": 2 }
+						},
+						"home": {
+							"played": 5,
+							"win": 2,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 8, "against": 5 }
+						},
+						"away": {
+							"played": 2,
+							"win": 0,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1140,
+					"teamName": "Patriotas",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 9,
+							"win": 2,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 9, "against": 13, "diff": -4 }
+						},
+						"home": {
+							"played": 5,
+							"win": 2,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 6, "against": 4 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 3, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 1462,
+					"teamName": "Deportivo Pereira",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 6,
+							"win": 2,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 4, "against": 5, "diff": -1 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 2 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
+					}
+				},
+				{
+					"teamId": 1128,
+					"teamName": "Independiente Medellin",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 7,
+							"win": 1,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 5, "against": 7, "diff": -2 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 3, "against": 6 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 1131,
+					"teamName": "Bucaramanga",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 5, "against": 9, "diff": -4 }
+						},
+						"home": {
+							"played": 5,
+							"win": 1,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 2, "against": 5 }
+						},
+						"away": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 3, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 1127,
+					"teamName": "Deportivo Cali",
+					"points": 7,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 1,
+							"lose": 5,
+							"goals": { "for": 6, "against": 11, "diff": -5 }
+						},
+						"home": {
+							"played": 5,
+							"win": 2,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 4, "against": 7 }
+						},
+						"away": {
+							"played": 3,
+							"win": 0,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+						}
+					}
+				},
+				{
+					"teamId": 1132,
+					"teamName": "Chico",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 4, "against": 11, "diff": -7 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 3, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 1, "against": 8 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 1129,
+					"teamName": "Envigado",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 7,
+							"win": 1,
+							"draw": 2,
+							"lose": 4,
+							"goals": { "for": 3, "against": 10, "diff": -7 }
+						},
+						"home": {
+							"played": 3,
+							"win": 1,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 1, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 1133,
+					"teamName": "Jaguares",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 9,
+							"win": 0,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 0, "against": 9, "diff": -9 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 0, "against": 4 }
+						},
+						"away": {
+							"played": 5,
+							"win": 0,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 0, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0,
+							"promedio_de_goles_anotados_de_local_por_partido": 0,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				}
+			],
+			"stats": {
+				"partidos_jugados": 9,
+				"promedio_de_goles_anotados_por_partido": 20.3,
+				"promedio_de_goles_anotados_de_local_por_partido": 24.1,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 17.2
+			}
+		},
+		"matches": [
+			{
+				"id": "1234165",
+				"type": "FIXTURE_NEXT_MATCH",
+				"fullDate": "2024-09-11T18:00",
+				"date": "2024-09-11",
+				"hour": "18:00",
+				"played": false,
+				"teams": {
+					"home": {
+						"id": 1138,
+						"name": "America de Cali",
+						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+						"position": 5,
+						"tag": "FEATURED",
+						"historic": true,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 6 partidos",
+								"items": {
+									"total_de_partidos": 6,
+									"total_de_goles_anotados": 11,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 1.8,
+									"promedio_de_goles_recibidos": 0.8,
+									"partidos_ganados": 4,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 6,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 13,
+									"porcentaje_de_puntos_ganados": 72.2,
+									"total_de_goles_anotados_en_primera_mitad": 6,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 6 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 6 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1.3,
+									"partidos_ganados": 2,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 7,
+									"porcentaje_de_puntos_ganados": 58.3,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 9,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 1.8,
+									"promedio_de_goles_recibidos": 0.8,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.2,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.4
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1234227",
+								"fullDate": "2024-09-07T16:10",
+								"date": "2024-09-07",
+								"hour": "16:10",
+								"teams": {
+									"home": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1133,
+										"name": "Jaguares",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234199",
+								"fullDate": "2024-08-18T17:45",
+								"date": "2024-08-18",
+								"hour": "17:45",
+								"teams": {
+									"home": {
+										"id": 1131,
+										"name": "Bucaramanga",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234178",
+								"fullDate": "2024-08-04T15:30",
+								"date": "2024-08-04",
+								"hour": "15:30",
+								"teams": {
+									"home": {
+										"id": 1140,
+										"name": "Patriotas",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234212",
+								"fullDate": "2024-07-25T16:00",
+								"date": "2024-07-25",
+								"hour": "16:00",
+								"teams": {
+									"home": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1129,
+										"name": "Envigado",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234157",
+								"fullDate": "2024-07-21T17:45",
+								"date": "2024-07-21",
+								"hour": "17:45",
+								"teams": {
+									"home": {
+										"id": 1137,
+										"name": "Atletico Nacional",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234145",
+								"fullDate": "2024-07-16T18:10",
+								"date": "2024-07-16",
+								"hour": "18:10",
+								"teams": {
+									"home": {
+										"id": 1144,
+										"name": "Rionegro Aguilas",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 1142,
+						"name": "Deportes Tolima",
+						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+						"position": 4,
+						"tag": "FEATURED",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 8 partidos",
+								"items": {
+									"total_de_partidos": 8,
+									"total_de_goles_anotados": 13,
+									"total_de_goles_recibidos": 6,
+									"promedio_de_goles_anotados": 1.6,
+									"promedio_de_goles_recibidos": 0.8,
+									"partidos_ganados": 4,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 6,
+									"partidos_con_goles_recibidos": 6,
+									"puntos_ganados": 14,
+									"porcentaje_de_puntos_ganados": 58.3,
+									"total_de_goles_anotados_en_primera_mitad": 10,
+									"total_de_goles_recibidos_en_primera_mitad": 5,
+									"partidos_con_goles_anotados_en_primera_mitad": 6,
+									"partidos_con_goles_recibidos_en_primera_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.6,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 8 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 7,
+									"porcentaje_de_puntos_ganados": 58.3,
+									"total_de_goles_anotados_en_primera_mitad": 6,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.8,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 8 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 1.3,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 2,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 7,
+									"porcentaje_de_puntos_ganados": 58.3,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 0.6,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 7,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.2
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 16.7,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1234223",
+								"fullDate": "2024-09-08T18:20",
+								"date": "2024-09-08",
+								"hour": "18:20",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1127,
+										"name": "Deportivo Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234213",
+								"fullDate": "2024-09-01T15:00",
+								"date": "2024-09-01",
+								"hour": "15:00",
+								"teams": {
+									"home": {
+										"id": 1131,
+										"name": "Bucaramanga",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234206",
+								"fullDate": "2024-08-24T19:30",
+								"date": "2024-08-24",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1135,
+										"name": "Junior",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234194",
+								"fullDate": "2024-08-19T18:15",
+								"date": "2024-08-19",
+								"hour": "18:15",
+								"teams": {
+									"home": {
+										"id": 1133,
+										"name": "Jaguares",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234190",
+								"fullDate": "2024-08-10T17:45",
+								"date": "2024-08-10",
+								"hour": "17:45",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 3, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1134,
+										"name": "La Equidad",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 3 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234173",
+								"fullDate": "2024-08-02T20:00",
+								"date": "2024-08-02",
+								"hour": "20:00",
+								"teams": {
+									"home": {
+										"id": 1125,
+										"name": "Millonarios",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234162",
+								"fullDate": "2024-07-23T20:20",
+								"date": "2024-07-23",
+								"hour": "20:20",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1126,
+										"name": "Deportivo Pasto",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234152",
+								"fullDate": "2024-07-19T19:30",
+								"date": "2024-07-19",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 1147,
+										"name": "Fortaleza FC",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (5<=4/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 5 y el visitante de 4 en la tabla de posiciones"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local es de los mejores del torneo | (5/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (4/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó mas de 10 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local ganó su último partido como local | (1-0)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (0-2)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 239,
+					"name": "Primera A",
+					"type": "League",
+					"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+					"season": { "year": 2024, "startDate": "2024-07-15" },
+					"priority": 2
+				}
+			}
+		]
+	},
+	{
+		"id": 71,
+		"name": "Serie A",
+		"type": "League",
+		"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+		"priority": 2,
+		"standings": {
+			"type": "REGULAR",
+			"items": [
+				{
+					"teamId": 120,
+					"teamName": "Botafogo",
+					"points": 50,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 15,
+							"draw": 5,
+							"lose": 5,
+							"goals": { "for": 43, "against": 24, "diff": 19 }
+						},
+						"home": {
+							"played": 12,
+							"win": 9,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 22, "against": 9 }
+						},
+						"away": {
+							"played": 13,
+							"win": 6,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 21, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+						}
+					}
+				},
+				{
+					"teamId": 154,
+					"teamName": "Fortaleza EC",
+					"points": 48,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 14,
+							"draw": 6,
+							"lose": 4,
+							"goals": { "for": 30, "against": 22, "diff": 8 }
+						},
+						"home": {
+							"played": 13,
+							"win": 10,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 20, "against": 6 }
+						},
+						"away": {
+							"played": 11,
+							"win": 4,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 10, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
+					}
+				},
+				{
+					"teamId": 121,
+					"teamName": "Palmeiras",
+					"points": 47,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 14,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 38, "against": 19, "diff": 19 }
+						},
+						"home": {
+							"played": 13,
+							"win": 9,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 23, "against": 9 }
+						},
+						"away": {
+							"played": 12,
+							"win": 5,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 15, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 127,
+					"teamName": "Flamengo",
+					"points": 44,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 13,
+							"draw": 5,
+							"lose": 6,
+							"goals": { "for": 39, "against": 28, "diff": 11 }
+						},
+						"home": {
+							"played": 12,
+							"win": 8,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 19, "against": 12 }
+						},
+						"away": {
+							"played": 12,
+							"win": 5,
+							"draw": 3,
+							"lose": 4,
+							"goals": { "for": 20, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+						}
+					}
+				},
+				{
+					"teamId": 135,
+					"teamName": "Cruzeiro",
+					"points": 41,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 12,
+							"draw": 5,
+							"lose": 8,
+							"goals": { "for": 34, "against": 26, "diff": 8 }
+						},
+						"home": {
+							"played": 12,
+							"win": 9,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 23, "against": 8 }
+						},
+						"away": {
+							"played": 13,
+							"win": 3,
+							"draw": 3,
+							"lose": 7,
+							"goals": { "for": 11, "against": 18 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 126,
+					"teamName": "Sao Paulo",
+					"points": 41,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 12,
+							"draw": 5,
+							"lose": 8,
+							"goals": { "for": 33, "against": 26, "diff": 7 }
+						},
+						"home": {
+							"played": 13,
+							"win": 9,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 19, "against": 9 }
+						},
+						"away": {
+							"played": 12,
+							"win": 3,
+							"draw": 3,
+							"lose": 6,
+							"goals": { "for": 14, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+						}
+					}
+				},
+				{
+					"teamId": 118,
+					"teamName": "Bahia",
+					"points": 39,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 11,
+							"draw": 6,
+							"lose": 8,
+							"goals": { "for": 34, "against": 27, "diff": 7 }
+						},
+						"home": {
+							"played": 12,
+							"win": 8,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 17, "against": 7 }
+						},
+						"away": {
+							"played": 13,
+							"win": 3,
+							"draw": 4,
+							"lose": 6,
+							"goals": { "for": 17, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 133,
+					"teamName": "Vasco DA Gama",
+					"points": 34,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 10,
+							"draw": 4,
+							"lose": 10,
+							"goals": { "for": 29, "against": 34, "diff": -5 }
+						},
+						"home": {
+							"played": 12,
+							"win": 7,
+							"draw": 3,
+							"lose": 2,
+							"goals": { "for": 20, "against": 17 }
+						},
+						"away": {
+							"played": 12,
+							"win": 3,
+							"draw": 1,
+							"lose": 8,
+							"goals": { "for": 9, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 1062,
+					"teamName": "Atletico-MG",
+					"points": 33,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 8,
+							"draw": 9,
+							"lose": 6,
+							"goals": { "for": 32, "against": 33, "diff": -1 }
+						},
+						"home": {
+							"played": 12,
+							"win": 4,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 16, "against": 17 }
+						},
+						"away": {
+							"played": 11,
+							"win": 4,
+							"draw": 4,
+							"lose": 3,
+							"goals": { "for": 16, "against": 16 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+						}
+					}
+				},
+				{
+					"teamId": 119,
+					"teamName": "Internacional",
+					"points": 32,
+					"stats": {
+						"all": {
+							"played": 22,
+							"win": 8,
+							"draw": 8,
+							"lose": 6,
+							"goals": { "for": 22, "against": 19, "diff": 3 }
+						},
+						"home": {
+							"played": 10,
+							"win": 4,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 12, "against": 10 }
+						},
+						"away": {
+							"played": 12,
+							"win": 4,
+							"draw": 4,
+							"lose": 4,
+							"goals": { "for": 10, "against": 9 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 794,
+					"teamName": "RB Bragantino",
+					"points": 30,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 8,
+							"draw": 6,
+							"lose": 10,
+							"goals": { "for": 29, "against": 30, "diff": -1 }
+						},
+						"home": {
+							"played": 11,
+							"win": 7,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 16, "against": 11 }
+						},
+						"away": {
+							"played": 13,
+							"win": 1,
+							"draw": 5,
+							"lose": 7,
+							"goals": { "for": 13, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 134,
+					"teamName": "Atletico Paranaense",
+					"points": 29,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 8,
+							"draw": 5,
+							"lose": 10,
+							"goals": { "for": 26, "against": 28, "diff": -2 }
+						},
+						"home": {
+							"played": 11,
+							"win": 4,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 14, "against": 14 }
+						},
+						"away": {
+							"played": 12,
+							"win": 4,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 12, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 152,
+					"teamName": "Juventude",
+					"points": 29,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 7,
+							"draw": 8,
+							"lose": 10,
+							"goals": { "for": 29, "against": 35, "diff": -6 }
+						},
+						"home": {
+							"played": 12,
+							"win": 6,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 18, "against": 11 }
+						},
+						"away": {
+							"played": 13,
+							"win": 1,
+							"draw": 4,
+							"lose": 8,
+							"goals": { "for": 11, "against": 24 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 140,
+					"teamName": "Criciuma",
+					"points": 28,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 7,
+							"draw": 7,
+							"lose": 10,
+							"goals": { "for": 32, "against": 35, "diff": -3 }
+						},
+						"home": {
+							"played": 13,
+							"win": 4,
+							"draw": 6,
+							"lose": 3,
+							"goals": { "for": 17, "against": 18 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 1,
+							"lose": 7,
+							"goals": { "for": 15, "against": 17 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+						}
+					}
+				},
+				{
+					"teamId": 130,
+					"teamName": "Gremio",
+					"points": 27,
+					"stats": {
+						"all": {
+							"played": 23,
+							"win": 8,
+							"draw": 3,
+							"lose": 12,
+							"goals": { "for": 23, "against": 28, "diff": -5 }
+						},
+						"home": {
+							"played": 12,
+							"win": 5,
+							"draw": 1,
+							"lose": 6,
+							"goals": { "for": 12, "against": 14 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 2,
+							"lose": 6,
+							"goals": { "for": 11, "against": 14 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1
+						}
+					}
+				},
+				{
+					"teamId": 124,
+					"teamName": "Fluminense",
+					"points": 27,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 7,
+							"draw": 6,
+							"lose": 11,
+							"goals": { "for": 20, "against": 26, "diff": -6 }
+						},
+						"home": {
+							"played": 12,
+							"win": 4,
+							"draw": 5,
+							"lose": 3,
+							"goals": { "for": 13, "against": 11 }
+						},
+						"away": {
+							"played": 12,
+							"win": 3,
+							"draw": 1,
+							"lose": 8,
+							"goals": { "for": 7, "against": 15 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+						}
+					}
+				},
+				{
+					"teamId": 131,
+					"teamName": "Corinthians",
+					"points": 25,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 5,
+							"draw": 10,
+							"lose": 10,
+							"goals": { "for": 22, "against": 31, "diff": -9 }
+						},
+						"home": {
+							"played": 12,
+							"win": 4,
+							"draw": 7,
+							"lose": 1,
+							"goals": { "for": 17, "against": 12 }
+						},
+						"away": {
+							"played": 13,
+							"win": 1,
+							"draw": 3,
+							"lose": 9,
+							"goals": { "for": 5, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.4
+						}
+					}
+				},
+				{
+					"teamId": 136,
+					"teamName": "Vitoria",
+					"points": 22,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 6,
+							"draw": 4,
+							"lose": 15,
+							"goals": { "for": 26, "against": 39, "diff": -13 }
+						},
+						"home": {
+							"played": 13,
+							"win": 4,
+							"draw": 2,
+							"lose": 7,
+							"goals": { "for": 15, "against": 19 }
+						},
+						"away": {
+							"played": 12,
+							"win": 2,
+							"draw": 2,
+							"lose": 8,
+							"goals": { "for": 11, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.9
+						}
+					}
+				},
+				{
+					"teamId": 1193,
+					"teamName": "Cuiaba",
+					"points": 22,
+					"stats": {
+						"all": {
+							"played": 24,
+							"win": 5,
+							"draw": 7,
+							"lose": 12,
+							"goals": { "for": 23, "against": 35, "diff": -12 }
+						},
+						"home": {
+							"played": 13,
+							"win": 2,
+							"draw": 4,
+							"lose": 7,
+							"goals": { "for": 11, "against": 16 }
+						},
+						"away": {
+							"played": 11,
+							"win": 3,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 12, "against": 19 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.1
+						}
+					}
+				},
+				{
+					"teamId": 144,
+					"teamName": "Atletico Goianiense",
+					"points": 18,
+					"stats": {
+						"all": {
+							"played": 25,
+							"win": 4,
+							"draw": 6,
+							"lose": 15,
+							"goals": { "for": 21, "against": 40, "diff": -19 }
+						},
+						"home": {
+							"played": 12,
+							"win": 2,
+							"draw": 3,
+							"lose": 7,
+							"goals": { "for": 11, "against": 20 }
+						},
+						"away": {
+							"played": 13,
+							"win": 2,
+							"draw": 3,
+							"lose": 8,
+							"goals": { "for": 10, "against": 20 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.9,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				}
+			],
+			"stats": {
+				"partidos_jugados": 25,
+				"promedio_de_goles_anotados_por_partido": 24.1,
+				"promedio_de_goles_anotados_de_local_por_partido": 27.7,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 20.9
+			}
+		},
+		"matches": [
+			{
+				"id": "1180535",
+				"type": "FIXTURE_NEXT_MATCH",
+				"fullDate": "2024-09-11T17:30",
+				"date": "2024-09-11",
+				"hour": "17:30",
+				"played": false,
+				"teams": {
+					"home": {
+						"id": 119,
+						"name": "Internacional",
+						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+						"position": 10,
+						"tag": "REGULAR",
+						"historic": true,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 30 partidos",
+								"items": {
+									"total_de_partidos": 30,
+									"total_de_goles_anotados": 31,
+									"total_de_goles_recibidos": 27,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0.9,
+									"partidos_ganados": 11,
+									"partidos_empatados": 10,
+									"partidos_perdidos": 9,
+									"partidos_con_goles_anotados": 24,
+									"partidos_con_goles_recibidos": 21,
+									"puntos_ganados": 43,
+									"porcentaje_de_puntos_ganados": 47.8,
+									"total_de_goles_anotados_en_primera_mitad": 11,
+									"total_de_goles_recibidos_en_primera_mitad": 11,
+									"partidos_con_goles_anotados_en_primera_mitad": 10,
+									"partidos_con_goles_recibidos_en_primera_mitad": 10,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 20,
+									"total_de_goles_recibidos_en_segunda_mitad": 16,
+									"partidos_con_goles_anotados_en_segunda_mitad": 18,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 14,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 30 partidos",
+								"items": {
+									"total_de_partidos": 14,
+									"total_de_goles_anotados": 16,
+									"total_de_goles_recibidos": 15,
+									"promedio_de_goles_anotados": 1.1,
+									"promedio_de_goles_recibidos": 1.1,
+									"partidos_ganados": 5,
+									"partidos_empatados": 5,
+									"partidos_perdidos": 4,
+									"partidos_con_goles_anotados": 13,
+									"partidos_con_goles_recibidos": 10,
+									"puntos_ganados": 20,
+									"porcentaje_de_puntos_ganados": 47.6,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 6,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 12,
+									"total_de_goles_recibidos_en_segunda_mitad": 9,
+									"partidos_con_goles_anotados_en_segunda_mitad": 10,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 7,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 30 partidos",
+								"items": {
+									"total_de_partidos": 16,
+									"total_de_goles_anotados": 15,
+									"total_de_goles_recibidos": 12,
+									"promedio_de_goles_anotados": 0.9,
+									"promedio_de_goles_recibidos": 0.8,
+									"partidos_ganados": 6,
+									"partidos_empatados": 5,
+									"partidos_perdidos": 5,
+									"partidos_con_goles_anotados": 11,
+									"partidos_con_goles_recibidos": 11,
+									"puntos_ganados": 23,
+									"porcentaje_de_puntos_ganados": 47.9,
+									"total_de_goles_anotados_en_primera_mitad": 7,
+									"total_de_goles_recibidos_en_primera_mitad": 5,
+									"partidos_con_goles_anotados_en_primera_mitad": 6,
+									"partidos_con_goles_recibidos_en_primera_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 8,
+									"total_de_goles_recibidos_en_segunda_mitad": 7,
+									"partidos_con_goles_anotados_en_segunda_mitad": 8,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 7,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.4
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1.2,
+									"promedio_de_goles_recibidos": 0.6,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.2,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.2,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.4
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1180604",
+								"fullDate": "2024-09-01T16:30",
+								"date": "2024-09-01",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180396",
+								"fullDate": "2024-08-28T17:30",
+								"date": "2024-08-28",
+								"hour": "17:30",
+								"teams": {
+									"home": {
+										"id": 135,
+										"name": "Cruzeiro",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180585",
+								"fullDate": "2024-08-25T17:00",
+								"date": "2024-08-25",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 135,
+										"name": "Cruzeiro",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180583",
+								"fullDate": "2024-08-18T14:00",
+								"date": "2024-08-18",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 144,
+										"name": "Atletico Goianiense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180405",
+								"fullDate": "2024-08-14T17:30",
+								"date": "2024-08-14",
+								"hour": "17:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180565",
+								"fullDate": "2024-08-11T17:00",
+								"date": "2024-08-11",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180555",
+								"fullDate": "2024-08-04T15:00",
+								"date": "2024-08-04",
+								"hour": "15:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 121,
+										"name": "Palmeiras",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180547",
+								"fullDate": "2024-07-27T18:00",
+								"date": "2024-07-27",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 118,
+										"name": "Bahia",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1205345",
+								"fullDate": "2024-07-23T19:30",
+								"date": "2024-07-23",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 437,
+										"name": "Rosario Central",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180529",
+								"fullDate": "2024-07-20T16:30",
+								"date": "2024-07-20",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 120,
+										"name": "Botafogo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 1,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1205344",
+								"fullDate": "2024-07-16T19:30",
+								"date": "2024-07-16",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 437,
+										"name": "Rosario Central",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196771",
+								"fullDate": "2024-07-13T14:00",
+								"date": "2024-07-13",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196770",
+								"fullDate": "2024-07-10T17:00",
+								"date": "2024-07-10",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180495",
+								"fullDate": "2024-07-07T16:00",
+								"date": "2024-07-07",
+								"hour": "16:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 133,
+										"name": "Vasco DA Gama",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180488",
+								"fullDate": "2024-07-04T18:00",
+								"date": "2024-07-04",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 124,
+										"name": "Fluminense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180484",
+								"fullDate": "2024-06-30T16:30",
+								"date": "2024-06-30",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180465",
+								"fullDate": "2024-06-26T19:30",
+								"date": "2024-06-26",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1062,
+										"name": "Atletico-MG",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180455",
+								"fullDate": "2024-06-22T15:30",
+								"date": "2024-06-22",
+								"hour": "15:30",
+								"teams": {
+									"home": {
+										"id": 130,
+										"name": "Gremio",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 15,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180445",
+								"fullDate": "2024-06-19T19:30",
+								"date": "2024-06-19",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180437",
+								"fullDate": "2024-06-16T14:00",
+								"date": "2024-06-16",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 136,
+										"name": "Vitoria",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 18,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180425",
+								"fullDate": "2024-06-13T18:00",
+								"date": "2024-06-13",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 126,
+										"name": "Sao Paulo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 6,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187164",
+								"fullDate": "2024-06-08T19:30",
+								"date": "2024-06-08",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1149,
+										"name": "Delfin SC",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187140",
+								"fullDate": "2024-06-04T19:30",
+								"date": "2024-06-04",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 15708,
+										"name": "Real Tomayapo",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180423",
+								"fullDate": "2024-06-01T16:30",
+								"date": "2024-06-01",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187173",
+								"fullDate": "2024-05-28T19:30",
+								"date": "2024-05-28",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 440,
+										"name": "Belgrano Cordoba",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180385",
+								"fullDate": "2024-04-28T18:00",
+								"date": "2024-04-28",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 144,
+										"name": "Atletico Goianiense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187136",
+								"fullDate": "2024-04-25T21:00",
+								"date": "2024-04-25",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 1149,
+										"name": "Delfin SC",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180382",
+								"fullDate": "2024-04-21T14:00",
+								"date": "2024-04-21",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180370",
+								"fullDate": "2024-04-17T18:00",
+								"date": "2024-04-17",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 121,
+										"name": "Palmeiras",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180355",
+								"fullDate": "2024-04-13T16:30",
+								"date": "2024-04-13",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 119,
+										"name": "Internacional",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 118,
+										"name": "Bahia",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 154,
+						"name": "Fortaleza EC",
+						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+						"position": 2,
+						"tag": "FEATURED",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 36 partidos",
+								"items": {
+									"total_de_partidos": 36,
+									"total_de_goles_anotados": 56,
+									"total_de_goles_recibidos": 38,
+									"promedio_de_goles_anotados": 1.6,
+									"promedio_de_goles_recibidos": 1.1,
+									"partidos_ganados": 20,
+									"partidos_empatados": 10,
+									"partidos_perdidos": 6,
+									"partidos_con_goles_anotados": 29,
+									"partidos_con_goles_recibidos": 25,
+									"puntos_ganados": 70,
+									"porcentaje_de_puntos_ganados": 64.8,
+									"total_de_goles_anotados_en_primera_mitad": 33,
+									"total_de_goles_recibidos_en_primera_mitad": 17,
+									"partidos_con_goles_anotados_en_primera_mitad": 22,
+									"partidos_con_goles_recibidos_en_primera_mitad": 13,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 23,
+									"total_de_goles_recibidos_en_segunda_mitad": 21,
+									"partidos_con_goles_anotados_en_segunda_mitad": 15,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 17,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 36 partidos",
+								"items": {
+									"total_de_partidos": 19,
+									"total_de_goles_anotados": 36,
+									"total_de_goles_recibidos": 10,
+									"promedio_de_goles_anotados": 1.9,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 15,
+									"partidos_empatados": 4,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 18,
+									"partidos_con_goles_recibidos": 9,
+									"puntos_ganados": 49,
+									"porcentaje_de_puntos_ganados": 86,
+									"total_de_goles_anotados_en_primera_mitad": 21,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 14,
+									"partidos_con_goles_recibidos_en_primera_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.2,
+									"total_de_goles_anotados_en_segunda_mitad": 15,
+									"total_de_goles_recibidos_en_segunda_mitad": 6,
+									"partidos_con_goles_anotados_en_segunda_mitad": 9,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 6,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 36 partidos",
+								"items": {
+									"total_de_partidos": 17,
+									"total_de_goles_anotados": 20,
+									"total_de_goles_recibidos": 28,
+									"promedio_de_goles_anotados": 1.2,
+									"promedio_de_goles_recibidos": 1.6,
+									"partidos_ganados": 5,
+									"partidos_empatados": 6,
+									"partidos_perdidos": 6,
+									"partidos_con_goles_anotados": 11,
+									"partidos_con_goles_recibidos": 16,
+									"puntos_ganados": 21,
+									"porcentaje_de_puntos_ganados": 41.2,
+									"total_de_goles_anotados_en_primera_mitad": 12,
+									"total_de_goles_recibidos_en_primera_mitad": 13,
+									"partidos_con_goles_anotados_en_primera_mitad": 8,
+									"partidos_con_goles_recibidos_en_primera_mitad": 9,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 8,
+									"total_de_goles_recibidos_en_segunda_mitad": 15,
+									"partidos_con_goles_anotados_en_segunda_mitad": 6,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 11,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.6
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 7,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 1.4,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.4
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 2,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1180599",
+								"fullDate": "2024-08-31T19:00",
+								"date": "2024-08-31",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 120,
+										"name": "Botafogo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 1,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180592",
+								"fullDate": "2024-08-25T14:00",
+								"date": "2024-08-25",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1261157",
+								"fullDate": "2024-08-21T17:00",
+								"date": "2024-08-21",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 437,
+										"name": "Rosario Central",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180581",
+								"fullDate": "2024-08-17T16:30",
+								"date": "2024-08-17",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 794,
+										"name": "RB Bragantino",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1261156",
+								"fullDate": "2024-08-14T17:00",
+								"date": "2024-08-14",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 437,
+										"name": "Rosario Central",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180572",
+								"fullDate": "2024-08-10T14:00",
+								"date": "2024-08-10",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180556",
+								"fullDate": "2024-08-05T19:00",
+								"date": "2024-08-05",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 135,
+										"name": "Cruzeiro",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180552",
+								"fullDate": "2024-07-27T19:30",
+								"date": "2024-07-27",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 126,
+										"name": "Sao Paulo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 6,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180384",
+								"fullDate": "2024-07-24T17:00",
+								"date": "2024-07-24",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 140,
+										"name": "Criciuma",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180532",
+								"fullDate": "2024-07-21T16:30",
+								"date": "2024-07-21",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 144,
+										"name": "Atletico Goianiense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180522",
+								"fullDate": "2024-07-17T19:30",
+								"date": "2024-07-17",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 136,
+										"name": "Vitoria",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 18,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180508",
+								"fullDate": "2024-07-11T18:00",
+								"date": "2024-07-11",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 127,
+										"name": "Flamengo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180502",
+								"fullDate": "2024-07-07T14:00",
+								"date": "2024-07-07",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 124,
+										"name": "Fluminense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180489",
+								"fullDate": "2024-07-03T18:00",
+								"date": "2024-07-03",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 133,
+										"name": "Vasco DA Gama",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180482",
+								"fullDate": "2024-06-30T14:00",
+								"date": "2024-06-30",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 152,
+										"name": "Juventude",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 13,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180472",
+								"fullDate": "2024-06-26T19:30",
+								"date": "2024-06-26",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 121,
+										"name": "Palmeiras",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180456",
+								"fullDate": "2024-06-23T16:30",
+								"date": "2024-06-23",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1062,
+										"name": "Atletico-MG",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180452",
+								"fullDate": "2024-06-19T18:00",
+								"date": "2024-06-19",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 130,
+										"name": "Gremio",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 15,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180443",
+								"fullDate": "2024-06-16T16:30",
+								"date": "2024-06-16",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 1193,
+										"name": "Cuiaba",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 4, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 4 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180427",
+								"fullDate": "2024-06-13T19:30",
+								"date": "2024-06-13",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 118,
+										"name": "Bahia",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1201554",
+								"fullDate": "2024-06-09T14:30",
+								"date": "2024-06-09",
+								"hour": "14:30",
+								"teams": {
+									"home": {
+										"id": 146,
+										"name": "CRB",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 612,
+									"name": "Copa do Nordeste",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1201553",
+								"fullDate": "2024-06-05T19:30",
+								"date": "2024-06-05",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 146,
+										"name": "CRB",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 612,
+									"name": "Copa do Nordeste",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180422",
+								"fullDate": "2024-06-02T16:30",
+								"date": "2024-06-02",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 134,
+										"name": "Atletico Paranaense",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187180",
+								"fullDate": "2024-05-29T19:00",
+								"date": "2024-05-29",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1187,
+										"name": "Sportivo Trinidense",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1197089",
+								"fullDate": "2024-05-26T16:00",
+								"date": "2024-05-26",
+								"hour": "16:00",
+								"teams": {
+									"home": {
+										"id": 123,
+										"name": "Sport Recife",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 4 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 4, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 612,
+									"name": "Copa do Nordeste",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196763",
+								"fullDate": "2024-05-21T19:30",
+								"date": "2024-05-21",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 133,
+										"name": "Vasco DA Gama",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": 3, "against": 3 }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": 3, "against": 3 }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187162",
+								"fullDate": "2024-05-15T19:00",
+								"date": "2024-05-15",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 451,
+										"name": "Boca Juniors",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180412",
+								"fullDate": "2024-05-12T14:00",
+								"date": "2024-05-12",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 120,
+										"name": "Botafogo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 1,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187146",
+								"fullDate": "2024-05-08T19:00",
+								"date": "2024-05-08",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 3706,
+										"name": "Nacional Potosí",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180400",
+								"fullDate": "2024-05-04T19:00",
+								"date": "2024-05-04",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 131,
+										"name": "Corinthians",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1196762",
+								"fullDate": "2024-05-01T17:00",
+								"date": "2024-05-01",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 133,
+										"name": "Vasco DA Gama",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 73,
+									"name": "Copa Do Brasil",
+									"type": "Cup",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 4
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180392",
+								"fullDate": "2024-04-28T16:30",
+								"date": "2024-04-28",
+								"hour": "16:30",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 794,
+										"name": "RB Bragantino",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1187133",
+								"fullDate": "2024-04-25T19:00",
+								"date": "2024-04-25",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 451,
+										"name": "Boca Juniors",
+										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 11,
+									"name": "CONMEBOL Sudamericana",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1190170",
+								"fullDate": "2024-04-21T17:00",
+								"date": "2024-04-21",
+								"hour": "17:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 4, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1203,
+										"name": "Altos",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 4 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 612,
+									"name": "Copa do Nordeste",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180372",
+								"fullDate": "2024-04-17T18:00",
+								"date": "2024-04-17",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 135,
+										"name": "Cruzeiro",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 5,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1180361",
+								"fullDate": "2024-04-13T19:00",
+								"date": "2024-04-13",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 126,
+										"name": "Sao Paulo",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 6,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 154,
+										"name": "Fortaleza EC",
+										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 71,
+									"name": "Serie A",
+									"type": "League",
+									"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+									"season": { "year": 2024, "startDate": "2024-04-13" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (10<=2/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 10 y el visitante de 2 en la tabla de posiciones"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (10/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (2/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó mas de 10 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local ganó su último partido como local | (1-0)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante ganó su último partido como visitante | (2-0)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (true-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 71,
+					"name": "Serie A",
+					"type": "League",
+					"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
+					"season": { "year": 2024, "startDate": "2024-04-13" },
+					"priority": 2
+				}
+			}
+		]
+	}
+]

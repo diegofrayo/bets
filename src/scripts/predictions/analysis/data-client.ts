@@ -10,7 +10,7 @@ import {
 	sortObjectKeys,
 } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
-import { asyncLoop, getErrorMessage, throwError } from "../../../@diegofrayo/utils/misc";
+import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
 import { formatDecimalNumber } from "../../../@diegofrayo/utils/numbers";
 import { generateSlug } from "../../../@diegofrayo/utils/strings";
 import v from "../../../@diegofrayo/v";
@@ -397,10 +397,7 @@ function getLeagueById(leagueId: number, config?: { noThrowError: boolean }) {
 }
 
 function getLeaguesByDate(date: DR.Dates.DateString) {
-	return (
-		LEAGUES.fixtures[date as keyof typeof LEAGUES.fixtures] ||
-		throwError(`No fixture for "${date}"`)
-	);
+	return LEAGUES.fixtures[date as keyof typeof LEAGUES.fixtures] || [];
 }
 
 function createEmptyAnalysisStatsFile() {

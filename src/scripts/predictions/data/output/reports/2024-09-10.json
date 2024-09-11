@@ -1,0 +1,3457 @@
+[
+	{
+		"id": 34,
+		"name": "World Cup - Qualification South America",
+		"type": "Cup",
+		"country": { "name": "World", "flag": "🌎", "code": "World" },
+		"priority": 3,
+		"standings": {
+			"type": "REGULAR",
+			"items": [
+				{
+					"teamId": 26,
+					"teamName": "Argentina",
+					"points": 18,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 6,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 12, "against": 4, "diff": 8 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 5, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 3,
+							"draw": 0,
+							"lose": 1,
+							"goals": { "for": 7, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+						}
+					}
+				},
+				{
+					"teamId": 8,
+					"teamName": "Colombia",
+					"points": 16,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 4,
+							"lose": 0,
+							"goals": { "for": 9, "against": 5, "diff": 4 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 7, "against": 4 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 3,
+							"lose": 0,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 7,
+					"teamName": "Uruguay",
+					"points": 15,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 3,
+							"lose": 1,
+							"goals": { "for": 13, "against": 5, "diff": 8 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 8, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 5, "against": 4 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.6,
+							"promedio_de_goles_anotados_de_local_por_partido": 2,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+						}
+					}
+				},
+				{
+					"teamId": 2382,
+					"teamName": "Ecuador",
+					"points": 11,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 4,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 6, "against": 4, "diff": 2 }
+						},
+						"home": {
+							"played": 4,
+							"win": 3,
+							"draw": 1,
+							"lose": 0,
+							"goals": { "for": 4, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 1,
+							"lose": 2,
+							"goals": { "for": 2, "against": 3 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 6,
+					"teamName": "Brazil",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 1,
+							"lose": 4,
+							"goals": { "for": 9, "against": 8, "diff": 1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 7, "against": 3 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 2, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.1,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 2379,
+					"teamName": "Venezuela",
+					"points": 10,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 4,
+							"lose": 2,
+							"goals": { "for": 6, "against": 7, "diff": -1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 2,
+							"lose": 0,
+							"goals": { "for": 4, "against": 0 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 2, "against": 7 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_local_por_partido": 1,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.5
+						}
+					}
+				},
+				{
+					"teamId": 2380,
+					"teamName": "Paraguay",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 2,
+							"draw": 3,
+							"lose": 3,
+							"goals": { "for": 2, "against": 3, "diff": -1 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 1,
+							"lose": 1,
+							"goals": { "for": 2, "against": 1 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 0, "against": 2 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				},
+				{
+					"teamId": 2381,
+					"teamName": "Bolivia",
+					"points": 9,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 3,
+							"draw": 0,
+							"lose": 5,
+							"goals": { "for": 10, "against": 15, "diff": -5 }
+						},
+						"home": {
+							"played": 4,
+							"win": 2,
+							"draw": 0,
+							"lose": 2,
+							"goals": { "for": 7, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 1,
+							"draw": 0,
+							"lose": 3,
+							"goals": { "for": 3, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 1.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 1.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+						}
+					}
+				},
+				{
+					"teamId": 2383,
+					"teamName": "Chile",
+					"points": 5,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 1,
+							"draw": 2,
+							"lose": 5,
+							"goals": { "for": 4, "against": 12, "diff": -8 }
+						},
+						"home": {
+							"played": 4,
+							"win": 1,
+							"draw": 2,
+							"lose": 1,
+							"goals": { "for": 3, "against": 2 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 0,
+							"lose": 4,
+							"goals": { "for": 1, "against": 10 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.8,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0.3
+						}
+					}
+				},
+				{
+					"teamId": 30,
+					"teamName": "Peru",
+					"points": 3,
+					"stats": {
+						"all": {
+							"played": 8,
+							"win": 0,
+							"draw": 3,
+							"lose": 5,
+							"goals": { "for": 2, "against": 10, "diff": -8 }
+						},
+						"home": {
+							"played": 4,
+							"win": 0,
+							"draw": 2,
+							"lose": 2,
+							"goals": { "for": 2, "against": 5 }
+						},
+						"away": {
+							"played": 4,
+							"win": 0,
+							"draw": 1,
+							"lose": 3,
+							"goals": { "for": 0, "against": 5 }
+						},
+						"averages": {
+							"promedio_de_goles_anotados_por_partido": 0.3,
+							"promedio_de_goles_anotados_de_local_por_partido": 0.5,
+							"promedio_de_goles_anotados_de_visitante_por_partido": 0
+						}
+					}
+				}
+			],
+			"stats": {
+				"partidos_jugados": 8,
+				"promedio_de_goles_anotados_por_partido": 9.3,
+				"promedio_de_goles_anotados_de_local_por_partido": 12.5,
+				"promedio_de_goles_anotados_de_visitante_por_partido": 6.2
+			}
+		},
+		"matches": [
+			{
+				"id": "1100268",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-10T16:00",
+				"date": "2024-09-10",
+				"hour": "16:00",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 2382,
+						"name": "Ecuador",
+						"country": null,
+						"position": 4,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100267",
+								"fullDate": "2024-09-06T20:00",
+								"date": "2024-09-06",
+								"hour": "20:00",
+								"teams": {
+									"home": {
+										"id": 6,
+										"name": "Brazil",
+										"country": null,
+										"position": 5,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2382,
+										"name": "Ecuador",
+										"country": null,
+										"position": 4,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 30,
+						"name": "Peru",
+						"country": null,
+						"position": 10,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100266",
+								"fullDate": "2024-09-06T20:30",
+								"date": "2024-09-06",
+								"hour": "20:30",
+								"teams": {
+									"home": {
+										"id": 30,
+										"name": "Peru",
+										"country": null,
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 8,
+										"name": "Colombia",
+										"country": null,
+										"position": 2,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas arriba que el visitante en la tabla | (4>10/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 4 y el visitante de 10 en la tabla de posiciones"
+									}
+								],
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (4/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (10/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (1/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			},
+			{
+				"id": "1100269",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-10T17:00",
+				"date": "2024-09-10",
+				"hour": "17:00",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 2379,
+						"name": "Venezuela",
+						"country": null,
+						"position": 6,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 4,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 4,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 4,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 4,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100263",
+								"fullDate": "2024-09-05T15:00",
+								"date": "2024-09-05",
+								"hour": "15:00",
+								"teams": {
+									"home": {
+										"id": 2381,
+										"name": "Bolivia",
+										"country": null,
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2379,
+										"name": "Venezuela",
+										"country": null,
+										"position": 6,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 7,
+						"name": "Uruguay",
+						"country": null,
+						"position": 3,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100264",
+								"fullDate": "2024-09-06T18:30",
+								"date": "2024-09-06",
+								"hour": "18:30",
+								"teams": {
+									"home": {
+										"id": 7,
+										"name": "Uruguay",
+										"country": null,
+										"position": 3,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2380,
+										"name": "Paraguay",
+										"country": null,
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (6<=3/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 6 y el visitante de 3 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (6/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (3/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (1/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			},
+			{
+				"id": "1100270",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-10T15:30",
+				"date": "2024-09-10",
+				"hour": "15:30",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 8,
+						"name": "Colombia",
+						"country": null,
+						"position": 2,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100266",
+								"fullDate": "2024-09-06T20:30",
+								"date": "2024-09-06",
+								"hour": "20:30",
+								"teams": {
+									"home": {
+										"id": 30,
+										"name": "Peru",
+										"country": null,
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 8,
+										"name": "Colombia",
+										"country": null,
+										"position": 2,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 26,
+						"name": "Argentina",
+						"country": null,
+						"position": 1,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100265",
+								"fullDate": "2024-09-05T19:00",
+								"date": "2024-09-05",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 26,
+										"name": "Argentina",
+										"country": null,
+										"position": 1,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2383,
+										"name": "Chile",
+										"country": null,
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (2<=1/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 2 y el visitante de 1 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (2/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (1/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (1/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (3/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			},
+			{
+				"id": "1100271",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-10T19:30",
+				"date": "2024-09-10",
+				"hour": "19:30",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 2380,
+						"name": "Paraguay",
+						"country": null,
+						"position": 7,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100264",
+								"fullDate": "2024-09-06T18:30",
+								"date": "2024-09-06",
+								"hour": "18:30",
+								"teams": {
+									"home": {
+										"id": 7,
+										"name": "Uruguay",
+										"country": null,
+										"position": 3,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2380,
+										"name": "Paraguay",
+										"country": null,
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 6,
+						"name": "Brazil",
+						"country": null,
+						"position": 5,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100267",
+								"fullDate": "2024-09-06T20:00",
+								"date": "2024-09-06",
+								"hour": "20:00",
+								"teams": {
+									"home": {
+										"id": 6,
+										"name": "Brazil",
+										"country": null,
+										"position": 5,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2382,
+										"name": "Ecuador",
+										"country": null,
+										"position": 4,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (7<=5/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 7 y el visitante de 5 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (7/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (5/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (1/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (3/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			},
+			{
+				"id": "1100272",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-10T16:00",
+				"date": "2024-09-10",
+				"hour": "16:00",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 2383,
+						"name": "Chile",
+						"country": null,
+						"position": 9,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100265",
+								"fullDate": "2024-09-05T19:00",
+								"date": "2024-09-05",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 26,
+										"name": "Argentina",
+										"country": null,
+										"position": 1,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2383,
+										"name": "Chile",
+										"country": null,
+										"position": 9,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 2381,
+						"name": "Bolivia",
+						"country": null,
+						"position": 8,
+						"tag": "REGULAR",
+						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 4,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 4,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 1 partidos",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 4,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 4,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 0,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 0,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 0,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 0,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1100263",
+								"fullDate": "2024-09-05T15:00",
+								"date": "2024-09-05",
+								"hour": "15:00",
+								"teams": {
+									"home": {
+										"id": 2381,
+										"name": "Bolivia",
+										"country": null,
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2379,
+										"name": "Venezuela",
+										"country": null,
+										"position": 6,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 34,
+									"name": "World Cup - Qualification South America",
+									"type": "Cup",
+									"country": { "name": "World", "flag": "🌎", "code": "World" },
+									"season": { "year": 2026, "startDate": "2024-01-01" },
+									"priority": 3
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (9<=8/10)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 9 y el visitante de 8 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local no es de los mejores del torneo | (9/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (8/10)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (3/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "Insuficientes partidos ha jugado el equipo local para hacer este analisis"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "Insuficientes partidos ha jugado el equipo visitante para hacer este analisis"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 34,
+					"name": "World Cup - Qualification South America",
+					"type": "Cup",
+					"country": { "name": "World", "flag": "🌎", "code": "World" },
+					"season": { "year": 2026, "startDate": "2024-01-01" },
+					"priority": 3
+				}
+			}
+		]
+	}
+]
