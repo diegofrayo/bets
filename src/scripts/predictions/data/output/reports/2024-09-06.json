@@ -2316,7 +2316,7 @@
 						"country": null,
 						"position": 3,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
 						"result": "DRAW",
 						"score": {
 							"fullTime": 0,
@@ -2714,7 +2714,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": true,
@@ -2798,7 +2798,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": false,
@@ -3358,7 +3358,7 @@
 						"country": null,
 						"position": 5,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
 						"result": "WIN",
 						"score": {
 							"fullTime": 1,
@@ -3756,7 +3756,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": false,
@@ -3840,7 +3840,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": false,

@@ -5117,7 +5117,7 @@
 						"country": null,
 						"position": 1,
 						"tag": "REGULAR",
-						"historic": false,
+						"historic": true,
 						"result": "WIN",
 						"score": {
 							"fullTime": 3,
@@ -5515,7 +5515,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": true,
@@ -5599,7 +5599,7 @@
 									{
 										"fulfilled": true,
 										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
+										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
 								"recommended": false,
