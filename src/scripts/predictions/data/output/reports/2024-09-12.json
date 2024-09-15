@@ -679,11 +679,11 @@
 		"matches": [
 			{
 				"id": "1234197",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-12T19:30",
 				"date": "2024-09-12",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1462,
@@ -692,6 +692,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -1172,6 +1179,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -1717,7 +1731,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1738,7 +1758,13 @@
 										"explanation": "El local va de 14 y el visitante de 12 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1789,7 +1815,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"

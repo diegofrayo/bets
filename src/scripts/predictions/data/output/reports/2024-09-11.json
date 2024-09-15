@@ -679,11 +679,11 @@
 		"matches": [
 			{
 				"id": "1234165",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-11T18:00",
 				"date": "2024-09-11",
 				"hour": "18:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1138,
@@ -692,6 +692,13 @@
 						"position": 5,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -1172,6 +1179,13 @@
 						"position": 4,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -1766,7 +1780,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1787,7 +1807,13 @@
 										"explanation": "El local va de 5 y el visitante de 4 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1838,7 +1864,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -2536,11 +2568,11 @@
 		"matches": [
 			{
 				"id": "1180535",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-11T17:30",
 				"date": "2024-09-11",
 				"hour": "17:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 119,
@@ -2549,6 +2581,13 @@
 						"position": 10,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 30 partidos",
@@ -4205,6 +4244,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 36 partidos",
@@ -6159,7 +6205,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -6180,7 +6232,13 @@
 										"explanation": "El local va de 10 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -6231,7 +6289,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
