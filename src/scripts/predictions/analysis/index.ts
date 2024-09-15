@@ -1,5 +1,6 @@
 import dayjs from "dayjs";
 
+import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
 import { createArray, omit, pick } from "../../../@diegofrayo/utils/arrays-and-objects";
 import { copyFile, readFile, writeFile } from "../../../@diegofrayo/utils/files";
@@ -59,7 +60,7 @@ export default async function main(config: T_AnalysisConfig) {
 					};
 					DataClient.updateTeamsFile(fixtureMatches);
 
-					await asyncLoop(fixtureMatches, async (fixtureMatch) => {
+					await asyncLoop(fixtureMatches.sort(sortBy("fullDate")), async (fixtureMatch) => {
 						try {
 							const homeTeamPlayedMatches = (
 								await DataClient.fetchPlayedMatches({
