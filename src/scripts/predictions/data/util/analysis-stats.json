@@ -168,7 +168,8 @@
 						"1234239-colombia",
 						"1234241-colombia",
 						"1180609-brazil"
-					]
+					],
+					"2024-09-16": ["1208537-spain", "1237888-turkey", "1158844-argentina", "1180605-brazil"]
 				},
 				"lost": {
 					"2024-08-04": ["1180562-brazil"],
@@ -513,7 +514,8 @@
 						"1151162-usa",
 						"1234240-colombia",
 						"1180612-brazil"
-					]
+					],
+					"2024-09-16": ["1231766-portugal", "1223630-italy", "1205468-denmark"]
 				},
 				"skippedLost": {
 					"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
@@ -663,7 +665,8 @@
 						"1158845-argentina",
 						"1151160-usa",
 						"1180613-brazil"
-					]
+					],
+					"2024-09-16": ["1223633-italy", "1158843-argentina"]
 				}
 			},
 			"2f288451-42c2-48a9-ad53-30790b7974a8": {
@@ -1095,7 +1098,8 @@
 						"1234233-colombia",
 						"1234239-colombia",
 						"1180609-brazil"
-					]
+					],
+					"2024-09-16": ["1237888-turkey", "1158844-argentina", "1180605-brazil"]
 				},
 				"lost": {
 					"2024-08-04": ["1158776-argentina", "1180562-brazil"],
@@ -1485,6 +1489,13 @@
 						"1151162-usa",
 						"1234241-colombia",
 						"1180612-brazil"
+					],
+					"2024-09-16": [
+						"1208537-spain",
+						"1231766-portugal",
+						"1223633-italy",
+						"1223630-italy",
+						"1205468-denmark"
 					]
 				},
 				"skippedLost": {
@@ -1622,7 +1633,8 @@
 						"1151152-usa",
 						"1234240-colombia",
 						"1180613-brazil"
-					]
+					],
+					"2024-09-16": ["1158843-argentina"]
 				}
 			},
 			"86842844-616c-4651-a3ee-e3cb92a04ce5": {
@@ -2252,6 +2264,13 @@
 						"1234233-colombia",
 						"1234239-colombia",
 						"1180609-brazil"
+					],
+					"2024-09-16": [
+						"1208537-spain",
+						"1223630-italy",
+						"1237888-turkey",
+						"1158844-argentina",
+						"1180605-brazil"
 					]
 				},
 				"skippedLost": {
@@ -2601,6 +2620,12 @@
 						"1234241-colombia",
 						"1180613-brazil",
 						"1180612-brazil"
+					],
+					"2024-09-16": [
+						"1231766-portugal",
+						"1223633-italy",
+						"1205468-denmark",
+						"1158843-argentina"
 					]
 				}
 			},
@@ -2896,13 +2921,13 @@
 		"do-local": {
 			"5e7b9e2b-cbf8-43d5-8b60-813c66300c37": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 164,
+				"winning": 168,
 				"lost": 30,
-				"lostWinning": 294,
-				"skippedLost": 139,
-				"total": 627,
-				"successPercentaje": 84.5,
-				"picksPercentaje": 30.9
+				"lostWinning": 297,
+				"skippedLost": 141,
+				"total": 636,
+				"successPercentaje": 84.8,
+				"picksPercentaje": 31.1
 			},
 			"2f288451-42c2-48a9-ad53-30790b7974a8": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
@@ -2918,13 +2943,13 @@
 		"gpe-local": {
 			"3c889798-2dea-4276-9cc9-762b8b95b556": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 128,
+				"winning": 131,
 				"lost": 24,
-				"lostWinning": 348,
-				"skippedLost": 127,
-				"total": 627,
-				"successPercentaje": 84.2,
-				"picksPercentaje": 24.2
+				"lostWinning": 353,
+				"skippedLost": 128,
+				"total": 636,
+				"successPercentaje": 84.5,
+				"picksPercentaje": 24.4
 			},
 			"86842844-616c-4651-a3ee-e3cb92a04ce5": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
@@ -2942,9 +2967,9 @@
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 				"winning": 4,
 				"lost": 1,
-				"lostWinning": 292,
-				"skippedLost": 330,
-				"total": 627,
+				"lostWinning": 297,
+				"skippedLost": 334,
+				"total": 636,
 				"successPercentaje": 80,
 				"picksPercentaje": 0.8
 			},
