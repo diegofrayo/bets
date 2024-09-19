@@ -83,15 +83,6 @@
 		},
 		{
 			"enabled": true,
-			"id": 233,
-			"name": "Premier League",
-			"type": "League",
-			"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
-			"season": { "year": 2023, "startDate": "2023-09-23" },
-			"priority": 1
-		},
-		{
-			"enabled": true,
 			"id": 39,
 			"name": "Premier League",
 			"type": "League",
@@ -161,15 +152,6 @@
 			"country": { "name": "Iceland", "flag": "🇮🇸", "code": "IS" },
 			"season": { "year": 2024, "startDate": "2024-04-06" },
 			"priority": 1
-		},
-		{
-			"enabled": true,
-			"id": 262,
-			"name": "Liga MX",
-			"type": "League",
-			"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
-			"season": { "year": 2024, "startDate": "2024-07-01" },
-			"priority": 2
 		},
 		{
 			"enabled": true,
@@ -278,6 +260,33 @@
 			"country": { "name": "Germany", "flag": "🇩🇪", "code": "DE" },
 			"season": { "year": 2024, "startDate": "2024-07-01" },
 			"priority": 4
+		},
+		{
+			"enabled": true,
+			"id": 46,
+			"name": "EFL Trophy",
+			"type": "Cup",
+			"country": { "name": "England", "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "code": "GB" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 4
+		},
+		{
+			"enabled": false,
+			"id": 233,
+			"name": "Premier League",
+			"type": "League",
+			"country": { "name": "Egypt", "flag": "🇪🇬", "code": "EG" },
+			"season": { "year": 2023, "startDate": "2023-09-23" },
+			"priority": 1
+		},
+		{
+			"enabled": false,
+			"id": 262,
+			"name": "Liga MX",
+			"type": "League",
+			"country": { "name": "Mexico", "flag": "🇲🇽", "code": "MX" },
+			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 2
 		},
 		{
 			"enabled": false,
@@ -932,6 +941,63 @@
 			"13-conmebol-libertadores-world",
 			"11-conmebol-sudamericana-world",
 			"2-uefa-champions-league-world"
+		],
+		"2024-09-20": [
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"94-primeira-liga-portugal",
+			"135-serie-a-italy",
+			"119-superliga-denmark",
+			"203-super-lig-turkey",
+			"244-veikkausliiga-finland",
+			"128-liga-profesional-argentina-argentina",
+			"239-primera-a-colombia"
+		],
+		"2024-09-21": [
+			"218-bundesliga-austria",
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"345-czech-liga-czech-republic",
+			"103-eliteserien-norway",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"39-premier-league-england",
+			"179-premiership-scotland",
+			"94-primeira-liga-portugal",
+			"135-serie-a-italy",
+			"203-super-lig-turkey",
+			"128-liga-profesional-argentina-argentina",
+			"253-major-league-soccer-usa",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
+		],
+		"2024-09-22": [
+			"218-bundesliga-austria",
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"345-czech-liga-czech-republic",
+			"103-eliteserien-norway",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"39-premier-league-england",
+			"94-primeira-liga-portugal",
+			"135-serie-a-italy",
+			"119-superliga-denmark",
+			"203-super-lig-turkey",
+			"244-veikkausliiga-finland",
+			"164-urvalsdeild-iceland",
+			"128-liga-profesional-argentina-argentina",
+			"253-major-league-soccer-usa",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
 		]
 	}
 }
