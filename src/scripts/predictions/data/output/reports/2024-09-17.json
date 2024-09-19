@@ -547,11 +547,11 @@
 		"matches": [
 			{
 				"id": "1210422",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T10:00",
 				"date": "2024-09-17",
 				"hour": "10:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 567,
@@ -560,6 +560,13 @@
 						"position": 3,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -1236,6 +1243,13 @@
 						"position": 5,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 6 partidos",
@@ -1732,7 +1746,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1753,7 +1773,13 @@
 										"explanation": "El local va de 3 y el visitante de 5 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1804,7 +1830,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -1822,11 +1854,11 @@
 			},
 			{
 				"id": "1210420",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T12:30",
 				"date": "2024-09-17",
 				"hour": "12:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 640,
@@ -1835,6 +1867,13 @@
 						"position": 8,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -2609,6 +2648,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -3301,7 +3347,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -3322,7 +3374,13 @@
 										"explanation": "El local va de 8 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -3373,7 +3431,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -4005,11 +4069,11 @@
 		"matches": [
 			{
 				"id": "1213462",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T13:00",
 				"date": "2024-09-17",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 415,
@@ -4018,6 +4082,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -4590,6 +4661,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -5218,7 +5296,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -5239,7 +5323,13 @@
 										"explanation": "El local va de 12 y el visitante de 13 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -5290,7 +5380,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -5856,11 +5952,11 @@
 		"matches": [
 			{
 				"id": "1213233",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T13:00",
 				"date": "2024-09-17",
 				"hour": "13:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 554,
@@ -5869,6 +5965,13 @@
 						"position": 4,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -6447,6 +6550,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 7 partidos",
@@ -6989,7 +7099,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -7010,7 +7126,13 @@
 										"explanation": "El local va de 4 y el visitante de 2 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -7061,7 +7183,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -7759,11 +7887,11 @@
 		"matches": [
 			{
 				"id": "1208550",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T12:00",
 				"date": "2024-09-17",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 798,
@@ -7772,6 +7900,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -8525,6 +8660,13 @@
 						"position": 16,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -9202,7 +9344,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -9223,7 +9371,13 @@
 										"explanation": "El local va de 13 y el visitante de 16 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -9274,7 +9428,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -9939,11 +10099,11 @@
 		"matches": [
 			{
 				"id": "1237873",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T12:00",
 				"date": "2024-09-17",
 				"hour": "12:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 645,
@@ -9952,6 +10112,13 @@
 						"position": 2,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -10708,6 +10875,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 3 partidos",
@@ -11057,7 +11231,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -11078,7 +11258,13 @@
 										"explanation": "El local va de 2 y el visitante de 14 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -11129,7 +11315,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -11761,11 +11953,11 @@
 		"matches": [
 			{
 				"id": "1206066",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T20:00",
 				"date": "2024-09-17",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2314,
@@ -11774,6 +11966,13 @@
 						"position": 3,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -12450,6 +12649,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -13182,11 +13388,11 @@
 			},
 			{
 				"id": "1206067",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T20:00",
 				"date": "2024-09-17",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2292,
@@ -13195,6 +13401,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -13871,6 +14084,13 @@
 						"position": 18,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -14603,11 +14823,11 @@
 			},
 			{
 				"id": "1206070",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T20:00",
 				"date": "2024-09-17",
 				"hour": "20:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2287,
@@ -14616,6 +14836,13 @@
 						"position": 1,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -15384,6 +15611,13 @@
 						"position": 2,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -16067,11 +16301,11 @@
 			},
 			{
 				"id": "1206069",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T22:00",
 				"date": "2024-09-17",
 				"hour": "22:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2290,
@@ -16080,6 +16314,13 @@
 						"position": 14,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -16756,6 +16997,13 @@
 						"position": 16,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -17488,11 +17736,11 @@
 			},
 			{
 				"id": "1206068",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T22:05",
 				"date": "2024-09-17",
 				"hour": "22:05",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2286,
@@ -17501,6 +17749,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -18226,6 +18481,13 @@
 						"position": 12,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -19995,19 +20257,26 @@
 		"matches": [
 			{
 				"id": "1294401",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T19:30",
 				"date": "2024-09-17",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 2315,
 						"name": "Colo Colo",
 						"country": null,
-						"position": null,
+						"position": 2,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -20210,7 +20479,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -20256,7 +20525,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20287,7 +20556,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20348,7 +20617,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20379,7 +20648,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -20394,7 +20663,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": null,
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20428,7 +20697,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20474,7 +20743,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": null,
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20489,7 +20758,7 @@
 										"id": 1135,
 										"name": "Junior",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -20538,7 +20807,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -20569,7 +20838,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20615,7 +20884,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20661,7 +20930,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -20722,7 +20991,7 @@
 										"id": 2315,
 										"name": "Colo Colo",
 										"country": { "name": "Chile", "flag": "🇨🇱", "code": "CL" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -20749,9 +21018,16 @@
 						"id": 435,
 						"name": "River Plate",
 						"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-						"position": null,
+						"position": 1,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 13 partidos",
@@ -20939,7 +21215,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -21003,7 +21279,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21037,7 +21313,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21086,7 +21362,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -21101,7 +21377,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -21150,7 +21426,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21184,7 +21460,7 @@
 										"id": 456,
 										"name": "Talleres Cordoba",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -21199,7 +21475,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -21233,7 +21509,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21297,7 +21573,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21331,7 +21607,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -21395,7 +21671,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -21429,7 +21705,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21478,7 +21754,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -21524,7 +21800,7 @@
 										"id": 435,
 										"name": "River Plate",
 										"country": { "name": "Argentina", "flag": "🇦🇷", "code": "AR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21539,7 +21815,7 @@
 										"id": 1125,
 										"name": "Millonarios",
 										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
-										"position": null,
+										"position": 4,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -21585,7 +21861,13 @@
 										"explanation": "El visitante sumó mas de 7 puntos en los últimos 5 partidos | (9/15)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -21611,7 +21893,13 @@
 										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (0.6)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -21652,7 +21940,13 @@
 										"explanation": "Ambos equipos son históricos | (true-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22756,19 +23050,26 @@
 		"matches": [
 			{
 				"id": "1294586",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T19:30",
 				"date": "2024-09-17",
 				"hour": "19:30",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 154,
 						"name": "Fortaleza EC",
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-						"position": null,
+						"position": 1,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 16 partidos",
@@ -22956,7 +23257,7 @@
 										"id": 134,
 										"name": "Atletico Paranaense",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -22971,7 +23272,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -23005,7 +23306,7 @@
 										"id": 119,
 										"name": "Internacional",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -23020,7 +23321,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -23069,7 +23370,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -23103,7 +23404,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23118,7 +23419,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -23152,7 +23453,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23201,7 +23502,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -23216,7 +23517,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23265,7 +23566,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -23299,7 +23600,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23348,7 +23649,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -23363,7 +23664,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23397,7 +23698,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23461,7 +23762,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -23495,7 +23796,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23544,7 +23845,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23608,7 +23909,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23642,7 +23943,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -23706,7 +24007,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -23736,9 +24037,16 @@
 						"id": 131,
 						"name": "Corinthians",
 						"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-						"position": null,
+						"position": 1,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 20 partidos",
@@ -23941,7 +24249,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -23975,7 +24283,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24024,7 +24332,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24088,7 +24396,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24122,7 +24430,7 @@
 										"id": 154,
 										"name": "Fortaleza EC",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -24137,7 +24445,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24171,7 +24479,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24186,7 +24494,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
@@ -24235,7 +24543,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -24269,7 +24577,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -24284,7 +24592,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24318,7 +24626,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -24333,7 +24641,7 @@
 										"id": 794,
 										"name": "RB Bragantino",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -24382,7 +24690,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -24416,7 +24724,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -24465,7 +24773,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -24529,7 +24837,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24563,7 +24871,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "DRAW",
@@ -24627,7 +24935,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24661,7 +24969,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24725,7 +25033,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24759,7 +25067,7 @@
 										"id": 135,
 										"name": "Cruzeiro",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24774,7 +25082,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24808,7 +25116,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "WIN",
@@ -24872,7 +25180,7 @@
 										"id": 131,
 										"name": "Corinthians",
 										"country": { "name": "Brazil", "flag": "🇧🇷", "code": "BR" },
-										"position": null,
+										"position": 1,
 										"tag": "REGULAR",
 										"historic": true,
 										"result": "LOSE",
@@ -24921,7 +25229,13 @@
 										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.4)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -24947,7 +25261,13 @@
 										"explanation": "El visitante sumó menos de 7 puntos en los últimos 5 partidos | (6/15)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -24988,7 +25308,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -26214,11 +26540,11 @@
 		"matches": [
 			{
 				"id": "1298984",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T11:45",
 				"date": "2024-09-17",
 				"hour": "11:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 496,
@@ -26227,6 +26553,13 @@
 						"position": 19,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -26793,6 +27126,13 @@
 						"position": 22,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 1, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -27369,11 +27709,11 @@
 			},
 			{
 				"id": "1298985",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T11:45",
 				"date": "2024-09-17",
 				"hour": "11:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 565,
@@ -27382,6 +27722,13 @@
 						"position": 32,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 2 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 15 partidos",
@@ -28264,6 +28611,13 @@
 						"position": 2,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -28975,11 +29329,11 @@
 			},
 			{
 				"id": "1298986",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T14:00",
 				"date": "2024-09-17",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 157,
@@ -28988,6 +29342,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 9,
+							"firstHalf": { "for": 3, "against": 0 },
+							"secondHalf": { "for": 6, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -29600,6 +29961,13 @@
 						"position": 28,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 3 },
+							"secondHalf": { "for": 2, "against": 6 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -30443,11 +30811,11 @@
 			},
 			{
 				"id": "1298987",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T14:00",
 				"date": "2024-09-17",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 489,
@@ -30456,6 +30824,13 @@
 						"position": 20,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 2 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -31068,6 +31443,13 @@
 						"position": 3,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 2, "against": 1 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 8 partidos",
@@ -31641,11 +32023,11 @@
 			},
 			{
 				"id": "1298988",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T14:00",
 				"date": "2024-09-17",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 228,
@@ -31654,6 +32036,13 @@
 						"position": 29,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -32269,6 +32658,13 @@
 						"position": 5,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -33130,11 +33526,11 @@
 			},
 			{
 				"id": "1298989",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-17T14:00",
 				"date": "2024-09-17",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 541,
@@ -33143,6 +33539,13 @@
 						"position": 24,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 3, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 9 partidos",
@@ -33758,6 +34161,13 @@
 						"position": 27,
 						"tag": "REGULAR",
 						"historic": true,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 1, "against": 3 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",

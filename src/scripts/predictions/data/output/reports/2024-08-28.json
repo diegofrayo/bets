@@ -7045,510 +7045,970 @@
 		"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 		"priority": 2,
 		"standings": {
-			"type": "REGULAR",
+			"type": "GROUPS",
 			"items": [
-				{
-					"teamId": 9568,
-					"teamName": "Inter Miami",
-					"points": 56,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 17,
-							"draw": 5,
-							"lose": 4,
-							"goals": { "for": 58, "against": 39, "diff": 19 }
-						},
-						"home": {
-							"played": 14,
-							"win": 9,
-							"draw": 3,
-							"lose": 2,
-							"goals": { "for": 35, "against": 18 }
-						},
-						"away": {
-							"played": 12,
-							"win": 8,
-							"draw": 2,
-							"lose": 2,
-							"goals": { "for": 23, "against": 21 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 2.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 2.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.9
+				[
+					{
+						"teamId": 9568,
+						"teamName": "Inter Miami",
+						"points": 56,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 17,
+								"draw": 5,
+								"lose": 4,
+								"goals": { "for": 58, "against": 39, "diff": 19 }
+							},
+							"home": {
+								"played": 14,
+								"win": 9,
+								"draw": 3,
+								"lose": 2,
+								"goals": { "for": 35, "against": 18 }
+							},
+							"away": {
+								"played": 12,
+								"win": 8,
+								"draw": 2,
+								"lose": 2,
+								"goals": { "for": 23, "against": 21 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 2.2,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.5,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.9
+							}
+						}
+					},
+					{
+						"teamId": 2242,
+						"teamName": "FC Cincinnati",
+						"points": 48,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 15,
+								"draw": 3,
+								"lose": 8,
+								"goals": { "for": 44, "against": 35, "diff": 9 }
+							},
+							"home": {
+								"played": 13,
+								"win": 6,
+								"draw": 2,
+								"lose": 5,
+								"goals": { "for": 20, "against": 16 }
+							},
+							"away": {
+								"played": 13,
+								"win": 9,
+								"draw": 1,
+								"lose": 3,
+								"goals": { "for": 24, "against": 19 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.7,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+							}
+						}
+					},
+					{
+						"teamId": 1613,
+						"teamName": "Columbus Crew",
+						"points": 43,
+						"stats": {
+							"all": {
+								"played": 23,
+								"win": 12,
+								"draw": 7,
+								"lose": 4,
+								"goals": { "for": 47, "against": 22, "diff": 25 }
+							},
+							"home": {
+								"played": 11,
+								"win": 6,
+								"draw": 4,
+								"lose": 1,
+								"goals": { "for": 21, "against": 7 }
+							},
+							"away": {
+								"played": 12,
+								"win": 6,
+								"draw": 3,
+								"lose": 3,
+								"goals": { "for": 26, "against": 15 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 2,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 2.2
+							}
+						}
+					},
+					{
+						"teamId": 1602,
+						"teamName": "New York Red Bulls",
+						"points": 42,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 10,
+								"draw": 12,
+								"lose": 4,
+								"goals": { "for": 43, "against": 32, "diff": 11 }
+							},
+							"home": {
+								"played": 12,
+								"win": 7,
+								"draw": 5,
+								"lose": 0,
+								"goals": { "for": 25, "against": 10 }
+							},
+							"away": {
+								"played": 14,
+								"win": 3,
+								"draw": 7,
+								"lose": 4,
+								"goals": { "for": 18, "against": 22 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.7,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+							}
+						}
+					},
+					{
+						"teamId": 1604,
+						"teamName": "New York City FC",
+						"points": 39,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 11,
+								"draw": 6,
+								"lose": 9,
+								"goals": { "for": 38, "against": 32, "diff": 6 }
+							},
+							"home": {
+								"played": 13,
+								"win": 8,
+								"draw": 2,
+								"lose": 3,
+								"goals": { "for": 27, "against": 16 }
+							},
+							"away": {
+								"played": 13,
+								"win": 3,
+								"draw": 4,
+								"lose": 6,
+								"goals": { "for": 11, "against": 16 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.5,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+							}
+						}
+					},
+					{
+						"teamId": 18310,
+						"teamName": "Charlotte",
+						"points": 38,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 10,
+								"draw": 8,
+								"lose": 8,
+								"goals": { "for": 31, "against": 28, "diff": 3 }
+							},
+							"home": {
+								"played": 13,
+								"win": 6,
+								"draw": 5,
+								"lose": 2,
+								"goals": { "for": 15, "against": 11 }
+							},
+							"away": {
+								"played": 13,
+								"win": 4,
+								"draw": 3,
+								"lose": 6,
+								"goals": { "for": 16, "against": 17 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.2,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.2,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+							}
+						}
+					},
+					{
+						"teamId": 1598,
+						"teamName": "Orlando City SC",
+						"points": 34,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 9,
+								"draw": 7,
+								"lose": 10,
+								"goals": { "for": 39, "against": 41, "diff": -2 }
+							},
+							"home": {
+								"played": 12,
+								"win": 3,
+								"draw": 4,
+								"lose": 5,
+								"goals": { "for": 17, "against": 15 }
+							},
+							"away": {
+								"played": 14,
+								"win": 6,
+								"draw": 3,
+								"lose": 5,
+								"goals": { "for": 22, "against": 26 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.5,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.4,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+							}
+						}
+					},
+					{
+						"teamId": 1601,
+						"teamName": "Toronto FC",
+						"points": 33,
+						"stats": {
+							"all": {
+								"played": 27,
+								"win": 10,
+								"draw": 3,
+								"lose": 14,
+								"goals": { "for": 35, "against": 47, "diff": -12 }
+							},
+							"home": {
+								"played": 12,
+								"win": 6,
+								"draw": 0,
+								"lose": 6,
+								"goals": { "for": 23, "against": 21 }
+							},
+							"away": {
+								"played": 15,
+								"win": 4,
+								"draw": 3,
+								"lose": 8,
+								"goals": { "for": 12, "against": 26 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.3,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+							}
+						}
+					},
+					{
+						"teamId": 1608,
+						"teamName": "Atlanta United FC",
+						"points": 28,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 7,
+								"draw": 7,
+								"lose": 12,
+								"goals": { "for": 35, "against": 38, "diff": -3 }
+							},
+							"home": {
+								"played": 13,
+								"win": 5,
+								"draw": 3,
+								"lose": 5,
+								"goals": { "for": 25, "against": 20 }
+							},
+							"away": {
+								"played": 13,
+								"win": 2,
+								"draw": 4,
+								"lose": 7,
+								"goals": { "for": 10, "against": 18 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.3,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.9,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
+							}
+						}
+					},
+					{
+						"teamId": 1599,
+						"teamName": "Philadelphia Union",
+						"points": 27,
+						"stats": {
+							"all": {
+								"played": 25,
+								"win": 6,
+								"draw": 9,
+								"lose": 10,
+								"goals": { "for": 45, "against": 42, "diff": 3 }
+							},
+							"home": {
+								"played": 13,
+								"win": 3,
+								"draw": 4,
+								"lose": 6,
+								"goals": { "for": 21, "against": 19 }
+							},
+							"away": {
+								"played": 12,
+								"win": 3,
+								"draw": 5,
+								"lose": 4,
+								"goals": { "for": 24, "against": 23 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.8,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 2
+							}
+						}
+					},
+					{
+						"teamId": 1614,
+						"teamName": "CF Montreal",
+						"points": 27,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 6,
+								"draw": 9,
+								"lose": 11,
+								"goals": { "for": 34, "against": 54, "diff": -20 }
+							},
+							"home": {
+								"played": 13,
+								"win": 4,
+								"draw": 5,
+								"lose": 4,
+								"goals": { "for": 19, "against": 22 }
+							},
+							"away": {
+								"played": 13,
+								"win": 2,
+								"draw": 4,
+								"lose": 7,
+								"goals": { "for": 15, "against": 32 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.3,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+							}
+						}
+					},
+					{
+						"teamId": 1609,
+						"teamName": "New England Revolution",
+						"points": 26,
+						"stats": {
+							"all": {
+								"played": 24,
+								"win": 8,
+								"draw": 2,
+								"lose": 14,
+								"goals": { "for": 28, "against": 47, "diff": -19 }
+							},
+							"home": {
+								"played": 13,
+								"win": 4,
+								"draw": 2,
+								"lose": 7,
+								"goals": { "for": 13, "against": 24 }
+							},
+							"away": {
+								"played": 11,
+								"win": 4,
+								"draw": 0,
+								"lose": 7,
+								"goals": { "for": 15, "against": 23 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.2,
+								"promedio_de_goles_anotados_de_local_por_partido": 1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+							}
+						}
+					},
+					{
+						"teamId": 1607,
+						"teamName": "Chicago Fire",
+						"points": 26,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 6,
+								"draw": 8,
+								"lose": 12,
+								"goals": { "for": 32, "against": 44, "diff": -12 }
+							},
+							"home": {
+								"played": 12,
+								"win": 4,
+								"draw": 3,
+								"lose": 5,
+								"goals": { "for": 15, "against": 20 }
+							},
+							"away": {
+								"played": 14,
+								"win": 2,
+								"draw": 5,
+								"lose": 7,
+								"goals": { "for": 17, "against": 24 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.2,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+							}
+						}
+					},
+					{
+						"teamId": 9569,
+						"teamName": "Nashville SC",
+						"points": 26,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 6,
+								"draw": 8,
+								"lose": 12,
+								"goals": { "for": 26, "against": 41, "diff": -15 }
+							},
+							"home": {
+								"played": 14,
+								"win": 4,
+								"draw": 5,
+								"lose": 5,
+								"goals": { "for": 18, "against": 19 }
+							},
+							"away": {
+								"played": 12,
+								"win": 2,
+								"draw": 3,
+								"lose": 7,
+								"goals": { "for": 8, "against": 22 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.3,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
+							}
+						}
+					},
+					{
+						"teamId": 1615,
+						"teamName": "DC United",
+						"points": 26,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 6,
+								"draw": 8,
+								"lose": 12,
+								"goals": { "for": 38, "against": 54, "diff": -16 }
+							},
+							"home": {
+								"played": 14,
+								"win": 4,
+								"draw": 3,
+								"lose": 7,
+								"goals": { "for": 23, "against": 30 }
+							},
+							"away": {
+								"played": 12,
+								"win": 2,
+								"draw": 5,
+								"lose": 5,
+								"goals": { "for": 15, "against": 24 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.5,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
+							}
 						}
 					}
-				},
-				{
-					"teamId": 2242,
-					"teamName": "FC Cincinnati",
-					"points": 48,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 15,
-							"draw": 3,
-							"lose": 8,
-							"goals": { "for": 44, "against": 35, "diff": 9 }
-						},
-						"home": {
-							"played": 13,
-							"win": 6,
-							"draw": 2,
-							"lose": 5,
-							"goals": { "for": 20, "against": 16 }
-						},
-						"away": {
-							"played": 13,
-							"win": 9,
-							"draw": 1,
-							"lose": 3,
-							"goals": { "for": 24, "against": 19 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.7,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.8
+				],
+				[
+					{
+						"teamId": 1605,
+						"teamName": "Los Angeles Galaxy",
+						"points": 52,
+						"stats": {
+							"all": {
+								"played": 27,
+								"win": 15,
+								"draw": 7,
+								"lose": 5,
+								"goals": { "for": 52, "against": 36, "diff": 16 }
+							},
+							"home": {
+								"played": 14,
+								"win": 10,
+								"draw": 3,
+								"lose": 1,
+								"goals": { "for": 33, "against": 20 }
+							},
+							"away": {
+								"played": 13,
+								"win": 5,
+								"draw": 4,
+								"lose": 4,
+								"goals": { "for": 19, "against": 16 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.9,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.4,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+							}
+						}
+					},
+					{
+						"teamId": 1616,
+						"teamName": "Los Angeles FC",
+						"points": 47,
+						"stats": {
+							"all": {
+								"played": 24,
+								"win": 14,
+								"draw": 5,
+								"lose": 5,
+								"goals": { "for": 48, "against": 30, "diff": 18 }
+							},
+							"home": {
+								"played": 13,
+								"win": 9,
+								"draw": 3,
+								"lose": 1,
+								"goals": { "for": 31, "against": 14 }
+							},
+							"away": {
+								"played": 11,
+								"win": 5,
+								"draw": 2,
+								"lose": 4,
+								"goals": { "for": 17, "against": 16 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 2,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.4,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+							}
+						}
+					},
+					{
+						"teamId": 1606,
+						"teamName": "Real Salt Lake",
+						"points": 44,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 12,
+								"draw": 8,
+								"lose": 6,
+								"goals": { "for": 51, "against": 36, "diff": 15 }
+							},
+							"home": {
+								"played": 12,
+								"win": 8,
+								"draw": 1,
+								"lose": 3,
+								"goals": { "for": 28, "against": 14 }
+							},
+							"away": {
+								"played": 14,
+								"win": 4,
+								"draw": 7,
+								"lose": 3,
+								"goals": { "for": 23, "against": 22 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 2,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.3,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+							}
+						}
+					},
+					{
+						"teamId": 1610,
+						"teamName": "Colorado Rapids",
+						"points": 41,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 12,
+								"draw": 5,
+								"lose": 9,
+								"goals": { "for": 50, "against": 43, "diff": 7 }
+							},
+							"home": {
+								"played": 13,
+								"win": 8,
+								"draw": 3,
+								"lose": 2,
+								"goals": { "for": 28, "against": 17 }
+							},
+							"away": {
+								"played": 13,
+								"win": 4,
+								"draw": 2,
+								"lose": 7,
+								"goals": { "for": 22, "against": 26 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.9,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.2,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+							}
+						}
+					},
+					{
+						"teamId": 1595,
+						"teamName": "Seattle Sounders",
+						"points": 40,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 11,
+								"draw": 7,
+								"lose": 8,
+								"goals": { "for": 37, "against": 31, "diff": 6 }
+							},
+							"home": {
+								"played": 13,
+								"win": 6,
+								"draw": 5,
+								"lose": 2,
+								"goals": { "for": 19, "against": 11 }
+							},
+							"away": {
+								"played": 13,
+								"win": 5,
+								"draw": 2,
+								"lose": 6,
+								"goals": { "for": 18, "against": 20 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.4,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.5,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
+							}
+						}
+					},
+					{
+						"teamId": 1603,
+						"teamName": "Vancouver Whitecaps",
+						"points": 38,
+						"stats": {
+							"all": {
+								"played": 24,
+								"win": 11,
+								"draw": 5,
+								"lose": 8,
+								"goals": { "for": 43, "against": 35, "diff": 8 }
+							},
+							"home": {
+								"played": 11,
+								"win": 5,
+								"draw": 2,
+								"lose": 4,
+								"goals": { "for": 22, "against": 19 }
+							},
+							"away": {
+								"played": 13,
+								"win": 6,
+								"draw": 3,
+								"lose": 4,
+								"goals": { "for": 21, "against": 16 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.8,
+								"promedio_de_goles_anotados_de_local_por_partido": 2,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
+							}
+						}
+					},
+					{
+						"teamId": 1617,
+						"teamName": "Portland Timbers",
+						"points": 37,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 10,
+								"draw": 7,
+								"lose": 9,
+								"goals": { "for": 54, "against": 46, "diff": 8 }
+							},
+							"home": {
+								"played": 13,
+								"win": 7,
+								"draw": 4,
+								"lose": 2,
+								"goals": { "for": 34, "against": 22 }
+							},
+							"away": {
+								"played": 13,
+								"win": 3,
+								"draw": 3,
+								"lose": 7,
+								"goals": { "for": 20, "against": 24 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 2.1,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.6,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+							}
+						}
+					},
+					{
+						"teamId": 1600,
+						"teamName": "Houston Dynamo",
+						"points": 37,
+						"stats": {
+							"all": {
+								"played": 25,
+								"win": 10,
+								"draw": 7,
+								"lose": 8,
+								"goals": { "for": 35, "against": 31, "diff": 4 }
+							},
+							"home": {
+								"played": 12,
+								"win": 4,
+								"draw": 5,
+								"lose": 3,
+								"goals": { "for": 13, "against": 11 }
+							},
+							"away": {
+								"played": 13,
+								"win": 6,
+								"draw": 2,
+								"lose": 5,
+								"goals": { "for": 22, "against": 20 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.4,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+							}
+						}
+					},
+					{
+						"teamId": 16489,
+						"teamName": "Austin",
+						"points": 34,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 9,
+								"draw": 7,
+								"lose": 10,
+								"goals": { "for": 30, "against": 37, "diff": -7 }
+							},
+							"home": {
+								"played": 13,
+								"win": 6,
+								"draw": 4,
+								"lose": 3,
+								"goals": { "for": 22, "against": 19 }
+							},
+							"away": {
+								"played": 13,
+								"win": 3,
+								"draw": 3,
+								"lose": 7,
+								"goals": { "for": 8, "against": 18 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.2,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.7,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 0.6
+							}
+						}
+					},
+					{
+						"teamId": 1597,
+						"teamName": "FC Dallas",
+						"points": 33,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 9,
+								"draw": 6,
+								"lose": 11,
+								"goals": { "for": 42, "against": 42, "diff": 0 }
+							},
+							"home": {
+								"played": 13,
+								"win": 8,
+								"draw": 2,
+								"lose": 3,
+								"goals": { "for": 26, "against": 17 }
+							},
+							"away": {
+								"played": 13,
+								"win": 1,
+								"draw": 4,
+								"lose": 8,
+								"goals": { "for": 16, "against": 25 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.6,
+								"promedio_de_goles_anotados_de_local_por_partido": 2,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+							}
+						}
+					},
+					{
+						"teamId": 1612,
+						"teamName": "Minnesota United FC",
+						"points": 33,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 9,
+								"draw": 6,
+								"lose": 11,
+								"goals": { "for": 42, "against": 44, "diff": -2 }
+							},
+							"home": {
+								"played": 14,
+								"win": 5,
+								"draw": 4,
+								"lose": 5,
+								"goals": { "for": 22, "against": 20 }
+							},
+							"away": {
+								"played": 12,
+								"win": 4,
+								"draw": 2,
+								"lose": 6,
+								"goals": { "for": 20, "against": 24 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.6,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.6,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+							}
+						}
+					},
+					{
+						"teamId": 1611,
+						"teamName": "Sporting Kansas City",
+						"points": 27,
+						"stats": {
+							"all": {
+								"played": 27,
+								"win": 7,
+								"draw": 6,
+								"lose": 14,
+								"goals": { "for": 44, "against": 52, "diff": -8 }
+							},
+							"home": {
+								"played": 14,
+								"win": 5,
+								"draw": 4,
+								"lose": 5,
+								"goals": { "for": 29, "against": 26 }
+							},
+							"away": {
+								"played": 13,
+								"win": 2,
+								"draw": 2,
+								"lose": 9,
+								"goals": { "for": 15, "against": 26 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.6,
+								"promedio_de_goles_anotados_de_local_por_partido": 2.1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
+							}
+						}
+					},
+					{
+						"teamId": 20787,
+						"teamName": "St. Louis City",
+						"points": 24,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 4,
+								"draw": 12,
+								"lose": 10,
+								"goals": { "for": 36, "against": 50, "diff": -14 }
+							},
+							"home": {
+								"played": 13,
+								"win": 4,
+								"draw": 5,
+								"lose": 4,
+								"goals": { "for": 14, "against": 16 }
+							},
+							"away": {
+								"played": 13,
+								"win": 0,
+								"draw": 7,
+								"lose": 6,
+								"goals": { "for": 22, "against": 34 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.4,
+								"promedio_de_goles_anotados_de_local_por_partido": 1.1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.7
+							}
+						}
+					},
+					{
+						"teamId": 1596,
+						"teamName": "San Jose Earthquakes",
+						"points": 17,
+						"stats": {
+							"all": {
+								"played": 26,
+								"win": 5,
+								"draw": 2,
+								"lose": 19,
+								"goals": { "for": 33, "against": 61, "diff": -28 }
+							},
+							"home": {
+								"played": 13,
+								"win": 3,
+								"draw": 1,
+								"lose": 9,
+								"goals": { "for": 13, "against": 25 }
+							},
+							"away": {
+								"played": 13,
+								"win": 2,
+								"draw": 1,
+								"lose": 10,
+								"goals": { "for": 20, "against": 36 }
+							},
+							"averages": {
+								"promedio_de_goles_anotados_por_partido": 1.3,
+								"promedio_de_goles_anotados_de_local_por_partido": 1,
+								"promedio_de_goles_anotados_de_visitante_por_partido": 1.5
+							}
 						}
 					}
-				},
-				{
-					"teamId": 1613,
-					"teamName": "Columbus Crew",
-					"points": 43,
-					"stats": {
-						"all": {
-							"played": 23,
-							"win": 12,
-							"draw": 7,
-							"lose": 4,
-							"goals": { "for": 47, "against": 22, "diff": 25 }
-						},
-						"home": {
-							"played": 11,
-							"win": 6,
-							"draw": 4,
-							"lose": 1,
-							"goals": { "for": 21, "against": 7 }
-						},
-						"away": {
-							"played": 12,
-							"win": 6,
-							"draw": 3,
-							"lose": 3,
-							"goals": { "for": 26, "against": 15 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 2.2
-						}
-					}
-				},
-				{
-					"teamId": 1602,
-					"teamName": "New York Red Bulls",
-					"points": 42,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 10,
-							"draw": 12,
-							"lose": 4,
-							"goals": { "for": 43, "against": 32, "diff": 11 }
-						},
-						"home": {
-							"played": 12,
-							"win": 7,
-							"draw": 5,
-							"lose": 0,
-							"goals": { "for": 25, "against": 10 }
-						},
-						"away": {
-							"played": 14,
-							"win": 3,
-							"draw": 7,
-							"lose": 4,
-							"goals": { "for": 18, "against": 22 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.7,
-							"promedio_de_goles_anotados_de_local_por_partido": 2.1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				},
-				{
-					"teamId": 1604,
-					"teamName": "New York City FC",
-					"points": 39,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 11,
-							"draw": 6,
-							"lose": 9,
-							"goals": { "for": 38, "against": 32, "diff": 6 }
-						},
-						"home": {
-							"played": 13,
-							"win": 8,
-							"draw": 2,
-							"lose": 3,
-							"goals": { "for": 27, "against": 16 }
-						},
-						"away": {
-							"played": 13,
-							"win": 3,
-							"draw": 4,
-							"lose": 6,
-							"goals": { "for": 11, "against": 16 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 2.1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
-					"teamId": 18310,
-					"teamName": "Charlotte",
-					"points": 38,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 10,
-							"draw": 8,
-							"lose": 8,
-							"goals": { "for": 31, "against": 28, "diff": 3 }
-						},
-						"home": {
-							"played": 13,
-							"win": 6,
-							"draw": 5,
-							"lose": 2,
-							"goals": { "for": 15, "against": 11 }
-						},
-						"away": {
-							"played": 13,
-							"win": 4,
-							"draw": 3,
-							"lose": 6,
-							"goals": { "for": 16, "against": 17 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
-						}
-					}
-				},
-				{
-					"teamId": 1598,
-					"teamName": "Orlando City SC",
-					"points": 34,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 9,
-							"draw": 7,
-							"lose": 10,
-							"goals": { "for": 39, "against": 41, "diff": -2 }
-						},
-						"home": {
-							"played": 12,
-							"win": 3,
-							"draw": 4,
-							"lose": 5,
-							"goals": { "for": 17, "against": 15 }
-						},
-						"away": {
-							"played": 14,
-							"win": 6,
-							"draw": 3,
-							"lose": 5,
-							"goals": { "for": 22, "against": 26 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.4,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.6
-						}
-					}
-				},
-				{
-					"teamId": 1601,
-					"teamName": "Toronto FC",
-					"points": 33,
-					"stats": {
-						"all": {
-							"played": 27,
-							"win": 10,
-							"draw": 3,
-							"lose": 14,
-							"goals": { "for": 35, "against": 47, "diff": -12 }
-						},
-						"home": {
-							"played": 12,
-							"win": 6,
-							"draw": 0,
-							"lose": 6,
-							"goals": { "for": 23, "against": 21 }
-						},
-						"away": {
-							"played": 15,
-							"win": 4,
-							"draw": 3,
-							"lose": 8,
-							"goals": { "for": 12, "against": 26 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
-					"teamId": 1608,
-					"teamName": "Atlanta United FC",
-					"points": 28,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 7,
-							"draw": 7,
-							"lose": 12,
-							"goals": { "for": 35, "against": 38, "diff": -3 }
-						},
-						"home": {
-							"played": 13,
-							"win": 5,
-							"draw": 3,
-							"lose": 5,
-							"goals": { "for": 25, "against": 20 }
-						},
-						"away": {
-							"played": 13,
-							"win": 2,
-							"draw": 4,
-							"lose": 7,
-							"goals": { "for": 10, "against": 18 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.9,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.8
-						}
-					}
-				},
-				{
-					"teamId": 1599,
-					"teamName": "Philadelphia Union",
-					"points": 27,
-					"stats": {
-						"all": {
-							"played": 25,
-							"win": 6,
-							"draw": 9,
-							"lose": 10,
-							"goals": { "for": 45, "against": 42, "diff": 3 }
-						},
-						"home": {
-							"played": 13,
-							"win": 3,
-							"draw": 4,
-							"lose": 6,
-							"goals": { "for": 21, "against": 19 }
-						},
-						"away": {
-							"played": 12,
-							"win": 3,
-							"draw": 5,
-							"lose": 4,
-							"goals": { "for": 24, "against": 23 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.8,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 2
-						}
-					}
-				},
-				{
-					"teamId": 1614,
-					"teamName": "CF Montreal",
-					"points": 27,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 6,
-							"draw": 9,
-							"lose": 11,
-							"goals": { "for": 34, "against": 54, "diff": -20 }
-						},
-						"home": {
-							"played": 13,
-							"win": 4,
-							"draw": 5,
-							"lose": 4,
-							"goals": { "for": 19, "against": 22 }
-						},
-						"away": {
-							"played": 13,
-							"win": 2,
-							"draw": 4,
-							"lose": 7,
-							"goals": { "for": 15, "against": 32 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
-						}
-					}
-				},
-				{
-					"teamId": 1609,
-					"teamName": "New England Revolution",
-					"points": 26,
-					"stats": {
-						"all": {
-							"played": 24,
-							"win": 8,
-							"draw": 2,
-							"lose": 14,
-							"goals": { "for": 28, "against": 47, "diff": -19 }
-						},
-						"home": {
-							"played": 13,
-							"win": 4,
-							"draw": 2,
-							"lose": 7,
-							"goals": { "for": 13, "against": 24 }
-						},
-						"away": {
-							"played": 11,
-							"win": 4,
-							"draw": 0,
-							"lose": 7,
-							"goals": { "for": 15, "against": 23 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.4
-						}
-					}
-				},
-				{
-					"teamId": 1607,
-					"teamName": "Chicago Fire",
-					"points": 26,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 6,
-							"draw": 8,
-							"lose": 12,
-							"goals": { "for": 32, "against": 44, "diff": -12 }
-						},
-						"home": {
-							"played": 12,
-							"win": 4,
-							"draw": 3,
-							"lose": 5,
-							"goals": { "for": 15, "against": 20 }
-						},
-						"away": {
-							"played": 14,
-							"win": 2,
-							"draw": 5,
-							"lose": 7,
-							"goals": { "for": 17, "against": 24 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.2,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.2
-						}
-					}
-				},
-				{
-					"teamId": 9569,
-					"teamName": "Nashville SC",
-					"points": 26,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 6,
-							"draw": 8,
-							"lose": 12,
-							"goals": { "for": 26, "against": 41, "diff": -15 }
-						},
-						"home": {
-							"played": 14,
-							"win": 4,
-							"draw": 5,
-							"lose": 5,
-							"goals": { "for": 18, "against": 19 }
-						},
-						"away": {
-							"played": 12,
-							"win": 2,
-							"draw": 3,
-							"lose": 7,
-							"goals": { "for": 8, "against": 22 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.3,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 0.7
-						}
-					}
-				},
-				{
-					"teamId": 1615,
-					"teamName": "DC United",
-					"points": 26,
-					"stats": {
-						"all": {
-							"played": 26,
-							"win": 6,
-							"draw": 8,
-							"lose": 12,
-							"goals": { "for": 38, "against": 54, "diff": -16 }
-						},
-						"home": {
-							"played": 14,
-							"win": 4,
-							"draw": 3,
-							"lose": 7,
-							"goals": { "for": 23, "against": 30 }
-						},
-						"away": {
-							"played": 12,
-							"win": 2,
-							"draw": 5,
-							"lose": 5,
-							"goals": { "for": 15, "against": 24 }
-						},
-						"averages": {
-							"promedio_de_goles_anotados_por_partido": 1.5,
-							"promedio_de_goles_anotados_de_local_por_partido": 1.6,
-							"promedio_de_goles_anotados_de_visitante_por_partido": 1.3
-						}
-					}
-				}
-			],
-			"stats": {
-				"partidos_jugados": 27,
-				"promedio_de_goles_anotados_por_partido": 22.4,
-				"promedio_de_goles_anotados_de_local_por_partido": 24.8,
-				"promedio_de_goles_anotados_de_visitante_por_partido": 20.2
-			}
+				]
+			]
 		},
 		"matches": [
 			{
@@ -7768,7 +8228,7 @@
 										"id": 1610,
 										"name": "Colorado Rapids",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
-										"position": null,
+										"position": 4,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
@@ -7803,7 +8263,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -7901,7 +8361,7 @@
 										"name": "FC Cincinnati",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 2,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8112,7 +8572,7 @@
 										"name": "Nashville SC",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 14,
-										"tag": "POOR",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8161,7 +8621,7 @@
 										"name": "New England Revolution",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 12,
-										"tag": "POOR",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8259,7 +8719,7 @@
 										"name": "New York Red Bulls",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 4,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -8339,7 +8799,7 @@
 										"name": "Chicago Fire",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 13,
-										"tag": "POOR",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8384,7 +8844,7 @@
 						"name": "Columbus Crew",
 						"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 						"position": 3,
-						"tag": "FEATURED",
+						"tag": "REGULAR",
 						"historic": false,
 						"stats": {
 							"all-matches": {
@@ -8574,7 +9034,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8588,7 +9048,7 @@
 										"id": 1616,
 										"name": "Los Angeles FC",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -8623,7 +9083,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8672,7 +9132,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -8687,7 +9147,7 @@
 										"name": "New York City FC",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 5,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -8721,7 +9181,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8736,7 +9196,7 @@
 										"name": "Inter Miami",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 1,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8770,7 +9230,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8784,7 +9244,7 @@
 										"id": 1611,
 										"name": "Sporting Kansas City",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
-										"position": null,
+										"position": 12,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -8819,7 +9279,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -8880,7 +9340,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -8914,7 +9374,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "DRAW",
 										"score": {
@@ -8962,7 +9422,7 @@
 										"id": 1616,
 										"name": "Los Angeles FC",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
-										"position": null,
+										"position": 2,
 										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
@@ -8978,7 +9438,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9012,7 +9472,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9061,7 +9521,7 @@
 										"name": "Columbus Crew",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 3,
-										"tag": "FEATURED",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "WIN",
 										"score": {
@@ -9076,7 +9536,7 @@
 										"name": "Nashville SC",
 										"country": { "name": "USA", "flag": "🇺🇸", "code": "US" },
 										"position": 14,
-										"tag": "POOR",
+										"tag": "REGULAR",
 										"historic": false,
 										"result": "LOSE",
 										"score": {
@@ -9104,45 +9564,50 @@
 				},
 				"analysis": [
 					{
-						"id": "do-local",
-						"name": "Doble oportunidad (Local)",
-						"shortName": "DOL",
-						"strategies": [
-							{
-								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-								"confidenceLevel": 100,
-								"criteria": [
-									{
-										"fulfilled": false,
-										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
-										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (10<=3/15)"
-									},
-									{
-										"fulfilled": true,
-										"description": "Ambos equipos no pueden ser históricos",
-										"explanation": "Ambos equipos no son históricos | (false-false)"
-									}
-								],
-								"recommended": false
-							}
-						],
-						"confidenceLevel": "3|LOW"
-					},
-					{
 						"id": "gpe-local",
 						"name": "Gol del equipo local",
 						"shortName": "GL",
 						"strategies": [
 							{
-								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
+								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local tiene un promedio de goles anotados como local alto",
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.9)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (1.5)"
+									}
+								],
+								"recommended": true
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"confidenceLevel": 100,
 								"criteria": [
 									{
 										"fulfilled": false,
-										"description": "El local está al menos 4 posiciones por arriba del visitante",
-										"explanation": "El local va de 10 y el visitante de 3 en la tabla de posiciones"
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (8/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 7 puntos en los últimos 5 partidos | (13/15)"
 									}
 								],
 								"recommended": false
@@ -9156,20 +9621,10 @@
 						"shortName": "TRL",
 						"strategies": [
 							{
-								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
-								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 								"confidenceLevel": 100,
 								"criteria": [
-									{
-										"fulfilled": false,
-										"description": "El local es de los mejores del torneo",
-										"explanation": "El local no es de los mejores del torneo | (10/15)"
-									},
-									{
-										"fulfilled": false,
-										"description": "El visitante es de los peores del torneo",
-										"explanation": "El visitante no es de los peores del torneo | (3/15)"
-									},
 									{
 										"fulfilled": false,
 										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",

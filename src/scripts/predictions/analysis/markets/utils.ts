@@ -123,7 +123,21 @@ export function createMarketAnalysisOutput({
 
 export function getTeamPosition(teamId: number, leagueStandings: T_LeagueStandings) {
 	if (leagueStandings.type === "GROUPS") {
-		return null;
+		let teamPosition = -1;
+
+		leagueStandings.items.forEach((group) => {
+			if (teamPosition !== -1) return;
+
+			teamPosition = group.findIndex((item) => {
+				return item.teamId === teamId;
+			});
+		});
+
+		if (teamPosition === -1) {
+			return null;
+		}
+
+		return teamPosition + 1;
 	}
 
 	const teamPosition = leagueStandings.items.findIndex((item) => {
@@ -159,42 +173,43 @@ export function getLeagueStandingsLimits(
 	leagueStandings: T_LeagueStandings,
 	showWarningMessage?: boolean,
 ) {
-	if (leagueStandings.items.length === 28) {
+	const leagueStandingsItems =
+		leagueStandings.type === "REGULAR"
+			? leagueStandings.items.length
+			: leagueStandings.items[0]?.length || 0;
+
+	if (leagueStandingsItems === 28) {
 		return {
 			featured: 9,
-			poor: leagueStandings.items.length - 7,
+			poor: leagueStandingsItems - 7,
 		};
 	}
 
-	if (leagueStandings.items.length === 24) {
+	if (leagueStandingsItems === 24) {
 		return {
 			featured: 8,
-			poor: leagueStandings.items.length - 6,
+			poor: leagueStandingsItems - 6,
 		};
 	}
 
-	if (leagueStandings.items.length === 20 || leagueStandings.items.length === 19) {
+	if (leagueStandingsItems === 20 || leagueStandingsItems === 19) {
 		return {
 			featured: 6,
-			poor: leagueStandings.items.length - 4,
+			poor: leagueStandingsItems - 4,
 		};
 	}
 
-	if (
-		leagueStandings.items.length === 18 ||
-		leagueStandings.items.length === 16 ||
-		leagueStandings.items.length === 15
-	) {
+	if (leagueStandingsItems === 18 || leagueStandingsItems === 16 || leagueStandingsItems === 15) {
 		return {
 			featured: 5,
-			poor: leagueStandings.items.length - 3,
+			poor: leagueStandingsItems - 3,
 		};
 	}
 
-	if (leagueStandings.items.length === 12) {
+	if (leagueStandingsItems === 12 || leagueStandingsItems === 14) {
 		return {
 			featured: 4,
-			poor: leagueStandings.items.length - 2,
+			poor: leagueStandingsItems - 2,
 		};
 	}
 

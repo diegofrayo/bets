@@ -72,9 +72,6 @@
 						"1205454-denmark",
 						"1164683-finland",
 						"1158815-argentina",
-						"1151124-usa",
-						"1151127-usa",
-						"1151130-usa",
 						"1234209-colombia",
 						"1180590-brazil"
 					],
@@ -108,10 +105,7 @@
 						"1237881-turkey",
 						"1237876-turkey",
 						"1158837-argentina",
-						"1158839-argentina",
-						"1151133-usa",
-						"1151136-usa",
-						"1151141-usa"
+						"1158839-argentina"
 					],
 					"2024-09-01": [
 						"1210429-czech-republic",
@@ -162,14 +156,13 @@
 						"1223631-italy",
 						"1237892-turkey",
 						"1301237-finland",
-						"1151154-usa",
-						"1151156-usa",
 						"1234233-colombia",
 						"1234239-colombia",
 						"1234241-colombia",
 						"1180609-brazil"
 					],
-					"2024-09-16": ["1208537-spain", "1237888-turkey", "1158844-argentina", "1180605-brazil"]
+					"2024-09-16": ["1208537-spain", "1237888-turkey", "1158844-argentina", "1180605-brazil"],
+					"2024-09-17": ["1237873-turkey"]
 				},
 				"lost": {
 					"2024-08-04": ["1180562-brazil"],
@@ -181,30 +174,21 @@
 					"2024-08-18": ["1164466-norway", "1205449-denmark", "1180582-brazil"],
 					"2024-08-19": ["1152225-iceland"],
 					"2024-08-23": ["1158817-argentina"],
-					"2024-08-24": [
-						"1218593-austria",
-						"1213236-belgium",
-						"1151123-usa",
-						"1151126-usa",
-						"1180586-brazil"
-					],
+					"2024-08-24": ["1218593-austria", "1213236-belgium", "1180586-brazil"],
 					"2024-08-25": ["1213237-belgium"],
 					"2024-08-26": ["1164680-finland"],
 					"2024-08-31": [
 						"1215881-england",
 						"1213470-netherlands",
 						"1208526-spain",
-						"1237878-turkey",
-						"1151135-usa",
-						"1151137-usa"
+						"1237878-turkey"
 					],
 					"2024-09-01": [
 						"1164481-norway",
 						"1164576-finland",
 						"1158831-argentina",
 						"1158838-argentina"
-					],
-					"2024-09-14": ["1151151-usa"]
+					]
 				},
 				"lostWinning": {
 					"2024-07-29": ["1158771-argentina", "1158770-argentina", "1234166-colombia"],
@@ -340,9 +324,6 @@
 						"1158826-argentina",
 						"1158824-argentina",
 						"1158825-argentina",
-						"1151120-usa",
-						"1151122-usa",
-						"1151131-usa",
 						"1234210-colombia",
 						"1180593-brazil"
 					],
@@ -407,8 +388,6 @@
 						"1158833-argentina",
 						"1158840-argentina",
 						"1158836-argentina",
-						"1151134-usa",
-						"1151143-usa",
 						"1234221-colombia",
 						"1180603-brazil",
 						"1180599-brazil"
@@ -448,7 +427,6 @@
 						"1152237-iceland",
 						"1152238-iceland",
 						"1158834-argentina",
-						"1151145-usa",
 						"1180600-brazil"
 					],
 					"2024-09-05": ["1180513-brazil", "1100263-world-cup-qualification-south-america"],
@@ -456,7 +434,6 @@
 						"1100267-world-cup-qualification-south-america",
 						"1100266-world-cup-qualification-south-america"
 					],
-					"2024-09-07": ["1151147-usa", "1151148-usa", "1151070-usa", "1151146-usa"],
 					"2024-09-08": ["1234226-colombia"],
 					"2024-09-10": [
 						"1100270-world-cup-qualification-south-america",
@@ -503,19 +480,11 @@
 						"1158848-argentina",
 						"1158850-argentina",
 						"1158852-argentina",
-						"1151152-usa",
-						"1151153-usa",
-						"1151155-usa",
-						"1151157-usa",
-						"1151158-usa",
-						"1151159-usa",
-						"1151161-usa",
-						"1151150-usa",
-						"1151162-usa",
 						"1234240-colombia",
 						"1180612-brazil"
 					],
-					"2024-09-16": ["1231766-portugal", "1223630-italy", "1205468-denmark"]
+					"2024-09-16": ["1231766-portugal", "1223630-italy", "1205468-denmark"],
+					"2024-09-17": ["1210422-czech-republic", "1213462-netherlands", "1208550-spain"]
 				},
 				"skippedLost": {
 					"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
@@ -577,10 +546,6 @@
 						"1231750-portugal",
 						"1237870-turkey",
 						"1164682-finland",
-						"1151118-usa",
-						"1151121-usa",
-						"1151128-usa",
-						"1151129-usa",
 						"1234206-colombia"
 					],
 					"2024-08-25": [
@@ -610,12 +575,6 @@
 						"1220132-scotland",
 						"1231756-portugal",
 						"1237880-turkey",
-						"1151132-usa",
-						"1151138-usa",
-						"1151139-usa",
-						"1151140-usa",
-						"1151142-usa",
-						"1151144-usa",
 						"1234222-colombia"
 					],
 					"2024-09-01": [
@@ -638,7 +597,6 @@
 					],
 					"2024-09-02": ["1234215-colombia"],
 					"2024-09-03": ["1234214-colombia"],
-					"2024-09-07": ["1150978-usa", "1151149-usa"],
 					"2024-09-10": ["1100272-world-cup-qualification-south-america"],
 					"2024-09-13": [
 						"1215893-england",
@@ -663,10 +621,11 @@
 						"1237890-turkey",
 						"1237893-turkey",
 						"1158845-argentina",
-						"1151160-usa",
 						"1180613-brazil"
 					],
-					"2024-09-16": ["1223633-italy", "1158843-argentina"]
+					"2024-09-16": ["1223633-italy", "1158843-argentina"],
+					"2024-09-17": ["1210420-czech-republic", "1213233-belgium"],
+					"2024-09-18": ["1164467-norway"]
 				}
 			},
 			"2f288451-42c2-48a9-ad53-30790b7974a8": {
@@ -706,15 +665,22 @@
 						"1287608-uefa-europa-league",
 						"1287620-uefa-europa-league"
 					],
+					"2024-08-24": ["1151130-usa"],
 					"2024-08-29": [
 						"1287595-uefa-europa-conference-league",
 						"1287605-uefa-europa-league",
 						"1287607-uefa-europa-league"
-					]
+					],
+					"2024-08-31": ["1151134-usa"],
+					"2024-09-07": ["1151146-usa"],
+					"2024-09-14": ["1151150-usa"]
 				},
 				"lost": {
 					"2024-08-18": ["1202363-germany"],
-					"2024-08-29": ["1287569-uefa-europa-conference-league"]
+					"2024-08-24": ["1151126-usa"],
+					"2024-08-29": ["1287569-uefa-europa-conference-league"],
+					"2024-08-31": ["1151137-usa", "1151138-usa", "1151142-usa"],
+					"2024-09-07": ["1150978-usa"]
 				},
 				"lostWinning": {
 					"2024-08-06": [
@@ -847,6 +813,7 @@
 						"1287606-uefa-europa-league",
 						"1287612-uefa-europa-league"
 					],
+					"2024-08-24": ["1151120-usa", "1151122-usa", "1151124-usa", "1151127-usa", "1151131-usa"],
 					"2024-08-27": ["1286254-uefa-champions-league", "1286258-uefa-champions-league"],
 					"2024-08-29": [
 						"1287567-uefa-europa-conference-league",
@@ -870,7 +837,23 @@
 						"1286918-uefa-europa-league",
 						"1287613-uefa-europa-league",
 						"1287621-uefa-europa-league"
-					]
+					],
+					"2024-08-31": ["1151133-usa", "1151136-usa", "1151141-usa", "1151143-usa"],
+					"2024-09-01": ["1151145-usa"],
+					"2024-09-07": ["1151147-usa", "1151148-usa", "1151070-usa"],
+					"2024-09-14": [
+						"1151152-usa",
+						"1151153-usa",
+						"1151154-usa",
+						"1151155-usa",
+						"1151156-usa",
+						"1151157-usa",
+						"1151158-usa",
+						"1151159-usa",
+						"1151161-usa",
+						"1151162-usa"
+					],
+					"2024-09-17": ["1294401-conmebol-libertadores"]
 				},
 				"skippedLost": {
 					"2024-08-06": ["1273677-uefa-champions-league", "1274773-uefa-europa-league"],
@@ -948,6 +931,7 @@
 						"1287604-uefa-europa-league",
 						"1287616-uefa-europa-league"
 					],
+					"2024-08-24": ["1151118-usa", "1151121-usa", "1151123-usa", "1151128-usa", "1151129-usa"],
 					"2024-08-27": ["1280667-uefa-champions-league", "1202390-germany"],
 					"2024-08-29": [
 						"1287575-uefa-europa-conference-league",
@@ -959,7 +943,11 @@
 						"1287615-uefa-europa-league",
 						"1287609-uefa-europa-league",
 						"1287619-uefa-europa-league"
-					]
+					],
+					"2024-08-31": ["1151132-usa", "1151135-usa", "1151139-usa", "1151140-usa", "1151144-usa"],
+					"2024-09-07": ["1151149-usa"],
+					"2024-09-14": ["1151151-usa", "1151160-usa"],
+					"2024-09-17": ["1294586-conmebol-sudamericana"]
 				}
 			}
 		},
@@ -1022,9 +1010,6 @@
 						"1231754-portugal",
 						"1164683-finland",
 						"1158815-argentina",
-						"1151124-usa",
-						"1151127-usa",
-						"1151130-usa",
 						"1180590-brazil"
 					],
 					"2024-08-25": [
@@ -1048,11 +1033,7 @@
 						"1208522-spain",
 						"1223620-italy",
 						"1158837-argentina",
-						"1158839-argentina",
-						"1151133-usa",
-						"1151136-usa",
-						"1151137-usa",
-						"1151141-usa"
+						"1158839-argentina"
 					],
 					"2024-09-01": [
 						"1210429-czech-republic",
@@ -1094,12 +1075,12 @@
 						"1220135-scotland",
 						"1231768-portugal",
 						"1237892-turkey",
-						"1151154-usa",
 						"1234233-colombia",
 						"1234239-colombia",
 						"1180609-brazil"
 					],
-					"2024-09-16": ["1237888-turkey", "1158844-argentina", "1180605-brazil"]
+					"2024-09-16": ["1237888-turkey", "1158844-argentina", "1180605-brazil"],
+					"2024-09-17": ["1237873-turkey"]
 				},
 				"lost": {
 					"2024-08-04": ["1158776-argentina", "1180562-brazil"],
@@ -1109,15 +1090,14 @@
 					"2024-08-16": ["1158811-argentina"],
 					"2024-08-18": ["1164466-norway", "1158802-argentina"],
 					"2024-08-23": ["1158817-argentina"],
-					"2024-08-24": ["1218593-austria", "1213236-belgium", "1151126-usa", "1180586-brazil"],
+					"2024-08-24": ["1218593-austria", "1213236-belgium", "1180586-brazil"],
 					"2024-08-25": ["1158821-argentina", "1158822-argentina"],
 					"2024-08-31": [
 						"1215881-england",
 						"1213470-netherlands",
 						"1208526-spain",
 						"1237878-turkey",
-						"1237881-turkey",
-						"1151135-usa"
+						"1237881-turkey"
 					],
 					"2024-09-01": ["1223619-italy", "1237879-turkey", "1158831-argentina"]
 				},
@@ -1284,11 +1264,6 @@
 						"1237875-turkey",
 						"1158826-argentina",
 						"1158825-argentina",
-						"1151118-usa",
-						"1151120-usa",
-						"1151121-usa",
-						"1151122-usa",
-						"1151131-usa",
 						"1234209-colombia",
 						"1180593-brazil"
 					],
@@ -1362,11 +1337,6 @@
 						"1237880-turkey",
 						"1158840-argentina",
 						"1158836-argentina",
-						"1151134-usa",
-						"1151139-usa",
-						"1151140-usa",
-						"1151143-usa",
-						"1151144-usa",
 						"1234221-colombia",
 						"1180603-brazil",
 						"1180599-brazil"
@@ -1410,7 +1380,6 @@
 						"1152235-iceland",
 						"1152237-iceland",
 						"1152238-iceland",
-						"1151145-usa",
 						"1180595-brazil",
 						"1180600-brazil"
 					],
@@ -1419,7 +1388,6 @@
 						"1100267-world-cup-qualification-south-america",
 						"1100266-world-cup-qualification-south-america"
 					],
-					"2024-09-07": ["1151147-usa", "1151148-usa", "1151149-usa"],
 					"2024-09-08": ["1234226-colombia"],
 					"2024-09-10": [
 						"1100270-world-cup-qualification-south-america",
@@ -1477,16 +1445,6 @@
 						"1158848-argentina",
 						"1158850-argentina",
 						"1158852-argentina",
-						"1151153-usa",
-						"1151155-usa",
-						"1151156-usa",
-						"1151157-usa",
-						"1151158-usa",
-						"1151159-usa",
-						"1151160-usa",
-						"1151161-usa",
-						"1151150-usa",
-						"1151162-usa",
 						"1234241-colombia",
 						"1180612-brazil"
 					],
@@ -1496,7 +1454,8 @@
 						"1223633-italy",
 						"1223630-italy",
 						"1205468-denmark"
-					]
+					],
+					"2024-09-17": ["1210422-czech-republic", "1213462-netherlands", "1208550-spain"]
 				},
 				"skippedLost": {
 					"2024-07-29": ["1158762-argentina", "1158758-argentina"],
@@ -1550,9 +1509,6 @@
 						"1237870-turkey",
 						"1164682-finland",
 						"1158824-argentina",
-						"1151123-usa",
-						"1151128-usa",
-						"1151129-usa",
 						"1234210-colombia",
 						"1234206-colombia"
 					],
@@ -1584,9 +1540,6 @@
 						"1231756-portugal",
 						"1231763-portugal",
 						"1158833-argentina",
-						"1151132-usa",
-						"1151138-usa",
-						"1151142-usa",
 						"1234222-colombia"
 					],
 					"2024-09-01": [
@@ -1609,7 +1562,6 @@
 					"2024-09-03": ["1234214-colombia"],
 					"2024-09-05": ["1180513-brazil"],
 					"2024-09-06": ["1100264-world-cup-qualification-south-america"],
-					"2024-09-07": ["1150978-usa", "1151070-usa", "1151146-usa"],
 					"2024-09-10": ["1100269-world-cup-qualification-south-america"],
 					"2024-09-13": [
 						"1215893-england",
@@ -1629,12 +1581,12 @@
 						"1237890-turkey",
 						"1237893-turkey",
 						"1158845-argentina",
-						"1151151-usa",
-						"1151152-usa",
 						"1234240-colombia",
 						"1180613-brazil"
 					],
-					"2024-09-16": ["1158843-argentina"]
+					"2024-09-16": ["1158843-argentina"],
+					"2024-09-17": ["1210420-czech-republic", "1213233-belgium"],
+					"2024-09-18": ["1164467-norway"]
 				}
 			},
 			"86842844-616c-4651-a3ee-e3cb92a04ce5": {
@@ -1718,6 +1670,7 @@
 						"1287614-uefa-europa-league",
 						"1287618-uefa-europa-league"
 					],
+					"2024-08-24": ["1151121-usa", "1151122-usa", "1151130-usa", "1151131-usa"],
 					"2024-08-27": ["1286254-uefa-champions-league"],
 					"2024-08-29": [
 						"1287567-uefa-europa-conference-league",
@@ -1729,6 +1682,27 @@
 						"1287583-uefa-europa-conference-league",
 						"1287605-uefa-europa-league",
 						"1287617-uefa-europa-league"
+					],
+					"2024-08-31": [
+						"1151133-usa",
+						"1151134-usa",
+						"1151136-usa",
+						"1151137-usa",
+						"1151139-usa",
+						"1151140-usa",
+						"1151141-usa",
+						"1151144-usa"
+					],
+					"2024-09-01": ["1151145-usa"],
+					"2024-09-07": ["1151147-usa", "1151148-usa", "1151149-usa"],
+					"2024-09-14": [
+						"1151153-usa",
+						"1151154-usa",
+						"1151156-usa",
+						"1151157-usa",
+						"1151160-usa",
+						"1151161-usa",
+						"1151150-usa"
 					]
 				},
 				"lost": {
@@ -1745,13 +1719,18 @@
 						"1287610-uefa-europa-league",
 						"1287620-uefa-europa-league"
 					],
+					"2024-08-24": ["1151126-usa", "1151129-usa"],
 					"2024-08-27": ["1280667-uefa-champions-league", "1202390-germany"],
 					"2024-08-29": [
 						"1287575-uefa-europa-conference-league",
 						"1287595-uefa-europa-conference-league",
 						"1287611-uefa-europa-league",
 						"1287619-uefa-europa-league"
-					]
+					],
+					"2024-08-31": ["1151135-usa", "1151142-usa"],
+					"2024-09-07": ["1151146-usa"],
+					"2024-09-14": ["1151151-usa"],
+					"2024-09-17": ["1294586-conmebol-sudamericana"]
 				},
 				"lostWinning": {
 					"2024-08-06": [
@@ -1865,6 +1844,7 @@
 						"1287616-uefa-europa-league",
 						"1287612-uefa-europa-league"
 					],
+					"2024-08-24": ["1151118-usa", "1151120-usa", "1151124-usa", "1151127-usa"],
 					"2024-08-27": ["1286258-uefa-champions-league"],
 					"2024-08-29": [
 						"1287593-uefa-europa-conference-league",
@@ -1882,7 +1862,10 @@
 						"1286918-uefa-europa-league",
 						"1287609-uefa-europa-league",
 						"1287613-uefa-europa-league"
-					]
+					],
+					"2024-08-31": ["1151143-usa"],
+					"2024-09-14": ["1151155-usa", "1151158-usa", "1151159-usa", "1151162-usa"],
+					"2024-09-17": ["1294401-conmebol-libertadores"]
 				},
 				"skippedLost": {
 					"2024-08-08": [
@@ -1929,6 +1912,7 @@
 						"1287564-uefa-europa-conference-league",
 						"1287604-uefa-europa-league"
 					],
+					"2024-08-24": ["1151123-usa", "1151128-usa"],
 					"2024-08-29": [
 						"1287561-uefa-europa-conference-league",
 						"1287573-uefa-europa-conference-league",
@@ -1936,7 +1920,10 @@
 						"1287563-uefa-europa-conference-league",
 						"1287615-uefa-europa-league",
 						"1287621-uefa-europa-league"
-					]
+					],
+					"2024-08-31": ["1151132-usa", "1151138-usa"],
+					"2024-09-07": ["1150978-usa", "1151070-usa"],
+					"2024-09-14": ["1151152-usa"]
 				}
 			}
 		},
@@ -2087,9 +2074,6 @@
 						"1158826-argentina",
 						"1158815-argentina",
 						"1158825-argentina",
-						"1151122-usa",
-						"1151127-usa",
-						"1151130-usa",
 						"1234209-colombia",
 						"1180593-brazil",
 						"1180590-brazil"
@@ -2155,11 +2139,6 @@
 						"1158837-argentina",
 						"1158839-argentina",
 						"1158836-argentina",
-						"1151133-usa",
-						"1151134-usa",
-						"1151136-usa",
-						"1151141-usa",
-						"1151143-usa",
 						"1180603-brazil",
 						"1180599-brazil"
 					],
@@ -2191,7 +2170,6 @@
 						"1152235-iceland",
 						"1152237-iceland",
 						"1152238-iceland",
-						"1151145-usa",
 						"1180596-brazil",
 						"1180600-brazil"
 					],
@@ -2252,15 +2230,6 @@
 						"1301251-finland",
 						"1301237-finland",
 						"1158848-argentina",
-						"1151154-usa",
-						"1151155-usa",
-						"1151156-usa",
-						"1151157-usa",
-						"1151158-usa",
-						"1151159-usa",
-						"1151161-usa",
-						"1151150-usa",
-						"1151162-usa",
 						"1234233-colombia",
 						"1234239-colombia",
 						"1180609-brazil"
@@ -2271,6 +2240,12 @@
 						"1237888-turkey",
 						"1158844-argentina",
 						"1180605-brazil"
+					],
+					"2024-09-17": [
+						"1210422-czech-republic",
+						"1213462-netherlands",
+						"1208550-spain",
+						"1237873-turkey"
 					]
 				},
 				"skippedLost": {
@@ -2420,15 +2395,6 @@
 						"1237870-turkey",
 						"1164682-finland",
 						"1158824-argentina",
-						"1151118-usa",
-						"1151120-usa",
-						"1151121-usa",
-						"1151123-usa",
-						"1151124-usa",
-						"1151126-usa",
-						"1151128-usa",
-						"1151129-usa",
-						"1151131-usa",
 						"1234210-colombia",
 						"1234206-colombia",
 						"1180586-brazil"
@@ -2495,14 +2461,6 @@
 						"1237881-turkey",
 						"1237880-turkey",
 						"1158833-argentina",
-						"1151132-usa",
-						"1151135-usa",
-						"1151137-usa",
-						"1151138-usa",
-						"1151139-usa",
-						"1151140-usa",
-						"1151142-usa",
-						"1151144-usa",
 						"1234222-colombia",
 						"1234221-colombia"
 					],
@@ -2559,14 +2517,6 @@
 						"1100264-world-cup-qualification-south-america",
 						"1100266-world-cup-qualification-south-america"
 					],
-					"2024-09-07": [
-						"1150978-usa",
-						"1151147-usa",
-						"1151148-usa",
-						"1151070-usa",
-						"1151149-usa",
-						"1151146-usa"
-					],
 					"2024-09-08": ["1234228-colombia", "1234226-colombia", "1234223-colombia"],
 					"2024-09-10": [
 						"1100272-world-cup-qualification-south-america",
@@ -2612,10 +2562,6 @@
 						"1158845-argentina",
 						"1158850-argentina",
 						"1158852-argentina",
-						"1151151-usa",
-						"1151152-usa",
-						"1151153-usa",
-						"1151160-usa",
 						"1234240-colombia",
 						"1234241-colombia",
 						"1180613-brazil",
@@ -2626,7 +2572,9 @@
 						"1223633-italy",
 						"1205468-denmark",
 						"1158843-argentina"
-					]
+					],
+					"2024-09-17": ["1210420-czech-republic", "1213233-belgium"],
+					"2024-09-18": ["1164467-norway"]
 				}
 			},
 			"bd588f10-3fdd-4c3e-b9d9-748f0772cd62": {
@@ -2738,6 +2686,7 @@
 						"1287608-uefa-europa-league",
 						"1287612-uefa-europa-league"
 					],
+					"2024-08-24": ["1151122-usa", "1151127-usa", "1151130-usa"],
 					"2024-08-27": ["1286254-uefa-champions-league"],
 					"2024-08-29": [
 						"1287567-uefa-europa-conference-league",
@@ -2757,6 +2706,19 @@
 						"1287607-uefa-europa-league",
 						"1287617-uefa-europa-league",
 						"1286918-uefa-europa-league"
+					],
+					"2024-08-31": ["1151133-usa", "1151134-usa", "1151136-usa", "1151141-usa", "1151143-usa"],
+					"2024-09-01": ["1151145-usa"],
+					"2024-09-14": [
+						"1151154-usa",
+						"1151155-usa",
+						"1151156-usa",
+						"1151157-usa",
+						"1151158-usa",
+						"1151159-usa",
+						"1151161-usa",
+						"1151150-usa",
+						"1151162-usa"
 					]
 				},
 				"skippedLost": {
@@ -2889,6 +2851,17 @@
 						"1287616-uefa-europa-league",
 						"1287620-uefa-europa-league"
 					],
+					"2024-08-24": [
+						"1151118-usa",
+						"1151120-usa",
+						"1151121-usa",
+						"1151123-usa",
+						"1151124-usa",
+						"1151126-usa",
+						"1151128-usa",
+						"1151129-usa",
+						"1151131-usa"
+					],
 					"2024-08-27": [
 						"1280667-uefa-champions-league",
 						"1286258-uefa-champions-league",
@@ -2912,7 +2885,27 @@
 						"1287613-uefa-europa-league",
 						"1287619-uefa-europa-league",
 						"1287621-uefa-europa-league"
-					]
+					],
+					"2024-08-31": [
+						"1151132-usa",
+						"1151135-usa",
+						"1151137-usa",
+						"1151138-usa",
+						"1151139-usa",
+						"1151140-usa",
+						"1151142-usa",
+						"1151144-usa"
+					],
+					"2024-09-07": [
+						"1150978-usa",
+						"1151147-usa",
+						"1151148-usa",
+						"1151070-usa",
+						"1151149-usa",
+						"1151146-usa"
+					],
+					"2024-09-14": ["1151151-usa", "1151152-usa", "1151153-usa", "1151160-usa"],
+					"2024-09-17": ["1294401-conmebol-libertadores", "1294586-conmebol-sudamericana"]
 				}
 			}
 		}
@@ -2921,45 +2914,45 @@
 		"do-local": {
 			"5e7b9e2b-cbf8-43d5-8b60-813c66300c37": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 168,
-				"lost": 30,
-				"lostWinning": 297,
-				"skippedLost": 141,
-				"total": 636,
-				"successPercentaje": 84.8,
+				"winning": 161,
+				"lost": 25,
+				"lostWinning": 281,
+				"skippedLost": 131,
+				"total": 598,
+				"successPercentaje": 86.6,
 				"picksPercentaje": 31.1
 			},
 			"2f288451-42c2-48a9-ad53-30790b7974a8": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
-				"winning": 31,
-				"lost": 2,
-				"lostWinning": 134,
-				"skippedLost": 77,
-				"total": 244,
-				"successPercentaje": 93.9,
-				"picksPercentaje": 13.5
+				"winning": 35,
+				"lost": 7,
+				"lostWinning": 158,
+				"skippedLost": 91,
+				"total": 291,
+				"successPercentaje": 83.3,
+				"picksPercentaje": 14.4
 			}
 		},
 		"gpe-local": {
 			"3c889798-2dea-4276-9cc9-762b8b95b556": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 131,
-				"lost": 24,
-				"lostWinning": 353,
-				"skippedLost": 128,
-				"total": 636,
-				"successPercentaje": 84.5,
+				"winning": 124,
+				"lost": 22,
+				"lostWinning": 332,
+				"skippedLost": 120,
+				"total": 598,
+				"successPercentaje": 84.9,
 				"picksPercentaje": 24.4
 			},
 			"86842844-616c-4651-a3ee-e3cb92a04ce5": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
-				"winning": 74,
-				"lost": 18,
-				"lostWinning": 110,
-				"skippedLost": 42,
-				"total": 244,
-				"successPercentaje": 80.4,
-				"picksPercentaje": 37.7
+				"winning": 97,
+				"lost": 25,
+				"lostWinning": 120,
+				"skippedLost": 49,
+				"total": 291,
+				"successPercentaje": 79.5,
+				"picksPercentaje": 41.9
 			}
 		},
 		"tr-local": {
@@ -2967,9 +2960,9 @@
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
 				"winning": 4,
 				"lost": 1,
-				"lostWinning": 297,
-				"skippedLost": 334,
-				"total": 636,
+				"lostWinning": 283,
+				"skippedLost": 310,
+				"total": 598,
 				"successPercentaje": 80,
 				"picksPercentaje": 0.8
 			},
@@ -2977,11 +2970,11 @@
 				"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 				"winning": 6,
 				"lost": 0,
-				"lostWinning": 106,
-				"skippedLost": 132,
-				"total": 244,
+				"lostWinning": 124,
+				"skippedLost": 161,
+				"total": 291,
 				"successPercentaje": 100,
-				"picksPercentaje": 2.5
+				"picksPercentaje": 2.1
 			}
 		}
 	}

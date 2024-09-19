@@ -763,6 +763,7 @@ function getProperlyLeagueStandingsData(
 	response: T_RawLeagueStandingsResponse["response"][number]["league"],
 ) {
 	const isColombiaLeague = response.id === 239;
+	const isMLSLeague = response.id === 253;
 
 	if (isColombiaLeague) {
 		return [
@@ -776,7 +777,7 @@ function getProperlyLeagueStandingsData(
 		];
 	}
 
-	if (response.country === "World") {
+	if (response.country === "World" || isMLSLeague) {
 		return response.standings;
 	}
 
