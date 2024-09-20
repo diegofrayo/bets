@@ -1,5 +1,3608 @@
 [
 	{
+		"id": 954,
+		"name": "National League - Central",
+		"type": "League",
+		"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+		"priority": 5,
+		"standings": { "type": "GROUPS", "items": [] },
+		"matches": [
+			{
+				"id": "1181513",
+				"type": "FIXTURE_NEXT_MATCH",
+				"fullDate": "2024-08-03T21:00",
+				"date": "2024-08-03",
+				"hour": "21:00",
+				"played": false,
+				"teams": {
+					"home": {
+						"id": 20642,
+						"name": "Napier City Rovers",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 3,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 9,
+									"porcentaje_de_puntos_ganados": 75,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 9,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1.7,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 3,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 9,
+									"porcentaje_de_puntos_ganados": 75,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 9,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1232054",
+								"fullDate": "2024-07-27T21:00",
+								"date": "2024-07-27",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 20642,
+										"name": "Napier City Rovers",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181505",
+								"fullDate": "2024-07-19T20:45",
+								"date": "2024-07-19",
+								"hour": "20:45",
+								"teams": {
+									"home": {
+										"id": 23211,
+										"name": "Island Bay United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 4 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20642,
+										"name": "Napier City Rovers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 4, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 954,
+									"name": "National League - Central",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181503",
+								"fullDate": "2024-07-13T21:00",
+								"date": "2024-07-13",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 20642,
+										"name": "Napier City Rovers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2535,
+										"name": "Wellington Phoenix II",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 954,
+									"name": "National League - Central",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1229803",
+								"fullDate": "2024-07-06T21:00",
+								"date": "2024-07-06",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 20642,
+										"name": "Napier City Rovers",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20672,
+										"name": "Miramar",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 20672,
+						"name": "Miramar",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 18,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 6,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 8,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 10,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 8,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 6,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 18,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 6,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 8,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 10,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 8,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 5,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 6,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1181506",
+								"fullDate": "2024-07-19T21:30",
+								"date": "2024-07-19",
+								"hour": "21:30",
+								"teams": {
+									"home": {
+										"id": 20672,
+										"name": "Miramar",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 8,
+											"firstHalf": { "for": 4, "against": 1 },
+											"secondHalf": { "for": 4, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20643,
+										"name": "North Wellington",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 4 },
+											"secondHalf": { "for": 0, "against": 4 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 954,
+									"name": "National League - Central",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181501",
+								"fullDate": "2024-07-12T22:00",
+								"date": "2024-07-12",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 20644,
+										"name": "Petone",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 4 },
+											"secondHalf": { "for": 0, "against": 5 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20672,
+										"name": "Miramar",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 9,
+											"firstHalf": { "for": 4, "against": 0 },
+											"secondHalf": { "for": 5, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 954,
+									"name": "National League - Central",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1229803",
+								"fullDate": "2024-07-06T21:00",
+								"date": "2024-07-06",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 20642,
+										"name": "Napier City Rovers",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20672,
+										"name": "Miramar",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (9/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 7 puntos en los últimos 5 partidos | (6/15)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
+								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local tiene un promedio de goles anotados como local alto",
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (1.7)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (9/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (6/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (1-2)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (0-9)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": false,
+					"id": 954,
+					"name": "National League - Central",
+					"type": "League",
+					"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+					"season": { "year": 2024, "startDate": "2024-07-01" },
+					"priority": 5
+				}
+			}
+		]
+	},
+	{
+		"id": 956,
+		"name": "National League - Northern",
+		"type": "League",
+		"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+		"priority": 5,
+		"standings": { "type": "GROUPS", "items": [] },
+		"matches": [
+			{
+				"id": "1181634",
+				"type": "FIXTURE_NEXT_MATCH",
+				"fullDate": "2024-08-03T00:30",
+				"date": "2024-08-03",
+				"hour": "00:30",
+				"played": false,
+				"teams": {
+					"home": {
+						"id": 20659,
+						"name": "Western Springs",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 1.3,
+									"partidos_ganados": 2,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 8,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 8,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 2,
+									"partidos_ganados": 0,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 2,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 1.3,
+									"partidos_ganados": 2,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 8,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 8,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 2,
+									"partidos_ganados": 0,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 2,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1181651",
+								"fullDate": "2024-07-26T22:00",
+								"date": "2024-07-26",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 23213,
+										"name": "Tauranga City United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20659,
+										"name": "Western Springs",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181623",
+								"fullDate": "2024-07-20T00:30",
+								"date": "2024-07-20",
+								"hour": "00:30",
+								"teams": {
+									"home": {
+										"id": 20659,
+										"name": "Western Springs",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181615",
+								"fullDate": "2024-07-12T22:00",
+								"date": "2024-07-12",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 20649,
+										"name": "Auckland United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20659,
+										"name": "Western Springs",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1229802",
+								"fullDate": "2024-07-06T00:30",
+								"date": "2024-07-06",
+								"hour": "00:30",
+								"teams": {
+									"home": {
+										"id": 20659,
+										"name": "Western Springs",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 3 },
+											"extraTime": { "for": 3, "against": 3 }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 3 },
+											"extraTime": { "for": 3, "against": 3 }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 20653,
+						"name": "Melville United",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 0.3,
+									"promedio_de_goles_recibidos": 1.3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 4,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 4 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 0.3,
+									"promedio_de_goles_recibidos": 1.3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 4,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 0,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 0,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 0,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 0,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 0,
+									"porcentaje_de_puntos_ganados": 0,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1181653",
+								"fullDate": "2024-07-26T22:00",
+								"date": "2024-07-26",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 20649,
+										"name": "Auckland United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20653,
+										"name": "Melville United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181620",
+								"fullDate": "2024-07-19T22:00",
+								"date": "2024-07-19",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 13977,
+										"name": "Eastern Suburbs",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20653,
+										"name": "Melville United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181618",
+								"fullDate": "2024-07-12T22:00",
+								"date": "2024-07-12",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 20653,
+										"name": "Melville United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 21124,
+										"name": "West Coast Rangers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1229799",
+								"fullDate": "2024-07-05T21:00",
+								"date": "2024-07-05",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 20653,
+										"name": "Melville United",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 24239,
+										"name": "Hibiscus Coast",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (8/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 7 puntos en los últimos 5 partidos | (0/15)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
+								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local tiene un promedio de goles anotados como local alto",
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (8/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (0/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (1-1)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante ganó su último partido como visitante | (1-0)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": false,
+					"id": 956,
+					"name": "National League - Northern",
+					"type": "League",
+					"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+					"season": { "year": 2024, "startDate": "2024-07-01" },
+					"priority": 5
+				}
+			},
+			{
+				"id": "1181636",
+				"type": "FIXTURE_NEXT_MATCH",
+				"fullDate": "2024-08-03T00:30",
+				"date": "2024-08-03",
+				"hour": "00:30",
+				"played": false,
+				"teams": {
+					"home": {
+						"id": 20654,
+						"name": "Bay Olympic",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 7,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 2.3,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 44.4,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 6,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 2,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 7,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 2.3,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 44.4,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 6,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 4,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 2,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1181649",
+								"fullDate": "2024-07-31T02:00",
+								"date": "2024-07-31",
+								"hour": "02:00",
+								"teams": {
+									"home": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20654,
+										"name": "Bay Olympic",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181619",
+								"fullDate": "2024-07-19T22:00",
+								"date": "2024-07-19",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 20654,
+										"name": "Bay Olympic",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2536,
+										"name": "Hamilton Wanderers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181613",
+								"fullDate": "2024-07-12T22:00",
+								"date": "2024-07-12",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 23213,
+										"name": "Tauranga City United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20654,
+										"name": "Bay Olympic",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 2537,
+						"name": "Auckland City",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 7 partidos",
+								"items": {
+									"total_de_partidos": 7,
+									"total_de_goles_anotados": 18,
+									"total_de_goles_recibidos": 8,
+									"promedio_de_goles_anotados": 2.6,
+									"promedio_de_goles_recibidos": 1.1,
+									"partidos_ganados": 5,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 7,
+									"partidos_con_goles_recibidos": 6,
+									"puntos_ganados": 17,
+									"porcentaje_de_puntos_ganados": 81,
+									"total_de_goles_anotados_en_primera_mitad": 6,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 12,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 6,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.9,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.4
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 7 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1.3,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 83.3,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 7 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 3.3,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 7,
+									"porcentaje_de_puntos_ganados": 77.8,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 7,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.7
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 11,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 2.2,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 3,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 11,
+									"porcentaje_de_puntos_ganados": 73.3,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.6,
+									"total_de_goles_anotados_en_segunda_mitad": 7,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.2
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1232053",
+								"fullDate": "2024-07-27T01:00",
+								"date": "2024-07-27",
+								"hour": "01:00",
+								"teams": {
+									"home": {
+										"id": 24240,
+										"name": "Otago University",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181652",
+								"fullDate": "2024-07-24T02:00",
+								"date": "2024-07-24",
+								"hour": "02:00",
+								"teams": {
+									"home": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 21124,
+										"name": "West Coast Rangers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181623",
+								"fullDate": "2024-07-20T00:30",
+								"date": "2024-07-20",
+								"hour": "00:30",
+								"teams": {
+									"home": {
+										"id": 20659,
+										"name": "Western Springs",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181584",
+								"fullDate": "2024-07-17T02:30",
+								"date": "2024-07-17",
+								"hour": "02:30",
+								"teams": {
+									"home": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181614",
+								"fullDate": "2024-07-12T22:00",
+								"date": "2024-07-12",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 23212,
+										"name": "East Coast Bays",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1229798",
+								"fullDate": "2024-07-05T20:00",
+								"date": "2024-07-05",
+								"hour": "20:00",
+								"teams": {
+									"home": {
+										"id": 24238,
+										"name": "Cambridge",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 1, "against": 4 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 4, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181627",
+								"fullDate": "2024-07-03T02:30",
+								"date": "2024-07-03",
+								"hour": "02:30",
+								"teams": {
+									"home": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 21123,
+										"name": "Manurewa",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (4/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 7 puntos en los últimos 5 partidos | (11/15)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
+								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local tiene un promedio de goles anotados como local alto",
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (3)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante menor a 1 | (1)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (4/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (11/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (3-3)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (1-5)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": false,
+					"id": 956,
+					"name": "National League - Northern",
+					"type": "League",
+					"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+					"season": { "year": 2024, "startDate": "2024-07-01" },
+					"priority": 5
+				}
+			},
+			{
+				"id": "1181635",
+				"type": "FIXTURE_NEXT_MATCH",
+				"fullDate": "2024-08-03T01:00",
+				"date": "2024-08-03",
+				"hour": "01:00",
+				"played": false,
+				"teams": {
+					"home": {
+						"id": 20650,
+						"name": "Birkenhead United",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 6 partidos",
+								"items": {
+									"total_de_partidos": 6,
+									"total_de_goles_anotados": 15,
+									"total_de_goles_recibidos": 10,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 1.7,
+									"partidos_ganados": 3,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 6,
+									"partidos_con_goles_recibidos": 6,
+									"puntos_ganados": 11,
+									"porcentaje_de_puntos_ganados": 61.1,
+									"total_de_goles_anotados_en_primera_mitad": 6,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 9,
+									"total_de_goles_recibidos_en_segunda_mitad": 8,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.8
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 6 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 6 partidos",
+								"items": {
+									"total_de_partidos": 4,
+									"total_de_goles_anotados": 11,
+									"total_de_goles_recibidos": 7,
+									"promedio_de_goles_anotados": 2.8,
+									"promedio_de_goles_recibidos": 1.8,
+									"partidos_ganados": 2,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 8,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 5,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 6,
+									"total_de_goles_recibidos_en_segunda_mitad": 6,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.8
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 12,
+									"total_de_goles_recibidos": 7,
+									"promedio_de_goles_anotados": 2.4,
+									"promedio_de_goles_recibidos": 1.4,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 5,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 6,
+									"total_de_goles_recibidos_en_primera_mitad": 2,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 6,
+									"total_de_goles_recibidos_en_segunda_mitad": 5,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.4,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.8
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 100,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1181649",
+								"fullDate": "2024-07-31T02:00",
+								"date": "2024-07-31",
+								"hour": "02:00",
+								"teams": {
+									"home": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 3, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20654,
+										"name": "Bay Olympic",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": null, "against": null },
+											"secondHalf": { "for": 1, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1232054",
+								"fullDate": "2024-07-27T21:00",
+								"date": "2024-07-27",
+								"hour": "21:00",
+								"teams": {
+									"home": {
+										"id": 20642,
+										"name": "Napier City Rovers",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181622",
+								"fullDate": "2024-07-19T22:00",
+								"date": "2024-07-19",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 21123,
+										"name": "Manurewa",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 3 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 4,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 3, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181584",
+								"fullDate": "2024-07-17T02:30",
+								"date": "2024-07-17",
+								"hour": "02:30",
+								"teams": {
+									"home": {
+										"id": 2537,
+										"name": "Auckland City",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181617",
+								"fullDate": "2024-07-13T00:30",
+								"date": "2024-07-13",
+								"hour": "00:30",
+								"teams": {
+									"home": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 13977,
+										"name": "Eastern Suburbs",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1229802",
+								"fullDate": "2024-07-06T00:30",
+								"date": "2024-07-06",
+								"hour": "00:30",
+								"teams": {
+									"home": {
+										"id": 20659,
+										"name": "Western Springs",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 3 },
+											"extraTime": { "for": 3, "against": 3 }
+										}
+									},
+									"away": {
+										"id": 20650,
+										"name": "Birkenhead United",
+										"country": null,
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 3, "against": 3 },
+											"extraTime": { "for": 3, "against": 3 }
+										}
+									}
+								},
+								"league": {
+									"id": 1127,
+									"name": "Chatham Cup",
+									"type": "Unknown",
+									"country": { "name": "Unknown", "code": "Unknown", "flag": "❓" }
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 2536,
+						"name": "Hamilton Wanderers",
+						"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+						"position": null,
+						"tag": "REGULAR",
+						"historic": false,
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 8,
+									"promedio_de_goles_anotados": 2.7,
+									"promedio_de_goles_recibidos": 2.7,
+									"partidos_ganados": 0,
+									"partidos_empatados": 3,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 5,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.7
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 2.5,
+									"partidos_ganados": 0,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 2,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 3 partidos",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 8,
+									"total_de_goles_recibidos": 8,
+									"promedio_de_goles_anotados": 2.7,
+									"promedio_de_goles_recibidos": 2.7,
+									"partidos_ganados": 0,
+									"partidos_empatados": 3,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 3,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 5,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.7
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 2.5,
+									"promedio_de_goles_recibidos": 2.5,
+									"partidos_ganados": 0,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 2,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 3,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 1,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 3,
+									"promedio_de_goles_recibidos": 3,
+									"partidos_ganados": 0,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 1,
+									"porcentaje_de_puntos_ganados": 33.3,
+									"total_de_goles_anotados_en_primera_mitad": 1,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1181650",
+								"fullDate": "2024-07-26T22:00",
+								"date": "2024-07-26",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 2536,
+										"name": "Hamilton Wanderers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 23212,
+										"name": "East Coast Bays",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181619",
+								"fullDate": "2024-07-19T22:00",
+								"date": "2024-07-19",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 20654,
+										"name": "Bay Olympic",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 2536,
+										"name": "Hamilton Wanderers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 2, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1181616",
+								"fullDate": "2024-07-12T22:00",
+								"date": "2024-07-12",
+								"hour": "22:00",
+								"teams": {
+									"home": {
+										"id": 2536,
+										"name": "Hamilton Wanderers",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 21123,
+										"name": "Manurewa",
+										"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+										"position": null,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 956,
+									"name": "National League - Northern",
+									"type": "League",
+									"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "2f288451-42c2-48a9-ad53-30790b7974a8",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó mas de 10 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 7 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 7 puntos en los últimos 5 partidos | (3/15)"
+									}
+								],
+								"recommended": true
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "86842844-616c-4651-a3ee-e3cb92a04ce5",
+								"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local tiene un promedio de goles anotados como local alto",
+										"explanation": "El local tiene un promedio de goles anotados como local mayor a 1 | (2)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante tiene un promedio de goles recibidos como visitante alto",
+										"explanation": "El visitante tiene un promedio de goles recibidos como visitante mayor o igual a 1 | (3)"
+									}
+								],
+								"recommended": true
+							}
+						],
+						"confidenceLevel": "1|HIGH"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "bd588f10-3fdd-4c3e-b9d9-748f0772cd62",
+								"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó mas de 10 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó menos de 4 puntos en los últimos 5 partidos | (3/15)"
+									},
+									{
+										"fulfilled": true,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local ganó su último partido como local | (3-1)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (3-3)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-false)"
+									}
+								],
+								"recommended": false
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": false,
+					"id": 956,
+					"name": "National League - Northern",
+					"type": "League",
+					"country": { "name": "New-Zealand", "flag": "🇳🇿", "code": "NZ" },
+					"season": { "year": 2024, "startDate": "2024-07-01" },
+					"priority": 5
+				}
+			}
+		]
+	},
+	{
 		"id": 103,
 		"name": "Eliteserien",
 		"type": "League",

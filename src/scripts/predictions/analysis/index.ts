@@ -36,7 +36,7 @@ export default async function main(config: T_AnalysisConfig) {
 			await asyncLoop(leaguesByDate, async (leagueId) => {
 				const league = DataClient.getLeagueById(Number(leagueId.split("-")[0]));
 
-				if (!league.enabled) return;
+				if (!league.enabled && requestConfig.enableRemoteAPI) return;
 
 				try {
 					console.log(
