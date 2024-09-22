@@ -41,6 +41,7 @@ import { formatCode, formatDate } from "./utils";
 import doubleOpportunityAnalysis from "./markets/double-opportunity-for-home-team";
 import goalByHomeTeamAnalysis from "./markets/goal-by-home-team";
 import matchWinnerAnalysis from "./markets/match-winner-for-home-team";
+// import bothScoresAnalysis from "./markets/both-scores";
 import {
 	filterTeamPlayedMatches,
 	getLeagueStandingsLimits,
@@ -337,6 +338,7 @@ function getMatchAnalysis(
 		doubleOpportunityAnalysis(analysisInput),
 		goalByHomeTeamAnalysis(analysisInput),
 		matchWinnerAnalysis(analysisInput),
+		// bothScoresAnalysis(analysisInput),
 	]
 		.filter(v.isNotNil)
 		.sort(sortBy("confidenceLevel"));
