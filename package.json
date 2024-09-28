@@ -16,9 +16,7 @@
 		"script:browser-extension": "ts-node src/scripts/browser-extension/index.ts",
 		"script:browser-extension:bundler": "node ./src/scripts/browser-extension/config/esbuild.mjs",
 		"script:browser-extension:bundler:watch": "node --watch ./src/scripts/browser-extension/config/esbuild.mjs",
-		"script:predictions": "git pull && ts-node src/scripts/predictions/index.ts",
-		"===== NOTES =====": "",
-		"avoid-type-checking": "ts-node --transpileOnly src/scripts/bets/index.ts"
+		"script:predictions": "git pull && ts-node src/scripts/predictions/index.ts"
 	},
 	"dependencies": {
 		"axios": "^1.7.4",
