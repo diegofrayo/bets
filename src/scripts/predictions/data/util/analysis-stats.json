@@ -224,6 +224,57 @@
 						"1223649-italy",
 						"1158880-argentina",
 						"1234255-colombia"
+					],
+					"2024-09-28": [
+						"1218618-austria",
+						"1224012-germany",
+						"1215915-england",
+						"1215918-england",
+						"1215917-england",
+						"1215919-england",
+						"1164508-norway",
+						"1213498-netherlands",
+						"1213266-belgium",
+						"1208565-spain",
+						"1213799-france",
+						"1208072-england",
+						"1231790-portugal",
+						"1205478-denmark",
+						"1237904-turkey",
+						"1237909-turkey",
+						"1158873-argentina",
+						"1234262-colombia",
+						"1180630-brazil",
+						"1180629-brazil"
+					],
+					"2024-09-29": [
+						"1215925-england",
+						"1210453-czech-republic",
+						"1210452-czech-republic",
+						"1164504-norway",
+						"1213496-netherlands",
+						"1213268-belgium",
+						"1213267-belgium",
+						"1212917-spain",
+						"1213796-france",
+						"1220144-scotland",
+						"1231783-portugal",
+						"1231785-portugal",
+						"1231786-portugal",
+						"1231789-portugal",
+						"1223652-italy",
+						"1223647-italy",
+						"1223650-italy",
+						"1205479-denmark",
+						"1237910-turkey",
+						"1237911-turkey",
+						"1301243-finland",
+						"1234259-colombia",
+						"1234257-colombia",
+						"1180632-brazil",
+						"1180625-brazil",
+						"1180627-brazil",
+						"1180628-brazil"
 					]
 				},
 				"lost": {
@@ -254,7 +305,9 @@
 					"2024-09-15": ["1164491-norway", "1213482-netherlands", "1213777-france"],
 					"2024-09-20": ["1224007-germany", "1215912-england"],
 					"2024-09-21": ["1213490-netherlands", "1158869-argentina", "1234249-colombia"],
-					"2024-09-22": ["1213257-belgium", "1158862-argentina"]
+					"2024-09-22": ["1213257-belgium", "1158862-argentina"],
+					"2024-09-28": ["1224015-germany", "1234261-colombia"],
+					"2024-09-29": ["1218617-austria", "1213501-netherlands", "1223653-italy"]
 				},
 				"lostWinning": {
 					"2024-07-29": ["1158771-argentina", "1158770-argentina", "1234166-colombia"],
@@ -679,7 +732,70 @@
 						"1213794-france",
 						"1301256-finland",
 						"1158871-argentina"
-					]
+					],
+					"2024-09-28": [
+						"1218616-austria",
+						"1224016-germany",
+						"1224018-germany",
+						"1224011-germany",
+						"1215924-england",
+						"1215926-england",
+						"1215920-england",
+						"1215921-england",
+						"1215923-england",
+						"1210458-czech-republic",
+						"1210457-czech-republic",
+						"1213497-netherlands",
+						"1213272-belgium",
+						"1208564-spain",
+						"1208560-spain",
+						"1208561-spain",
+						"1213795-france",
+						"1208078-england",
+						"1208073-england",
+						"1208074-england",
+						"1208075-england",
+						"1220141-scotland",
+						"1220142-scotland",
+						"1220143-scotland",
+						"1231787-portugal",
+						"1231791-portugal",
+						"1223645-italy",
+						"1237907-turkey",
+						"1301257-finland",
+						"1158872-argentina",
+						"1158882-argentina",
+						"1158877-argentina",
+						"1234260-colombia"
+					],
+					"2024-09-29": [
+						"1218621-austria",
+						"1164509-norway",
+						"1213500-netherlands",
+						"1213265-belgium",
+						"1213270-belgium",
+						"1208559-spain",
+						"1208557-spain",
+						"1208558-spain",
+						"1213792-france",
+						"1208076-england",
+						"1223646-italy",
+						"1205481-denmark",
+						"1205480-denmark",
+						"1237908-turkey",
+						"1306752-iceland",
+						"1306753-iceland",
+						"1158870-argentina",
+						"1158883-argentina",
+						"1234256-colombia",
+						"1234258-colombia",
+						"1234260-colombia",
+						"1180634-brazil",
+						"1180631-brazil",
+						"1180633-brazil",
+						"1180626-brazil"
+					],
+					"2024-09-30": ["1205482-denmark", "1301258-finland"]
 				},
 				"skippedLost": {
 					"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
@@ -892,7 +1008,49 @@
 						"1208562-spain",
 						"1231788-portugal",
 						"1237903-turkey"
-					]
+					],
+					"2024-09-28": [
+						"1218619-austria",
+						"1224017-germany",
+						"1215916-england",
+						"1210454-czech-republic",
+						"1210451-czech-republic",
+						"1164505-norway",
+						"1164507-norway",
+						"1213499-netherlands",
+						"1213269-belgium",
+						"1213797-france",
+						"1208079-england",
+						"1208080-england",
+						"1220140-scotland",
+						"1220145-scotland",
+						"1223654-italy",
+						"1223648-italy",
+						"1301241-finland",
+						"1301242-finland",
+						"1234254-colombia"
+					],
+					"2024-09-29": [
+						"1218620-austria",
+						"1224019-germany",
+						"1224014-germany",
+						"1210455-czech-republic",
+						"1164506-norway",
+						"1164510-norway",
+						"1164511-norway",
+						"1213502-netherlands",
+						"1213503-netherlands",
+						"1213798-france",
+						"1213800-france",
+						"1208077-england",
+						"1205483-denmark",
+						"1237906-turkey",
+						"1306737-iceland",
+						"1306754-iceland",
+						"1306738-iceland",
+						"1158876-argentina"
+					],
+					"2024-09-30": ["1237905-turkey"]
 				}
 			},
 			"2f288451-42c2-48a9-ad53-30790b7974a8": {
@@ -951,7 +1109,8 @@
 						"1234237-colombia",
 						"1295061-conmebol-sudamericana",
 						"1299137-uefa-europa-league"
-					]
+					],
+					"2024-09-28": ["1151194-usa"]
 				},
 				"lost": {
 					"2024-08-18": ["1202363-germany"],
@@ -1193,6 +1352,18 @@
 						"1299144-uefa-europa-league",
 						"1299143-uefa-europa-league",
 						"1299141-uefa-europa-league"
+					],
+					"2024-09-28": [
+						"1151193-usa",
+						"1151195-usa",
+						"1151196-usa",
+						"1151198-usa",
+						"1151199-usa",
+						"1151200-usa",
+						"1151202-usa",
+						"1151203-usa",
+						"1151191-usa",
+						"1151204-usa"
 					]
 				},
 				"skippedLost": {
@@ -1292,7 +1463,8 @@
 					"2024-09-19": ["1295066-conmebol-libertadores"],
 					"2024-09-21": ["1151182-usa", "1151184-usa", "1151189-usa"],
 					"2024-09-24": ["1218931-england", "1218968-england", "1218963-england"],
-					"2024-09-26": ["1212916-spain", "1208553-spain", "1299138-uefa-europa-league"]
+					"2024-09-26": ["1212916-spain", "1208553-spain", "1299138-uefa-europa-league"],
+					"2024-09-28": ["1151192-usa", "1151197-usa", "1151201-usa"]
 				}
 			}
 		},
@@ -1479,6 +1651,51 @@
 						"1223649-italy",
 						"1158880-argentina",
 						"1234255-colombia"
+					],
+					"2024-09-28": [
+						"1218618-austria",
+						"1224012-germany",
+						"1215915-england",
+						"1215918-england",
+						"1215917-england",
+						"1164508-norway",
+						"1213498-netherlands",
+						"1213266-belgium",
+						"1208565-spain",
+						"1213799-france",
+						"1208072-england",
+						"1231790-portugal",
+						"1237909-turkey",
+						"1158873-argentina",
+						"1234262-colombia",
+						"1180630-brazil"
+					],
+					"2024-09-29": [
+						"1218617-austria",
+						"1210453-czech-republic",
+						"1210452-czech-republic",
+						"1164504-norway",
+						"1213496-netherlands",
+						"1213268-belgium",
+						"1213267-belgium",
+						"1208557-spain",
+						"1213796-france",
+						"1220144-scotland",
+						"1231785-portugal",
+						"1231786-portugal",
+						"1223653-italy",
+						"1223652-italy",
+						"1223650-italy",
+						"1205479-denmark",
+						"1237910-turkey",
+						"1237911-turkey",
+						"1234259-colombia",
+						"1234257-colombia",
+						"1180631-brazil",
+						"1180632-brazil",
+						"1180625-brazil",
+						"1180627-brazil",
+						"1180628-brazil"
 					]
 				},
 				"lost": {
@@ -1502,7 +1719,9 @@
 					"2024-09-15": ["1213776-france", "1223634-italy"],
 					"2024-09-21": ["1158869-argentina"],
 					"2024-09-22": ["1164503-norway"],
-					"2024-09-25": ["1234246-colombia"]
+					"2024-09-25": ["1234246-colombia"],
+					"2024-09-28": ["1224015-germany", "1234261-colombia", "1180629-brazil"],
+					"2024-09-29": ["1231783-portugal"]
 				},
 				"lostWinning": {
 					"2024-07-29": [
@@ -2016,7 +2235,89 @@
 						"1237903-turkey",
 						"1301256-finland",
 						"1158871-argentina"
-					]
+					],
+					"2024-09-28": [
+						"1218616-austria",
+						"1218619-austria",
+						"1224016-germany",
+						"1224018-germany",
+						"1224011-germany",
+						"1215916-england",
+						"1215924-england",
+						"1215926-england",
+						"1215920-england",
+						"1215919-england",
+						"1210454-czech-republic",
+						"1210458-czech-republic",
+						"1210457-czech-republic",
+						"1213497-netherlands",
+						"1213269-belgium",
+						"1213272-belgium",
+						"1208564-spain",
+						"1208560-spain",
+						"1208561-spain",
+						"1208078-england",
+						"1208073-england",
+						"1208074-england",
+						"1208075-england",
+						"1208080-england",
+						"1220140-scotland",
+						"1220141-scotland",
+						"1220142-scotland",
+						"1220143-scotland",
+						"1231787-portugal",
+						"1231791-portugal",
+						"1223654-italy",
+						"1223645-italy",
+						"1205478-denmark",
+						"1237907-turkey",
+						"1237904-turkey",
+						"1301241-finland",
+						"1301257-finland",
+						"1158872-argentina",
+						"1158882-argentina",
+						"1158877-argentina",
+						"1234260-colombia"
+					],
+					"2024-09-29": [
+						"1218621-austria",
+						"1224019-germany",
+						"1224014-germany",
+						"1215925-england",
+						"1164509-norway",
+						"1164506-norway",
+						"1164510-norway",
+						"1213500-netherlands",
+						"1213503-netherlands",
+						"1213265-belgium",
+						"1213270-belgium",
+						"1208559-spain",
+						"1212917-spain",
+						"1208558-spain",
+						"1213798-france",
+						"1213800-france",
+						"1213792-france",
+						"1208076-england",
+						"1231789-portugal",
+						"1223646-italy",
+						"1205481-denmark",
+						"1205480-denmark",
+						"1205483-denmark",
+						"1237908-turkey",
+						"1301243-finland",
+						"1306752-iceland",
+						"1306753-iceland",
+						"1306754-iceland",
+						"1306738-iceland",
+						"1158870-argentina",
+						"1158883-argentina",
+						"1234256-colombia",
+						"1234260-colombia",
+						"1180634-brazil",
+						"1180633-brazil",
+						"1180626-brazil"
+					],
+					"2024-09-30": ["1205482-denmark", "1301258-finland"]
 				},
 				"skippedLost": {
 					"2024-07-29": ["1158762-argentina", "1158758-argentina"],
@@ -2211,7 +2512,37 @@
 					"2024-09-23": ["1231782-portugal", "1237894-turkey", "1234248-colombia"],
 					"2024-09-24": ["1208555-spain"],
 					"2024-09-25": ["1208549-spain"],
-					"2024-09-27": ["1231788-portugal"]
+					"2024-09-27": ["1231788-portugal"],
+					"2024-09-28": [
+						"1224017-germany",
+						"1215921-england",
+						"1215923-england",
+						"1210451-czech-republic",
+						"1164505-norway",
+						"1164507-norway",
+						"1213499-netherlands",
+						"1213795-france",
+						"1213797-france",
+						"1208079-england",
+						"1220145-scotland",
+						"1223648-italy",
+						"1301242-finland",
+						"1234254-colombia"
+					],
+					"2024-09-29": [
+						"1218620-austria",
+						"1210455-czech-republic",
+						"1164511-norway",
+						"1213501-netherlands",
+						"1213502-netherlands",
+						"1208077-england",
+						"1223647-italy",
+						"1237906-turkey",
+						"1306737-iceland",
+						"1158876-argentina",
+						"1234258-colombia"
+					],
+					"2024-09-30": ["1237905-turkey"]
 				}
 			},
 			"86842844-616c-4651-a3ee-e3cb92a04ce5": {
@@ -2371,7 +2702,20 @@
 						"1295065-conmebol-libertadores",
 						"1294589-conmebol-sudamericana"
 					],
-					"2024-09-26": ["1295061-conmebol-sudamericana", "1299141-uefa-europa-league"]
+					"2024-09-26": ["1295061-conmebol-sudamericana", "1299141-uefa-europa-league"],
+					"2024-09-28": [
+						"1151192-usa",
+						"1151194-usa",
+						"1151196-usa",
+						"1151197-usa",
+						"1151198-usa",
+						"1151200-usa",
+						"1151201-usa",
+						"1151202-usa",
+						"1151203-usa",
+						"1151191-usa",
+						"1151204-usa"
+					]
 				},
 				"lost": {
 					"2024-07-31": ["1251958-brazil"],
@@ -2566,7 +2910,8 @@
 						"1299139-uefa-europa-league",
 						"1299144-uefa-europa-league",
 						"1299143-uefa-europa-league"
-					]
+					],
+					"2024-09-28": ["1151193-usa", "1151195-usa", "1151199-usa"]
 				},
 				"skippedLost": {
 					"2024-08-08": [
@@ -2642,9 +2987,10 @@
 					"2024-09-14": ["1220135-scotland"],
 					"2024-09-15": ["1231767-portugal"],
 					"2024-09-21": ["1208061-england"],
-					"2024-09-25": ["1208548-spain"]
+					"2024-09-25": ["1208548-spain"],
+					"2024-09-28": ["1213799-france"]
 				},
-				"lost": { "2024-08-18": ["1205451-denmark"] },
+				"lost": { "2024-08-18": ["1205451-denmark"], "2024-09-28": ["1224015-germany"] },
 				"lostWinning": {
 					"2024-07-29": [
 						"1158771-argentina",
@@ -3069,7 +3415,78 @@
 						"1213793-france",
 						"1223649-italy",
 						"1301256-finland"
-					]
+					],
+					"2024-09-28": [
+						"1218616-austria",
+						"1224012-germany",
+						"1224018-germany",
+						"1215915-england",
+						"1215924-england",
+						"1215926-england",
+						"1215920-england",
+						"1215918-england",
+						"1215917-england",
+						"1215919-england",
+						"1210458-czech-republic",
+						"1210457-czech-republic",
+						"1164508-norway",
+						"1213266-belgium",
+						"1208564-spain",
+						"1208560-spain",
+						"1208561-spain",
+						"1208072-england",
+						"1208074-england",
+						"1208075-england",
+						"1220143-scotland",
+						"1231787-portugal",
+						"1231790-portugal",
+						"1237907-turkey",
+						"1237904-turkey",
+						"1301257-finland",
+						"1158872-argentina",
+						"1158873-argentina",
+						"1158877-argentina",
+						"1234262-colombia",
+						"1180630-brazil"
+					],
+					"2024-09-29": [
+						"1218621-austria",
+						"1210453-czech-republic",
+						"1164504-norway",
+						"1213500-netherlands",
+						"1213496-netherlands",
+						"1213268-belgium",
+						"1213265-belgium",
+						"1213267-belgium",
+						"1212917-spain",
+						"1213792-france",
+						"1220144-scotland",
+						"1231785-portugal",
+						"1231786-portugal",
+						"1231789-portugal",
+						"1223646-italy",
+						"1223652-italy",
+						"1223650-italy",
+						"1205479-denmark",
+						"1205481-denmark",
+						"1237908-turkey",
+						"1237910-turkey",
+						"1237911-turkey",
+						"1301243-finland",
+						"1306752-iceland",
+						"1306753-iceland",
+						"1158870-argentina",
+						"1158883-argentina",
+						"1234259-colombia",
+						"1234257-colombia",
+						"1180631-brazil",
+						"1180632-brazil",
+						"1180633-brazil",
+						"1180625-brazil",
+						"1180627-brazil",
+						"1180628-brazil"
+					],
+					"2024-09-30": ["1205482-denmark", "1301258-finland"]
 				},
 				"skippedLost": {
 					"2024-07-29": ["1158762-argentina", "1158759-argentina", "1158758-argentina"],
@@ -3557,7 +3974,91 @@
 						"1158880-argentina",
 						"1158871-argentina",
 						"1234255-colombia"
-					]
+					],
+					"2024-09-28": [
+						"1218618-austria",
+						"1218619-austria",
+						"1224016-germany",
+						"1224017-germany",
+						"1224011-germany",
+						"1215916-england",
+						"1215921-england",
+						"1215923-england",
+						"1210454-czech-republic",
+						"1210451-czech-republic",
+						"1164505-norway",
+						"1164507-norway",
+						"1213499-netherlands",
+						"1213497-netherlands",
+						"1213498-netherlands",
+						"1213269-belgium",
+						"1213272-belgium",
+						"1208565-spain",
+						"1213795-france",
+						"1213797-france",
+						"1208078-england",
+						"1208073-england",
+						"1208079-england",
+						"1208080-england",
+						"1220140-scotland",
+						"1220141-scotland",
+						"1220142-scotland",
+						"1220145-scotland",
+						"1231791-portugal",
+						"1223654-italy",
+						"1223648-italy",
+						"1223645-italy",
+						"1205478-denmark",
+						"1237909-turkey",
+						"1301241-finland",
+						"1301242-finland",
+						"1158882-argentina",
+						"1234254-colombia",
+						"1234261-colombia",
+						"1234260-colombia",
+						"1180629-brazil"
+					],
+					"2024-09-29": [
+						"1218617-austria",
+						"1218620-austria",
+						"1224019-germany",
+						"1224014-germany",
+						"1215925-england",
+						"1210452-czech-republic",
+						"1210455-czech-republic",
+						"1164509-norway",
+						"1164506-norway",
+						"1164510-norway",
+						"1164511-norway",
+						"1213501-netherlands",
+						"1213502-netherlands",
+						"1213503-netherlands",
+						"1213270-belgium",
+						"1208559-spain",
+						"1208557-spain",
+						"1208558-spain",
+						"1213798-france",
+						"1213796-france",
+						"1213800-france",
+						"1208076-england",
+						"1208077-england",
+						"1231783-portugal",
+						"1223653-italy",
+						"1223647-italy",
+						"1205480-denmark",
+						"1205483-denmark",
+						"1237906-turkey",
+						"1306737-iceland",
+						"1306754-iceland",
+						"1306738-iceland",
+						"1158876-argentina",
+						"1234256-colombia",
+						"1234258-colombia",
+						"1234260-colombia",
+						"1180634-brazil",
+						"1180626-brazil"
+					],
+					"2024-09-30": ["1237905-turkey"]
 				}
 			},
 			"bd588f10-3fdd-4c3e-b9d9-748f0772cd62": {
@@ -3569,7 +4070,7 @@
 					"2024-08-22": ["1287614-uefa-europa-league"],
 					"2024-09-26": ["1295061-conmebol-sudamericana"]
 				},
-				"lost": {},
+				"lost": { "2024-09-28": ["1151194-usa"] },
 				"lostWinning": {
 					"2024-07-30": ["1251952-brazil"],
 					"2024-07-31": ["1251950-brazil", "1251946-brazil"],
@@ -3746,7 +4247,8 @@
 						"1299139-uefa-europa-league",
 						"1299144-uefa-europa-league",
 						"1299141-uefa-europa-league"
-					]
+					],
+					"2024-09-28": ["1151195-usa", "1151196-usa", "1151202-usa", "1151203-usa", "1151204-usa"]
 				},
 				"skippedLost": {
 					"2024-07-30": ["1251956-brazil"],
@@ -3980,6 +4482,16 @@
 						"1299138-uefa-europa-league",
 						"1299140-uefa-europa-league",
 						"1299143-uefa-europa-league"
+					],
+					"2024-09-28": [
+						"1151192-usa",
+						"1151193-usa",
+						"1151197-usa",
+						"1151198-usa",
+						"1151199-usa",
+						"1151200-usa",
+						"1151201-usa",
+						"1151191-usa"
 					]
 				}
 			}
@@ -3989,67 +4501,67 @@
 		"do-local": {
 			"5e7b9e2b-cbf8-43d5-8b60-813c66300c37": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 221,
-				"lost": 35,
-				"lostWinning": 410,
-				"skippedLost": 191,
-				"total": 857,
-				"successPercentaje": 86.3,
-				"picksPercentaje": 29.9
+				"winning": 268,
+				"lost": 40,
+				"lostWinning": 470,
+				"skippedLost": 229,
+				"total": 1007,
+				"successPercentaje": 87,
+				"picksPercentaje": 30.6
 			},
 			"2f288451-42c2-48a9-ad53-30790b7974a8": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
-				"winning": 46,
+				"winning": 47,
 				"lost": 8,
-				"lostWinning": 211,
-				"skippedLost": 105,
-				"total": 370,
-				"successPercentaje": 85.2,
-				"picksPercentaje": 14.6
+				"lostWinning": 221,
+				"skippedLost": 108,
+				"total": 384,
+				"successPercentaje": 85.5,
+				"picksPercentaje": 14.3
 			}
 		},
 		"gpe-local": {
 			"3c889798-2dea-4276-9cc9-762b8b95b556": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 174,
-				"lost": 27,
-				"lostWinning": 478,
-				"skippedLost": 178,
-				"total": 857,
-				"successPercentaje": 86.6,
-				"picksPercentaje": 23.5
+				"winning": 215,
+				"lost": 31,
+				"lostWinning": 557,
+				"skippedLost": 204,
+				"total": 1007,
+				"successPercentaje": 87.4,
+				"picksPercentaje": 24.4
 			},
 			"86842844-616c-4651-a3ee-e3cb92a04ce5": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de copa local o internacional",
-				"winning": 134,
+				"winning": 145,
 				"lost": 32,
-				"lostWinning": 149,
+				"lostWinning": 152,
 				"skippedLost": 55,
-				"total": 370,
-				"successPercentaje": 80.7,
-				"picksPercentaje": 44.9
+				"total": 384,
+				"successPercentaje": 81.9,
+				"picksPercentaje": 46.1
 			}
 		},
 		"tr-local": {
 			"a25adfae-292b-4cac-88b8-f15532a63e7b": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
-				"winning": 7,
-				"lost": 1,
-				"lostWinning": 392,
-				"skippedLost": 457,
-				"total": 857,
-				"successPercentaje": 87.5,
-				"picksPercentaje": 0.9
+				"winning": 8,
+				"lost": 2,
+				"lostWinning": 460,
+				"skippedLost": 537,
+				"total": 1007,
+				"successPercentaje": 80,
+				"picksPercentaje": 1
 			},
 			"bd588f10-3fdd-4c3e-b9d9-748f0772cd62": {
 				"description": "Criterios mas confiables para el local como favorito en un partido de torneo internacional o copa local",
 				"winning": 7,
-				"lost": 0,
-				"lostWinning": 160,
-				"skippedLost": 203,
-				"total": 370,
-				"successPercentaje": 100,
-				"picksPercentaje": 1.9
+				"lost": 1,
+				"lostWinning": 165,
+				"skippedLost": 211,
+				"total": 384,
+				"successPercentaje": 87.5,
+				"picksPercentaje": 2.1
 			}
 		}
 	}

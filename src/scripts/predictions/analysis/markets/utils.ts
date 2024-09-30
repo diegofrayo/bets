@@ -61,7 +61,7 @@ export function analizeStrategies(
 				}) === undefined;
 
 			if (analysisInput.match.played) {
-				const analysisInput_ = {
+				const analysisInputForPlayedMatch = {
 					...analysisInput,
 					match: analysisInput.match as T_FixturePlayedMatch,
 				};
@@ -73,7 +73,7 @@ export function analizeStrategies(
 						(result, [key, fn]) => {
 							return {
 								...result,
-								[key]: fn(allItemsAreFullFilled, analysisInput_),
+								[key]: fn(allItemsAreFullFilled, analysisInputForPlayedMatch),
 							};
 						},
 						{} as T_PlayedMatchMarketAnalysis["strategies"][number]["results"],
