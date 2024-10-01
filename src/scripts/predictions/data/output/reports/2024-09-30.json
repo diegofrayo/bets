@@ -679,11 +679,11 @@
 		"matches": [
 			{
 				"id": "1208563",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T14:00",
 				"date": "2024-09-30",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 533,
@@ -692,6 +692,13 @@
 						"position": 6,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -1543,6 +1550,13 @@
 						"position": 20,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -2318,7 +2332,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -2339,7 +2359,13 @@
 										"explanation": "El local va de 6 y el visitante de 20 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -2390,7 +2416,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -3088,11 +3120,11 @@
 		"matches": [
 			{
 				"id": "1208071",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T14:00",
 				"date": "2024-09-30",
 				"hour": "14:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 35,
@@ -3101,6 +3133,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 3, "against": 0 },
+							"secondHalf": { "for": 0, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -3762,6 +3801,13 @@
 						"position": 19,
 						"tag": "POOR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 0, "against": 3 },
+							"secondHalf": { "for": 1, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -4623,7 +4669,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -4644,7 +4696,13 @@
 										"explanation": "El local va de 13 y el visitante de 19 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -4695,7 +4753,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -5327,11 +5391,11 @@
 		"matches": [
 			{
 				"id": "1231784",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T14:15",
 				"date": "2024-09-30",
 				"hour": "14:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 21595,
@@ -5340,6 +5404,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 13 partidos",
@@ -6142,6 +6213,13 @@
 						"position": 18,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -6868,7 +6946,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -6889,7 +6973,13 @@
 										"explanation": "El local va de 11 y el visitante de 18 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -6940,7 +7030,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -7638,11 +7734,11 @@
 		"matches": [
 			{
 				"id": "1223651",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T13:45",
 				"date": "2024-09-30",
 				"hour": "13:45",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 523,
@@ -7651,6 +7747,13 @@
 						"position": 15,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 2, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -8361,6 +8464,13 @@
 						"position": 20,
 						"tag": "POOR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -9044,7 +9154,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": true,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -9065,7 +9181,13 @@
 										"explanation": "El local va de 15 y el visitante de 20 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -9116,7 +9238,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -17005,11 +17133,11 @@
 		"matches": [
 			{
 				"id": "1306739",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T14:15",
 				"date": "2024-09-30",
 				"hour": "14:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 275,
@@ -17018,6 +17146,13 @@
 						"position": 4,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "WIN",
+						"score": {
+							"fullTime": 3,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 2, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 31 partidos",
@@ -18711,6 +18846,13 @@
 						"position": 5,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "LOSE",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 0, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 25 partidos",
@@ -20132,7 +20274,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -20153,7 +20301,13 @@
 										"explanation": "El local va de 4 y el visitante de 5 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -20204,7 +20358,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -21166,11 +21326,11 @@
 		"matches": [
 			{
 				"id": "1158878",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T17:00",
 				"date": "2024-09-30",
 				"hour": "17:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 458,
@@ -21179,6 +21339,13 @@
 						"position": 21,
 						"tag": "POOR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -21904,6 +22071,13 @@
 						"position": 6,
 						"tag": "FEATURED",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -22596,7 +22770,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22617,7 +22797,13 @@
 										"explanation": "El local va de 21 y el visitante de 6 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22668,7 +22854,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -22686,11 +22878,11 @@
 			},
 			{
 				"id": "1158875",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T19:00",
 				"date": "2024-09-30",
 				"hour": "19:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 436,
@@ -22699,6 +22891,13 @@
 						"position": 8,
 						"tag": "FEATURED",
 						"historic": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -23571,6 +23770,13 @@
 						"position": 16,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 1,
+							"firstHalf": { "for": 1, "against": 1 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 10 partidos",
@@ -24263,7 +24469,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -24284,7 +24496,13 @@
 										"explanation": "El local va de 8 y el visitante de 16 en la tabla de posiciones"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -24335,7 +24553,13 @@
 										"explanation": "Ambos equipos no son históricos | (true-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -24353,11 +24577,11 @@
 			},
 			{
 				"id": "1158881",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T19:15",
 				"date": "2024-09-30",
 				"hour": "19:15",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 446,
@@ -24366,6 +24590,13 @@
 						"position": 17,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 14 partidos",
@@ -25238,6 +25469,13 @@
 						"position": 11,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -25979,7 +26217,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -26000,7 +26244,13 @@
 										"explanation": "El local va de 17 y el visitante de 11 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -26051,7 +26301,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-false)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -26749,11 +27005,11 @@
 		"matches": [
 			{
 				"id": "1234253",
-				"type": "FIXTURE_NEXT_MATCH",
+				"type": "FIXTURE_PLAYED_MATCH",
 				"fullDate": "2024-09-30T16:00",
 				"date": "2024-09-30",
 				"hour": "16:00",
-				"played": false,
+				"played": true,
 				"teams": {
 					"home": {
 						"id": 1140,
@@ -26762,6 +27018,13 @@
 						"position": 13,
 						"tag": "REGULAR",
 						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 0, "against": 1 },
+							"secondHalf": { "for": 2, "against": 1 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 11 partidos",
@@ -27487,6 +27750,13 @@
 						"position": 17,
 						"tag": "POOR",
 						"historic": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 2,
+							"firstHalf": { "for": 1, "against": 0 },
+							"secondHalf": { "for": 1, "against": 2 },
+							"extraTime": { "for": null, "against": null }
+						},
 						"stats": {
 							"all-matches": {
 								"name": "Comportamiento general en los últimos 12 partidos",
@@ -28277,7 +28547,13 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": true
+								"recommended": true,
+								"results": {
+									"winning": true,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "1|HIGH"
@@ -28298,7 +28574,13 @@
 										"explanation": "El local va de 13 y el visitante de 17 en la tabla de posiciones"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"
@@ -28349,7 +28631,1565 @@
 										"explanation": "Ambos equipos no son históricos | (false-true)"
 									}
 								],
-								"recommended": false
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					}
+				],
+				"league": {
+					"enabled": true,
+					"id": 239,
+					"name": "Primera A",
+					"type": "League",
+					"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+					"season": { "year": 2024, "startDate": "2024-07-15" },
+					"priority": 2
+				}
+			},
+			{
+				"id": "1234258",
+				"type": "FIXTURE_PLAYED_MATCH",
+				"fullDate": "2024-09-30T18:20",
+				"date": "2024-09-30",
+				"hour": "18:20",
+				"played": true,
+				"teams": {
+					"home": {
+						"id": 1142,
+						"name": "Deportes Tolima",
+						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+						"position": 3,
+						"tag": "FEATURED",
+						"historic": false,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 12 partidos",
+								"items": {
+									"total_de_partidos": 12,
+									"total_de_goles_anotados": 17,
+									"total_de_goles_recibidos": 10,
+									"promedio_de_goles_anotados": 1.4,
+									"promedio_de_goles_recibidos": 0.8,
+									"partidos_ganados": 6,
+									"partidos_empatados": 2,
+									"partidos_perdidos": 4,
+									"partidos_con_goles_anotados": 9,
+									"partidos_con_goles_recibidos": 9,
+									"puntos_ganados": 20,
+									"porcentaje_de_puntos_ganados": 55.6,
+									"total_de_goles_anotados_en_primera_mitad": 13,
+									"total_de_goles_recibidos_en_primera_mitad": 9,
+									"partidos_con_goles_anotados_en_primera_mitad": 8,
+									"partidos_con_goles_recibidos_en_primera_mitad": 8,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.7,
+									"total_de_goles_anotados_en_segunda_mitad": 4,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 3,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.1
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 12 partidos",
+								"items": {
+									"total_de_partidos": 6,
+									"total_de_goles_anotados": 11,
+									"total_de_goles_recibidos": 7,
+									"promedio_de_goles_anotados": 1.8,
+									"promedio_de_goles_recibidos": 1.2,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 6,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 55.6,
+									"total_de_goles_anotados_en_primera_mitad": 9,
+									"total_de_goles_recibidos_en_primera_mitad": 6,
+									"partidos_con_goles_anotados_en_primera_mitad": 5,
+									"partidos_con_goles_recibidos_en_primera_mitad": 5,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.8,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.2,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.2
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 12 partidos",
+								"items": {
+									"total_de_partidos": 6,
+									"total_de_goles_anotados": 6,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 3,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 55.6,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 2,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 5,
+									"total_de_goles_recibidos": 5,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 2,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 4,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 7,
+									"porcentaje_de_puntos_ganados": 46.7,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.6,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.2,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.2
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 3,
+									"total_de_goles_recibidos": 3,
+									"promedio_de_goles_anotados": 1.5,
+									"promedio_de_goles_recibidos": 1.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 3,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"total_de_goles_anotados_en_segunda_mitad": 0,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 1,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 0.5,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 1,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1234243",
+								"fullDate": "2024-09-22T14:00",
+								"date": "2024-09-22",
+								"hour": "14:00",
+								"teams": {
+									"home": {
+										"id": 1128,
+										"name": "Independiente Medellin",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 14,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1304883",
+								"fullDate": "2024-09-17T19:00",
+								"date": "2024-09-17",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1126,
+										"name": "Deportivo Pasto",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 241,
+									"name": "Copa Colombia",
+									"type": "Cup",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234239",
+								"fullDate": "2024-09-15T18:20",
+								"date": "2024-09-15",
+								"hour": "18:20",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1132,
+										"name": "Chico",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 19,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234165",
+								"fullDate": "2024-09-11T18:00",
+								"date": "2024-09-11",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 1138,
+										"name": "America de Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 2,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234223",
+								"fullDate": "2024-09-08T18:20",
+								"date": "2024-09-08",
+								"hour": "18:20",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1127,
+										"name": "Deportivo Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234213",
+								"fullDate": "2024-09-01T15:00",
+								"date": "2024-09-01",
+								"hour": "15:00",
+								"teams": {
+									"home": {
+										"id": 1131,
+										"name": "Bucaramanga",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234206",
+								"fullDate": "2024-08-24T19:30",
+								"date": "2024-08-24",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1135,
+										"name": "Junior",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234194",
+								"fullDate": "2024-08-19T18:15",
+								"date": "2024-08-19",
+								"hour": "18:15",
+								"teams": {
+									"home": {
+										"id": 1133,
+										"name": "Jaguares",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 18,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234190",
+								"fullDate": "2024-08-10T17:45",
+								"date": "2024-08-10",
+								"hour": "17:45",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 5,
+											"firstHalf": { "for": 3, "against": 1 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1134,
+										"name": "La Equidad",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 3 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234173",
+								"fullDate": "2024-08-02T20:00",
+								"date": "2024-08-02",
+								"hour": "20:00",
+								"teams": {
+									"home": {
+										"id": 1125,
+										"name": "Millonarios",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 6,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234162",
+								"fullDate": "2024-07-23T20:20",
+								"date": "2024-07-23",
+								"hour": "20:20",
+								"teams": {
+									"home": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1126,
+										"name": "Deportivo Pasto",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234152",
+								"fullDate": "2024-07-19T19:30",
+								"date": "2024-07-19",
+								"hour": "19:30",
+								"teams": {
+									"home": {
+										"id": 1147,
+										"name": "Fortaleza FC",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1142,
+										"name": "Deportes Tolima",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 3,
+										"tag": "FEATURED",
+										"historic": false,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					},
+					"away": {
+						"id": 1139,
+						"name": "Santa Fe",
+						"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+						"position": 4,
+						"tag": "FEATURED",
+						"historic": true,
+						"result": "DRAW",
+						"score": {
+							"fullTime": 0,
+							"firstHalf": { "for": 0, "against": 0 },
+							"secondHalf": { "for": 0, "against": 0 },
+							"extraTime": { "for": null, "against": null }
+						},
+						"stats": {
+							"all-matches": {
+								"name": "Comportamiento general en los últimos 9 partidos",
+								"items": {
+									"total_de_partidos": 9,
+									"total_de_goles_anotados": 14,
+									"total_de_goles_recibidos": 8,
+									"promedio_de_goles_anotados": 1.6,
+									"promedio_de_goles_recibidos": 0.9,
+									"partidos_ganados": 6,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 2,
+									"partidos_con_goles_anotados": 8,
+									"partidos_con_goles_recibidos": 6,
+									"puntos_ganados": 19,
+									"porcentaje_de_puntos_ganados": 70.4,
+									"total_de_goles_anotados_en_primera_mitad": 7,
+									"total_de_goles_recibidos_en_primera_mitad": 4,
+									"partidos_con_goles_anotados_en_primera_mitad": 5,
+									"partidos_con_goles_recibidos_en_primera_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 7,
+									"total_de_goles_recibidos_en_segunda_mitad": 4,
+									"partidos_con_goles_anotados_en_segunda_mitad": 5,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 4,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.4
+								}
+							},
+							"all-home-matches": {
+								"name": "Comportamiento como local en los últimos 9 partidos",
+								"items": {
+									"total_de_partidos": 3,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 1.3,
+									"promedio_de_goles_recibidos": 0.7,
+									"partidos_ganados": 2,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 6,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 1,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 1,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.3,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.3
+								}
+							},
+							"all-away-matches": {
+								"name": "Comportamiento como visitante en los últimos 9 partidos",
+								"items": {
+									"total_de_partidos": 6,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 6,
+									"promedio_de_goles_anotados": 1.7,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 4,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 6,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 13,
+									"porcentaje_de_puntos_ganados": 72.2,
+									"total_de_goles_anotados_en_primera_mitad": 5,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 4,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.3,
+									"total_de_goles_anotados_en_segunda_mitad": 5,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.7,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.5
+								}
+							},
+							"last-matches": {
+								"name": "Comportamiento general en los últimos 5 partidos",
+								"items": {
+									"total_de_partidos": 5,
+									"total_de_goles_anotados": 10,
+									"total_de_goles_recibidos": 6,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1.2,
+									"partidos_ganados": 3,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 5,
+									"partidos_con_goles_recibidos": 4,
+									"puntos_ganados": 10,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 4,
+									"total_de_goles_recibidos_en_primera_mitad": 3,
+									"partidos_con_goles_anotados_en_primera_mitad": 3,
+									"partidos_con_goles_recibidos_en_primera_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0.6,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.4,
+									"total_de_goles_anotados_en_segunda_mitad": 6,
+									"total_de_goles_recibidos_en_segunda_mitad": 3,
+									"partidos_con_goles_anotados_en_segunda_mitad": 4,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 3,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.8,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0.6
+								}
+							},
+							"last-home-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como local",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 2,
+									"total_de_goles_recibidos": 1,
+									"promedio_de_goles_anotados": 1,
+									"promedio_de_goles_recibidos": 0.5,
+									"partidos_ganados": 1,
+									"partidos_empatados": 0,
+									"partidos_perdidos": 1,
+									"partidos_con_goles_anotados": 1,
+									"partidos_con_goles_recibidos": 1,
+									"puntos_ganados": 3,
+									"porcentaje_de_puntos_ganados": 50,
+									"total_de_goles_anotados_en_primera_mitad": 0,
+									"total_de_goles_recibidos_en_primera_mitad": 1,
+									"partidos_con_goles_anotados_en_primera_mitad": 0,
+									"partidos_con_goles_recibidos_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0.5,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 0,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 0
+								}
+							},
+							"last-away-matches": {
+								"name": "Comportamiento en los últimos 3 partidos como visitante",
+								"items": {
+									"total_de_partidos": 2,
+									"total_de_goles_anotados": 4,
+									"total_de_goles_recibidos": 2,
+									"promedio_de_goles_anotados": 2,
+									"promedio_de_goles_recibidos": 1,
+									"partidos_ganados": 1,
+									"partidos_empatados": 1,
+									"partidos_perdidos": 0,
+									"partidos_con_goles_anotados": 2,
+									"partidos_con_goles_recibidos": 2,
+									"puntos_ganados": 4,
+									"porcentaje_de_puntos_ganados": 66.7,
+									"total_de_goles_anotados_en_primera_mitad": 2,
+									"total_de_goles_recibidos_en_primera_mitad": 0,
+									"partidos_con_goles_anotados_en_primera_mitad": 2,
+									"partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"promedio_de_partidos_con_goles_anotados_en_primera_mitad": 1,
+									"promedio_de_partidos_con_goles_recibidos_en_primera_mitad": 0,
+									"total_de_goles_anotados_en_segunda_mitad": 2,
+									"total_de_goles_recibidos_en_segunda_mitad": 2,
+									"partidos_con_goles_anotados_en_segunda_mitad": 1,
+									"partidos_con_goles_recibidos_en_segunda_mitad": 2,
+									"promedio_de_partidos_con_goles_anotados_en_segunda_mitad": 0.5,
+									"promedio_de_partidos_con_goles_recibidos_en_segunda_mitad": 1
+								}
+							}
+						},
+						"matches": [
+							{
+								"id": "1234237",
+								"fullDate": "2024-09-26T18:30",
+								"date": "2024-09-26",
+								"hour": "18:30",
+								"teams": {
+									"home": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 2, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1141,
+										"name": "Alianza Petrolera",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 16,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234249",
+								"fullDate": "2024-09-21T20:00",
+								"date": "2024-09-21",
+								"hour": "20:00",
+								"teams": {
+									"home": {
+										"id": 1147,
+										"name": "Fortaleza FC",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 7,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 2 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 2, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234219",
+								"fullDate": "2024-09-01T19:20",
+								"date": "2024-09-01",
+								"hour": "19:20",
+								"teams": {
+									"home": {
+										"id": 1135,
+										"name": "Junior",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 11,
+										"tag": "REGULAR",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "DRAW",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1198203",
+								"fullDate": "2024-08-28T18:15",
+								"date": "2024-08-28",
+								"hour": "18:15",
+								"teams": {
+									"home": {
+										"id": 1131,
+										"name": "Bucaramanga",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": false,
+									"id": 241,
+									"name": "Copa Colombia",
+									"type": "Cup",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-01" },
+									"priority": 5
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234200",
+								"fullDate": "2024-08-20T19:00",
+								"date": "2024-08-20",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 1127,
+										"name": "Deportivo Cali",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 17,
+										"tag": "POOR",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 2 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 3,
+											"firstHalf": { "for": 2, "against": 1 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234179",
+								"fullDate": "2024-08-07T19:00",
+								"date": "2024-08-07",
+								"hour": "19:00",
+								"teams": {
+									"home": {
+										"id": 1131,
+										"name": "Bucaramanga",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 10,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 0 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234171",
+								"fullDate": "2024-07-27T18:10",
+								"date": "2024-07-27",
+								"hour": "18:10",
+								"teams": {
+									"home": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1134,
+										"name": "La Equidad",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 12,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234153",
+								"fullDate": "2024-07-20T16:00",
+								"date": "2024-07-20",
+								"hour": "16:00",
+								"teams": {
+									"home": {
+										"id": 1129,
+										"name": "Envigado",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 20,
+										"tag": "POOR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 0,
+											"firstHalf": { "for": 0, "against": 1 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 1, "against": 0 },
+											"secondHalf": { "for": 0, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							},
+							{
+								"id": "1234147",
+								"fullDate": "2024-07-17T18:00",
+								"date": "2024-07-17",
+								"hour": "18:00",
+								"teams": {
+									"home": {
+										"id": 1139,
+										"name": "Santa Fe",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 4,
+										"tag": "FEATURED",
+										"historic": true,
+										"result": "WIN",
+										"score": {
+											"fullTime": 2,
+											"firstHalf": { "for": 2, "against": 0 },
+											"secondHalf": { "for": 0, "against": 1 },
+											"extraTime": { "for": null, "against": null }
+										}
+									},
+									"away": {
+										"id": 1126,
+										"name": "Deportivo Pasto",
+										"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+										"position": 8,
+										"tag": "REGULAR",
+										"historic": false,
+										"result": "LOSE",
+										"score": {
+											"fullTime": 1,
+											"firstHalf": { "for": 0, "against": 2 },
+											"secondHalf": { "for": 1, "against": 0 },
+											"extraTime": { "for": null, "against": null }
+										}
+									}
+								},
+								"league": {
+									"enabled": true,
+									"id": 239,
+									"name": "Primera A",
+									"type": "League",
+									"country": { "name": "Colombia", "flag": "🇨🇴", "code": "CO" },
+									"season": { "year": 2024, "startDate": "2024-07-15" },
+									"priority": 2
+								},
+								"type": "PLAYED_MATCH",
+								"played": true
+							}
+						]
+					}
+				},
+				"analysis": [
+					{
+						"id": "do-local",
+						"name": "Doble oportunidad (Local)",
+						"shortName": "DOL",
+						"strategies": [
+							{
+								"id": "5e7b9e2b-cbf8-43d5-8b60-813c66300c37",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones mas arriba que el visitante",
+										"explanation": "El local está mas abajo o en la misma posición que el visitante en la tabla | (3<=4/20)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-true)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": true,
+									"lost": false,
+									"skippedLost": false
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "gpe-local",
+						"name": "Gol del equipo local",
+						"shortName": "GL",
+						"strategies": [
+							{
+								"id": "3c889798-2dea-4276-9cc9-762b8b95b556",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": false,
+										"description": "El local está al menos 4 posiciones por arriba del visitante",
+										"explanation": "El local va de 3 y el visitante de 4 en la tabla de posiciones"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
+							}
+						],
+						"confidenceLevel": "3|LOW"
+					},
+					{
+						"id": "tr-local",
+						"name": "Tiempo reglamentario (Local)",
+						"shortName": "TRL",
+						"strategies": [
+							{
+								"id": "a25adfae-292b-4cac-88b8-f15532a63e7b",
+								"description": "Criterios mas confiables para el local como favorito en un partido de liga local",
+								"confidenceLevel": 100,
+								"criteria": [
+									{
+										"fulfilled": true,
+										"description": "El local es de los mejores del torneo",
+										"explanation": "El local es de los mejores del torneo | (3/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante es de los peores del torneo",
+										"explanation": "El visitante no es de los peores del torneo | (4/20)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El local debe haber sumado al menos 10 de 15 puntos en los últimos 5 partidos",
+										"explanation": "El local sumó menos de 10 puntos en los últimos 5 partidos | (7/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El visitante debe haber sumado menos de 4 puntos en los últimos 5 partidos",
+										"explanation": "El visitante sumó mas de 4 puntos en los últimos 5 partidos | (10/15)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del local como local debe ser una victoria",
+										"explanation": "El local no ganó su último partido como local | (1-2)"
+									},
+									{
+										"fulfilled": false,
+										"description": "El último partido del visitante como visitante debe ser una derrota",
+										"explanation": "El visitante no ganó su último partido como visitante | (1-3)"
+									},
+									{
+										"fulfilled": true,
+										"description": "Ambos equipos no pueden ser históricos",
+										"explanation": "Ambos equipos no son históricos | (false-true)"
+									}
+								],
+								"recommended": false,
+								"results": {
+									"winning": false,
+									"lostWinning": false,
+									"lost": false,
+									"skippedLost": true
+								}
 							}
 						],
 						"confidenceLevel": "3|LOW"

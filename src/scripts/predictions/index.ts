@@ -8,14 +8,14 @@ launchAnalysis({
 	// date: "2024-10-01",
 	// enableRemoteAPI: {
 	// 	FIXTURE_MATCHES: true,
-	// 	PLAYED_MATCHES: true,
-	// 	LEAGUE_STANDINGS: true,
+	// 	PLAYED_MATCHES: false,
+	// 	LEAGUE_STANDINGS: false,
 	// },
 
 	// Config 2
 	config: "OFFLINE_REBUILDING",
-	date: "2024-09-30",
-	previousDays: 63,
+	date: "2024-10-01",
+	previousDays: 64,
 	updateAnalysisStats: true,
 
 	// Config 3
