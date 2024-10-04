@@ -5,24 +5,24 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	config: "SPECIFIC_DATE",
-	date: "2024-10-03",
+	date: "2024-10-04",
 	enableRemoteAPI: {
 		FIXTURE_MATCHES: true,
-		PLAYED_MATCHES: true,
-		LEAGUE_STANDINGS: true,
+		PLAYED_MATCHES: false,
+		LEAGUE_STANDINGS: false,
 	},
 
 	// Config 2
 	// config: "OFFLINE_REBUILDING",
-	// date: "2024-10-03",
-	// previousDays: 66,
+	// date: "2024-10-04",
+	// previousDays: 67,
 	// updateAnalysisStats: true,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",
 	// leaguesFixturesDates: {
-	// 	from: "2024-09-30",
-	// 	to: "2024-10-03",
+	// 	from: "2024-10-04",
+	// 	to: "2024-10-06",
 	// 	ids: [],
 	// },
 
