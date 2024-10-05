@@ -11,7 +11,7 @@ import v from "../../../@diegofrayo/v";
 import { formatDate } from "./utils";
 
 const TIME_LIMIT = "10:35";
-const RATE_LIMIT_PER_DAY = 300;
+const RATE_LIMIT_PER_DAY = 400;
 const REQUESTS_LIMIT_PER_MINUTE = 30;
 const API_USAGE_STATS = JSON.parse(
 	readFile("src/scripts/predictions/data/util/api-limits.json"),

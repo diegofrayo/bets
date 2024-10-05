@@ -4,19 +4,19 @@ import launchAnalysis from "./analysis";
 // npm run script:predictions
 launchAnalysis({
 	// Config 1
-	config: "SPECIFIC_DATE",
-	date: "2024-10-04",
-	enableRemoteAPI: {
-		FIXTURE_MATCHES: true,
-		PLAYED_MATCHES: false,
-		LEAGUE_STANDINGS: false,
-	},
+	// config: "SPECIFIC_DATE",
+	// date: "2024-10-05",
+	// enableRemoteAPI: {
+	// 	FIXTURE_MATCHES: true,
+	// 	PLAYED_MATCHES: false,
+	// 	LEAGUE_STANDINGS: false,
+	// },
 
 	// Config 2
-	// config: "OFFLINE_REBUILDING",
-	// date: "2024-10-04",
-	// previousDays: 67,
-	// updateAnalysisStats: true,
+	config: "OFFLINE_REBUILDING",
+	date: "2024-10-05",
+	previousDays: 68,
+	updateAnalysisStats: true,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",
