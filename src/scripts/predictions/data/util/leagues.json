@@ -244,15 +244,6 @@
 			"priority": 3
 		},
 		{
-			"enabled": false,
-			"id": 34,
-			"name": "World Cup - Qualification South America",
-			"type": "Cup",
-			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": { "year": 2026, "startDate": "2024-01-01" },
-			"priority": 3
-		},
-		{
 			"enabled": true,
 			"id": 81,
 			"name": "DFB Pokal",
@@ -295,6 +286,15 @@
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": { "year": 2024, "startDate": "2024-07-01" },
+			"priority": 3
+		},
+		{
+			"enabled": false,
+			"id": 34,
+			"name": "World Cup - Qualification South America",
+			"type": "Cup",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
+			"season": { "year": 2026, "startDate": "2024-01-01" },
 			"priority": 3
 		},
 		{
@@ -1193,6 +1193,10 @@
 			"253-major-league-soccer-usa",
 			"239-primera-a-colombia"
 		],
-		"2024-10-13": ["253-major-league-soccer-usa", "239-primera-a-colombia"]
+		"2024-10-13": ["253-major-league-soccer-usa", "239-primera-a-colombia"],
+		"2024-10-14": ["239-primera-a-colombia"],
+		"2024-10-15": ["239-primera-a-colombia"],
+		"2024-10-16": ["239-primera-a-colombia", "71-serie-a-brazil"],
+		"2024-10-17": ["71-serie-a-brazil"]
 	}
 }

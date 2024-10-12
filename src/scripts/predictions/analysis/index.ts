@@ -3,7 +3,7 @@ import dayjs from "dayjs";
 import { sortBy } from "../../../@diegofrayo/sort";
 import type DR from "../../../@diegofrayo/types";
 import { createArray, omit, pick } from "../../../@diegofrayo/utils/arrays-and-objects";
-import { copyFile, readFile, writeFile } from "../../../@diegofrayo/utils/files";
+import { copyFile, fileExists, readFile, writeFile } from "../../../@diegofrayo/utils/files";
 import { asyncLoop, getErrorMessage } from "../../../@diegofrayo/utils/misc";
 
 import APIClient from "./api-client";
@@ -285,6 +285,10 @@ async function formatJSONFiles() {
 	const FILES = ["api-limits", "analysis-stats", "teams"];
 
 	await asyncLoop(FILES, async (file) => {
+		if (!fileExists(`src/scripts/predictions/data/util/${file}.json`)) {
+			return;
+		}
+
 		writeFile(
 			`src/scripts/predictions/data/util/${file}.json`,
 			await formatCode(
