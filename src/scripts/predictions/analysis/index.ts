@@ -183,10 +183,6 @@ export default async function main(config: T_AnalysisConfig) {
 				await formatCode(output, "json"),
 			);
 			copyFile(`src/scripts/predictions/data/output/reports/${requestConfig.date}.json`, {
-				outputFolderPath: "src/scripts/predictions/visualization",
-				outputFileName: "data.json",
-			});
-			copyFile(`src/scripts/predictions/data/output/reports/${requestConfig.date}.json`, {
 				outputFolderPath: "../website/diegofrayo-frontend/public/data/apps/bets",
 				outputFileName: `${requestConfig.date}.json`,
 			});

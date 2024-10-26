@@ -5,10 +5,19 @@ import v from "../v";
 
 export function writeFile(filePath: string, content: unknown) {
 	createOutputFolder(filePath);
-	fs.writeFileSync(filePath, typeof content === "string" ? content : JSON.stringify(content));
+	fs.writeFileSync(
+		filePath,
+		typeof content === "string" || content instanceof Buffer ? content : JSON.stringify(content),
+	);
 }
 
-export function readFile(filePath: string) {
+export function readFile(filePath: string): string;
+export function readFile(filePath: string, type: "blob"): Buffer;
+export function readFile(filePath: string, type?: unknown) {
+	if (type === "blob") {
+		return fs.readFileSync(filePath) as Buffer;
+	}
+
 	return fs.readFileSync(filePath).toString().trimEnd();
 }
 
