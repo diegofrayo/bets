@@ -94,6 +94,10 @@ export function deleteFolder(folderPath: string) {
 	fs.rmSync(folderPath, { recursive: true, force: true });
 }
 
+export function deleteFile(filePath: string) {
+	fs.rmSync(filePath);
+}
+
 export function getRelativeOutputPath({
 	sourcePath,
 	sourcePathRootFolder,
@@ -113,17 +117,6 @@ export function getRelativeOutputPath({
 export function getParentFolderPath(sourcePath: string) {
 	return path.dirname(sourcePath);
 }
-
-export type T_CustomFile = {
-	path: string;
-	name: string;
-	baseName: string;
-	ext: string;
-	stats: fs.Stats;
-	isDirectory: boolean;
-	parentFolderPath: string;
-	parentFolderName: string;
-};
 
 interface I_ReadFolderFilesOpts1 {
 	includeDirectories?: boolean;
@@ -159,19 +152,7 @@ export function readFolderFiles(
 	opts?: T_ReadFolderFilesOpts,
 ): T_CustomFile[] {
 	return fs.readdirSync(sourceFolderPath).reduce((result: T_CustomFile[], fileName) => {
-		const sourcePath = path.resolve(sourceFolderPath, fileName);
-		const stats = fs.statSync(sourcePath);
-		const { ext, name } = path.parse(sourcePath);
-		const file = {
-			path: sourcePath,
-			name: fileName,
-			baseName: name,
-			ext: ext.toLowerCase().slice(1),
-			stats,
-			isDirectory: stats.isDirectory(),
-			parentFolderPath: getParentFolderPath(sourcePath),
-			parentFolderName: path.basename(getParentFolderPath(sourcePath)),
-		};
+		const file = new CustomFile(sourceFolderPath, fileName);
 
 		if (opts?.recursive && file.isDirectory) {
 			return [...result, ...readFolderFiles(file.path, opts)];
@@ -190,3 +171,31 @@ export function readFolderFiles(
 		return result;
 	}, []);
 }
+
+export class CustomFile {
+	path: string;
+	name: string;
+	baseName: string;
+	ext: string;
+	stats: fs.Stats;
+	isDirectory: boolean;
+	parentFolderPath: string;
+	parentFolderName: string;
+
+	constructor(sourceFolderPath: string, fileName: string) {
+		const sourcePath = path.resolve(sourceFolderPath, fileName);
+		const stats = fs.statSync(sourcePath);
+		const { ext, name } = path.parse(sourcePath);
+
+		this.path = sourcePath;
+		this.name = fileName;
+		this.baseName = name;
+		this.ext = ext.toLowerCase().slice(1);
+		this.stats = stats;
+		this.isDirectory = stats.isDirectory();
+		this.parentFolderPath = getParentFolderPath(sourcePath);
+		this.parentFolderName = path.basename(getParentFolderPath(sourcePath));
+	}
+}
+
+export type T_CustomFile = InstanceType<typeof CustomFile>;
