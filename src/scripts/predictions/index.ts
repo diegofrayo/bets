@@ -5,7 +5,7 @@ import launchAnalysis from "./analysis";
 launchAnalysis({
 	// Config 1
 	config: "SPECIFIC_DATE",
-	date: "2024-11-13",
+	date: "2024-11-24",
 	enableRemoteAPI: {
 		FIXTURE_MATCHES: true,
 		PLAYED_MATCHES: true,
@@ -14,15 +14,15 @@ launchAnalysis({
 
 	// Config 2
 	// config: "OFFLINE_REBUILDING",
-	// date: "2024-10-27",
-	// previousDays: 87,
+	// date: "2024-11-14",
+	// previousDays: 108,
 	// updateAnalysisStats: true,
 
 	// Config 3
 	// config: "LEAGUES_FIXTURES_UPDATE",
 	// leaguesFixturesDates: {
-	// 	from: "2024-11-11",
-	// 	to: "2024-11-14",
+	// 	from: "2024-11-22",
+	// 	to: "2024-11-24",
 	// 	ids: [],
 	// },
 

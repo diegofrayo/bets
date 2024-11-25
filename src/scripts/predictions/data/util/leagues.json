@@ -245,6 +245,15 @@
 		},
 		{
 			"enabled": true,
+			"id": 34,
+			"name": "World Cup - Qualification South America",
+			"type": "Cup",
+			"country": { "name": "World", "flag": "🌎", "code": "World" },
+			"season": { "year": 2026, "startDate": "2024-01-01" },
+			"priority": 3
+		},
+		{
+			"enabled": true,
 			"id": 81,
 			"name": "DFB Pokal",
 			"type": "Cup",
@@ -286,15 +295,6 @@
 			"type": "Cup",
 			"country": { "name": "World", "flag": "🌎", "code": "World" },
 			"season": { "year": 2024, "startDate": "2024-07-01" },
-			"priority": 3
-		},
-		{
-			"enabled": false,
-			"id": 34,
-			"name": "World Cup - Qualification South America",
-			"type": "Cup",
-			"country": { "name": "World", "flag": "🌎", "code": "World" },
-			"season": { "year": 2026, "startDate": "2024-01-01" },
 			"priority": 3
 		},
 		{
@@ -1515,6 +1515,68 @@
 		],
 		"2024-11-11": ["128-liga-profesional-argentina-argentina", "239-primera-a-colombia"],
 		"2024-11-12": ["46-efl-trophy-england"],
-		"2024-11-13": ["71-serie-a-brazil"]
+		"2024-11-13": ["71-serie-a-brazil"],
+		"2024-11-14": ["239-primera-a-colombia", "34-world-cup-qualification-south-america-world"],
+		"2024-11-15": ["34-world-cup-qualification-south-america-world"],
+		"2024-11-16": ["71-serie-a-brazil"],
+		"2024-11-17": ["128-liga-profesional-argentina-argentina"],
+		"2024-11-18": ["128-liga-profesional-argentina-argentina"],
+		"2024-11-19": ["34-world-cup-qualification-south-america-world", "46-efl-trophy-england"],
+		"2024-11-20": [
+			"128-liga-profesional-argentina-argentina",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
+		],
+		"2024-11-21": [
+			"128-liga-profesional-argentina-argentina",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
+		],
+		"2024-11-22": [
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"119-superliga-denmark",
+			"71-serie-a-brazil"
+		],
+		"2024-11-23": [
+			"218-bundesliga-austria",
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"345-czech-liga-czech-republic",
+			"103-eliteserien-norway",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"39-premier-league-england",
+			"179-premiership-scotland",
+			"135-serie-a-italy",
+			"203-super-lig-turkey",
+			"128-liga-profesional-argentina-argentina",
+			"253-major-league-soccer-usa",
+			"71-serie-a-brazil",
+			"11-conmebol-sudamericana-world"
+		],
+		"2024-11-24": [
+			"218-bundesliga-austria",
+			"78-bundesliga-germany",
+			"40-championship-england",
+			"345-czech-liga-czech-republic",
+			"88-eredivisie-netherlands",
+			"144-jupiler-pro-league-belgium",
+			"140-la-liga-spain",
+			"61-ligue-1-france",
+			"39-premier-league-england",
+			"135-serie-a-italy",
+			"119-superliga-denmark",
+			"203-super-lig-turkey",
+			"128-liga-profesional-argentina-argentina",
+			"253-major-league-soccer-usa",
+			"239-primera-a-colombia",
+			"71-serie-a-brazil"
+		]
 	}
 }
